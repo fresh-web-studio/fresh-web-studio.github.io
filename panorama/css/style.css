@@ -1136,6 +1136,10 @@ footer {
       box-shadow: 0 0px 0 #ffffff; }
       .main-page .about-block .container .room .rooms-block .room-item .order-room {
         padding: 7px 0px; }
+  .main-page .about-block .container .about-hotel .more {
+    width: 100%;
+    bottom: -110px;
+    left: 0px; }
   .main-page .offers-block .container .offers-title {
     font-size: 8vw; }
   .main-page .offers-block .container .offers {
