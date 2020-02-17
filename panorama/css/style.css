@@ -649,11 +649,9 @@ body {
     position: absolute; }
 .service-page .container .services {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 55px; }
   .service-page .container .services .service-type {
-    color: #343434;
-    width: 45%; }
+    width: 50%; }
     .service-page .container .services .service-type .service-type-title {
       font-size: 25px;
       font-weight: 700;
@@ -671,6 +669,11 @@ body {
         box-sizing: border-box;
         padding-top: 5px;
         padding-left: 18px; }
+        .service-page .container .services .service-type .service-link .service-row .service-text {
+          display: flex; }
+          .service-page .container .services .service-type .service-link .service-row .service-text span {
+            width: 60px;
+            text-align: center; }
       .service-page .container .services .service-type .service-link .concierge:before {
         content: url(../img/concierge.svg);
         margin-right: 15px; }
@@ -710,7 +713,7 @@ body {
         margin-right: 13px; }
       .service-page .container .services .service-type .service-link:hover {
         color: #4f59a1; }
-        .service-page .container .services .service-type .service-link:hover .service-row:after {
+        .service-page .container .services .service-type .service-link:hover .service-text:after {
           content: url(../img/arrow-right.png);
           margin-left: 10px; }
 
@@ -1164,6 +1167,30 @@ footer {
         width: 100%; }
 
   .photo-block:last-child {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+
+  .service-page .container .services {
+    display: block; }
+    .service-page .container .services .service-type {
+      width: 100%; }
+      .service-page .container .services .service-type .service-link {
+        font-size: 16px;
+        line-height: 20px; }
+        .service-page .container .services .service-type .service-link .service-row {
+          padding-left: 0px; }
+          .service-page .container .services .service-type .service-link .service-row .service-text {
+            display: flex;
+            align-items: center; }
+            .service-page .container .services .service-type .service-link .service-row .service-text img {
+              margin: 17px; }
+            .service-page .container .services .service-type .service-link .service-row .service-text p {
+              margin: 10px; }
+      .service-page .container .services .service-type .service-link:hover .service-text:after {
+        content: none;
+        margin-left: 10px; }
+  .service-page .container .title-block .title {
+    font-size: 25px;
+    max-width: 85%;
+    padding: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

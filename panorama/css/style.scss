@@ -901,11 +901,9 @@ body {
         }
         .services {
             display: flex;
-            justify-content: space-between;
             margin-bottom: 55px;
             .service-type {
-                color: #343434;
-                width: 45%;
+                width: 50%;
                 .service-type-title {
                     font-size: 25px;
                     font-weight: 700;
@@ -924,6 +922,13 @@ body {
                         box-sizing: border-box;
                         padding-top: 5px;
                         padding-left: 18px;
+                        .service-text {
+                            display: flex;
+                            span {
+                                width: 60px;
+                                text-align: center;
+                            }
+                        }
                     }
                     .concierge {
                         &:before {
@@ -1000,11 +1005,10 @@ body {
                     }
                     &:hover {
                         color: #4f59a1;
-                        .service-row {
-                            &:after {
+                        .service-text:after {
                                 content: url(../img/arrow-right.png);
                                 margin-left: 10px;
-                            }
+
                         }
                     }
                 }
@@ -1664,6 +1668,43 @@ footer {
     .photo-block:last-child {
         margin-bottom: 50px;
     }
-
+    .service-page {
+        .container {
+            .services {
+                display: block;
+                .service-type {
+                    width: 100%;
+                    .service-link {
+                        font-size: 16px;
+                        line-height: 20px;
+                        .service-row {
+                            padding-left: 0px;
+                            .service-text {
+                                display: flex;
+                                align-items: center;
+                                img {
+                                    margin: 17px;
+                                }
+                                p {
+                                    margin: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .service-link:hover .service-text:after {
+                        content: none;
+                        margin-left: 10px;
+                    }
+                }
+            }
+            .title-block {
+                .title {
+                    font-size: 25px;
+                    max-width: 85%;
+                    padding: 15px;
+                }
+            }
+        }
+    }
 
 }
