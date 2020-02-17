@@ -759,7 +759,8 @@ body {
           padding: 15px 0px; }
           .contact-page-footer .container .block .leftblock .adress .row .icons {
             margin: 6px;
-            width: 23px; }
+            width: 23px;
+            height: 23px; }
           .contact-page-footer .container .block .leftblock .adress .row .text {
             font-size: 17px;
             color: #343434;
@@ -1230,6 +1231,9 @@ footer {
         padding-top: 20px;
         padding-bottom: 16px; }
       .action-page .container .block_action .col_r .group .btn {
-        margin-bottom: 30px; } }
+        margin-bottom: 30px; }
+
+  .contact-page-footer .container .block {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */

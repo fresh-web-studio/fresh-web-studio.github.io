@@ -1092,6 +1092,7 @@ body {
                         .icons {
                             margin: 6px;
                             width: 23px;
+                            height: 23px;
                         }
                         .text {
                             font-size: 17px;
@@ -1773,6 +1774,13 @@ footer {
                     }
                 }
             }
+        }
+    }
+    .contact-page-footer {
+        .container {
+            .block {
+                display: block;
+                }
         }
     }
 
