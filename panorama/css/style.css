@@ -1140,6 +1140,19 @@ footer {
 
   .near-block {
     padding: 10px; }
+    .near-block .container {
+      margin-left: 0px;
+      margin-right: 0px; }
+      .near-block .container h2 {
+        text-align: center; }
+      .near-block .container .flags {
+        align-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .near-block .container .flags .flag_item {
+          text-align: center;
+          padding: 3%;
+          width: 33%; }
 
   .photo-block .container .photos {
     display: block; }

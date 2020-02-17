@@ -1627,6 +1627,23 @@ footer {
     }
     .near-block {
         padding: 10px;
+        .container {
+            margin-left: 0px;
+            margin-right: 0px;
+            h2 {
+                text-align: center;
+            }
+            .flags {
+                align-content: space-between;
+                justify-content: center;
+                flex-wrap: wrap;
+                .flag_item {
+                    text-align: center;
+                    padding: 3%;
+                    width: 33%;
+                }
+            }
+        }
     }
     .photo-block {
         .container {
