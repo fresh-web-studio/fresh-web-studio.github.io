@@ -653,10 +653,8 @@ body {
                 background-color: #f9f9f9;
                 height: 480px;
                 .about-text {
-                    height: 440px;
                     padding-left: 40px;
                     padding-right: 31px;
-                    padding-top: 75px;
                     .hotel-title {
                         max-width: 550px;
                         font-size: 35px;
@@ -722,7 +720,7 @@ body {
             justify-content: space-between;
             .offer-item {
                 width: 590px;
-                height: 340px;
+                min-height: 340px;
                 display: flex;
                 .offer-text {
                     display: flex;
@@ -1485,6 +1483,9 @@ footer {
         margin-left: 10px;
         margin-right: 10px;
     }
+    .social {
+        display: none;
+    }
 }
 
 
@@ -1492,14 +1493,37 @@ footer {
 @media screen and (max-width: 1024px) {
     .container {
         max-width: 824px;
+        margin-left: 15px;
+        margin-right: 15px;
         overflow: hidden;
+    }
+    .footer {
+        height: 160px;
+        display: block;
+        padding: 20px 0px;
+        font-size: 3vw;
+        .copyright {
+            text-align: center;
+        }
+        .footer-link {
+            text-align: center;
+            display: block;
+        }
+        .social {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0px;
+            .social-link {
+                margin: 0 6px;
+            }
+        }
     }
     .main-page {
         .title-block {
             .title {
                 margin-bottom: 40px;
                 .heading {
-                    font-size: 50px;
+                    font-size: 12vw;
                     line-height: 60px;
                 }
             }
@@ -1508,9 +1532,62 @@ footer {
                 .selection {
                     display: block;
                 }
+                .reset {
+                    bottom: 50px;
+                }
             }
         }
+        .about-block {
+            .container {
+                .rooms {
+                    .rooms-block {
+                        display: block;
+                    }
+                }
+                .about-hotel {
+                    .text-block {
+                        display: block;
+                        height: 1050px;
+                        .about-text {
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            padding-top: 75px;
+                        }
+                    }
+                }
+            }
+        }
+        .offers-block {
+            .container {
+                .offers-title {
+                    font-size: 8vw;
+                }
+                .offers {
+                    display: block;
+                    .offer-item {
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 20px;
+                        img {
+                            width: 100%;
+                        }
+                        .offer-text {
+                            padding: 15px;
+                            text-align: center;
+                            .price {
+                                justify-content: center;
+                            }
+                            .offer-btn {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
     }
+
 
 
 }
