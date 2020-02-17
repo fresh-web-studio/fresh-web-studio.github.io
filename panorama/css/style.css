@@ -1128,6 +1128,9 @@ footer {
     height: 450px; }
     .main-page .title-block .filter .selection {
       display: block; }
+      .main-page .title-block .filter .selection .selection-item .select .selection-item {
+        margin-left: 12px;
+        line-height: 17px; }
     .main-page .title-block .filter .reset {
       bottom: 50px; }
   .main-page .about-block .container .room .rooms-block {

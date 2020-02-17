@@ -1593,6 +1593,14 @@ footer {
                 height: 450px;
                 .selection {
                     display: block;
+                    .selection-item {
+                        .select {
+                            .selection-item {
+                                margin-left: 12px;
+                                line-height: 17px;
+                            }
+                        }
+                    }
                 }
                 .reset {
                     bottom: 50px;
