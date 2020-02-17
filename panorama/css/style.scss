@@ -1755,6 +1755,23 @@ footer {
                 img {
                     width: 100%;
                 }
+                .col_r {
+                    .group {
+                        margin: 0px 30px;
+                        h2 {
+                            padding-top: 30px;
+                            font-size: 28px;
+                            line-height: 1;
+                        }
+                        p.text {
+                            padding-top: 20px;
+                            padding-bottom: 16px;
+                        }
+                        .btn {
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
             }
         }
     }

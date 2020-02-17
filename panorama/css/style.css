@@ -1219,6 +1219,17 @@ footer {
   .action-page .container .block_action {
     display: block; }
     .action-page .container .block_action img {
-      width: 100%; } }
+      width: 100%; }
+    .action-page .container .block_action .col_r .group {
+      margin: 0px 30px; }
+      .action-page .container .block_action .col_r .group h2 {
+        padding-top: 30px;
+        font-size: 28px;
+        line-height: 1; }
+      .action-page .container .block_action .col_r .group p.text {
+        padding-top: 20px;
+        padding-bottom: 16px; }
+      .action-page .container .block_action .col_r .group .btn {
+        margin-bottom: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
