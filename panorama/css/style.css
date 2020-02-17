@@ -1161,6 +1161,9 @@ footer {
       .photo-block .container .photos .photo_item h3 {
         text-align: center; }
       .photo-block .container .photos .photo_item img.photo {
-        width: 100%; } }
+        width: 100%; }
+
+  .photo-block:last-child {
+    margin-bottom: 50px; } }
 
 /*# sourceMappingURL=style.css.map */
