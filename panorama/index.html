@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отель Панорма</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header-bg">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" class="logo-img">
+                    </a>
+                </div>
+                <div class="lang">
+                    <select name="language" id="lang" class="lang-choice">
+                        <option value="RU">RU</option>
+                        <option value="EN">EN</option>
+                    </select>
+                </div>
+                <div class="location">
+                    <span class="adres">г. Москва, ул. Мосфильмовская, д. 74Б, 18 этаж</span>
+                </div>
+                <div class="social">
+                    <div class="vk">
+                        <a href="#" class="social-link">
+                            <img src="img/logo-vk.png" alt="vkontakte" class="social-logo">
+                        </a>
+                    </div>
+                    <div class="fb">
+                        <a href="#" class="social-link">
+                            <img src="img/logo-fb.png" alt="facebook" class="social-logo">
+                        </a>
+                    </div>
+                    <div class="inst">
+                        <a href="#" class="social-link">
+                            <img src="img/inst-logo.png" alt="instagram" class="social-logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="phone">
+                    <a href="tel:+79265522453" class="phone-link">8 (926) 552-24-53</a>
+                    <button class="order-call">Заказать звонок</button>
+                </div>
+                <nav class="header-nav">
+                    <input id="menu-toggle" type="checkbox">
+                    <label class="menu-btn" for="menu-toggle">
+                        <span></span>
+                    </label>
+                    <ul class="nav-menu">
+                        <li class="menu-item">
+                            <a href="index.html" class="menu-link">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="about.html" class="menu-link">
+                                Об отеле
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="service.html" class="menu-link">
+                                Услуги
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="price.html" class="menu-link">
+                                Номера и цены
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="action.html" class="menu-link">
+                                Акции
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="contacts.html" class="menu-link">
+                                Контакты
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="visa.html" class="menu-link">
+                                Визовая поддержка
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main> 
+        <div class="main-page">
+            <div class="title-block">
+                <div class="container">
+                    <div class="title">
+                        <h1 class="heading">Апартаменты в Москве</h1>
+                        <span class="subtitle">Комфортные номера, современное оснащение, панорамный вид.</span>
+                    </div>
+                    <div class="filter">
+                        <div class="selection">
+                            <div class="date-in selection-item">
+                                <span class="subtitle">Дата заезда:</span>
+                                <div class="select">
+                                    <span class="select-item date">
+                                        20.11.2019
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="date-out selection-item">
+                                <span class="subtitle">Дата выезда:</span>
+                                <div class="select">
+                                    <span class="select-item date">
+                                        20.11.2019
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="people selection-item">
+                                <span class="subtitle">Взрослые и дети:</span>
+                                <div class="select">
+                                    <span class="select-item man">
+                                        1 взрослый / 0 детей
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="pick">ПОДОБРАТЬ НОМЕР</button>
+                        <button class="reset">Сбросить</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-block">
+                <div class="container">
+                    <div class="rooms">
+                        <h2 class="rooms-title">Номера и цены</h2>
+                        <div class="rooms-block">
+                            <div class="room-item">
+                                <a href="rooms/standart.html" class="room-link">
+                                    <img src="img/room1.jpg" alt="room" class="room-img">
+                                </a>
+                                <div class="order-room">
+                                    <div class="room-title">
+                                        <h3 class="subtitle">Стандарт</h3>
+                                        <span class="price">От 1000 ₽/сутки</span>
+                                    </div>
+                                    <button class="order-room-btn">ЗАБРОНИРОВАТЬ</button>
+                                </div>
+                            </div>
+                            <div class="room-item">
+                                <a href="rooms/study.html" class="room-link">
+                                    <img src="img/room2.jpg" alt="room" class="room-img">
+                                </a>
+                                <div class="order-room">
+                                    <div class="room-title">
+                                        <h3 class="subtitle">Студия</h3>
+                                        <span class="price">От 1000 ₽/сутки</span>
+                                    </div>
+                                    <button class="order-room-btn">ЗАБРОНИРОВАТЬ</button>
+                                </div>
+                            </div>
+                            <div class="room-item">
+                                <a href="rooms/junior.html" class="room-link">
+                                    <img src="img/room3.jpg" alt="room" class="room-img">
+                                </a>
+                                <div class="order-room">
+                                    <div class="room-title">
+                                        <h3 class="subtitle">Джуниор Сьют</h3>
+                                        <span class="price">От 1000 ₽/сутки</span>
+                                    </div>
+                                    <button class="order-room-btn">ЗАБРОНИРОВАТЬ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-hotel">
+                        <div class="text-block">
+                            <div class="about-text">
+                                <h3 class="hotel-title">Апарт-отель «ПАНОРАМА»
+                                находится в Москве, в
+                                районе Раменки</h3>
+                                <span class="hotel-text">Апарт-отель «Панорама» располагается в экологически чистом
+                                районе города Москвы – Раменки на Мосфильмовской улице
+                                в пешей доступности от двух станций метро: Ломоносовский
+                                проспект и Минская. От отеля легко добраться до таких
+                                интересных достопримечательностей столицы как Парк
+                                Победы и Поклонная Гора, Триумфальная арка и Бородинская
+                                Панорама, МГУ и Дарвиновский музей, а всего через 20 минут
+                                можно достичь исторического центра города!</span>
+                            </div>
+                            <img src="img/hotel.jpg" alt="hotel" class="hotel-img">
+                        </div>
+                        <button class="more"><span>Читать больше</span></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offers-block">
+                <div class="container">
+                    <h3 class="offers-title">Спецпредложения</h3>
+                    <div class="offers">
+                        <div class="offer-item">
+                            <div class="offer-example">
+                                <img src="img/offer1.jpg" alt="room" class="offer-img">
+                            </div>
+                            <div class="offer-text">
+                                <h4 class="offer-title">Люкс двуместный</h4>
+                                <span class="price"> <p>1500</p> <b>890</b> ₽/сутки</span>
+                                <span class="subtitle">До конца спецпредложения</span>
+                                <div class="time">
+                                    <script src="//megatimer.ru/get/f8d54a377148f292a100a9e6506a049e.js"></script>
+                                </div>
+                                <button class="offer-btn">СНЯТЬ НА ДОЛГИЙ СРОК</button>
+                            </div>
+                        </div>
+                        <div class="offer-item">
+                            <div class="offer-example">
+                                <img src="img/offer1.jpg" alt="room" class="offer-img">
+                            </div>
+                            <div class="offer-text">
+                                <h4 class="offer-title">Люкс двуместный</h4>
+                                <span class="price"> <p>1500</p> <b>890</b> ₽/сутки</span>
+                                <span class="subtitle">До конца спецпредложения</span>
+                                <div class="time">
+                                    <script src="//megatimer.ru/get/f8d54a377148f292a100a9e6506a049e.js"></script>
+                                </div>
+                                <button class="offer-btn">СНЯТЬ НА ДОЛГИЙ СРОК</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews-block">
+                <div class="container">
+                    <h3 class="reviews-title">Отзывы об отеле "Панорама"</h3>
+                    <div class="reviews">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide slide-1">
+                                    <div class="review-item">
+                                        <div class="review-text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown
+                                            printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining essentially
+                                            unchanged. It was popularised in the 1960s with the release.
+                                        </div>
+                                        <span class="name">Ирина Иванова</span>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown
+                                            printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining essentially
+                                            unchanged. It was popularised in the 1960s with the release.
+                                        </div>
+                                        <span class="name">Ирина Иванова</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-2">
+                                    <div class="review-item">
+                                        <div class="review-text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown
+                                            printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining essentially
+                                            unchanged. It was popularised in the 1960s with the release.
+                                        </div>
+                                        <span class="name">Ирина Иванова</span>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown
+                                            printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining essentially
+                                            unchanged. It was popularised in the 1960s with the release.
+                                        </div>
+                                        <span class="name">Ирина Иванова</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-3">
+                                    <div class="review-item">
+                                        <div class="review-text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown
+                                            printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining essentially
+                                            unchanged. It was popularised in the 1960s with the release.
+                                        </div>
+                                        <span class="name">Ирина Иванова</span>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown
+                                            printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining essentially
+                                            unchanged. It was popularised in the 1960s with the release.
+                                        </div>
+                                        <span class="name">Ирина Иванова</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-4">
+                                    <div class="review-item">
+                                        <div class="review-text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown
+                                            printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining essentially
+                                            unchanged. It was popularised in the 1960s with the release.
+                                        </div>
+                                        <span class="name">Ирина Иванова</span>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown
+                                            printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining essentially
+                                            unchanged. It was popularised in the 1960s with the release.
+                                        </div>
+                                        <span class="name">Ирина Иванова</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-5">
+                                    <div class="review-item">
+                                        <div class="review-text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown
+                                            printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining essentially
+                                            unchanged. It was popularised in the 1960s with the release.
+                                        </div>
+                                        <span class="name">Ирина Иванова</span>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-text">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown
+                                            printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also
+                                            the leap into electronic typesetting, remaining essentially
+                                            unchanged. It was popularised in the 1960s with the release.
+                                        </div>
+                                        <span class="name">Ирина Иванова</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="copyright">© 2019 Panorama hotel. Все права защищены.</div>
+                <a href="" class="footer-link">Правила проживания</a>
+                <a href="" class="footer-link">Соглашение на обработку персональных данных</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
