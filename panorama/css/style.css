@@ -1205,14 +1205,12 @@ footer {
             display: flex;
             align-items: center; }
             .service-page .container .services .service-type .service-link .service-row .service-text img {
-              margin: 17px; }
-            .service-page .container .services .service-type .service-link .service-row .service-text p {
-              margin: 10px; }
+              margin: 15px; }
       .service-page .container .services .service-type .service-link:hover .service-text:after {
         content: none;
         margin-left: 10px; }
   .service-page .container .title-block .title {
-    font-size: 25px;
+    font-size: 24px;
     max-width: 85%;
     padding: 15px; } }
 
