@@ -1539,8 +1539,14 @@ footer {
         .about-block {
             .container {
                 .rooms {
+                    .room-title {
+                        font-size: 8vw;
+                    }
                     .rooms-block {
                         display: block;
+                        .room-item {
+                            box-shadow: 0 0px 0 #ffffff;
+                        }
                     }
                 }
                 .about-hotel {
@@ -1548,6 +1554,9 @@ footer {
                         display: block;
                         height: 1050px;
                         .about-text {
+                            .hotel-title {
+                                font-size: 8vw;
+                            }
                             padding-left: 15px;
                             padding-right: 15px;
                             padding-top: 75px;
@@ -1586,7 +1595,51 @@ footer {
         }
 
     }
-
+    .about-bg {
+        .about-block1 {
+            .container {
+                .title {
+                    padding: 70px 10px 0px 15px;
+                    h1.heading {
+                        font-size: 12vw;
+                        padding-right: 45px;
+                    }
+                    .subtitle {
+                        padding-right: 15px;
+                    }
+                }
+                .info {
+                    padding-top: 130px;
+                    h2 {
+                        font-size: 8vw;
+                    }
+                    .text {
+                        p:first-child {
+                            padding: 10px 0px 05px 0px;
+                        }
+                        p {
+                            padding: 10px 0px 10px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .near-block {
+        padding: 10px;
+    }
+    .photo-block {
+        .container {
+            .photos {
+                display: block;
+                .photo_item {
+                    img.photo {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 
 
 }
