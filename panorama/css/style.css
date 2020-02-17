@@ -865,6 +865,8 @@ body {
         font-size: 14px;
         color: white;
         line-height: 2.143; }
+.action-page .container .block_action.reverse {
+  flex-flow: row-reverse nowrap; }
 .action-page .container .block_action:last-child {
   margin-bottom: 80px; }
 
@@ -1212,6 +1214,11 @@ footer {
   .service-page .container .title-block .title {
     font-size: 24px;
     max-width: 85%;
-    padding: 15px; } }
+    padding: 15px; }
+
+  .action-page .container .block_action {
+    display: block; }
+    .action-page .container .block_action img {
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
