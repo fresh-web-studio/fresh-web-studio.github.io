@@ -1521,6 +1521,58 @@ footer {
             }
         }
     }
+
+    .about-block .container .rooms .rooms-title {
+        font-size: 8vw;
+    }
+    .about-block {
+        .container {
+            .rooms {
+                margin-bottom: 30px;
+                .rooms-block {
+                    display: block;
+                    .room-item {
+                        box-shadow: 0 0px 0 #ffffff;
+                        .order-room {
+                            padding: 7px 0px;
+                            .order-room-btn {
+                                padding: 0px 15px;
+                                margin-right: 0px;
+                            }
+                            .room-title {
+                                font-size: 8vw;
+                                padding-top: 5px;
+                                .subtitle {
+                                    font-size: 4vw;
+                                    line-height: 21px;
+                                }
+                                .price {
+                                    font-size: 3vw;
+                                }
+                                span {
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            .about-hotel {
+                .text-block {
+                    display: block;
+                    height: 1050px;
+                    .about-text {
+                        .hotel-title {
+                            font-size: 8vw;
+                        }
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        padding-top: 75px;
+                    }
+                }
+            }
+        }
+    }
     .main-page {
         .title-block {
             .title {
@@ -1542,31 +1594,18 @@ footer {
         }
         .about-block {
             .container {
-                .rooms {
-                    .room-title {
-                        font-size: 8vw;
-                    }
+                .room {
                     .rooms-block {
                         display: block;
                         .room-item {
                             box-shadow: 0 0px 0 #ffffff;
-                        }
-                    }
-                }
-                .about-hotel {
-                    .text-block {
-                        display: block;
-                        height: 1050px;
-                        .about-text {
-                            .hotel-title {
-                                font-size: 8vw;
+                            .order-room {
+                                padding: 7px 0px;
                             }
-                            padding-left: 15px;
-                            padding-right: 15px;
-                            padding-top: 75px;
                         }
                     }
                 }
+
             }
         }
         .offers-block {
@@ -1706,5 +1745,6 @@ footer {
             }
         }
     }
+
 
 }
