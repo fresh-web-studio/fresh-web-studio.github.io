@@ -1494,4 +1494,23 @@ footer {
         max-width: 824px;
         overflow: hidden;
     }
+    .main-page {
+        .title-block {
+            .title {
+                margin-bottom: 40px;
+                .heading {
+                    font-size: 50px;
+                    line-height: 60px;
+                }
+            }
+            .filter {
+                height: 450px;
+                .selection {
+                    display: block;
+                }
+            }
+        }
+    }
+
+
 }

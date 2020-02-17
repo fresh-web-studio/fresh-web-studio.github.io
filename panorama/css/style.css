@@ -1058,6 +1058,16 @@ footer {
 @media screen and (max-width: 1024px) {
   .container {
     max-width: 824px;
-    overflow: hidden; } }
+    overflow: hidden; }
+
+  .main-page .title-block .title {
+    margin-bottom: 40px; }
+    .main-page .title-block .title .heading {
+      font-size: 50px;
+      line-height: 60px; }
+  .main-page .title-block .filter {
+    height: 450px; }
+    .main-page .title-block .filter .selection {
+      display: block; } }
 
 /*# sourceMappingURL=style.css.map */
