@@ -1084,6 +1084,7 @@ body {
             display: flex;
             .leftblock {
                 width: 50%;
+                height: 640px;
                 .adress {
                     padding-top: 50px;
                     .row {
@@ -1156,7 +1157,9 @@ body {
             }
             .map {
                 display: flex;
-                width: 50%;
+                width: 100%;
+                position: absolute;
+                left: 600px;
             }
         }
     }
@@ -1780,6 +1783,30 @@ footer {
         .container {
             .block {
                 display: block;
+                    .leftblock {
+                         width: 100%;
+                        .socblock {
+                            padding-bottom: 15px;
+                        }
+                        .contact-footer {
+                            height: 100px;
+                            display: block;
+                            padding: 20px 0px;
+                            font-size: 3vw;
+                            .footer-link {
+                                text-align: center;
+                                display: block;
+                            }
+                            .copyright {
+                                text-align: center;
+                                display: block;
+                            }
+                        }
+                    }
+                    .map {
+                        width: 100%;
+                        position: revert;
+                    }
                 }
         }
     }
