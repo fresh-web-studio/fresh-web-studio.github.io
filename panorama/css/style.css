@@ -1057,6 +1057,163 @@ footer {
 
 @media screen and (max-width: 1024px) {
   .container {
-    max-width: 824px; } }
+    max-width: 824px;
+    overflow: hidden; }
+
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 34px; }
+    .header .lang {
+      margin-left: 48px;
+      margin-right: auto;
+      font-size: 14px;
+      position: relative; }
+      .header .lang .lang-choice {
+        width: 35px;
+        border: none;
+        background-color: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        position: relative; }
+      .header .lang:after {
+        content: url(../img/select.png);
+        position: absolute;
+        right: 0; }
+    .header .location {
+      width: 100%;
+      max-width: 230px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #191919;
+      margin-left: 45px;
+      margin-right: auto;
+      position: relative; }
+      .header .location:before {
+        content: url(../img/loc-logo.png);
+        margin-right: 12px;
+        position: absolute;
+        transform: translate(-21px, 6px); }
+    .header .social {
+      display: flex;
+      margin-left: -71px;
+      margin-right: auto; }
+      .header .social .social-link {
+        margin: 0 6px; }
+    .header .phone {
+      display: flex;
+      flex-direction: column;
+      margin-right: 69px;
+      margin-left: -72px; }
+      .header .phone .phone-link {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        text-decoration: none;
+        color: #191919; }
+        .header .phone .phone-link:before {
+          content: url(../img/phone-logo.png);
+          margin-right: 10px; }
+      .header .phone .order-call {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        padding: 0;
+        width: 100%;
+        margin-left: auto;
+        max-width: 134px;
+        height: 30px;
+        margin-top: 11px;
+        background-color: #4f59a1;
+        border-radius: 3px; }
+    .header .header-nav {
+      /* скрываем чекбокс */
+      /* стилизуем кнопку */
+      /* добавляем "гамбургер" */
+      /* контейнер меню */
+      /* элементы меню */ }
+      .header .header-nav .hamburger-menu {
+        display: block; }
+      .header .header-nav #menu-toggle {
+        opacity: 0; }
+      .header .header-nav .menu-btn {
+        display: flex;
+        /* используем flex для центрирования содержимого */
+        align-items: center;
+        /* центрируем содержимое кнопки */
+        position: absolute;
+        top: 57px;
+        right: 0;
+        width: 29px;
+        height: 20px;
+        cursor: pointer;
+        z-index: 6; }
+      .header .header-nav .menu-btn > span,
+      .header .header-nav .menu-btn > span::before,
+      .header .header-nav .menu-btn > span::after {
+        display: block;
+        position: absolute;
+        width: 29px;
+        height: 4px;
+        background-color: #4f59a1; }
+      .header .header-nav .menu-btn > span::before {
+        content: '';
+        top: -8px; }
+      .header .header-nav .menu-btn > span::after {
+        content: '';
+        top: 8px; }
+      .header .header-nav .nav-menu {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        max-width: 320px;
+        margin: 52px 0px;
+        list-style: none;
+        background-color: #ffffff;
+        box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+        z-index: 4;
+        opacity: 0.9; }
+        .header .header-nav .nav-menu .menu-item {
+          font-size: 20px;
+          display: block;
+          text-align: left;
+          line-height: 1.4; }
+      .header .header-nav .menu-link {
+        display: block;
+        color: #191919;
+        font-weight: 100;
+        text-decoration: none;
+        padding: 12px 36px; }
+      .header .header-nav .menu-link:hover {
+        background-color: #CFD8DC; }
+      .header .header-nav #menu-toggle:checked ~ .menu-btn > span {
+        transform: rotate(45deg); }
+      .header .header-nav #menu-toggle:checked ~ .menu-btn > span::before {
+        top: 0;
+        transform: rotate(0); }
+      .header .header-nav #menu-toggle:checked ~ .menu-btn > span::after {
+        top: 0;
+        transform: rotate(90deg); }
+      .header .header-nav #menu-toggle:checked ~ .nav-menu {
+        display: block;
+        right: 0; }
+      .header .header-nav .menu-btn > span,
+      .header .header-nav .menu-btn > span::before,
+      .header .header-nav .menu-btn > span::after {
+        transition-duration: .25s; }
+      .header .header-nav .nav-menu {
+        transition-duration: .25s; }
+      .header .header-nav ul li a:hover {
+        color: #000000; }
+      .header .header-nav ul li a:hover::before {
+        animation: none; } }
 
 /*# sourceMappingURL=style.css.map */
