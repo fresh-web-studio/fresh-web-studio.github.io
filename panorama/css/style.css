@@ -1156,7 +1156,11 @@ footer {
 
   .photo-block .container .photos {
     display: block; }
-    .photo-block .container .photos .photo_item img.photo {
-      width: 100%; } }
+    .photo-block .container .photos .photo_item {
+      text-align: center; }
+      .photo-block .container .photos .photo_item h3 {
+        text-align: center; }
+      .photo-block .container .photos .photo_item img.photo {
+        width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

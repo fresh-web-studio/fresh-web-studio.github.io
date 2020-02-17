@@ -1650,6 +1650,10 @@ footer {
             .photos {
                 display: block;
                 .photo_item {
+                    text-align: center;
+                    h3 {
+                        text-align: center;
+                    }
                     img.photo {
                         width: 100%;
                     }
