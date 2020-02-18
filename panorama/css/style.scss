@@ -1893,6 +1893,58 @@ footer {
             }
         }
     }
+
+
+    .room-page {
+        .room-block {
+            flex-direction: column;
+            .room-slider {
+                .button-prev {
+                    top: 43%;
+                    left: 10px;
+                }
+                .button-next {
+                    top: 43%;
+                    right: 10px;
+                }
+                .swiper-slide {
+                    img {
+                        max-width: 95vw;
+                    }
+                }
+            }
+            .room-description {
+                margin-top: 30px;
+                .facilities-room {
+                    .facilities {
+                        font-size: 18px;
+                        display: block;
+                        .right {
+                            margin-left: 0px;
+                        }
+                        .left {
+                            width: 100%;
+                        }
+                    }
+
+                }
+                .order-room {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    /*
+    .room-page {
+        .room-block {
+            .room-description {
+                .order-room {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    */
     .contact-page-footer {
         .container {
             .block {

@@ -1319,6 +1319,39 @@ footer {
       .action-page .container .block_action .col_r .group .btn {
         margin-bottom: 30px; }
 
+  .room-page .room-block {
+    flex-direction: column; }
+    .room-page .room-block .room-slider .button-prev {
+      top: 43%;
+      left: 10px; }
+    .room-page .room-block .room-slider .button-next {
+      top: 43%;
+      right: 10px; }
+    .room-page .room-block .room-slider .swiper-slide img {
+      max-width: 95vw; }
+    .room-page .room-block .room-description {
+      margin-top: 30px; }
+      .room-page .room-block .room-description .facilities-room .facilities {
+        font-size: 18px;
+        display: block; }
+        .room-page .room-block .room-description .facilities-room .facilities .right {
+          margin-left: 0px; }
+        .room-page .room-block .room-description .facilities-room .facilities .left {
+          width: 100%; }
+      .room-page .room-block .room-description .order-room {
+        width: 100%; }
+
+  /*
+  .room-page {
+      .room-block {
+          .room-description {
+              .order-room {
+                  width: 100%;
+              }
+          }
+      }
+  }
+  */
   .contact-page-footer .container .block {
     display: block; }
     .contact-page-footer .container .block .leftblock {
