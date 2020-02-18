@@ -651,7 +651,8 @@ body {
                 align-items: center;
                 position: relative;
                 background-color: #f9f9f9;
-                height: 480px;
+                height: auto;
+                min-height: 480px;
                 .about-text {
                     padding-left: 40px;
                     padding-right: 31px;
@@ -812,18 +813,41 @@ body {
                     justify-content: space-around;
                     .review-item {
                         width: 560px;
-                        background-image: url(../img/review-bord.png);
-                        background-repeat: no-repeat;
                         margin: 0 20px;
 
                         .review-text {
-                            width: 490px;
-                            height: 210px;
                             color: #212121;
                             font-size: 15px;
                             font-weight: 400;
                             line-height: 25px;
                             padding: 26px 30px;
+                            position: relative;
+                            text-align: center;
+                            border: 1px solid #666;
+                            border-radius: 30px;
+                            margin-bottom: 30px;
+                            &:before {
+                                content: ' ';
+                                position: absolute;
+                                width: 0;
+                                height: 0;
+                                left: 85px;
+                                bottom: -25px;
+                                border: 15px solid;
+                                border-color: #666 transparent transparent #666;
+                                transform: rotate3d(1, 0, 1, 90deg);
+                            }
+                            &::after {
+                                content: ' ';
+                                position: absolute;
+                                width: 0;
+                                height: 0;
+                                left: 85px;
+                                bottom: -20px;
+                                border: 13px solid;
+                                border-color: #fff transparent transparent #fff;
+                                transform: rotate3d(1, 0, 1, 90deg);
+                            }
                         }
 
                         .name {
@@ -1506,6 +1530,49 @@ footer {
         max-width: 824px;
         margin-left: 15px;
         margin-right: 15px;
+        overflow: hidden;
+    }
+    .header-bg {
+        .container {
+            overflow: visible;
+        }
+    }
+    .header { 
+        .logo {
+            .logo-img {
+                max-width: 100px;
+            }
+        }
+        .lang {
+            display: none;
+        }
+        .location {
+            margin-left: auto;
+            margin-right: 25px;
+            font-size: 9px;
+            line-height: 10px;
+            text-align: right;
+            max-width: 150px;
+            &:before {
+                display: none;
+            }
+        }
+        .social {
+            display: none;
+        }
+        .phone {
+            display: none;
+        }
+        .header-nav {
+            .nav-menu {
+                max-width: 400px;
+                margin: 0;
+                padding-top: 30px;
+            }
+            .menu-btn {
+                top: 44px;
+            }
+        }
     }
     .footer {
         height: 160px;
@@ -1582,6 +1649,7 @@ footer {
     }
     .main-page {
         .title-block {
+            padding-top: 160px;
             .title {
                 margin-bottom: 40px;
                 .heading {
@@ -1652,6 +1720,24 @@ footer {
                             }
                             .offer-btn {
                                 width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .reviews-block {
+            .reviews {
+                .swiper-container {
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            flex-direction: column;
+                            .review-item {
+                                width: 90vw;
+                                max-width: 770px;
+                                margin-bottom: 60px;
+                                margin-right: 5vw;
                             }
                         }
                     }
@@ -1826,5 +1912,72 @@ footer {
         }
     }
 
+    .room-page {
+        .room-block {
+            flex-direction: column;
+            .room-slider {
+                .button-prev {
+                    top: 90px;
+                    left: 10px;
+                }
+                .button-next {
+                    top: 90px;
+                    right: 10px;
+                }
+                .swiper-slide {
+                    img {
+                        max-width: 95vw;
+                    }
+                }
+            }
+            .room-description {
+                margin-top: 30px;
+                .facilities-room {
+                    .facilities {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
 
 }
+
+@media screen and (min-width: 310px) and (max-width: 450px) {
+
+    .header {
+        .location {
+            margin-left: 5px;
+            margin-right: auto;
+        }
+    }
+    .main-page {
+        .title-block {
+            .filter {
+                .pick {
+                    left: 49px;
+                }
+                .reset {
+                    bottom: 110px;
+                    right: 105px;
+                }
+            }
+        }
+        .reviews-block {
+            .reviews {
+                .swiper-container {
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            .review-item {
+                                width: 82vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
