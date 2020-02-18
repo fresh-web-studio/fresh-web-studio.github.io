@@ -1169,27 +1169,29 @@ footer {
       .about-block .container .about-hotel .text-block .about-text .hotel-title {
         font-size: 8vw; }
 
-  .main-page .title-block .title {
-    margin-bottom: 40px; }
-    .main-page .title-block .title .heading {
-      font-size: 12vw;
-      line-height: 60px; }
-  .main-page .title-block .filter {
-    height: 450px; }
-    .main-page .title-block .filter .selection {
-      display: block;
-      margin: 0 20px; }
-      .main-page .title-block .filter .selection .selection-item .select .select-item {
-        margin-left: 12px;
-        line-height: 17px; }
-    .main-page .title-block .filter .pick {
-      left: 14px;
-      width: 163px;
-      height: 43px;
-      font-size: 10px; }
-    .main-page .title-block .filter .reset {
-      bottom: 45px;
-      right: 10px; }
+  .main-page .title-block {
+    height: 730px; }
+    .main-page .title-block .title {
+      margin-bottom: 40px; }
+      .main-page .title-block .title .heading {
+        font-size: 12vw;
+        line-height: 60px; }
+    .main-page .title-block .filter {
+      height: 450px; }
+      .main-page .title-block .filter .selection {
+        display: block;
+        margin: 0 20px; }
+        .main-page .title-block .filter .selection .selection-item .select .select-item {
+          margin-left: 12px;
+          line-height: 17px; }
+      .main-page .title-block .filter .pick {
+        left: 14px;
+        width: 163px;
+        height: 43px;
+        font-size: 10px; }
+      .main-page .title-block .filter .reset {
+        bottom: 45px;
+        right: 10px; }
   .main-page .about-block .container .room .rooms-block {
     display: block; }
     .main-page .about-block .container .room .rooms-block .room-item {
