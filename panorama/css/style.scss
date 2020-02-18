@@ -1628,6 +1628,9 @@ footer {
                 .text-block {
                     display: block;
                     height: 1050px;
+                    .about-img {
+                        margin-right: 0px;
+                    }
                     .about-text {
                         .hotel-title {
                             font-size: 8vw;
