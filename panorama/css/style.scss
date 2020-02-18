@@ -17,9 +17,9 @@ body {
 }
 
 //
-// 
+//
 // MAIN-PAGE
-// 
+//
 //
 
 //HEADER
@@ -37,13 +37,13 @@ body {
         font-size: 14px;
         position: relative;
         .lang-choice {
-                width: 35px;
-                border: none;
-                background-color: transparent;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                appearance: none;
-                position: relative;
+            width: 35px;
+            border: none;
+            background-color: transparent;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            position: relative;
         }
         &:after {
             content: url(../img/select.png);
@@ -66,8 +66,8 @@ body {
             margin-right: 12px;
             position: absolute;
             transform: translate(-21px, 6px);
-            }
         }
+    }
     .social {
         display: flex;
         margin-left: -71px;
@@ -543,7 +543,7 @@ body {
                             margin-left: 31px;
                         }
                     }
-                    
+
                     .date {
                         &:before {
                             content: url(../img/date-logo.png);
@@ -812,18 +812,41 @@ body {
                     justify-content: space-around;
                     .review-item {
                         width: 560px;
-                        background-image: url(../img/review-bord.png);
                         background-repeat: no-repeat;
                         margin: 0 20px;
-
                         .review-text {
-                            width: 490px;
-                            height: 210px;
                             color: #212121;
                             font-size: 15px;
                             font-weight: 400;
                             line-height: 25px;
                             padding: 26px 30px;
+                            position: relative;
+                            text-align: center;
+                            border: 1px solid #666;
+                            border-radius: 30px;
+                            margin-bottom: 30px;
+                            &:before {
+                                content: ' ';
+                                position: absolute;
+                                width: 0;
+                                height: 0;
+                                left: 85px;
+                                bottom: -25px;
+                                border: 15px solid;
+                                border-color: #666 transparent transparent #666;
+                                transform: rotate3d(1, 0, 1, 90deg);
+                            }
+                            &::after {
+                                content: ' ';
+                                position: absolute;
+                                width: 0;
+                                height: 0;
+                                left: 85px;
+                                bottom: -20px;
+                                border: 13px solid;
+                                border-color: #fff transparent transparent #fff;
+                                transform: rotate3d(1, 0, 1, 90deg);
+                            }
                         }
 
                         .name {
@@ -864,11 +887,11 @@ body {
 }
 
 
-// 
-// 
-// SERVICE-PAGE 
-// 
-// 
+//
+//
+// SERVICE-PAGE
+//
+//
 
 .service-page {
     .container {
@@ -1006,8 +1029,8 @@ body {
                     &:hover {
                         color: #4f59a1;
                         .service-text:after {
-                                content: url(../img/arrow-right.png);
-                                margin-left: 10px;
+                            content: url(../img/arrow-right.png);
+                            margin-left: 10px;
 
                         }
                     }
@@ -1018,11 +1041,11 @@ body {
 }
 
 
-// 
-// 
+//
+//
 // VISA-PAGE
-// 
-// 
+//
+//
 
 .visa-page {
     .container {
@@ -1251,11 +1274,11 @@ body {
 }
 
 
-// 
-// 
+//
+//
 // ROOM-PAGE
-// 
-// 
+//
+//
 
 .room-page {
     .room-title {
@@ -1263,7 +1286,7 @@ body {
         max-width: 200px;
         display: flex;
         align-items: center;
-        justify-content: space-between; 
+        justify-content: space-between;
         color: #191919;
         margin-top: 40px;
         margin-bottom: 50px;
@@ -1478,7 +1501,7 @@ body {
 
 // FOOTER
 footer {
-        border-top: 1px solid #bebebe;
+    border-top: 1px solid #bebebe;
 }
 .footer {
     display: flex;
@@ -1500,7 +1523,6 @@ footer {
 }
 
 
-
 @media screen and (max-width: 1024px) {
     .container {
         max-width: 824px;
@@ -1508,6 +1530,7 @@ footer {
         margin-right: 15px;
     }
     .header {
+        padding-top: 14px;
         .location, .social, .order-call {
             display: none;
         }
@@ -1531,7 +1554,7 @@ footer {
             .phone-link {
                 font-size: 4vw;
                 &:before {
-                content: none;
+                    content: none;
                 }
             }
         }
@@ -1539,7 +1562,7 @@ footer {
             order: 4;
             .menu-btn {
                 display: block;
-                top: 50px;
+                top: 30px;
             }
         }
     }
@@ -1695,13 +1718,40 @@ footer {
                 }
             }
         }
+        .reviews-block {
+            .reviews {
+                .swiper-container {
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            flex-direction: column;
+                            .review-item {
+                                width: 90vw;
+                                max-width: 770px;
+                                margin: 15px 6px;
+                                text-align: center;
+                                .name {
+                                    margin-left: 0px;
+                                }
+                                .review-text {
+                                    margin-bottom: 15px;
+                                }
+                                .review-text:before {
+                                    border: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
     }
     .about-bg {
+        background-position-y: 15px;
         .about-block1 {
             .container {
                 .title {
-                    padding: 70px 10px 0px 15px;
+                    padding: 40px 10px 0px 15px;
                     h1.heading {
                         font-size: 12vw;
                         padding-right: 45px;
@@ -1835,33 +1885,49 @@ footer {
         .container {
             .block {
                 display: block;
-                    .leftblock {
-                         width: 100%;
-                        .socblock {
-                            padding-bottom: 15px;
-                        }
-                        .contact-footer {
-                            height: 100px;
-                            display: block;
-                            padding: 20px 0px;
-                            font-size: 3vw;
-                            .footer-link {
-                                text-align: center;
-                                display: block;
-                            }
-                            .copyright {
-                                text-align: center;
-                                display: block;
-                            }
-                        }
+                .leftblock {
+                    width: 100%;
+                    .socblock {
+                        padding-bottom: 15px;
                     }
-                    .map {
-                        width: 100%;
-                        position: revert;
+                    .contact-footer {
+                        height: 100px;
+                        display: block;
+                        padding: 20px 0px;
+                        font-size: 3vw;
+                        .footer-link {
+                            text-align: center;
+                            display: block;
+                        }
+                        .copyright {
+                            text-align: center;
+                            display: block;
+                        }
                     }
                 }
+                .map {
+                    width: 100%;
+                    position: revert;
+                }
+            }
         }
     }
+}
 
-
+@media screen and (max-width: 330px) {
+    .main-page {
+        .reviews-block {
+            .reviews {
+                .swiper-container {
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            .review-item {
+                                margin: 15px 2px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
