@@ -1507,6 +1507,43 @@ footer {
         margin-left: 15px;
         margin-right: 15px;
     }
+    .header {
+        .location, .social, .order-call {
+            display: none;
+        }
+        .logo {
+            order: 1;
+            img {
+                width: 95px;
+            }
+        }
+        .lang {
+            order: 3;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-right: 15px;
+        }
+        .phone {
+            order: 2;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-top: 2px;
+            .phone-link {
+                font-size: 4vw;
+                &:before {
+                content: none;
+                }
+            }
+        }
+        .header-nav {
+            order: 4;
+            .menu-btn {
+                display: block;
+                top: 50px;
+            }
+        }
+    }
+
     .footer {
         height: 160px;
         display: block;
