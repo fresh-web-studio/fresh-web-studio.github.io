@@ -1653,6 +1653,7 @@ footer {
                 height: 450px;
                 .selection {
                     display: block;
+                    margin: 0 20px;
                     .selection-item {
                         .select {
                             .select-item {
@@ -1662,8 +1663,15 @@ footer {
                         }
                     }
                 }
+                .pick {
+                    left: 14px;
+                    width: 163px;
+                    height: 43px;
+                    font-size: 10px;
+                }
                 .reset {
-                    bottom: 50px;
+                    bottom: 45px;
+                    right: 10px;
                 }
             }
         }
