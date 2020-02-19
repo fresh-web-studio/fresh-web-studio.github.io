@@ -428,6 +428,7 @@ body {
         flex-direction: column;
         box-shadow: 0 3px 0 #4f59a1;
         border: 1px solid #ffffff;
+        margin-bottom: 50px;
         width: 33%; }
         .about-block .container .rooms .rooms-block .room-item .room-img {
           width: 100%; }
