@@ -605,11 +605,13 @@ body {
             }
             .rooms-block {
                 display: flex;
+                flex-wrap: wrap;
                 .room-item {
                     display: flex;
                     flex-direction: column;
                     box-shadow: 0 3px 0 #4f59a1;
                     border: 1px solid #ffffff;
+                    width: 33%;
                     .room-img {
                         width: 100%;
                     }
@@ -1600,6 +1602,7 @@ footer {
                     display: block;
                     .room-item {
                         box-shadow: 0 0px 0 #ffffff;
+                        width: 100%;
                         .order-room {
                             padding: 7px 0px;
                             .order-room-btn {
