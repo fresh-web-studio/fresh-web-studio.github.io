@@ -170,7 +170,7 @@ body {
             z-index: 4;
             opacity: 0.9;
 
-            .menu-item {
+            .page_item {
                 font-size: 20px;
                 display: block;
                 text-align: left;
@@ -179,15 +179,19 @@ body {
         }
 
         /* элементы меню */
-        .menu-link {
+        a {
             display: block;
             color: #191919;
             font-weight: 100;
             text-decoration: none;
             padding: 12px 36px;
         }
+        .current_page_item a {
+            color: #4f59a1;
+            background-color: #CFD8DC;
+        }
 
-        .menu-link:hover {
+        a:hover {
             background-color: #CFD8DC;
         }
 

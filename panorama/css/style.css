@@ -135,18 +135,21 @@ body {
       box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
       z-index: 4;
       opacity: 0.9; }
-      .header .header-nav .nav-menu .menu-item {
+      .header .header-nav .nav-menu .page_item {
         font-size: 20px;
         display: block;
         text-align: left;
         line-height: 1.4; }
-    .header .header-nav .menu-link {
+    .header .header-nav a {
       display: block;
       color: #191919;
       font-weight: 100;
       text-decoration: none;
       padding: 12px 36px; }
-    .header .header-nav .menu-link:hover {
+    .header .header-nav .current_page_item a {
+      color: #4f59a1;
+      background-color: #CFD8DC; }
+    .header .header-nav a:hover {
       background-color: #CFD8DC; }
     .header .header-nav #menu-toggle:checked ~ .menu-btn > span {
       transform: rotate(45deg); }
