@@ -38,6 +38,45 @@ h3 {
 	text-decoration: underline;
 }
 
+.article__nav ul li a {
+    text-decoration: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.article__nav ul li a h5 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.article__nav ul li ul li a h6 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.article__nav ul li ol li a h5 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.article__nav ul ol {
+    /* убираем стандартную нумерацию */
+    list-style: none;
+    /* Идентифицируем счетчик и даем ему имя li. Значение счетчика не указано - по умолчанию оно равно 0 */
+    counter-reset: li;
+}
+.article__nav ul li ol li a h5 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.article__nav ul ol li {
+    /*display: flex;*/
+}
+.article__nav ul ol li:before {
+    /* Определяем элемент, который будет нумероваться — li. Псевдоэлемент before указывает, что содержимое, вставляемое при помощи свойства content, будет располагаться перед пунктами списка. Здесь же устанавливается значение приращения счетчика (по умолчанию равно 1). */
+    counter-increment: li;
+    /* С помощью свойства content выводится номер пункта списка. counters() означает, что генерируемый текст представляет собой значения всех счетчиков с таким именем. Точка в кавычках добавляет разделяющую точку между цифрами, а точка с пробелом добавляется перед содержимым каждого пункта списка */
+    content: counters(li,".") ". ";
+
+}
 
 p {
 	font-size: 1.25rem;
