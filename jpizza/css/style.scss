@@ -972,15 +972,21 @@ body {
                 margin-top: -4px;
                 .copy {
 
-                } .conf-policy {
-
-                                  }
+                }
+                .conf-policy {
+                        margin-right: 10px;
+                    }
                 .logo-dev {
+                    img {
+                        margin-left: 10px;
+                    }
 
                 }
                 .logo-dev {
                     font-weight: 800;
-                }
+                    margin-left: 10px;
+                    margin-right: 0px;
+                    }
             }
         }
     }

@@ -663,8 +663,14 @@ body {
         justify-content: space-around;
         align-items: center;
         margin-top: -4px; }
+        .footer .container .right .copyright .conf-policy {
+          margin-right: 10px; }
+        .footer .container .right .copyright .logo-dev img {
+          margin-left: 10px; }
         .footer .container .right .copyright .logo-dev {
-          font-weight: 800; }
+          font-weight: 800;
+          margin-left: 10px;
+          margin-right: 0px; }
 
 .cart-block .container {
   background-color: white;
