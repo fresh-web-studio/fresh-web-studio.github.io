@@ -657,14 +657,12 @@ body {
         height: 108px;
         background-color: #ffffff;
         color: #595959;
-        font-size: 13px;
+        font-size: 11px;
         line-height: 26px;
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin-top: -4px; }
-        .footer .container .right .copyright .copy, .footer .container .right .copyright .conf-policy, .footer .container .right .copyright .logo-dev {
-          margin: 0; }
         .footer .container .right .copyright .logo-dev {
           font-weight: 800; }
 
