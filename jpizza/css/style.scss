@@ -970,13 +970,11 @@ body {
                 justify-content: space-around;
                 align-items: center;
                 margin-top: -4px;
-                .copy {
-                    margin-left: 40px;
-                    margin-right: auto;
+                .copy, .conf-policy, .logo-dev {
+                    margin: 0;
                 }
-                .conf-policy {
-                    margin-left: auto;
-                    margin-right: 26px;
+                .logo-dev {
+                    font-weight: 800;
                 }
             }
         }
@@ -1834,7 +1832,7 @@ body {
                     flex-direction: column;
                     justify-content: center;
 
-                    .copy, .conf-policy {
+                    .copy, .conf-policy, .logo-dev {
                         margin: 0;
                     }
                 }
