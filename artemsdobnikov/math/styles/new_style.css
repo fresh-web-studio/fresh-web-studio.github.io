@@ -119,6 +119,11 @@ ol.article__list {
 .atricle img {
     max-width: 50%;
 }
+
+article__image img {
+    max-width: 50%;
+}
+
 .article__title-h1 {
     text-align: center;
     font-size: 36px;
