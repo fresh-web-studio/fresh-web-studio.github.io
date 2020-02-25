@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img570.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img571.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img574.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img575.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-              <folding>
-                <element signature="e#14739#14743#0" expanded="true" />
-                <element signature="e#15722#15726#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="661">
+              <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -82,11 +72,11 @@
       <find>Области использования биполярных транзисторов</find>
       <find>style=&quot;text-decoration: underline&quot;</find>
       <find>Тороидальные магнитопроводы</find>
-      <find>&lt;/sub&gt;&lt;sub&gt;</find>
       <find>рассчитывается общее число слоев обмотки W</find>
       <find>367</find>
       <find>https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/12c91c9f-5d85-4da0-bc0c-320fd4fa1fd0</find>
       <find>disc</find>
+      <find>&lt;/sub&gt;&lt;sub&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;p&gt;</replace>
@@ -137,6 +127,7 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/diods.html" />
       </list>
     </option>
   </component>
@@ -147,10 +138,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1280" />
-    <option name="y" value="-465" />
-    <option name="width" value="1592" />
-    <option name="height" value="1080" />
+    <option name="x" value="1365" />
+    <option name="y" value="-30" />
+    <option name="width" value="1280" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -269,14 +260,7 @@
       <workItem from="1582088295697" duration="13986000" />
       <workItem from="1582256910165" duration="32434000" />
       <workItem from="1582485284502" duration="5886000" />
-      <workItem from="1582533699284" duration="16576000" />
-    </task>
-    <task id="LOCAL-00045" summary="Правки на главной странице">
-      <created>1581970766256</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1581970766256</updated>
+      <workItem from="1582533699284" duration="17039000" />
     </task>
     <task id="LOCAL-00046" summary="Адаптация шапки">
       <created>1582006662809</created>
@@ -614,17 +598,24 @@
       <option name="project" value="LOCAL" />
       <updated>1582624124835</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Обновление">
+      <created>1582625422674</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1582625422674</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115502000" />
+    <option name="totallyTimeSpent" value="115965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-280" width="1592" height="1080" extended-state="6" />
+    <frame x="1280" y="-280" width="1542" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.12402597" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.12818792" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -733,10 +724,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img023.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img024.png" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img025.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -863,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="2330" selection-start-line="2330" selection-end-line="2332" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -879,12 +859,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding>
-            <element signature="e#14739#14743#0" expanded="true" />
-            <element signature="e#15722#15726#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="2330" selection-start-line="2330" selection-end-line="2332" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
         </state>
       </provider>
     </entry>
