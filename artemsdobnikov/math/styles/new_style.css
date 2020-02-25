@@ -53,12 +53,16 @@ h5 {
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
-
+.article__nav ul li a h4 {
+    margin-top: 0px;
+}
 .article__nav ul li a h5 {
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
-.article__nav ul li ul li {
+
+
+.article__nav ul li ul li, .article__nav ul li {
     list-style: none;
 }
 .article__nav ul li ul li a h6 {
