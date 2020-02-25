@@ -64,6 +64,14 @@ h5 {
 figure p {
     text-align: center;
 }
+.form-left {
+    display: flex;
+    padding-left: 40px;
+    font-size: 1.25rem;
+}
+.form-left img {
+    padding-right: 5px;
+}
 .article__nav ul li ul li, .article__nav ul li {
     list-style: none;
 }
