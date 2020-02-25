@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="" />
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +31,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
+            <state relative-caret-position="454">
+              <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
               <folding>
                 <element signature="e#3995#4029#0" expanded="true" />
                 <element signature="e#4356#4390#0" expanded="true" />
                 <element signature="e#4773#4807#0" expanded="true" />
-                <element signature="e#5071#5105#0" expanded="true" />
                 <element signature="e#5522#5556#0" expanded="true" />
                 <element signature="e#14274#14308#0" expanded="true" />
                 <element signature="e#15770#15804#0" expanded="true" />
@@ -48,6 +50,15 @@
                 <element signature="e#34392#34426#0" expanded="true" />
                 <element signature="e#36340#36374#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="214" column="50" selection-start-line="214" selection-start-column="50" selection-end-line="214" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -90,6 +101,7 @@
       <find>https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/12c91c9f-5d85-4da0-bc0c-320fd4fa1fd0</find>
       <find>disc</find>
       <find>&lt;/sub&gt;&lt;sub&gt;</find>
+      <find>Паразитные емкости IGBT-транзистора</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;p&gt;</replace>
@@ -139,8 +151,8 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/image/1.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/diods.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" />
       </list>
     </option>
   </component>
@@ -273,21 +285,7 @@
       <workItem from="1582088295697" duration="13986000" />
       <workItem from="1582256910165" duration="32434000" />
       <workItem from="1582485284502" duration="5886000" />
-      <workItem from="1582533699284" duration="17490000" />
-    </task>
-    <task id="LOCAL-00047" summary="Исправления footer страниц &quot;Номера&quot;">
-      <created>1582008035413</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1582008035413</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Исправления footer страниц &quot;Номера&quot;">
-      <created>1582008116867</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1582008116867</updated>
+      <workItem from="1582533699284" duration="17944000" />
     </task>
     <task id="LOCAL-00049" summary="Исправления мелкие всех страниц.">
       <created>1582011443361</created>
@@ -618,11 +616,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582625883380</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Обновление">
+      <created>1582626443564</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1582626443564</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Обновление">
+      <created>1582638575419</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1582638575420</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116416000" />
+    <option name="totallyTimeSpent" value="116870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-280" width="1542" height="1080" extended-state="6" />
@@ -870,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -893,13 +898,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
+        <state relative-caret-position="454">
+          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
           <folding>
             <element signature="e#3995#4029#0" expanded="true" />
             <element signature="e#4356#4390#0" expanded="true" />
             <element signature="e#4773#4807#0" expanded="true" />
-            <element signature="e#5071#5105#0" expanded="true" />
             <element signature="e#5522#5556#0" expanded="true" />
             <element signature="e#14274#14308#0" expanded="true" />
             <element signature="e#15770#15804#0" expanded="true" />
@@ -910,6 +914,13 @@
             <element signature="e#34392#34426#0" expanded="true" />
             <element signature="e#36340#36374#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="214" column="50" selection-start-line="214" selection-start-column="50" selection-end-line="214" selection-end-column="50" />
         </state>
       </provider>
     </entry>
