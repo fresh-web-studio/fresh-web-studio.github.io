@@ -184,56 +184,99 @@
 <p>- период t<sub>A</sub> – время от начала импульса реверсного тока (пересечение током нулевой линии) до максимального значения обратного тока I<sub>RRM</sub> . Соответствует разряду зарядов накопленных в так называемой обеднённой области p-n перехода.</p>
 <p>- период t<sub>B</sub> – время между моментом соответствующим максимуму обратного тока I<sub>RRM</sub> и моментом когда ток уменьшится на 25% от максимального достигнутого значения.</p>
 <p><span style="text-decoration: underline">Время восстановления обратной проводимости</span> (reverse recovery time) t<sub>RR</sub> определяется по осциллограмме обратного тока (рисунок VD.10) как время между пересечением тока нулевой отметки (начало реверсного тока) и моментом когда величина реверсного тока спадает на 25% от своего максимально достигнутого значения. Время восстановления – интуитивно понятный параметр, характеризующий время, за которое диод восстанавливает свои непроводящие свойства. Время восстановления обратной проводимости t<sub>RR</sub> равно сумме времен периодов t<sub>A</sub> и t<sub>B</sub>:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/287f7cc2-9a3b-4321-88f3-840cf85fd352" /></p>
-<p>Максимальное значение реверсного тока I<sub>R</sub> связано с длительностью периода t<sub>A</sub> и скоростью спада тока:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/405b6ee8-30f6-47d6-929c-34952c3a4595" /></p>
-<p><span style="text-decoration: underline">Критерий «мягкости восстановления»</span> (softness factor) SF – критерий определяющий скорость обрыва обратного тока. Если обрыв тока происходит слишком резко, то это может стать причиной нежелательных перенапряжений обусловленных паразитными индуктивностями контуров. Иногда этот эффект используют в генераторах импульсов на основе специализированных SOS-диодов. В качестве критерия «мягкости» использую так называемы «фактор мягкости» SF определяемый как отношение длительностей периодов t<sub>B</sub> к t<sub>A</sub> :</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/06c780f7-aea5-4795-afd5-a1c49f460afa" /></p>
-<p>Для обычных диодов t<sub>A</sub> много больше t<sub>B</sub> , для импульсных «мягких» диодов наоборот t<sub>B</sub>много больше t<sub>A</sub>. «Фактор мягкости» SF можно определить из datasheet диодов исходя из представленных временных осциллограмм восстановления обратной проводимости. Обычно для импульсных силовых диодов класса «ultrafast» характерное значение SF равно 1, для обычных диодов величина SF может составлять 0,2-0,6.</p>
+            <figure class="article__image">
+                <img src="image/img601.png"/>
+            </figure>
+            <p>Максимальное значение реверсного тока I<sub>R</sub> связано с длительностью периода t<sub>A</sub> и скоростью спада тока:</p>
+            <figure class="article__image">
+                <img src="image/img603.png"/>
+            </figure>
+            <p><span style="text-decoration: underline">Критерий «мягкости восстановления»</span> (softness factor) SF – критерий определяющий скорость обрыва обратного тока. Если обрыв тока происходит слишком резко, то это может стать причиной нежелательных перенапряжений обусловленных паразитными индуктивностями контуров. Иногда этот эффект используют в генераторах импульсов на основе специализированных SOS-диодов. В качестве критерия «мягкости» использую так называемы «фактор мягкости» SF определяемый как отношение длительностей периодов t<sub>B</sub> к t<sub>A</sub> :</p>
+            <figure class="article__image">
+                <img src="image/img605.png"/>
+            </figure>
+            <p>Для обычных диодов t<sub>A</sub> много больше t<sub>B</sub> , для импульсных «мягких» диодов наоборот t<sub>B</sub>много больше t<sub>A</sub>. «Фактор мягкости» SF можно определить из datasheet диодов исходя из представленных временных осциллограмм восстановления обратной проводимости. Обычно для импульсных силовых диодов класса «ultrafast» характерное значение SF равно 1, для обычных диодов величина SF может составлять 0,2-0,6.</p>
 <p><span style="text-decoration: underline">Заряд обратного восстановления</span> (Reverse Recovery Charge) Q<sub>RR</sub> – это реверсный заряд, который должен пройти через переход диода для перевода его из состояния проводимости в закрытое состояние. Заряд обратного восстановления является базовым параметром диода, определяющим его динамические характеристики. Исходя из формы импульса реверсного тока этот заряд равен:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/00c8203f-be13-48e8-bf70-cea1b43fa3eb" /></p>
-<p>Откуда максимальный ток определяется из соотношения:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3280f6e3-3d6c-4a0f-95a4-e20c5f91a39a" /></p>
-<p>Приравнивая выражения для I<sub>R</sub> получаем:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c9a177c9-cb05-4e20-8534-57f5ac5240fd" /></p>
-<p>Преобразуя это выражение получаем:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/775cf613-433a-4ab8-bd46-ed1f43a68190" /></p>
-<p>Учитывая, что t<sub>A</sub> и t<sub>B</sub> связаны через «фактор мягкости» SF:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a12184a5-f80f-423b-9681-44858bb414e3" /></p>
-<p>Получаем:<img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6c5a2eca-655b-4607-b546-7090293e2429" /></p>
+            <figure class="article__image">
+                <img src="image/img607.png"/>
+            </figure>
+            <p>Откуда максимальный ток определяется из соотношения:</p>
+            <figure class="article__image">
+                <img src="image/img609.png"/>
+            </figure>
+            <p>Приравнивая выражения для I<sub>R</sub> получаем:</p>
+            <figure class="article__image">
+                <img src="image/img611.png"/>
+            </figure>
+            <p>Преобразуя это выражение получаем:</p>
+            <figure class="article__image">
+                <img src="image/img613.png"/>
+            </figure>
+            <p>Учитывая, что t<sub>A</sub> и t<sub>B</sub> связаны через «фактор мягкости» SF:</p>
+            <figure class="article__image">
+                <img src="image/img615.png"/>
+            </figure>
+            <p>Получаем:</p>
+            <figure class="article__image">
+                <img src="image/img617.png"/>
+            </figure>
 <p>Откуда выразим t<sub>A</sub>:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/013c37c5-050e-4e08-9b6b-5a8f61f89f92" /></p>
-<p>Тогда:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d8599032-2c78-466d-b6ac-c07ef0252a02" /></p>
-<p>Откуда получаем практически важные соотношения:</p>
+            <figure class="article__image">
+                <img src="image/img619.png"/>
+            </figure>
+            <p>Тогда:</p>
+            <figure class="article__image">
+                <img src="image/img621.png"/>
+            </figure>
+            <p>Откуда получаем практически важные соотношения:</p>
 <p>- для расчета времени восстановления обратной проводимости t<sub>RR</sub> :</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0bc610fc-ef1b-42d3-9643-877044e7efee" /></p>
-<p>- и для расчета максимальной величины обратного тока I<sub>R</sub><sub>RM</sub> :</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7bf0f0c6-99e9-466c-a645-3615068cde31" /></p>
-<p>Используя представленные выражения, рассчитываются динамические характеристики диода.</p>
+            <figure class="article__image">
+                <img src="image/img623.png"/>
+            </figure>
+            <p>- и для расчета максимальной величины обратного тока I<sub>R</sub><sub>RM</sub> :</p>
+            <figure class="article__image">
+                <img src="image/img625.png"/>
+            </figure>
+            <p>Используя представленные выражения, рассчитываются динамические характеристики диода.</p>
 <p><span style="text-decoration: underline">Барьерная емкость диода</span><strong> - </strong>собственное значение емкости p-n перехода находящегося в обратном смещении (закрытом состоянии). В дополнение к выше описанному инерционному процессу «переключения» диода в непроводящее состояние диод, когда к нему приложено обратное напряжение он (диод) обладает собственным значением барьерной емкости, которая зависит от напряжения, что важно также учитывать при расчете динамических режимов. Емкость пропорциональна площади p-n перехода, на практике это означает, что более мощные диоды с большим номинальным током будут иметь и большее значение емкости. Реально величина емкости не является постоянной и существенно зависит от приложенного напряжения.</p>
-<p><strong>Расчет тепловых потерь в диоде на переключение</strong></p>
+<p><h4 id="9">Расчет тепловых потерь в диоде на переключение</h4></p>
 <p>В момент восстановления проводимости к диоду приложено обратное напряжение и через него протекает некоторый импульс тока длительностью t<sub>rev</sub>. Таким образом, в кристалле диода выделяется некоторая энергия:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5acfda33-210f-4b47-b431-70808962d653" /></p>
-<p>Общая выделяемая тепловая мощность пропорциональна частоте импульсов f.</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a737d874-0a2d-46ef-8fae-afb5abde9e02" /></p>
-<p>Основное выделение энергии происходит в периода t<sub>B</sub> когда напряжение на диоде имеет величину существенно большую по сравнению с прямым падением напряжения (как в период t<sub>A</sub>). Полагая линейную форму спада тока и роста обратного напряжения получим:</p>
+            <figure class="article__image">
+                <img src="image/img627.png"/>
+            </figure>
+            <p>Общая выделяемая тепловая мощность пропорциональна частоте импульсов f.</p>
+            <figure class="article__image">
+                <img src="image/img629.png"/>
+            </figure>
+            <p>Основное выделение энергии происходит в периода t<sub>B</sub> когда напряжение на диоде имеет величину существенно большую по сравнению с прямым падением напряжения (как в период t<sub>A</sub>). Полагая линейную форму спада тока и роста обратного напряжения получим:</p>
 <p>Выражение для напряжения на диоде будет иметь вид:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/86f32dec-05bb-4640-a99e-810b73713946" /></p>
-<p>Выражение для тока через диод будет иметь вид:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6d140b51-c777-4933-b781-1d940b8d05a9" /></p>
-<p>Выражение для выделяющейся мощности на диоде будет иметь вид:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/67f564a4-1c07-4e06-94be-5495833d3f3d" /></p>
-<p>Перемножая V<sub>VD</sub>(t) и I<sub>VD</sub>(t), получаем:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1ba454b3-ec7f-45be-9567-b2c298799760" /></p>
-<p>Упрощая которое получаем выражение для мощности динамических потерь P<sub>VD</sub><sub>_</sub><sub>trans</sub>«на переключение»:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1706f2f7-ed60-4619-8dd5-263a73236c6c" /></p>
-<p>где:</p>
+            <figure class="article__image">
+                <img src="image/img631.png"/>
+            </figure>
+            <p>Выражение для тока через диод будет иметь вид:</p>
+            <figure class="article__image">
+                <img src="image/img633.png"/>
+            </figure>
+            <p>Выражение для выделяющейся мощности на диоде будет иметь вид:</p>
+            <figure class="article__image">
+                <img src="image/img635.png"/>
+            </figure>
+            <p>Перемножая V<sub>VD</sub>(t) и I<sub>VD</sub>(t), получаем:</p>
+            <figure class="article__image">
+                <img src="image/img637.png"/>
+            </figure>
+            <p>Упрощая которое получаем выражение для мощности динамических потерь P<sub>VD</sub><sub>_</sub><sub>trans</sub>«на переключение»:</p>
+            <figure class="article__image">
+                <img src="image/img639.png"/>
+            </figure>
+            <p>где:</p>
 <p>V<sub>DC</sub> – обратное напряжение, (напряжения источника питания);</p>
 <p>f - рабочая частота;</p>
 <p>I<sub>R</sub><sub>RM</sub> - максимальная величина обратного тока, вычисляемая по формуле:</p>
-<p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7bf0f0c6-99e9-466c-a645-3615068cde31" /></p>
-<p>здесь: Q<sub>RR</sub> заряд обратного восстановления (Reverse Recovery Charge) – представлен в datasheet-ах, скорость спада тока di/dt определяется характеристиками схемы, а «фактор мягкости» SF можно определить из datasheet диодов исходя из представленных временных осциллограмм восстановления обратной проводимости. Обычно для импульсных диодов характерное значение SF равно 1.</p>
+            <figure class="article__image">
+                <img src="image/img611.png"/>
+            </figure>
+            <p>здесь: Q<sub>RR</sub> заряд обратного восстановления (Reverse Recovery Charge) – представлен в datasheet-ах, скорость спада тока di/dt определяется характеристиками схемы, а «фактор мягкости» SF можно определить из datasheet диодов исходя из представленных временных осциллограмм восстановления обратной проводимости. Обычно для импульсных диодов характерное значение SF равно 1.</p>
 <p>t<sub>B</sub> - время между моментом соответствующим максимуму обратного тока I<sub>RRM</sub> и моментом когда ток уменьшится на 25% от максимального достигнутого значения. Учитывая связь t<sub>A</sub> и t<sub>B</sub> через «фактор мягкости» SF получаем:</p>
 <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/83b46cc0-6a1c-43e5-ad77-cb7013fd3fe1" /></p>
 <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/92559a21-89e7-4173-85c2-9538ac29dae3" /></p>
