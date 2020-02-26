@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/kondensator.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/kondensator.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="233" column="44" selection-start-line="233" selection-start-column="44" selection-end-line="233" selection-end-column="44" />
+            <state relative-caret-position="440">
+              <caret line="123" column="41" lean-forward="true" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -34,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="536" column="17" lean-forward="true" selection-start-line="536" selection-start-column="17" selection-end-line="536" selection-end-column="17" />
+            <state relative-caret-position="653">
+              <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
               <folding>
                 <element signature="e#3927#3961#0" expanded="true" />
                 <element signature="e#4332#4366#0" expanded="true" />
@@ -55,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/kondensator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="574" column="34" selection-start-line="574" selection-start-column="34" selection-end-line="574" selection-end-column="34" />
+            <state relative-caret-position="691">
+              <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
               <folding>
                 <element signature="e#5215#5249#0" expanded="true" />
                 <element signature="e#5284#5318#0" expanded="true" />
@@ -130,12 +129,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="1115">
               <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
               <folding>
                 <element signature="e#15065#15069#0" expanded="true" />
                 <element signature="e#16168#16172#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -160,7 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.room-title</find>
       <find>&amp;:</find>
       <find>.hotel-img</find>
       <find>.room-page</find>
@@ -190,6 +197,7 @@
       <find>ESR на амплитуду</find>
       <find>ESR</find>
       <find>пульсаций напряжения</find>
+      <find>&lt;/h5&gt;&lt;/p&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;p&gt;</replace>
@@ -197,6 +205,7 @@
       <replace>png&quot; alt</replace>
       <replace>gif&quot; alt=&quot;Формула&quot;</replace>
       <replace>png&quot; alt=&quot;Формула&quot;</replace>
+      <replace>&lt;/h5&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/panorama</dir>
@@ -242,9 +251,10 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/image/1.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/diods.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/kondensator.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/diods.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html" />
       </list>
     </option>
   </component>
@@ -378,21 +388,7 @@
       <workItem from="1582088295697" duration="13986000" />
       <workItem from="1582256910165" duration="32434000" />
       <workItem from="1582485284502" duration="5886000" />
-      <workItem from="1582533699284" duration="29015000" />
-    </task>
-    <task id="LOCAL-00062" summary="Исправил стили по ТЗ, создал новый файл стилей, для новых статей.">
-      <created>1582201953239</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1582201953239</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Добавление psd макета в прект">
-      <created>1582257241814</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1582257241815</updated>
+      <workItem from="1582533699284" duration="29381000" />
     </task>
     <task id="LOCAL-00064" summary="Добавление логотипа разработчика">
       <created>1582258179586</created>
@@ -723,11 +719,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582694890187</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Обновление">
+      <created>1582695560216</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1582695560216</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Обновление">
+      <created>1582695688033</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1582695688033</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127941000" />
+    <option name="totallyTimeSpent" value="128307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-465" width="1542" height="1080" extended-state="0" />
@@ -842,7 +852,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img026.png" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img028.png" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img027.png">
       <provider selected="true" editor-type-id="images" />
@@ -979,28 +988,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="233" column="44" selection-start-line="233" selection-start-column="44" selection-end-line="233" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-          <folding>
-            <element signature="e#15065#15069#0" expanded="true" />
-            <element signature="e#16168#16172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="536" column="17" lean-forward="true" selection-start-line="536" selection-start-column="17" selection-end-line="536" selection-end-column="17" />
+        <state relative-caret-position="653">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
           <folding>
             <element signature="e#3927#3961#0" expanded="true" />
             <element signature="e#4332#4366#0" expanded="true" />
@@ -1019,10 +1010,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="123" column="41" lean-forward="true" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/kondensator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="574" column="34" selection-start-line="574" selection-start-column="34" selection-end-line="574" selection-end-column="34" />
+        <state relative-caret-position="691">
+          <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
           <folding>
             <element signature="e#5215#5249#0" expanded="true" />
             <element signature="e#5284#5318#0" expanded="true" />
@@ -1086,6 +1084,24 @@
             <element signature="e#75525#75559#0" expanded="true" />
             <element signature="e#76200#76234#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1115">
+          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+          <folding>
+            <element signature="e#15065#15069#0" expanded="true" />
+            <element signature="e#16168#16172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
         </state>
       </provider>
     </entry>
