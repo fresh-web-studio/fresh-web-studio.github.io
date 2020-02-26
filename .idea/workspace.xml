@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img758.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img760.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img761.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="157" column="32" selection-end-line="177" selection-end-column="7" />
+            <state relative-caret-position="3456">
+              <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -172,8 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.hotel-img</find>
-      <find>.room-page</find>
       <find>.room-item</find>
       <find>.rooms-block</find>
       <find>.menu-link</find>
@@ -202,6 +196,8 @@
       <find>&lt;/h5&gt;&lt;/p&gt;</find>
       <find>&lt;/sub&gt;&lt;sub&gt;</find>
       <find>основ</find>
+      <find>Функциональное назначение стабилитрона</find>
+      <find>Вольтамперная характеристика стабилитрона</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -392,14 +388,7 @@
       <workItem from="1582088295697" duration="13986000" />
       <workItem from="1582256910165" duration="32434000" />
       <workItem from="1582485284502" duration="5886000" />
-      <workItem from="1582533699284" duration="30410000" />
-    </task>
-    <task id="LOCAL-00066" summary="Добавление картинок">
-      <created>1582259137580</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1582259137580</updated>
+      <workItem from="1582533699284" duration="30645000" />
     </task>
     <task id="LOCAL-00067" summary="Добавление логотипа разработчика">
       <created>1582259690512</created>
@@ -737,11 +726,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582696732269</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Обновление">
+      <created>1582696956976</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1582696956976</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129336000" />
+    <option name="totallyTimeSpent" value="129571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-465" width="1542" height="1080" extended-state="0" />
@@ -1104,8 +1100,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="157" column="32" selection-end-line="177" selection-end-column="7" />
+        <state relative-caret-position="3456">
+          <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
         </state>
       </provider>
     </entry>
