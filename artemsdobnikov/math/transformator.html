@@ -101,8 +101,7 @@
                                 <li><a href="#30"><h5>Способы намотки</h5></a></li>
                                 <li><a href="#31"><h5>Каркас</h5></a></li>
                                 <li><a href="#32"><h5>Расположение обмоток внутри магнитопровода</h5></a></li>
-                                <li><a href="#33"><h5>Электростатическая защита (экран Фарадея) между обмотками</h5></a>
-                                </li>
+                                <li><a href="#33"><h5>Электростатическая защита (экран Фарадея) между обмотками</h5></a>                                </li>
                                 <li><a href="#34"><h5>Технологические особенности намотки кольцевых и тороидальных
                                     трансформаторов</h5></a></li>
                             </ul>
@@ -136,13 +135,21 @@
                             </ul>
                         </li>
                         <li><a href="#47"><h3>Сопротивление активных потерь в магнитопроводе R<sub>0</sub></h3></a>
+                        </li>
+                        <li><a href="#53"><h3>Межвитковая емкость вторичной обмотки С<sub>02</sub>’</h3></a>
                             <ul>
                                 <li><a href="#48"><h4>Соотношение для определения емкости между двумя соседними витками
                                     в изоляции Ct (turn-виток)</h4></a></li>
-                                <li><a href="#49"><h4>Расчет емкостей обмотки при различных типах намотки</h4></a></li>
+                                <li><a href="#49"><h4>Расчет емкостей обмотки при различных типах намотки</h4></a>
+                                    <ul>
+                                        <li><a href="#50"><h5>Тип намотки – «виток к витку», послойно</h5></a></li>
+                                        <li><a href="#51"><h5>Тип намотки – «один слой поверх магнитопровода»</h5></a>
+                                        </li>
+                                        <li><a href="#52"><h5>Тип намотки – «виток к витку N-образная»</h5></a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
-                        <li><a href="#53"><h3>Межвитковая емкость вторичной обмотки С<sub>02</sub>’</h3></a></li>
                         <li><a href="#54"><h3>Межобмоточная емкость С<sub>12</sub></h3></a></li>
                         <li><a href="#55"><h3>Особенности влияния паразитных параметров на работу импульсных
                             трансформаторов</h3></a></li>
@@ -2111,9 +2118,9 @@
             полиуретановых лаков с ε = 3 – 5.</p>
         <p>Для приближенного учета заместим провод с диэлектрическим покрытием на провод без изоляции, но большего
             диаметра, с тем, чтобы их единичные емкости в вакууме были одинаковы.</p>
-        <p><strong>Соотношение для определения емкости между двумя соседними витками в
+        <p><h5 id="48">Соотношение для определения емкости между двумя соседними витками в
             изоляции C<sub>t</sub>
-            (turn-виток)</strong></p>
+            (turn-виток)</h5></p>
         <p>Конфигурация двухпроводной системы с цилиндрическими проводниками диаметром «по меди» d<sub>Cu</sub> и
             диаметром по изоляции d<sub>ins</sub> и диэлектрической проницаемости изоляции ε<sub>ins</sub>представлена
             на рисунке T.21.</p>
@@ -2146,8 +2153,8 @@
         <p>Элементарная емкость между двумя соседними витками C<sub>t</sub> в первом приближении может быть определена
             по вышеприведенному соотношению в котором длина проводника равна средней длине витка.</p>
         <p>Суммарная емкость намотки рассчитывается в зависимости от типа намотки. Об этом далее.</p>
-        <strong>Расчет емкостей обмотки при различных типах намотки</strong>
-        <span>Тип намотки – «виток к витку», послойно</span>
+        <h5 id="49">Расчет емкостей обмотки при различных типах намотки</h5>
+        <h6 id="50">Тип намотки – «виток к витку», послойно</h6>
         <p>На рисунке изображена внутренняя структура межвитковой емкости обмотки, и распределение потенциала в случае
             отсутствия межслойной изоляции и обмотки уложенной «виток к витку».</p>
         <p>Для расчета данной энергии введем условные обозначения:</p>
@@ -2158,147 +2165,148 @@
         <p>Энергия запасается внутри структуры обмотки как между витками одного слоя (turn-turn) так и между витками
             различных слоев (layer-layer);</p>
         <p>Рассчитаем энергию, запасаемую в межвитковых емкостях (turn-turn) одного слоя:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ceda80f1-df0d-42b6-875d-bae0d625e7aa"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img961.png" alt="Формула"/>
+        </figure>
         <p>здесь :</p>
         <p>число элементарных межвитковых емкостей:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6de7d93b-68f4-4fee-a151-cb33092346c0"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img963.png" alt="Формула"/>
+        </figure>
         <p>напряжение между двумя соседними витками:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0dd84e6d-72f3-40a9-9d3a-20ebe4d9c1bc"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img965.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следует, что общая энергия W<sub>tt_summ</sub>, запасаемая в межвитковых
             емкостях внутри слоев равна:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/aa81b7a2-e2cc-4d2c-bb18-ad0afd1597a2"/>
-        </p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/62aa0b15-7551-411f-86e9-0e95e5d89dc6"/>
-        </p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/73ddcf1b-e361-4c24-8238-cccbfe78d705"/>
-        </p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2c601922-9dda-40eb-b304-dbdd091dd1c2"/>
-        </p>
-        <p>Рисунок T.22 - Межвитковые емкости и распределение потенциала по обмотке для обмотки уложенной «виток к
-            витку»</p>
+        <figure class="article__image">
+            <img src="image/img967.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/img969.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/img971.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/img973.jpg" alt="Рисунок-схема"/>
+            <p>Рисунок T.22 - Межвитковые емкости и распределение потенциала по обмотке для обмотки уложенной «виток к
+                витку»</p>
+        </figure>
+
         <p>Рассчитаем энергию, запасаемую в межслоевых емкостях (между двумя слоями) при условии, что число слоев – n ≥
             2. При способе намотки виток к витку каждый виток имеет емкость по отношению к двум соседним виткам другого
             слоя (рисунок T.22). Энергия, запасаемая в этих емкостях равна:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/28cd990a-3d8a-45fa-bc92-1a0926b341b8"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img975.png" alt="Формула"/>
+        </figure>
         <p>здесь:</p>
         <p>∆V<sub>il1</sub>, ∆V<sub>il2</sub> – напряжения между витком и двумя соседними виткам
             другого слоя;</p>
         <p>С учетом того, что разница напряжения между соседними витками составляет величину:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c6d41e43-baca-4042-b8c3-e8dfafe49b09"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img977.png" alt="Формула"/>
+        </figure>
         <p>то выражение для энергии, запасаемой в межслоевых емкостях можно переписать в виде:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bc947714-90b9-478a-87b6-4169703a91eb"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img979.png" alt="Формула"/>
+        </figure>
         <p>или:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e449f83d-2b95-48c1-9d9e-f8c30b297e2a"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img981.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>∆V<sub>il</sub> – напряжение между соседними витками разных слоев (для упрощения ∆V<sub>il1</sub>
             было заменено на ∆V<sub>il</sub>);</p>
         <p>W<sub>ll</sub> - энергия, запасаемая в межвитковой емкости «виток - два соседних витка другого слоя».</p>
         <p>При этом энергия запасается в межслоевой границе. Число межслоевых границ равно:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bfc125aa-bf10-4e07-bd38-4ae9441a6b66"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img983.png" alt="Формула"/>
+        </figure>
         <p>Максимальное падение напряжения между крайними витками соседних слоев равно (максимальное напряжение между
             витками слоев у краев):</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b3aecc82-bbd8-47b4-b3e1-124d7a3f39dd"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img985.png" alt="Формула"/>
+        </figure>
         <p>Таким образом, с учетом линейного распределения напряжения между витками в слое получим выражение для
             суммарной энергии в межслоевых емкостях W<sub>ll_summ</sub>:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cc6570ac-2b1f-477e-8e43-6256fa9ed32a"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img987.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>∆V<sub>il</sub> – напряжение между соседними витками разных слоев:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/fd032c76-3ac8-4baf-afbc-04b6db8ed0c1"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img989.png" alt="Формула"/>
+        </figure>
         <p>Подставляя, получаем:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/274d7568-8e67-4997-b52e-1f8a2a0983c6"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img991.png" alt="Формула"/>
+        </figure>
         <p>В этом выражении член:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6a841232-e4cc-4d13-865b-e518cbb64133"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img993.png" alt="Формула"/>
+        </figure>
         <p>показывает разность потенциалов между соседними витками одного слоя. При достаточно большом числе витков
             обмотки (а именно в этом случае и рассчитывают паразитную емкость обмотки) этой разностью можно пренебречь и
             выражение упростить:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ba0cba9d-8103-49ec-9a63-7b827cd12b79"/>
-        </p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/814a3b13-7193-4fcb-b39d-b54fe03368b0"/>
-        </p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cfcbb702-0733-49de-b6b3-7a8d6cc02274"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img995.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/img997.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/img999.png" alt="Формула"/>
+        </figure>
         <p>В соответствии с выражением для суммы квадратов первых натуральных чисел получаем:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cfb39535-0b61-45e4-a39d-a4ed64c2ab24"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img1001.png" alt="Формула"/>
+        </figure>
         <p>Сокращая, получаем:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4314d951-8c71-417a-b4b3-9d88e79181a2"/>
-        </p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f7a3d0d4-ddf8-4d48-889b-64e12094fba3"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img1003.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/img1005.png" alt="Формула"/>
+        </figure>
         <p>Таким образом, суммарная энергия, запасаемая в паразитной емкостной структуре равна сумме энергии межвитковых
             емкостей внутри слоев W<sub>tt_summ</sub> и энергии межслоевых емкостей W<sub>ll_summ</sub>:
         </p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/420be5bd-f6b8-4012-8add-4f425f877af4"/>
-        </p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5905ec51-af05-4148-b9b3-6d3a25e99325"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img1007.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/img1009.png" alt="Формула"/>
+        </figure>
         <p>Или, упрощая:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3810107f-a694-4434-8d52-162d9a633ad4"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img1011.png" alt="Формула"/>
+        </figure>
         <p>Эквивалентная ёмкость первичной обмотки может быть определена из выражения:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d9d05d34-f7c4-4876-87fc-3d7279024be0"/>
-        </p>
-        <p>Подставляя в которое выражение для энергии получаем:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/23044e33-88b8-48b2-bed3-b9eb22553517"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img1013.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/img1015.png" alt="Формула"/>
+        </figure>
         <p>Упрощая которое (V<sub>w</sub> сокращается) получаем итоговое выражение для емкости многослойной обмотки
             трансформатора с укладкой виток к витку:</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d2f012bc-3979-48ff-a76f-f3ae7fbf1950"/>
-        </p>
+        <figure class="article__image">
+            <img src="image/img1017.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>C<sub>t</sub> - емкость между двумя соседними витками равна (turn-виток);</p>
         <p>m - число витков в слое;</p>
         <p>n - число слоев.</p>
-        <span>Тип намотки – «один слой поверх магнитопровода»</span>
+        <h6 id="51">Тип намотки – «один слой поверх магнитопровода»</h6>
         <p>На рисунке T.23 изображена внутренняя структура межвитковой емкости обмотки, и распределение потенциала в
             обмотке, когда обмотка представляет собой один слой, уложенный поверх изоляции на магнитопроводе.</p>
-        <p><img alt=""
-                src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b2c3686b-9fb2-49b2-a378-44a91802594a"/>
-        </p>
-        <p>Рисунок T.23 - Межвитковые емкости и распределение потенциала в однослойной обмотке уложенной «виток к витку»
-            поверх магнитопровода</p>
+        <figure class="article__image">
+            <img src="image/img1019.jpg" alt="Рисунок-схема"/>
+            <p>Рисунок T.23 - Межвитковые емкости и распределение потенциала в однослойной обмотке уложенной «виток к витку»
+                поверх магнитопровода</p>
+        </figure>
+
         <p>Для расчета данной энергии введем условные обозначения:</p>
         <p>- емкость между двумя соседними витками равна C<sub>t</sub> (turn-виток);</p>
         <p>- емкость между витком и магнитопроводом равна C<sub>tm</sub> (core-магнитопровод);</p>
@@ -2366,7 +2374,7 @@
         <p>C<sub>t</sub> - емкость между двумя соседними витками равна (turn-виток);</p>
         <p>С<sub>tm</sub> – элементарная емкость «виток-магнитопровод»;</p>
         <p>m - число витков в слое обмотки.</p>
-        <span>Тип намотки – «виток к витку N-образная»</span>
+        <h6 id="52">Тип намотки – «виток к витку N-образная»</h6>
         <p>Данный тип намотки отличается от обычного W-образного типа намотки «виток к витку» тем, что выполняется
             перехлест провода обмотки для уменьшения межслоевой емкости.</p>
         <p><img alt=""
