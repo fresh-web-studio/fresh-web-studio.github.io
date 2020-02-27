@@ -3,36 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img1002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img1004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img1006.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img1008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img1010.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img1012.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img1014.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img1016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img1018.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img960.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img962.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img964.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img966.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img968.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img970.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img972.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img974.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img976.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img978.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img980.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img982.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img984.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img986.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img988.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img990.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img992.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img994.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img996.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img998.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/transformator.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/transformator.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,8 +146,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/transformator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="2304" column="35" selection-start-line="2304" selection-start-column="35" selection-end-line="2304" selection-end-column="35" />
+            <state relative-caret-position="732">
+              <caret line="333" column="49" lean-forward="true" selection-start-line="333" selection-start-column="49" selection-end-line="333" selection-end-column="49" />
               <folding>
                 <element signature="e#268406#268410#0" expanded="true" />
                 <element signature="e#268514#268518#0" expanded="true" />
@@ -208,7 +178,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Рисунок C.11</find>
       <find>ESR на амплитуду</find>
       <find>ESR</find>
       <find>пульсаций напряжения</find>
@@ -238,6 +207,7 @@
       <find>Соотношение для определения емкости м</find>
       <find>Тип намотки</find>
       <find>MsoTableGrid</find>
+      <find>Тепловой режим трансформатора</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -380,21 +350,7 @@
       <workItem from="1582533699284" duration="38001000" />
       <workItem from="1582720720027" duration="765000" />
       <workItem from="1582722014076" duration="192000" />
-      <workItem from="1582741312046" duration="13245000" />
-    </task>
-    <task id="LOCAL-00080" summary="Обновление">
-      <created>1582471105755</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1582471105755</updated>
-    </task>
-    <task id="LOCAL-00081" summary="Обновление">
-      <created>1582472739283</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1582472739283</updated>
+      <workItem from="1582741312046" duration="15454000" />
     </task>
     <task id="LOCAL-00082" summary="Обновление">
       <created>1582477649912</created>
@@ -725,11 +681,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582792343859</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Обновление">
+      <created>1582793412882</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1582793412882</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Обновление">
+      <created>1582794862178</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1582794862178</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151129000" />
+    <option name="totallyTimeSpent" value="153338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-642" y="-1440" width="1856" height="1440" extended-state="0" />
@@ -1092,8 +1062,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/transformator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="2304" column="35" selection-start-line="2304" selection-start-column="35" selection-end-line="2304" selection-end-column="35" />
+        <state relative-caret-position="732">
+          <caret line="333" column="49" lean-forward="true" selection-start-line="333" selection-start-column="49" selection-end-line="333" selection-end-column="49" />
           <folding>
             <element signature="e#268406#268410#0" expanded="true" />
             <element signature="e#268514#268518#0" expanded="true" />
