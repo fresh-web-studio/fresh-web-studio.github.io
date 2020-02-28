@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/mosfet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="239" column="33" selection-start-line="239" selection-start-column="33" selection-end-line="239" selection-end-column="33" />
+            <state relative-caret-position="528">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -115,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="120">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -130,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="258" column="28" selection-start-line="258" selection-start-column="28" selection-end-line="258" selection-end-column="28" />
+            <state relative-caret-position="4944">
+              <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -244,9 +244,9 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/tiristori.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/rezistori.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/index.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
       </list>
     </option>
   </component>
@@ -357,21 +357,7 @@
       <workItem from="1582533699284" duration="38001000" />
       <workItem from="1582720720027" duration="765000" />
       <workItem from="1582722014076" duration="192000" />
-      <workItem from="1582741312046" duration="59039000" />
-    </task>
-    <task id="LOCAL-00135" summary="Обновление">
-      <created>1582805308672</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1582805308672</updated>
-    </task>
-    <task id="LOCAL-00136" summary="Обновление">
-      <created>1582805936014</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1582805936014</updated>
+      <workItem from="1582741312046" duration="59325000" />
     </task>
     <task id="LOCAL-00137" summary="Обновление">
       <created>1582806340152</created>
@@ -702,11 +688,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582919776970</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="Обновление">
+      <created>1582920493589</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1582920493589</updated>
+    </task>
+    <task id="LOCAL-00185" summary="Обновление">
+      <created>1582920570315</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1582920570315</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196923000" />
+    <option name="totallyTimeSpent" value="197209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-280" width="1920" height="1080" extended-state="0" />
@@ -1093,24 +1093,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/mosfet.html">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="239" column="33" selection-start-line="239" selection-start-column="33" selection-end-line="239" selection-end-column="33" />
+        <state relative-caret-position="4944">
+          <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/mosfet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="258" column="28" selection-start-line="258" selection-start-column="28" selection-end-line="258" selection-end-column="28" />
+        <state relative-caret-position="528">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
         </state>
       </provider>
     </entry>
