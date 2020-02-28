@@ -29,16 +29,12 @@ body {
   flex: 1 100%;
 }
 
-@media all and (min-width: 600px) {
-  .aside {
-    flex: 1 auto;
-  }
-}
+
 
 /* ----------------------------------------------------------------------------------- */
 /* ----------------- Настроечная часть для кастомизации сортировки ------------------- */
 
-@media all and (min-width: 800px) {
+@media all and (max-width: 800px) {
   .main {
     flex: 3 0px;
   }
@@ -276,4 +272,10 @@ body {
   font-size: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .aside {
+    flex: 1 auto;
+  }
 }
