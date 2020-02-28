@@ -213,8 +213,7 @@ td img {
         font-size: 14px;
         line-height: 40px;
         width: 100%;
-        color: #000;
-        background: #125884;
+        color: #ffffff;
         transition: all .1s linear;
     }
     .toggle:hover {

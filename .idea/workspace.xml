@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/mosfet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="617">
+              <caret line="251" column="14" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -124,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="253" column="1" selection-start-line="253" selection-start-column="1" selection-end-line="253" selection-end-column="1" />
+            <state relative-caret-position="581">
+              <caret line="216" selection-start-line="216" selection-end-line="216" />
             </state>
           </provider>
         </entry>
@@ -244,8 +244,8 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/tiristori.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/rezistori.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/index.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" />
       </list>
     </option>
@@ -357,21 +357,7 @@
       <workItem from="1582533699284" duration="38001000" />
       <workItem from="1582720720027" duration="765000" />
       <workItem from="1582722014076" duration="192000" />
-      <workItem from="1582741312046" duration="57603000" />
-    </task>
-    <task id="LOCAL-00131" summary="Обновление">
-      <created>1582795813040</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1582795813040</updated>
-    </task>
-    <task id="LOCAL-00132" summary="Обновление">
-      <created>1582799152764</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1582799152764</updated>
+      <workItem from="1582741312046" duration="58092000" />
     </task>
     <task id="LOCAL-00133" summary="Обновление">
       <created>1582804196374</created>
@@ -702,11 +688,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582918959662</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="Обновление">
+      <created>1582918993847</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1582918993847</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Обновление">
+      <created>1582919271166</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1582919271166</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195487000" />
+    <option name="totallyTimeSpent" value="195976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-280" width="1920" height="1080" extended-state="0" />
@@ -1093,13 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="253" column="1" selection-start-line="253" selection-start-column="1" selection-end-line="253" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -1107,10 +1100,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/mosfet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="617">
+          <caret line="251" column="14" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
         </state>
       </provider>
     </entry>
