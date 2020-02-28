@@ -213,7 +213,10 @@ td img {
 }
 
 @media all and (max-width: 800px) {
-
+    .article__table p {
+        text-align: center;
+        font-size: 2vw;
+    }
     p {
         text-indent: 0rem;
         margin: 2rem 0;
