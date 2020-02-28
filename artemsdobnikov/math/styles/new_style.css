@@ -224,6 +224,9 @@ td img {
     ul {
         padding-inline-start: 10px;
     }
+    .article__table {
+        font-size: 2vw;
+    }
 
     /* ===== Menu-f ===== */
     .toggle {
