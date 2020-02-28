@@ -45,6 +45,14 @@ nav {
     padding: 10px 31px;
     transition: background 0.2s linear;
 }
+.footer .menu-f li a {
+    text-decoration: none;
+    align-self: center;
+    color: #125884;
+    font-size: 15px;
+    padding: 10px 78px;
+    transition: background 0.2s linear;
+}
 .menu-f li a:hover {
     background: #125884;
     color: #ffffff;
@@ -236,12 +244,19 @@ td img {
         height: 0;
         transition: height .3s linear;
     }
+    .footer .menu-f {
+        height: 100%;
+    }
     .menu-f li {
         display: flex;
         align-self: center;
         width: 100%;
         opacity: 0;
         visibility: hidden;
+    }
+    .footer .menu-f li {
+        opacity: 1;
+        visibility: visible;
     }
     .menu-f li a {
         width: 100%;
@@ -252,3 +267,4 @@ td img {
     }
     /* ===== /Menu-f ===== */
 }
+

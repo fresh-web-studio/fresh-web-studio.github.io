@@ -87,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rezistori.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="681" column="8" lean-forward="true" selection-start-line="681" selection-start-column="8" selection-end-line="683" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="664" column="56" lean-forward="true" selection-start-line="681" selection-start-column="8" selection-end-line="683" selection-end-column="17" />
               <folding>
                 <element signature="e#25201#25206#0" expanded="true" />
                 <element signature="e#26638#26643#0" expanded="true" />
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/mosfet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="251" column="14" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
+            <state relative-caret-position="449">
+              <caret line="239" column="33" selection-start-line="239" selection-start-column="33" selection-end-line="239" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -122,19 +122,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="216" selection-start-line="216" selection-end-line="216" />
+            <state relative-caret-position="-2505">
+              <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/style.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-end-line="90" />
+            <state relative-caret-position="673">
+              <caret line="258" column="28" selection-start-line="258" selection-start-column="28" selection-end-line="258" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -167,7 +167,6 @@
       <find>Типы резисторов, используемые в преобразовательной технике</find>
       <find>Корпуса и габаритные размеры резисторов</find>
       <find>Выводные резисторы</find>
-      <find>SMD-резисторы</find>
       <find>tab</find>
       <find>form-left</find>
       <find>mosf</find>
@@ -179,6 +178,7 @@
       <find>дио</find>
       <find>тра</find>
       <find>диод</find>
+      <find>SMD-резисторы</find>
       <find>&lt;p&gt; &lt;/p&gt;</find>
     </findStrings>
     <replaceStrings>
@@ -245,8 +245,8 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/rezistori.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/index.html" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
       </list>
     </option>
   </component>
@@ -357,21 +357,7 @@
       <workItem from="1582533699284" duration="38001000" />
       <workItem from="1582720720027" duration="765000" />
       <workItem from="1582722014076" duration="192000" />
-      <workItem from="1582741312046" duration="58092000" />
-    </task>
-    <task id="LOCAL-00133" summary="Обновление">
-      <created>1582804196374</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1582804196374</updated>
-    </task>
-    <task id="LOCAL-00134" summary="Обновление">
-      <created>1582805056483</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1582805056483</updated>
+      <workItem from="1582741312046" duration="59039000" />
     </task>
     <task id="LOCAL-00135" summary="Обновление">
       <created>1582805308672</created>
@@ -702,11 +688,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582919271166</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Обновление">
+      <created>1582919516930</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1582919516930</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Обновление">
+      <created>1582919776970</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1582919776970</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195976000" />
+    <option name="totallyTimeSpent" value="196923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-280" width="1920" height="1080" extended-state="0" />
@@ -1031,23 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rezistori.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="681" column="8" lean-forward="true" selection-start-line="681" selection-start-column="8" selection-end-line="683" selection-end-column="17" />
-          <folding>
-            <element signature="e#25201#25206#0" expanded="true" />
-            <element signature="e#26638#26643#0" expanded="true" />
-            <element signature="e#27942#27947#0" expanded="true" />
-            <element signature="e#29032#29037#0" expanded="true" />
-            <element signature="e#29620#29625#0" expanded="true" />
-            <element signature="e#30430#30435#0" expanded="true" />
-            <element signature="e#30560#30565#0" expanded="true" />
-            <element signature="e#31280#31285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/tiristori.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -1086,10 +1069,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rezistori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="664" column="56" lean-forward="true" selection-start-line="681" selection-start-column="8" selection-end-line="683" selection-end-column="17" />
+          <folding>
+            <element signature="e#25201#25206#0" expanded="true" />
+            <element signature="e#26638#26643#0" expanded="true" />
+            <element signature="e#27942#27947#0" expanded="true" />
+            <element signature="e#29032#29037#0" expanded="true" />
+            <element signature="e#29620#29625#0" expanded="true" />
+            <element signature="e#30430#30435#0" expanded="true" />
+            <element signature="e#30560#30565#0" expanded="true" />
+            <element signature="e#31280#31285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-end-line="90" />
+        <state relative-caret-position="-2505">
+          <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/mosfet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="239" column="33" selection-start-line="239" selection-start-column="33" selection-end-line="239" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1102,15 +1109,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="216" selection-start-line="216" selection-end-line="216" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/mosfet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="251" column="14" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
+        <state relative-caret-position="673">
+          <caret line="258" column="28" selection-start-line="258" selection-start-column="28" selection-end-line="258" selection-end-column="28" />
         </state>
       </provider>
     </entry>
