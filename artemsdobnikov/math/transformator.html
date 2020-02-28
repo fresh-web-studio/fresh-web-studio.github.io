@@ -15,27 +15,30 @@
 
     <header class="header">
         <img src="image/banner.jpg" alt="Баннер в шапке">
+        <nav>
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+                <ul class="menu touch">
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Дискретные элементы</a>
+                    </li>
+                    <li>
+                        <a href="#">Интегральные элементы, блоки и узлы схем</a>
+                    </li>
+                    <li>
+                        <a href="#">Импульсные стабилизаторы</a>
+                    </li>
+                    <li>
+                        <a href="#">Импульсные преобразователи</a>
+                    </li>
+                </ul>
+                <span class="toggle">☰</span>
+            </label>
+        </nav>
     </header>
-
-    <nav class="menu">
-        <ul>
-            <li>
-                <a href="#">Главная</a>
-            </li>
-            <li>
-                <a href="#">Дискретные элементы</a>
-            </li>
-            <li>
-                <a href="#">Интегральные элементы, блоки и узлы схем</a>
-            </li>
-            <li>
-                <a href="#">Импульсные стабилизаторы</a>
-            </li>
-            <li>
-                <a href="#">Импульсные преобразователи</a>
-            </li>
-        </ul>
-    </nav>
 
     <article class="article">
         <!-- навигация по статье -->
@@ -6390,17 +6393,15 @@
 
 <footer class="footer">
     <div class="container">
-        <div class="f_menu">
-            <ul>
+        <nav>
+            <ul class="menu">
                 <li><a href="#">Справочник</a></li>
                 <li><a href="#">Практические инструкции</a></li>
                 <li><a href="#">Технологии</a></li>
                 <li><a href="#">О сайте</a></li>
+                <li class="f_menu_right"><a href="#">Контакты</a></li>
             </ul>
-            <div class="f_menu_right">
-                <a href="#">Контакты</a>
-            </div>
-        </div>
+        </nav>
     </div>
 </footer>
 </body>

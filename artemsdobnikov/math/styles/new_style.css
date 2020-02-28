@@ -26,7 +26,7 @@ nav {
 #checkbox-menu, .toggle, #checkbox-menu-footer {
     display: none;
 }
-.menu-f {
+.menu {
     padding: 0;
     margin: 0;
     height: 40px;
@@ -37,7 +37,7 @@ nav {
     list-style-type: none;
     border: 2px solid #125884;
 }
-.menu-f li a {
+.menu li a {
     text-decoration: none;
     align-self: center;
     color: #125884;
@@ -45,7 +45,7 @@ nav {
     padding: 10px 31px;
     transition: background 0.2s linear;
 }
-.footer .menu-f li a {
+.footer .menu li a {
     text-decoration: none;
     align-self: center;
     color: #125884;
@@ -53,7 +53,7 @@ nav {
     padding: 10px 78px;
     transition: background 0.2s linear;
 }
-.menu-f li a:hover {
+.menu li a:hover {
     background: #125884;
     color: #ffffff;
 }
@@ -236,7 +236,7 @@ td img {
     #checkbox-menu:checked + label .touch {
         height: 350px;
     }
-    .menu-f {
+    .menu {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -244,21 +244,21 @@ td img {
         height: 0;
         transition: height .3s linear;
     }
-    .footer .menu-f {
+    .footer .menu {
         height: 100%;
     }
-    .menu-f li {
+    .menu li {
         display: flex;
         align-self: center;
         width: 100%;
         opacity: 0;
         visibility: hidden;
     }
-    .footer .menu-f li {
+    .footer .menu li {
         opacity: 1;
         visibility: visible;
     }
-    .menu-f li a {
+    .menu li a {
         width: 100%;
         text-align: center;
         align-self: center;
