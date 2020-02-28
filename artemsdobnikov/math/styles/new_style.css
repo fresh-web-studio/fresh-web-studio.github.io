@@ -23,7 +23,7 @@ nav {
     max-width: 1270px;
     width: 100%;
 }
-#checkbox-menu, .toggle {
+#checkbox-menu, .toggle, #checkbox-menu-footer {
     display: none;
 }
 .menu-f {
@@ -215,6 +215,7 @@ td img {
         width: 100%;
         color: #ffffff;
         transition: all .1s linear;
+        background: #125884;
     }
     .toggle:hover {
         background: #125884;
