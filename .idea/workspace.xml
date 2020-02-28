@@ -124,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="490">
-              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+              <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -149,8 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>13.4 Определение длин проводников первичной и вторичн</find>
-      <find>13.4 Определение длин проводников первичной</find>
       <find>18. Расчет температурного режима трансформатора и оптимизация</find>
       <find>Энергия, запасаемая</find>
       <find>Межвитковая емкость вторичной обмотки С</find>
@@ -179,6 +177,8 @@
       <find>транзисторы</find>
       <find>igbt</find>
       <find>дио</find>
+      <find>тра</find>
+      <find>диод</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -349,14 +349,7 @@
       <workItem from="1582533699284" duration="38001000" />
       <workItem from="1582720720027" duration="765000" />
       <workItem from="1582722014076" duration="192000" />
-      <workItem from="1582741312046" duration="53642000" />
-    </task>
-    <task id="LOCAL-00126" summary="Обновление">
-      <created>1582784318939</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1582784318940</updated>
+      <workItem from="1582741312046" duration="53932000" />
     </task>
     <task id="LOCAL-00127" summary="Обновление">
       <created>1582791135518</created>
@@ -694,17 +687,24 @@
       <option name="project" value="LOCAL" />
       <updated>1582888320858</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="Обновление">
+      <created>1582888619451</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1582888619451</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191526000" />
+    <option name="totallyTimeSpent" value="191816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-642" y="-1440" width="2123" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.12795751" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.12795751" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1002,13 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="140" column="27" lean-forward="true" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="772">
@@ -1093,10 +1086,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="140" column="27" lean-forward="true" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
-          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+          <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="41" />
         </state>
       </provider>
     </entry>
