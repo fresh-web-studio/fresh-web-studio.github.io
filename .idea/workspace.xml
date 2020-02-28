@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/transformator.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/transformator.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/transformator.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="1744" column="38" selection-start-line="1744" selection-start-column="38" selection-end-line="1744" selection-end-column="38" />
+              <caret line="1769" column="55" selection-end-line="6406" selection-end-column="7" />
               <folding>
                 <element signature="e#268406#268410#0" expanded="true" />
                 <element signature="e#268514#268518#0" expanded="true" />
@@ -92,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/tiristori.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="480">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -121,8 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MsoTableTheme</find>
-      <find>&lt;table</find>
       <find>Соотношение для определения емкости м</find>
       <find>Тип намотки</find>
       <find>Тепловой режим трансформатора</find>
@@ -147,10 +144,12 @@
       <find>для вторичной обмотки:</find>
       <find>для первичной и вторичной обмоток</find>
       <find>Рисунок T.41</find>
-      <find>form-left</find>
       <find>Рисунок T.35</find>
       <find>Таблица T.2</find>
       <find>MsoTableGrid</find>
+      <find>917.png</find>
+      <find>&lt;p&gt; &lt;/p&gt;</find>
+      <find>form-left</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -213,8 +212,8 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/kondensator.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/tiristori.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/transformator.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/tiristori.html" />
       </list>
     </option>
   </component>
@@ -318,14 +317,7 @@
       <workItem from="1582533699284" duration="38001000" />
       <workItem from="1582720720027" duration="765000" />
       <workItem from="1582722014076" duration="192000" />
-      <workItem from="1582741312046" duration="49656000" />
-    </task>
-    <task id="LOCAL-00118" summary="Обновление">
-      <created>1582703588590</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1582703588590</updated>
+      <workItem from="1582741312046" duration="50180000" />
     </task>
     <task id="LOCAL-00119" summary="Обновление">
       <created>1582720000597</created>
@@ -663,11 +655,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582884318010</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="Обновление">
+      <created>1582884562529</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1582884562529</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187540000" />
+    <option name="totallyTimeSpent" value="188064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-642" y="-1440" width="2123" height="1440" extended-state="0" />
@@ -1000,13 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="150" column="23" lean-forward="true" selection-start-line="148" selection-start-column="8" selection-end-line="151" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -1025,23 +1017,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/tiristori.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/transformator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="1744" column="38" selection-start-line="1744" selection-start-column="38" selection-end-line="1744" selection-end-column="38" />
+          <caret line="1769" column="55" selection-end-line="6406" selection-end-column="7" />
           <folding>
             <element signature="e#268406#268410#0" expanded="true" />
             <element signature="e#268514#268518#0" expanded="true" />
             <element signature="e#366596#366600#0" expanded="true" />
             <element signature="e#366702#366706#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="150" column="23" lean-forward="true" selection-start-line="148" selection-start-column="8" selection-end-line="151" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/tiristori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
