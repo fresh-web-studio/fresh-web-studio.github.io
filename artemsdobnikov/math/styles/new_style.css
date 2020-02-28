@@ -14,6 +14,44 @@ body {
     margin: 0 auto;
 }
 
+/* ===== Menu-f ===== */
+body {
+    overflow-x:  hidden;
+}
+nav {
+    margin: 0 auto;
+    max-width: 1270px;
+    width: 100%;
+}
+#checkbox-menu, .toggle {
+    display: none;
+}
+.menu-f {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.menu-f li a {
+    text-decoration: none;
+    align-self: center;
+    color: #125884;
+    font-size: 15px;
+    padding: 10px 15px;
+    transition: background 0.2s linear;
+
+}
+.menu-f li a:hover {
+    background: #125884;
+    color: #ffffff;
+}
+
+/* ===== /Menu-f ===== */
+
 h1, h2, h3, h4, h5, h6 {
     color: #08508A;
 }
@@ -166,7 +204,55 @@ td img {
     padding: 0.25rem;
 }
 
-/* ! осторожно говнокод */
+@media all and (max-width: 800px) {
+    /* ===== Menu-f ===== */
+    .toggle {
+        clear: both;
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        line-height: 40px;
+        width: 100%;
+        color: #000;
+        background: #125884;
+        transition: all .1s linear;
+    }
+    .toggle:hover {
+        background: #125884;
+    }
+    #checkbox-menu:checked + label .touch li {
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #checkbox-menu:checked + label .touch {
+        height: 350px;
+    }
+    .menu-f {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0;
+        transition: height .3s linear;
+    }
+    .menu-f li {
+        display: flex;
+        align-self: center;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu-f li a {
+        width: 95%;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+    }
+    /* ===== /Menu-f ===== */
+}
+
+    /* ! осторожно говнокод */
 /* ! осторожно говнокод */
 /* ! осторожно говнокод */
 /* ! осторожно говнокод */
