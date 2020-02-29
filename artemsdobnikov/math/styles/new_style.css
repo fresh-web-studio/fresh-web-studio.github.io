@@ -236,7 +236,7 @@ td img {
         clear: both;
         display: block;
         text-align: center;
-        font-size: 14px;
+        font-size: 40px;
         line-height: 40px;
         width: 100%;
         color: #ffffff;
@@ -261,6 +261,7 @@ td img {
         align-items: center;
         height: 0;
         transition: height .3s linear;
+        border: 0px solid;
     }
     .footer .menu {
         height: 100%;
