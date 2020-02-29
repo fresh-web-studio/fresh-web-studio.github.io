@@ -94,6 +94,12 @@ h5 {
     font-weight: 300;
     text-decoration: underline;
 }
+h6 {
+    padding: .5rem 0rem 0rem;
+    font-size: 0.95rem;
+    font-weight: 300;
+    text-decoration: underline;
+}
 .article__nav ul li a {
     text-decoration: none;
     margin-block-start: 0em;
