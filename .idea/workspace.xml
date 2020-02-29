@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/transformator.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/transformator.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/transformator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="492" column="16" selection-start-line="492" selection-start-column="16" selection-end-line="492" selection-end-column="16" />
+            <state relative-caret-position="386">
+              <caret line="351" column="39" selection-start-line="351" selection-start-column="39" selection-end-line="351" selection-end-column="39" />
               <folding>
                 <element signature="e#268406#268410#0" expanded="true" />
                 <element signature="e#268514#268518#0" expanded="true" />
@@ -31,17 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="-532">
               <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="181" column="47" selection-start-line="181" selection-start-column="47" selection-end-line="181" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -66,8 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Типы резисторов, используемые в преобразовательной технике</find>
-      <find>Корпуса и габаритные размеры резисторов</find>
       <find>Выводные резисторы</find>
       <find>mosf</find>
       <find>рези</find>
@@ -96,6 +85,8 @@
       <find>701</find>
       <find>для обмо</find>
       <find>Тороидальные магнитопроводы</find>
+      <find>Влияние скин-эффекта на сопротивление</find>
+      <find>2. Расчет габаритного</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -169,8 +160,8 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/inductance — копия.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/diods.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/transformator.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/transformator.html" />
       </list>
     </option>
   </component>
@@ -289,21 +280,7 @@
       <workItem from="1582533699284" duration="38001000" />
       <workItem from="1582720720027" duration="765000" />
       <workItem from="1582722014076" duration="192000" />
-      <workItem from="1582741312046" duration="67004000" />
-    </task>
-    <task id="LOCAL-00155" summary="Обновление">
-      <created>1582871885204</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1582871885204</updated>
-    </task>
-    <task id="LOCAL-00156" summary="Обновление">
-      <created>1582872640613</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1582872640613</updated>
+      <workItem from="1582741312046" duration="68109000" />
     </task>
     <task id="LOCAL-00157" summary="Обновление">
       <created>1582873565171</created>
@@ -634,11 +611,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582958457800</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="Обновление">
+      <created>1582959055123</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1582959055123</updated>
+    </task>
+    <task id="LOCAL-00205" summary="Обновление">
+      <created>1582959474789</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1582959474789</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204888000" />
+    <option name="totallyTimeSpent" value="205993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -901,20 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="233" column="28" lean-forward="true" selection-start-line="233" selection-start-column="28" selection-end-line="233" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance — копия.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -986,23 +963,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="233" column="28" lean-forward="true" selection-start-line="233" selection-start-column="28" selection-end-line="233" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="191" column="39" lean-forward="true" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-532">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/transformator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="492" column="16" selection-start-line="492" selection-start-column="16" selection-end-line="492" selection-end-column="16" />
+        <state relative-caret-position="386">
+          <caret line="351" column="39" selection-start-line="351" selection-start-column="39" selection-end-line="351" selection-end-column="39" />
           <folding>
             <element signature="e#268406#268410#0" expanded="true" />
             <element signature="e#268514#268518#0" expanded="true" />
             <element signature="e#342436#342440#0" expanded="true" />
             <element signature="e#342542#342546#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="181" column="47" selection-start-line="181" selection-start-column="47" selection-end-line="181" selection-end-column="47" />
         </state>
       </provider>
     </entry>
