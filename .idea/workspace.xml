@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/kondensator.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/kondensator.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,29 +44,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/kondensator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/tiristori.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-525">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/mosfet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="285">
+              <caret line="1225" column="12" selection-start-line="1225" selection-start-column="12" selection-end-line="1225" selection-end-column="12" />
+              <folding>
+                <element signature="e#33776#33780#0" expanded="true" />
+                <element signature="e#34978#34982#0" expanded="true" />
+                <element signature="e#35002#35006#0" expanded="true" />
+                <element signature="e#35029#35033#0" expanded="true" />
+                <element signature="e#35076#35080#0" expanded="true" />
+                <element signature="e#35102#35106#0" expanded="true" />
+                <element signature="e#37979#37983#0" expanded="true" />
+                <element signature="e#40499#40503#0" expanded="true" />
+                <element signature="e#40997#41001#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,8 +179,6 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/temp.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/index.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/inductance — копия.html" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/tiristori.html" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/kondensator.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/diods.html" />
@@ -196,6 +187,8 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/rezistori.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/tiristori.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/kondensator.html" />
       </list>
     </option>
   </component>
@@ -316,21 +309,7 @@
       <workItem from="1582533699284" duration="38001000" />
       <workItem from="1582720720027" duration="765000" />
       <workItem from="1582722014076" duration="192000" />
-      <workItem from="1582741312046" duration="70744000" />
-    </task>
-    <task id="LOCAL-00174" summary="Обновление">
-      <created>1582888320858</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1582888320858</updated>
-    </task>
-    <task id="LOCAL-00175" summary="Обновление">
-      <created>1582888619451</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1582888619451</updated>
+      <workItem from="1582741312046" duration="70969000" />
     </task>
     <task id="LOCAL-00176" summary="Обновление">
       <created>1582888923908</created>
@@ -661,11 +640,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582972187661</updated>
     </task>
-    <option name="localTasksCounter" value="223" />
+    <task id="LOCAL-00223" summary="Обновление">
+      <created>1582972248646</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1582972248647</updated>
+    </task>
+    <task id="LOCAL-00224" summary="Обновление">
+      <created>1582972294188</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1582972294188</updated>
+    </task>
+    <option name="localTasksCounter" value="225" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208628000" />
+    <option name="totallyTimeSpent" value="208853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-280" width="1920" height="1080" extended-state="0" />
@@ -957,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/tiristori.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/transformator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -984,13 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/kondensator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rezistori.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -1002,6 +981,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/tiristori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/kondensator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="1225" column="12" selection-start-line="1225" selection-start-column="12" selection-end-line="1225" selection-end-column="12" />
+          <folding>
+            <element signature="e#33776#33780#0" expanded="true" />
+            <element signature="e#34978#34982#0" expanded="true" />
+            <element signature="e#35002#35006#0" expanded="true" />
+            <element signature="e#35029#35033#0" expanded="true" />
+            <element signature="e#35076#35080#0" expanded="true" />
+            <element signature="e#35102#35106#0" expanded="true" />
+            <element signature="e#37979#37983#0" expanded="true" />
+            <element signature="e#40499#40503#0" expanded="true" />
+            <element signature="e#40997#41001#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
