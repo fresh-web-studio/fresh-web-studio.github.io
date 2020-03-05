@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +16,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="642">
+              <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="57" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rectifier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="602">
+              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -42,7 +42,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>igb</find>
       <find>транзисторы</find>
       <find>igbt</find>
       <find>дио</find>
@@ -72,6 +71,7 @@
       <find>&lt;/h6&gt;&lt;/p&gt;</find>
       <find>&lt;p&gt; &lt;/p&gt;</find>
       <find>&lt;/h4&gt;&lt;/p&gt;</find>
+      <find>&lt;/sub&gt;&lt;sub&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -148,6 +148,7 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/diods.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/rectifier.html" />
       </list>
     </option>
   </component>
@@ -186,13 +187,6 @@
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
               <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,28 +264,7 @@
       <workItem from="1582722014076" duration="192000" />
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
-      <workItem from="1583380652933" duration="3159000" />
-    </task>
-    <task id="LOCAL-00183" summary="Обновление">
-      <created>1582919776970</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1582919776970</updated>
-    </task>
-    <task id="LOCAL-00184" summary="Обновление">
-      <created>1582920493589</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1582920493589</updated>
-    </task>
-    <task id="LOCAL-00185" summary="Обновление">
-      <created>1582920570315</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1582920570315</updated>
+      <workItem from="1583380652933" duration="4877000" />
     </task>
     <task id="LOCAL-00186" summary="Обновление">
       <created>1582920929264</created>
@@ -615,11 +588,32 @@
       <option name="project" value="LOCAL" />
       <updated>1583384046483</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="Обновление">
+      <created>1583384084175</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1583384084175</updated>
+    </task>
+    <task id="LOCAL-00233" summary="Обновление">
+      <created>1583384398466</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1583384398466</updated>
+    </task>
+    <task id="LOCAL-00234" summary="Обновление">
+      <created>1583384600294</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1583384600294</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213430000" />
+    <option name="totallyTimeSpent" value="215148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1247" y="-1417" width="1251" height="1330" extended-state="0" />
@@ -735,9 +729,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img039.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img041.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -933,17 +924,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="482">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="642">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="57" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rectifier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
         </state>
       </provider>
     </entry>
