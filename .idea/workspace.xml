@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/rectifier.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/rectifier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,28 +14,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rectifier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7536">
-              <caret line="314" column="8" selection-start-line="314" selection-start-column="8" selection-end-line="317" selection-end-column="8" />
+            <state relative-caret-position="504">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rectifier.html">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11232">
-              <caret line="468" column="36" selection-start-line="468" selection-start-column="36" selection-end-line="468" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="298" column="13" selection-start-line="297" selection-end-line="301" selection-end-column="17" />
+            <state relative-caret-position="288">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+              <folding>
+                <element signature="e#26245#26249#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,20 +45,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;menu-f</find>
-      <find>т.4</find>
-      <find>область прим</find>
-      <find>tab</find>
-      <find>д</find>
-      <find>vd</find>
-      <find>обмоток</find>
-      <find>MsoTableGrid</find>
-      <find>&lt;h6</find>
-      <find>http</find>
-      <find>&lt;/h3&gt;</find>
-      <find>form-left</find>
-      <find>701</find>
-      <find>для обмо</find>
       <find>Тороидальные магнитопроводы</find>
       <find>Влияние скин-эффекта на сопротивление</find>
       <find>2. Расчет габаритного</find>
@@ -81,6 +61,20 @@
       <find>Расчет емкости конденсатора при задан</find>
       <find>Расчет амплитуды импульсов тока при заданно</find>
       <find>&lt;/h4&gt;&lt;/p&gt;</find>
+      <find>Несимметричный умножитель напряжения (Villard cascade)</find>
+      <find>Симметричный умножитель напряжения (Double Villard cascade)</find>
+      <find>Симметричный умножитель напряжения</find>
+      <find>Симметричный умножитель напряжения Шенкеля – Вилларда</find>
+      <find>Гибридный умножитель напряжения последовательно-параллельного типа</find>
+      <find>Симметричный умножитель на основе диодных мосто</find>
+      <find>Симметричный двухполупериодный умножитель Кокрофта-Уолтона</find>
+      <find>Удвоитель напряжения Латура-Делона-Гренашера</find>
+      <find>Примеры схемотехнических реализаций умножителей напряжения</find>
+      <find>Утроители напряжения</find>
+      <find>Умножители на 4</find>
+      <find>Умножитель на 6</find>
+      <find>Умножитель на 8</find>
+      <find>Требования к диодам и конденсаторам умножителей напряжения</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -158,6 +152,7 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/rectifier.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html" />
       </list>
     </option>
   </component>
@@ -168,10 +163,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="279" />
-    <option name="y" value="-1415" />
-    <option name="width" value="1065" />
-    <option name="height" value="1386" />
+    <option name="x" value="-395" />
+    <option name="y" value="-1417" />
+    <option name="width" value="1739" />
+    <option name="height" value="1329" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -274,21 +269,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="3532000" />
-    </task>
-    <task id="LOCAL-00192" summary="Обновление">
-      <created>1582953318730</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1582953318730</updated>
-    </task>
-    <task id="LOCAL-00193" summary="Обновление">
-      <created>1582954488447</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1582954488447</updated>
+      <workItem from="1583479670196" duration="5449000" />
     </task>
     <task id="LOCAL-00194" summary="Обновление">
       <created>1582954632200</created>
@@ -619,17 +600,31 @@
       <option name="project" value="LOCAL" />
       <updated>1583490083037</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="Обновление">
+      <created>1583491569483</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1583491569483</updated>
+    </task>
+    <task id="LOCAL-00242" summary="Обновление">
+      <created>1583492430329</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1583492430329</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220675000" />
+    <option name="totallyTimeSpent" value="222592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="279" y="-1415" width="1065" height="1386" extended-state="0" />
+    <frame x="-395" y="-1417" width="1739" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.18338816" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.34649557" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -642,7 +637,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.29411766" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12867956" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012987" side_tool="true" weight="0.32694247" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.2250185" />
@@ -739,9 +734,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img041.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img042.png" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img043.png">
       <provider selected="true" editor-type-id="images" />
@@ -924,13 +916,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html" />
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7536">
-          <caret line="314" column="8" selection-start-line="314" selection-start-column="8" selection-end-line="317" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
@@ -938,10 +923,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="314" column="8" selection-start-line="314" selection-start-column="8" selection-end-line="317" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rectifier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11232">
-          <caret line="468" column="36" selection-start-line="468" selection-start-column="36" selection-end-line="468" selection-end-column="36" />
+        <state relative-caret-position="504">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="e#26245#26249#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
