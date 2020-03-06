@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html" afterDir="false" />
     </list>
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rectifier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="379">
+              <caret line="346" column="28" lean-forward="true" selection-start-line="346" selection-end-line="347" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+            <state relative-caret-position="755">
+              <caret line="113" column="53" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
               <folding>
                 <element signature="e#26245#26249#0" expanded="true" />
               </folding>
@@ -163,9 +163,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-395" />
+    <option name="x" value="274" />
     <option name="y" value="-1417" />
-    <option name="width" value="1739" />
+    <option name="width" value="1070" />
     <option name="height" value="1329" />
   </component>
   <component name="ProjectView">
@@ -269,14 +269,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="5449000" />
-    </task>
-    <task id="LOCAL-00194" summary="Обновление">
-      <created>1582954632200</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1582954632200</updated>
+      <workItem from="1583479670196" duration="5956000" />
     </task>
     <task id="LOCAL-00195" summary="Обновление">
       <created>1582954766725</created>
@@ -614,14 +607,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583492430329</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="Обновление">
+      <created>1583493798755</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1583493798755</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222592000" />
+    <option name="totallyTimeSpent" value="223099000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-395" y="-1417" width="1739" height="1329" extended-state="0" />
+    <frame x="274" y="-1417" width="1070" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.34649557" />
@@ -932,15 +932,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rectifier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="379">
+          <caret line="346" column="28" lean-forward="true" selection-start-line="346" selection-end-line="347" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        <state relative-caret-position="755">
+          <caret line="113" column="53" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
           <folding>
             <element signature="e#26245#26249#0" expanded="true" />
           </folding>
