@@ -13,23 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
-              <folding>
-                <element signature="e#6369#6374#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="762">
+              <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="55" column="104" selection-start-line="55" selection-start-column="104" selection-end-line="55" selection-end-column="104" />
+            <state relative-caret-position="580">
+              <caret line="738" column="26" selection-start-line="738" selection-start-column="26" selection-end-line="738" selection-end-column="26" />
+              <folding>
+                <element signature="e#6631#6636#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +45,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Расчет элементов преобразователя пуш-пул</find>
-      <find>Ключевые транзисторы</find>
       <find>Выходные диоды</find>
       <find>&gt;Трансформатор</find>
       <find>Дроссель фильтра</find>
@@ -75,6 +73,8 @@
       <find>12. Расчет выходного конденсатора фильтра</find>
       <find>13. Расчет входного конденсатора</find>
       <find>равную длительно</find>
+      <find>img</find>
+      <find>Рисунок</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -271,21 +271,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="12627000" />
-    </task>
-    <task id="LOCAL-00203" summary="Обновление">
-      <created>1582958457800</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1582958457800</updated>
-    </task>
-    <task id="LOCAL-00204" summary="Обновление">
-      <created>1582959055123</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1582959055123</updated>
+      <workItem from="1583479670196" duration="16578000" />
     </task>
     <task id="LOCAL-00205" summary="Обновление">
       <created>1582959474789</created>
@@ -616,17 +602,31 @@
       <option name="project" value="LOCAL" />
       <updated>1583589540270</updated>
     </task>
-    <option name="localTasksCounter" value="252" />
+    <task id="LOCAL-00252" summary="Обновление">
+      <created>1583592209926</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1583592209926</updated>
+    </task>
+    <task id="LOCAL-00253" summary="Обновление">
+      <created>1583594056731</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1583594056731</updated>
+    </task>
+    <option name="localTasksCounter" value="254" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229770000" />
+    <option name="totallyTimeSpent" value="233721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="179" y="-1411" width="1166" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.34577602" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.34560144" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -940,17 +940,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="55" column="104" selection-start-line="55" selection-start-column="104" selection-end-line="55" selection-end-column="104" />
+        <state relative-caret-position="762">
+          <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
+        <state relative-caret-position="580">
+          <caret line="738" column="26" selection-start-line="738" selection-start-column="26" selection-end-line="738" selection-end-column="26" />
           <folding>
-            <element signature="e#6369#6374#0" expanded="true" />
+            <element signature="e#6631#6636#0" expanded="true" />
           </folding>
         </state>
       </provider>
