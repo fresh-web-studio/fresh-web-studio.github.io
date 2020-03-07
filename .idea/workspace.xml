@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="452">
+              <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
               <folding>
                 <element signature="e#6369#6374#0" expanded="true" />
               </folding>
@@ -45,7 +45,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Соотношение для выходного напряжения</find>
       <find>Расчет элементов преобразователя пуш-пул</find>
       <find>Ключевые транзисторы</find>
       <find>Выходные диоды</find>
@@ -75,6 +74,7 @@
       <find>11. Расчет выпрямительных диодов</find>
       <find>12. Расчет выходного конденсатора фильтра</find>
       <find>13. Расчет входного конденсатора</find>
+      <find>равную длительно</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -164,10 +164,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-670" />
-    <option name="y" value="-1417" />
-    <option name="width" value="2560" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="179" />
+    <option name="y" value="-1411" />
+    <option name="width" value="1166" />
     <option name="height" value="1329" />
   </component>
   <component name="ProjectView">
@@ -271,14 +271,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="11462000" />
-    </task>
-    <task id="LOCAL-00202" summary="Обновление">
-      <created>1582958136507</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1582958136507</updated>
+      <workItem from="1583479670196" duration="12627000" />
     </task>
     <task id="LOCAL-00203" summary="Обновление">
       <created>1582958457800</created>
@@ -616,14 +609,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583519544983</updated>
     </task>
-    <option name="localTasksCounter" value="251" />
+    <task id="LOCAL-00251" summary="Обновление">
+      <created>1583589540270</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1583589540270</updated>
+    </task>
+    <option name="localTasksCounter" value="252" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228605000" />
+    <option name="totallyTimeSpent" value="229770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-670" y="-1417" width="2560" height="1329" extended-state="6" />
+    <frame x="179" y="-1411" width="1166" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.34577602" />
@@ -947,8 +947,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="452">
+          <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
           <folding>
             <element signature="e#6369#6374#0" expanded="true" />
           </folding>
