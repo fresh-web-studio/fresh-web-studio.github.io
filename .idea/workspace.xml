@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/vlimit.html" afterDir="false" />
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/vlimit.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/vlimit.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="1748" column="34" selection-start-line="1748" selection-start-column="34" selection-end-line="1748" selection-end-column="34" />
+            <state relative-caret-position="964">
+              <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="134" selection-end-column="17" />
               <folding>
                 <element signature="e#6631#6636#0" expanded="true" />
               </folding>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/vlimit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state relative-caret-position="637">
+              <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -54,8 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;Трансформатор</find>
-      <find>Дроссель фильтра</find>
       <find>&gt;Дроссель фильтра</find>
       <find>&gt;Выходной конденсатор фильтра</find>
       <find>&gt;Входной конденсатор</find>
@@ -84,6 +82,8 @@
       <find>img</find>
       <find>Рисунок</find>
       <find>схема</find>
+      <find>рису</find>
+      <find>&lt;/span&gt;&lt;span&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -174,7 +174,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="179" />
     <option name="y" value="-1411" />
     <option name="width" value="1166" />
@@ -281,21 +281,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="27471000" />
-    </task>
-    <task id="LOCAL-00210" summary="Обновление">
-      <created>1582970159416</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1582970159416</updated>
-    </task>
-    <task id="LOCAL-00211" summary="Обновление">
-      <created>1582970272219</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1582970272219</updated>
+      <workItem from="1583479670196" duration="27888000" />
     </task>
     <task id="LOCAL-00212" summary="Обновление">
       <created>1582970592586</created>
@@ -626,14 +612,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583770774262</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="Обновление">
+      <created>1583773613922</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1583773613922</updated>
+    </task>
+    <task id="LOCAL-00260" summary="Обновление">
+      <created>1583773839036</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1583773839036</updated>
+    </task>
+    <option name="localTasksCounter" value="261" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244614000" />
+    <option name="totallyTimeSpent" value="245031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
+    <frame x="179" y="-1411" width="1166" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.34560144" />
@@ -954,8 +954,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="1748" column="34" selection-start-line="1748" selection-start-column="34" selection-end-line="1748" selection-end-column="34" />
+        <state relative-caret-position="964">
+          <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="134" selection-end-column="17" />
           <folding>
             <element signature="e#6631#6636#0" expanded="true" />
           </folding>
@@ -964,8 +964,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/vlimit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state relative-caret-position="637">
+          <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
         </state>
       </provider>
     </entry>
