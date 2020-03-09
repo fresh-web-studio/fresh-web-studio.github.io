@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/vlimit.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/vlimit.html" afterDir="false" />
-    </list>
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
+            <state relative-caret-position="741">
+              <caret line="293" column="22" lean-forward="true" selection-start-line="293" selection-start-column="22" selection-end-line="293" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -25,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="964">
-              <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="134" selection-end-column="17" />
+            <state relative-caret-position="-36304">
+              <caret line="94" column="32" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
               <folding>
                 <element signature="e#6631#6636#0" expanded="true" />
               </folding>
@@ -35,10 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/vlimit.html">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/pwmc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+            <state relative-caret-position="3984">
+              <caret line="166" column="36" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -82,8 +79,8 @@
       <find>img</find>
       <find>Рисунок</find>
       <find>схема</find>
-      <find>рису</find>
       <find>&lt;/span&gt;&lt;span&gt;</find>
+      <find>рису</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -165,6 +162,7 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/vlimit.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/pwmc.html" />
       </list>
     </option>
   </component>
@@ -174,7 +172,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="179" />
     <option name="y" value="-1411" />
     <option name="width" value="1166" />
@@ -281,14 +279,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="27888000" />
-    </task>
-    <task id="LOCAL-00212" summary="Обновление">
-      <created>1582970592586</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1582970592586</updated>
+      <workItem from="1583479670196" duration="28329000" />
     </task>
     <task id="LOCAL-00213" summary="Обновление">
       <created>1582970656501</created>
@@ -626,14 +617,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583773839036</updated>
     </task>
-    <option name="localTasksCounter" value="261" />
+    <task id="LOCAL-00261" summary="Обновление">
+      <created>1583774030609</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1583774030609</updated>
+    </task>
+    <option name="localTasksCounter" value="262" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245031000" />
+    <option name="totallyTimeSpent" value="245472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="179" y="-1411" width="1166" height="1329" extended-state="0" />
+    <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.34560144" />
@@ -746,9 +744,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img057.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img089.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -945,27 +940,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/vlimit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
+        <state relative-caret-position="229">
+          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="964">
-          <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="134" selection-end-column="17" />
+        <state relative-caret-position="-36304">
+          <caret line="94" column="32" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
           <folding>
             <element signature="e#6631#6636#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/vlimit.html">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+        <state relative-caret-position="741">
+          <caret line="293" column="22" lean-forward="true" selection-start-line="293" selection-start-column="22" selection-end-line="293" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/pwmc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3984">
+          <caret line="166" column="36" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
         </state>
       </provider>
     </entry>
