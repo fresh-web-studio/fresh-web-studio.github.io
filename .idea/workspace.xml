@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="" />
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/pwmc.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/pwmc.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="293" column="22" lean-forward="true" selection-start-line="293" selection-start-column="22" selection-end-line="293" selection-end-column="36" />
+            <state relative-caret-position="519">
+              <caret line="252" column="8" lean-forward="true" selection-start-line="252" selection-start-column="8" selection-end-line="255" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36304">
-              <caret line="94" column="32" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
+            <state relative-caret-position="-1079">
+              <caret line="1623" column="11" lean-forward="true" selection-start-line="1621" selection-start-column="8" selection-end-line="1624" selection-end-column="8" />
               <folding>
                 <element signature="e#6631#6636#0" expanded="true" />
               </folding>
@@ -34,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/pwmc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3984">
-              <caret line="166" column="36" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
+            <state relative-caret-position="427">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -51,12 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;Дроссель фильтра</find>
-      <find>&gt;Выходной конденсатор фильтра</find>
-      <find>&gt;Входной конденсатор</find>
-      <find>&gt;Push-pull преобразователь - особенности</find>
-      <find>&gt;Дополнительный диод в двухтактных преобразователях</find>
-      <find>Защита от подмагничивания сердечника постоянной составляющей</find>
       <find>&gt;Защита от выбросов напряжения на ключевых транзисторах</find>
       <find>Алгоритм расчета</find>
       <find>Алгоритм расчета преобразователя push-pull</find>
@@ -80,7 +77,13 @@
       <find>Рисунок</find>
       <find>схема</find>
       <find>&lt;/span&gt;&lt;span&gt;</find>
+      <find>&lt;p&gt; &lt;/p&gt;</find>
       <find>рису</find>
+      <find>Внутренняя структура ШИМ-контроллера</find>
+      <find>Принцип действия ШИМ-контроллера</find>
+      <find>Основные параметры ШИМ-контроллера</find>
+      <find>Примеры ШИМ-контроллеров</find>
+      <find>&lt;/h4&gt;&lt;/p&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -97,9 +100,9 @@
       <replace>article__table</replace>
       <replace>&lt;h6</replace>
       <replace>&lt;h5</replace>
-      <replace>&lt;/h4&gt;</replace>
       <replace>MsoTableTheme</replace>
       <replace>&lt;/h5&gt;</replace>
+      <replace>&lt;/h4&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/panorama</dir>
@@ -172,7 +175,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="179" />
     <option name="y" value="-1411" />
     <option name="width" value="1166" />
@@ -279,28 +282,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="28329000" />
-    </task>
-    <task id="LOCAL-00213" summary="Обновление">
-      <created>1582970656501</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1582970656501</updated>
-    </task>
-    <task id="LOCAL-00214" summary="Обновление">
-      <created>1582970792005</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1582970792005</updated>
-    </task>
-    <task id="LOCAL-00215" summary="Обновление">
-      <created>1582971112045</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1582971112045</updated>
+      <workItem from="1583479670196" duration="29462000" />
     </task>
     <task id="LOCAL-00216" summary="Обновление">
       <created>1582971472848</created>
@@ -624,14 +606,35 @@
       <option name="project" value="LOCAL" />
       <updated>1583774030609</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="Обновление">
+      <created>1583774477006</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1583774477006</updated>
+    </task>
+    <task id="LOCAL-00263" summary="Обновление">
+      <created>1583774517079</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1583774517079</updated>
+    </task>
+    <task id="LOCAL-00264" summary="Обновление">
+      <created>1583775341332</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1583775341332</updated>
+    </task>
+    <option name="localTasksCounter" value="265" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245472000" />
+    <option name="totallyTimeSpent" value="246605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
+    <frame x="179" y="-1411" width="1166" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.34560144" />
@@ -949,8 +952,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36304">
-          <caret line="94" column="32" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
+        <state relative-caret-position="-1079">
+          <caret line="1623" column="11" lean-forward="true" selection-start-line="1621" selection-start-column="8" selection-end-line="1624" selection-end-column="8" />
           <folding>
             <element signature="e#6631#6636#0" expanded="true" />
           </folding>
@@ -959,15 +962,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="293" column="22" lean-forward="true" selection-start-line="293" selection-start-column="22" selection-end-line="293" selection-end-column="36" />
+        <state relative-caret-position="519">
+          <caret line="252" column="8" lean-forward="true" selection-start-line="252" selection-start-column="8" selection-end-line="255" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/pwmc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3984">
-          <caret line="166" column="36" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
+        <state relative-caret-position="427">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
