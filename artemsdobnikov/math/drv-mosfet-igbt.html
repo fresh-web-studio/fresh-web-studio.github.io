@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление MOSFET и IGBT  транзисторами. Схемотехнические решения. Расчет</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/new_style.css">
+</head>
+<body>
+<!-- контейнер, ограничивающий в 1270px -->
+<div class="container">
+    <header class="header">
+        <img src="image/banner.jpg" alt="Формула">
+        <nav>
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+                <ul class="menu touch">
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Дискретные элементы</a>
+                    </li>
+                    <li>
+                        <a href="#">Интегральные элементы, блоки и узлы схем</a>
+                    </li>
+                    <li>
+                        <a href="#">Импульсные стабилизаторы</a>
+                    </li>
+                    <li>
+                        <a href="#">Импульсные преобразователи</a>
+                    </li>
+                </ul>
+                <span class="toggle">☰</span>
+            </label>
+        </nav>
+    </header>
+    <article class="article">
+        <!-- навигация по статье -->
+        <nav class="article__nav">
+            <!-- главный заголовок статьи -->
+            <h1 class="article__title-h1">Управление MOSFET и IGBT  транзисторами. Схемотехнические решения. Расчет</h1>
+            <ul>
+                <li><a href="#1"><h4>MOSFET транзисторы</h4></a></li>
+                    <ul>
+                        <li><a href="#4"><h5>Динамика включения MOSFET транзистора</h5></a></li>
+                        <li><a href="#5"><h5>Динамика выключения MOSFET транзистора</h5></a></li>
+                        <li><a href="#6"><h5>Основные выводы по процессу коммутации MOSFET</h5></a></li>
+                    </ul>
+                </li>
+                <li><a href="#9"><h4>IGBT транзисторы</h4></a>
+                    <ul>
+                        <li><a href="#10"><h5>Динамика включения IGBT транзистора</h5></a></li>
+                        <li><a href="#11"><h5>Динамика выключения IGBT транзистора</h5></a></li>
+                        <li><a href="#12"><h5>Основные выводы по процессу коммутации IGBT</h5></a></li>
+                    </ul>
+                </li>
+                <li><a href="#9"><h4>Расчет параметров цепи управления MOSFET-транзисторов</h4></a>
+                    <ul>
+                        <li><a href="#10"><h5>Заряд затвора </h5></a></li>
+                        <li><a href="#11"><h5>Мощность управления</h5></a></li>
+                        <li><a href="#12"><h5>Средний ток управления MOSFET</h5></a></li>
+                        <li><a href="#12"><h5>Напряжение «плато Миллера»</h5></a></li>
+                        <li><a href="#12"><h5>Токи и времена коммутации на стадии включения</h5></a></li>
+                        <li><a href="#12"><h5>Токи и времена коммутации на стадии выключения</h5></a></li>
+                        <li><a href="#12"><h5>Шунтирующий конденсатор драйвера. Расчет</h5></a></li>
+                        <li><a href="#12"><h5>Расчет (определение) внутреннего сопротивления драйвера</h5></a></li>
+                        <li><a href="#12"><h5>Выбор оптимального сопротивления затворного резистора</h5></a>
+                            <ul>
+                                <li><a href="#10"><h6>Критерий демпфирования осцилляций</h6></a></li>
+                                <li><a href="#11"><h6>Критерий ограничения тока драйвером</h6></a></li>
+                                <li><a href="#12"><h6>Критерий устойчивости к высоким dV/dt на закрытом транзисторе</h6></a></li>
+                                <li><a href="#12"><h6>Критерий заданного времени включения/выключения транзистора</h6></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <h4 id="1">Назначение и принцип работы</h4>
+
+    </article>
+</div>
+<footer class="footer">
+    <div class="container">
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Справочник</a></li>
+                <li><a href="#">Практические инструкции</a></li>
+                <li><a href="#">Технологии</a></li>
+                <li><a href="#">О сайте</a></li>
+                <li class="f_menu_right"><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
