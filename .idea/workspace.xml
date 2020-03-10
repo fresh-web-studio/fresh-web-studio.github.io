@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/pwmc.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/pwmc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
+            <state relative-caret-position="-41306">
               <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="54" selection-end-column="25" />
               <folding>
                 <element signature="e#6631#6636#0" expanded="true" />
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/pwmc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+            <state relative-caret-position="241">
+              <caret line="110" column="36" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+            <state relative-caret-position="355">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -54,19 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;Защита от выбросов напряжения на ключевых транзисторах</find>
-      <find>Алгоритм расчета</find>
-      <find>Алгоритм расчета преобразователя push-pull</find>
-      <find>1. Определение исходных параметров расчета</find>
-      <find>2. Определение базовой структуры принципиальной схемы преобразо-вателя</find>
-      <find>2. Определение базовой</find>
-      <find>3. Выбор рабочей частоты преобразователя</find>
-      <find>4. Выбор контроллера преобразователя push-pull</find>
-      <find>5. Расчет параметров времязадающей RC-цепочки контроллера</find>
-      <find>6. Определение максимальной мощности преобразователя и оценка КПД</find>
-      <find>6. Определение максимальной мощности преобразовате</find>
-      <find>7. Определение тока пульсаций дросселя</find>
-      <find>8. Расчет трансформатора</find>
       <find>9. Расчет выходного дросселя</find>
       <find>10. Расчет ключевых транзисторов</find>
       <find>11. Расчет выпрямительных диодов</find>
@@ -77,13 +64,26 @@
       <find>Рисунок</find>
       <find>схема</find>
       <find>&lt;/span&gt;&lt;span&gt;</find>
-      <find>&lt;p&gt; &lt;/p&gt;</find>
       <find>Внутренняя структура ШИМ-контроллера</find>
       <find>Принцип действия ШИМ-контроллера</find>
       <find>Основные параметры ШИМ-контроллера</find>
       <find>Примеры ШИМ-контроллеров</find>
       <find>&lt;/h4&gt;&lt;/p&gt;</find>
       <find>рису</find>
+      <find>&lt;p&gt; &lt;/p&gt;</find>
+      <find>MsoTableGrid</find>
+      <find>Основные параметры интегральных стабилизаторов</find>
+      <find>Типовые схемы включения линейных стабилизаторов</find>
+      <find>Схема включения стабилизаторов с фиксированным вы</find>
+      <find>Схема включения стабилизаторов с регулируемым вы</find>
+      <find>Защита линейных стабилизаторов с помощью обратн</find>
+      <find>Схема включения стабилизатора напряжения как</find>
+      <find>Схема включения линейного стабилизатора с ув</find>
+      <find>Справочные данные и расчет максимального тока для попу</find>
+      <find>Интегральные стабилизаторы положительного напря</find>
+      <find>Интегральные стабилизаторы отрицательного напряж</find>
+      <find>Типы и цоколевка корпусов L78xx и L</find>
+      <find>Линейные интегральные стабилизаторы нап</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -177,10 +177,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="179" />
-    <option name="y" value="-1411" />
-    <option name="width" value="1166" />
-    <option name="height" value="1329" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -283,21 +281,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="31186000" />
-    </task>
-    <task id="LOCAL-00218" summary="Обновление">
-      <created>1582971699436</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1582971699436</updated>
-    </task>
-    <task id="LOCAL-00219" summary="Обновление">
-      <created>1582971898412</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1582971898412</updated>
+      <workItem from="1583479670196" duration="32524000" />
     </task>
     <task id="LOCAL-00220" summary="Обновление">
       <created>1582971965822</created>
@@ -628,17 +612,31 @@
       <option name="project" value="LOCAL" />
       <updated>1583775697129</updated>
     </task>
-    <option name="localTasksCounter" value="267" />
+    <task id="LOCAL-00267" summary="Обновление">
+      <created>1583842833623</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1583842833624</updated>
+    </task>
+    <task id="LOCAL-00268" summary="Обновление">
+      <created>1583847299406</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1583847299406</updated>
+    </task>
+    <option name="localTasksCounter" value="269" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248329000" />
+    <option name="totallyTimeSpent" value="249667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.15350877" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.31351793" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -651,7 +649,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.29411766" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.115733735" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.11583578" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012987" side_tool="true" weight="0.32694247" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.2250185" />
@@ -748,7 +746,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img088.png" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img087.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -846,33 +843,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html" />
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/transformator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="e#253031#253035#0" expanded="true" />
-            <element signature="e#253139#253143#0" expanded="true" />
-            <element signature="e#341310#341314#0" expanded="true" />
-            <element signature="e#341416#341420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rezistori.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/mosfet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -912,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/tiristori.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-453">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -934,37 +897,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rectifier.html">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="345" column="11" lean-forward="true" selection-start-line="345" selection-start-column="8" selection-end-line="348" selection-end-column="8" />
+        <state relative-caret-position="5407">
+          <caret line="252" column="8" lean-forward="true" selection-start-line="252" selection-start-column="8" selection-end-line="255" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/voltage-reference.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="252" column="8" lean-forward="true" selection-start-line="252" selection-start-column="8" selection-end-line="255" selection-end-column="17" />
+        <state relative-caret-position="-916" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/transformator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/tiristori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/stabilitrony.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rezistori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/rectifier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7757">
+          <caret line="345" column="11" lean-forward="true" selection-start-line="345" selection-start-column="8" selection-end-line="348" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/vlimit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="-203">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/pwmc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
+        <state relative-caret-position="-41306">
           <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="54" selection-end-column="25" />
           <folding>
             <element signature="e#6631#6636#0" expanded="true" />
@@ -972,10 +961,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/pwmc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="110" column="36" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+        <state relative-caret-position="355">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
