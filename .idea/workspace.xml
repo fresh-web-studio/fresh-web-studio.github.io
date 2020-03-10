@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="1698" column="8" lean-forward="true" selection-start-line="1695" selection-start-column="8" selection-end-line="1698" selection-end-column="8" />
+            <state relative-caret-position="593">
+              <caret line="1717" column="25" lean-forward="true" selection-start-line="1717" selection-start-column="25" selection-end-line="1717" selection-end-column="25" />
               <folding>
                 <element signature="e#6631#6636#0" expanded="true" />
               </folding>
@@ -26,19 +26,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/pwmc.html">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+            <state relative-caret-position="24">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/opamp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="305" column="24" selection-start-line="305" selection-start-column="24" selection-end-line="305" selection-end-column="24" />
+            <state relative-caret-position="120">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -54,8 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>9. Расчет выходного дросселя</find>
-      <find>10. Расчет ключевых транзисторов</find>
       <find>11. Расчет выпрямительных диодов</find>
       <find>12. Расчет выходного конденсатора фильтра</find>
       <find>13. Расчет входного конденсатора</find>
@@ -84,6 +82,8 @@
       <find>Интегральные стабилизаторы отрицательного напряж</find>
       <find>Типы и цоколевка корпусов L78xx и L</find>
       <find>Линейные интегральные стабилизаторы нап</find>
+      <find>бходимо соблюде</find>
+      <find>&lt;/h5&gt;&lt;/p&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -101,8 +101,8 @@
       <replace>&lt;h6</replace>
       <replace>&lt;h5</replace>
       <replace>MsoTableTheme</replace>
-      <replace>&lt;/h5&gt;</replace>
       <replace>&lt;/h4&gt;</replace>
+      <replace>&lt;/h5&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/panorama</dir>
@@ -167,6 +167,7 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/vlimit.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/pwmc.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/opamp.html" />
       </list>
     </option>
   </component>
@@ -176,7 +177,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="223" />
     <option name="y" value="-1417" />
     <option name="width" value="1122" />
@@ -283,28 +284,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="33968000" />
-    </task>
-    <task id="LOCAL-00222" summary="Обновление">
-      <created>1582972187661</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1582972187661</updated>
-    </task>
-    <task id="LOCAL-00223" summary="Обновление">
-      <created>1582972248646</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1582972248647</updated>
-    </task>
-    <task id="LOCAL-00224" summary="Обновление">
-      <created>1582972294188</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1582972294188</updated>
+      <workItem from="1583479670196" duration="35082000" />
     </task>
     <task id="LOCAL-00225" summary="Обновление">
       <created>1582972480529</created>
@@ -628,17 +608,38 @@
       <option name="project" value="LOCAL" />
       <updated>1583848399052</updated>
     </task>
-    <option name="localTasksCounter" value="271" />
+    <task id="LOCAL-00271" summary="Обновление">
+      <created>1583857987663</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1583857987664</updated>
+    </task>
+    <task id="LOCAL-00272" summary="Обновление">
+      <created>1583858026870</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1583858026870</updated>
+    </task>
+    <task id="LOCAL-00273" summary="Обновление">
+      <created>1583860412357</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1583860412357</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251111000" />
+    <option name="totallyTimeSpent" value="252225000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="-1417" width="1122" height="1337" extended-state="0" />
+    <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.31308413" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.31308413" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -650,8 +651,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.29411766" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.06599833" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" visible="true" weight="0.15506808" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.06599833" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012987" side_tool="true" weight="0.32694247" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.2250185" />
@@ -748,9 +749,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img087.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img086.png" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img084.png" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img081.png">
@@ -953,16 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="1698" column="8" lean-forward="true" selection-start-line="1695" selection-start-column="8" selection-end-line="1698" selection-end-column="8" />
-          <folding>
-            <element signature="e#6631#6636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/pwmc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -970,10 +958,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="1717" column="25" lean-forward="true" selection-start-line="1717" selection-start-column="25" selection-end-line="1717" selection-end-column="25" />
+          <folding>
+            <element signature="e#6631#6636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="305" column="24" selection-start-line="305" selection-start-column="24" selection-end-line="305" selection-end-column="24" />
+        <state relative-caret-position="24">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/opamp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
