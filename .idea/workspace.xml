@@ -26,6 +26,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/optocoupler.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
@@ -37,17 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/drv-mosfet-igbt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="919">
-              <caret line="123" column="14" lean-forward="true" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/optocoupler.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="432">
+              <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -63,36 +63,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Типовые схемы включения линейных стабилизаторов</find>
-      <find>Схема включения стабилизаторов с фиксированным вы</find>
-      <find>Схема включения стабилизаторов с регулируемым вы</find>
-      <find>Защита линейных стабилизаторов с помощью обратн</find>
-      <find>Схема включения стабилизатора напряжения как</find>
-      <find>Схема включения линейного стабилизатора с ув</find>
-      <find>Справочные данные и расчет максимального тока для попу</find>
-      <find>Интегральные стабилизаторы положительного напря</find>
-      <find>Интегральные стабилизаторы отрицательного напряж</find>
-      <find>Типы и цоколевка корпусов L78xx и L</find>
-      <find>Линейные интегральные стабилизаторы нап</find>
-      <find>бходимо соблюде</find>
-      <find>Основные параметры операционного усилителя</find>
-      <find>Основные схемы включения операционных усилителей</find>
-      <find>Схема неинвертирующего усилителя</find>
-      <find>Схема инвертирующего усилителя</find>
-      <find>Схема дифференциального усилителя</find>
-      <find>Схема прецизионного двухполупериодного выпрямителя</find>
-      <find>Виртуальный ноль для питания операционных усилителей</find>
-      <find>&lt;p&gt; &lt;/p&gt;</find>
-      <find>Основные параметры оптопар</find>
-      <find>Типовые схемы включения оптопар</find>
-      <find>style=&quot;text-decoration: underline&quot;</find>
-      <find>«Коллекторное» и «эмиттерное» включение оптопар</find>
-      <find>Увеличение выходного тока оптопар</find>
-      <find>Логическое «И» на оптопарах</find>
-      <find>Некоторые особенности оптопар</find>
-      <find>Внутренний экран оптопары</find>
-      <find>&lt;/h5&gt;&lt;/p&gt;</find>
-      <find>Схема включения стабилизаторов с фиксированным выходным напряжением</find>
+      <find>IGBT транзисторы</find>
+      <find>Динамика включения IGBT транзистора</find>
+      <find>Динамика выключения IGBT транзистора</find>
+      <find>Основные выводы по процессу коммутации IGBT</find>
+      <find>Расчет параметров цепи управления MOSFET-транзисторов</find>
+      <find>Заряд затвора</find>
+      <find>Мощность управления</find>
+      <find>Средний ток управления MOSFET</find>
+      <find>Напряжение «плато Миллера»</find>
+      <find>Токи и времена коммутации на стадии включения</find>
+      <find>Токи и времена коммутации на стадии выключения</find>
+      <find>Шунтирующий конденсатор драйвера. Расчет</find>
+      <find>Расчет (определение) внутреннего сопротивления драйвера</find>
+      <find>Выбор оптимального сопротивления затворного резистора</find>
+      <find>Критерий демпфирования осцилляций</find>
+      <find>Критерий ограничения тока драйвером</find>
+      <find>Критерий устойчивости к высоким dV/dt на закрытом транзисторе</find>
+      <find>Критерий заданного времени включения/выключения транзистора</find>
+      <find>Высокие скорости нарастания напряжения на транзисторе (dV/dt) – причины и следствия</find>
+      <find>Причины высоких dV/dt на закрытом транзисторе и последствия</find>
+      <find>Способы защиты от высоких значений dV/dt</find>
+      <find>Резистор в цепи затвор-исток</find>
+      <find>Схема на  p-n-p транзисторе</find>
+      <find>Схема на p-n-p транзисторе</find>
+      <find>Расчет статических и динамических потерь при коммутации MOSFET</find>
+      <find>Расчет статических и динамических потерь при коммутаци</find>
+      <find>Статические потери</find>
+      <find>Динамические потери</find>
+      <find>Расчет статических и динамических потерь при коммутации IGBT</find>
+      <find>Расчет статических и динамических потерь при коммутации</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -296,21 +296,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="43206000" />
-    </task>
-    <task id="LOCAL-00236" summary="Обновление">
-      <created>1583386629737</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1583386629737</updated>
-    </task>
-    <task id="LOCAL-00237" summary="Обновление">
-      <created>1583388624368</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1583388624369</updated>
+      <workItem from="1583479670196" duration="45126000" />
     </task>
     <task id="LOCAL-00238" summary="Обновление">
       <created>1583389399764</created>
@@ -641,11 +627,25 @@
       <option name="project" value="LOCAL" />
       <updated>1583871455628</updated>
     </task>
-    <option name="localTasksCounter" value="285" />
+    <task id="LOCAL-00285" summary="Обновление">
+      <created>1583903820477</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1583903820477</updated>
+    </task>
+    <task id="LOCAL-00286" summary="Обновление">
+      <created>1583904163558</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1583904163558</updated>
+    </task>
+    <option name="localTasksCounter" value="287" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260349000" />
+    <option name="totallyTimeSpent" value="262269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
@@ -971,13 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/optocoupler.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
@@ -1009,10 +1002,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/optocoupler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/drv-mosfet-igbt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="919">
-          <caret line="123" column="14" lean-forward="true" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
+        <state relative-caret-position="432">
+          <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
         </state>
       </provider>
     </entry>
