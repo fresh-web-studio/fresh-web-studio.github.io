@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/drv-mosfet-igbt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+            <state relative-caret-position="15376">
+              <caret line="641" column="21" selection-start-line="641" selection-start-column="21" selection-end-line="641" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -63,19 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>IGBT транзисторы</find>
-      <find>Динамика включения IGBT транзистора</find>
-      <find>Динамика выключения IGBT транзистора</find>
-      <find>Основные выводы по процессу коммутации IGBT</find>
-      <find>Расчет параметров цепи управления MOSFET-транзисторов</find>
-      <find>Заряд затвора</find>
-      <find>Мощность управления</find>
-      <find>Средний ток управления MOSFET</find>
-      <find>Напряжение «плато Миллера»</find>
-      <find>Токи и времена коммутации на стадии включения</find>
-      <find>Токи и времена коммутации на стадии выключения</find>
-      <find>Шунтирующий конденсатор драйвера. Расчет</find>
-      <find>Расчет (определение) внутреннего сопротивления драйвера</find>
       <find>Выбор оптимального сопротивления затворного резистора</find>
       <find>Критерий демпфирования осцилляций</find>
       <find>Критерий ограничения тока драйвером</find>
@@ -89,10 +76,23 @@
       <find>Схема на p-n-p транзисторе</find>
       <find>Расчет статических и динамических потерь при коммутации MOSFET</find>
       <find>Расчет статических и динамических потерь при коммутаци</find>
-      <find>Статические потери</find>
-      <find>Динамические потери</find>
       <find>Расчет статических и динамических потерь при коммутации IGBT</find>
       <find>Расчет статических и динамических потерь при коммутации</find>
+      <find>Статические потери</find>
+      <find>Динамические потери</find>
+      <find>Драйверы класса «TrueDrive»</find>
+      <find>Ряд типовых схемотехнических решений управления затвором</find>
+      <find>Схема с затворным резистором</find>
+      <find>Схема с обратным диодом в цепи затвора</find>
+      <find>Схема с независимо задаваемыми скоростями включения и выключения транзистора</find>
+      <find>Схема управления с разрядным p-n-p транзистором</find>
+      <find>Схема с дополнительным разрядным MOSFET- транзистором</find>
+      <find>Схема с усилителем тока на комплементарных биполярных транзисторах</find>
+      <find>Схема с усилителем тока на MOSFET транзисторах</find>
+      <find>Схема с усилителем тока на биполярных транзисторах c различными скоростями включения/выключения</find>
+      <find>Пробой затвора ключевого транзистора: причины и способы защиты</find>
+      <find>Причины пробоя затвора</find>
+      <find>Способы защиты от пробоя затвора</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -296,21 +296,7 @@
       <workItem from="1582741312046" duration="72140000" />
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
-      <workItem from="1583479670196" duration="45126000" />
-    </task>
-    <task id="LOCAL-00238" summary="Обновление">
-      <created>1583389399764</created>
-      <option name="number" value="00238" />
-      <option name="presentableId" value="LOCAL-00238" />
-      <option name="project" value="LOCAL" />
-      <updated>1583389399764</updated>
-    </task>
-    <task id="LOCAL-00239" summary="Обновление">
-      <created>1583480232049</created>
-      <option name="number" value="00239" />
-      <option name="presentableId" value="LOCAL-00239" />
-      <option name="project" value="LOCAL" />
-      <updated>1583480232050</updated>
+      <workItem from="1583479670196" duration="45678000" />
     </task>
     <task id="LOCAL-00240" summary="Обновление">
       <created>1583490083037</created>
@@ -641,11 +627,25 @@
       <option name="project" value="LOCAL" />
       <updated>1583904163558</updated>
     </task>
-    <option name="localTasksCounter" value="287" />
+    <task id="LOCAL-00287" summary="Обновление">
+      <created>1583905704935</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1583905704935</updated>
+    </task>
+    <task id="LOCAL-00288" summary="Обновление">
+      <created>1583905886207</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1583905886207</updated>
+    </task>
+    <option name="localTasksCounter" value="289" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262269000" />
+    <option name="totallyTimeSpent" value="262821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
@@ -1011,8 +1011,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/drv-mosfet-igbt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+        <state relative-caret-position="15376">
+          <caret line="641" column="21" selection-start-line="641" selection-start-column="21" selection-end-line="641" selection-end-column="21" />
         </state>
       </provider>
     </entry>
