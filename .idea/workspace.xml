@@ -37,10 +37,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/filter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            <state relative-caret-position="8153">
+              <caret line="402" column="3" selection-start-line="402" selection-start-column="3" selection-end-line="402" selection-end-column="3" />
               <folding>
-                <element signature="e#31049#31053#0" expanded="true" />
+                <element signature="e#30904#30908#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,18 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Связь входного и выходного</find>
-      <find>Связь входного и</find>
-      <find>Связь входног</find>
-      <find>напряжения двухключевого прямоходового преобразователя</find>
-      <find>Связь входного и выходного напряжения</find>
-      <find>&lt;/strong&gt;&lt;strong&gt;</find>
-      <find>Расчет элементов преобразователя</find>
-      <find>&gt;Трансформатор</find>
-      <find>&gt;Ключевые транзисторы</find>
-      <find>&gt;Рекуперационные диоды</find>
-      <find>&gt;Выходные диоды</find>
-      <find>&gt;Дроссель фильтра</find>
       <find>&gt;Выходной конденсатор</find>
       <find>&gt;Входной конденсатор</find>
       <find>&gt;Алгоритм расчета прямоходового двухключевого преобразов</find>
@@ -87,6 +75,18 @@
       <find>&gt;11. Расчет входного конденсатора</find>
       <find>&lt;/span&gt;&lt;span&gt;</find>
       <find>&lt;/h6&gt;&lt;/p&gt;</find>
+      <find>style=&quot;text-decoration: underline&quot;</find>
+      <find>&gt;Емкостной фильтр</find>
+      <find>&gt;Связка «Емкостной фильтр</find>
+      <find>&gt;Связка «Емкостной фильтр + двухполупериодный выпрямитель»</find>
+      <find>&gt;Резистивно-емкостной фильтр</find>
+      <find>Индуктивно-емкостной фильтр</find>
+      <find>&gt;Помехоподавляющие фильтры</find>
+      <find>&gt;Что такое ВЧ-помехи?</find>
+      <find>&gt;Основные типы входных помехоподавляющих</find>
+      <find>&gt;Многозвенные фильтры</find>
+      <find>&gt;Расчет вносимого затухания</find>
+      <find>&gt;Расчет полного сопротивления элементов</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -294,14 +294,7 @@
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
       <workItem from="1583479670196" duration="48473000" />
-      <workItem from="1583985920149" duration="15670000" />
-    </task>
-    <task id="LOCAL-00250" summary="Обновление">
-      <created>1583519544982</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1583519544983</updated>
+      <workItem from="1583985920149" duration="16025000" />
     </task>
     <task id="LOCAL-00251" summary="Обновление">
       <created>1583589540270</created>
@@ -639,11 +632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584013131653</updated>
     </task>
-    <option name="localTasksCounter" value="299" />
+    <task id="LOCAL-00299" summary="Обновление">
+      <created>1584016709685</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1584016709686</updated>
+    </task>
+    <option name="localTasksCounter" value="300" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281286000" />
+    <option name="totallyTimeSpent" value="281641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
@@ -1011,10 +1011,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/filter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        <state relative-caret-position="8153">
+          <caret line="402" column="3" selection-start-line="402" selection-start-column="3" selection-end-line="402" selection-end-column="3" />
           <folding>
-            <element signature="e#31049#31053#0" expanded="true" />
+            <element signature="e#30904#30908#0" expanded="true" />
           </folding>
         </state>
       </provider>
