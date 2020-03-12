@@ -632,19 +632,29 @@
         <p>При практических расчетах необходимо использовать запас по напряжению не менее 20%. Проектирование должно выполняться с учетом области безопасной работы конкретного транзистора. То есть при больших рабочих токах, когда происходит значительный нагрев кристалла необходимо использовать транзистор с рабочим напряжением большим V<sub>IN</sub>. Подробные данные об области безопасной работы конкретного транзистора представлены в справочных листках на него (в datasheet-ах). На практике для полумостовых преобразователей с питанием от бытовой сети 220 В, 50 Гц минимальное рабочее напряжение силовых ключей должно быть не менее 400 В.</p>
         <p><span>- максимальная рассеиваемая мощность</span>, корпуса транзистора с учетом системы охлаждения, должна превышать мощность выделяемую. Подробно – см. раздел с тепловыми расчетами.</p>
         <p>Поскольку в течение половины периода одни из ключевых транзисторов и первичная обмотка включены последовательно, то среднеквадратичное значение тока транзистора равно половине среднеквадратичного значения тока первичной обмотки. Таким образом, выделяемая в кристалле MOSFET транзистора мощность статических потерь P<sub>VT_stat</sub> рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b787f78a-091d-4750-aa1d-98a5ed066bf4" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img099.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w1_rms</sub> - cреднеквадратичное значение тока первичной обмотки;</p>
         <p>R<sub>DS</sub> – сопротивление MOSFET транзистора в открытом состоянии.</p>
         <p>Среднеквадратичное значение тока первичной обмотки вычисляется по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/58ca04ba-55ea-4e86-9bd7-4227500b28fb" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img060.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>q – относительная длительность импульса (максимальное значение);</p>
         <p>I<sub>w1_max</sub>, I<sub>w1_min</sub> - максимальное и минимальное значения вычисляются по соотношениям:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/aada9702-a6df-452c-a8a8-3bd1873bc4f6" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b9835c42-cc77-43eb-b4b1-9ff3cdb298d2" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img061.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img062.png" alt="Формула"/>
+        </figure>
         <p>Выделяемая в кристалле MOSFET транзистора мощность динамических потерь P<sub>VT_switch</sub>рассчитывается по соотношению (см. пункт «Расчет статических и динамических потерь при коммутации MOSFET» раздела «Управление MOSFET и IGBT транзисторами. Схемотехнические решения. Расчет»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ad70f423-4ec1-4725-930c-18f4266bb61b" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img100.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>t<sub>f</sub> – время спада напряжения на транзисторе (в момент коммутации);</p>
         <p>t<sub>r</sub> – время нарастания напряжения на транзисторе (переход в закрытое состояние).</p>
@@ -652,81 +662,129 @@
         <p>Q<sub>rr</sub> – заряд восстановления паразитного диода транзистора.</p>
         <p>Параметры MOSFET-транзистора: выходная емкость транзистора С<sub>oss</sub>, заряд восстановления паразитного диода транзистора Q<sub>rr</sub> содержаться в datasheet на выбранный тип транзистора. Времена спада и нарастания напряжения на транзисторе t<sub>f</sub> и t<sub>r</sub> можно рассчитать в соответствии с параметрами выходного каскада ШИМ-контроллера преобразователя или использовать оценочные значения согласно datasheet-у транзистора.</p>
         <p>Важным моментом при расчетах является то, что величина заряда восстановления паразитного диода транзистора Q<sub>rr</sub> приведена в datasheet для определенных параметров работы транзистора (как правило, высоких скоростях изменения тока через транзистор и токах, близких к максимальному). Таким образом, использование «даташитного» значения Q<sub>rr</sub> даст величину потерь близкую к наихудшему случаю. В случае необходимости более точных расчетов целесообразно корректировать Q<sub>rr</sub> согласно соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1d2da124-d562-4f2e-86ea-3a103c392a68" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img101.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>Q<sub>rr_datasheet</sub> – значение заряда, восстановления паразитного диода транзистора Q<sub>rr</sub> данная в datasheet;</p>
         <p>I<sub>F_datasheet</sub> – значение прямого тока, протекающего через паразитный диод транзистора при котором получено значение Q<sub>rr_datasheet</sub> ;</p>
         <p>I<sub>F </sub>– значение прямого тока, протекающего через паразитный диод транзистора в реальных условиях соответствующих расчету, как правило равное максимальному току первичной обмотки I<sub>w1_max</sub>.</p>
         <p>Выделяемая в кристалле биполярного и IGBT транзистора мощность статических потерь P<sub>VT_stat</sub>оценивается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/310a5bb9-33d6-4eb4-af7b-2131fb2235d0" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img102.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>CE</sub> – падение напряжения на транзисторе в открытом состоянии;</p>
         <p>I<sub>w1_avg</sub> – среднее значение тока первичной обмотки:</p>
         <p>Среднеe значение тока первичной обмотки вычисляется по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8361b5b9-9530-4f28-adcf-5979db0b8353" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img103.png" alt="Формула"/>
+        </figure>
         <p>Выделяемая в кристалле IGBT транзистора мощность динамических потерь P<sub>VT_switch</sub>рассчитывается по соотношению (см. пункт «Расчет статических и динамических потерь при коммутации IGBT» раздела «Управление MOSFET и IGBT транзисторами. Схемотехнические решения. Расчет»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/586ab77f-c55e-40fe-9cd2-49415445f647" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img104.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>E<sub>ts</sub> – суммарная энергия переключения;</p>
         <p>С<sub>oes</sub> – выходная емкость транзистора;</p>
         <p>Q<sub>rr</sub> – заряд восстановления паразитного диода транзистора.</p>
         <p>При необходимости может быть выполнена коррекция величины заряда восстановления паразитного диода транзистора Q<sub>rr</sub> по представленной выше методике.</p>
         <p>Суммарная мощность тепловых потерь на транзисторе определяется как сумма мощностей статических и динамических потерь:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f9c06893-27e1-454c-a77c-3f28a6bdf554" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img105.png" alt="Формула"/>
+        </figure>
         <p><span>- максимальный импульсный ток</span> выбранного ключевого транзистора должен превышать максимальное значение тока первичной обмотки. Максимальный ток первичной обмотки складывается из отраженного в первичную обмотку тока нагрузки I<sub>w1_refl</sub> и максимального тока намагничивания I<sub>w1_magn</sub> (треугольная составляющая):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d343e37d-9560-479a-be6f-7fe2f8b22bf6" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img106.png" alt="Формула"/>
+        </figure>
         <p><span>- времена включения и выключения</span> транзистора с учетом возможностей схемы управления должны быть меньше «мертвого времени» (deadtime) для данной схемы и частоты. Нарушение этого условия приведет к возникновению сквозных токов через полумост и выходу преобразователя из строя.</p>
         <p>В подавляющем большинстве случаев в качестве силовых ключей полумостового преобразователя используются мощные MOSFET-транзисторы. Эти транзисторы обладают рядом преимуществ: малые энергии переключения; управление напряжением, высокое быстродействие. К особенностями MOSFET-транзисторов относится наличие интегрированного паразитного диода с невысоким быстродействием, что нужно учитывать при проектировании схем. IGBT – транзисторы имеет смысл использовать при больших мощностях источника. При этом, как правило, используется мостовая топология построения преобразователя. Важным является тот момент, что при использовании IGBT – транзисторов в полумостовых или мостовых схемах необходимо использовать дополнительные оппозитные диоды обратно-включенные по отношению к IGBT-транзистору. Или выбирать готовые IGBT-транзисторы с интегрированными диодами.</p>
         <h5 id="15">Дроссель фильтра</h5>
         <p><span>Величина индуктивности</span> выходного дросселя определяет величину пульсаций тока и соответственно напряжения на выходе преобразователя. Вычислим необходимую величину индуктивности.</p>
         <p>Изменение (пульсации) тока дросселя ΔI<sub>Lf</sub> на интервале полупериода определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1191fe73-a942-4ab1-b40c-3df84d51e811" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img012.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>t<sub>i</sub> – длительности периода включенного ключа;</p>
         <p>L<sub>f</sub> – индуктивность дросселя;</p>
         <p>V<sub>IN</sub> – входное напряжение;</p>
         <p>V<sub>OUT</sub> – выходное напряжение.</p>
         <p>Выполним ряд преобразований над выражением для пульсаций тока дросселя ΔI<sub>Lf</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1191fe73-a942-4ab1-b40c-3df84d51e811" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img012.png" alt="Формула"/>
+        </figure>
         <p>С учетом, что входное и выходное напряжения связаны по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/18c9e596-eb11-431c-8fb7-b5b85296451d" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img107.png" alt="Формула"/>
+        </figure>
         <p>Получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ffa0a03b-b666-4276-b945-785e1889d702" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img108.png" alt="Формула"/>
+        </figure>
         <p>И поскольку напряжение на вторичной обмотке равно:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/93ae688e-1396-48c8-8ac7-648b62107754" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img109.png" alt="Формула"/>
+        </figure>
         <p>а длительность импульса:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3c98e165-d85e-4ad5-8191-204bb40426e8" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img110.png" alt="Формула"/>
+        </figure>
         <p>то, подставляя, получаем выражение:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/600c368e-66c1-435a-a0b3-0ac56f2a8f34" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img111.png" alt="Формула"/>
+        </figure>
         <p>Упрощая которое получаем соотношение для нахождения пульсаций тока:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2253e948-4f4a-479d-849c-b8156236e6d6" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img112.png" alt="Формула"/>
+        </figure>
         <p>Это соотношение связывает величину пульсаций тока в дросселе фильтра с другими параметрами полумостового преобразователя: индуктивнстью дросселя, рабочей частотой, коэффициентом заполнения, входным напряжением, коэффициентом трансформации и КПД. Видно, что в чисто теоретическом случае при 100%-м КПД и коэффициенте заполнения 0,5 пульсации равны нулю. Из соотношения видно, что пульсации максимальны при q=0.25.</p>
         <p>Из полученного выше соотношения для пульсаций тока получим формулу для расчета необходимой величины индуктивности дросселя выходного фильтра полумостового преобразователя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c6b80ca8-ecf0-43f1-9024-2ea0eba7877f" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img113.png" alt="Формула"/>
+        </figure>
         <p>Для практических расчетов величина пульсаций тока дросселя должна быть существенно меньше выходного тока ΔI<sub>Lf</sub> ≈ 10% I<sub>OUT</sub><em> </em>[Dokic B.L., Blanusa B. Power Electronics: Converters and Regulators. Springer Cham Heidelberg New York Dordrecht London, 2015. XVIII, 598 p. – 290 c.].</p>
         <p><span>Средний ток дросселя</span> равен выходному току преобразователя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4d9db57a-dac7-4863-b361-dd8299ca5bf3" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img114.png" alt="Формула"/>
+        </figure>
         <p><span>Максимальный ток дросселя</span> равен сумме выходного тока преобразователя плюс половина размаха пульсаций тока дросселя ΔI<sub>Lf</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6e155812-a229-4c9d-86c3-fcdddcc9d6ee" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img115.png" alt="Формула"/>
+        </figure>
         <p><span>Среднеквадратичное значение тока дросселя</span> определяется выражением для среднеквадратичного значения треугольных импульсов с постоянной составляющей (см. раздел «Резисторы»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c3cb0aa6-7b11-4880-bf06-3d6551de0915" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img116.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>OUT</sub> – выходной ток;</p>
         <p>ΔI<sub>Lf </sub>– пульсация тока дросселя (размах).</p>
         <h5 id="16">Конденсаторы полумоста</h5>
         <p><span>Максимальное напряжение</span> на конденсаторах теоретически не превышает половины напряжения питания плюс напряжения пульсаций. Практически для обеспечения высокой надежности необходимо использовать конденсаторы с рабочим напряжением менее напряжения питания V<sub>IN</sub>.</p>
         <p><span>Ток конденсаторов полумоста.</span> Средняя величина тока, проходящего через конденсатор равен половине среднего значения тока в первичной обмотке I<sub>w1</sub> , поскольку один конденсатор будет заряжаться одной половиной тока, а второй – разряжаться другой половиной, которые вместе по закону Кирхгофа складываются в обмотке. Таким образом, для среднего тока выражение имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e2febd29-9e1e-4f8d-9d0e-aba19416cb91" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img117.png" alt="Формула"/>
+        </figure>
         <p>И поскольку:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8361b5b9-9530-4f28-adcf-5979db0b8353" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img059.png" alt="Формула"/>
+        </figure>
         <p>то:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f68cc44f-6c3b-4d2d-880d-ed1bac2181b1" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img118.png" alt="Формула"/>
+        </figure>
         <p>Максимальное значение тока через конденсаторы определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c0effd26-6867-432d-bbc7-50320d6538c3" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img119.png" alt="Формула"/>
+        </figure>
         <p>Или подставляя выражение для I<sub>w1_max</sub> получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cd92cb74-96f9-4517-8463-9935639299bc" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img120.png" alt="Формула"/>
+        </figure>
         <p><span>Ёмкость конденсаторов полумоста.</span> Определим пульсации на силовых конденсаторах полумоста. Процесс разряда/заряда конденсатора постоянным током описывается выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1c58cc6b-237b-4e77-935d-92951cda5aac" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img121.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>C_avg</sub> – ток заряда/разряда (средний ток за интервал Δt);</p>
         <p>Δt – длительность импульса тока;</p>
@@ -734,47 +792,93 @@
         <p>ΔV<sub>C</sub> – изменение напряжения на конденсаторе.</p>
         <p>Будем полагать, что:</p>
         <p>- во-первых, ток, проходящий через конденсатор равен половине среднего значения тока в первичной обмотке I<sub>w1_avg</sub> (поскольку один конденсатор будет заряжаться одной половиной тока, а второй – разряжаться другой половиной, которые вместе по закону Кирхгофа складываются в обмотке);</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e2febd29-9e1e-4f8d-9d0e-aba19416cb91" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img117.png" alt="Формула"/>
+        </figure>
         <p>- во-вторых, длительность импульса разряда/заряда равна половине периода T (это наихудший случай):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e0524077-c13c-4e55-be69-73cbf0d58c5d" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img122.png" alt="Формула"/>
+        </figure>
         <p>Тогда выражение связывающее величину пульсаций на конденсаторе полумоста с его емкостью будет иметь вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0c522db3-7f14-4c8f-a61a-3b0e8f83b80d" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a49952e3-43d1-4959-8330-ebcfedc96d5c" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img123.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img124.png" alt="Формула"/>
+        </figure>
         <p>С учетом выражения для среднего значения тока (при q=0.5) :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8361b5b9-9530-4f28-adcf-5979db0b8353" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img059.png" alt="Формула"/>
+        </figure>
         <p>Получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f02069d0-3a7b-47d5-b6b7-cb01f4de9fca" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img125.png" alt="Формула"/>
+        </figure>
         <p>Это выражение для размаха пульсаций напряжения, обусловленных процессом разряда-заряда конденсатора. Поскольку пульсации напряжения происходят относительно некоторого среднего уровня в большую и в меньшую сторону то амплитуда пульсаций равна половине размаха пульсаций:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/125743da-9709-4f2d-b94b-5d48a72a9d94" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img126.png" alt="Формула"/>
+        </figure>
         <p>С учетом этого перезапишем выражение для емкости конденсаторов полумоста:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a4a879ff-e7d6-4045-99e0-8b674ac23ba3" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img127.png" alt="Формула"/>
+        </figure>
         <p>Максимально допустимая величина пульсаций определяется типом конденсатора. При использовании пленочных конденсаторов пульсации не должны превышать 10% от величины питающего напряжения. При использовании электролитов пульсации обусловленные разрядом должны иметь существенно меньшую величину – не более 2-4%:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9f2cd1ac-78ea-464e-a0f2-81629bd6a573" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img128.png" alt="Формула"/>
+        </figure>
         <p><span>ESR конденсаторов полумоста.</span> Величина пульсаций, определяемых паразитным последовательным сопротивлением (ESR) выходного конденсатора и рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e2bb8fad-a371-4314-91b6-8a8973331953" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img129.png" alt="Формула"/>
+        </figure>
         <p>здесь величина изменения тока определяется как разность между максимальными значениями заряжающего и разряжающего токов:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b26b3f80-68a2-44dc-a344-d6021f5d443a" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img130.png" alt="Формула"/>
+        </figure>
         <p>Из предыдущего соотношения следует выражение для ESR конденсатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/73437764-bdc8-45d5-8f69-209fca04b446" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img131.png" alt="Формула"/>
+        </figure>
         <p>С учетом выражения для ΔI<sub>C</sub> получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/38e7b1b9-4c9e-4fff-892f-ed7ffe1e3590" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img132.png" alt="Формула"/>
+        </figure>
         <h5 id="17">Выходные диоды</h5>
         <p><span>Максимальное напряжение</span> на диодах для случая выпрямителя со средней точкой равно удвоенному напряжению вторичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/96345653-6db2-45b0-94b1-5c4d5b689f43" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/81303a81-0caf-40aa-a24f-0d449582ea44" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img133.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img134.png" alt="Формула"/>
+        </figure>
         <p>а для случая мостового выпрямителя равно напряжению вторичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7511420c-ffba-4d2d-a561-47599bfb7d62" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/60127a09-5e2e-46de-88aa-daa2846c479d" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img135.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img136.png" alt="Формула"/>
+        </figure>
         <p>Напряжение на вторичной обмотке равно:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e97c4c8b-5e6a-452b-a10c-b0dda057b543" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img137.png" alt="Формула"/>
+        </figure>
         <p><span>Максимальный ток</span> через диоды равен максимальному току вторичной обмотки который, в свою очередь, равен выходному току преобразователя плюс половина величины изменения тока дросселя (именно настолько ток «выпрыгивает» относительно среднего):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9179a875-f8d0-47f3-94ca-bb27d9b90798" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c8f804d1-4995-4bc1-a538-698820aef4bf" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img138.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img139.png" alt="Формула"/>
+        </figure>
         <p><span>Среднее значение тока</span> через диоды равно среднему току вторичной полуобмотки, который в свою очередь равен половине выходного тока преобразователя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c695aa2e-2128-4e9c-b29d-9dea92010533" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/52e7ec2a-e67b-47fd-9ce9-40f6a3794b93" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img140.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img141.png" alt="Формула"/>
+        </figure>
         <p><span>Тепловая мощность</span> не должна превышать мощность рассеяния с учетом системы охлаждения. В первом приближении выделяющаяся на диоде тепловая мощность равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9412317a-1c5a-4798-8d58-4c19894b9f8e" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img142.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>VD</sub> – падение напряжения на выпрямительном диоде.</p>
         <h5 id="18">Выходной конденсатор фильтра</h5>
@@ -782,98 +886,202 @@
         <p><em>Емкость конденсатора</em></p>
         <p>Рассмотрим процесс заряда-разряда конденсатора. Аналогичные вычисления, справедливые для однотактного случая были проведены в разделах «Понижающий импульсный стабилизатор напряжения» и «Двухтактный преобразователь push-pull»:</p>
         <p>Изменение напряжения на конденсаторе в процессе заряда-разряда в течение половины периода T/2 :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/625b0c2d-57e1-4e1a-b2bc-72dfce8a5bb6" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img143.png" alt="Формула"/>
+        </figure>
         <p>определяется суммарным балансом токов, заряжающих-разряжающих выходной конденсатор:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/20e996bf-cc22-4291-8ee0-aa1fb4265e66" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img144.png" alt="Формула"/>
+        </figure>
         <p>Ток, разряжающий конденсатор в течение всего времени I<sub>C-</sub> постоянен и равен току нагрузки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c8e6dfcb-6289-4be9-8f5f-4ae856274dce" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img145.png" alt="Формула"/>
+        </figure>
         <p>Заряжающий ток I<sub>C+</sub> имеет свое выражение на каждом из интервалов:</p>
         <p><span>- в период t<sub>i</sub>, когда ключ открыт, ток дросселя растет:</span></p>
         <p>В начальный момент времени интервала (t=0), то есть когда транзистор только что открылся, ток дросселя имеет минимальное значение:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3c59fc6d-c1f9-476e-b9f3-b4f01a30d007" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img146.png" alt="Формула"/>
+        </figure>
         <p>С течением времени происходит увеличение тока заряжающего конденсатор по закону:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/95baf9f5-e5c1-4e38-9cfa-fe0d9adc8ac8" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img147.png" alt="Формула"/>
+        </figure>
         <p>В итоге суммарный баланс токов, заряжающих-разряжающих выходной конденсатор на интервале потребления энергии равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/05499c8c-7696-49bd-a475-9e8d8c38abb1" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2ddc7c2f-0b60-4304-8e63-64be64be5f9f" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img148.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img149.png" alt="Формула"/>
+        </figure>
         <p>Из выражения видно, что процесс заряда выходного конденсатора начнётся в некоторый момент времени t<sub>+start</sub> после того как растущий ток через индуктивность сравняется с током I<sub>OUT</sub> (и превысит его). Найдем момент времени t<sub>+start</sub>.</p>
         <p>С учетом того, что выражение для пульсаций тока дросселя ΔI<sub>Lf</sub> имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1191fe73-a942-4ab1-b40c-3df84d51e811" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img012.png" alt="Формула"/>
+        </figure>
         <p>То, подставляя это выражение в предыдущее получим:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d2f2d845-e4d5-408d-94ef-8c83b60ac6af" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img150.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следует, что начало заряда ёмкости (когда ток I<sub>C</sub>(t) станет положительным) настанет в момент времени, равный половине длительности интервала:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ef9fb00f-453a-4540-b0d4-31dafd175635" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img151.png" alt="Формула"/>
+        </figure>
         <p>То есть конденсатор будет заряжаться оставшуюся половину интервала линейно растущим током:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/46ea5d66-0333-4135-9cc7-203a07367f71" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img152.png" alt="Формула"/>
+        </figure>
         <p>В этом выражении нулевому времени соответствует время t<sub>i</sub>/2. При этом рост напряжения на конденсаторе ΔV<sub>С_i</sub> в течение оставшейся половины интервала t<sub>i</sub> будет равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d3af37f8-8033-424d-9368-7fe54a440531" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b11819f4-83f4-4d74-9917-35dbcb1351e3" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img153.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img154.png" alt="Формула"/>
+        </figure>
         <p>Соотношение, связывающее выходное напряжение и напряжение на вторичной обмотке трансформатора имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/68690601-1b65-4b2f-be84-c312a87618be" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img155.png" alt="Формула"/>
+        </figure>
         <p>Полагая, в приближении, КПД равным 100 % выражаем V<sub>w2 </sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/baa3cae6-1d47-4c82-b01c-d40f2e879640" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img156.png" alt="Формула"/>
+        </figure>
         <p>Отсюда выражение для роста напряжения на интервале t<sub>i</sub> принимает вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5f40ee14-008a-4eb3-b72c-820b8cba8d83" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img157.png" alt="Формула"/>
+        </figure>
         <p>Проведем ряд преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/266b8fa1-2bbb-40f7-9917-18a2ab22e7fd" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/849c42ed-42ce-41b3-a81b-89f996118946" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bffbeac0-0b0c-4638-8cfc-22ea594eb161" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3eafa1eb-847a-4a63-9208-e7a6f651cca3" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img158.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img159.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img160.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img161.png" alt="Формула"/>
+        </figure>
         <p>Полученное выражение описывает увеличение напряжения на конденсаторе во времени на интервале времени t<sub>i</sub> .</p>
         <p><span>- в период «мертвого времени», ключ закрыт, ток дросселя падает:</span></p>
         <p>В начальный момент времени интервала паузы, для упрощения будем считать его нулевым моментом (t=t<sub>i</sub>) ток поддерживаемые дросселем и заряжающий конденсатор максимален и равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/390e81d2-2c91-4e13-9d11-2ae1b0d72f6a" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img162.png" alt="Формула"/>
+        </figure>
         <p>Далее с течением времени происходит спад тока заряжающего конденсатор по линейному закону:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9f9ca87c-8883-41f1-832a-6fc76176380f" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img163.png" alt="Формула"/>
+        </figure>
         <p>В итоге суммарный баланс токов, заряжающих-разряжающих выходной конденсатор равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3dc2ce39-d1f0-449c-a394-25da1d79c16d" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ed96947c-89a4-42e9-8603-b53cb59f9579" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img164.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img165.png" alt="Формула"/>
+        </figure>
         <p>Аналогично предыдущему случаю (интервал передачи энергии), подставляя выражение для пульсаций тока дросселя ΔI<sub>Lf</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1191fe73-a942-4ab1-b40c-3df84d51e811" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img012.png" alt="Формула"/>
+        </figure>
         <p>Получим выражение описывающее спад тока на интервале «мертвого времени» t<sub>deadtime</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/85f8b59e-30fd-490f-8d51-627f6b25f967" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img166.png" alt="Формула"/>
+        </figure>
         <p>Найдем момент времени t<sub>+final</sub> начиная с которого напряжение на конденсаторе начинает спадать (момент, когда ток I<sub>C</sub>(t) переходит через ноль). Проводим ряд математических преобразований:</p>
         <p>Подставляя выражение для V<sub>w2</sub> получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5668fe10-1c25-4c1c-8078-59102feaedc7" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d9cceb37-a9c9-440d-b3b4-3ef74f535e8b" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/15b638c9-56e3-48a1-81a3-16d54df98002" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d66c5871-1085-44ee-886d-26d3ba281e60" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/dec23170-abc9-47bc-a0b4-a885f13e0c4c" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img167.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img168.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img169.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img170.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img171.png" alt="Формула"/>
+        </figure>
         <p>Откуда следует, что начало разряда ёмкости (когда ток I<sub>C</sub>(t) станет отрицательным) настанет в момент:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f7fd3edd-d2d4-43cd-883d-018d9b634004" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img172.png" alt="Формула"/>
+        </figure>
         <p>То есть начало разряда емкости будет соответствовать половине интервала «мертвого времени t<sub>deadtime</sub>.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e9c86d06-43af-42f0-99d7-7a4e6a0020c6" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img173.png" alt="Формула"/>
+        </figure>
         <p>Необходимо помнить, что здесь в качестве нулевого момента времени подразумевается время равное длительности интервала передачи энергии t=t<sub>i</sub>. Это будет учтено в вычислениях интегралов тока по времени, определяющих рост напряжения.</p>
         <p>Отсюда следует, что с начала интервала и до момента времени (T/2-t<sub>i</sub>)/2 выходной конденсатор будет заряжаться спадающим током:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ed96947c-89a4-42e9-8603-b53cb59f9579" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img165.png" alt="Формула"/>
+        </figure>
         <p>Поскольку к моменту времени t=t<sub>+final</sub> ток через конденсатор будет переходить через ноль, то выражение для заряжающего тока можно переписать в виде:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/dec23170-abc9-47bc-a0b4-a885f13e0c4c" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img171.png" alt="Формула"/>
+        </figure>
         <p>В этом выражении нулевому времени соответствует время начала интервала паузы t<sub>i</sub>.</p>
         <p>Рост напряжения на конденсаторе в течение интервала «мертвого времени» (точнее первой половины интервала) ΔV<sub>С_i</sub> будет равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/49afdc94-f860-4fbb-a5ad-1139abdcaa16" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img174.png" alt="Формула"/>
+        </figure>
         <p>Проводим ряд математических преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c42ca8e0-817e-4e28-becf-399ba8891018" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8f27682f-f985-43da-8f2e-8ca6a66ccb37" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/65b97409-db10-46c2-ac0b-1b91dc32a711" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/99e2cb6f-de7c-4750-86a2-ec0d4005e0a3" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/24bf482f-4e39-4a7d-bf75-26b63ad91788" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d77f5c5b-2edf-4399-aedb-74ef8bc4c96c" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5eeba246-55fb-40f2-bc03-9b8a17a6796b" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img175.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img176.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img177.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img178.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img179.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img180.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img181.png" alt="Формула"/>
+        </figure>
         <p>Полученное выражение описывает увеличение напряжения на конденсаторе во времени на интервале времени t<sub>deadtime</sub>.</p>
         <p>Таким образом, увеличение напряжение на выходном конденсаторе происходит как на интервале передачи энергии, так и на интервале паузы:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/341593c8-d7ab-4a8d-9ad5-9b45d07528a8" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img182.png" alt="Формула"/>
+        </figure>
         <p>Подставляя полученные значения для ΔV<sub>C_deadtime</sub> и ΔV<sub>C_i</sub> получаем выражение для изменения напряжения на конденсаторе:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c9a963ce-99f9-4042-a8f4-3210beaa38b2" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img183.png" alt="Формула"/>
+        </figure>
         <p>Раскрываем скобки и проводим ряд математических преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/465efe68-4c7b-4bb1-867c-0f0e65fb17b1" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/468648a2-e41e-4753-aa92-832755a2dbad" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ad816fae-d2ee-4094-a7f4-9a17e14aa36a" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3f17993d-e15d-4646-8cdb-e28a7db987d4" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/379097e2-7868-46fa-987f-506093d8acfb" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/26e56f36-1c0a-4990-b0bb-c7fa75cff575" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img184.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img185.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img186.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img187.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img188.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img189.png" alt="Формула"/>
+        </figure>
         <p>Это выражение определяет пульсации напряжения на выходном конденсаторе за счет процесса заряда-разряда конденсатора. Видно, что пульсации максимальны при малых значениях коэффициента заполнения.</p>
         <p>Из выражения следует выражение для емкости выходного конденсатора фильтра C<sub>out</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/29deaa1a-1ba6-467b-854a-8dd2714b8b43" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img190.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>OUT</sub> – выходное напряжение;</p>
         <p>ΔV<sub>Сout_disch</sub> – величина пульсаций на конденсаторе обусловленная его зарядом-разрядом;</p>
@@ -882,52 +1090,90 @@
         <p>q - коэффициент заполнения.</p>
         <p>Формула для ΔV<sub>Сout_disch</sub> определяется только компонентой общих пульсаций связанной с разрядом емкости конденсатора фильтра. Есть еще пульсации обусловленные величиной ESR выходного конденсатора.</p>
         <p><span>Максимальное напряжение</span> на выходном конденсаторе равно максимальной величине выходного напряжения V<sub>OUT</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/502d2591-260c-47c4-b434-a4f5259d1d78" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img191.png" alt="Формула"/>
+        </figure>
         <p><span>Максимальное значение тока конденсатора</span> определяется максимальным выходным током:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7abe9c74-954e-44b0-bb67-f804428e82fb" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img192.png" alt="Формула"/>
+        </figure>
         <p><span>ESR выходного конденсатора</span> и рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/39614d7d-8c0e-4b9d-a967-8a5aef75f5d9" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img193.png" alt="Формула"/>
+        </figure>
         <p>где пульсации тока, протекающего через конденсатор фильтра определяются пульсациями тока дросселя фильтра:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/68b15eeb-738d-45fd-a468-35f2b93224cb" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img194.png" alt="Формула"/>
+        </figure>
         <p>Таким образом, выражение для расчета максимальной величины ESR выходного конденсатора фильтра имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d8207618-6739-4799-adc7-848c5d1da37b" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img195.png" alt="Формула"/>
+        </figure>
         <p>Здесь величина пульсаций ΔV<sub>Cout_ESR</sub> априори задается на уровне не более чем величина пульсаций обусловленных процессом заряда-разряда.</p>
         <p>Итоговая величина пульсаций на выходе преобразователя в первом приближении равна сумме двух составляющих пульсаций:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/33814565-492a-4bb8-a415-2080b12f9e4f" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img196.png" alt="Формула"/>
+        </figure>
         <p>Реально пульсации несколько меньше данной величины, поскольку максимумы пульсаций различной природы разнесены по времени (сдвинуты друг относительно друга).</p>
         <p><span>Дополнительное условие определяющее минимальное значение емкости </span>определяется исходя из условия возникновения аварийного режима резкого обрыва нагрузки при котором вся энергия, запасенная в выходном дросселе пойдёт на заряд выходного конденсатора фильтра.</p>
         <h5 id="19">Входной конденсатор</h5>
         <p><span>Максимальное напряжение</span> на входном конденсаторе равно напряжению питания V<sub>IN</sub>.</p>
         <p><span>Ёмкость входного конденсатора</span> C<sub>in</sub> определяется из выражения связывающего максимальную величину пульсаций и емкость конденсатора при заданной частоте и токе первичной обмотки :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6c242bb8-62d7-4c32-a214-6149e8e5a4af" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img197.png" alt="Формула"/>
+        </figure>
         <p>где Δt<sub>max</sub> – максимальный интервал времени между импульсами потребления тока. При q→0 он равен половине периода. Тогда подставляя эти значения получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9d08cd0a-6966-436d-ada0-6aca430d3dbe" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img198.png" alt="Формула"/>
+        </figure>
         <p>Откуда следует выражение для емкости конденсатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ab4925fb-f27a-4ae4-b302-bbcf7e0ae5fd" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img199.png" alt="Формула"/>
+        </figure>
         <p>Здесь падение напряжения вследствие разряда конденсатора ΔV<sub>Cin_disch</sub> выбирается в пределах 1-2% от величины входного напряжения V<sub>IN</sub>.</p>
         <p><span>Среднее значение тока конденсатора</span> определяется входным током преобразователя, который, в свою очередь, определяется исходя из баланса мощностей:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/096c093a-9483-4ba4-9aad-5b00b9232d87" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e6211de4-f13d-47a4-874c-557afdcd6125" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img087.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img200.png" alt="Формула"/>
+        </figure>
         <p>Откуда выражение для среднего значения тока имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ef1e67bd-9240-4131-b3a8-5db6611f0e62" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img201.png" alt="Формула"/>
+        </figure>
         <p><span>Максимальный ток конденсатора</span> несколько больше среднего, поскольку ток потребляется часть периода:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4004f1e4-1a82-4f82-b63a-125352a129c0" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img202.png" alt="Формула"/>
+        </figure>
         <p><span>ESR входного конденсатора</span> и рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cc96f901-34ec-48f4-b348-56a560e9fc5f" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img203.png" alt="Формула"/>
+        </figure>
         <p>Здесь величина изменения тока определяется максимальным значением разряжающего тока:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/596ede14-f261-4ae6-ab7b-18c8652f0e5a" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img204.png" alt="Формула"/>
+        </figure>
         <p>ΔV<sub>Cin_ESR</sub> – допустимая величина пульсаций обусловленных ESR входного конденсатора (обычно выбирается в пределах 1-5% от величины входного напряжения).</p>
         <p>Таким образом, максимальная величина ESR входного конденсатора определяется по соотношению.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/535f6ec0-cb02-4edf-800b-2dffe52b7e3c" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img205.png" alt="Формула"/>
+        </figure>
         <p>Или с учетом вышеприведенного выражения для максимального тока конденсатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bf5e934b-a836-4735-bf94-18eee34b73eb" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img206.png" alt="Формула"/>
+        </figure>
         <p>или</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0a926e35-ce90-438a-be4d-3d6228c8f6c0" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img207.png" alt="Формула"/>
+        </figure>
         <h4 id="20">Особенности полумостовой схемы </h4>
         <h5 id="21">Плавный пуск</h5>
         <p>Плавный пуск или «мягкий старт» – функция ШИМ-контроллера, обеспечивающая постепенное увеличение скважности импульсов q до номинального значения (рисунок HALFB.3). Для полумостовых и мостовых преобразователей является обязательной в большинстве случаев. Основная причина «обязательности» - возможность возникновения критической ситуации связанной с введением магнитопровода трансформатора в насыщение и дальнейшим неконтролируемым ростом тока. Опасность насыщения обусловлена тем, что в двухтактных преобразователях трансформатор рассчитывается таким образом, что в течение импульса индукция в магнитопроводе изменяется от -B<sub>nom</sub> до +B<sub>nom </sub>, где B<sub>nom</sub> несколько меньше индукции насыщения B<sub>sat</sub> , но не намного. То есть изначально предполагается, что магнитопровод «намагничен отрицательно». В случае же первого импульса начальная индукция в магнитопроводе равна нулю. Если импульс будет иметь свою номинальную длительность, то с нулевой начальной индукцией магнитопровод трансформатора влетит в глубокое насыщение, что приведет к резкому падению индуктивности намагничивания первичной обмотки и фактически к короткому замыканию в цепи. При больших входных напряжениях (около 300 В после выпрямителя при питании от сети переменного тока 220 В) ток через ключевые элементы составит многие десятки ампер, что приведет к выходу из строя сначала их, а затем и всей активной части преобразователя. И это в течение одного первого импульса длительностью в несколько единиц-десятков микросекунд. Поэтому «мягкий старт» для полумоста обязателен.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d5ed5bbe-6694-4658-ad60-e6780a61e148" /></p>
-        <p>Рисунок HALFB.3 - Реализация функции «Мягкий старт» (плавное увеличение рабочего цикла до номинального значения)</p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img208.png" alt="Рисунок-схема"/>
+            <p>Рисунок HALFB.3 - Реализация функции «Мягкий старт» (плавное увеличение рабочего цикла до номинального значения)</p>
+        </figure>
         <h5 id="22">Подмагничивание сердечника постоянной составляющей и методы защиты</h5>
         <p>В ходе работы полумостового преобразователя возможно постепенное увеличение индукции и «сползание» симметричного цикла работы магнитопровода в несимметричный режим подмагничивания вследствие ряда причин:</p>
         <p>- разброса времен коммутации верхнего и нижнего ключей – в результате среднее значение тока протекающего через обмотку не будет равно нулю. Это распространённый случай, поскольку времена задержек включения и выключения и времена собственно включения и выключения для верхнего нижнего транзисторов могут быть существенно различны. Сигналы от ШИМ-контроллера для нижнего транзистора проходит через драйвер на силовой ключ, а сигнал для верхнего транзистора проходит сначала через схему сдвига уровня, затем драйвер и только потом на силовой ключ. Асимметрия времен особенно ощущается при использовании «тормозных» драйверов, работе на высоких частотах, и при малых q;</p>
@@ -935,27 +1181,45 @@
         <p>- неодинаковости падений напряжения на ключевых транзисторах полумоста [Dokic B.L., Blanusa B. Power Electronics: Converters and Regulators. Springer Cham Heidelberg New York Dordrecht London, 2015. XVIII, 598 p.];</p>
         <p>- неодинаковости падений напряжения на выходных диодах или неодинаковости связи с каждой из вторичных полуобмоток с первичной [Keith Billings, Taylor Morey. Switchmode Power Supply Handbook, Third Edition. McGraw-Hill. 2011. 849 p. ].</p>
         <p>В результате разбаланса цикла перемагничивания трансформатора возникает подмагничивание сердечника постоянной составляющей (рисунок HALFB.4).</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/370d924d-4b73-4375-8e90-fe265289ddb4" /></p>
-        <p>Рисунок HALFB.4 - Подмагничивание сердечника постоянной составляющей [Dokic B.L., BlanusaB. Power Electronics: Converters and Regulators. Springer Cham Heidelberg New York Dordrecht London, 2015. XVIII, 598 p.]</p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img209.png" alt="Рисунок-схема"/>
+            <p>Рисунок HALFB.4 - Подмагничивание сердечника постоянной составляющей [Dokic B.L., BlanusaB. Power Electronics: Converters and Regulators. Springer Cham Heidelberg New York Dordrecht London, 2015. XVIII, 598 p.]</p>
+        </figure>
         <p><span>Разделительный конденсатор</span> между ключами и первичной обмоткой трансформатора предотвращает возможность постепенного нарастания индукции в первичной обмотке и последующего насыщения сердечника. Схема включения конденсатора представлена на рисунке HALFB.5. Используется исключительно неполярный конденсатор с малыми диэлектрическими потерями.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/420188a1-f115-402e-8f85-d8f82f689f61" /></p>
-        <p>Рисунок HALFB.5 - Разделительный конденсатор в цепи первичной обмотки - схемотехническая мера для предотвращения подмагничивание сердечника постоянной составляющей</p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img210.png" alt="Рисунок-схема"/>
+            <p>Рисунок HALFB.5 - Разделительный конденсатор в цепи первичной обмотки - схемотехническая мера для предотвращения подмагничивание сердечника постоянной составляющей</p>
+        </figure>
         <p>В соотвествии с данными [Dokic B.L., Blanusa B. Power Electronics: Converters and Regulators. Springer Cham Heidelberg New York Dordrecht London, 2015. XVIII, 598 p.] величина емкости разделительного конденсатора C<sub>DC_block</sub> выбирается исходя из соображения, что резонансная частота f<sub>r</sub> контура, образованного емкостью разделительного конденсатора и индуктивностью выходного фильтра L<sub>f</sub>’ приведенной к первичной обмотке (L<sub>f</sub>’=k<sup>2</sup>L<sub>f</sub>) должна быть меньше рабочей частоты преобразователя и быть в пределах 0,15-0,40 от её номинальной величины. Резонансная частота расчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/49c91195-8aba-475a-8073-d5df0332dd1c" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img211.png" alt="Формула"/>
+        </figure>
         <p>где L<sub>r</sub> - индуктивность выходного фильтра L<sub>f</sub> приведенная к первичной обмотке, вычисляемая по соотношению (k - коэффициент трансформации):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1c66cdf6-e4bb-4e25-af9b-63b787307a95" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img212.png" alt="Формула"/>
+        </figure>
         <p>Емкость конденсатора C<sub>DC_block</sub> выбирают такой, чтобы выполнялось условие:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/27c7e2f5-447e-44ad-bd39-736ccbdbd186" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img213.png" alt="Формула"/>
+        </figure>
         <p>Кроме этого при выборе ёмкости конденсатора необходимо, чтобы изменение напряжения на конденсаторе не превышало 10% от среднего значения [Swithing Power Supply Design. Second Edition. Abraham I. Pressman. The McGraw-Hill Companies. 1998. 669 p.]:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/641460aa-1e35-4148-a5e0-47fca348e998" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img214.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5df97ee5-3f49-4c1d-b34b-f1870a3744e8" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img215.png" alt="Формула"/>
+        </figure>
         <p><span>Уравновешивающая обмотка</span>, подключаемая параллельно конденсаторам полумоста с числом витков, равным числу витков в первичной обмотки. При работе преобразователя в случае если напряжения на обмотках различаются, то в обмотке возникает уравновешивающий ток, выравнивающий напряжение на конденсаторах. При этом энергия как бы рекуперируется. Число витков в уравновешивающей обмотке равно числу витков в первичной обмотке.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6d9b593d-90d7-47e9-8d17-f9f059675512" /></p>
-        <p>Рисунок HALFB.6 - Уравновешивающая обмотка полумостового преобразователя</p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img216.gif" alt="Рисунок-схема"/>
+            <p>Рисунок HALFB.6 - Уравновешивающая обмотка полумостового преобразователя</p>
+        </figure>
         <h5 id="23">Снаббер для полумостового преобразователя</h5>
         <p>При достаточно больших мощностях (более 300 Вт) с целью уменьшения динамических потерь на ключевых транзисторах, возникающих в моменты коммутационных процессов используют RC-снабберы (рисунок HALFB.7) [Keith Billings, Taylor Morey. Switchmode Power Supply Handbook, Third Edition. McGraw-Hill. 2011. 849 p.]. Детально смысл RC-снаббера заключается в следующем. Когда транзисторы закрываются, то паразитная индуктивность токопроводящей шины стремится поддержать ток в цепи [Топология частотных преобразователей средней и большой мощности. Андрей Колпаков. Компоненты и технологии № 2, 2002]. В итоге напряжение на закрывающемся ключевом транзисторе резко возрастает. Критическая ситуация возникает при достаточно больших коммутируемых токах, когда энергия, запасенная в паразитной индуктивности шины превышает максимальную энергию запасаемую в емкости сток-исток без возникновения пробоя транзистора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d2028542-87a5-4afc-a229-811124f7dbfb" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img217.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>L<sub>B</sub> - паразитная индуктивность токопроводящей шины;</p>
         <p>I<sub>VT_max</sub> – максимальный ток через ключевой транзистор;</p>
@@ -963,15 +1227,25 @@
         <p>C<sub>DS</sub> – емкость сток-исток ключевого транзистора;</p>
         <p>При добавке в схему преобразователя RC-снаббера, последний обеспечивает поглощение энергии, запасенной в паразитной индуктивности и предотвращает возникновение вторичного пробоя ключевых транзисторов.</p>
         <p>Из вышеприведенного соотношения следует требование к величине емкости снаббера C<sub>sn</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/105495ab-e253-483e-b4db-36bca5f45828" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f58e6e6f-df3a-431f-b0f5-a46fbff7a016" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img218.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img219.png" alt="Формула"/>
+        </figure>
         <p>Постоянная времени снаббера R<sub>sn</sub>C<sub>sn</sub> должна быть меньше четверти периода LC-контура, образованного ёмкостью сток-исток C<sub>DS</sub> и индуктивностью шины L<sub>B</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8b914049-5fea-40b2-a0ff-116fe538e237" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img220.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следует требование к величине сопротивления снаббера R<sub>sn</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/445ee12f-eb78-4819-a3fa-92cb895785c3" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img221.png" alt="Формула"/>
+        </figure>
         <p>Дополнительно снаббер предохраняет от слишком больших скоростей нарастания напряжения на закрытом транзисторе, которые могут стать причиной его паразитного открывания (со счет ёмкости Миллера C<sub>GD</sub>) и возникновению сквозных токов.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f941b318-5948-4e95-90f3-11fb664ecc10" /></p>
-        <p>Рисунок HALFB.7 - RC-снаббер в составе полумостового преобразователя</p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img222.gif" alt="Рисунок-схема"/>
+            <p>Рисунок HALFB.7 - RC-снаббер в составе полумостового преобразователя</p>
+        </figure>
         <h4 id="24">Алгоритм расчета полумостового преобразователя</h4>
         <h5 id="25">1. Определение исходных параметров расчета</h5>
         <p>Перед началом расчета определяем техническое задание на проектирование полумостового преобразователя напряжения:</p>
@@ -998,9 +1272,13 @@
         <p>- увеличение рабочей частоты повышает требования к компонентам источника, быстродействию переключения силовых транзисторов и топологии разводки печатной платы.</p>
         <p>Рабочая частота преобразователя f определяет требования, предъявляемые к материалу магнитопровода трансформатора.</p>
         <p>Частота коммутации f определяет период следования импульсов T:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a9cb3be9-3f3e-4d9d-b108-1dce8163761d" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img223.png" alt="Формула"/>
+        </figure>
         <p>Период совместно с коэффициентом заполнения определяет длительность импульса открытого состояния ключа:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/63d17086-b5a8-4ad0-b6c1-e52f9715f0e5" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img224.png" alt="Формула"/>
+        </figure>
         <h5 id="28">4. Выбор контроллера полумостового преобразователя</h5>
         <p>Исходными данными для выбора контроллера являются требования по регулированию выходного напряжения (тока), диапазон рабочих частот, быстродействие, стоимость, дополнительные возможности (реализация плавного пуска, управление длительностью «мертвого времени», защита по короткому замыканию, возможность управления синхронным выпрямителем и т.д.).</p>
         <p>Выбранный тип контроллера определяет значение максимального коэффициента заполнения q<sub>max</sub> (Maximum Duty Cycle - указан в datasheet). Максимальное значение коэффициента заполнения контроллеров двухтактных преобразователей может принимать значения вплоть до 49%. В большинстве типов контроллеров реализована возможность управления максимальной величиной коэффициента заполнения. Эту возможность используют при необходимости увеличения «мертвого времени» по причине низкого быстродействия ключевых транзисторов и/или цепей их управления. Кроме этого тип контроллера определяет максимальную мощность управления затвором ключевого транзистора.</p>
@@ -1009,16 +1287,24 @@
         <p>Также при необходимости рассчитывают параметры внешних элементов для обеспечения заданной величины «мертвого времени», отличной от предустановленной по умолчанию.</p>
         <h5 id="30">6. Определение максимальной мощности преобразователя и оценка мощности вторичной обмотки трансформатора</h5>
         <p>Максимальная выходная мощность преобразователя P<sub>OUT_max</sub> равна произведению тока нагрузки и напряжения на ней:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f4f5b393-28a7-492e-ab53-0fbc42b1131e" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img225.png" alt="Формула"/>
+        </figure>
         <p>Максимальная мощность вторичной обмотки трансформатора P<sub>w2</sub> равна отношению максимальной выходной мощности к КПД выходной части преобразователя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3b498724-86e6-4dca-b99f-33cf00f4da24" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img226.png" alt="Формула"/>
+        </figure>
         <p>В первом приближении КПД выходной части преобразователя включающем потери на выпрямителе и фильтре η<sub>VD+Lf</sub> можно принять равным 90 %:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7fc3595c-e10c-4f28-a248-157fe9050ca4" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img227.png" alt="Формула"/>
+        </figure>
         <p>Необходимо понимать, что на данном этапе это является начальным приближением, реальный уровень потерь и соответственно КПД может быть уточнен в процессе расчета путем вычисления различных составляющих потерь.</p>
         <h5 id="31">7. Определение тока пульсаций дросселя</h5>
         <p>Величина тока пульсаций дросселя выходного фильтра необходима для расчета параметров как самого дросселя, так и трансформатора. Поэтому определение её величины необходимо в самом начале расчетов.</p>
         <p>Величина пульсаций тока дросселя ∆I<sub>Lf_max</sub> должна быть существенно меньше выходного тока: [Swithing Power Supply Design. Second Edition. Abraham I. Pressman. The McGraw-Hill Companies. 1998. 669 p.].</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e169b778-4ab0-43f5-a3f5-8967ce0bf34d" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img228.png" alt="Формула"/>
+        </figure>
         <p>Если минимальное значение выходного тока I<sub>OUT_min </sub>равно или близко к нулю, то целесообразно ориентироваться на среднее (номинальное) значение выходного тока I<sub>OUT</sub>.</p>
         <h5 id="32">8. Расчет трансформатора</h5>
         <p>Трансформатор рассчитывается в соответствии с методикой расчета двухтактных прямоходовых трансформаторов (см. пункт «Последовательность расчета трансформатора двухтактного преобразователя» раздела «Трансформатор»).</p>
@@ -1049,7 +1335,9 @@
         <h5 id="33">9. Расчет выходного дросселя</h5>
         <p><span>Индуктивность дросселя</span></p>
         <p>Индуктивность дросселя выходного фильтра полумостового преобразователя рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/64b37803-f19e-4076-a481-e96a9ab52765" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img229.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>q<sub>0.25</sub> – коэффициент заполнения при котором пульсации максимальны (в расчете используем значение q=0.25 при котором пульсации тока максимальны):</p>
         <p>η - КПД преобразователя (зависит от мощности преобразователя, в первом приближении может быть принят равным 0,85);</p>
@@ -1059,9 +1347,13 @@
         <p>f – рабочая частота преобразователя.</p>
         <p><span>Максимальный ток дросселя</span></p>
         <p>Максимальный ток дросселя равен максимальной величине выходного тока преобразователя плюс половина размаха пульсации дросселя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c8ccb612-9083-4b1c-ad53-7cf48debce6b" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img230.png" alt="Формула"/>
+        </figure>
         <p><span>Среднеквадратичное значение тока дросселя</span> определяется выражением для среднеквадратичного значения треугольных импульсов с постоянной составляющей (см. раздел «Резисторы»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ef692b8a-3362-4560-834e-bbf378055387" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img231.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>OUT_max</sub> – максимальное значение выходного тока;</p>
         <p>ΔI<sub>Lf_max </sub>– пульсация тока дросселя (максимальное значение).</p>
@@ -1079,23 +1371,33 @@
         <h5 id="34">10. Расчет ключевых транзисторов</h5>
         <p><span>Максимальное напряжение</span></p>
         <p>Максимальное рабочее напряжение ключевых транзисторов определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4b345b29-4485-4923-9ba8-d07d147d452c" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img232.png" alt="Формула"/>
+        </figure>
         <p>При практических расчетах необходимо использовать запас по напряжению не менее 20%. На практике для полумостовых преобразователей с питанием от бытовой сети 220 В, 50 Гц минимальное рабочее напряжение силовых ключей должно быть не менее 400 В.</p>
         <p><span>Максимальный ток</span></p>
         <p>Максимальный ток транзистора определяется максимальным значением тока первичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/75e133fb-fda3-40f1-a9bf-0e16df191196" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img233.png" alt="Формула"/>
+        </figure>
         <p><span>Выбор ключевого транзистора</span> (в первом приближении) согласно полученным значениям V<sub>VT_max</sub> и I<sub>VT_max</sub>. Параметры транзистора определяем согласно datasheet.</p>
         <p><span>Выделяющаяся мощность</span></p>
         <p>Тепловая мощность, выделяющаяся на ключевом транзисторе определяется как сумма мощностей статических и динамических потерь:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f9c06893-27e1-454c-a77c-3f28a6bdf554" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img105.png" alt="Формула"/>
+        </figure>
         <p>- для MOSFET транзистора:</p>
         <p>- - мощность статических потерь P<sub>VT_stat</sub> рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b787f78a-091d-4750-aa1d-98a5ed066bf4" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img099.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w1_rms</sub> - cреднеквадратичное значение тока первичной обмотки;</p>
         <p>R<sub>DS</sub> – сопротивление MOSFET транзистора в открытом состоянии.</p>
         <p>- - мощность динамических потерь P<sub>VT_switch</sub> рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/02eba220-f4c0-4890-9f3a-7969f2d32482" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img234.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>t<sub>f</sub> – время спада напряжения на транзисторе (в момент коммутации);</p>
         <p>t<sub>r</sub> – время нарастания напряжения на транзисторе (переход в закрытое состояние);</p>
@@ -1103,19 +1405,25 @@
         <p>Q<sub>rr</sub> – заряд восстановления паразитного диода транзистора.</p>
         <p>Параметры MOSFET-транзистора: выходная емкость транзистора С<sub>oss</sub>, заряд восстановления паразитного диода транзистора Q<sub>rr</sub> содержаться в datasheet на выбранный тип транзистора. Времена спада и нарастания напряжения на транзисторе t<sub>f</sub> и t<sub>r</sub> можно рассчитать в соответствии с параметрами выходного каскада ШИМ-контроллера преобразователя или использовать оценочные значения согласно datasheet-у транзистора.</p>
         <p>Важным моментом при расчетах является то, что величина заряда восстановления паразитного диода транзистора Q<sub>rr</sub> приведена в datasheet для определенных параметров работы транзистора (как правило, высоких скоростях изменения тока через транзистор и токах, близких к максимальному). Таким образом, использование «даташитного» значения Q<sub>rr</sub> даст величину потерь близкую к наихудшему случаю. В случае необходимости более точных расчетов целесообразно корректировать Q<sub>rr</sub> согласно соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1d2da124-d562-4f2e-86ea-3a103c392a68" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img101.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>Q<sub>rr_datasheet</sub> – значение заряда, восстановления паразитного диода транзистора Q<sub>rr</sub> данная в datasheet;</p>
         <p>I<sub>F_datasheet</sub> – значение прямого тока, протекающего через паразитный диод транзистора при котором получено значение Q<sub>rr_datasheet</sub> ;</p>
         <p>I<sub>F </sub>– значение прямого тока, протекающего через паразитный диод транзистора в реальных условиях соответствующих расчету, как правило равное максимальному току первичной обмотки I<sub>w1_max</sub>.</p>
         <p>- для IGBT транзистора:</p>
         <p>- - мощность статических потерь P<sub>VT_stat</sub> оценивается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/310a5bb9-33d6-4eb4-af7b-2131fb2235d0" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img102.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>CE</sub> – падение напряжения на транзисторе в открытом состоянии;</p>
         <p>I<sub>w1_avg</sub> – среднее значение тока первичной обмотки:</p>
         <p>- - мощность динамических потерь P<sub>VT_switch</sub> рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e991190c-967e-45b6-b0b6-8d258c289495" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img235.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>E<sub>ts</sub> – суммарная энергия переключения;</p>
         <p>С<sub>oes</sub> – выходная емкость транзистора;</p>
@@ -1126,46 +1434,75 @@
         <p>В подавляющем большинстве случаев в качестве силовых ключей полумостового преобразователя используются мощные MOSFET-транзисторы. Эти транзисторы обладают рядом преимуществ: малые энергии переключения; управление напряжением, высокое быстродействие. К особенностями MOSFET-транзисторов относится наличие интегрированного паразитного диода с невысоким быстродействием, что нужно учитывать при проектировании схем.</p>
         <h5 id="35">11. Расчет конденсаторов полумоста</h5>
         <p><span>Максимальное напряжение</span> на конденсаторах полумоста равно максимальному значению напряжения питания:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cce318d0-48ea-4cf6-b691-e86666c5dd48" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img236.png" alt="Формула"/>
+        </figure>
         <p>На практике часто выбирают конденсаторы с максимальным напряжением, равным максимальному напряжению ключевых транзисторов.</p>
         <p><span>Максимальное значение тока</span> через конденсаторы:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a669479f-ba04-4fab-9ce7-e555bb680c48" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img237.png" alt="Формула"/>
+        </figure>
         <p><span>Минимально необходимое значение емкости конденсаторов полумоста</span> рассчитываем по выражению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b861e429-3bc5-476b-b969-34d64c76bc53" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img238.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>C1,C2_ripple</sub> – допустимая величина пульсаций, обусловленных зарядом-разрядом конденсатора;</p>
         <p>Максимально допустимая величина пульсаций определяется типом конденсатора. При использовании пленочных конденсаторов пульсации не должны превышать 10% от величины питающего напряжения. При использовании электролитов пульсации обусловленные разрядом должны иметь существенно меньшую величину – не более 2-4%:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/075b6097-2978-4c87-8859-363bf1d60827" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img239.png" alt="Формула"/>
+        </figure>
         <p><span>Максимальная величина ESR конденсаторов полумоста</span> вычисляется по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4000094d-182a-40a9-9bc2-31cc59d57dcc" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img240.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>C1,C2_ESR</sub> – допустимая величина пульсаций, обусловленных ESR (принимаем равной или меньшей V<sub>C1,C2_ripple</sub>):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/23006292-3398-41e8-ba37-39dbd9295c41" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img241.png" alt="Формула"/>
+        </figure>
         <h5 id="36">12. Расчет выпрямительных диодов</h5>
         <p><span>Максимальное напряжение</span></p>
         <p><span>Максимальное напряжение</span> на выпрямительных диодах для случая выпрямителя со средней точкой равно удвоенному напряжению вторичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7d99e59a-90c9-46d1-b7bc-7d9af49f6fb2" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img242.png" alt="Формула"/>
+        </figure>
         <p>а для случая мостового выпрямителя равно напряжению вторичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1d7f7349-fc7f-42ed-8508-1590a961eca5" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/07ea96a8-52fb-4f02-a3f5-f1411511a8a5" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img243.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img244.png" alt="Формула"/>
+        </figure>
         <p>Максимальное напряжение вторичной обмотки определяется максимальным значением входного напряжения и коэффициентом трансформации:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/49899dfb-97e9-4f5d-9a69-95440f0de04c" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img245.png" alt="Формула"/>
+        </figure>
         <p>На практике для обеспечения надежности необходимо использовать минимум 20% запас по рабочему напряжению.</p>
         <p><span>Максимальный ток</span></p>
-        <p>Максимальный ток через выпрямительные диоды рассчитывается по соотношению:<img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b8bc89b7-94e0-4cc3-81b3-01373da9c028" /></p>
+        <p>Максимальный ток через выпрямительные диоды рассчитывается по соотношению:</p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img246.png" alt="Формула"/>
+        </figure>
         <p><span>Среднее значение тока</span></p>
         <p>Среднее значение тока определяется по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3df87f26-7cdb-411d-96c5-02be61a054ef" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img247.png" alt="Формула"/>
+        </figure>
         <p><span>Выбираем конкретный тип диода</span> согласно рассчитанным значениям максимального напряжения и тока. Далее выбранный тип диода может быть изменен.</p>
         <p><span>Тепловая мощность</span></p>
         <p>Тепловая мощность определяется по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/568a39ec-a3c7-4984-bde5-1a0324b60adc" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img248.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>VD</sub> – падение напряжения на выпрямительном диоде, определяется согласно datasheet (типовое 1,2 В в случае использования кремниевых диодов, и 0,8 В в случае использования диодов Шоттки).</p>
         <h5 id="37">13. Расчет выходного конденсатора фильтра C<sub>out</sub></h5>
         <p><span>Максимальное напряжение</span></p>
         <p>Максимальное напряжение на выходном конденсаторе равно максимальной величине выходного напряжения V<sub>OUT_max</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/502d2591-260c-47c4-b434-a4f5259d1d78" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img24?.png" alt="Формула"/>
+        </figure>
         <p>При выборе типа конденсатора его максимальное напряжение должно минимум на 20-25 % превышать рассчитанное значение для безопасной работы.</p>
         <p><span>Максимальный ток</span></p>
         <p>Максимальный ток выходного конденсатора равен максимальному выходному току:</p>

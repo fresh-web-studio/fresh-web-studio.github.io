@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="107" column="8" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+            <state relative-caret-position="228">
+              <caret line="95" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/half-bridge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="547" column="17" lean-forward="true" selection-start-line="547" selection-start-column="17" selection-end-line="547" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="1471" column="46" selection-start-line="1471" selection-start-column="46" selection-end-line="1471" selection-end-column="46" />
               <folding>
                 <element signature="e#6313#6318#0" expanded="true" />
                 <element signature="e#7086#7091#0" expanded="true" />
@@ -296,21 +296,7 @@
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
       <workItem from="1583479670196" duration="48473000" />
-      <workItem from="1583985920149" duration="28305000" />
-    </task>
-    <task id="LOCAL-00257" summary="Обновление">
-      <created>1583606002833</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1583606002833</updated>
-    </task>
-    <task id="LOCAL-00258" summary="Обновление">
-      <created>1583770774262</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1583770774262</updated>
+      <workItem from="1583985920149" duration="33426000" />
     </task>
     <task id="LOCAL-00259" summary="Обновление">
       <created>1583773613922</created>
@@ -641,11 +627,25 @@
       <option name="project" value="LOCAL" />
       <updated>1584038861082</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="Обновление">
+      <created>1584040953673</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1584040953674</updated>
+    </task>
+    <task id="LOCAL-00307" summary="Обновление">
+      <created>1584041454823</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1584041454823</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293921000" />
+    <option name="totallyTimeSpent" value="299042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="193" y="-1417" width="1155" height="1329" extended-state="0" />
@@ -1010,13 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="107" column="8" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -1024,10 +1017,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="95" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/half-bridge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="547" column="17" lean-forward="true" selection-start-line="547" selection-start-column="17" selection-end-line="547" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="1471" column="46" selection-start-line="1471" selection-start-column="46" selection-end-line="1471" selection-end-column="46" />
           <folding>
             <element signature="e#6313#6318#0" expanded="true" />
             <element signature="e#7086#7091#0" expanded="true" />
