@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/half-bridge-forward.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/half-bridge-forward.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +46,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/half-bridge-forward.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="47" column="95" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="95" />
+            <state relative-caret-position="826">
+              <caret line="434" column="54" selection-start-line="434" selection-start-column="54" selection-end-line="434" selection-end-column="54" />
               <folding>
-                <element signature="e#67595#67599#0" expanded="true" />
-                <element signature="e#173593#173597#0" expanded="true" />
+                <element signature="e#65326#65330#0" expanded="true" />
+                <element signature="e#171324#171328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,36 +67,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Критерий заданного времени включения/выключения транзистора</find>
-      <find>Высокие скорости нарастания напряжения на транзисторе (dV/dt) – причины и следствия</find>
-      <find>Причины высоких dV/dt на закрытом транзисторе и последствия</find>
-      <find>Способы защиты от высоких значений dV/dt</find>
-      <find>Резистор в цепи затвор-исток</find>
-      <find>Схема на  p-n-p транзисторе</find>
-      <find>Схема на p-n-p транзисторе</find>
-      <find>Расчет статических и динамических потерь при коммутации MOSFET</find>
-      <find>Расчет статических и динамических потерь при коммутаци</find>
-      <find>Расчет статических и динамических потерь при коммутации IGBT</find>
-      <find>Расчет статических и динамических потерь при коммутации</find>
-      <find>Статические потери</find>
-      <find>Динамические потери</find>
-      <find>Драйверы класса «TrueDrive»</find>
-      <find>Ряд типовых схемотехнических решений управления затвором</find>
-      <find>Схема с затворным резистором</find>
-      <find>Схема с обратным диодом в цепи затвора</find>
-      <find>Схема с независимо задаваемыми скоростями включения и выключения транзистора</find>
-      <find>Схема управления с разрядным p-n-p транзистором</find>
-      <find>Схема с дополнительным разрядным MOSFET- транзистором</find>
-      <find>Схема с усилителем тока на комплементарных биполярных транзисторах</find>
-      <find>Схема с усилителем тока на MOSFET транзисторах</find>
-      <find>Схема с усилителем тока на биполярных транзисторах c различными скоростями включения/выключения</find>
-      <find>Пробой затвора ключевого транзистора: причины и способы защиты</find>
-      <find>Причины пробоя затвора</find>
-      <find>Способы защиты от пробоя затвора</find>
-      <find>Схема включения стабилизаторов с фиксированным выходным напряжением</find>
-      <find>&lt;/h6&gt;&lt;/p&gt;</find>
-      <find>На рисунке HBFC</find>
-      <find>style=&quot;text-decoration: underline&quot;</find>
+      <find>Связь входного и выходного напряжения</find>
+      <find>Связь входного и выходного</find>
+      <find>Связь входного и</find>
+      <find>Связь входног</find>
+      <find>напряжения двухключевого прямоходового преобразователя</find>
+      <find>Связь входного и выходного напряжения</find>
+      <find>&lt;/strong&gt;&lt;strong&gt;</find>
+      <find>Расчет элементов преобразователя</find>
+      <find>&gt;Трансформатор</find>
+      <find>&gt;Ключевые транзисторы</find>
+      <find>&gt;Рекуперационные диоды</find>
+      <find>&gt;Выходные диоды</find>
+      <find>&gt;Дроссель фильтра</find>
+      <find>&gt;Выходной конденсатор</find>
+      <find>&gt;Входной конденсатор</find>
+      <find>&gt;Алгоритм расчета прямоходового двухключевого преобразов</find>
+      <find>&gt;1. Определение исходных параметров расчета</find>
+      <find>&gt;2. Выбор контроллера прямоходового двухключевого преобразователя</find>
+      <find>&gt;3. Выбор частоты коммутации и параметров времязадающей RC-цепочки контроллера</find>
+      <find>&gt;4. Определение максимальной мощности преобразователя и оценка мощности вторичной обмотки трансформатора</find>
+      <find>&gt;5. Определение тока пульсаций дросселя</find>
+      <find>&gt;6. Расчет трансформатора</find>
+      <find>&gt;7. Расчет выходного дросселя</find>
+      <find>&gt;8. Расчет диодов</find>
+      <find>&gt;8.2 Расчет параметров вып</find>
+      <find>&gt;8.3 Расчет параметров токозам</find>
+      <find>&gt;9. Расчет ключевых транзисторов</find>
+      <find>&gt;10. Расчет выходного конденсатора</find>
+      <find>&gt;11. Расчет входного конденсатора</find>
+      <find>&lt;/span&gt;&lt;span&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -194,11 +195,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-670" />
-    <option name="y" value="-1440" />
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="202" />
+    <option name="y" value="-1414" />
+    <option name="width" value="1146" />
+    <option name="height" value="1334" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -302,21 +303,7 @@
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
       <workItem from="1583479670196" duration="48473000" />
-      <workItem from="1583985920149" duration="5189000" />
-    </task>
-    <task id="LOCAL-00243" summary="Обновление">
-      <created>1583493798755</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1583493798755</updated>
-    </task>
-    <task id="LOCAL-00244" summary="Обновление">
-      <created>1583494430974</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1583494430975</updated>
+      <workItem from="1583985920149" duration="8076000" />
     </task>
     <task id="LOCAL-00245" summary="Обновление">
       <created>1583516154595</created>
@@ -647,14 +634,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583992899681</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <task id="LOCAL-00292" summary="Обновление">
+      <created>1583995749419</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1583995749419</updated>
+    </task>
+    <task id="LOCAL-00293" summary="Обновление">
+      <created>1583996847789</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1583996847789</updated>
+    </task>
+    <option name="localTasksCounter" value="294" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270805000" />
+    <option name="totallyTimeSpent" value="273692000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
+    <frame x="202" y="-1414" width="1146" height="1334" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.36563072" />
@@ -670,7 +671,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.16944024" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15128593" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16750419" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012987" side_tool="true" weight="0.32694247" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.2250185" />
@@ -1015,11 +1016,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/half-bridge-forward.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="47" column="95" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="95" />
+        <state relative-caret-position="826">
+          <caret line="434" column="54" selection-start-line="434" selection-start-column="54" selection-end-line="434" selection-end-column="54" />
           <folding>
-            <element signature="e#67595#67599#0" expanded="true" />
-            <element signature="e#173593#173597#0" expanded="true" />
+            <element signature="e#65326#65330#0" expanded="true" />
+            <element signature="e#171324#171328#0" expanded="true" />
           </folding>
         </state>
       </provider>
