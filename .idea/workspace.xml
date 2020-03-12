@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/filter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/half-bridge.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/half-bridge.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="480">
               <caret line="1777" column="21" selection-start-line="1777" selection-start-column="21" selection-end-line="1777" selection-end-column="21" />
               <folding>
                 <element signature="e#6631#6636#0" expanded="true" />
@@ -28,29 +28,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="182" column="15" selection-start-line="182" selection-start-column="15" selection-end-line="183" selection-end-column="17" />
+            <state relative-caret-position="94">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/filter.html">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/half-bridge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1065">
-              <caret line="19" column="17" selection-end-line="748" selection-end-column="7" />
+            <state relative-caret-position="390">
+              <caret line="101" column="24" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
               <folding>
-                <element signature="e#30876#30880#0" expanded="true" />
+                <element signature="e#6313#6318#0" expanded="true" />
+                <element signature="e#7086#7091#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="213" column="23" selection-start-line="213" selection-start-column="23" selection-end-line="213" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -66,36 +58,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;2. Выбор контроллера прямоходового двухключевого преобразователя</find>
-      <find>&gt;3. Выбор частоты коммутации и параметров времязадающей RC-цепочки контроллера</find>
-      <find>&gt;4. Определение максимальной мощности преобразователя и оценка мощности вторичной обмотки трансформатора</find>
-      <find>&gt;5. Определение тока пульсаций дросселя</find>
-      <find>&gt;6. Расчет трансформатора</find>
-      <find>&gt;7. Расчет выходного дросселя</find>
-      <find>&gt;8. Расчет диодов</find>
-      <find>&gt;8.2 Расчет параметров вып</find>
-      <find>&gt;8.3 Расчет параметров токозам</find>
-      <find>&gt;9. Расчет ключевых транзисторов</find>
-      <find>&gt;10. Расчет выходного конденсатора</find>
-      <find>&gt;11. Расчет входного конденсатора</find>
-      <find>&lt;/span&gt;&lt;span&gt;</find>
-      <find>&lt;/h6&gt;&lt;/p&gt;</find>
-      <find>style=&quot;text-decoration: underline&quot;</find>
-      <find>&gt;Емкостной фильтр</find>
-      <find>&gt;Связка «Емкостной фильтр</find>
-      <find>&gt;Связка «Емкостной фильтр + двухполупериодный выпрямитель»</find>
-      <find>&gt;Резистивно-емкостной фильтр</find>
-      <find>Индуктивно-емкостной фильтр</find>
-      <find>&gt;Помехоподавляющие фильтры</find>
-      <find>&gt;Что такое ВЧ-помехи?</find>
-      <find>&gt;Основные типы входных помехоподавляющих</find>
-      <find>&gt;Многозвенные фильтры</find>
-      <find>&gt;Расчет вносимого затухания</find>
-      <find>&gt;Расчет полного сопротивления элементов</find>
-      <find>&lt;/h5&gt;&lt;/p&gt;</find>
-      <find>tabl</find>
-      <find>MsoTableGrid</find>
-      <find>tAb</find>
+      <find>&gt;Трансформатор</find>
+      <find>&gt;Ключевые транзисторы</find>
+      <find>&gt;Дроссель фильтра</find>
+      <find>&gt;Конденсаторы полумоста</find>
+      <find>&gt;Выходные диоды</find>
+      <find>&gt;Выходной конденсатор фильтра</find>
+      <find>&gt;Входной конденсатор</find>
+      <find>&gt;Особенности полумостовой схемы</find>
+      <find>&gt;Плавный пуск</find>
+      <find>&gt;Подмагничивание сердечника посто</find>
+      <find>&gt;Снаббер для полумостового преобраз</find>
+      <find>&gt;Алгоритм расчета полумостового преобраз</find>
+      <find>&gt;1. Определение исходных параметров</find>
+      <find>&gt;2. Определение базовой стру</find>
+      <find>&gt;3. Выбор рабочей частоты преобр</find>
+      <find>&gt;4. Выбор контроллера полумостового</find>
+      <find>&gt;5. Расчет параметров времязадающей</find>
+      <find>&gt;6. Определение максимальной мощност</find>
+      <find>&gt;9. Расчет выходного дро</find>
+      <find>&gt;10. Расчет ключевых транзис</find>
+      <find>&gt;11. Расчет конденсаторов полумос</find>
+      <find>&gt;12. Расчет выпрямительных ди</find>
+      <find>&gt;13. Расчет выходного конденса</find>
+      <find>&gt;13. Расчет выходног</find>
+      <find>&gt;13. Расчет вы</find>
+      <find>&gt;13. Расчет</find>
+      <find>&gt;13. Расчет</find>
+      <find>&gt;13.</find>
+      <find>&gt;13. Расчет выходного конд</find>
+      <find>&gt;14. Расчет входного конденс</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -186,6 +178,7 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/half-bridge-forward.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/filter.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/half-bridge.html" />
       </list>
     </option>
   </component>
@@ -197,9 +190,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="193" />
-    <option name="y" value="-1414" />
+    <option name="y" value="-1417" />
     <option name="width" value="1155" />
-    <option name="height" value="1334" />
+    <option name="height" value="1329" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -246,14 +239,14 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jpizza/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/artemsdobnikov/math/image" />
       <recent name="$PROJECT_DIR$/jpizza/psd" />
       <recent name="$PROJECT_DIR$/artemsdobnikov/math/styles" />
       <recent name="$PROJECT_DIR$/artemsdobnikov/math" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jpizza/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,21 +296,7 @@
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
       <workItem from="1583479670196" duration="48473000" />
-      <workItem from="1583985920149" duration="20736000" />
-    </task>
-    <task id="LOCAL-00253" summary="Обновление">
-      <created>1583594056731</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1583594056731</updated>
-    </task>
-    <task id="LOCAL-00254" summary="Обновление">
-      <created>1583601671722</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1583601671723</updated>
+      <workItem from="1583985920149" duration="25140000" />
     </task>
     <task id="LOCAL-00255" summary="Обновление">
       <created>1583601701621</created>
@@ -648,17 +627,31 @@
       <option name="project" value="LOCAL" />
       <updated>1584032628348</updated>
     </task>
-    <option name="localTasksCounter" value="302" />
+    <task id="LOCAL-00302" summary="Обновление">
+      <created>1584032679546</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1584032679547</updated>
+    </task>
+    <task id="LOCAL-00303" summary="Обновление">
+      <created>1584036047016</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1584036047016</updated>
+    </task>
+    <option name="localTasksCounter" value="304" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286352000" />
+    <option name="totallyTimeSpent" value="290756000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="-1414" width="1155" height="1334" extended-state="0" />
+    <frame x="193" y="-1417" width="1155" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.36563072" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.36536717" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -671,7 +664,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.16944024" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16750419" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16820858" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012987" side_tool="true" weight="0.32694247" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.2250185" />
@@ -768,9 +761,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img077.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img075.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -993,20 +983,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="1777" column="21" selection-start-line="1777" selection-start-column="21" selection-end-line="1777" selection-end-column="21" />
-          <folding>
-            <element signature="e#6631#6636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="182" column="15" selection-start-line="182" selection-start-column="15" selection-end-line="183" selection-end-column="17" />
+        <state relative-caret-position="320">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1017,19 +997,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/filter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="152">
+          <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+          <folding>
+            <element signature="e#30876#30880#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/filter.html">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1065">
-          <caret line="19" column="17" selection-end-line="748" selection-end-column="7" />
+        <state relative-caret-position="480">
+          <caret line="1777" column="21" selection-start-line="1777" selection-start-column="21" selection-end-line="1777" selection-end-column="21" />
           <folding>
-            <element signature="e#30876#30880#0" expanded="true" />
+            <element signature="e#6631#6636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/half-bridge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="101" column="24" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+          <folding>
+            <element signature="e#6313#6318#0" expanded="true" />
+            <element signature="e#7086#7091#0" expanded="true" />
           </folding>
         </state>
       </provider>
