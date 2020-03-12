@@ -290,78 +290,136 @@
             <img src="image/half-bridge-img034.png" alt="Формула"/>
         </figure>
         <p>Из соотношения баланса токов полуобмоток (закон Кирхгофа) выразим ток в вторичной полуобмотке :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b595d68b-953c-4ea5-8d7b-3d865b2036bc" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img035.png" alt="Формула"/>
+        </figure>
         <p>И подставляя его в предыдущее выражение получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b27051b8-4ed3-4a83-ba7a-cd4b626f9d9e" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img036.png" alt="Формула"/>
+        </figure>
         <p>Откуда проводя ряд преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ef2d531e-608f-47ee-a029-8e96e857654e" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3f8a6261-24e1-45f3-bd6b-20ac6a548120" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img037.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img038.png" alt="Формула"/>
+        </figure>
         <p>окончательно получаем выражение для тока вторичной полуобмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f592ced3-0d76-4f74-adcb-6ef7b852f29b" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img039.png" alt="Формула"/>
+        </figure>
         <p>И подставляя это выражение в формулу для I<sub>21</sub> получаем выражение для тока другой вторичной полуобмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ca36c29e-a070-44bc-8120-8fa43327e289" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img040.png" alt="Формула"/>
+        </figure>
         <p>Эти выражения определяют, что на стадии паузы через диоды протекают токи, различающиеся только на величину тока намагниченности, приведенного к вторичной обмотке. То есть МДС накопленная в магнитопроводе по разному влияет на ток во вторичных полуобмотках: - в одной ток убавляет, в другой – прибавляет. Причина этого – противофазное включение обмоток. Забегая вперед скажем, что на следующей стадии паузы выражения для токов полуобмоток поменяются местами.</p>
         <p>На стадии паузы дроссель L<sub>f</sub> «разряжается» на нагрузку имеющую напряжение равное выходному V<sub>OUT</sub>, то есть фактически к индуктивности выходного фильтра L<sub>f</sub> прикладывается выходное напряжение (падением напряжения на диодах пренебрежем):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/95592afa-9142-41d9-9354-c5d5b21d1808" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img041.png" alt="Формула"/>
+        </figure>
         <p>В результате ток через L<sub>f</sub> поддерживаемый запасенной в дросселе энергией начинает спадать. К началу интервала через дроссель протекал максимальный ток накопленный за период t<sub>i</sub>, Изменение (спад) тока за интервал описывается выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9d844540-00a2-462a-980b-f939810b5b87" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img042.png" alt="Формула"/>
+        </figure>
         <p>Или, с учетом выражения для коэффициента заполнения q это выражение можно преобразовать к виду:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/42a4590a-85ae-4355-a4c4-176f8d3cb97d" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img043.png" alt="Формула"/>
+        </figure>
         <p>В результате спада тока дросселя уменьшается и ток в полуобмотках во время паузы.</p>
         <p>В этот и последующий периоды паузы ток индуктивности рассеяния первичной обмотки замыкается через обратные диоды силовых ключей (для MOSFET-транзисторов – через их паразитные диоды) и часть энергии индуктивности возвращается обратно в источник. Поэтому напряжение на транзисторах никогда не может превысить напряжение источника питания.</p>
         <h5 id="6">Стадия коммутации нижнего ключа</h5>
         <p>После завершения стадии первой паузы длительность которой равна t<sub>deadtime</sub> начитается стадия коммутации нижнего ключа. Управляющий сигнал ШИМ-контроллера через драйвер нижнего ключа отрывает нижний транзистор VT2. Верхний транзистор VT1 остается надежно закрыт. После коммутации VT2 к первичной обмотке трансформатора прикладывается напряжение равное половине входного напряжения - V<sub>IN</sub>/2. Полярность напряжения противоположна по отношению к полярности стадии коммутации верхнего транзистора. Ток первичной обмотки складывается из токов верхнего C1 и нижнего C2 конденсаторов полумоста. Направление токов таково, что на этой стадии нижний конденсатор разряжается, а верхний заряжается. То есть наблюдается полная инверсия направлений токов по сравнению с интервалом коммутации верхнего ключа. При этом все соотношения и формулы фактически идентичны выражениям для первой стадии.</p>
         <p>Напряжение на вторичной обмотке определяется коэффициентом трансформации:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/fb9a35df-a77e-4fc8-a94c-18b5dd5c23ee" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img044.png" alt="Формула"/>
+        </figure>
         <p>Полярность напряжения вторичной обмотке противоположна по знаку полярности на стадии коммутации верхнего ключа.</p>
         <p>Напряжение V<sub>w2</sub> является обратным по отношению к выпрямительному диоду VD1<sub>OUT</sub> который закрывается, и является прямым по отношению к VD2<sub>OUT</sub> который открыт и проводит ток.</p>
         <p>Под действием разности напряжений вторичной обмотки V<sub>w2</sub> и V<sub>OUT</sub> прикладываемой к дросселю фильтра L<sub>f</sub> начинает возрастать протекающий через него ток, до этого поддерживаемый запасенной в дросселе энергией. При этом важно понимать, что ток в цепи вторичной обмотки I<sub>w2</sub> ограничивается током дросселя. Таким образом, ток вторичной обмотки I<sub>w2</sub> равен по величине току дросселя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/40e7bc92-2a0f-4a32-b6d2-a8b392176477" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img014.png" alt="Формула"/>
+        </figure>
         <p>Полный ток первичной обмотки равен сумме «отраженного» тока, и тока намагничивания:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5cdfd2f1-d9be-4a09-936a-59e3037f42ab" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img015.png" alt="Формула"/>
+        </figure>
         <p><span>Амплитуда тока намагничивания I<sub>w</sub><sub>1_</sub><sub>magn</sub></span> с учетом выведенных соотношений раздела для коммутации верхнего ключа определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/04b32230-d236-4035-9f4e-27ce54d91db6" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img045.png" alt="Формула"/>
+        </figure>
         <p>Направление изменения тока намагничивания противоположно по отношению к стадии коммутации верхнего ключа, что обеспечивает симметричное перемагничивание магнитопровода.</p>
         <p><span>Амплитуда «отраженного» тока I<sub>w</sub><sub>1_</sub><sub>refl</sub></span> определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c7e13cf3-49cf-432e-8d7c-5618d34371c9" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img018.png" alt="Формула"/>
+        </figure>
         <p>Напряжение, прикладываемое к верхнему транзистору VT1 равно входному напряжению преобразователя V<sub>IN</sub>. Ток через дроссель фильтра на стадии коммутации второго ключа возрастает, все выражения аналогичны выражениям для стадии коммутации второго ключа.</p>
         <p>Фактически за стадию коммутации нижнего ключа отыгрываются назад те процессы, которые произошли за стадию коммутации верхнего ключа – обратно перезаряжаются конденсаторы полумоста, перемагничивается сердечник трансформатора и т.д. обеспечивая симметричную и двухтактную работу преобразователя.</p>
         <h5 id="7">Стадия второй паузы</h5>
         <p>Стадия второй паузы следует сразу после стадии коммутации нижнего ключа VT2 и начинается в момент его полного запирания. В целом процессы аналогичны процессам на стадии первой паузы. Индуктивность силового дросселя L<sub>f</sub> «вытягивает» ток из цепей вторичных полуобмоток трансформатора. Из закона Кирхгофа следует выражение определяющее баланс токов:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f7a64e32-6469-4709-879a-747184010c49" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img027.png" alt="Формула"/>
+        </figure>
         <p>Поскольку цепи полуобмоток и диодов последовательны, то токи полуобмоток равны токам диодов:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6960250b-234d-4aef-964d-8c081f3d01d0" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img028.png" alt="Формула"/>
+        </figure>
         <p>К началу стадии паузы через первичную обмотку протекал ток намагничивания, амплитуда которого равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d69efd75-89bf-4cc1-aa5f-260041c663ab" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img029.png" alt="Формула"/>
+        </figure>
         <p>В результате действия тока намагничивания в магнитопроводе была накоплена магнитодвижущая сила (МДС) равная произведению тока намагничивания первичной обмотки на числа витков в ней:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/66ee1e7f-7a1c-49a7-8f1b-c0fcc1f4e7cc" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img030.png" alt="Формула"/>
+        </figure>
         <p>На стадии второй паузы эта сила должна «перераспределиться» и изменить величины токов протекающих в первичных полуобмотках. Для понимания перераспределения токов, составим балансное уравнение для ампер-витков обмоток:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/317add2f-d6bf-4299-b77d-bcd8b8bc66cf" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img046.png" alt="Формула"/>
+        </figure>
         <p>Левая часть этого уравнения противоположна по знаку аналогичному уравнению для стадии первой паузы, поскольку ток первичной полуобмотки протекает в другом направлении. Решая систему уравнений в последовательности, аналогичной представленной для первой паузы, получаем выражение для тока I<sub>22</sub> вторичной полуобмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4ac030a0-b700-4d49-8b0c-37d7930fcdef" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img047.png" alt="Формула"/>
+        </figure>
         <p>Подставляя это выражение в соотношение баланса токов полуобмоток получаем выражение для тока I<sub>21 </sub>другой вторичной полуобмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ef5a5313-7a7c-4a39-ac34-9c331c1e1e12" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img048.png" alt="Формула"/>
+        </figure>
         <p>Эти выражения определяют, что на стадии паузы через диоды протекают токи, различающиеся только на величину тока намагниченности приведенного к вторичной обмотке.</p>
         <p>Сопоставляя полученные выражения для токов полуобмоток с аналогичными выражениями, полученными для стадии первой паузы получаем, что составляющая обусловленная током намагничивания на одной стадии уменьшает ток, а на последующей – увеличивает. При этом если взять среднее значение тока за период обеих пауз, то оно будет одинаково для обоих полуобмоток и равно половине тока дросселя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ec9bbe88-2385-4fa9-a785-764a138b17a5" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a516ad80-3679-4f5a-b8c9-232e6923ac45" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img049.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img050.png" alt="Формула"/>
+        </figure>
         <p>Необходимо отметить, что полученные выражения справедливы для схемы выпрямителя со средней точкой. Для мостовой схемы выпрямителя в первом приближении можно считать, что на стадии паузы ток обмотки равен току дросселя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ef01a24a-3b72-4e54-bdc3-e173474a08ac" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img051.png" alt="Формула"/>
+        </figure>
         <h4 id="8">Токи первичной и вторичной обмоток на стадии передачи энергии в нагрузку</h4>
         <h5 id="9">Токи первичной обмотки</h5>
         <p>Ток первичной обмотки на стадии передачи энергии описывается выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5cdfd2f1-d9be-4a09-936a-59e3037f42ab" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img015.png" alt="Формула"/>
+        </figure>
         <p>Эта общая ситуация для всех преобразователей прямого хода - пуш-пульных, полумостовых и мостовых.</p>
         <p>Суммарный ток первичной обмотки полумостового преобразователя имеет форму прямоугольной трапеции (рисунок HALFB.2):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/78107934-8230-4f84-bb27-94a45428668d" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img052.png" alt="Формула"/>
+        </figure>
         <p>Здесь компонента I<sub>w1</sub>(0) является «наследством» от предыдущего периода, то есть током первичной обмотки к началу импульса. Он определяется собственным током, «протягиваемым» индуктивностью первичной обмотки.</p>
         <p>С учетом того, что ток вторичной обмотки определяется током нагрузки плюс пульсация тока дросселя, то:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/40a10540-f708-48fc-b0d7-ca6c307b9753" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img053.png" alt="Формула"/>
+        </figure>
         <p>Из этого базового выражения следуют выражения для амплитудного, среднего, среднеквадратичного значений тока первичной обмотки:</p>
         <p><span>Амплитуда тока намагничивания I<sub>w</sub><sub>1_</sub><sub>magn</sub> первичной обмотки</span> рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/096b531a-3fe7-4c92-a503-7f441d1dc879" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img054.png" alt="Формула"/>
+        </figure>
         <p>или с учетом выражения для тока намагничивания выведенного в предыдущем разделе «Стадия коммутации верхнего ключа»:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/04b32230-d236-4035-9f4e-27ce54d91db6" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img029.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>L<sub>0</sub> – индуктивность намагничивания (фактически индуктивность первичной обмотки);</p>
         <p>t<sub>i</sub> – длительность импульса напряжения приложенного к первичной обмотке;</p>
@@ -370,74 +428,128 @@
         <p>q – коэффициент заполнения.</p>
         <p>Из формулы видно, что намагничивающий ток имеет треугольную форму и поэтому иногда его называют «треугольной составляющей» тока.</p>
         <p><span>Амплитуда отраженной составляющей тока первичной обмотки I<sub>w</sub><sub>1_</sub><sub>refl</sub></span> определяется максимальным значением тока вторичной обмотки I<sub>w2_max</sub> который как бы «отражается» в первичной обмотке. Амплитуды токов связаны через коэффициент трансформации:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bb1a7af1-ac69-4ce6-8d10-d57524f4a3df" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img055.png" alt="Формула"/>
+        </figure>
         <p>Здесь максимальный ток вторичной обмотки равен выходному току плюс половина изменения тока выходного дросселя :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3553a714-7708-4b83-8ee0-08b316e4b07b" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img056.png" alt="Формула"/>
+        </figure>
         <p>При малых относительных значениях пульсаций тока дросселя ток имеет форму импульсов, приближающуюся к прямоугольной, потому его иногда называют «прямоугольной составляющей» тока первичной обмотки.</p>
         <p><span>Амплитудное значение тока первичной обмотки</span> определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d343e37d-9560-479a-be6f-7fe2f8b22bf6" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img057.png" alt="Формула"/>
+        </figure>
         <p><span>Среднее значение тока первичной обмотки</span> определяется как сумма составляющих тока. При расчете среднего значения тока учитываются следующие моменты:</p>
         <p>- ток через одну обмотку протекает лишь в течение части периода (время 2t<sub>i</sub> за период T);</p>
         <p>- ток намагничивания, оставшийся от предыдущего цикла в начальный момент времени имеет направление противоположное основному току (отраженному) и за время импульса он меняет свое направление на противоположное (сердечник полостью перемагничивается). В связи с этим в течение первой половины импульса ток намагничивания сначала вычитается, а затем складывается и усреднение на интервале t<sub>i</sub> дает ноль. Таким образом, для двухтактных преобразователей суммарный вклад тока намагничивания в средний ток равен нулю. Аналогичный вывод можно сделать и для пульсаций тока выходного дросселя.</p>
         <p>С учетом вышесказанного можно записать выражение для среднего значения тока первичной полуобмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/172166bd-3a06-4b63-bead-7cf8f91746cf" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img058.png" alt="Формула"/>
+        </figure>
         <p>или</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/742120fa-ada6-4994-bb61-0c7309ad2b9b" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img059.png" alt="Формула"/>
+        </figure>
         <p><span>Среднеквадратичное значение тока первичной обмотки</span> имеющего форму прямоугольной трапеции равно (см. раздел «Резисторы») :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/58ca04ba-55ea-4e86-9bd7-4227500b28fb" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img060.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>q – относительная длительность импульса (максимальное значение);</p>
         <p>I<sub>w1_max</sub>, I<sub>w1_min</sub> - максимальное и минимальное значения тока первичной обмотки вычисляются по соотношениям:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/aada9702-a6df-452c-a8a8-3bd1873bc4f6" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b9835c42-cc77-43eb-b4b1-9ff3cdb298d2" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img061.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img062.png" alt="Формула"/>
+        </figure>
         <p>В формуле для I<sub>w1_rms</sub> множитель 2 под знаком корня означает, что в течение одного периода через обмотку протекает два импульса трапецеидальной формы.</p>
         <h5 id="10">Токи вторичной обмотки</h5>
         <p>Поскольку в рассматриваемой топологии полумоствого преобразователя использован выпрямитель с выводом от средней точки, то вторичная обмотка состоит из двух полуобмоток. Все нижеприведенные выражения приведены для единичной полуобмотки.</p>
         <p>Ток вторичной полуобмотки определяется током нагрузки и пульсациями тока дросселя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/27da8d74-f287-4541-972c-d15a74d0452a" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img063.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следуют выражения для амплитудного, среднего, среднеквадратичного значений тока вторичной обмотки:</p>
         <p><span>Амплитудное значение тока вторичной полуобмотки</span> определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/84199617-c14a-4243-b5ff-b7a8b479038d" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img064.png" alt="Формула"/>
+        </figure>
         <p><span>Среднее значение тока вторичной полуобмотки</span> вычисляется сложением средних значений тока на каждом из двух интервалов протекания тока через вторичную полуобмотку: в течение соответствующего импульса длительностью t<sub>i</sub> и в течение двух периодов «мертвого времени» t<sub>deadtime</sub>.</p>
         <p>Среднее значение тока во время импульса длительностью t<sub>i</sub> равно выходному току преобразователя, но необходимо помнить, что этот ток протекает только часть периода (период t<sub>i</sub>). Среднее значение тока во время за два периода «мертвого времени» t<sub>deadtime</sub> равно, (в среднем за два периода) половине выходного тока (рисунок HALFB.2). Таким образом, выражение для среднего значения тока вторичной полуобмотки имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cef87222-e855-4246-8430-cd25588062e5" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img065.png" alt="Формула"/>
+        </figure>
         <p>Проводим ряд упрощений:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bdce3d5b-d49a-4155-8102-a715b8c26fc3" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a00b839e-42dc-4442-a48e-a8862cf91014" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/737ddfd3-d3d4-4c1c-93eb-a1e7331e3ac4" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5b9df5e4-53b1-4115-8bcd-41a2914888dc" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img066.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img067.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img068.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/half-bridge-img069.png" alt="Формула"/>
+        </figure>
         <p>Получаем простое итоговое выражение:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0e3a4af2-f784-4a75-be8b-fec7d6dd56ca" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img070.png" alt="Формула"/>
+        </figure>
         <p>Важно понимать, что это выражение для половины обмотки. Суммарно средний ток всей вторичной обмотки равен выходному току.</p>
         <p><span>Среднеквадратичное значение тока вторичной полуобмотки</span> определяется на основе среднеквадратичных значений тока на каждом из двух интервалов протекания тока через вторичную полуобмотку: в течение соответствующего импульса длительностью t<sub>i</sub> и в течение двух периодов «мертвого времени» t<sub>deadtime</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/61dbc013-c618-45f4-9461-8fde092a3653" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img071.png" alt="Формула"/>
+        </figure>
         <p>Для практических расчетов можно принять, что среднеквадратичное значение тока в<strong> </strong>течение двух периодов «мертвого времени» существенно меньше значения на интервале импульса. В связи с этим:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3a17da33-4a38-483d-b418-80374f7cecfa" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img072.png" alt="Формула"/>
+        </figure>
         <p>Поскольку на интервале времени t<sub>i</sub> ток имеет форму прямоугольной трапеции, то <span>среднеквадратичное значение тока вторичной полуобмотки</span> вычисляется по выражению (см. раздел «Резисторы»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/241d06b9-a1fe-4b1c-9199-00fbd5650a40" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img073.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>q – коэффициент заполнения;</p>
         <p>I<sub>OUT</sub> – выходной ток;</p>
         <p>ΔI<sub>Lf </sub>– пульсация тока дросселя.</p>
         <p>С учетом того, что ток протекает через обе вторичных полуобмотки, то суммарная выделяющееся мощность удваивается. В эквивалентном значении <span>среднеквадратичного значения тока вторичной обмотки </span>приведенном к одной полуобмотке значение коэффициента заполнения q приравнивается к единице.</p>
         <p>Если вторичная обмотка не разделена на полуобмотки, то среднеквадратичное значение тока обмотки имеет форму треугольных импульсов с постоянной составляющей и вычисляется по аналогичному соотношению (см. раздел «Резисторы»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/149ec4a2-303b-4de9-8ae0-36bae59a7b6b" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img074.png" alt="Формула"/>
+        </figure>
         <p><strong><h4 id="11">Соотношение для выходного напряжения полумостового преобразователя</h4></strong></p>
         <p>Установим взаимосвязь между входным и выходным напряжением полумостового преобразователя.</p>
         <p>Входная мощность преобразователя будет определяться выходной мощностью и КПД:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/64d14cb9-05c3-4bbe-a566-47fbd67c9b98" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img075.png" alt="Формула"/>
+        </figure>
         <p>Входная мощность преобразователя описывается выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b6c78566-3923-4370-9eb5-1678dcf43d27" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img076.png" alt="Формула"/>
+        </figure>
         <p>В полумостовой схеме ток, потребляемый от источника питания в моменты времени, когда хотя бы один из ключевых транзисторов открыт, равен половине тока первичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1bd68678-ed0f-4a29-b56a-aaa96d9e2984" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img077.png" alt="Формула"/>
+        </figure>
         <p>Это обусловлено тем, что в первичной обмотке в соответствии с законом Кирхгофа одновременно суммируется ток от источника (заряжающий один из конденсаторов) и ток, разряжающий другой конденсатор (см. схему на рисунке HALFB.2). Поэтому для потребляемой мощности выражение может быть перезаписано как:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8994ab9d-fdee-4d21-b776-231317d117ea" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img078.png" alt="Формула"/>
+        </figure>
         <p>или:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0930f8bd-9f88-424f-9fba-bac6f6d68436" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img079.png" alt="Формула"/>
+        </figure>
         <p>Ток первичной обмотки состоит из отраженной составляющей I<sub>w1_refl</sub> и тока намагничивания I<sub>w1_magn</sub>. На интервале «мертвого времени», когда транзисторы закрыты, ток намагничивания замыкается через вторичную обмотку (обе полуобмотки) и на первичной цепи это никак не сказывается. С учетом этого выражение для входного тока преобразователя может быть записано в виде:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/85e75507-e4c8-48c4-a4d7-0ae9b864193e" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img080.png" alt="Формула"/>
+        </figure>
         <p>Отсюда выражение для входной мощности будет иметь вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3342a6c4-547c-4742-9243-ed6dd562cf9a" /></p>
+        <figure class="article__image">
+            <img src="image/half-bridge-img081.png" alt="Формула"/>
+        </figure>
         <p>Раскрывая интегралы и перегруппируя, получаем:</p>
         <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a1ed596b-90ca-4f8d-b1ae-7ce381ec64ba" /></p>
         <p>Сумма интегралов в правых скобках дает в сумме ноль, поскольку среднее значение тока намагничивания протекающего поочередно в каждый из полупериодов через первичную обмотку равно нулю. Фактически ток намагничивания в общий баланс мощности не входит т.к. она просто «циркулирует» в системе и не потребляется.</p>
