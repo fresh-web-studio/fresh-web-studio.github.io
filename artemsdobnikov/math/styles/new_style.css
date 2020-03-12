@@ -211,6 +211,9 @@ td img {
     margin: auto;
     width: 60%;
 }
+td .article__image img {
+    width: auto;
+}
 .article__table th,
 .article__table td {
     border: 1px solid #000;
