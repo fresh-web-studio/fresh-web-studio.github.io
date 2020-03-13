@@ -616,27 +616,24 @@
         </figure>
         <p>Подставляя выражения для мощностей P<sub>IN</sub> и P<sub>OUT</sub> для идеализированного случая) получаем:</p>
         <figure class="article__image">
-            <img src="image/buck-boost-converter-img103.png" alt="Формула"/>
-        </figure>
-        <figure class="article__image">
             <img src="image/buck-boost-converter-img104.png" alt="Формула"/>
         </figure>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img105.png" alt="Формула"/>
         </figure>
-        <p>Отсюда следует, что время включенного состояния ключа должно увеличиться для того чтобы скомпенсировать потери.</p>
-        <p>Для того чтобы выполнялось соотношение:</p>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img106.png" alt="Формула"/>
         </figure>
-        <p>необходимо чтобы увеличение времени Δt<sub>i</sub> компенсировало уменьшение выходного напряжения. Таким образом, необходимое приращение времени Δt<sub>i</sub> определяется из выражения:</p>
+        <p>Отсюда следует, что время включенного состояния ключа должно увеличиться для того чтобы скомпенсировать потери.</p>
+        <p>Для того чтобы выполнялось соотношение:</p>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img107.png" alt="Формула"/>
         </figure>
-        <p>Проводим ряд математических преобразований:</p>
+        <p>необходимо чтобы увеличение времени Δt<sub>i</sub> компенсировало уменьшение выходного напряжения. Таким образом, необходимое приращение времени Δt<sub>i</sub> определяется из выражения:</p>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img108.png" alt="Формула"/>
         </figure>
+        <p>Проводим ряд математических преобразований:</p>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img109.png" alt="Формула"/>
         </figure>
@@ -661,18 +658,18 @@
         <figure class="article__image">
             <img src="image/buck-boost-converter-img116.png" alt="Формула"/>
         </figure>
-        <p>Из ранее полученного выражения:</p>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img117.png" alt="Формула"/>
         </figure>
-        <p>получаем отношение выходного и выходного напряжений:</p>
+        <p>Из ранее полученного выражения:</p>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img118.png" alt="Формула"/>
         </figure>
-        <p>Подставляя это отношение в предыдущее «большое» выражение получаем:</p>
+        <p>получаем отношение выходного и выходного напряжений:</p>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img119.png" alt="Формула"/>
         </figure>
+        <p>Подставляя это отношение в предыдущее «большое» выражение получаем:</p>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img120.png" alt="Формула"/>
         </figure>
@@ -700,16 +697,21 @@
         <figure class="article__image">
             <img src="image/buck-boost-converter-img128.png" alt="Формула"/>
         </figure>
-        <p>Откуда, переходя к коэффициенту заполнения:</p>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img129.png" alt="Формула"/>
         </figure>
-        <p>Это выражение показывает, как изменяется коэффициент заполнения q инвертирующего стабилизатора при внесении определенной мощности потерь.</p>
+        <p>Откуда, переходя к коэффициенту заполнения:</p>
         <figure class="article__image">
             <img src="image/buck-boost-converter-img130.png" alt="Формула"/>
         </figure>
+        <p>Это выражение показывает, как изменяется коэффициент заполнения q инвертирующего стабилизатора при внесении определенной мощности потерь.</p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img131.png" alt="Формула"/>
+        </figure>
         <p>Это выражение может быть переписано в виде:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/25308284-a6f0-4417-8341-a14786a192ce" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img132.png" alt="Формула"/>
+        </figure>
         <p><h4 id="19">Алгоритм расчета инвертирующего импульсного стабилизатора напряжения</h4></p>
         <p><h5 id="20">1. Определение исходных параметров расчета</h5></p>
         <p>Фактически, в начале всех расчетов определяем техническое задание на проектирование стабилизатора напряжения:</p>
@@ -721,21 +723,31 @@
         <p>Если заданы фиксированные значения входных или выходных параметров, то в дальнейших расчетах максимальные и минимальные значения, указанные в формулах принимаются равными номинальному значению.</p>
         <p><h5 id="21">2. Определение максимального и минимального значений коэффициента заполнения</h5></p>
         <p>- В случае если входное и выходное напряжения фиксированы, то значение коэффициента заполнения q рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8f246142-4f3e-4c45-be01-e5dc094bfcb1" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img133.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>OUT</sub> - номинальное выходное напряжение;</p>
         <p>V<sub>IN</sub> - номинальное входное напряжение;</p>
         <p>q - коэффициент заполнения.</p>
         <p>- В случае если входное напряжение изменяется, а выходное напряжение фиксировано (самый распространенный случай), то максимальное и минимальное значение коэффициента заполнения q рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/74da1844-fc1c-4d7f-bccb-193cbbe0aa19" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bb753894-c812-4d61-a4d2-edff99b1b3ed" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img134.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img135.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>OUT</sub> - номинальное выходное напряжение;</p>
         <p>V<sub>IN_max</sub> , V<sub>IN_min</sub> - – максимальное и минимальное значение входного напряжения соответственно;</p>
         <p>q<sub>max </sub>, q<sub>min</sub> – максимальное и минимальное значение коэффициента заполнения соответственно.</p>
         <p>- В случае если входное и выходное напряжение изменяется, (самый сложный случай), то значение коэффициента заполнения q рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5f02c081-6c50-4248-bae3-ca2a65e0054a" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/803f40b4-ff3d-4a0c-99b6-85ee29214335" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img136.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img137.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>OUT_max</sub> , V<sub>OUT_min</sub> – максимальное и минимальное значение выходного напряжения соответственно;</p>
         <p>V<sub>IN_max</sub> , V<sub>IN_min</sub> – максимальное и минимальное значение входного напряжения соответственно;</p>
@@ -745,26 +757,36 @@
         <p><h5 id="23">4. Расчет параметров силового дросселя</h5><strong>L</strong></p>
         <p><span>Расчет индуктивности дросселя</span></p>
         <p>Индуктивность дросселя инвертирующего стабилизатора определяется исходя из значения максимального тока пульсаций:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bcf96076-f597-4077-a2d5-9d6777f0b5f8" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img138.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>q<sub>min</sub> – минимальное значение коэффициента заполнения;</p>
         <p>V<sub>OUT_max</sub> – максимальное значение выходного напряжения;</p>
         <p>f – рабочая частота импульсного стабилизатора;</p>
         <p>ΔI<sub>L</sub> – максимально допустимая величина пульсации тока дросселя.</p>
         <p>Максимальная величина пульсаций тока дросселя определяется из условия [Buck-Converter Design Demystified. By Donald Schelle and Jorge Castorena, Jorge Castorena, Technical Staff, Technical Staff, Maxim Integrated Products, Sunnyvale, Calif. Power Electronics Technology. June2006]:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1f98aa72-4169-428d-8b1d-ed1b4a79943a" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img139.png" alt="Формула"/>
+        </figure>
         <p>выбираем нижнюю границу диапазона:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/32d505e8-9d04-4bfa-b378-997f51206d9b" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img140.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>OUT</sub> – номинальное значение выходного тока (в случае, если номинальное значение не задано, то в качестве I<sub>OUT</sub> используется среднее между максимальным и минимальным значением параметра).</p>
         <p>Это приблизительное соотношение подразумевает «золотую середину» между уровнем пульсаций и габаритами дросселя: Чем меньше индуктивность дросселя, тем больше пульсации и меньше габариты и наоборот.</p>
         <p><span>Расчет максимального тока через дроссель</span></p>
         <p>Максимальный ток через дроссель определяется из выражения:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7eb9d2c9-deca-4737-9039-af691aa5eaed" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img141.png" alt="Формула"/>
+        </figure>
         <p>При проектировании дросселя максимальный ток через него обязательно выбирается с запасом минимум 25-30% относительно данного значения.</p>
         <p><span>Расчет среднеквадратичного значения тока через дроссель</span></p>
         <p>Среднеквадратичное значение тока через дроссель определяется из выражения:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/edfe90f9-af20-4f45-a00d-77e0adac3b02" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img142.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>OUT_max</sub> – максимальное значение выходного тока;</p>
         <p>ΔI<sub>L </sub>– пульсация тока дросселя.</p>
@@ -772,16 +794,24 @@
         <p><h5 id="24">5. Расчет параметров выходного конденсатора фильтра C<sub>out</sub></h5></p>
         <p><span>Определение максимального напряжения V<sub>Cout</sub><sub>_</sub><sub>max</sub></span></p>
         <p><span>Максимальное напряжение</span> на выходном конденсаторе равно максимальной величине выходного напряжения V<sub>OUT_max</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/923ca70d-e93f-4978-b98a-77e4cb18f03a" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img143.png" alt="Формула"/>
+        </figure>
         <p>При выборе типа конденсатора его максимальное напряжение должно минимум на 20-25 % превышать рассчитанное значение для безопасной работы.</p>
         <p><span>Расчет составляющих выходных пульсаций ΔV<sub>OUT</sub></span></p>
         <p>Составляющая пульсаций ΔV<sub>Сout_disch</sub> , обусловленная его зарядом-разрядом выбирается в пределах 10-50% от величины выходных пульсаций ΔV<sub>OUT </sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/616fe76e-0b92-48ba-8cf2-b8e8c6a69459" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img144.png" alt="Формула"/>
+        </figure>
         <p>Отсюда вычисляется остающаяся на долю ESR величина пульсаций:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/dbb477f7-33ba-43d3-a7d9-66551791aa3e" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img145.png" alt="Формула"/>
+        </figure>
         <p><span>Расчёт емкости выходного конденсатора фильтра C<sub>out</sub></span></p>
         <p>Рассчитываем минимальную величину емкости выходного конденсатора фильтра C<sub>out</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3f775c38-749a-43a8-9a0a-e76fc440ff6c" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img146.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>OUT_мах</sub> – максимальные выходной ток;</p>
         <p>C<sub>out</sub> – выходная емкость;</p>
@@ -790,7 +820,9 @@
         <p>ΔV<sub>Сout_disch</sub> – величина пульсаций на конденсаторе обусловленная его зарядом-разрядом.</p>
         <p><span>Расчет ESR выходного конденсатора</span></p>
         <p>Максимальное значение ESR выходного конденсатора рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/264bf9a5-c3c4-4430-b11a-2d1c3d2e237d" /></p>
+        <figure class="article__image">
+            <img src="image/buck-boost-converter-img147.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>L_max</sub> – максимальный тока дросселя;</p>
         <p>I<sub>OUT_max</sub> – максимальное значение выходного тока;</p>
