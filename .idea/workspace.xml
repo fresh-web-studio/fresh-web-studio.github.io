@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+            <state relative-caret-position="438">
+              <caret line="95" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/buck-boost-converter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="448" column="21" selection-start-line="448" selection-start-column="21" selection-end-line="448" selection-end-column="21" />
+            <state relative-caret-position="96">
+              <caret line="686" column="17" lean-forward="true" selection-start-line="686" selection-start-column="17" selection-end-line="686" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -54,36 +54,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;/span&gt;&lt;span&gt;</find>
-      <find>&gt;Период передачи энергии</find>
-      <find>&gt;Связь входного и выходного напряжения стабилизатора</find>
-      <find>&gt;Взаимосвязь между входным и выходным током повышающего стабилизатора</find>
-      <find>&gt;Взаимосвязь между входным и выходным током повы</find>
-      <find>&gt;Взаимосвязь между входным и выходным током</find>
-      <find>&gt;Режимы работы стабилизатора: режим прерывистых токов и режим неразрывных токов</find>
-      <find>&gt;Расчет параметров элементов повышающего импульсного стабилизатора напряжения</find>
-      <find>Расчет параметров элементов повышающего</find>
-      <find>Расчет параметров элементов</find>
-      <find>&gt;Расчет параметров элементов инвертирующего импульсного стабилизатора</find>
-      <find>&gt;Силовой дроссель</find>
-      <find>&gt;Выходной конденсатор фильтра</find>
-      <find>&gt;Входной конденсатор</find>
-      <find>&gt;Диод</find>
-      <find>&gt;Ключевой транзистор VT</find>
-      <find>&gt;Ключевой транзистор</find>
-      <find>&gt;Реальные параметры повышающего стабилизатора</find>
-      <find>&gt;Реальные параметры инвертирующего стабилизатора</find>
-      <find>&gt;Основные паразитные параметры повышающего стабилизатора</find>
-      <find>&gt;Основные паразитные параметры повышающего</find>
-      <find>&gt;Основные паразитные параметры</find>
-      <find>&gt;Соотношение взаимосвязи VIN и VOUT с учетом паразитных параметров</find>
-      <find>&gt;Соотношение взаимосвязи V&lt;sub&gt;</find>
-      <find>&gt;Расчет коэффициента заполнения повышающего стабилизатора на основе интегральных потерь</find>
-      <find>&gt;Расчет коэффициента заполнения инвертирующего стабилизатора на основе интегральных потерь</find>
-      <find>&gt;Алгоритм расчета повышающего импульсного стабилизатора напряжения</find>
-      <find>&gt;Алгоритм расчета инвертирующего импульсного стабилизатора напряжения</find>
       <find>&gt;1. Определение исходных параметров расчета</find>
       <find>&gt;2. Определение максимального и минимального значений коэффициента заполнения</find>
+      <find>&gt;3. Расчет параметров силового дросселя L</find>
+      <find>&gt;3. Расчет параметров силового</find>
+      <find>&gt;3. Расчет параметров силовог</find>
+      <find>&gt;3. Расчет параметров</find>
+      <find>&gt;3. Расчет парамет</find>
+      <find>3. Расчет парамет</find>
+      <find>3. Расчет</find>
+      <find>3. Расчет</find>
+      <find>3. Рас</find>
+      <find>3.</find>
+      <find>4. Расчет параметров выходного конденсатора фильтра</find>
+      <find>4. Расчет параметров выходного конденсатора</find>
+      <find>4. Расчет параметров выходного</find>
+      <find>4. Расчет параметро</find>
+      <find>4. Расчет параметр</find>
+      <find>&gt;5. Расчет параметров входного конденсатора</find>
+      <find>&gt;5.</find>
+      <find>&gt;6. Расчет параметров ключевого транзистора VT</find>
+      <find>&gt;6. Расчет параметров</find>
+      <find>&gt;7. Расчет параметров диода VD</find>
+      <find>&gt;7. Р</find>
+      <find>&gt;8. Расчет конструкции силового дросселя инвертирующего стабилизатора напряжения</find>
+      <find>&gt;8. Ра</find>
+      <find>&gt;9. Коррекция коэффициента заполнения q c учетом параметров реальной схемы. Уточнение параметров схемы стабилизатора</find>
+      <find>&gt;9. Коррекц</find>
+      <find>&gt;9.</find>
+      <find>&gt;8.</find>
+      <find>tabl</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -185,11 +185,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-670" />
-    <option name="y" value="-1440" />
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="192" />
+    <option name="y" value="-1417" />
+    <option name="width" value="1155" />
+    <option name="height" value="1329" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -293,21 +293,7 @@
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
       <workItem from="1583479670196" duration="48473000" />
-      <workItem from="1583985920149" duration="37005000" />
-    </task>
-    <task id="LOCAL-00263" summary="Обновление">
-      <created>1583774517079</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1583774517079</updated>
-    </task>
-    <task id="LOCAL-00264" summary="Обновление">
-      <created>1583775341332</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1583775341332</updated>
+      <workItem from="1583985920149" duration="42854000" />
     </task>
     <task id="LOCAL-00265" summary="Обновление">
       <created>1583775615433</created>
@@ -638,14 +624,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584087119947</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <task id="LOCAL-00312" summary="Обновление">
+      <created>1584088073294</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1584088073294</updated>
+    </task>
+    <task id="LOCAL-00313" summary="Обновление">
+      <created>1584090509379</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1584090509379</updated>
+    </task>
+    <option name="localTasksCounter" value="314" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="302621000" />
+    <option name="totallyTimeSpent" value="308470000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
+    <frame x="192" y="-1417" width="1155" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.36523125" />
@@ -661,7 +661,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.16944024" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15128593" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16820858" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012987" side_tool="true" weight="0.32694247" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.2250185" />
@@ -1015,13 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/boost-converter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1226">
@@ -1029,10 +1022,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="95" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/buck-boost-converter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="448" column="21" selection-start-line="448" selection-start-column="21" selection-end-line="448" selection-end-column="21" />
+        <state relative-caret-position="96">
+          <caret line="686" column="17" lean-forward="true" selection-start-line="686" selection-start-column="17" selection-end-line="686" selection-end-column="17" />
         </state>
       </provider>
     </entry>
