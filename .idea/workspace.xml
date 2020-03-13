@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/buck-boost-converter.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/buck-boost-converter.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/buck-boost-converter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1384">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="342">
+              <caret line="448" column="21" selection-start-line="448" selection-start-column="21" selection-end-line="448" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -53,36 +54,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;Конденсаторы полумоста</find>
-      <find>&gt;Выходные диоды</find>
+      <find>&lt;/span&gt;&lt;span&gt;</find>
+      <find>&gt;Период передачи энергии</find>
+      <find>&gt;Связь входного и выходного напряжения стабилизатора</find>
+      <find>&gt;Взаимосвязь между входным и выходным током повышающего стабилизатора</find>
+      <find>&gt;Взаимосвязь между входным и выходным током повы</find>
+      <find>&gt;Взаимосвязь между входным и выходным током</find>
+      <find>&gt;Режимы работы стабилизатора: режим прерывистых токов и режим неразрывных токов</find>
+      <find>&gt;Расчет параметров элементов повышающего импульсного стабилизатора напряжения</find>
+      <find>Расчет параметров элементов повышающего</find>
+      <find>Расчет параметров элементов</find>
+      <find>&gt;Расчет параметров элементов инвертирующего импульсного стабилизатора</find>
+      <find>&gt;Силовой дроссель</find>
       <find>&gt;Выходной конденсатор фильтра</find>
       <find>&gt;Входной конденсатор</find>
-      <find>&gt;Особенности полумостовой схемы</find>
-      <find>&gt;Плавный пуск</find>
-      <find>&gt;Подмагничивание сердечника посто</find>
-      <find>&gt;Снаббер для полумостового преобраз</find>
-      <find>&gt;Алгоритм расчета полумостового преобраз</find>
-      <find>&gt;1. Определение исходных параметров</find>
-      <find>&gt;2. Определение базовой стру</find>
-      <find>&gt;3. Выбор рабочей частоты преобр</find>
-      <find>&gt;4. Выбор контроллера полумостового</find>
-      <find>&gt;5. Расчет параметров времязадающей</find>
-      <find>&gt;6. Определение максимальной мощност</find>
-      <find>&gt;9. Расчет выходного дро</find>
-      <find>&gt;10. Расчет ключевых транзис</find>
-      <find>&gt;11. Расчет конденсаторов полумос</find>
-      <find>&gt;12. Расчет выпрямительных ди</find>
-      <find>&gt;13. Расчет выходного конденса</find>
-      <find>&gt;13. Расчет выходног</find>
-      <find>&gt;13. Расчет вы</find>
-      <find>&gt;13. Расчет</find>
-      <find>&gt;13. Расчет</find>
-      <find>&gt;13.</find>
-      <find>&gt;13. Расчет выходного конд</find>
-      <find>&gt;14. Расчет входного конденс</find>
-      <find>Максимальное напряжение на выходном</find>
-      <find>Максимальное напряжение</find>
-      <find>tabl</find>
+      <find>&gt;Диод</find>
+      <find>&gt;Ключевой транзистор VT</find>
+      <find>&gt;Ключевой транзистор</find>
+      <find>&gt;Реальные параметры повышающего стабилизатора</find>
+      <find>&gt;Реальные параметры инвертирующего стабилизатора</find>
+      <find>&gt;Основные паразитные параметры повышающего стабилизатора</find>
+      <find>&gt;Основные паразитные параметры повышающего</find>
+      <find>&gt;Основные паразитные параметры</find>
+      <find>&gt;Соотношение взаимосвязи VIN и VOUT с учетом паразитных параметров</find>
+      <find>&gt;Соотношение взаимосвязи V&lt;sub&gt;</find>
+      <find>&gt;Расчет коэффициента заполнения повышающего стабилизатора на основе интегральных потерь</find>
+      <find>&gt;Расчет коэффициента заполнения инвертирующего стабилизатора на основе интегральных потерь</find>
+      <find>&gt;Алгоритм расчета повышающего импульсного стабилизатора напряжения</find>
+      <find>&gt;Алгоритм расчета инвертирующего импульсного стабилизатора напряжения</find>
+      <find>&gt;1. Определение исходных параметров расчета</find>
+      <find>&gt;2. Определение максимального и минимального значений коэффициента заполнения</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -292,21 +293,7 @@
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
       <workItem from="1583479670196" duration="48473000" />
-      <workItem from="1583985920149" duration="35347000" />
-    </task>
-    <task id="LOCAL-00261" summary="Обновление">
-      <created>1583774030609</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1583774030609</updated>
-    </task>
-    <task id="LOCAL-00262" summary="Обновление">
-      <created>1583774477006</created>
-      <option name="number" value="00262" />
-      <option name="presentableId" value="LOCAL-00262" />
-      <option name="project" value="LOCAL" />
-      <updated>1583774477006</updated>
+      <workItem from="1583985920149" duration="37005000" />
     </task>
     <task id="LOCAL-00263" summary="Обновление">
       <created>1583774517079</created>
@@ -637,17 +624,31 @@
       <option name="project" value="LOCAL" />
       <updated>1584046617698</updated>
     </task>
-    <option name="localTasksCounter" value="310" />
+    <task id="LOCAL-00310" summary="Обновление">
+      <created>1584086354983</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1584086354983</updated>
+    </task>
+    <task id="LOCAL-00311" summary="Обновление">
+      <created>1584087119947</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1584087119947</updated>
+    </task>
+    <option name="localTasksCounter" value="312" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300963000" />
+    <option name="totallyTimeSpent" value="302621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-670" y="-1440" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.36536717" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.36523125" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -948,13 +949,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/boost-converte.html" />
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/boost-converter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/optocoupler.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -1028,10 +1022,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/boost-converter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1226">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/buck-boost-converter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1384">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="342">
+          <caret line="448" column="21" selection-start-line="448" selection-start-column="21" selection-end-line="448" selection-end-column="21" />
         </state>
       </provider>
     </entry>
