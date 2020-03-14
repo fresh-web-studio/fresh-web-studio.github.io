@@ -800,84 +800,176 @@
         </figure>
         <p>Из выражения видно, что процесс заряда выходного конденсатора начнётся в некоторый момент времени t<sub>+start</sub> после того как растущий ток через индуктивность сравняется с током I<sub>OUT</sub> (и превысит его). Найдем момент времени t<sub>+start</sub>.</p>
         <p>С учетом того, что выражение для пульсаций тока дросселя ΔI<sub>Lf</sub> имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f880fec2-f626-4210-8cba-b96f5807068e" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img011.png" alt="Формула"/>
+        </figure>
         <p>То, подставляя это выражение в предыдущее получим:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d4f2174b-ff15-4a4d-beb8-3f191c27a425" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img124.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следует, что начало заряда ёмкости (когда ток I<sub>C</sub>(t) станет положительным) настанет в момент времени, равный половине длительности интервала:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7bffe4e1-3121-4a7d-96d7-a8379dc3231a" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img125.png" alt="Формула"/>
+        </figure>
         <p>То есть конденсатор будет заряжаться оставшуюся половину интервала линейно растущим током:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/fbeb8a17-73cf-4e14-9f6c-9ffac7b976af" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img126.png" alt="Формула"/>
+        </figure>
         <p>В этом выражении нулевому времени соответствует время t<sub>i</sub>/2. При этом рост напряжения на конденсаторе ΔV<sub>С_i</sub> в течение оставшейся половины интервала t<sub>i</sub> будет равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/350144b4-4f0c-4243-8032-36339a9d225b" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c4ee8d61-81da-4c34-99dc-3a5b131134b0" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img127.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img128.png" alt="Формула"/>
+        </figure>
         <p>Поскольку напряжение вторичной обмотки связано с входным напряжением через коэффициент трансформации:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a857b55e-de6f-4f98-aa73-3115d8baee34" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img103.png" alt="Формула"/>
+        </figure>
         <p>Подставляя это выражение в соотношение, связывающее выходное напряжение и напряжение на вторичной обмотке трансформатора получим:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/eac2b8f7-749d-4548-9011-ccd76f99cc65" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img129.png" alt="Формула"/>
+        </figure>
         <p>Полагая, в приближении, КПД равным 100 % выражаем V<sub>w2 </sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1b77a1f9-77b0-40f5-ac40-0d4581c3fbba" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img130.png" alt="Формула"/>
+        </figure>
         <p>Отсюда выражение для роста напряжения на интервале t<sub>i</sub> принимает вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/09e13c69-34e6-4002-bdaf-e8dea4596fa7" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img131.png" alt="Формула"/>
+        </figure>
         <p>Проведем ряд преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d6dc61d4-35e6-48a6-869d-f85ab3c0966f" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/645ad25d-6ab9-4665-a848-3088b6db04b7" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/65827a66-cded-4fd6-b92f-be42992ea965" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3afc130f-8524-4cf7-98ce-c5d5121666dd" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img132.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img133.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img134.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img135.png" alt="Формула"/>
+        </figure>
         <p>Полученное выражение описывает увеличение напряжения на конденсаторе во времени на интервале времени t<sub>i</sub> .</p>
         <p><span>- в период «мертвого времени», ключ закрыт, ток дросселя падает: </span></p>
         <p>В начальный момент времени интервала паузы, для упрощения будем считать его нулевым моментом (t=t<sub>i</sub>) ток поддерживаемые дросселем и заряжающий конденсатор максимален и равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7e975212-5a61-48ab-9290-2a89ccc570de" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img136.png" alt="Формула"/>
+        </figure>
         <p>Далее с течением времени происходит спад тока заряжающего конденсатор по линейному закону:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2bf3f125-47ff-4aee-a9c3-47b2bf01d339" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img137.png" alt="Формула"/>
+        </figure>
         <p>В итоге суммарный баланс токов, заряжающих-разряжающих выходной конденсатор равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7ca801dd-e695-45d9-b010-8e4cec852ac6" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f594b51a-8412-4b43-84bc-1cb5f98f7eec" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img138.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img139.png" alt="Формула"/>
+        </figure>
         <p>Аналогично предыдущему случаю (интервал передачи энергии), подставляя выражение для пульсаций тока дросселя ΔI<sub>Lf</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f880fec2-f626-4210-8cba-b96f5807068e" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img011.png" alt="Формула"/>
+        </figure>
         <p>Получим выражение описывающее спад тока на интервале «мертвого времени» t<sub>deadtime </sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6f147628-7d49-42e2-ad13-82d299f1dbc6" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img140.png" alt="Формула"/>
+        </figure>
         <p>Найдем момент времени t<sub>+final</sub> начиная с которого напряжение на конденсаторе начинает спадать (момент, когда ток I<sub>C</sub>(t) переходит через ноль). Проводим ряд математических преобразований:</p>
         <p>Подставляя выражение для V<sub>w2</sub> получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4e54fb8c-09c0-488c-9c10-14cc22c04cc6" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2d70711e-edeb-4db6-a488-ff7ba25ae113" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ba67bae2-385d-4c9b-b96d-5b894e6fc17a" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cc23c30f-506c-4a24-a1be-c7088705d5bc" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/84d62d28-9021-46ca-a9e9-5361e80a4493" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img141.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img142.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img143.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img144.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img145.png" alt="Формула"/>
+        </figure>
         <p>Откуда следует, что начало разряда ёмкости (когда ток I<sub>C</sub>(t) станет отрицательным) настанет в момент:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9270765b-8f6a-4e05-9f16-27c0229bb91d" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img146.png" alt="Формула"/>
+        </figure>
         <p>То есть начало разряда емкости будет соответствовать половине интервала «мертвого времени t<sub>deadtime </sub>.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f4510546-0678-4db2-90b1-3ce000962633" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img147.png" alt="Формула"/>
+        </figure>
         <p>Необходимо помнить, что здесь в качестве нулевого момента времени подразумевается время равное длительности интервала передачи энергии t=t<sub>i</sub>. Это будет учтено в вычислениях интегралов тока по времени, определяющих рост напряжения.</p>
         <p>Отсюда следует, что с начала интервала и до момента времени (T/2-t<sub>i</sub>)/2 выходной конденсатор будет заряжаться спадающим током:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f594b51a-8412-4b43-84bc-1cb5f98f7eec" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img139.png" alt="Формула"/>
+        </figure>
         <p>Поскольку к моменту времени t=t<sub>+final</sub> ток через конденсатор будет переходить через ноль, то выражение для заряжающего тока можно переписать в виде:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/84d62d28-9021-46ca-a9e9-5361e80a4493" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img145.png" alt="Формула"/>
+        </figure>
         <p>В этом выражении нулевому времени соответствует время начала интервала паузы t<sub>i</sub>.</p>
         <p>Рост напряжения на конденсаторе в течение интервала паузы (точнее первой половины интервала) ΔV<sub>С_i</sub> будет равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/341ada58-afb1-410f-aed4-0193aa2782b0" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img148.png" alt="Формула"/>
+        </figure>
         <p>Проводим ряд математических преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/009f7074-6c24-4873-9cb8-278dd95dc1d0" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/45b9b384-d122-4f0b-bb3a-2c527f4c3e0d" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5b59aef5-9db9-45c1-b5b7-af3861519812" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2b3eab12-9656-4cfe-9875-0849c9f27f73" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/384d7f51-1a69-454f-a949-fb8bf10cb8c2" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/03c23f8a-c1b2-4b27-9e87-306d57b3022a" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a203f022-24c1-4479-9466-a5b413039146" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img149.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img150.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img151.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img152.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img153.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img154.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img155.png" alt="Формула"/>
+        </figure>
         <p>Полученное выражение описывает увеличение напряжения на конденсаторе во времени на интервале времени t<sub>deadtime</sub>.</p>
         <p>Таким образом, увеличение напряжение на выходном конденсаторе происходит как на интервале передачи энергии, так и на интервале паузы:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7c23991d-283c-4cac-ac69-3989cba0fea9" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img156.png" alt="Формула"/>
+        </figure>
         <p>Подставляя полученные значения для ΔV<sub>C_p</sub> и ΔV<sub>C_i</sub> получаем выражение для изменения напряжения на конденсаторе:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/da788cf3-6437-483f-be68-b4422838b955" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img157.png" alt="Формула"/>
+        </figure>
         <p>Раскрываем скобки и проводим ряд математических преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/092d02e0-bcb1-4914-9b5c-2828e4a0057c" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2a5eeb34-bda9-4306-acd0-86eb8d1804a5" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5d1e88a0-9090-4e2e-abac-ec9f17075c01" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/62c31771-3f70-42bf-b949-200357e805ab" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0997c748-253a-4975-9f53-3d302847f651" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2d118c5c-c9df-4890-ae4d-8d3b049f0624" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img158.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img159.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img160.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img161.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img162.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img163.png" alt="Формула"/>
+        </figure>
         <p>Это выражение определяет пульсации напряжения на выходном конденсаторе за счет процесса заряда-разряда конденсатора.</p>
         <p>Из выражения следует выражение для емкости выходного конденсатора фильтра C<sub>out</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/42e622a0-7509-4f04-b70a-21c73f578acb" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img164.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>OUT</sub> – выходное напряжение;</p>
         <p>ΔV<sub>Сout_disch</sub> – величина пульсаций на конденсаторе обусловленная его зарядом-разрядом;</p>
@@ -886,28 +978,46 @@
         <p>q - коэффициент заполнения.</p>
         <p>Формула для ΔV<sub>Сout_disch</sub> определяет только компоненту общих пульсаций ΔV<sub>Сout</sub>. Есть еще пульсации обусловленные величиной ESR выходного конденсатора ΔV<sub>Сout_ESR</sub>.</p>
         <p><span>Максимальное напряжение</span> на выходном конденсаторе равно максимальной величине выходного напряжения V<sub>out</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6d2a6545-b50f-4e04-a78d-6e35df4e79cf" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img165.png" alt="Формула"/>
+        </figure>
         <p><span>Максимальное значение тока конденсатора</span> определяется максимальным потребляемым током:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/72e0de38-d018-4774-af6c-49ecfbd32c80" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img166.png" alt="Формула"/>
+        </figure>
         <p><span>ESR выходного конденсатора</span> и рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9b2fed1b-7571-4ebd-b33e-d679fe3b1923" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img167.png" alt="Формула"/>
+        </figure>
         <p>где пульсации тока протекающего через конденсатор фильтра определяются пульсациями тока дросселя фильтра, рассчитываемые по соотношению :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d8041f6d-7e2b-4247-976e-081bc31944f3" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img168.png" alt="Формула"/>
+        </figure>
         <p>Таким образом, выражение для расчета максимальной величины ESR выходного конденсатора фильтра имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4889b269-6f1c-4da2-83e2-91a601b3009c" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img169.png" alt="Формула"/>
+        </figure>
         <p>Здесь величина пульсаций ΔV<sub>Cout_ESR</sub> априори задается на уровне не более чем величина пульсаций обусловленных процессом заряда-разряда.</p>
         <p>Итоговая величина пульсаций на выходе преобразователя в первом приближении равна сумме двух составляющих пульсаций:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/fa119890-e142-45a3-a88a-a0f691f83d37" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img170.png" alt="Формула"/>
+        </figure>
         <p>Реально пульсации несколько меньше данной величины, поскольку максимумы пульсаций различной природы разнесены по времени (сдвинуты друг относительно друга).</p>
         <p><span>Дополнительное условие определяющее минимальное значение емкости </span>определяется исходя из условия возникновения аварийного режима резкого обрыва нагрузки при котором вся энергия, запасенная в выходном дросселе пойдёт на заряд выходного конденсатора фильтра.</p>
         <p><h5 id="18">Входной конденсатор</h5></p>
         <p><span>Максимальное напряжение</span> на входном конденсаторе равно напряжению питания V<sub>IN</sub>.</p>
         <p><span>Ёмкость входного конденсатора</span> C<sub>in</sub> определяется из выражения связывающего максимальную величину пульсаций и емкость конденсатора при заданной частоте и токе первичной обмотки :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7854ca14-9209-44f1-ad50-d5b1ff135d93" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img171.png" alt="Формула"/>
+        </figure>
         <p>Где Δt<sub>max</sub> – максимальный интервал времени между импульсами потребления тока. При q→0 он равен половине периода. Тогда:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/29ed5a92-9612-4f7a-9957-a63eb37ae45b" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img172.png" alt="Формула"/>
+        </figure>
         <p>Откуда получаем выражение для емкости конденсатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/abcbb57f-cf43-4809-a092-0164624d30be" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img173.png" alt="Формула"/>
+        </figure>
         <p>Здесь падение напряжения вследствие разряда конденсатора ΔV<sub>Cin_disch</sub> выбирается в пределах 1-2% от величины входного напряжения V<sub>IN</sub>.</p>
         <p><span>Среднее значение тока конденсатора</span> определяется исходя из баланса мощностей:</p>
         <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/63d59065-f3ed-4310-a270-652edb535219" /></p>
