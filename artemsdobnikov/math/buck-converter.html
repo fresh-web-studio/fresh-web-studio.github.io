@@ -102,8 +102,10 @@
         <p>Понижающие импульсные стабилизаторы напряжения используются в случаях, когда питающее напряжение имеет большую величину, чем требуемое напряжение питания нагрузки. На практике понижающие импульсные стабилизаторы используются, если входное напряжение питания на 20-200 % превышает напряжение питания нагрузки. Так, например, если входное напряжение составляет от 8-25 В, а выходное стабилизируемое напряжение лежит в пределах 0,5-5 В [Buck-Converter Design Demystified. By Donald Schelle and Jorge Castorena, Jorge Castorena, Technical Staff, Technical Staff, Maxim Integrated Products, Sunnyvale, Calif. Power Electronics Technology. June 2006].</p>
         <p>В англоязычной литературе понижающий стабилизатор имеет следующие наименования(ENG = «chopper», «buck converter», «step-down convertor»).</p>
         <p>Принципиальная электрическая схема понижающего импульсного стабилизатора напряжения представлена на рисунке BUCK.1.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/67b0ac16-a13f-41e8-b8c4-458f7650e358" /></p>
-        <p>Рисунок BUCK.1 - Принципиальная электрическая схема понижающего импульсного стабилизатора напряжения</p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img001.gif" alt="Рисунок-схема"/>
+            <p>Рисунок BUCK.1 - Принципиальная электрическая схема понижающего импульсного стабилизатора напряжения</p>
+        </figure>
         <p><h4 id="3">Принцип работы</h4></p>
         <p>Принцип работы заключается в следующем. В период времени, когда ключевой транзистор открыт, ток протекает от источника питания через силовой дроссель L в нагрузку R<sub>load</sub> и подзаряжает выходной конденсатор фильтра C<sub>out</sub>. В следующий период транзистор закрывается и ток, поддерживаемый индуктивностью дросселя L замыкается через диод VD. Далее процесс повторяется. В данном случае ключевой транзистор VT как бы дозирует то время, в течение которого от источника питания потребляется энергия.</p>
         <p><h5 id="4">Стадии рабочего цикла стабилизатора</h5></p>
@@ -114,11 +116,15 @@
         <p>- контур заряда охватывает цепь: «источник питания» - «ключевой транзистор» - «дроссель» - «конденсатор фильтра//нагрузка». По этому контуру ток протекает на стадии потребления энергии.</p>
         <p>- контур разряда охватывает цепь: «диод» - «дроссель» - «конденсатор фильтра//нагрузка». По этому контуру протекает ток на стадии паузы.</p>
         <p>Поскольку ток потребляется от источника не в течение всего периода, то на входе стабилизатора присутствует входная ёмкость C<sub>in</sub> играющая роль энергетического буфера. Выходная емкость C<sub>out</sub> сглаживает пульсации напряжения на нагрузке, обусловленные пульсациями тока дросселя. Понижающий стабилизатор может работать как в прерывистом, так и в непрерывном режиме токов выходного дросселя. Основным является режим непрерывных токов, обеспечивающий меньшие пиковые токи через транзистор, лучшую регулировочную характеристику, меньшую емкость выходного конденсатора и в целом меньшие потери. В связи с этим все дальнейшие соотношения представлены именно для основного режима непрерывных токов. Временные диаграммы, характеризующие процесс работы стабилизатора представлены на рисунке BUCK.2.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/edb47096-2273-4852-8cd2-e21261019cbd" /></p>
-        <p>Рисунок BUCK.2 - Временные диаграммы работы импульсного понижающего стабилизатора [Dokic B.L., Blanusa B. Power Electronics: Converters and Regulators. Springer Cham Heidelberg New York Dordrecht London, 2015. XVIII, 598 p.]</p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img002.png" alt="Рисунок-схема"/>
+            <p>Рисунок BUCK.2 - Временные диаграммы работы импульсного понижающего стабилизатора [Dokic B.L., Blanusa B. Power Electronics: Converters and Regulators. Springer Cham Heidelberg New York Dordrecht London, 2015. XVIII, 598 p.]</p>
+        </figure>
         <p><h5 id="5">Период потребления энергии</h5></p>
         <p>Период потребления энергии начинается, когда сигнал с ШИМ-контроллера открывает ключевой транзистор VT. При этом ток от источника питания протекает по цепи «ключевой транзистор» - «дроссель» - «конденсатор фильтра//нагрузка». К силовому дросселю прикладывается разность входного V<sub>in</sub> и выходного V<sub>out</sub> напряжений, под действием которой ток через дроссель начинает увеличиваться. Изменение тока дросселя ΔI<sub>L+</sub> на стадии потребления энергии определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5b4d76d0-a4b8-4d30-ab97-8a4609b50613" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img003.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>t<sub>i</sub> – длительности периода включенного ключа;</p>
         <p>L – индуктивность дросселя;</p>
@@ -128,7 +134,9 @@
         <p>В течение всего интервала потребления энергии к диоду VD прикладывается обратное напряжение, равное напряжению источника питания.</p>
         <p><h5 id="6">Период паузы</h5></p>
         <p>Период паузы начинается после выключения транзистора. При этом диод VD открывается и ток «запасенный» в дросселе протекает по цепи «диод» - «дроссель» - «конденсатор фильтра//нагрузка». Силовой дроссель, который к началу паузы набрал максимальный ток, начинает «разряжаться» в конденсатор имеющий напряжение V<sub>out</sub>, и ток дросселя начинает снижаться. Изменение тока дросселя ΔI<sub>L-</sub> на стадии паузы определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/65489f79-462e-447a-a07f-f1fdf3eded20" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img004.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>t<sub>p</sub> – длительности периода выключенного ключа;</p>
         <p>L – индуктивность дросселя;</p>
@@ -137,57 +145,97 @@
         <p>Спад тока дросселя продолжается до момента следующего интервала потребления энергии. Ток в нагрузке на интервале паузы поддерживается за счет энергии, запасенной в дросселе и конденсаторе фильтра.</p>
         <p><h4 id="7">Связь входного и выходного напряжения стабилизатора</h4></p>
         <p>Выведем соотношение для связи выходного и входного напряжения стабилизатора. В установившемся режиме выполняется условие равенства роста тока дросселя за интервал передачи энергии спаду тока за интервал паузы:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/43498221-ef5a-4ed5-8d22-c647857870fc" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img005.png" alt="Формула"/>
+        </figure>
         <p>Подставляя в это выражение соотношения для ΔI<sub>L+</sub> и ΔI<sub>L-</sub> получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ad45937e-cb1b-48a3-974f-9c24773163f6" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img006.png" alt="Формула"/>
+        </figure>
         <p>Проводим ряд преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/21c3e056-4292-4da2-a2bd-1237c93fae56" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1591218d-3afb-4cdc-8972-5dc8e0ebfe73" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e6b30ac3-b5e4-4a15-bf4d-666e84cdde0d" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f5ca88d1-f7bc-4681-994a-ed3d98534dc0" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/95ce7588-49aa-4d6b-9c14-e629d852cb13" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img007.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img008.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img009.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img0010.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img011.png" alt="Формула"/>
+        </figure>
         <p>Получаем выражение:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/46b48f7b-cbe5-4bfc-ae25-d62b5c2bc7a6" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img012.png" alt="Формула"/>
+        </figure>
         <p>Учитывая, что коэффициент заполнения, то есть отношение длительности периода включенного ключа к длительности всего периода повторения импульсов:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/de1b56c7-3a14-405b-bdb8-ec3142ff7dfd" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img013.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>t<sub>i</sub> – длительности периода включенного ключа;</p>
         <p>T – период повторения импульсов;</p>
         <p>то выражение для V<sub>OUT</sub> с учетом соотношения для q можно переписать в виде:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e71ffe15-b940-4904-9222-09975ea41874" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img014.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>q - коэффициент заполнения.</p>
         <p>Практически важно, как показывает данное выражение, что выходное напряжение V<sub>IN</sub>линейно зависит от коэффициента заполнения q.</p>
         <p>Из соотношения следует, что для понижающего стабилизатора (в идеализированном случае) требуемое значение коэффициента заполнения следует из отношения:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/292d3320-8e13-4055-bad8-a506834faa21" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img015.png" alt="Формула"/>
+        </figure>
         <p>или:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/36300c85-b2f1-40bf-b889-aa7403542c85" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img016.png" alt="Формула"/>
+        </figure>
         <p><h4 id="8">Пограничный режим, условие перехода в режим разрывных токов</h4></p>
         <p>Необходимо понимать, что с уменьшением индуктивности дросселя режим работы стабилизатора приближается к режиму разрывных токов. Критический или вернее пограничный режим, после которого начинается область разрывных токов, определяется условием (см. рисунок BUCK.3):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7eac5b8b-23c8-4089-b46e-7af3efefde42" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img017.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>∆I<sub>L</sub> – изменение тока дросселя (размах «максимум»-«минимум»).</p>
         <p>Откуда следует, что если максимальные пульсации тока дросселя составляют удвоенный ток нагрузки, то стабилизатор переходит в режим разрывных токов:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4fca45a3-b9df-4c5e-a730-efbef94503a0" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img018.png" alt="Формула"/>
+        </figure>
         <p>Выходной ток, в свою очередь равен среднему току через индуктивность:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/730eeaf9-2db8-43e2-90f5-dd4ace6ac736" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/03919bca-e29a-47dc-b608-aec136656f1f" /></p>
-        <p>Рисунок BUCK.3 - Пограничный режим работы стабилизатора</p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img019.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img020.png" alt="Рисунок-схема"/>
+            <p>Рисунок BUCK.3 - Пограничный режим работы стабилизатора</p>
+        </figure>
         <p>Выведем основные соотношения для расчета элементов понижающего импульсного преобразователя.</p>
         <p><h4 id="9">Расчет параметров элементов понижающего импульсного стабилизатора напряжения</h4></p>
         <p><h5 id="10">Силовой дроссель</h5></p>
         <p><em>Индуктивность дросселя</em></p>
         <p>Как уже было сказано ранее изменение (пульсации) тока дросселя ΔI<sub>L</sub> на стадии заряда определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6614f5a4-56ff-46c2-b178-2732e72a7414" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img021.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>t<sub>i</sub> – длительности периода включенного ключа;</p>
         <p>L – индуктивность дросселя;</p>
         <p>V<sub>IN</sub> – входное напряжение;</p>
         <p>V<sub>OUT</sub> – выходное напряжение.</p>
         <p>Выполним ряд преобразований над выражением для пульсаций тока дросселя ΔI<sub>L</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e660e5d7-1532-4fe5-b61d-bdf5668f78cd" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/50ef41e8-0df1-4a30-90a0-ab75ab92d44b" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b67e2d6c-8eee-428c-92b1-b74402390f48" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img022.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img023.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img024.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>f – рабочая частота импульсного стабилизатора;</p>
         <p>V<sub>IN</sub> – входное напряжение;</p>
@@ -195,29 +243,41 @@
         <p>L – индуктивность дросселя.</p>
         <p>Видно, что абсолютное значение пульсаций тока ΔI<sub>L</sub> линейно определяется частотой f, индуктивностью дросселя L и входным напряжением V<sub>IN</sub>. А от коэффициента заполнения наблюдается нелинейная зависимость.</p>
         <p>Из предыдущего соотношения следует требование к минимальному значению индуктивности дросселя понижающего преобразователя, которое определяется отношением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2fa7ae8c-d103-4fbd-beaa-547078668fcf" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img025.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>f – рабочая частота импульсного стабилизатора;</p>
         <p>ΔI<sub>L</sub> - пульсации тока дросселя;</p>
         <p>q - коэффициент заполнения;</p>
         <p>V<sub>IN</sub> – входное напряжение.</p>
         <p>Для практических расчетов величина пульсаций тока дросселя определяется из условия [Buck-Converter Design Demystified. By Donald Schelle and Jorge Castorena, Jorge Castorena, Technical Staff, Technical Staff, Maxim Integrated Products, Sunnyvale, Calif. Power ElectronicsTechnology. June 2006]:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e2481a9b-ea7f-4cad-b454-419d2b7f1d47" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img026.png" alt="Формула"/>
+        </figure>
         <p>выбираем нижнюю границу диапазона:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/567e74a3-9a37-41f8-bc02-8d3bb0001854" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img027.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>OUT</sub> – номинальный выходной ток стабилизатора.</p>
         <p>Это приблизительное соотношение подразумевает «золотую середину» между уровнем пульсаций и габаритами дросселя.</p>
         <p><em>Максимальный ток дросселя</em></p>
         <p>Для расчета параметров дросселя важно знать его максимальный ток. Максимальный ток через дроссель I<sub>L_max</sub>определяется из выражения:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1dc65235-1342-4f47-926c-21d41487a2df" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img028.png" alt="Формула"/>
+        </figure>
         <p>Или подставляя выражение для ∆I<sub>L</sub> получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b88e01d3-9d8d-4df1-b71b-d578269f4660" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img029.png" alt="Формула"/>
+        </figure>
         <p>В практических расчетах ток насыщения надо выбирать с некоторым запасом. Оптимальным является запас в 20% сверх расчётного значения [Buck-Converter Design Demystified. By Donald Schelle and Jorge Castorena, Jorge Castorena, Technical Staff, Technical Staff, Maxim Integrated Products, Sunnyvale, Calif. Power Electronics Technology. June 2006].</p>
         <p>NB. Из соотношения для ∆I<sub>L</sub> следует, что пульсации тока максимальны при q=0.5. Максимальным пульсациям тока соответствует наибольшая величина индуктивности и максимального тока через дроссель. Это практически важно при расчете понижающихся стабилизаторов, рабочий диапазон q которых может переходить через границу 0,5.</p>
         <p><em>Среднеквадратичное значение тока дросселя</em></p>
         <p>Среднеквадратичное значение тока дросселя I<sub>L_rms</sub> определяется выражением для среднеквадратичного значения треугольных импульсов с постоянной составляющей (см. раздел «Резисторы»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/fab638ed-effd-448e-99df-cb306e0ebca8" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img030.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>OUT</sub> – выходной ток;</p>
         <p>ΔI<sub>L </sub>– пульсация тока дросселя.</p>
@@ -227,21 +287,35 @@
         <p>Для определения требуемой величины емкости конденсатора обеспечивающий заданный уровень пульсаций необходимо определить насколько конденсатор заряжается в период потребления энергии и в период паузы.</p>
         <p>Рассмотрим детально процесса заряда-разряда конденсатора.</p>
         <p>Изменение напряжения на конденсаторе в процессе заряда-разряда определяется суммарным балансом токов, заряжающих I<sub>C+</sub>(t) и разряжающих I<sub>C-</sub>(t) выходной конденсатор:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e2aa0302-0fde-4df8-b178-22ffa99a0eac" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img031.png" alt="Формула"/>
+        </figure>
         <p>При этом само изменение есть интеграл от результирующего тока по времени:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3a00491a-04c1-4de1-b86f-9f3915420ef7" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img032.png" alt="Формула"/>
+        </figure>
         <p>Ток, разряжающий конденсатор в течение всего периода постоянен и равен току нагрузки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5740f7be-7b32-4977-a265-4bd3d4e607b7" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img033.png" alt="Формула"/>
+        </figure>
         <p>Заряжающий ток I<sub>C+</sub> имеет свое выражение на каждом из интервалов:</p>
         <p><span>- период потребления энергии, ключ открыт, ток дросселя растет:</span></p>
         <p>В начальный момент времени интервала (t=0), то есть когда транзистор только что открылся, ток дросселя имеет минимальное значение:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8bb9c035-b6a4-4537-9d13-a33c0d489575" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img034.png" alt="Формула"/>
+        </figure>
         <p>И в начале этот ток меньше разряжающего тока нагрузки I<sub>OUT</sub>.</p>
         <p>С течением времени происходит увеличение тока заряжающего конденсатор по закону:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9cf83d9d-1be7-4df4-875f-e2ca18713ff4" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img035.png" alt="Формула"/>
+        </figure>
         <p>В итоге суммарный баланс токов, заряжающих-разряжающих выходной конденсатор на интервале потребления энергии равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6016888a-16cd-4f9b-8b25-8e57c880ed13" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e527ade2-bf4a-4bdf-a3ad-b9566f9aa2f8" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img036.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img037.png" alt="Формула"/>
+        </figure>
         <p>Из выражения видно, что процесс заряда выходного конденсатора начнётся в некоторый момент времени t<sub>+start</sub> после того как растущий ток через индуктивность сравняется с током I<sub>out</sub> (и превысит его). Найдем момент времени t<sub>+start</sub>.</p>
         <p>С учетом того, что выражение для пульсаций тока дросселя ΔI<sub>L</sub> имеет вид:</p>
         <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6614f5a4-56ff-46c2-b178-2732e72a7414" /></p>
