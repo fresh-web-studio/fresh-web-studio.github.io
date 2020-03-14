@@ -17,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="2664">
               <caret line="111" column="52" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="52" />
               <folding>
                 <element signature="e#6631#6636#0" expanded="true" />
@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/kondensator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="332" column="22" lean-forward="true" selection-start-line="332" selection-start-column="22" selection-end-line="332" selection-end-column="36" />
+            <state relative-caret-position="7968">
+              <caret line="332" column="22" selection-start-line="332" selection-start-column="22" selection-end-line="332" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="139" column="17" lean-forward="true" selection-start-line="136" selection-start-column="8" selection-end-line="139" selection-end-column="17" />
+            <state relative-caret-position="3336">
+              <caret line="139" column="17" selection-start-line="136" selection-start-column="8" selection-end-line="139" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/full-bridge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="803">
-              <caret line="1162" column="46" selection-start-line="1162" selection-start-column="46" selection-end-line="1162" selection-end-column="46" />
+            <state relative-caret-position="-404">
+              <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -305,14 +305,8 @@
       <workItem from="1583339207147" duration="247000" />
       <workItem from="1583380652933" duration="6872000" />
       <workItem from="1583479670196" duration="48473000" />
-      <workItem from="1583985920149" duration="55996000" />
-    </task>
-    <task id="LOCAL-00282" summary="Обновление">
-      <created>1583870944394</created>
-      <option name="number" value="00282" />
-      <option name="presentableId" value="LOCAL-00282" />
-      <option name="project" value="LOCAL" />
-      <updated>1583870944394</updated>
+      <workItem from="1583985920149" duration="57449000" />
+      <workItem from="1584211398735" duration="44000" />
     </task>
     <task id="LOCAL-00283" summary="Обновление">
       <created>1583870978769</created>
@@ -650,11 +644,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584209507705</updated>
     </task>
-    <option name="localTasksCounter" value="331" />
+    <task id="LOCAL-00331" summary="Обновление">
+      <created>1584209857706</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1584209857706</updated>
+    </task>
+    <option name="localTasksCounter" value="332" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321612000" />
+    <option name="totallyTimeSpent" value="323109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="182" y="-1417" width="1164" height="1329" extended-state="0" />
@@ -673,7 +674,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.16944024" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16820858" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16820858" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012987" side_tool="true" weight="0.32694247" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22455846" />
@@ -1007,16 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="111" column="52" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="52" />
-          <folding>
-            <element signature="e#6631#6636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/half-bridge-forward.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1024,24 +1015,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2664">
+          <caret line="111" column="52" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="52" />
+          <folding>
+            <element signature="e#6631#6636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/kondensator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="332" column="22" lean-forward="true" selection-start-line="332" selection-start-column="22" selection-end-line="332" selection-end-column="36" />
+        <state relative-caret-position="7968">
+          <caret line="332" column="22" selection-start-line="332" selection-start-column="22" selection-end-line="332" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="139" column="17" lean-forward="true" selection-start-line="136" selection-start-column="8" selection-end-line="139" selection-end-column="17" />
+        <state relative-caret-position="3336">
+          <caret line="139" column="17" selection-start-line="136" selection-start-column="8" selection-end-line="139" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/full-bridge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="1162" column="46" selection-start-line="1162" selection-start-column="46" selection-end-line="1162" selection-end-column="46" />
+        <state relative-caret-position="-404">
+          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
         </state>
       </provider>
     </entry>
