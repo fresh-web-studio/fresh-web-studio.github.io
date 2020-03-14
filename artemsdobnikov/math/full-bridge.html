@@ -160,97 +160,167 @@
         <p>Управляющий сигнал ШИМ-контроллера через драйвер открывает верхний левый VT1 и нижний правый VT4 силовые транзисторы. При этом другие транзисторы нижний левый VT2 и верхний правый VT3 надежно закрыты. После коммутации транзисторов к первичной обмотке прикладывается напряжение фактически равное напряжению источника питания (за минусом падений напряжений на ключевых транзисторах).</p>
         <p>После приложения напряжения к первичной обмотке появляется напряжение и на вторичной обмотке величина которого определяется коэффициентом трансформации:</p>
         <figure class="article__image">
-            <img src="image/full-bridge-img006.png" alt="Формула"/>
+            <img src="image/full-bridge-img007.png" alt="Формула"/>
         </figure>
         <p>Поскольку:
-            <figure class="article__image">
-                <img src="image/full-bridge-img007.png" alt="Формула"/>
-            </figure>
-        <p>то</p>
         <figure class="article__image">
             <img src="image/full-bridge-img008.png" alt="Формула"/>
         </figure>
+        <p>то</p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img009.png" alt="Формула"/>
+        </figure>
         <p>Напряжение V<sub>w2</sub> является прямым по отношению к выпрямительному диоду VD1<sub>OUT</sub> который открывается и проводит ток, и является обратным по отношению к VD2<sub>OUT</sub> который закрыт.</p>
         <p>После появления на выходной обмотке напряжения к индуктивности выходного фильтра L<sub>f</sub>прикладывается разность напряжений:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9921589f-cd2a-4cdf-8c57-34264279be61" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img010.png" alt="Формула"/>
+        </figure>
         <p>В результате ток через L<sub>f</sub> начинает возрастать. К началу интервала через дроссель протекал (и спадал) некоторой величины ток, поддерживаемый запасенной энергией. Изменение (рост) тока за интервал описывается выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f880fec2-f626-4210-8cba-b96f5807068e" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img011.png" alt="Формула"/>
+        </figure>
         <p>Или, с учетом выражения для V<sub>w2</sub> связывающего входное напряжение и напряжение на вторичной обмотке через коэффициент трансформации и выражения для коэффициента заполнения qвыражение для роста тока через дроссель ΔI<sub>Lf</sub> можно преобразовать к виду:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/71ce54ef-484a-4b07-a1a2-f523805dbe3f" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img012.png" alt="Формула"/>
+        </figure>
         <p>При этом вторичная обмотка трансформатора и дроссель фильтра включены последовательно и в этой цепи «правит балом» дроссель, ограничивая ток вторичной обмотки I<sub>w2</sub>. Таким образом, ток вторичной обмотки I<sub>w2 </sub>равен току дросселя L<sub>f</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6b66c787-38fb-4fc9-b82e-ca7d9468167e" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img013.png" alt="Формула"/>
+        </figure>
         <p>Ток первичной обмотки трансформатора I<sub>w1</sub> состоит из двух составляющих:</p>
         <p>- отраженной составляющей тока I<sub>w1_refl</sub> - связанной с выходной цепью нагрузкой;</p>
         <p>- током намагничивания I<sub>w1_magn</sub>, связанным с намагничиванием сердечника.</p>
         <p>Суммарный ток первичной обмотки равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5539e960-ac96-44f1-8a2a-1b7594581b84" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img014.png" alt="Формула"/>
+        </figure>
         <p>То есть ток первичной обмотки имеет форму прямоугольной трапеции (рисунок FULLB.2). В соответствии с эквивалентной схемой трансформатора (раздел «Трансформатор») ток намагничивания I<sub>w1_magn</sub> представляет собой ток, протекающий через индуктивность намагничивания (собственная индуктивность первичной обмотки). [Транзисторная преобразовательная техника. Мелешин В.И. Техносфера. 2005. 626 с. - с. 273]. Поскольку он имеет треугольную форму, то ток намагничиванияиногда называют треугольной составляющей тока первичной обмотки.</p>
         <p><span>Амплитуда отраженной составляющей тока первичной обмотки I<sub>w</sub><sub>1_</sub><sub>refl</sub></span> определяется током вторичной обмотки I<sub>w2</sub> который как бы «отражается» в первичной обмотке. Токи связаны через коэффициент трансформации:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0c3bf473-0860-46b2-8be6-30836899b4a4" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img015.png" alt="Формула"/>
+        </figure>
         <p>В свою очередь, поскольку ток вторичной обмотки I<sub>w2 </sub>равен току дросселя L<sub>f</sub>, то:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/49fb3f7e-e826-48a3-b671-731e618002b2" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img016.png" alt="Формула"/>
+        </figure>
         <p>Учитывая, что сам ток дросселя определяется током нагрузки плюс пульсация тока дросселя, которая уходит от среднего значения, как в плюс, так и в минус сторону, можно записать:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5f72f60c-ed8c-4d51-bdcc-059050ab0cf8" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img017.png" alt="Формула"/>
+        </figure>
         <p><span>Амплитуда тока намагничивания первичной обмотки I<sub>w</sub><sub>1_</sub><sub>magn</sub></span> определяется протекающим на этом интервале током через индуктивность намагничивания первичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8c3a9397-1de4-4917-a893-b5cd22009087" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img018.png" alt="Формула"/>
+        </figure>
         <p>В этом выражении первая составляющая определяется изменением тока собственной индуктивности под действием приложенного напряжения (при этом на этой стадии полярность прикладываемого напряжения положительна). А вторая составляющая определяет остаточный ток намагничивания, доставшийся «в наследство» от предыдущего цикла. При условии симметричного перемагничивания остаточный ток I<sub>w1</sub>(0) равен половине размаха тока ΔI<sub>w1_magn</sub>.</p>
         <p>Изменение тока намагничивания протекающего через первичную обмотку мостовой схемы преобразователя за период ΔI<sub>w1_magn</sub> определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/87eb114e-26bb-4db3-a61e-4d7c04a43c92" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img019.png" alt="Формула"/>
+        </figure>
         <p>где L<sub>0</sub> – индуктивность намагничивания (фактически индуктивность первичной обмотки);</p>
         <p>С учетом выражения для длительности импульса t<sub>i</sub> получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d5368fb0-5619-400f-ad31-250daebc5d31" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img020.png" alt="Формула"/>
+        </figure>
         <p>Амплитуда тока намагничивания I<sub>w1_magn</sub> равна половине размаха максимум-минимум ΔI<sub>w1_magn</sub>поскольку перемагничивание магнитопровода симметричное:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0f18c927-fdd5-486e-ace3-58ab90702434" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img021.png" alt="Формула"/>
+        </figure>
         <p>Важно понимать, что ток намагничивания – это «собственность» магнитопровода. Он создает «хранящуюся» в магнитопроводе магнитодвижущую силу (МДС) равную произведению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d61f62cc-3861-48bb-8376-c93eb13fdc34" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img022.png" alt="Формула"/>
+        </figure>
         <p>Полный ток полуобмотки равен сумме «отраженного» тока нагрузки и тока намагничивания:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5539e960-ac96-44f1-8a2a-1b7594581b84" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img014.png" alt="Формула"/>
+        </figure>
         <p>Максимальное значение тока первичной обмотки равно:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8bcce517-1359-4d4e-910f-c65016c7737a" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img023.png" alt="Формула"/>
+        </figure>
         <p>Напряжение, прикладываемое на этой стадии к транзисторам VT2 и VT3 равно входному напряжению преобразователя V<sub>IN</sub>.</p>
         <p>Длительность стадии коммутации t<sub>i</sub> определяется коэффициентом заполнения q в соответствии с выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/15944ad8-3312-4ff6-8d3f-3eba108e1a24" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img024.png" alt="Формула"/>
+        </figure>
         <p>Величину коэффициента заполнения задает ШИМ-контроллер на основании «данных» обратной связи. Именно он подстраивает q в зависимости от условий. Так, например, при увеличении входного напряжения ШИМ контроллер уменьшает q, а при уменьшении входного напряжения – увеличивает (при условии постоянной нагрузки). При этом произведение коэффициента заполнения на входное напряжение остается постоянным:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e7ea7e8b-a26e-43a1-815b-dd00a75f747e" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img025.png" alt="Формула"/>
+        </figure>
         <p><h5 id="5">Стадия первой паузы</h5></p>
         <p>Стадия первой паузы следует сразу после стадии коммутации верхнего левого ключа VT1 и нижнего правого VT4 и начинается в момент их полного запирания.</p>
         <p>Все ключевые транзисторы моста VT1-VT4 закрыты. Из принципиальной схемы следует, что каждый из ключевых транзисторов содержит обратные диоды, включенные параллельно и проводящие ток в обратном направлении. Эти диоды остаются открытыми и выполняют защитную и рекуперативныю функции. Во-первых, благодаря обратным диодам напряжение на закрытых ключах не может превысить напряжение источника питания. И во-вторых через обратные диоды ключей на стадии паузы протекает ток, «запасаемый» в паразитной индуктивности рассеяния первичной обмотки трансформатора. На стадии первой паузы рекуперативную функцию выполняет обратные диод ключей VT2 и VT3.</p>
         <p>В первом приближении можно считать, что напряжение на всех ключевых транзисторах на стадии паузы распределяется равномерно, то есть пополам в каждом из плеч моста.</p>
         <p>В течение стадии первой паузы в выходной цепи индуктивность силового дросселя L<sub>f</sub>«вытягивает» ток из цепей, образуемых выпрямительными диодами VD<sub>out1</sub>, VD<sub>out2</sub> и вторичными полуобмотками трансформатора. Из закона Кирхгофа следует выражение определяющее баланс токов:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/deaa7b2b-0ab3-4d2f-93d0-a72e04d25ab6" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img026.png" alt="Формула"/>
+        </figure>
         <p>Поскольку цепи полуобмоток и диодов последовательны, то токи полуобмоток равны токам диодов:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4d8b198e-c004-44fb-8c8b-9d19b8ac0053" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img027.png" alt="Формула"/>
+        </figure>
         <p>В идеальном случае ток индуктивности распределился бы между цепями диодов поровну. Однако, к началу стадии паузы через первичную обмотку протекал ток намагничивания амплитуда которого равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3cb93a44-261d-4aca-b825-df486e2ac806" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img028.png" alt="Формула"/>
+        </figure>
         <p>Соответственно в магнитопроводе была накоплена магнитодвижущая сила (МДС) равная произведению тока намагничивания первичной обмотки на числа витков в ней:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/84e0bab9-033c-460f-985a-180462669961" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img029.png" alt="Формула"/>
+        </figure>
         <p>На стадии первой паузы эта сила должна «перераспределиться» и изменить величины токов протекающих в первичных полуобмотках. Для понимания перераспределения токов, составим балансное уравнение для ампер-витков обмоток:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d43150c1-b6a7-40a7-9aad-614586863a4d" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img030.png" alt="Формула"/>
+        </figure>
         <p>Поскольку число витков во вторичных полуобмотках одинаково:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3756336d-c694-4fcd-9d89-a77b40cd4e0e" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img031.png" alt="Формула"/>
+        </figure>
         <p>То перезапишем выражение в виде:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8534f20e-dac3-4d05-b004-2c7479e39275" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img032.png" alt="Формула"/>
+        </figure>
         <p>Проводим ряд преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e1af0eaa-ccf6-4343-a083-1491690a4230" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/897d370e-16cf-4720-a488-b3bb8f52b615" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img033.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img034.png" alt="Формула"/>
+        </figure>
         <p>Из соотношения баланса токов полуобмоток (закон Кирхгофа) выразим ток в первичной полуобмотке :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7f85472f-98c7-41e6-86de-3a723909a8e6" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img035.png" alt="Формула"/>
+        </figure>
         <p>И подставляя его в предыдущее выражение получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c5fe97f7-e1dd-4185-b4af-e18476b32a61" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img036.png" alt="Формула"/>
+        </figure>
         <p>Откуда проводя ряд преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5db0cbd6-2732-4cd8-bb8f-54b4ad9db1d3" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f4e3824a-1d3d-4732-b670-2dd3e0988e3d" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img037.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/full-bridge-img038.png" alt="Формула"/>
+        </figure>
         <p>окончательно получаем выражение для тока вторичной полуобмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2e88dc29-eb45-41b7-8be7-213782607ff5" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img039.png" alt="Формула"/>
+        </figure>
         <p>И подставляя это выражение в формулу для I<sub>21</sub> получаем выражение для тока другой вторичной полуобмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5162b5c7-a5ab-43d0-92b8-b1ec96697fe4" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img040.png" alt="Формула"/>
+        </figure>
         <p>Эти выражения определяют, что на стадии паузы через диоды протекают токи, различающиеся только на величину тока намагниченности приведенного к вторичной обмотке. То есть МДС накопленная в магнитопроводе по разному влияет на ток во вторичных полуобмотках: - в одной ток убавляет, в другой – прибавляет. Причина этого – противофазное включение обмоток. Забегая вперед скажем, что на следующей стадии паузы выражения для токов полуобмоток поменяются местами.</p>
         <p>На стадии паузы дроссель L<sub>f</sub> «разряжается» на нагрузку имеющую напряжение равное выходному V<sub>OUT</sub>, то есть фактически к индуктивности выходного фильтра L<sub>f</sub> прикладывается выходное напряжение (падением напряжения на диодах пренебрежем):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bfac47ae-4f41-4e0e-8cc5-6b22301e143c" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img041.png" alt="Формула"/>
+        </figure>
         <p>В результате ток через L<sub>f</sub> поддерживаемый запасенной в дросселе энергией начинает спадать. К началу интервала через дроссель протекал максимальный ток накопленный за период t<sub>i</sub>, Изменение (спад) тока за интервал описывается выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/588ed169-1b5c-4b41-b694-c808d77e0c97" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img042.png" alt="Формула"/>
+        </figure>
         <p>Или, с учетом выражения для коэффициента заполнения q это выражение можно преобразовать к виду:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/90b20056-a205-4725-8024-46a51940df66" /></p>
+        <figure class="article__image">
+            <img src="image/full-bridge-img043.png" alt="Формула"/>
+        </figure>
         <p>В результате спада тока дросселя уменьшается и ток в полуобмотках во время паузы.</p>
         <p>В этот и последующий периоды паузы ток индуктивности рассеяния первичной обмотки замыкается через обратные диоды силовых ключей (для MOSFET-транзисторов – через их паразитные диоды) и часть энергии индуктивности возвращается обратно в источник.</p>
         <p><h5 id="6">Стадия коммутации нижнего левого и верхнего правого ключей</h5></p>
