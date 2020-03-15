@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/flyback.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/flyback.html" afterDir="false" />
     </list>
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="187" column="22" lean-forward="true" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="36" />
+            <state relative-caret-position="574">
+              <caret line="158" column="8" lean-forward="true" selection-start-line="155" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -47,23 +47,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/flyback.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="69" column="59" lean-forward="true" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+            <state relative-caret-position="993">
+              <caret line="392" column="32" selection-start-line="392" selection-start-column="32" selection-end-line="392" selection-end-column="32" />
               <folding>
-                <element signature="e#75819#75824#0" expanded="true" />
-                <element signature="e#75840#75845#0" expanded="true" />
-                <element signature="e#77886#77891#0" expanded="true" />
-                <element signature="e#77907#77912#0" expanded="true" />
-                <element signature="e#82839#82844#0" expanded="true" />
-                <element signature="e#82860#82865#0" expanded="true" />
-                <element signature="e#94838#94842#0" expanded="true" />
+                <element signature="e#75600#75605#0" expanded="true" />
+                <element signature="e#75621#75626#0" expanded="true" />
+                <element signature="e#77667#77672#0" expanded="true" />
+                <element signature="e#77688#77693#0" expanded="true" />
+                <element signature="e#82620#82625#0" expanded="true" />
+                <element signature="e#82641#82646#0" expanded="true" />
+                <element signature="e#94637#94641#0" expanded="true" />
+                <element signature="e#94655#94659#0" expanded="true" />
+                <element signature="e#94835#94839#0" expanded="true" />
                 <element signature="e#94856#94860#0" expanded="true" />
-                <element signature="e#95036#95040#0" expanded="true" />
-                <element signature="e#95057#95061#0" expanded="true" />
-                <element signature="e#95176#95180#0" expanded="true" />
-                <element signature="e#95195#95199#0" expanded="true" />
-                <element signature="e#121589#121594#0" expanded="true" />
-                <element signature="e#121610#121615#0" expanded="true" />
+                <element signature="e#94975#94979#0" expanded="true" />
+                <element signature="e#94994#94998#0" expanded="true" />
+                <element signature="e#121171#121176#0" expanded="true" />
+                <element signature="e#121192#121197#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,36 +80,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;4. Определение максимальной мощно</find>
-      <find>&gt;5. Определение тока пульсаций дросс</find>
-      <find>&gt;6. Расчет трансформатора</find>
-      <find>&gt;8. Расчет диодов</find>
-      <find>&gt;8.1 Расчет параметров рекуперационног</find>
-      <find>&gt;8.2 Расчет параметров выпрямительного ди</find>
-      <find>&gt;8.3 Расчет параметров токозамыкающего диода VD3</find>
-      <find>&gt;9. Расчет ключевого транзистора</find>
-      <find>&gt;10. Расчет выходного конденсатора фильт</find>
-      <find>&gt;11. Расчет входного конденсатора</find>
-      <find>Выделяемая в кристалле MOSFET тран</find>
-      <find>&lt;/h5&gt;&lt;/p&gt;</find>
-      <find>&gt;7. Расчет выходного дросселя</find>
-      <find>&gt;Принцип работы обратноходового преобразователя</find>
-      <find>&gt;Физические основы накопления и передачи энергии в мно</find>
-      <find>&gt;Непрерывный и прерывистый режимы работы преобраз</find>
-      <find>&gt;Непрерывный режим</find>
-      <find>&gt;Прерывистый режим</find>
-      <find>&gt;Сравнение режимов</find>
-      <find>table</find>
-      <find>&gt;Цикл работы обратноходового преобразо</find>
-      <find>&gt;Стадия накопления энергии в магнитопров</find>
-      <find>&gt;Стадия передачи энергии в нагр</find>
-      <find>&gt;Стадия задержки (паузы)</find>
-      <find>&gt;Расчет элементов обратноходового п</find>
-      <find>&gt;Расчет индуктивности первичной</find>
-      <find>&gt;Расчет индуктивности вторичной обмо</find>
-      <find>&gt;Отношение числа витков обмоток</find>
+      <find>&gt;Демпфирование колебаний</find>
+      <find>&gt;Потери при работе обратнохо</find>
       <find>&gt;Ключевой транзистор</find>
+      <find>&gt;Обмотки</find>
       <find>&gt;Диод</find>
+      <find>&gt;Особенности обратноходового</find>
+      <find>&gt;Проблема выбора коэффициента заполнения</find>
+      <find>&gt;Граничные режимы работы, выбор величины коэ</find>
+      <find>&gt;Контроллеры обратноходовых преобразователей</find>
+      <find>&gt;Алгоритм расчета обратноходового преобразователя</find>
+      <find>&gt;1. Определение исходных</find>
+      <find>&gt;2. Выбор контроллера обратноходового преоб</find>
+      <find>&gt;3. Выбор частоты коммутации и парам</find>
+      <find>&gt;4. Определение максимальной мощности прео</find>
+      <find>&gt;5. Расчет индуктивности первич</find>
+      <find>&gt;6. Расчет максимального тока первичн</find>
+      <find>&gt;7. Расчет индуктивности вторичной обмотк</find>
+      <find>&gt;8. Расчет отношения числа витков вторичной</find>
+      <find>&gt;9. Расчет максимального тока вторичной обмотки</find>
+      <find>&gt;10. Расчет трансформатора обратноходового прео</find>
+      <find>&gt;11. Расчет параметров ключевого транзистора</find>
+      <find>&gt;12. Расчет параметров выходного диода</find>
+      <find>&gt;13. Расчет конденсатора выходного фи</find>
+      <find>&gt;14. Расчет параметров входного конд</find>
+      <find>&gt;15. Выбор типа демпфера</find>
+      <find>&gt;16. Выбор напряжения демпфера</find>
+      <find>&gt;17. Расчет параметров демпфера</find>
+      <find>&gt;17.2 Расчет TVS-демпфера</find>
+      <find>&lt;em&gt; &lt;/em&gt;</find>
+      <find>table</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -214,11 +214,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-670" />
-    <option name="y" value="-1440" />
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="182" />
+    <option name="y" value="-1417" />
+    <option name="width" value="1164" />
+    <option name="height" value="1329" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -323,21 +323,7 @@
       <workItem from="1583380652933" duration="6872000" />
       <workItem from="1583479670196" duration="48473000" />
       <workItem from="1583985920149" duration="57449000" />
-      <workItem from="1584211398735" duration="20539000" />
-    </task>
-    <task id="LOCAL-00298" summary="Обновление">
-      <created>1584013131653</created>
-      <option name="number" value="00298" />
-      <option name="presentableId" value="LOCAL-00298" />
-      <option name="project" value="LOCAL" />
-      <updated>1584013131653</updated>
-    </task>
-    <task id="LOCAL-00299" summary="Обновление">
-      <created>1584016709685</created>
-      <option name="number" value="00299" />
-      <option name="presentableId" value="LOCAL-00299" />
-      <option name="project" value="LOCAL" />
-      <updated>1584016709686</updated>
+      <workItem from="1584211398735" duration="23354000" />
     </task>
     <task id="LOCAL-00300" summary="Обновление">
       <created>1584017060482</created>
@@ -668,14 +654,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584273379983</updated>
     </task>
-    <option name="localTasksCounter" value="347" />
+    <task id="LOCAL-00347" summary="Обновление">
+      <created>1584273967826</created>
+      <option name="number" value="00347" />
+      <option name="presentableId" value="LOCAL-00347" />
+      <option name="project" value="LOCAL" />
+      <updated>1584273967827</updated>
+    </task>
+    <task id="LOCAL-00348" summary="Обновление">
+      <created>1584292299238</created>
+      <option name="number" value="00348" />
+      <option name="presentableId" value="LOCAL-00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1584292299238</updated>
+    </task>
+    <option name="localTasksCounter" value="349" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343604000" />
+    <option name="totallyTimeSpent" value="346419000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-670" y="-1440" width="2560" height="1440" extended-state="6" />
+    <frame x="182" y="-1417" width="1164" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.2137161" />
@@ -1063,30 +1063,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="187" column="22" lean-forward="true" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="36" />
+        <state relative-caret-position="574">
+          <caret line="158" column="8" lean-forward="true" selection-start-line="155" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/flyback.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="69" column="59" lean-forward="true" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+        <state relative-caret-position="993">
+          <caret line="392" column="32" selection-start-line="392" selection-start-column="32" selection-end-line="392" selection-end-column="32" />
           <folding>
-            <element signature="e#75819#75824#0" expanded="true" />
-            <element signature="e#75840#75845#0" expanded="true" />
-            <element signature="e#77886#77891#0" expanded="true" />
-            <element signature="e#77907#77912#0" expanded="true" />
-            <element signature="e#82839#82844#0" expanded="true" />
-            <element signature="e#82860#82865#0" expanded="true" />
-            <element signature="e#94838#94842#0" expanded="true" />
+            <element signature="e#75600#75605#0" expanded="true" />
+            <element signature="e#75621#75626#0" expanded="true" />
+            <element signature="e#77667#77672#0" expanded="true" />
+            <element signature="e#77688#77693#0" expanded="true" />
+            <element signature="e#82620#82625#0" expanded="true" />
+            <element signature="e#82641#82646#0" expanded="true" />
+            <element signature="e#94637#94641#0" expanded="true" />
+            <element signature="e#94655#94659#0" expanded="true" />
+            <element signature="e#94835#94839#0" expanded="true" />
             <element signature="e#94856#94860#0" expanded="true" />
-            <element signature="e#95036#95040#0" expanded="true" />
-            <element signature="e#95057#95061#0" expanded="true" />
-            <element signature="e#95176#95180#0" expanded="true" />
-            <element signature="e#95195#95199#0" expanded="true" />
-            <element signature="e#121589#121594#0" expanded="true" />
-            <element signature="e#121610#121615#0" expanded="true" />
+            <element signature="e#94975#94979#0" expanded="true" />
+            <element signature="e#94994#94998#0" expanded="true" />
+            <element signature="e#121171#121176#0" expanded="true" />
+            <element signature="e#121192#121197#0" expanded="true" />
           </folding>
         </state>
       </provider>

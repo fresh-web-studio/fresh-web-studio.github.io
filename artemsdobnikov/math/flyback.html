@@ -133,11 +133,15 @@
         <p>- легко реализовать источники с множеством гальванически развязанных выходов, при этом напряжения выходных обмоток хорошо связаны;</p>
         <p>Типовая область применения – сетевые источники питания 5-50 Вт. Верхний предел топологии оценивается на уровне 200-250 Вт. Хорошо подходит для построения маломощных источников питания высокого напряжения.</p>
         <p>На рисунке FLY.1 представлена упрощенная электрическая схема обратноходового преобразователя.</p>
-        <p><strong><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c3cf6697-ed45-4d1b-ba00-bceb3bdfa865" /></strong></p>
-        <p>Рисунок FLY.1 - Упрощенная электрическая схема обратноходового преобразователя</p>
+        <figure class="article__image">
+            <img src="image/flyback-img001.gif" alt="Рисунок-схема"/>
+            <p>Рисунок FLY.1 - Упрощенная электрическая схема обратноходового преобразователя</p>
+        </figure>
         <p><h4 id="2">Принцип работы обратноходового преобразователя</h4></p>
         <p>Принцип работы обратноходового преобразователя состоит в следующем. Ключевой транзистор, управляемый ШИМ-контроллером, коммутирует первичную обмотку трансформатора к источнику питания. Первичная обмотка обратноходового трансформатора фактически представляет собой дроссель, поэтому после коммутации ток через неё линейно растет. Энергия накапливается в магнитопроводе в соответствии с формулой для энергии дросселя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cff9d2ff-aaa8-45ef-8a9c-9711d375e220" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img002.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>L – индуктивность первичной обмотки трансформатора;</p>
         <p>I – ток через первичную обмотку.</p>
@@ -146,21 +150,37 @@
         <p>Для понимания принципа работы и расчета flyback-преобразователя необходимо вывести базовые закономерности процесса накопления и отдачи энергии в многообмоточном дросселе.</p>
         <p><h4 id="3">Физические основы накопления и передачи энергии в многообмоточном дросселе</h4></p>
         <p>Рассмотрим физику накопления энергии в многообмоточном дросселе [Раймонд Мэк. Импульсные источники питания. Теоретические основы проектирования и руководство по практическому применению. Додэка XXI. 2008 г. 274 с.]. Как и для любого дросселя, скорость роста тока прямо пропорциональна прикладываемому к нему напряжению V<sub>IN</sub> и обратно пропорциональна собственной индуктивности L:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d7cc1f07-7c3e-4067-9e84-7aec1528ee9c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img003.png" alt="Формула"/>
+        </figure>
         <p>Здесь индуктивность L – это индуктивность первичной обмотки дросселя, той через которую в магнитопровод «вводится» энергия. Это соотношение описывает стадию накопления энергии в магнитопроводе (и магнитном зазоре). Энергия, запасаемая в индуктивности равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cff9d2ff-aaa8-45ef-8a9c-9711d375e220" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img002.png" alt="Формула"/>
+        </figure>
         <p>На стадии разряда напряжение на первичной обмотке дросселя V<sub>1</sub> пропорционально числу витков в ней N<sub>1</sub> и скорости изменения магнитного потока Φ в магнитопроводе дросселя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2f24efde-1340-4fe8-9c87-9313dccdfd4d" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img004.png" alt="Формула"/>
+        </figure>
         <p>Аналогично напряжение на вторичной обмотке дросселя V<sub>2</sub> пропорционально числу витков в ней N<sub>2</sub> и скорости изменения магнитного потока Φ в магнитопроводе дросселя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/efcaec2b-b23b-428b-9f90-0bb3d5e781db" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img005.png" alt="Формула"/>
+        </figure>
         <p>Если обмоток больше, то соотношения аналогичны:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4ad74b20-da71-444e-9bee-fa7aa0956a5d" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img006.png" alt="Формула"/>
+        </figure>
         <p>Поскольку все обмотки физически «сидят» на одном магнитопроводе, то изменение потока у них одно на всех и напряжения между обмотками связаны между собой:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/787a29ed-63f8-47dc-8b5d-3f12c5226623" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img007.png" alt="Формула"/>
+        </figure>
         <p>Откуда следует, что:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/00a807b6-3709-4f2e-96d1-e9ce942c41f1" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img008.png" alt="Формула"/>
+        </figure>
         <p>Обобщая это для остальных обмоток получаем правило, что для многообмоточного дросселя отношение выходного напряжения на обмотке к числу витков в ней было одинаково для всех его обмоток:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bab31bc7-7f51-43b7-bc48-f5a7b5ef7687" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img009.png" alt="Формула"/>
+        </figure>
         <p>Физически это означает, что при просадке напряжения на вторичных обмотках основная мощность будет передаваться в обмотку с наименьшим соотношением V/N [Раймонд Мэк. Импульсные источники питания. Теоретические основы проектирования и руководство по практическому применению. Додэка XXI. 2008 г. 274 с.].</p>
         <p>Будет ли вся запасенная энергия потрачена во время цикла разряда или же часть останется в магнитопроводе к началу следующего цикла заряда, определяет режим работы обратноходового преобразователя - непрерывный или прерывистый режимы работы.</p>
         <p><h4 id="4">Непрерывный и прерывистый режимы работы преобразователя</h4></p>
@@ -303,43 +323,75 @@
         <p>- время передачи энергии в нагрузку - t<sub>l</sub> (load);</p>
         <p>- время задержки - t<sub>d </sub>(deadtime).</p>
         <p>Период T складывается как сумма всех периодов работы преобразователя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/aeed0194-8831-4e4f-ae0c-30b5c778d673" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img010.png" alt="Формула"/>
+        </figure>
         <p>Относительная длительность импульсов - q равна отношению времени проводящего состояния ключа к длительности всего периода:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6332cb08-dd69-4108-b0c1-4c1bd9d9c0a2" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img011.png" alt="Формула"/>
+        </figure>
         <p>Временные диаграммы напряжений и токов, характеризующих работу обратноходового преобразователя представлены на рисунке FLY.2.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/396aa4f2-e902-477a-994c-2c99a1cf9d9f" /></p>
-        <p>Рисунок FLY.2 - Временные диаграммы напряжения на первичной обмотке, ключевом элементе, токов через первичную и вторичную обмотки, напряжения на нагрузке. [Расчет обратноходового преобразователя напряжения в установившемся режиме Ненахов С.М. Электрическое питание, 2005 г., №3, и 2006 г., №2]</p>
+        <figure class="article__image">
+            <img src="image/flyback-img012.png" alt="Рисунок-схема"/>
+            <p>Рисунок FLY.2 - Временные диаграммы напряжения на первичной обмотке, ключевом элементе, токов через первичную и вторичную обмотки, напряжения на нагрузке. [Расчет обратноходового преобразователя напряжения в установившемся режиме Ненахов С.М. Электрическое питание, 2005 г., №3, и 2006 г., №2]</p>
+        </figure>
         <p><h5 id="9">Стадия накопления энергии в магнитопроводе</h5></p>
         <p>Стадия накопления энергии начинается в момент когда ШИМ-контроллер подает управляющий сигнал на затвор ключевого транзистора вызывая коммутацию первичной обмотки к источнику питания. На вторичной обмотке появляется напряжение, являющееся обратным для выходного диода, который на этой стадии закрыт. То есть фактически на этой стадии первичная обмотка трансформатора представляет собой дроссель с некоторой индуктивностью L<sub>1</sub>. Ток через эту индуктивность возрастает по линейному закону [Силовая электроника. От простого к сложному. Борис Семенов. Солон-Пресс. 2015. 416 с.], пропорционально приложенному к ней напряжению V<sub>IN</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f74b32e3-94b1-4638-aaba-5ea6a7fd5600" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img013.png" alt="Формула"/>
+        </figure>
         <p>Линейный рост тока через первичную обмотку продолжается в течение всей длительности открытого состояния ключа t<sub>i</sub>. При этом максимальное значение тока I<sub>w1_max</sub> определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d1c67173-7fa1-42fd-976e-e2e4ea02dfae" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img014.png" alt="Формула"/>
+        </figure>
         <p>Найдем, какой максимальной величины должен дойти ток через индуктивность для обеспечения необходимой выходной мощности преобразователя.</p>
         <p>Для обеспечения выходной мощности преобразователя P<sub>OUT</sub> необходимо чтобы энергия, запасаемая в магнитопроводе в течение каждого периода была равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a73bfc34-7064-4656-b572-dc4d9562ea73" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img015.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>P<sub>OUT</sub> - выходная мощность;</p>
         <p>f – частота работы преобразователя;</p>
         <p>η – КПД преобразователя.</p>
         <p>Поскольку энергия, запасаемая в индуктивности равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e5e84b31-605f-4f10-909b-57bbd3e338ea" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img016.png" alt="Формула"/>
+        </figure>
         <p>то, приравнивая два вышеприведенных уравнения, получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/eb4dfff6-42e6-456d-9d17-5099795ef1a8" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img017.png" alt="Формула"/>
+        </figure>
         <p>Отсюда выразим необходимый ток I<sub>w1_max</sub> через первичную обмотку который должен быть достигнут в течение времени t<sub>i</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/490a5de4-a786-473b-b829-66ce296e7d23" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img018.png" alt="Формула"/>
+        </figure>
         <p>Данное соотношение связывает необходимую величину максимального тока через индуктивность первичной обмотки I<sub>w1_max</sub>, величину этой индуктивности L<sub>1</sub>, частоту преобразователя f, выходную мощность P<sub>OUT</sub> и КПД преобразователя η. Кроме этого это соотношение определяет требования к максимальному току ключевого элемента.</p>
         <p>Найдем выражение для коэффициента заполнения q (только для прерывистого режима). Приравнивая выражение определяющее рост тока через индуктивность:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ee7db55b-8814-45f7-8bc8-a2fd2853828d" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img019.png" alt="Формула"/>
+        </figure>
         <p>к величине максимального тока необходимой для обеспечения заданной мощности преобразователя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/49379d2d-01dd-4b3e-aa13-9b0b6c7a429c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img020.png" alt="Формула"/>
+        </figure>
         <p>Получим равенство:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/35d72131-665a-4290-92f7-d1666cf4aacc" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img021.png" alt="Формула"/>
+        </figure>
         <p>Из равенства можно выразить длительность t<sub>i</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/79c8c4fa-4702-44a0-95e2-0fcf651f6c8c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img022.png" alt="Формула"/>
+        </figure>
         <p>Отсюда выразим коэффициент заполнения q:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/082b65be-53f3-4946-a61a-7ee74967b7de" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/11bb7de4-cf6c-40b1-b44b-3b77a6867010" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3974edcd-bbea-4b94-9343-6d4f872364f7" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img023.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img024.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img025.png" alt="Формула"/>
+        </figure>
         <p>Это в соответствии с этим выражением можно вычислить изменение коэффициента заполнения при изменении условий работы преобразователя. Видно, что при прочих равных условиях длительность t<sub>i</sub> и q соответственно уменьшаются с увеличением входного напряжения V<sub>IN</sub> и наоборот (рисунок FLY.3).</p>
         <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5da68703-4b8f-43a1-80db-2925ae227c12" /></p>
         <p>Рисунок FLY.3 Изменение коэффициента заполнения с изменением входного напряжения</p>
