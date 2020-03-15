@@ -137,7 +137,7 @@
             <img src="image/flyback-img001.gif" alt="Рисунок-схема"/>
             <p>Рисунок FLY.1 - Упрощенная электрическая схема обратноходового преобразователя</p>
         </figure>
-        <p><h4 id="2">Принцип работы обратноходового преобразователя</h4></p>
+        <h4 id="2">Принцип работы обратноходового преобразователя</h4>
         <p>Принцип работы обратноходового преобразователя состоит в следующем. Ключевой транзистор, управляемый ШИМ-контроллером, коммутирует первичную обмотку трансформатора к источнику питания. Первичная обмотка обратноходового трансформатора фактически представляет собой дроссель, поэтому после коммутации ток через неё линейно растет. Энергия накапливается в магнитопроводе в соответствии с формулой для энергии дросселя:</p>
         <figure class="article__image">
             <img src="image/flyback-img002.png" alt="Формула"/>
@@ -148,7 +148,7 @@
         <p>К выходному диоду приложено запирающее напряжение и ток во вторичной обмотке не протекает. В момент, когда транзистор закрывается, полярность на обмотках в соответствии с законом самоиндукции изменяется на противоположную. Диод открывается, ток начинает протекать через вторичную обмотку трансформатора, и энергия, запасенная в магнитопроводе, переходит в нагрузку. И это при закрытом ключе. Далее процесс повторяется. Выходной конденсатор фильтра является энергетическим буфером, поддерживающем ток в нагрузке в моменты паузы. Подробное рассмотрение всех протекающих и сопутствующих процессов дано ниже.</p>
         <p>В основе работы преобразователя лежит накопление энергии в индуктивности первичной обмотки на первой во времени стадии заряда и передача запасенной энергии на последующей стадии передачи энергии. Поскольку стадии накопления и передачи энергии разделены во времени, то трансформатор в обратноходовом преобразователе фактически представляет собой индуктивностью с двумя или более обмотками и методики расчета обычного трансформатора здесь не применимы.</p>
         <p>Для понимания принципа работы и расчета flyback-преобразователя необходимо вывести базовые закономерности процесса накопления и отдачи энергии в многообмоточном дросселе.</p>
-        <p><h4 id="3">Физические основы накопления и передачи энергии в многообмоточном дросселе</h4></p>
+        <h4 id="3">Физические основы накопления и передачи энергии в многообмоточном дросселе</h4>
         <p>Рассмотрим физику накопления энергии в многообмоточном дросселе [Раймонд Мэк. Импульсные источники питания. Теоретические основы проектирования и руководство по практическому применению. Додэка XXI. 2008 г. 274 с.]. Как и для любого дросселя, скорость роста тока прямо пропорциональна прикладываемому к нему напряжению V<sub>IN</sub> и обратно пропорциональна собственной индуктивности L:</p>
         <figure class="article__image">
             <img src="image/flyback-img003.png" alt="Формула"/>
@@ -183,14 +183,14 @@
         </figure>
         <p>Физически это означает, что при просадке напряжения на вторичных обмотках основная мощность будет передаваться в обмотку с наименьшим соотношением V/N [Раймонд Мэк. Импульсные источники питания. Теоретические основы проектирования и руководство по практическому применению. Додэка XXI. 2008 г. 274 с.].</p>
         <p>Будет ли вся запасенная энергия потрачена во время цикла разряда или же часть останется в магнитопроводе к началу следующего цикла заряда, определяет режим работы обратноходового преобразователя - непрерывный или прерывистый режимы работы.</p>
-        <p><h4 id="4">Непрерывный и прерывистый режимы работы преобразователя</h4></p>
+        <h4 id="4">Непрерывный и прерывистый режимы работы преобразователя</h4>
         <p>Если во время работы преобразователя вся энергия, накопленная в магнитопроводе (и немагнитном зазоре, если таковой имеется) на первой стадии полностью передается в нагрузку на второй стадии, то такой режим называют <span>прерывистым режимом</span>. В англоязычной литературе - DCM (Discontinuous Conduction Mode). Если же расходуется не вся запасенная энергия, то такой режим называют <span>непрерывным режимом</span> работы преобразователя. В англоязычной литературе - CCM (Continuous Conduction Mode) [Расчет обратноходового преобразователя напряжения в установившемся режиме Ненахов С.М. Электрическое питание, 2005 г., №3, и 2006 г., №2]. Каждый из режимов имеет свои особенности, преимущества и недостатки.</p>
-        <p><h5 id="5">Непрерывный режим</h5></p>
+        <h5 id="5">Непрерывный режим</h5>
         <p>Преимущества: Возможность использования емкости сравнительно малой величины, так как импульсы тока во вторичной цепи имеют большую длительность. Сравнительно малый импульсный ток первичной обмотки и большая индуктивность первичной обмотки, что снижает требования к зазору магнитопровода.</p>
         <p>Недостатки: Больший размер трансформатора по сравнению с трансформатором для прерывистого режима. Сложность реализации обратной связи (необходимость коррекции крутизны), так как коэффициент обратной связи не зависит от тока нагрузки, а зависит только от коэффициента заполнения и входного напряжения. При коммутации ключевых элементов возникают существенные потери, так как они переключаются при большом токе и напряжении. Другая проблема обусловлена током обратного восстановления выходного диода выключение, которого происходит, когда через него протекает ток. Это является причиной дополнительного скачка тока [Раймонд Мэк. Импульсные источники питания. Теоретические основы проектирования и руководство по практическому применению. Додэка XXI. 2008 г. 274 с.].</p>
-        <p><h5 id="6">Прерывистый режим</h5></p>
+        <h5 id="6">Прерывистый режим</h5>
         <p>В прерывистом режиме потери на коммутацию при включении незначительны, так как включение происходит при нулевом токе. Выходной ток во время задержки - t<sub>d </sub>(deadtime) равен нулю и поэтому отсутствуют потери связанные с обратным восстановлением диода. Передаточная функция управления практически линейна. Но управляемость ниже, поскольку сопротивление контура является одним из коэффициентов входящих в уравнение обратной связи. Величина зазора в сердечнике более критична, так как более высокий пиковый ток может привести к насыщению сердечника. Переменная составляющая магнитной индукции в магнитопроводе в прерывистом режиме значительна, что обуславливает необходимость более тщательного расчета потерь в сердечнике. Более высокие пульсации обуславливают необходимость использования выходного конденсатора большой мощности.</p>
-        <p><h5 id="7">Сравнение режимов</h5></p>
+        <h5 id="7">Сравнение режимов</h5>
         <p>Прерывистый режим является наиболее предпочтительным вследствие простоты проектирования, легкости настройки, хорошей повторяемости. Кроме этого прерывистый режим имеет большее быстродействие.</p>
         <p>Свод преимуществ и недостатков непрерывного и прерывистого режимов работы представлен в таблице FLY.1 [Design Guide for Off-line Fixed Frequency DCM Flyback Converter. Allan A. Saliva. Infineon Technologies North America (IFNA) Corp. - Design Note DN 2013-01 V1.0 January 2013].</p>
         <p>Таблица FLY.1 - Свод преимуществ и недостатков непрерывного и прерывистого режимов работы.</p>
@@ -311,7 +311,7 @@
             </tbody>
         </table>
         <p>В связи с преимуществами прерывистого режима он является основным для обратноходовых преобразователей. Далее для этого режима представлено подробное описание работы преобразователя и дана методика расчета.</p>
-        <p><h4 id="8">Цикл работы обратноходового преобразователя </h4></p>
+        <h4 id="8">Цикл работы обратноходового преобразователя </h4>
         <p>Ниже описан рабочий цикл обратноходового преобразователя [Дмитрий Макашов. Обратноходовой преобразователь. Flyback-R01.pdf].</p>
         <p>Один такт работы обратноходового преобразователя, работающего в режиме прерывистых токов условно можно разделить на три основные стадии:</p>
         <p>- стадия накопления энергии в магнитопроводе. Длительность стадии определяется временем проводящего состояния ключа - t<sub>i</sub> (impulse).</p>
@@ -335,7 +335,7 @@
             <img src="image/flyback-img012.png" alt="Рисунок-схема"/>
             <p>Рисунок FLY.2 - Временные диаграммы напряжения на первичной обмотке, ключевом элементе, токов через первичную и вторичную обмотки, напряжения на нагрузке. [Расчет обратноходового преобразователя напряжения в установившемся режиме Ненахов С.М. Электрическое питание, 2005 г., №3, и 2006 г., №2]</p>
         </figure>
-        <p><h5 id="9">Стадия накопления энергии в магнитопроводе</h5></p>
+        <h5 id="9">Стадия накопления энергии в магнитопроводе</h5>
         <p>Стадия накопления энергии начинается в момент когда ШИМ-контроллер подает управляющий сигнал на затвор ключевого транзистора вызывая коммутацию первичной обмотки к источнику питания. На вторичной обмотке появляется напряжение, являющееся обратным для выходного диода, который на этой стадии закрыт. То есть фактически на этой стадии первичная обмотка трансформатора представляет собой дроссель с некоторой индуктивностью L<sub>1</sub>. Ток через эту индуктивность возрастает по линейному закону [Силовая электроника. От простого к сложному. Борис Семенов. Солон-Пресс. 2015. 416 с.], пропорционально приложенному к ней напряжению V<sub>IN</sub>:</p>
         <figure class="article__image">
             <img src="image/flyback-img013.png" alt="Формула"/>
@@ -498,7 +498,7 @@
             <img src="image/flyback-img046.png" alt="Формула"/>
         </figure>
         <p>Таким образом, начальное значение тока вторичной обмотки на стадии разряда определяется конечным (максимальным значением тока) первичной обмотки с коэффициентом пропорциональности определяющимся соотношением числа витков обмоток.</p>
-        <p><h5 id="10">Стадия передачи энергии в нагрузку</h5></p>
+        <h5 id="10">Стадия передачи энергии в нагрузку</h5>
         <p>На этой стадии транзистор выключается, и вследствие самоиндукции полярность на обмотках трансформатора изменяется на противоположную. Выходной диод VD открывается и конденсатор фильтра начинает заряжаться током от вторичной обмотки, которая ведет себя как индуктивность L<sub>2</sub> уже «заряженная» начальным током I<sub>w2_max</sub> величина которого определяется максимальным током первичной обмотки через коэффициент трансформации (обоснование выше):</p>
         <figure class="article__image">
             <img src="image/flyback-img047.png" alt="Формула"/>
@@ -577,7 +577,7 @@
         <p>V<sub>IN</sub> - входное напряжение преобразователя;</p>
         <p>V<sub>OUT</sub> - выходное напряжение;</p>
         <p>V<sub>VD</sub> – падение напряжения на открытом диоде.</p>
-        <p><h5 id="11">Стадия задержки (паузы)</h5></p>
+        <h5 id="11">Стадия задержки (паузы)</h5>
         <p>На данной стадии ток во вторичной обмотке прекращается и трансформатор фактически оказывается как бы электрически «подвешенным», то есть его обмотки ни с чем не соединены. При этом возникают колебания обусловленные контуром индуктивности намагничивания L<sub>1</sub> и приведенной к ней эквивалентной емкостью C<sub>eff</sub>, образованной емкостью «исток-сток» ключевого транзистора и паразитными емкостями трансформатора.</p>
         <p>Частота осцилляций равна:</p>
         <figure class="article__image">
@@ -586,8 +586,8 @@
         <p>Необходимость этапа задержки вызвана тем, что выходной диод должен быть надежно закрыт к моменту следующего импульса «накачки», иначе возникнет бросок тока, способный привести к выходу диода и ключевого транзистора из строя. То есть если не будет паузы, то преобразователь может аварийно сработать в прямоходовом режиме.</p>
         <p>На этой стадии к ключевому транзистору прикладывается напряжение равное выходному напряжению питания V<sub>IN</sub>, а к выходному диоду – выходное напряжение V<sub>OUT</sub>.</p>
         <p>Ниже представлены основные параметры расчета основных параметров обратноходового преобразователя.</p>
-        <p><h4 id="12">Расчет элементов обратноходового преобразователя</h4></p>
-        <p><h5 id="13">Расчет индуктивности первичной обмотки</h5></p>
+        <h4 id="12">Расчет элементов обратноходового преобразователя</h4>
+        <h5 id="13">Расчет индуктивности первичной обмотки</h5>
         <p>Целесообразно выбирать индуктивность первичной обмотки L<sub>1</sub> такую, чтобы точка перехода в непрерывный режим соответствовала самому низкому входному напряжению при условии максимального коэффициента заполнения (максимальной выходной мощности). Это гарантирует то, что во всех остальных режимах преобразователь будет работать в прерывистом режиме. Индуктивность первичной обмотки должна успеть «набрать ток» при малом входном напряжении пи условии максимальной отдачи мощности. С учетом вышеприведенного условия индуктивность первичной обмотки определяется по формуле:</p>
         <figure class="article__image">
             <img src="image/flyback-img064.png" alt="Формула"/>
@@ -597,359 +597,622 @@
             <img src="image/flyback-img020.png" alt="Формула"/>
         </figure>
         <p>то, подставляя, получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8564b49e-03af-4e72-ae67-59833f92e63c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img065.png" alt="Формула"/>
+        </figure>
         <p>Проводим ряд преобразований с формулами:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4fccf508-235c-4609-8623-0f0f30dae194" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b9922045-b02b-4059-8426-3eebadbe082a" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7397971f-ccb8-4ef0-bd79-5d9fb8db290a" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2366f67f-d991-4446-8a32-b789e85e31c1" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/30f38a6d-9f24-4fa1-a83a-cdb8a8cb483e" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3055102b-c63a-4313-98e2-73d494a9eedd" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img066.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img067.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img068.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img069.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img070.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img071.png" alt="Формула"/>
+        </figure>
         <p>Получаем итоговую формулу для определения индуктивности первичной обмотки L<sub>1</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e491697e-c294-4103-a20f-5db9e3cb00e3" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img072.png" alt="Формула"/>
+        </figure>
         <p>Здесь подразумевается, что при минимальном входном напряжении коэффициент заполнения становится максимально возможным так, что произведение остается постоянным:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/87df355b-094c-4955-9802-afa50ea2438b" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img073.png" alt="Формула"/>
+        </figure>
         <p>При расчете индуктивности первичной обмотки необходимо использовать максимальную выходную мощность.</p>
         <p>Максимальный ток через первичную обмотку I<sub>w1_max</sub> определяется вышеприведенным выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/490a5de4-a786-473b-b829-66ce296e7d23" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img020.png" alt="Формула"/>
+        </figure>
         <p>Индуктивность первичной обмотки L<sub>1</sub> и максимальный ток I<sub>w1_max</sub> входят в перечень требований к конструктивным особенностям трансформатора обратноходового преобразователя.</p>
-        <p><h5 id="14">Расчет индуктивности вторичной обмотки</h5></p>
+        <h5 id="14">Расчет индуктивности вторичной обмотки</h5>
         <p>На стадии передачи энергии в нагрузку напряжение на вторичной обмотке трансформатора V<sub>2</sub>равно сумме выходного напряжения V<sub>OUT</sub> и падения напряжения на диоде V<sub>VD</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/88789fe7-6e01-42d4-a141-ad858786ba74" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img051.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>OUT</sub> - выходное напряжение;</p>
         <p>V<sub>VD</sub> – падение напряжения на открытом диоде.</p>
         <p>Фактически индуктивность вторичной обмотки разряжается в фиксированный уровень напряжения.</p>
         <p>В соответствии с законом электромагнитной индукции скорость изменения тока через индуктивность (вторичную обмотку) равна отношению напряжения на ней V<sub>2</sub> к величине индуктивности вторичной обмотки L<sub>2</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/87d5694f-0276-4399-8e15-9d329beebc55" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img074.png" alt="Формула"/>
+        </figure>
         <p>В соответствии с условием прерывистого режима работы преобразователя ток должен успеть снизится от максимального значения I<sub>w2_max</sub> до нуля за время t<sub>l</sub> . Таким образом, поскольку ток во вторичной обмотке спадает по линейному закону то:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/476d614a-cea8-48ff-9677-0d477b1a69d2" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img075.png" alt="Формула"/>
+        </figure>
         <p>откуда:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f485b3ba-a2b1-42ea-a72a-286f6efbabb4" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img076.png" alt="Формула"/>
+        </figure>
         <p>Это соотношение связывает время разряда t<sub>l</sub> индуктивность вторичной обмотки L<sub>2</sub> , величину ограничивающего напряжения выходной цепи в которую собственно и «разряжается» индуктивность и стартовое максимальное значение тока во вторичной обмотке I<sub>w2_max</sub>. При этом важно понимать, что величина I<sub>w2_max</sub> задается максимальным достигаемым током первичной обмотки и определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/225f3d32-32bb-404b-930a-142488f5c606" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img077.png" alt="Формула"/>
+        </figure>
         <p>В идеальном случае вся энергия, запасенная в магнитопроводе передается во вторичную цепь. При этом выходная мощность будет равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8a901383-8766-4e3e-8284-bf8db982625f" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img078.png" alt="Формула"/>
+        </figure>
         <p>Подставляя выражение для максимального значения тока вторичной обмотки получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cf92be28-c5f0-4d13-a5c1-3aab063b990e" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img079.png" alt="Формула"/>
+        </figure>
         <p>упрощая которое получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f73a8cab-e9d0-45b8-8063-bea29347076a" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/92ea286b-d396-4939-80c9-e02e028e18ca" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/299719ff-9bec-48c4-99ab-f0485e4b2321" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c7745332-1bc3-4cbd-aa9d-c8f4b6dc4890" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img080.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img081.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img082.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img083.png" alt="Формула"/>
+        </figure>
         <p>Это соотношение связывает индуктивность вторичной обмотки L<sub>2</sub>, время за которое ток через неё убывает до нуля t<sub>l</sub> , выходную мощность P<sub>OUT</sub> , выходное напряжение и падение напряжения на диоде V<sub>VD</sub>.</p>
         <p>Полученное выражение уже учитывает коэффициент заполнения q в неявном виде. Получим соотношение содержащее коэффициент заполнения q явно. Из предыдущего соотношения получим выражение для времени разряда:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2d40a41c-b2d4-422e-a48e-2c2a29d67a35" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8abc4d7b-88b0-4441-9448-dc0d60f68f5e" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img084.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img085.png" alt="Формула"/>
+        </figure>
         <p>Общее уравнение баланса времен работы обратноходового преобразователя имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/788b5aa6-5d66-4ddc-803b-5f14b89e4f86" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img086.png" alt="Формула"/>
+        </figure>
         <p>Полагая длительность паузы равной нулю (пограничный режим):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e345c1b0-b738-49d1-9ffd-3a1a31f0751e" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img087.png" alt="Формула"/>
+        </figure>
         <p>получим:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4738c293-c1f3-45cb-a244-b251bf5b413e" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img088.png" alt="Формула"/>
+        </figure>
         <p>Из определения длительность времени заряда равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a4874425-3373-47a2-aedf-e6ccc27b1dea" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img089.png" alt="Формула"/>
+        </figure>
         <p>то:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/dc2e8676-c98d-43b6-a664-71cb906150d8" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/663cc47c-e547-4323-b187-3e06a08cb41b" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img090.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img091.png" alt="Формула"/>
+        </figure>
         <p>Отсюда получаем выражение для длительности разряда:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/51b481d6-f83b-4f44-8f3a-6aed8ed2cf26" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img092.png" alt="Формула"/>
+        </figure>
         <p>Из выражения для длительности времени заряда:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2773c5db-dc06-4a28-bbc1-331f17b2db05" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img093.png" alt="Формула"/>
+        </figure>
         <p>получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c55a78d2-b9a2-43e4-bf0e-a6668fc39428" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img094.png" alt="Формула"/>
+        </figure>
         <p>Аналогично из выражения для длительности разряда получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b52b67b2-e5da-4ee2-89cd-70f9f166ec2f" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img095.png" alt="Формула"/>
+        </figure>
         <p>Поскольку правые части предыдущих уравнений равны то равны и левые:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/18727220-806e-4fbe-b3ed-7afe9ab6111a" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img096.png" alt="Формула"/>
+        </figure>
         <p>Подставляя в это уравнение выражения для t<sub>i</sub> (см. выше) и t<sub>l</sub> получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bcb348ba-5414-4756-a90e-360d69d01388" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img097.png" alt="Формула"/>
+        </figure>
         <p>Откуда:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ac72bb6d-d29b-49e5-9e0c-defc6a9d6f6d" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1eec748f-761a-430f-ac32-f40f5cd2bb20" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/74fb710a-be3a-4daf-ac1b-faca09d9cf19" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img098.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img099.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img100.png" alt="Формула"/>
+        </figure>
         <p>Это выражение определяет максимальную величину индуктивности вторичной обмотки при любом q для обеспечения условия пограничного режима. Так при малых q когда энергия вводится быстро индуктивность L<sub>2</sub> может быть большой, если энергия вводится медленно то величину L<sub>2</sub> нужно сокращать. При увеличении входного напряжения или уменьшении выходного L<sub>2</sub> можно увеличивать. Примечательно, что выходная мощность не влияет на соотношение индуктивностей, поскольку она одновременно увеличивает как время заряда, так и время разряда. Это не более чем соотношение описывающее взаимосвязь индуктивностей трансформатора и входных и выходных напряжений для обеспечения условия прерывистого режима работы преобразователя. Частота и мощность входит в выражение для определения L<sub>1</sub>.</p>
         <p>В данном выражении при условии, что q=0.5 получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/238d48db-90ba-4c9c-9c11-1e1b5568a29d" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img101.png" alt="Формула"/>
+        </figure>
         <p>Пиковый ток вторичной обмотки равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4b3f2e00-4004-45f5-b79b-5cf3f7674e4c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img102.png" alt="Формула"/>
+        </figure>
         <p>Здесь отношение числа витков первичной и вторичной обмоток:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/da0e5e7e-2377-4a3c-9dd0-8e0a08946e20" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img103.png" alt="Формула"/>
+        </figure>
         <p>Как считать коэффициент k рассказывается в следующем пункте.</p>
-        <p><h5 id="15">Отношение числа витков обмоток</h5></p>
+        <h5 id="15">Отношение числа витков обмоток</h5>
         <p>Зная соотношения для индуктивностей выведем отношение числа витков вторичной и первичной обмоток. То есть, скажем так, «коэффициент трансформации».</p>
         <p>Подставляя в соотношение связывающее индуктивности первичной и вторичной обмоток:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e7db3eab-09d0-4992-9d38-7cace3a91083" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img104.png" alt="Формула"/>
+        </figure>
         <p>формулы для расчета индуктивностей обмоток:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/08dcf9f0-b06d-4017-b17c-d3baf1fc95b5" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4b327dd6-e539-4894-9aa9-1ea5f59fbab1" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img105.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img106.png" alt="Формула"/>
+        </figure>
         <p>получаем уравнение:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3504eb54-5b81-41e1-90d2-875cfe91df9a" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img107.png" alt="Формула"/>
+        </figure>
         <p>упрощая получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b99d47be-f1d9-40f3-8a31-febe307ca105" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0b2cce4e-f819-4e48-8930-11ea3f07401e" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/63166ec2-4c15-4514-a227-374e4f30d737" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img108.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img109.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img110.png" alt="Формула"/>
+        </figure>
         <p>Детальный расчет конструкции трансформатора обратноходового преобразователя представлен в разделе «Индуктивность».</p>
         <p>Выражая период через частоту:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/78508023-262a-475f-a29b-0deddd2c32fe" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img111.png" alt="Формула"/>
+        </figure>
         <p>и подставляя в это уравнение выражения для t<sub>i</sub> и t<sub>l</sub> и получим:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bde2eed5-0b72-47dd-bca2-61103fe91e43" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img112.png" alt="Формула"/>
+        </figure>
         <p>Это соотношение определяет баланс времен циклов заряда / разряда многообмоточного дросселя. Это соотношение хорошо иллюстрирует сдвиг начала разряда.</p>
-        <p><h5 id="16">Ключевой транзистор</h5></p>
+        <h5 id="16">Ключевой транзистор</h5>
         <p><span>Максимальное напряжение</span> на транзисторе определяется как сумма входного напряжения V<sub>IN</sub> и напряжения фиксации демпфераV<sub>cl</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/80a58526-9728-4572-b1e3-ca316a098688" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img113.png" alt="Формула"/>
+        </figure>
         <p>Забегая вперед, напряжение фиксации демпфера V<sub>cl</sub> должно быть больше «отраженного» напряжения V<sub>RO</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d06d20ba-f1c5-41e1-a9bd-b08386a8e2d4" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img114.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>OUT</sub> - выходное напряжение;</p>
         <p>V<sub>VD</sub> – падение напряжения на открытом диоде;</p>
         <p>k – коэффициент трансформации.</p>
         <p>В первом приближении можно считать, что отраженное напряжение равно входному напряжению стабилизатора (реально оно несколько меньше из-за потерь):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3f66082c-9f41-4456-a550-dbb66d742b4d" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img115.png" alt="Формула"/>
+        </figure>
         <p>Таким образом, можно записать требование к минимально необходимому рабочему напряжению транзистора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f55dec13-950a-4dae-ac20-6b821bfed67c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img116.png" alt="Формула"/>
+        </figure>
         <p>В реальности к удвоенному напряжению необходимо еще прибавлять некоторую величину, составляющую примерно 100-200% от входного напряжения которая обусловлена выбросами индуктивности рассеяния которые фиксируются снабберной цепочкой. Таким образом, максимальное напряжение ключевого транзистора должно выбираться исходя из условия:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2dc877c8-eb7f-48ab-84fa-ba2c90925479" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img117.png" alt="Формула"/>
+        </figure>
         <p>Так что транзистор для обратноходового преобразователя хоть и нужен один, но рассчитанный на высокое рабочее напряжение.</p>
         <p>При этом, если необходимо обеспечить повышенный КПД источника питания, то целесообразно повышать напряжение фиксации демпфераV<sub>cl</sub> и в этом случае автоматически повышается и максимальное напряжение на транзисторе V<sub>VT_max</sub>.</p>
         <p><span>Максимальный ток</span> через транзистор равен максимальному току первичной обмотки трансформатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/63602909-0175-432c-9687-75609ad56f2a" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img118.png" alt="Формула"/>
+        </figure>
         <p><span>Среднее значение тока</span> через транзистор равно среднему току преобразователя (или первичной обмотки) и определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f2b25987-808b-4620-b27a-b85fdb4e9e75" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img119.png" alt="Формула"/>
+        </figure>
         <p>Это и последующие выражения даны для режима прерывистых токов преобразователя.</p>
         <p><span>Среднеквадратичное значение тока</span> транзистора равно току через первичную обмотку для треугольной формы токовых импульсов (см. раздел «Резисторы»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/07a4606c-5fa7-4d67-91c3-4e7eb3dce8bd" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img120.png" alt="Формула"/>
+        </figure>
         <p><span>Рассеиваемая мощность</span> определяется мощностью потерь в ключевом транзисторе включающей статические и динамические потери:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7b08e1af-ed45-439a-82cd-7c55abe70111" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img121.png" alt="Формула"/>
+        </figure>
         <p>Мощность статических потерь на сопротивлении силового транзистора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/00155919-caa0-4d6d-b533-3a978b84f577" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img122.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w1_rms</sub> - среднеквадратичное значение тока первичной обмотки;</p>
         <p>R<sub>DS</sub> – сопротивление канала открытого MOSFET-транзистора.</p>
         <p>Мощность динамических потерь в ключевом транзисторе определяется соотношением (в общем случае):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/baca9a70-c319-447f-b9f5-fb5d9bc5c867" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img123.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>Δt – время переключения, зависящее от условий коммутации.</p>
         <p>Это соотношение учитывает только потери при выключении транзистора, поскольку в режиме прерывистых токов потери на включение крайне малы (включение при нулевом токе).</p>
-        <p><h5 id="17">Диод</h5></p>
+        <h5 id="17">Диод</h5>
         <p><span>Обратное напряжение</span>, прикладываемое к диоду максимально на стадии накачки и равно:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/dc94f7b1-b037-49e2-8953-6e0d43a02d2f" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img124.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>k – коэффициент трансформации;</p>
         <p>V<sub>VD</sub> – прямое падение напряжения на диоде.</p>
         <p>На практике необходимо выбирать диод с некоторым запасом в 20-30 %.</p>
         <p><span>Максимальный ток</span> через диод равен максимальному току вторичной обмотки трансформатора и равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5c0f3a1d-d7c1-4ef6-9509-532c925ca3fa" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img125.png" alt="Формула"/>
+        </figure>
         <p>Пиковый ток диода может быть в несколько раз превышать средний ток нагрузки.</p>
         <p><span>Среднее значение тока</span> равно выходному току:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9d361ce6-b9d1-4fc3-b9f6-abb508560d7b" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img126.png" alt="Формула"/>
+        </figure>
         <p><span>Мощность статических потерь</span>, рассеиваемая на диоде складывается из двух составляющих:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bc7d9eef-1679-4505-97e9-a08cfc1ab14f" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img127.png" alt="Формула"/>
+        </figure>
         <p>Первая – мощность статических потерь прямой проводимости P<sub>VDstat+</sub> определяется как произведение среднего значения тока вторичной обмотки I<sub>w2_avg</sub> и падения напряжения на диоде V<sub>VD</sub>при данном токе:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/664d5663-ea66-4067-b005-2614ddbba86b" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img128.png" alt="Формула"/>
+        </figure>
         <p>Падение напряжения на диоде определяется по вольтамперной характеристике.</p>
         <p>Вторая составляющая – мощность потерь при обратной проводимости P<sub>VDstat-</sub> (имеет смысл рассчитывать только при использовании диодов Шоттки для которых обратный ток может быть весьма значителен), определяется по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a488e091-907b-4aae-b7a2-d27ad282238f" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c0c3d4ae-dc31-4a9f-aa23-b699aacbc98d" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5d65c3b9-2a0a-4404-a896-71f253bb076a" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img129.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img130.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img131.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>VD_rev</sub> - обратное напряжение, прикладываемое к диоду;</p>
         <p>I<sub>VD_rev</sub>(V<sub>VD_rev</sub>) – обратный ток диода при обратном напряжении.</p>
         <p>С ростом температуры потери на обратную проводимость существенно возрастают.</p>
         <p>Для уменьшения потерь прямой проводимости целесообразно использовать диоды Шоттки.</p>
-        <p><h5 id="18">Конденсатор выходного фильтра</h5></p>
+        <h5 id="18">Конденсатор выходного фильтра</h5>
         <p>Конденсатор фильтра, во-первых, должен являться источником энергии во время прямого хода, когда вторичная обмотка отключена от нагрузки, при этом напряжение на нем не должно изменяться существенно. Во-вторых, конденсатор должен обладать достаточно малым последовательным сопротивлением (ESR), чтобы пульсации, обусловленные падением напряжения на нем были малы.</p>
         <p>Емкость конденсатора выходного фильтра C<sub>out</sub> определяется исходя из допустимого уровня пульсаций обусловленных разрядом емкости током нагрузки I<sub>OUT</sub> и условия обеспечения стабильной обратной связи. Поскольку конденсатор заряжается в период t<sub>p</sub> , а во все остальное время (периоды t<sub>i</sub> и t<sub>d</sub>) он разряжается током нагрузки, то размах peak-to-peak составляющей пульсаций, обусловленной разрядом емкости ΔV<sub>Cout_disch</sub> определяется по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0271ccf2-4765-41e4-aca1-193b0154a1a4" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img132.png" alt="Формула"/>
+        </figure>
         <p>В первом приближении можно считать, что длительность периода t<sub>l</sub> равна нулю (t<sub>l </sub> = 0), тогда выражение можно упростить:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cd93501c-f40b-47a3-9e31-7fbed28d5759" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img133.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следует требование к емкости конденсатора выходного фильтра:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/03952af2-528f-43cb-9153-de62b1202eae" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img134.png" alt="Формула"/>
+        </figure>
         <p>Вторая составляющая пульсаций обусловлена падением напряжения на внутреннем последовательном сопротивлении конденсатора (ESR) и особенно проявляется при больших значениях последовательного сопротивления конденсаторов и при больших выходных токах - это пульсации вызываемые падением напряжения на суммарном последовательном сопротивлении конденсатора. Размах peak-to-peak составляющей пульсаций обусловленной ESR имеют величину:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/84e45340-1561-4b93-917b-7cf5034d41dc" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img135.png" alt="Формула"/>
+        </figure>
         <p>Здесь выражение в скобках показывает разницу между амплитудами тока заряжающего I<sub>w2_max </sub>и разряжающего I<sub>OUT</sub> (минус на минус дает плюс).</p>
         <p>Из этого следует требование к ESR конденсатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cc386053-0b34-4e84-a732-f7cc7861b3eb" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img136.png" alt="Формула"/>
+        </figure>
         <p>При больших значениях потребляемого тока целесообразно использовать конденсаторы с низким последовательным сопротивлением (Low ESR) и использовать их параллельное соединение.</p>
         <p>Общий уровень пульсаций в первом приближении определяется суммой двух составляющих:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6563b9a4-19bc-4a5b-ac74-8ea63a7e4646" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img137.png" alt="Формула"/>
+        </figure>
         <p>Если расчетное значение уровня пульсаций оказывается больше заданного значения, то необходимо или использовать другой тип конденсаторов с меньшим ESR или использовать параллельное соединение конденсаторов.</p>
         <p>Для уменьшения высокочастотной составляющей целесообразно параллельно электролитическим конденсаторам включать керамические, обладающие существенно меньшим значением паразитной индуктивности и ESR.</p>
         <p>Максимальное напряжение на выходном конденсаторе равно максимальной величине выходного напряжения V<sub>OUT_max</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/18e51ae0-6eec-4b63-bb45-2a11febe5ec4" /></p>
-        <p><h5 id="19">Входной конденсатор</h5></p>
+        <figure class="article__image">
+            <img src="image/flyback-img138.png" alt="Формула"/>
+        </figure>
+        <h5 id="19">Входной конденсатор</h5>
         <p>Максимальное значение тока, протекающего через входной конденсатор I<sub>Cin_max</sub> равно максимальному току через первичную обмотку трансформатора I<sub>w1_max</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e7b6297b-385b-4929-bce7-50c56d1d78fd" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img139.png" alt="Формула"/>
+        </figure>
         <p>Величина пульсаций напряжения на входном конденсаторе равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ac4df306-d1db-4586-9eab-88e96efb2569" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img140.png" alt="Формула"/>
+        </figure>
         <p>или:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2c5d1d17-70a2-4805-96ea-645afbbb543b" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img141.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следуют требования к ESR входного конденсатора.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3f1cf55f-50d9-46e2-bb44-34fae1f49db5" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img142.png" alt="Формула"/>
+        </figure>
         <p>Для практических расчетов можно задаться величиной пульсаций не более 2% от входного напряжения V<sub>IN</sub>.</p>
         <p>Величина емкости входного конденсатора зависит от импеданса входного источника питания. Вработе [Buck-Converter Design Demystified. By Donald Schelle and Jorge Castorena, Jorge Castorena, Technical Staff, Technical Staff, Maxim Integrated Products, Sunnyvale, Calif. Power Electronics Technology. June 2006] рекомендуемое значение емкости для обычных лабораторных источников питания выбирают исходя из эмпирического положения «от 10 мкФ до 22 мкФ на ампер».</p>
         <p>В случае необходимости более точных расчетов емкость входного конденсатора можно рассчитать по соотношению (см. раздел «Понижающий импульсный стабилизатор»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9c362bea-be26-47e9-ad80-ba1eec0be5cc" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img143.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>IN</sub> – входной ток преобразователя;</p>
         <p>V<sub>IN</sub> – входное напряжение преобразователя;</p>
         <p>L<sub>PS</sub> – индуктивность цепи питания преобразователя (индуктивность первичного источника);</p>
         <p>ΔV<sub>Cin_disch</sub> – падение напряжения вследствие разряда конденсатора; ΔV<sub>Cin_disch</sub> можно выбрать в пределах 1-2% от величины входного напряжения V<sub>IN</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/779db8d7-5356-4411-a968-82cc63f3aed9" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img144.png" alt="Формула"/>
+        </figure>
         <p>Входной ток преобразователя определяется по полученному ранее соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f35fe0d0-53eb-4f11-85d3-a5f26943e6b6" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img034.png" alt="Формула"/>
+        </figure>
         <p>Таким образом, подставляя, получаем итоговое выражение:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/198cd9dc-50db-4aaa-93b9-6ba028692b2f" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img145.png" alt="Формула"/>
+        </figure>
         <p>Максимальное напряжение на входном конденсаторе равно максимальной величине входного напряжения V<sub>IN_max</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/060275b2-b8d5-4291-8d5d-83801ae860b3" /></p>
-        <p><h4 id="20">Паразитные индуктивности и емкости. Борьба с выбросами напряжения. Демпферы</h4></p>
+        <figure class="article__image">
+            <img src="image/flyback-img146.png" alt="Формула"/>
+        </figure>
+        <h4 id="20">Паразитные индуктивности и емкости. Борьба с выбросами напряжения. Демпферы</h4>
         <p>Любая схема имеет паразитные элементы – индуктивности и емкости влияние которых проявляется прежде всего в переходных коммутационных процессах. Для обратноходового преобразователя основную негативную роль играют паразитные индуктивности: прежде всего индуктивность рассеяния первичной обмотки L<sub>w1_leak</sub>, не связанная с вторичной обмоткой (показана на рисунке FLY.6 с RCD-демпфером). На втором плане по «вредности» стоят индуктивность рассеяния вторичной обмотки L<sub>w2_leak</sub>, не связанная с первичной обмоткой и индуктивности проводников. Индуктивности являются причиной дополнительных импульсных напряжений прикладываемых к ключевому элементу. Выброс напряжения возникает в короткий интервал времени соответствующий закрыванию транзистора и отпиранию диодов. Паразитные емкости, присутствующие в схеме могут образовывать с паразитными индуктивностями колебательные контура и приводить к генерации осцилляций в переходных режимах.</p>
         <p>Для защиты ключевого транзистора от перенапряжения используются специальные схемотехнические меры ограничивающие выбросы напряжения. На рисунке FLY.5 представлены наиболее распространенные схемотехнические приемы, ограничивающие («срезающие») напряжение на ключе.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/168faa2a-f2a0-451c-9ed7-c4a1ecbd4199" /></p>
-        <p>Рисунок FLY.5 - Схемотехнические решения для ограничения напряжения на ключевом транзисторе</p>
+        <figure class="article__image">
+            <img src="image/flyback-img147.gif" alt="Рисунок-схема"/>
+            <p>Рисунок FLY.5 - Схемотехнические решения для ограничения напряжения на ключевом транзисторе</p>
+        </figure>
         <p>Наиболее распространенным является использование фиксирующих цепочек (называемых снабберами или демпферами):</p>
         <p>- RCD-демпфер, принцип работы которого заключается в поглощении энергии выбросов напряжения с помощью конденсатора и последующего рассеяния энергии резистором, подключенном параллельно конденсатору.</p>
         <p>- TVS-демпфер, принцип работы которого заключается в ограничении амплитуды выбросов напряжения с помощью быстродействующего мощного стабилитрона (саппресорные стабилитроны).</p>
-        <p><h5 id="21">RCD-демпфер</h5></p>
+        <h5 id="21">RCD-демпфер</h5>
         <p>Принципиальная электрическая схема силовой части обратноходового преобразователя с RCD-демпфером представлена на рисунке FLY.6. На схеме также показана индуктивность рассеяния L<sub>w1_leak</sub>.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/31077a7c-ed2e-4487-b992-b0f9253f382f" /></p>
-        <p>Рисунок FLY.6 - Обратноходовой преобразователь с RCD-демпфером, дополнительно показана паразитная индуктивность рассеяния первичной обмотки L<sub>w1_leak</sub></p>
+        <figure class="article__image">
+            <img src="image/flyback-img148.gif" alt="Рисунок-схема"/>
+            <p>Рисунок FLY.6 - Обратноходовой преобразователь с RCD-демпфером, дополнительно показана паразитная индуктивность рассеяния первичной обмотки L<sub>w1_leak</sub></p>
+        </figure>
         <p>После размыкания ключа «отраженное» напряжение V<sub>RO</sub> на первичной обмотке трансформатора в идеальном случае фиксируется на уровне выходного напряжения, деленного на коэффициент трансформации [Дмитрий Макашов. Обратноходовой преобразователь. Flyback-R01.pdf]:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/12bc07cd-f86a-47bc-8417-a9aade211f10" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img149.png" alt="Формула"/>
+        </figure>
         <p>При этом к индуктивности рассеяния L<sub>w1_leak</sub> прикладывается напряжение равное разнице напряжений демпфера V<sub>cl</sub> и V<sub>out </sub>·k(см. рисунок FLY.7):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/da278c72-0a24-4839-b56c-49d3c78bf5d8" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img150.png" alt="Формула"/>
+        </figure>
         <p>Напряжение V<sub>cl</sub> выбирается с учетом двух условий:</p>
         <p>- допустимого напряжения на транзисторе:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c049fcf6-5b15-43dc-95eb-de676864a059" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img151.png" alt="Формула"/>
+        </figure>
         <p>- условия превышения напряжения V<sub>cl</sub> «отраженного» напряжения обмотки трансформатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d06d20ba-f1c5-41e1-a9bd-b08386a8e2d4" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img152.png" alt="Формула"/>
+        </figure>
         <p>Объединяя которые в одно неравенство получаем итоговое условие выбора напряжения V<sub>cl</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/67c7f6a0-638b-499e-8bcf-cb27d8a88e7c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img153.png" alt="Формула"/>
+        </figure>
         <p>В момент закрытия ключа ток через паразитную индуктивность рассеяния равен максимальному значению тока в первичной обмотке (т.к. они соединены последовательно на эквивалентной схеме (рисунок FLY.6):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/93137a60-fff8-4f53-b757-9d223e641f4c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img154.png" alt="Формула"/>
+        </figure>
         <p>При этом напряжение, прикладываемое к первичной обмотке, представляющей собой в этот момент индуктивность рассеяния равно [Liu, Shu-Lin &amp; Zhang, Fa-Wang &amp; Zhang, Qiong. (2016). OptimalDesign of RCD Parameters in Flyback Converter. 583-586]:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/449bc04e-9678-45d6-a1e2-581ba14735d5" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img155.png" alt="Формула"/>
+        </figure>
         <p>Ток через первичную обмотку, будет уменьшаться по линейному закону:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8d048af0-814d-449b-bd0e-4b058b88bb7b" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img156.png" alt="Формула"/>
+        </figure>
         <p>Время, за которое ток «запасаемый» паразитной индуктивностью L<sub>w1_leak</sub> спадает до нуля определяется условиями её «разряда» - прикладываемым к ней напряжением и начальным значением тока. Время спада тока до нуля t<sub>f</sub> равно:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a54ba539-f0c8-4ad5-83b9-efe8e01c5251" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img157.png" alt="Формула"/>
+        </figure>
         <p>Это обусловлено тем, что спадающий ток имеет треугольную форму (рисунке FLY.7),. Этот ток будет заряжать демпферный конденсатор C<sub>cl</sub>. Во время спада тока часть запасенной в магнитопроводе энергии в этот момент времени будет передаваться в конденсатор демпфера через цепь первичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/12b59e11-4777-414d-8c9a-099a25b6175f" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4abbfde8-2a92-492c-a996-e6632df7566e" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/07402a32-03f0-4d7a-b250-528b174ab058" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ede70bef-cb57-49dc-a828-3be6be76a7e0" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img158.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img159.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img160.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img161.png" alt="Формула"/>
+        </figure>
         <p>Из этого соотношения видно, что чем ближе напряжение демпфера V<sub>cl</sub> к величине «отраженного» напряжения k(V<sub>OUT</sub>+V<sub>VD</sub>) тем больше уровень потерь. С целью уменьшения потерь рекомендуется выбирать величину V<sub>cl</sub> из соотношения [Liu, Shu-Lin &amp; Zhang, Fa-Wang &amp; Zhang, Qiong. (2016). OptimalDesign of RCD Parameters in Flyback Converter. 583-586]:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c811133a-ce5d-4d73-9569-d9560f1388d8" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img162.png" alt="Формула"/>
+        </figure>
         <p>Другая составляющая энергии, передаваемая в демпферный конденсатор за время одного цикла работы обратноходового преобразователя за счет энергии запасаемой в индуктивности рассеяния равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d1467419-cd4e-489b-937e-e7a88f230552" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img163.png" alt="Формула"/>
+        </figure>
         <p>Суммарная энергия, передаваемая в конденсатор демпфера равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/59a6b310-9532-4ade-bcfe-58a8b4676693" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/10a3006d-b8c2-4e9d-a709-a2437394bf43" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img164.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img165.png" alt="Формула"/>
+        </figure>
         <p>Упрощая, получаем:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ac3d8388-b0b1-4d71-b349-9a9f68b40871" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a94c28ad-5b4f-48e1-a4b0-b63b875d2eb2" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4be03a44-8166-4c14-9208-054c993d9e0c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img166.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img167.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img168.png" alt="Формула"/>
+        </figure>
         <p>При этом, суммарная мощность, рассеиваемая демпфером равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b302eb29-7b2d-4b13-9ab3-cf31e56bcd1a" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/45eae110-0bef-41bc-a0ed-46cdbf1db918" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a8b49173-0288-426e-ab65-e67c4a6e706a" /></p>
-        <p>Рисунок FLY.7 - Временные диаграммы характеризующие принцип работы RCD-демпфера [Дмитрий Макашов. Обратноходовой преобразователь. Flyback-R01.pdf]</p>
+        <figure class="article__image">
+            <img src="image/flyback-img169.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img170.png" alt="Рисунок-схема"/>
+            <p>Рисунок FLY.7 - Временные диаграммы характеризующие принцип работы RCD-демпфера [Дмитрий Макашов. Обратноходовой преобразователь. Flyback-R01.pdf]</p>
+        </figure>
         <p>В реальности не все так просто. Цепь разряда тока индуктивности рассеяния содержит диод демпфера VD<sub>cl</sub> имеющий определенное время перехода в непроводящее состояние t<sub>r</sub>. Именно по причине инерционности диода сразу после спада тока в индуктивности рассеяния до нуля к ней прикладывается напряжение (V<sub>cl</sub> - V<sub>out </sub>k) и под действием которого ток начинает возрастать уже в обратном направлении. Это происходит в течение всего времени обратного восстановления диода t<sub>r</sub> .</p>
         <p>Величина достигаемого обратного тока демпфера I<sub>cl_max(-)</sub> определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7a783356-cc66-40d5-9036-f55a57d0755d" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img171.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>t<sub>r</sub> – время обратного восстановления диода.</p>
         <p>Этот ток будет уже разряжать демпферный конденсатор C<sub>cl</sub>.</p>
         <p>Далее после восстановления обратной проводимости диода возникают осцилляции в контуре образованном индуктивностью рассеяния и паразитными емкостями (емкость «исток-сток» ключевого транзистора, ёмкость диода и емкости обмоток трансформатора).</p>
         <p>В течение всего времени работы преобразователя демпферный конденсатор постоянно разряжается через резистор демпфера R<sub>cl</sub> . Ток разряда равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4fb373b0-1599-40ad-93c9-8915abc345ca" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img172.png" alt="Формула"/>
+        </figure>
         <p>Однако, для практических расчетов данным явлением частичного разряда демферной емкости можно пренебречь.</p>
         <p>Практически вся мощность, поглощаемая RCD-демпфером выделяется в виде тепла на резисторе демпфера.</p>
         <p>Таким образом, можно вывести выражение для расчета демпферного резистора R<sub>cl</sub>обеспечивающего заданное значение напряжения V<sub>cl</sub>. Известно, что мощность, выделяемая на резисторе связана с напряжением на нем и его сопротивлением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/25d21ae4-2879-4d9d-8da8-60f9b7fa3b16" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img173.png" alt="Формула"/>
+        </figure>
         <p>Отсюда сопротивление демпферного резистора R<sub>cl</sub> обеспечивающего заданное V<sub>cl</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b64e6b3c-e816-4a62-953c-9437e4403083" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img174.png" alt="Формула"/>
+        </figure>
         <p>Емкость конденсатора выбирается из условия, что постоянная времени R<sub>cl</sub>C<sub>cl</sub> должна быть существенно больше периода цикла работы преобразователя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6400ba6a-5925-412e-8860-f8c5b292b76e" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img175.png" alt="Формула"/>
+        </figure>
         <p>Для практических расчетов емкость демпфера можно определить из соотношения [Liu, Shu-Lin &amp; Zhang, Fa-Wang &amp; Zhang, Qiong. (2016). Optimal Design of RCD Parameters in Flyback Converter. 583-586]:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cc98ffd5-e8d9-4985-a828-60c5bfc3e10e" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img176.png" alt="Формула"/>
+        </figure>
         <p>Для демпфера целесообразно использовать керамический конденсатор с минимальными паразитными индуктивностями.</p>
         <p>В качестве демпферного диода необходимо использовать быстродействующие диоды с временем восстановления не менее 200 нс. Демпферный диод должен быть рассчитан на напряжение равное напряжению питания преобразователя V<sub>IN</sub>.</p>
         <p>Для расчета характеристик RCD-демпфера необходимо оценить величину индуктивности рассеяния первичной обмотки. Подробное описание методики расчета индуктивности рассеяния L<sub>w1_leak</sub> представлено в разделе «Трансформатор».</p>
         <p>В соответствии с [Flyback Snubber Design. Switching. Dr. Ray Ridley. Power Magazine. 2005. Designer Series XII] для грубой оценки индуктивности рассеяния можно считать, что она составляет величину порядка 1% от индуктивности намагничивания.</p>
         <p>Для осуществления более точного расчета параметров снаббера необходимо измерение или расчет индуктивности рассеяния первичной обмотки.</p>
-        <p><h5 id="22">TVS-демпфер</h5></p>
+        <h5 id="22">TVS-демпфер</h5>
         <p>Принципальная электрическая схема силовой части обратноходового преобразователя с TVS-демпфером представлена на рисунке FLY.8. На схеме также показана индуктивность рассеяния первичной обмотки L<sub>w1_leak</sub>.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/1717d2ad-ced0-48f4-888b-9f58fa968ca0" /></p>
-        <p>Рисунок FLY.8 - Обратноходовой преобразователь с TVS-демпфером, дополнительно показана паразитная индуктивность рассеяния первичной обмотки L<sub>w1_leak</sub></p>
+        <figure class="article__image">
+            <img src="image/flyback-img177.gif" alt="Рисунок-схема"/>
+            <p>Рисунок FLY.8 - Обратноходовой преобразователь с TVS-демпфером, дополнительно показана паразитная индуктивность рассеяния первичной обмотки L<sub>w1_leak</sub></p>
+        </figure>
         <p>При использовании демпфера на базе TVS-стабилитрона по сути ничего считать не надо, поскольку напряжение V<sub>cl</sub>задается напряжением пробоя TVS. Считать не надо, но нужно выбрать TVS-стабилитрон, а для этого нужно определить напряжение пробоя и рассеиваемую мощность.</p>
         <p>Минимальная величина напряжения пробоя TVS-стабилитрона V<sub>TVS_min</sub> выбирается исходя из условия:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3acb4904-0767-4cb9-82e3-6d8af91dde8a" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img178.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>VDcl</sub> – падение напряжения на диоде демпфера;</p>
         <p>V<sub>RO</sub> - «отраженное» напряжение на первичной обмотке трансформатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/12bc07cd-f86a-47bc-8417-a9aade211f10" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img149.png" alt="Формула"/>
+        </figure>
         <p>Данное условие обеспечивает то, что через TVS-стабилитрон не будет протекать ток индуктивности первичной обмотки (в этом случае вся энергия запасенная в магнитопроводе будет «разряжаться» в стабилитрон и он быстро выйдет из строя).</p>
         <p>Максимальная величина напряжения стабилизации TVS-стабилитрона V<sub>TVS_max</sub> выбирается исходя из условия:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0fed9129-05c5-472f-8bba-103a18fdcb08" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img179.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>VT_max</sub> – максимальное напряжение силового транзистора;</p>
         <p>V<sub>IN </sub>– напряжение питания преобразователя (максимальная величина);</p>
         <p>V<sub>VDcl </sub>– напряжение питания преобразователя (максимальная величина);</p>
         <p>Это условие фактически означает условие «страховки» транзистора от пробоя.</p>
         <p>Объединяя неравенства в одно получаем условие для определения напряжения стабилизации TVS-стабилитрона V<sub>TVS_max</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6e1816d8-c7d7-4564-aa2c-beb0ce342b7f" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img180.png" alt="Формула"/>
+        </figure>
         <p>Мощность, выделяемая на TVS определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/997aad50-cbe2-476c-843b-341728e308ae" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img181.png" alt="Формула"/>
+        </figure>
         <p>С учетом этого выражения выбирается мощность TVS-стабилитрона P<sub>TVS</sub>:</p>
         <p>Важно отметить, что при использовании TVS-демпфера на базе осцилляции существенно меньше по сравнению с RCD-демпфером. Кроме этого надёжность схемы с TVS-демпфером выше. Но TVS-демпфер дороже.</p>
-        <p><h5 id="23">Демпфирование колебаний во вторичной цепи</h5></p>
+        <h5 id="23">Демпфирование колебаний во вторичной цепи</h5>
         <p>При значительной собственной емкости выходного диода и сравнительно высоком выходном напряжении при переходе диода в непроводящее состояние возникают паразитные колебания в контуре, образованном собственной емкостью диода C<sub>VDout</sub>, емкостью вторичной обмотки трансформатора C<sub>w2</sub> и индуктивностью рассеяния вторичной обмотки L<sub>w2_leak</sub>. Для поглощения энергии колебаний и их подавления последовательно вводят демпфирующую R<sub>D</sub>C<sub>D</sub> цепочку (рисунок FLY.9). Ниже представлены основные соотношения для расчета демпфирующей цепочки диода R<sub>D</sub>C<sub>D</sub>.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c60b4024-8bdc-4acd-a8bf-5f39e0a3c235" /></p>
-        <p>Рисунок FLY.9 - Демпфирующая RC цепочка обеспечивающая подавление колебаний во вторичной цепи</p>
+        <figure class="article__image">
+            <img src="image/flyback-img182.gif" alt="Рисунок-схема"/>
+            <p>Рисунок FLY.9 - Демпфирующая RC цепочка обеспечивающая подавление колебаний во вторичной цепи</p>
+        </figure>
         <p>Демпфирующая емкость C<sub>D</sub> выбирается в 2-3 раза больше емкости диода C<sub>VDout</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b1198907-9a38-433b-b86d-b3e445a7551c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img183.png" alt="Формула"/>
+        </figure>
         <p>Максимальное напряжение на демпфирующем конденсаторе равно максимальному напряжению на диоде:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/03e7e175-8d02-4a6d-ba73-2894fcdf197e" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img184.png" alt="Формула"/>
+        </figure>
         <p>Сопротивление R<sub>D</sub> рассчитывается из условия равенства четверти периода паразитных колебаний постоянной времени цепочки R<sub>D</sub>C<sub>D</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6591626f-27dc-49cb-a231-a75c3c1248cf" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img185.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следует выражения для нахождения R<sub>D</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/45e4a067-1958-4275-9851-11b07cf326ca" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img186.png" alt="Формула"/>
+        </figure>
         <p>Мощность, рассеваемая на резисторе R<sub>D</sub> можно оценить исходя из выражения:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cf59bd34-0003-440a-a221-b0a5946798c3" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img187.png" alt="Формула"/>
+        </figure>
         <p>Первое слагаемое внутри скобок показывает потери энергии при заряде и разряде демпферной емкости, множитель «2» здесь обусловлен тем, что ток через диод протекает как при заряде емкости, так и при разряде. Второе слагаемое внутри скобок показывает поглощаемую демпфером энергию паразитных LC-контуров.</p>
-        <p><h4 id="24">Потери при работе обратноходового преобразователя</h4></p>
-        <p><h5 id="25">Ключевой транзистор</h5></p>
+        <h4 id="24">Потери при работе обратноходового преобразователя</h4>
+        <h5 id="25">Ключевой транзистор</h5>
         <p>Мощность потерь (статических) на сопротивлении силового транзистора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/dbb8b706-1fe3-4250-9d3e-dabc3d1b9429" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img188.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w1_rms</sub> - среднеквадратичное значение тока первичной обмотки;</p>
         <p>R<sub>DS</sub> – сопротивление канала открытого транзистора.</p>
         <p>Мощность динамических потерь в ключевом транзисторе определяется, в общем случае, соотношением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/13d3097b-24f9-4eee-a4ed-80a457a7b2d4" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img189.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>Δt – время выключения, зависящее от параметров цепи управления;</p>
         <p>V<sub>VT_max</sub> – максимальное напряжение на транзисторе.</p>
         <p>Это соотношение учитывает только потери при выключении транзистора, поскольку в режиме прерывистых токов потери на включение крайне малы (включение при нулевом токе).</p>
-        <p><h5 id="26">Обмотки</h5></p>
+        <h5 id="26">Обмотки</h5>
         <p>Мощность потерь на активном сопротивлении первичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e0b3d8b4-85d0-4285-9522-1a89fc823dad" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img190.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w1_rms</sub> - среднеквадратичное значение тока первичной обмотки;</p>
         <p>R<sub>w1</sub> – омическое сопротивление первичной обмотки.</p>
         <p>Мощность потерь на активном сопротивлении вторичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b44b0399-f540-45cb-a4a5-cd0e921ad866" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img191.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w2_rms</sub> - среднеквадратичное значение тока первичной обмотки;</p>
         <p>R<sub>w2</sub> – омическое сопротивление первичной обмотки.</p>
-        <p><h5 id="27">Диод</h5></p>
+        <h5 id="27">Диод</h5>
         <p>Мощность потерь (статических) на переходе диода:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/87f13776-74de-4245-a878-74476046027f" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img192.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w2_avg</sub> -­ среднее значение тока первичной обмотки;</p>
         <p>V<sub>VD</sub> – падение напряжения на диоде.</p>
-        <p><h4 id="28">Особенности обратноходового преобразователя </h4></p>
-        <p><h5 id="29">Проблема выбора коэффициента заполнения q</h5></p>
+        <h4 id="28">Особенности обратноходового преобразователя </h4>
+        <h5 id="29">Проблема выбора коэффициента заполнения q</h5>
         <p>Коэффициент заполнения q является внутренним регулировочным параметром преобразователя напряжения. Изменением q источник отрабатывает изменение входного напряжения, выходного напряжения, выходной мощности. Вот несколько рассуждений относительно выбора коэффициента заполнения q:</p>
         <p>- q обратно пропорционально входному напряжению; Если предполагается, что входное напряжение будет изменяться в широких пределах, особенно уменьшаться, то нужно рассчитать, что при минимальном входном напряжении коэффициент q не превысит 0,5-0,7. В этом случае рабочим qможет быть величина 0,3-0,5;</p>
         <p>- если предполагается регулировка выходного напряжения, то нужно уменьшить q для того чтобы обеспечить широкий диапазон изменения времени разряда (пропорционально 1-q). В этом случае рабочим q также может быть величина 0,3-0,5;</p>
@@ -960,7 +1223,7 @@
         <p>- при малых значениях q сокращается стадия заряда и соответственно возрастают импульсные токи заряда в первичной цепи (при сохранении уровня мощности). Увеличение импульсных токов приводит к росту потерь.</p>
         <p>- при слишком больших значениях q сокращается время отведенное на стадию разряда, и соответственно возрастают импульсные токи разряда во вторичной обмотке. Увеличение импульсных токов приводит к росту потерь.</p>
         <p>- при слишком быстром росте или спаде тока через индуктивный элемент возрастают потери в магнитопроводе. Средняя скорость роста тока минимальна при равенстве стадий заряда и разряда.</p>
-        <p><h5 id="30">Граничные режимы работы, выбор величины коэффициента заполнения</h5></p>
+        <h5 id="30">Граничные режимы работы, выбор величины коэффициента заполнения</h5>
         <p>Как правило, техническое задание на проектирование содержит граничные режимы работы преобразователя. Или диапазоны изменения входных и выходных параметров. В большинстве случаев это:</p>
         <p>- минимальный и максимальный уровень входного напряжения: V<sub>IN_min</sub> &lt;V<sub>IN</sub>&lt; V<sub>IN_max</sub>;</p>
         <p>- минимальный и максимальный уровень выходной мощности (например меняется нагрузка при постоянном выходном напряжении): P<sub>OUT_min</sub> &lt; P<sub>OUT </sub>&lt; P<sub>OUT_max</sub>;</p>
@@ -973,22 +1236,30 @@
         <p>- рассчитывают максимальное время заряда t<sub>i</sub> – время максимально при максимальной выходной мощности - P<sub>OUT_max</sub>.</p>
         <p>- рассчитывают максимальное время разряда t<sub>l</sub> – аналогично t<sub>i</sub> оно максимально при максимальной выходной мощности - P<sub>OUT_max</sub>.</p>
         <p>Проверяют условие размещения t<sub>i</sub> и t<sub>l</sub> в пределах периода, т.е. условие прерывистого режима работы:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/110ff22d-e1d0-4192-9e91-9c4f8a4a4ac6" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/763a56cc-b5fa-41d3-b8f7-10b78f44a5cf" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8abc4d7b-88b0-4441-9448-dc0d60f68f5e" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img193.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img194.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/flyback-img085.png" alt="Формула"/>
+        </figure>
         <p><span>Для источников с изменяющимся входным и выходным напряжением:</span></p>
         <p>- рассчитывают максимальное время заряда t<sub>i</sub> – время максимально при максимальной выходной мощности - P<sub>OUT_max</sub> и минимальном входном напряжении V<sub>IN_min</sub>;</p>
         <p>- рассчитывают максимальное время разряда t<sub>l</sub> – время максимально при минимальном уровне выходного напряжения V<sub>OUT_min </sub>и максимальной выходной мощности - P<sub>OUT_max</sub>.</p>
         <p>Проверяют условие размещения t<sub>i</sub> и t<sub>l</sub> в пределах периода, т.е. условие прерывистого режима работы:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/110ff22d-e1d0-4192-9e91-9c4f8a4a4ac6" /></p>
-        <p><h4 id="31">Контроллеры обратноходовых преобразователей</h4></p>
+        <figure class="article__image">
+            <img src="image/flyback-img193.png" alt="Формула"/>
+        </figure>
+        <h4 id="31">Контроллеры обратноходовых преобразователей</h4>
         <p>Для управления обратноходовым преобразователем используются специализированные ИМС – микросхемы ШИМ-контроллеров. Распространенные типы ШИМ-контроллеров:</p>
         <p>- UC3842, UC3843, UC3844, UC3845;</p>
         <p>- TOP (TOP–Switch компании Power Integration);</p>
         <p>- VIPER (STMicroelectronics).</p>
         <p>Подробное описание принципа работы и особенностей построения источников питания содержится в справочных листках (datasheet) на данные микросхемы, а также в сопутствующей информации, публикуемой компанией-производителем.</p>
-        <p><h4 id="32">Алгоритм расчета обратноходового преобразователя</h4></p>
-        <p><h5 id="33">1. Определение исходных параметров расчета</h5></p>
+        <h4 id="32">Алгоритм расчета обратноходового преобразователя</h4>
+        <h5 id="33">1. Определение исходных параметров расчета</h5>
         <p>Фактически, в начале всех расчетов определяем техническое задание на проектирование обратноходового преобразователя напряжения:</p>
         <p>- определение входного напряжения V<sub>IN</sub>; и диапазона его изменения V<sub>IN_min</sub> - V<sub>IN_max</sub> если источник регулируемый;</p>
         <p>- определение выходного напряжения V<sub>OUT</sub>; и диапазона его регулировки V<sub>OUT_min</sub> - V<sub>OUT_max</sub>если источник регулируемый;</p>
@@ -997,54 +1268,74 @@
         <p>- определение L<sub>PS</sub> – индуктивности цепи питания стабилизатора (индуктивность первичного источника);</p>
         <p>Если заданы фиксированные значения входных или выходных параметров, то в дальнейших расчетах максимальные и минимальные значения, указанные в дальнейших формулах для расчетов принимаются равными номинальному значению.</p>
         <p>Дополнительно в состав здания на проектирование должны входить качественные и количественные данные о массогабаритных характеристиках, уровне рабочих частот преобразователя, требований по ЭМИ-совместимости.</p>
-        <p><h5 id="34">2. Выбор контроллера обратноходового преобразователя</h5></p>
+        <h5 id="34">2. Выбор контроллера обратноходового преобразователя</h5>
         <p>Исходными данными для выбора контроллера являются требования по регулированию выходного напряжения (тока), уровни мощности, стоимости, массогабаритные характеристики, диапазон рабочих частот.</p>
         <p>Выбранный тип контроллера определяет значение максимального коэффициента заполнения q<sub>max</sub> (указан в datasheet). В большинстве случаев в расчетах целесообразно выбирать q<sub>max</sub> равным 50% или значением максимально близким к нему, например 47%. В особых случаях коэффициента заполнения q выбирается индивидуально – читай в пункте «Проблема выбора коэффициента заполнения q» настоящего раздела. Максимальное же значение коэффициента заполнения некоторых ШИМ-контроллеров обратноходовых преобразователей может принимать значения от 50-100%.</p>
         <p>Кроме максимального значения коэффициента заполнения q, тип микросхемы накладывает ограничения на максимальную частоту коммутации или же у ряда типов контроллеров она вообще может быть фиксированной. Кроме того ряд контролеров может работать не только при фиксированной частоте, но и при фиксированном q. При этом регулировка выходного напряжения осуществляется в режиме пачек (например интегрированные с силовым ключом микросхемы серии TOP и TNY). Особенности расчета таких контроллеров детально описано в их справочных листках. Кроме этого в datasheet указывается величина P<sub>IC</sub> – мощность потребляемая контроллером и сопутствующими цепями управления;</p>
-        <p><h5 id="35">3. Выбор частоты коммутации и параметров времязадающей RC-цепочки контроллера</h5></p>
+        <h5 id="35">3. Выбор частоты коммутации и параметров времязадающей RC-цепочки контроллера</h5>
         <p>Частота выбирается на основании требований к массогабаритным показателям, возможностям современной компонентной базы и КПД преобразователя.</p>
         <p>Частота коммутации f определяет период следования импульсов <em>T</em>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/292c6a03-3929-4b47-9b06-41e55fb9e0c1" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img195.png" alt="Формула"/>
+        </figure>
         <p>Период совместно с коэффициентом заполнения определяет длительность импульса открытого состояния ключа:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a4874425-3373-47a2-aedf-e6ccc27b1dea" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img093.png" alt="Формула"/>
+        </figure>
         <p>В соответствии с выбранным значением частоты коммутации выбираются параметры времязадающей RC-цепочки контроллера.</p>
-        <p><h5 id="36">4. Определение максимальной мощности преобразователя</h5></p>
+        <h5 id="36">4. Определение максимальной мощности преобразователя</h5>
         <p>Максимальная выходная мощность преобразователя равна произведению тока нагрузки и напряжения на ней:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/77d15a14-a573-4034-ae8b-2f71832ed499" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img196.png" alt="Формула"/>
+        </figure>
         <p>Максимальная потребляемая мощность преобразователя P<sub>IN_max</sub> определяется максимальной выходной мощностью, деленной на КПД:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e9535461-14b3-47ae-8b12-3af188ceabf6" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img197.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>P<sub>OUT_max</sub> – максимальная выходная мощность преобразователя;</p>
         <p>η – КПД преобразователя, с учетом всех потерь, включая потери мощности потребляемой контроллером и сопутствующими цепями управления.</p>
         <p>В первом приближении КПД преобразователя η можно принять равным в пределах 80-85 %. Мощность потребляемая контроллером указана в справочных листках (datasheet).</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cdf13147-e331-40f9-b64f-e070ac0514ad" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img198.png" alt="Формула"/>
+        </figure>
         <p>Необходимо понимать, что выбор КПД на данном этапе является приближением, реальный КПД может быть уточнен в процессе расчета путем вычисления различных составляющих потерь.</p>
-        <p><h5 id="37">5. Расчет индуктивности первичной обмотки</h5></p>
+        <h5 id="37">5. Расчет индуктивности первичной обмотки</h5>
         <p>Индуктивность L<sub>1</sub> первичной обмотки трансформатора обратноходового преобразователя определяется по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c2fcc1a6-4853-475d-9137-54e0df357405" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img199.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>IN_min</sub> - входное напряжение (минимальное значение);</p>
         <p>q<sub>max</sub> – максимальное значение коэффициента заполнения контроллера преобразователя;</p>
         <p>P<sub>OUT_max</sub> – максимальная выходная мощность преобразователя;</p>
         <p>η – КПД преобразователя;</p>
         <p>f – рабочая частота преобразователя.</p>
-        <p><h5 id="38">6. Расчет максимального тока первичной обмотки</h5></p>
+        <h5 id="38">6. Расчет максимального тока первичной обмотки</h5>
         <p>Максимальный ток через первичную обмотку I<sub>w1_max</sub> определяется по формуле:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/11b5486b-878c-46aa-9fc1-d6dec4a995a0" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img200.png" alt="Формула"/>
+        </figure>
         <p>Индуктивность первичной обмотки L<sub>1</sub> и максимальный ток I<sub>w1_max</sub> входят в перечень требований к конструктивным особенностям трансформатора обратноходового преобразователя.</p>
-        <p><h5 id="39">7. Расчет индуктивности вторичной обмотки</h5></p>
-        <p>Индуктивность L<sub>2</sub> вторичной обмотки трансформатора определяется по соотношению:<br />
-            <img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c117f095-9bea-41aa-a5b0-489edb6dfe58" /></p>
+        <h5 id="39">7. Расчет индуктивности вторичной обмотки</h5>
+        <p>Индуктивность L<sub>2</sub> вторичной обмотки трансформатора определяется по соотношению:</p>
+        <figure class="article__image">
+            <img src="image/flyback-img201.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>OUT</sub> - выходное напряжение;</p>
         <p>V<sub>VD</sub> – падение напряжения на открытом диоде.</p>
-        <p><h5 id="40">8. Расчет отношения числа витков вторичной и первичной обмоток</h5></p>
+        <h5 id="40">8. Расчет отношения числа витков вторичной и первичной обмоток</h5>
         <p>Отношение числа витков вторичной и первичной обмоток k рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cea21557-ebd8-4dd3-83e7-2d79911b1e1e" /></p>
-        <p><h5 id="41">9. Расчет максимального тока вторичной обмотки</h5></p>
+        <figure class="article__image">
+            <img src="image/flyback-img202.png" alt="Формула"/>
+        </figure>
+        <h5 id="41">9. Расчет максимального тока вторичной обмотки</h5>
         <p>Максимальный ток через вторичную обмотку I<sub>w2_max</sub> определяется по формуле:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a46f352e-71b5-4bfa-a459-102b779c7c8b" /></p>
-        <p><h5 id="42">10. Расчет трансформатора обратноходового преобразователя</h5></p>
+        <figure class="article__image">
+            <img src="image/flyback-img077.png" alt="Формула"/>
+        </figure>
+        <h5 id="42">10. Расчет трансформатора обратноходового преобразователя</h5>
         <p>Расчет трансформатора обратноходового преобразователя осуществляем в соответствии с методикой, представленной в пункте «Последовательность расчета трансформатора обратноходового преобразователя» раздела «Индуктивности»).</p>
         <p>Входными данными для расчета являются:</p>
         <p>- конструктивные требования к источнику питания (габариты, уровень электромагнитных помех, условия охлаждения);</p>
@@ -1070,100 +1361,146 @@
         <p>Для расчета характеристик демпфера необходимо оценить величину индуктивности рассеяния первичной обмотки. Подробное описание методики расчета индуктивности рассеяния L<sub>w1_leak</sub>представлено в разделе «Трансформатор» (пункт «Эквивалентная схема трансформатора»).</p>
         <p>В соответствии с [Flyback Converter snubber Design. Switching Power Magazine. 2005] для грубой оценки индуктивности рассеяния можно считать, что она составляет величину порядка 1% от индуктивности намагничивания.</p>
         <p>Для осуществления более точного расчета параметров снаббера необходимо измерение индуктивности рассеяния.</p>
-        <p><h5 id="43">11. Расчет параметров ключевого транзистора VT</h5></p>
+        <h5 id="43">11. Расчет параметров ключевого транзистора VT</h5>
         <p><span>Максимальное напряжение</span></p>
         <p>Максимальное напряжение на транзисторе V<sub>VT_max</sub> выбирается исходя из условия:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/580963a9-e865-486a-ab39-2e8322b37836" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img203.png" alt="Формула"/>
+        </figure>
         <p><span>Максимальный ток</span></p>
         <p>Максимальный ток через транзистор I<sub>VT_max</sub> равен максимальному току первичной обмотки трансформатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0aaaf1e6-62f4-4871-ad8d-123a33de5269" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img204.png" alt="Формула"/>
+        </figure>
         <p><span>Согласно полученным значениям </span>V<sub>VT_max</sub> и I<sub>VT_max</sub> выбираем (в первом приближении) конкретную модель ключевого транзистора. Согласно datasheet определяем сопротивление канала в открытом состоянии R<sub>DS</sub>.</p>
         <p><span>Среднее значение тока</span></p>
         <p>Среднее значение тока через транзистор равно среднему току преобразователя (или первичной обмотки) и определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a5708ebd-91a0-419e-99ba-bc39f5b6ca9d" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img205.png" alt="Формула"/>
+        </figure>
         <p><span>Среднеквадратичное значение тока</span></p>
         <p>Среднеквадратичное значение тока транзистора равно току через первичную обмотку для треугольной формы токовых импульсов:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a9d0964c-56be-424b-8274-34853c39adfc" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img206.png" alt="Формула"/>
+        </figure>
         <p><span>Рассеиваемая мощность</span></p>
         <p>Мощность статических на сопротивлении силового транзистора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6b736a1c-a231-4bde-a09a-61b3dfe82549" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img207.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>VT_rms</sub> - среднеквадратичное значение тока транзистора;</p>
         <p>R<sub>DS</sub> – сопротивление канала открытого MOSFET-транзистора.</p>
         <p>Мощность динамических потерь в ключевом транзисторе определяется соотношением (в общем случае):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ceaa66cd-d606-4c9c-b8fd-9e787a78b5dd" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img208.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>Δt – время выключения транзистора, зависящее от условий коммутации.</p>
         <p>Оценочное значение времени переключения Δt можно оценить из соотношения:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e3805aa9-b953-4095-a64f-d143c1398f5c" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img209.png" alt="Формула"/>
+        </figure>
         <p>I<sub>out_IC</sub> - выходной ток ШИМ-контроллера (определяем согласно datasheet);</p>
         <p>Q<sub>G</sub> – суммарный заряд затвора MOSFET-транзистора (определяем согласно datasheet – термин «total gate charge»).</p>
         <p>Это соотношение учитывает только потери при выключении транзистора, поскольку в режиме прерывистых токов потери на включение крайне малы (включение при нулевом токе).</p>
         <p>Суммарная рассеваемая ключевым транзистором мощность P<sub>VT_max</sub> определяется как сумма статических P<sub>VT_stat</sub> и динамических P<sub>VT_swith</sub> потерь :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/80d6ed5d-4321-49ef-946d-d49225ac7ca6" /></p>
-        <p><h5 id="44">12. Расчет параметров выходного диода VD</h5></p>
+        <figure class="article__image">
+            <img src="image/flyback-img210.png" alt="Формула"/>
+        </figure>
+        <h5 id="44">12. Расчет параметров выходного диода VD</h5>
         <p><span>Максимальное обратное напряжение</span></p>
         <p>Максимальное обратное напряжение V<sub>VD_max</sub>, прикладываемое к диоду максимально на стадии накачки и равно:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/acecdac8-a52a-4485-afdf-223b3e7c51ec" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img211.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>k – коэффициент трансформации;</p>
         <p>V<sub>VD</sub> – прямое падение напряжения на диоде (для кремниевых диодов можно принять равным 1,2 В, для диодов Шоттки - 0,8 В).</p>
         <p>На практике необходимо выбирать диод с некоторым запасом в 20-30 %.</p>
         <p><span>Максимальный ток</span></p>
         <p>Максимальный ток через диод равен максимальному току вторичной обмотки трансформатора и равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/17bea223-72d2-4abc-b421-78d91612766a" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img212.png" alt="Формула"/>
+        </figure>
         <p>Пиковый ток диода может быть в несколько раз превышать средний ток нагрузки. Это нормально для обратноходового преобразователя.</p>
         <p><span>Среднее значение тока</span></p>
         <p>Среднее значение тока равно выходному току (по максимальному значению):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6d51b36c-7f94-4b80-9942-842c4fba2828" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img213.png" alt="Формула"/>
+        </figure>
         <p><span>Согласно полученным значениям </span>V<sub>VD_max</sub> и I<sub>VD_max</sub> выбираем (в первом приближении) конкретную модель диода. Согласно datasheet определяем падение напряжения на диоде V<sub>VD</sub> для среднего значения тока через диод.</p>
         <p><span>Рассеиваемая мощность</span></p>
         <p><span>Мощность потерь</span>, рассеиваемая на диоде складывается из мощность статических потерь P<sub>VDstat+</sub>прямой проводимости и мощность потерь при обратной проводимости P<sub>VDstat- </sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5f1afbb3-8a6d-41cb-8f4d-55d15a6addf3" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img214.png" alt="Формула"/>
+        </figure>
         <p>Мощность статических потерь P<sub>VDstat+</sub> прямой проводимости определяется как произведение среднего значения тока диода I<sub>VD_avg</sub> и падения напряжения на диоде V<sub>VD</sub> при данном токе:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/72a335bf-5084-4f8a-ba95-e39c7f6d0321" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img215.png" alt="Формула"/>
+        </figure>
         <p>Падение напряжения на диоде V<sub>VD</sub> определяется по вольтамперной характеристике. Для уменьшения потерь прямой проводимости целесообразно использовать диоды Шоттки.</p>
         <p>Мощность потерь при обратной проводимости P<sub>VDstat-</sub> которую имеет смысл рассчитывать при использовании диодов Шоттки с большим обратным током, определяется по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2bed5409-8e82-4bb4-9fbb-b84c4d94d1e6" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img216.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>VD_rev</sub>(V<sub>VD_max</sub>) – обратный ток диода при максимальном обратном напряжении.</p>
         <p>С ростом температуры потери на обратную проводимость существенно возрастают.</p>
-        <p><h5 id="45">13. Расчет конденсатора выходного фильтра C<sub>out</sub></h5></p>
+        <h5 id="45">13. Расчет конденсатора выходного фильтра C<sub>out</sub></h5>
         <p><span>Определение максимального напряжения V<sub>Cout_max</sub></span></p>
         <p>Максимальное напряжение на выходном конденсаторе равно максимальной величине выходного напряжения V<sub>OUT_max</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/19467654-e5a9-43f3-8220-c4de1b397529" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img217.png" alt="Формула"/>
+        </figure>
         <p>При выборе типа конденсатора его максимальное напряжение должно минимум на 20-25 % превышать рассчитанное значение для безопасной работы.</p>
         <p><span>Расчет составляющих выходных пульсаций ΔV<sub>OUT</sub></span></p>
         <p>Составляющая пульсаций ΔV<sub>Сout_disch</sub> , обусловленная его зарядом-разрядом выбирается в пределах 10-50% от величины выходных пульсаций ΔV<sub>OUT </sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/fef84875-c60f-461f-8046-f4fbd0dab632" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img218.png" alt="Формула"/>
+        </figure>
         <p>Отсюда вычисляется остающаяся на долю ESR величина пульсаций:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/08e0d347-d171-4a06-89bf-1e095533adf8" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img219.png" alt="Формула"/>
+        </figure>
         <p><span>Расчёт емкости выходного конденсатора фильтра C<sub>out</sub></span></p>
         <p>Минимально необходимая величина емкости конденсатора выходного фильтра C<sub>out</sub>рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9e659fc4-0dcc-487b-870e-2e28634fa14b" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img220.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>OUT_max</sub> – максимальное значение выходного тока;</p>
         <p>f – рабочая частота импульсного стабилизатора;</p>
         <p>ΔV<sub>Сout_disch</sub> – величина пульсаций на конденсаторе, обусловленная его зарядом-разрядом.</p>
         <p><span>Расчет ESR выходного конденсатора</span></p>
         <p>Максимальное значение ESR выходного конденсатора рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bab59e11-7e56-4e84-9be4-129b42fdf0a7" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img221.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w2_max</sub> – максимальное значение тока вторичной обмотки трансформатора;</p>
         <p>I<sub>OUT_max</sub> – максимальное значение выходного тока;</p>
         <p>ΔV<sub>Сout_ESR</sub> – пульсации напряжения на конденсаторе, обусловленные падением напряжения на его ESR.</p>
-        <p><h5 id="46">14. Расчет параметров входного конденсатора C<sub>in</sub></h5></p>
+        <h5 id="46">14. Расчет параметров входного конденсатора C<sub>in</sub></h5>
         <p><span>Определение максимального напряжения V<sub>Cin_max</sub></span></p>
         <p><span>Максимальное напряжение</span> на входном конденсаторе равно максимальной величине входного напряжения V<sub>IN_max</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/41c34f30-7959-40d8-94d2-8edda113dd39" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img222.png" alt="Формула"/>
+        </figure>
         <p><span>Расчет составляющих выходных пульсаций ΔV<sub>IN</sub></span></p>
         <p>Падение напряжения вследствие разряда конденсатора ΔV<sub>Cin_disch</sub> выбирается в пределах 1-2% от величины входного напряжения V<sub>IN</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/779db8d7-5356-4411-a968-82cc63f3aed9" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img144.png" alt="Формула"/>
+        </figure>
         <p>Аналогично выбираем величину пульсаций на входном конденсаторе обусловленных его ESRΔV<sub>Cin_ESR</sub> - в пределах 1-2% от величины входного напряжения V<sub>IN</sub> .</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d8d668c4-31e4-4802-8bb8-e2e4ac0ab5eb" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img223.png" alt="Формула"/>
+        </figure>
         <p><span>Расчет емкости входного конденсатора</span></p>
         <p>Минимальное значение емкости входного конденсатора рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/33dd19b3-d061-4f38-a1ae-84bc8f030540" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img224.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w1_max</sub> – максимальная величина тока первичной обмотки трансформатора;</p>
         <p>V<sub>IN_min</sub> – входное напряжение преобразователя (минимальное значение);</p>
@@ -1171,46 +1508,62 @@
         <p>ΔV<sub>Cin_disch</sub> – падение напряжения вследствие разряда конденсатора.</p>
         <p><span>Расчет ESR входного конденсатора</span></p>
         <p>Максимальная величина ESR входного конденсатора ESR<sub>Cin</sub> рассчитывается по соотношению :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3f1cf55f-50d9-46e2-bb44-34fae1f49db5" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img142.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w1_max</sub> – максимальная величина тока первичной обмотки трансформатора;</p>
         <p>ΔV<sub>Cin_ESR</sub> – пульсации на конденсаторе обусловленные его ESR.</p>
-        <p><h5 id="47">15. Выбор типа демпфера</h5></p>
+        <h5 id="47">15. Выбор типа демпфера</h5>
         <p>Выбор типа демпфера осуществляется в зависимости от следующих факторов:</p>
         <p>RCD демпфер – более дешевая схема, состоящая из трех элементов: конденсатора, резистора и быстродействующего диода. Схема обеспечивает менее жесткую фиксацию напряжения по сравнению с TVS-демпфером.</p>
         <p>TVS демпфер – более жесткая фиксация напряжения, но при этом быстродействующий стабилитрон имеет большую стоимость по сравнению с RCD-демпфером.</p>
         <p>Важно отметить, что при использовании TVS-демпфера осцилляции существенно меньше по сравнению с RCD-демпфером. Кроме этого надёжность схемы с TVS-демпфером выше. Но TVS-демпфер дороже.</p>
         <p>Выбор осуществляется из экономических требований и требований к надежности.</p>
-        <p><h5 id="48">16. Выбор напряжения демпфера</h5></p>
+        <h5 id="48">16. Выбор напряжения демпфера</h5>
         <p>Напряжение демпфера V<sub>cl</sub> выбирается исходя из условия:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ccdc5851-ed30-444f-9a04-aa1505cdeadc" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img225.png" alt="Формула"/>
+        </figure>
         <p>На практике можно выбрать V<sub>cl</sub> примерно посередине разрешенного диапазона, с целью повышения надёжности и снижения ЭМИ-помех можно рекомендовать снижение напряжения V<sub>cl</sub>. С целью уменьшения потерь рекомендуется выбирать величину V<sub>cl</sub> из соотношения [Liu, Shu-Lin &amp; Zhang, Fa-Wang &amp; Zhang, Qiong. (2016). Optimal Design of RCD Parameters in Flyback Converter. 583-586]:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c0e7b7d1-87ea-4011-87cd-7a38aa5ca357" /></p>
-        <p><h5 id="49">17. Расчет параметров демпфера</h5></p>
-        <p><h6 id="50">17.1 Расчет RCD-демпфера</h6></p>
+        <figure class="article__image">
+            <img src="image/flyback-img226.png" alt="Формула"/>
+        </figure>
+        <h5 id="49">17. Расчет параметров демпфера</h5>
+        <h6 id="50">17.1 Расчет RCD-демпфера</h6>
         <p><span>Мощность демпферного резистора P<sub>cl</sub></span></p>
         <p>Мощность демпферного резистора определяется по выражению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/45eae110-0bef-41bc-a0ed-46cdbf1db918" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img169.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>L<sub>w1_leak</sub> - индуктивность рассеяния первичной обмотки. Здесь используется величина паразитной индуктивности первичной обмотки полученная в ходе расчета трансформатора.</p>
         <p><span>Сопротивление демпферного резистора R<sub>cl</sub></span></p>
         <p>Сопротивление демпферного резистора R<sub>cl </sub>рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8a3d322a-d889-4df8-b2c9-dd2e0cf80f67" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img227.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>L<sub>w1_leak</sub> – индуктивность рассеяния первичной обмотки.</p>
         <p><span>Емкость демпферного конденсатора</span></p>
         <p>Емкость конденсатора выбирается из условия, что постоянная времени R<sub>cl</sub>C<sub>cl</sub> должна быть существенно больше (как минимум в 5-10 раз) периода цикла работы преобразователя:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4ea61a02-16cf-4823-9d18-b200e0b259d3" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img228.png" alt="Формула"/>
+        </figure>
         <p>Для демпфера целесообразно использовать керамический конденсатор с минимальными паразитными индуктивностями.</p>
         <p>В качестве демпферного диода необходимо использовать быстродействующие диоды с временем восстановления не менее 200 нс. Демпферный диод должен быть рассчитан на напряжение равное напряжению питания преобразователя V<sub>IN</sub>.</p>
-        <p><h6 id="51">17.2 Расчет TVS-демпфера</h6></p>
+        <h6 id="51">17.2 Расчет TVS-демпфера</h6>
         <p>Нужно выбрать TVS-стабилитрон, а для этого нужно определить напряжение пробоя и рассеиваемую мощность.</p>
         <p><span>Напряжение пробоя TVS</span></p>
         <p>Напряжение пробоя TVS задается напряжением демпфераV<sub>cl</sub>. Минимальная величина напряжения пробоя TVS-стабилитрона V<sub>TVS</sub> выбирается исходя из условия:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d4eee8a3-5ce3-42bc-a396-ff8f9b9be422" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img229.png" alt="Формула"/>
+        </figure>
         <p><span>Рассеиваемая на TVS мощность</span></p>
         <p>Мощность P<sub>TVS</sub>, выделяемая на TVS вычисляется по выражению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/997aad50-cbe2-476c-843b-341728e308ae" /></p>
+        <figure class="article__image">
+            <img src="image/flyback-img181.png" alt="Формула"/>
+        </figure>
         <p><span>Выбор типа TVS-стабилитрона</span></p>
         <p>Конкретный тип TVS-стабилитрона выбирается согласно вычисленным значениям напряжения пробоя и рассеиваемой мощности. При необходимости увеличения мощности можно использовать только последовательное соединение TVS-стабилитронов.</p>
     </article>
