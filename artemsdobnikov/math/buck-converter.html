@@ -318,64 +318,134 @@
         </figure>
         <p>Из выражения видно, что процесс заряда выходного конденсатора начнётся в некоторый момент времени t<sub>+start</sub> после того как растущий ток через индуктивность сравняется с током I<sub>out</sub> (и превысит его). Найдем момент времени t<sub>+start</sub>.</p>
         <p>С учетом того, что выражение для пульсаций тока дросселя ΔI<sub>L</sub> имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6614f5a4-56ff-46c2-b178-2732e72a7414" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img021.png" alt="Формула"/>
+        </figure>
         <p>То, подставляя это выражение в предыдущее получим:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9f3bf8bf-c3a9-4df4-819c-966dbbf97160" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img038.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следует, что начало заряда ёмкости (когда ток I<sub>C</sub>(t) станет положительным) настанет в момент времени равный половине длительности интервала:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/30bed4a8-6a14-4091-a9b7-04b8225825ec" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img039.png" alt="Формула"/>
+        </figure>
         <p>То есть конденсатор будет заряжаться оставшуюся половину интервала линейно растущим током:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/e58f8fee-fd0e-4d85-b9f5-8c7952bca521" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img040.png" alt="Формула"/>
+        </figure>
         <p>В этом выражении начальному (нулевому) времени соответствует времени t<sub>i</sub>/2 а конечному времени – t<sub>i</sub>. Отсюда длительность времени увеличения напряжения на конденсаторе равна t<sub>i</sub>/2. При этом рост напряжения на конденсаторе в течение интервала передачи энергии ΔV<sub>C_i</sub> будет равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/870b0887-2db8-455a-a0e1-3f89c69b1ebc" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4cd418e3-ef70-41bc-a5c9-9961a0c49109" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img041.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img042.png" alt="Формула"/>
+        </figure>
         <p><span>- период паузы, ключ закрыт, ток дросселя падает:</span></p>
         <p>В начальный момент времени интервала паузы, для упрощения будем считать его нулевым моментом (t=t<sub>i</sub>) ток поддерживаемые дросселем и заряжающий конденсатор максимален и равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c8ce9a08-a2c6-464a-a836-d44ebcaf988d" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img043.png" alt="Формула"/>
+        </figure>
         <p>Далее с течением времени происходит спад тока заряжающего конденсатор по линейному закону:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/67c4080d-d83d-4603-8348-1ae718aabc00" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img044.png" alt="Формула"/>
+        </figure>
         <p>В итоге суммарный баланс токов, заряжающих-разряжающих выходной конденсатор равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/fff5d0a7-f7f7-44bf-b663-98cb2032155e" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c72973e3-b519-4452-8616-4c40d2f62a8b" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img045.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img046.png" alt="Формула"/>
+        </figure>
         <p>Аналогично предыдущему случаю (интервал передачи энергии), подставляя выражение для пульсаций тока дросселя ΔI<sub>L</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6614f5a4-56ff-46c2-b178-2732e72a7414" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img021.png" alt="Формула"/>
+        </figure>
         <p>Получим:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0fbde040-22f4-429f-af56-f0e341ad6435" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img047.png" alt="Формула"/>
+        </figure>
         <p>Найдем момент времени t<sub>+final</sub> начиная с которого напряжение на конденсаторе начинает спадать. Проводим ряд математических преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7588fa61-0b2e-46ca-a3d7-e62227eb45b0" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ba6b5da4-7347-4364-a330-e1e7feebc8a3" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/34e5978f-e2fb-4759-ae5f-b7bd53ba0c1d" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f6dee863-cbb1-4299-a12c-5dc9701e528e" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/37689bc5-15e4-4273-b6d4-a474b2bd722a" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img048.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img049.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img050.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img051.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img052.png" alt="Формула"/>
+        </figure>
         <p>Откуда следует, что начало разряда ёмкости (когда ток I<sub>C</sub>(t) станет отрицательным) настанет в момент:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/34fa9803-72c5-409f-a006-d02bbb45d5a9" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img053.png" alt="Формула"/>
+        </figure>
         <p>Необходимо помнить, что здесь в качестве нулевого момента времени подразумевается время, равное длительности интервала передачи энергии t=t<sub>i</sub> . Это будет учтено в вычислениях интегралов тока по времени, определяющих рост напряжения.</p>
         <p>Отсюда следует, что с начала интервала паузы и до момента времени (T-t<sub>i</sub>)/2 выходной конденсатор будет заряжаться спадающим током:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c72973e3-b519-4452-8616-4c40d2f62a8b" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img046.png" alt="Формула"/>
+        </figure>
         <p>Поскольку к моменту времени t=t<sub>+final</sub> ток через конденсатор будет переходить через ноль, то выражение для заряжающего тока можно переписать в виде:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/572edd9b-2073-4e7a-ae0d-773ec08f3701" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img054.png" alt="Формула"/>
+        </figure>
         <p>В этом выражении нулевому времени соответствует время начала интервала паузы t<sub>i</sub>.</p>
         <p>Рост напряжения на конденсаторе в течение паузы ΔV<sub>C_p</sub> будет равен:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/12bb89ad-ebf1-4e08-ac34-166cbc00e372" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img055.png" alt="Формула"/>
+        </figure>
         <p>Проводим ряд математических преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/77d3bfae-9315-459b-918a-f2a6d2bc1ec3" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d967879c-f847-4a7f-9967-9611acf98ef1" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7add30df-a21d-47b9-9fca-81a79a58c0bf" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3833813e-8866-4750-8be1-81b83449c1de" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img056.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img057.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img058.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img059.png" alt="Формула"/>
+        </figure>
         <p><span>Суммарное увеличение напряжение на выходном конденсаторе </span>происходит как на интервале передачи энергии, так и на интервале паузы:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a7851d9d-eace-4341-839d-4826b310326d" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img060.png" alt="Формула"/>
+        </figure>
         <p>Суммируя полученные значения для ΔV<sub>C_p</sub> и ΔV<sub>C_i</sub> получаем выражение для изменения напряжения на конденсаторе:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/26390ef9-2ade-466a-9325-1a8a575e6f17" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img061.png" alt="Формула"/>
+        </figure>
         <p>Раскрываем скобки и проводим ряд математических преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/fa80acdb-bd0c-4722-b2ca-e79bd5b7c933" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/bd6dad81-55cf-492c-afed-58043a98a7f6" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/92da8401-2c88-48f1-885c-7c0b2b7254be" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d61fbfb2-272c-4f75-b6f7-5beb406ff03e" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/d324b331-892a-40ca-8059-19fb2eb03c93" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ceca0463-e39d-42a5-9fbb-3e73798586d2" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5a74dd2a-b343-4247-b66a-60292b585817" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img062.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img063.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img064.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img065.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img066.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img067.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/buck-converter-img068.png" alt="Формула"/>
+        </figure>
         <p>Это выражение определяет пульсации напряжения на выходном конденсаторе за счет процесса заряда-разряда конденсатора.</p>
         <p>Из выражения следует выражение для емкости выходного конденсатора фильтра C<sub>out</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6d9aa130-e7f0-4cd9-8c4b-a58c9270baa1" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img069.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>IN</sub> – входное напряжение;</p>
         <p>ΔV<sub>Сout_disch</sub> – величина пульсаций на конденсаторе обусловленная его зарядом-разрядом;</p>
@@ -385,103 +455,157 @@
         <p>Полученная выше формула ΔV<sub>Сout_disch</sub> определяет только одну компоненту общих пульсаций, связанную с зарядом-разрядом конденсатора. Есть еще пульсации обусловленные величиной ESR выходного конденсатора.</p>
         <p><em>ESR конденсатора</em></p>
         <p>Величина пульсаций определяется величиной ESR выходного конденсатора и рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5fab26ab-c1c1-4bd5-adb7-c4f4d1097820" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img070.png" alt="Формула"/>
+        </figure>
         <p>Для практических расчетов можно задаться величиной пульсаций не более 2% от величины выходного напряжения [Buck-Converter Design Demystified. By Donald Schelle and Jorge Castorena, Jorge Castorena, Technical Staff, Technical Staff, Maxim Integrated Products, Sunnyvale, Calif. Power Electronics Technology. June 2006].</p>
         <p>Отсюда следует выражение для ESR выходного конденсатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/949dac62-695a-4602-a4ff-1db47da72e9e" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img071.png" alt="Формула"/>
+        </figure>
         <p>В первом приближении, можно считать, что амплитуды пульсаций обусловленных разрядом-зарядом емкости и падением напряжения на ESR конденсатора складываются:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3d7ef706-c2e2-4a48-9231-17686f78d7f4" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img072.png" alt="Формула"/>
+        </figure>
         <p><em>Максимальное напряжение</em></p>
         <p>Максимальное напряжение на выходном конденсаторе равно максимальной величине выходного напряжения V<sub>OUT_max</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8331e6b0-d44d-40ee-aa3e-0362639b836b" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img073.png" alt="Формула"/>
+        </figure>
         <p><h5 id="12">Входной конденсатор</h5></p>
         <p><em>Емкость конденсатора</em></p>
         <p>Величина емкости входного конденсатора зависит от импеданса входного источника питания. Выполним некоторые математические оценки. Скорость роста тока в цепи питания стабилизатора определяется соотношением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/0260de0a-e248-4aff-8e7f-59cb3968b8e3" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img074.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>V<sub>IN</sub> – входное напряжение стабилизатора;</p>
         <p>L<sub>PS</sub> – индуктивность цепи питания стабилизатора (индуктивность первичного источника);</p>
         <p>Отсюда следует, что время t<sub>transient</sub> за которое ток в цепи достигнет номинального значения равно:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/97f5ecfa-bd50-40c5-8704-98cee71df0d3" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img075.png" alt="Формула"/>
+        </figure>
         <p>Поскольку задача выходного конденсатора обеспечить питание стабилизатора в течение этого интервала времени длительностью t<sub>transient</sub> , то минимальное значение его емкости должно быть равно:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/657cb3a7-dd29-4264-8adf-e39b93c7444d" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img076.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>ΔV<sub>Cin_disch</sub> – пульсации напряжения вследствие разряда конденсатора.</p>
         <p>Подставляя выражение для t<sub>transient</sub> в предыдущее соотношение получаем выражение для расчета C<sub>in</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/19f1203b-fdd2-443d-8f1d-2437d2bfb1a6" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img077.png" alt="Формула"/>
+        </figure>
         <p>Здесь в качестве входного тока необходимо использовать максимальное значение, равное максимальному току через дроссель I<sub>L_max</sub>. Таким образом, подставляя получаем итоговое выражение:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/23034540-f586-480e-bcc6-4d79f860069e" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img078.png" alt="Формула"/>
+        </figure>
         <p>Падение напряжения вследствие его разряда ΔV<sub>Cin_disch</sub> можно выбрать в пределах 1-2% от величины входного напряжения V<sub>IN</sub>.</p>
         <p>В работе [Buck-Converter Design Demystified. By Donald Schelle and Jorge Castorena, Jorge Castorena, Technical Staff, Technical Staff, Maxim Integrated Products, Sunnyvale, Calif. PowerElectronics Technology. June 2006] рекомендуемое значение емкости для обычных лабораторных источников питания выбирают исходя из эмпирического положения «от 10 мкФ до 22 мкФ на ампер».</p>
         <p><em>ESR конденсатора</em></p>
         <p>Максимальное значение тока, протекающего через входной конденсатор I<sub>Cin_max</sub> равно максимальному току через индуктивность I<sub>L_max</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/945747de-dc59-4bc3-9548-4290953f5b76" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img079.png" alt="Формула"/>
+        </figure>
         <p>Величина пульсаций напряжения, на входном конденсаторе обусловленных ESRконденсатора равна:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/10c82146-921b-4981-b384-d4c8608a3202" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img080.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следуют требования к ESR входного конденсатора:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5fec775b-54b5-4ffb-908e-c46dbc88eeb7" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img081.png" alt="Формула"/>
+        </figure>
         <p>Для практических расчетов можно задаться величиной пульсаций ΔV<sub>Cin_ESR</sub>, не превышающих 2% от величины входного напряжения V<sub>IN</sub>.</p>
         <p><em>Максимальное напряжение</em></p>
         <p>Максимальное напряжение на входном конденсаторе равно максимальной величине входного напряжения V<sub>IN_max</sub> :</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/143b5b5d-7113-41f0-966b-cb924e7e03aa" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img082.png" alt="Формула"/>
+        </figure>
         <p><h5 id="13">Диод</h5></p>
         <p>Диод выбирают в соответствии с максимальной рассеиваемой мощностью и величиной обратного напряжения.</p>
         <p>Тепловая мощность, рассеиваемая на диоде определяется соотношением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cec95c15-b3aa-47d6-ba48-81f0a54e72fd" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img083.png" alt="Формула"/>
+        </figure>
         <p>Поскольку ток через диод I<sub>VD</sub>, равен току индуктивности в период разряда I<sub>L</sub>, который в свою очередь (по среднему значению) равен выходному току, то выражение для I<sub>VD</sub> имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a4d6dc7a-f996-40e0-af0d-07fca6dd5332" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img084.png" alt="Формула"/>
+        </figure>
         <p>Тогда выражение для мощности, рассеиваемой на диоде P<sub>VD</sub> примет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/cff47926-d3be-487f-b262-afd9e01ab28c" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img085.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>q – коэффициент заполнения;</p>
         <p>I<sub>OUT</sub> – максимальное значение выходного тока;</p>
         <p>V<sub>VD</sub> – прямое падение напряжения на диоде.</p>
         <p>Максимальное обратное напряжение, прикладываемое к диоду равно входному напряжению стабилизатора V<sub>IN</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9fdb0ae6-5bda-434b-9a2f-431a923a419d" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img086.png" alt="Формула"/>
+        </figure>
         <p><h5 id="14">Ключевой транзистор</h5></p>
         <p>Ключевой транзистор выбирают в соответствии с максимальной рассеиваемой мощностью (рабочим током) и величиной обратного напряжения.</p>
         <p><em>Максимальное обратное напряжение</em></p>
         <p>Максимальное обратное напряжение, прикладываемое к транзистору равно входному напряжению стабилизатора V<sub>IN</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4e9adaa3-045c-40ed-9d3b-36d93db5b4f9" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img087.png" alt="Формула"/>
+        </figure>
         <p>В реальности возникают выбросы напряжения на транзисторе, обусловленные паразитной индуктивностью цепи стока (коллектора). Методика расчета и меры борьбы указаны ниже в пункте «Выбросы напряжения на транзисторе, обусловленные паразитной индуктивностью цепи стока (коллектора)» настоящего раздела.</p>
         <p><em>Максимальный ток</em></p>
         <p>Максимальное значение тока, протекающего через ключевой транзистор I<sub>VT_max</sub> равно максимальному току через индуктивность I<sub>L_max</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/89ade3d2-b257-489c-952a-63b1ff29dc2a" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img088.png" alt="Формула"/>
+        </figure>
         <p><em>Рассеиваемая мощность</em></p>
         <p>Рассеиваемая на транзисторе мощность складывается из мощности статических потерь P<sub>VT_stat</sub>, определяющихся падением напряжения на транзисторе и токе через него и динамических потерь P<sub>VT_switch</sub>, обусловленных переключением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6c74a18d-b252-4c6a-b233-377dc8e5d0fa" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img089.png" alt="Формула"/>
+        </figure>
         <p>Мощность статических потерь:</p>
         <p>- для MOSFET – транзисторов соотношение для мощности статических потерь имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/26e55a02-5ac4-474f-b22b-e79c2796373b" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img090.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>R<sub>DS</sub> – сопротивление канала «сток-исток» открытого транзистора;</p>
         <p>I<sub>VT_rms</sub> – среднеквадратичное значение тока через транзистор рассчитываемое по соотношению (см. раздел «Резисторы»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f9de6f94-c67d-4699-a650-ad1a16ba8384" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img091.png" alt="Формула"/>
+        </figure>
         <p>I<sub>OUT </sub> – выходной ток (максимальное значение);</p>
         <p>ΔI<sub>L</sub> – пульсации тока выходного дросселя.</p>
         <p>- для биполярных и IGBT – транзисторов, мощность статических потерь определяется падением напряжения и током через транзистор. Поскольку ток через транзистор I<sub>VT</sub>, равен току индуктивности который по среднему значению равен выходному току, то выражение для I<sub>VT</sub> имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/30f57768-a018-4d45-abed-d7cbc1695c2d" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img092.png" alt="Формула"/>
+        </figure>
         <p>Тогда выражение для мощности статических потерь для биполярных и IGBT – транзисторов примет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/601ef369-5b31-403e-991e-4974b5491212" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img093.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>q – коэффициент заполнения;</p>
         <p>I<sub>OUT</sub> –выходной ток (максимальное значение);</p>
         <p>V<sub>VT</sub> – прямое падение напряжения на переходе коллектор-эмиттер.</p>
         <p>Мощность динамических потерь:</p>
         <p>- для MOSFET – транзисторов мощность динамических потерь P<sub>VT_switch</sub> рассчитывается по соотношению (см. пункт «Расчет статических и динамических потерь при коммутации MOSFET» раздела «Управление MOSFET и IGBT транзисторами. Схемотехнические решения. Расчет»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/05fc23aa-3120-4d22-b8c1-17017eb5683e" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img094.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>t<sub>f</sub> – время спада напряжения на транзисторе (в момент коммутации);</p>
         <p>t<sub>r</sub> – время нарастания напряжения на транзисторе (переход в закрытое состояние);</p>
         <p>С<sub>oss</sub> – выходная емкость транзистора определяемая как сумма ёмкостей «затвор–сток» С<sub>GD</sub> и «сток-исток» С<sub>DS</sub>.</p>
         <p>Выходная емкость MOSFET-транзистора транзистора С<sub>oss</sub>, содержится в datasheet на выбранный тип транзистора. Времена спада и нарастания напряжения на транзисторе t<sub>f</sub> и t<sub>r</sub>можно рассчитать в соответствии с параметрами выходного каскада ШИМ-контроллера преобразователя или использовать оценочные значения согласно datasheet-у транзистора.</p>
         <p>- для биполярных и IGBT – транзисторов мощность динамических потерь P<sub>VT_switch</sub>рассчитывается по соотношению (см. пункт «Расчет статических и динамических потерь при коммутации IGBT» раздела «Управление MOSFET и IGBT транзисторами. Схемотехнические решения. Расчет»):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/617a1943-ac41-4290-94ae-ba76f12e2063" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img095.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>E<sub>ts</sub> – суммарная энергия переключения;</p>
         <p>С<sub>oes</sub> – выходная емкость транзистора.</p>
         <p>Суммарная мощность тепловых потерь на транзисторе определяется как сумма мощностей статических и динамических потерь:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5089216b-9ad5-4929-9adc-e80fe24ecb4c" /></p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img096.png" alt="Формула"/>
+        </figure>
         <p><h4 id="15">Реальные параметры понижающего стабилизатора</h4></p>
         <p><h5 id="16">Основные паразитные параметры понижающего стабилизатора</h5></p>
         <p>Реальность вносит свои коррективы. Основными паразитными параметрами, влияющими на процесс работы понижающего импульсного стабилизатора являются:</p>
@@ -490,8 +614,10 @@
         <p>R<sub>L</sub> – сопротивление обмотки дросселя;</p>
         <p>L<sub>par</sub> – паразитная индуктивность цепи стока (коллектора).</p>
         <p>Принципиальная электрическая схема понижающего импульсного стабилизатора напряжения с учетом основных паразитных параметров представлена на рисунке BUCK.4.</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5bb3f4a2-ccf3-41ae-b447-fe3d413465a6" /></p>
-        <p>Рисунок BUCK.4 - Принципиальная электрическая схема понижающего импульсного стабилизатора напряжения с учетом основных паразитных параметров</p>
+        <figure class="article__image">
+            <img src="image/buck-converter-img097.gif" alt="Рисунок-схема"/>
+            <p>Рисунок BUCK.4 - Принципиальная электрическая схема понижающего импульсного стабилизатора напряжения с учетом основных паразитных параметров</p>
+        </figure>
         <p><h5 id="17">Соотношение взаимосвязи V<sub>IN</sub> и V<sub>OUT</sub> с учетом паразитных параметров</h5></p>
         <p>Выведем соотношение взаимосвязи входного и выходного напряжения стабилизатора с учетом влияния паразитных параметров.</p>
         <p>С учетом паразитных параметров рост тока дросселя ΔI<sub>L</sub> на стадии заряда определяется выражением:</p>
