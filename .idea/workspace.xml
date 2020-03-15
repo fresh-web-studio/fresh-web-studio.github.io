@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/buck-converter.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/buck-converter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/forward.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/forward.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2664">
+            <state relative-caret-position="342">
               <caret line="111" column="52" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="52" />
               <folding>
                 <element signature="e#6631#6636#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/buck-boost-converter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="85" column="21" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="85" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -38,17 +47,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="139" column="13" selection-start-line="136" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+            <state relative-caret-position="509">
+              <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/buck-converter.html">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/forward.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="1169" column="49" selection-start-line="1169" selection-start-column="49" selection-end-line="1169" selection-end-column="49" />
+            <state relative-caret-position="408">
+              <caret line="95" column="79" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -64,36 +73,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;Принцип работы</find>
-      <find>&gt;Стадии рабочего цикла стабилизатора</find>
-      <find>&gt;Период потребления энерги</find>
-      <find>&gt;Период паузы</find>
-      <find>&gt;Связь входного и выходного</find>
-      <find>&gt;Пограничный режим, условие перехода в ре</find>
-      <find>&gt;Расчет параметров элементов понижающего</find>
-      <find>&gt;Силовой дроссель</find>
-      <find>&gt;Выходной конденсато</find>
+      <find>&gt;Токи первичной и втор</find>
+      <find>&gt;Ток первичной обмотки</find>
+      <find>&gt;Ток вторичной обмотки</find>
+      <find>&gt;Ток рекуперационной обмотки</find>
+      <find>&gt;Связь выходного и входного напряжений одноключевого прям</find>
+      <find>&gt;Расчет элементов преобразовател</find>
+      <find>&gt;Трансформатор</find>
+      <find>&gt;Ключевой транзистор</find>
+      <find>&gt;Рекуперационный диод</find>
+      <find>&gt;Выходные диоды</find>
+      <find>&gt;Дроссель фильтра</find>
+      <find>&gt;Выходной конденсатор фильтра</find>
       <find>&gt;Входной конденсатор</find>
-      <find>&gt;Диод</find>
-      <find>&gt;Ключевой тр</find>
-      <find>&gt;Реальные параметры понижающ</find>
-      <find>&gt;Основные паразитные параметры понижаю</find>
-      <find>&gt;Соотношение взаимосвязи VIN и VOUT с учет</find>
-      <find>&gt;Соотношение взаимосвязи VIN и</find>
-      <find>&gt;Соотношение взаимосвязи V</find>
-      <find>&gt;Применение скорректированного с</find>
-      <find>&gt;Расчет коэффициента заполнения понижающего ста</find>
-      <find>&gt;Выбросы напряжения на транзисторе,</find>
-      <find>&gt;Алгоритм расчета понижающего импульсного</find>
-      <find>&gt;2. Определение макси</find>
-      <find>&gt;3. Выбор контроллера и опр</find>
-      <find>&gt;4. Расчет параметров сило</find>
-      <find>&gt;5. Расчет параметров выходн</find>
-      <find>&gt;6. Расчет параметров входного ко</find>
-      <find>&gt;7. Расчет параметров ключевого</find>
-      <find>&gt;8. Расчет параметров диода</find>
-      <find>&gt;9. Расчет конструкции силового</find>
-      <find>&gt;10. Коррекция коэффициента заполне</find>
+      <find>&gt;Выбросы напряжения на транзисторе, обу</find>
+      <find>&gt;Использование снабберной цепочки на</find>
+      <find>&gt;Контроллеры прямоходового преобразовате</find>
+      <find>&gt;Алгоритм расчета прямоходового преобразов</find>
+      <find>&gt;2. Выбор контроллера прямоходово</find>
+      <find>&gt;3. Выбор частоты коммутации и п</find>
+      <find>&gt;4. Определение максимальной мощно</find>
+      <find>&gt;5. Определение тока пульсаций дросс</find>
+      <find>&gt;6. Расчет трансформатора</find>
+      <find>&gt;7. Расчет выходного дросселя</find>
+      <find>&gt;8. Расчет диодов</find>
+      <find>&gt;8.1 Расчет параметров рекуперационног</find>
+      <find>&gt;8.2 Расчет параметров выпрямительного ди</find>
+      <find>&gt;8.3 Расчет параметров токозамыкающего диода VD3</find>
+      <find>&gt;9. Расчет ключевого транзистора</find>
+      <find>&gt;10. Расчет выходного конденсатора фильт</find>
+      <find>&gt;11. Расчет входного конденсатора</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -110,11 +119,12 @@
       <replace>&lt;h6</replace>
       <replace>&lt;h5</replace>
       <replace>MsoTableTheme</replace>
-      <replace>&lt;/h4&gt;</replace>
       <replace>&lt;/h6&gt;</replace>
       <replace>article__table</replace>
       <replace>article__image</replace>
       <replace>&lt;/h5&gt;</replace>
+      <replace>&lt;p&gt;&lt;h4</replace>
+      <replace>&lt;/h4&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/panorama</dir>
@@ -137,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/panorama/rooms/standart.html" />
         <option value="$PROJECT_DIR$/panorama/rooms/junior.html" />
         <option value="$PROJECT_DIR$/panorama/css/style.scss" />
         <option value="$PROJECT_DIR$/panorama/index.html" />
@@ -188,6 +197,7 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/gate-drivers.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/full-bridge.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/buck-converter.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/forward.html" />
       </list>
     </option>
   </component>
@@ -197,11 +207,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="182" />
-    <option name="y" value="-1417" />
-    <option name="width" value="1164" />
-    <option name="height" value="1329" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-670" />
+    <option name="y" value="-1440" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -306,21 +316,7 @@
       <workItem from="1583380652933" duration="6872000" />
       <workItem from="1583479670196" duration="48473000" />
       <workItem from="1583985920149" duration="57449000" />
-      <workItem from="1584211398735" duration="7627000" />
-    </task>
-    <task id="LOCAL-00289" summary="Обновление">
-      <created>1583906254550</created>
-      <option name="number" value="00289" />
-      <option name="presentableId" value="LOCAL-00289" />
-      <option name="project" value="LOCAL" />
-      <updated>1583906254550</updated>
-    </task>
-    <task id="LOCAL-00290" summary="Обновление">
-      <created>1583992168604</created>
-      <option name="number" value="00290" />
-      <option name="presentableId" value="LOCAL-00290" />
-      <option name="project" value="LOCAL" />
-      <updated>1583992168605</updated>
+      <workItem from="1584211398735" duration="10057000" />
     </task>
     <task id="LOCAL-00291" summary="Обновление">
       <created>1583992899681</created>
@@ -651,21 +647,35 @@
       <option name="project" value="LOCAL" />
       <updated>1584251090161</updated>
     </task>
-    <option name="localTasksCounter" value="338" />
+    <task id="LOCAL-00338" summary="Обновление">
+      <created>1584252764837</created>
+      <option name="number" value="00338" />
+      <option name="presentableId" value="LOCAL-00338" />
+      <option name="project" value="LOCAL" />
+      <updated>1584252764837</updated>
+    </task>
+    <task id="LOCAL-00339" summary="Обновление">
+      <created>1584253400089</created>
+      <option name="number" value="00339" />
+      <option name="presentableId" value="LOCAL-00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1584253400089</updated>
+    </task>
+    <option name="localTasksCounter" value="340" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330692000" />
+    <option name="totallyTimeSpent" value="333122000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="-1417" width="1164" height="1329" extended-state="0" />
+    <frame x="-670" y="-1440" width="2560" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.48291367" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.48285487" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32968882" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32875264" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -674,7 +684,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.16944024" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16820858" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.15128593" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012987" side_tool="true" weight="0.32694247" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22455846" />
@@ -771,9 +781,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img069.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img067.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -984,13 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/buck-boost-converter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1033">
-          <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/gate-drivers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1002,16 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2664">
-          <caret line="111" column="52" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="52" />
-          <folding>
-            <element signature="e#6631#6636#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,17 +1026,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/buck-converter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="139" column="13" selection-start-line="136" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/buck-converter.html">
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/puch-pull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="1169" column="49" selection-start-line="1169" selection-start-column="49" selection-end-line="1169" selection-end-column="49" />
+        <state relative-caret-position="342">
+          <caret line="111" column="52" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="52" />
+          <folding>
+            <element signature="e#6631#6636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/buck-boost-converter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="85" column="21" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="85" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/liner-voltage-regulators.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/forward.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="95" column="79" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="79" />
         </state>
       </provider>
     </entry>
