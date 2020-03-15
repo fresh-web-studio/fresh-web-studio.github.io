@@ -200,70 +200,124 @@
         <h5 id="5">Стадия рекуперации (или рассеяния) энергии накопленной в магнитопроводе</h5>
         <p>Интервал в течение которого происходит рекуперация энергии, начинается сразу после выключения силового транзистора. На этой стадии рекуперационная (первичная в случае использования снаббера) обмотка трансформатора представляет собой дроссель с индуктивностью, равной индуктивности обмотки рекуперации L<sub>wr</sub>. Ток рекуперационной обмотки замыкается через диод VD1 и энергия, запасенная в магнитопроводе (через индуктивность намагничивания первичной обмотки) поступает обратно в источник питания, точнее – во входной конденсатор C<sub>in</sub>.</p>
         <p>Начальное значение тока через индуктивность определяется исходя из выражения для ампер-витков (ампер-витки остаются постоянными):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3dad90d3-d3eb-4cc4-bed1-2f60cb6f61ba" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img015.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>I<sub>w1_magn</sub> – амплитуда тока намагничивания первичной обмотки;</p>
         <p>I<sub>wr_max</sub> – максимальное (начальное) значение составляющей тока обмотки рекуперации;</p>
         <p>N<sub>1</sub> – число витков первичной обмотки;</p>
         <p>N<sub>r</sub> – число витков рекуперационной обмотки.</p>
         <p>Откуда следует выражение для начального (максимального) значения составляющей тока обмотки рекуперации:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/3d63a33c-6a06-4ee1-9e89-9b16915dbda6" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img016.png" alt="Формула"/>
+        </figure>
         <p>Ток через индуктивность обмотки рекуперации спадает по линейному закону, пропорционально напряжению, которое к ней прикладывается. К обмотке рекуперации фактически прикладывается напряжение источника питания V<sub>IN</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4b96e751-e253-42f8-af57-25062b5e507b" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img017.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>L<sub>wr</sub> – индуктивность обмотки рекуперации.</p>
         <p>Для того чтобы полностью размагнитить магнитопровод трансформатора к началу нового цикла, необходимо чтобы ток через обмотку рекуперации успел «упасть до нуля» в течение оставшейся длительности закрытого состояния ключа t<sub>r</sub>. При этом пограничный режим определяется выражением</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/91ab6a3c-633b-4195-a83e-19ee9fb59e20" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img018.png" alt="Формула"/>
+        </figure>
         <p>Приравнивая это необходимое значение тока для пограничного режима к начальному значению тока обмотки рекуперации получим:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c1f7e7e8-d6f8-459a-b8b4-0b5d3784f5e5" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img019.png" alt="Формула"/>
+        </figure>
         <p>Учитывая, что амплитуда треугольной составляющей тока I<sub>w1_magn</sub> определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9620ac48-2b04-44a1-b579-4491d6649860" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img020.png" alt="Формула"/>
+        </figure>
         <p>и пренебрегая падением напряжения на регенерационном диоде получим:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b973688a-16d8-4cf3-81eb-8edc09eb8d10" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img021.png" alt="Формула"/>
+        </figure>
         <p>Проведем ряд преобразований:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ac5762cf-9ffe-48fd-b500-457b6c1513f0" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/248e72cb-37f2-49c8-9374-5e8fb786c978" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6ef66547-e362-4df4-9922-7da4ad14b5b6" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/de7cc47b-54dc-462f-9947-866688b0a8a4" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img022.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/forward-img023.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/forward-img024.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/forward-img025.png" alt="Формула"/>
+        </figure>
         <p>Полученное соотношение показывает, что отношение чисел витков в рекуперирующей и первичной обмотке определяется отношением длительностей времен рекуперации и передачи энергии в нагрузку. Это выражение позволяет определить необходимое число витков рекуперационной обмотки. Как правило, число витков в рекуперационной обмотке выбирается равным числу витков в первичной обмотке.</p>
         <p>Определим напряжения на ключевом транзисторе и выходном диоде на данной стадии. На стадии рекуперации энергии все обмотки трансформатора ведут себя так, как будто первичной обмоткой является обмотка рекуперации. А прочие обмотки вторичные по отношению к ней. И напряжения на обмотках рассчитываются в соответствии с «новыми» коэффициентами трансформации.</p>
         <p>Так напряжение на первичной обмотке на стадии рекуперации следует из отношения:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2dd57827-4197-428d-8d14-44ffc39da469" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7de63f73-63f5-457b-89c5-4e86d4a566a4" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img026.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/forward-img027.png" alt="Формула"/>
+        </figure>
         <p>Аналогично напряжение на вторичной обмотке на стадии рекуперации следует из отношения:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2f12f60b-7d1b-48ca-be9e-4b51a5755077" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/c6d71134-4ab7-415c-bf1d-8f023319cf5d" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img028.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/forward-img029.png" alt="Формула"/>
+        </figure>
         <p>На стадии рекуперации к закрытому транзистору прикладывается сумма напряжений источника питания и первичной обмотки:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/f81f6967-31f9-4c4a-8202-4ad767e4fbc7" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img030.png" alt="Формула"/>
+        </figure>
         <p>Или с учетом ранее полученного выражения получаем выражение для максимального напряжения на транзисторе:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7cd88b8a-a7f0-440a-8348-18e312b9a66c" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img031.png" alt="Формула"/>
+        </figure>
         <p>Или:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a5e0bd54-5990-4c56-8987-e1684640bc3f" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img032.png" alt="Формула"/>
+        </figure>
         <p>Аналогично получаем выражение для максимального напряжения выходного диода VD2:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/4ddae4ae-ba67-44c3-8678-c2c8bb8ec329" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img033.png" alt="Формула"/>
+        </figure>
         <p>После того как энергия через рекуперационную обмотку будет передана обратно в источник, ток через неё прекратится и напряжение на ключевом транзисторе станет равным напряжению источника питания (рисунок FORWD.2).</p>
         <p>NB: Значение q=0,5 является типовым решением, неким оптимумом (или вернее компромиссом) между эффективностью потребления энергии от источника (нужны большие q) и негативными эффектами, возникающими при больших q – большие напряжения на ответственных элементах (ключевой транзистор, выходной диод), большие импульсные токи через рекуперационную нагрузку и диод, увеличение времени перехода диода в непроводящее состояние с ростом тока через него.</p>
         <p>При выборе коэффициента заполнения q=0.5 число витков рекуперационной обмотки равно числу витков первичной обмотки (при этом соблюдается условие полного размагничивания перед началом нового цикла):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/6143b0e9-5886-420f-a9f5-b6103cfe7019" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img034.png" alt="Формула"/>
+        </figure>
         <p>Тогда максимальные напряжения для транзистора и диода имеют вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a73a9b2e-b3d5-46f6-b8d8-68ffa9dcba1e" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9de2c774-9c6e-4427-aed3-2606f8261635" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img035.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/forward-img036.png" alt="Формула"/>
+        </figure>
         <p>На стадии рекуперации напряжение на выходе прямоходового преобразователя поддерживается за счет энергии, запасенной в выходных дросселе L<sub>f</sub> и конденсаторе фильтра С<sub>OUT</sub>.</p>
         <h5 id="6">Стадия паузы</h5>
         <p>Длительность стадии t<sub>p</sub> определяется тем свободным временем, которое остается после стадии рекуперации до следующей стадии передачи энергии. Ничего особо интересного на этой стадии не происходит.</p>
         <p><h4 id="7">Токи первичной и вторичной обмоток</h4></p>
         <h5 id="8">Ток первичной обмотки</h5>
         <p>Ток первичной обмотки на стадии передачи энергии описывается выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b5159298-2898-4572-b31d-7aa0946f166e" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img009.png" alt="Формула"/>
+        </figure>
         <p>Эта общая ситуация для всех преобразователей прямого хода - полумостовых, мостовых, пуш-пульных.</p>
         <p>Суммарный ток первичной обмотки имеет форму прямоугольной трапеции:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/2b8bbaf5-f3f8-470b-9ff2-5e1876963e62" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/973110db-8b7c-4e08-85b4-97f56de35b7d" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img037.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/forward-img038.png" alt="Формула"/>
+        </figure>
         <p>Из этого соотношения следуют выражения для амплитудного, среднего, среднеквадратичного значений тока первичной обмотки:</p>
         <p>Амплитуда тока намагничивания I<sub>w1_magn</sub> обмотки рассчитывается по соотношению:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9620ac48-2b04-44a1-b579-4491d6649860" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img020.png" alt="Формула"/>
+        </figure>
         <p>или с учетом выражения для коэффициента заполнения:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a88b4889-bdd1-4510-addd-26d9a20c718f" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img039.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>L<sub>0</sub> – индуктивность намагничивания (фактически индуктивность первичной обмотки);</p>
         <p>t<sub>i</sub> – длительность импульса напряжения приложенного к первичной обмотке;</p>
@@ -271,41 +325,67 @@
         <p>q – коэффициент заполнения.</p>
         <p>Из формулы видно, что намагничивающий ток имеет треугольную форму и поэтому иногда его называют «треугольной составляющей» тока первичной обмотки.</p>
         <p>Амплитуда отраженной составляющей тока первичной обмотки I<sub>w1_refl</sub> определяется максимальным значением тока вторичной обмотки I<sub>w2_max</sub> который как бы «отражается» в первичной обмотке. Амплитуды токов связаны через коэффициент трансформации k:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/336f886c-48ad-4f14-9d25-a63941f634a8" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img040.png" alt="Формула"/>
+        </figure>
         <p>Здесь максимальный ток вторичной обмотки равен выходному току I<sub>OUT</sub> плюс половина изменения тока выходного дросселя ΔI<sub>Lf</sub>:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/7666de66-eebe-4eab-a8d3-af31c289423e" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img041.png" alt="Формула"/>
+        </figure>
         <p>При малых относительных значениях пульсаций тока дросселя ток имеет форму импульсов, приближающуюся к прямоугольной, потому его иногда называют «прямоугольной составляющей» тока первичной обмотки.</p>
         <p>Амплитудное значение тока первичной обмотки определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a36023c8-41fa-47b8-b6ce-5c2c5b477b46" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img042.png" alt="Формула"/>
+        </figure>
         <p>Среднее значение тока первичной обмотки определяется как сумма составляющих тока. Поскольку ток через обмотку протекает лишь в течение части периода (времени t<sub>i</sub>), среднее значение тока вторичной обмотки равно выходному току, а среднее значение тока намагничивания определяется из соотношения для импульсов треугольной формы, то выражение для среднего значения тока имеет вид:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/be2fe543-f549-48d6-8fcd-91670a830d0f" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img043.png" alt="Формула"/>
+        </figure>
         <p>или</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/96ba17ed-e347-4217-a421-71c3b4ea5881" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img044.png" alt="Формула"/>
+        </figure>
         <p>Среднеквадратичное значение тока первичной обмотки имеющего форму прямоугольной трапеции рассчитывается в соответствии с соотношением, представленным в разделе «Резисторы»:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/5733e4dd-a0b6-4796-94b8-f698416c5c02" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img045.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>q – относительная длительность импульса (максимальное значение);</p>
         <p>I<sub>w1_max</sub>, I<sub>w1_min</sub> - максимальное и минимальное значения вычисляются по соотношениям:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/fed823cd-e005-46d4-8227-9f2f278c20ae" /></p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/8805e033-3cb1-49b4-946d-24e16fc68cbc" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img046.png" alt="Формула"/>
+        </figure>
+        <figure class="article__image">
+            <img src="image/forward-img047.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>k - коэффициент трансформации;</p>
         <p>I<sub>OUT</sub> - выходной ток;</p>
         <p>ΔI<sub>Lf</sub> - размаха пульсаций тока дросселя фильтра.</p>
         <h5 id="9">Ток вторичной обмотки</h5>
         <p>Ток вторичной обмотки определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/593d7ef8-db4b-49b3-8b3e-5abe03343df6" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img048.png" alt="Формула"/>
+        </figure>
         <p>Отсюда следуют выражения для амплитудного, среднего, среднеквадратичного значений тока вторичной обмотки:</p>
         <p>Амплитудное значение тока вторичной обмотки определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b877a056-26d2-4b80-8e7a-1f2e273adb3d" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img049.png" alt="Формула"/>
+        </figure>
         <p>Среднее значение тока вторичной обмотки равно выходному току преобразователя с учетом того, что ток протекает только часть периода (период t<sub>i</sub>):</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/ae7fc412-8a74-4a13-955c-d1d81e8ed02f" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img050.png" alt="Формула"/>
+        </figure>
         <p>Среднеквадратичное значение тока вторичной обмотки имеющего форму прямоугольной трапеции вычисляется аналогично первичной обмотке и определяется выражением:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/a8e37395-f413-451a-a261-d4aa0a2415d5" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img051.png" alt="Формула"/>
+        </figure>
         <p>где:</p>
         <p>q – относительная длительность импульса (максимальное значение);</p>
         <p>I<sub>w2_max</sub>, I<sub>w2_min</sub> - максимальное и минимальное значения, которые вычисляются по соотношениям:</p>
-        <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/b877a056-26d2-4b80-8e7a-1f2e273adb3d" /></p>
+        <figure class="article__image">
+            <img src="image/forward-img052.png" alt="Формула"/>
+        </figure>
         <p><img alt="" src="https://word-to-html.ruhttps/word-to-html.ru/blobhttps/word-to-html.ru/9ba5e789-de21-4d1d-8dc6-2a4d096a0d09" /></p>
         <p><h4 id="10">Ток рекуперационной обмотки</h4></p>
         <p>Амплитуда тока рекуперационной обмотки (при N<sub>r</sub> = N<sub>1</sub>) равна амплитуде тока намагничивания первичной обмотки I<sub>w1_magn</sub> и рассчитывается по соотношению:</p>
