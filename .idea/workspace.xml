@@ -2,99 +2,323 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img001.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img002.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img003.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img004.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img011.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img025.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img027.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img029.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img030.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img031.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img032.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img033.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img034.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img035.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img036.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img037.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img038.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img039.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img040.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img041.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img042.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img043.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img044.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img045.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/diods-img046.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img003.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img004.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img026.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img027.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img029.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img032.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img033.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img034.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img036.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img037.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img038.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img039.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img044.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img046.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img047.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img052.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img053.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img054.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img055.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img056.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img057.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img058.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img059.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img061.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img062.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img063.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img064.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img065.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img067.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img068.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img069.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img070.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img071.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img072.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img073.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img074.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img075.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img077.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img078.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img079.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img081.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img082.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img083.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img084.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img085.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img086.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img087.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img088.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img089.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img090.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img091.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img092.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img093.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img094.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img095.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img096.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img097.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img098.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img099.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img106.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img108.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img115.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img117.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img119.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img121.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img124.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img125.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img126.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img127.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img129.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img132.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img133.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img134.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img137.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img138.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img139.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img140.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img141.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img142.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img143.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img145.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img147.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img148.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img149.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img154.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img155.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img156.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img157.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img158.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img159.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img161.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img162.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img163.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img164.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img165.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img166.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img168.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img169.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img170.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img171.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img172.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img173.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img174.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img175.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img176.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img177.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img178.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img179.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img181.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img182.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img183.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img184.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img185.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img186.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img188.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img189.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img190.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img191.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img193.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img194.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img195.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img196.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img197.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img198.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img199.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img201.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img202.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img203.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img204.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img205.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img206.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img207.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img208.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img209.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img210.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img212.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img213.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img214.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img215.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img216.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img217.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img218.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img219.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img220.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img221.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img222.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img223.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img224.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img225.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img227.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img228.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img229.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img230.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img232.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img233.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img234.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img235.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img236.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img237.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img238.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img239.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img241.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img242.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img243.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img245.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img246.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img247.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img248.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img249.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img250.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img251.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img252.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img253.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img254.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img255.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img257.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img258.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img259.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img260.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img262.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img263.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img264.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img265.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img266.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img267.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img268.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img269.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img270.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img271.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img272.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img273.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img274.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img275.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img276.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img277.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img278.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img279.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img280.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img281.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img282.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img283.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/diods.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/diods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img578.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img580.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img582.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img584.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img585.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img587.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img589.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img592.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img593.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img595.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img598.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img601.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img603.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img605.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img607.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img609.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img611.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img613.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img615.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img617.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img619.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img621.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img623.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img625.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img627.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img629.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img631.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img633.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img635.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img637.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img639.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img641.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img643.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img645.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img647.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img649.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img651.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img653.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img655.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img657.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img659.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img662.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img663.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img666.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img005.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img033.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img043.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img045.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img047.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img057.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/img061.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,18 +330,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="572" column="21" selection-start-line="572" selection-start-column="21" selection-end-line="572" selection-end-column="21" />
-              <folding>
-                <element signature="e#15474#15508#0" expanded="true" />
-                <element signature="e#17070#17104#0" expanded="true" />
-                <element signature="e#21919#21953#0" expanded="true" />
-                <element signature="e#23004#23038#0" expanded="true" />
-                <element signature="e#24259#24293#0" expanded="true" />
-                <element signature="e#26654#26688#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1032">
+              <caret line="1036" column="47" selection-start-line="1036" selection-start-column="47" selection-end-line="1036" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -133,7 +349,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;Период потребления энергии</find>
       <find>&gt;Период передачи энергии в нагрузку</find>
       <find>&gt;Связь входного и выходного напряжения стабилизатора</find>
       <find>&gt;Взаимосвязь между входным и выходным током повыша</find>
@@ -163,6 +378,7 @@
       <find>&lt;/strong&gt;&lt;strong&gt;</find>
       <find>table</find>
       <find>бипол</find>
+      <find>&lt;/sub&gt;&lt;sub&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -232,7 +448,6 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/rezistori.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/tiristori.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/kondensator.html" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/istochniki-opornogo-napryazheniya.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/igbt.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/pwmc.html" />
@@ -258,6 +473,7 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/mosfet.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/diods.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" />
       </list>
     </option>
   </component>
@@ -296,13 +512,6 @@
               <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
               <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -326,6 +535,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artemsdobnikov/math/image" />
       <recent name="$PROJECT_DIR$/jpizza/img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -383,14 +593,7 @@
       <workItem from="1583380652933" duration="6872000" />
       <workItem from="1583479670196" duration="48473000" />
       <workItem from="1583985920149" duration="57449000" />
-      <workItem from="1584211398735" duration="39625000" />
-    </task>
-    <task id="LOCAL-00309" summary="Обновление">
-      <created>1584046617698</created>
-      <option name="number" value="00309" />
-      <option name="presentableId" value="LOCAL-00309" />
-      <option name="project" value="LOCAL" />
-      <updated>1584046617698</updated>
+      <workItem from="1584211398735" duration="45561000" />
     </task>
     <task id="LOCAL-00310" summary="Обновление">
       <created>1584086354983</created>
@@ -728,11 +931,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584350156016</updated>
     </task>
-    <option name="localTasksCounter" value="358" />
+    <task id="LOCAL-00358" summary="Обновление - замена картинок">
+      <created>1584351743658</created>
+      <option name="number" value="00358" />
+      <option name="presentableId" value="LOCAL-00358" />
+      <option name="project" value="LOCAL" />
+      <updated>1584351743658</updated>
+    </task>
+    <option name="localTasksCounter" value="359" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362690000" />
+    <option name="totallyTimeSpent" value="368626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="182" y="-1417" width="1217" height="1329" extended-state="0" />
@@ -848,12 +1058,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление - замена картинок" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img051.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img085.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/1.html" />
     <entry file="file://$PROJECT_DIR$/.git/info/exclude">
       <provider selected="true" editor-type-id="text-editor">
@@ -1000,13 +1204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/kondensator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7968">
@@ -1101,13 +1298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-614">
-          <caret line="167" column="41" lean-forward="true" selection-start-line="167" selection-start-column="41" selection-end-line="167" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/mosfet-img001.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1139,8 +1329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/diods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="572" column="21" selection-start-line="572" selection-start-column="21" selection-end-line="572" selection-end-column="21" />
+        <state relative-caret-position="351">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="e#15474#15508#0" expanded="true" />
             <element signature="e#17070#17104#0" expanded="true" />
@@ -1149,6 +1339,26 @@
             <element signature="e#24259#24293#0" expanded="true" />
             <element signature="e#26654#26688#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img005.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="167" column="41" lean-forward="true" selection-start-line="167" selection-start-column="41" selection-end-line="167" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img031.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="1036" column="47" selection-start-line="1036" selection-start-column="47" selection-end-line="1036" selection-end-column="47" />
         </state>
       </provider>
     </entry>
