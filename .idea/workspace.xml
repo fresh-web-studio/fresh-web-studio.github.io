@@ -4,8 +4,6 @@
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/inductance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/csys/banners/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/base/csys/banners/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/csys/banners/top-banners.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/csys/banners/top-banners.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="1549" column="52" lean-forward="true" selection-start-line="1549" selection-start-column="52" selection-end-line="1549" selection-end-column="52" />
+            <state relative-caret-position="905">
+              <caret line="2067" column="17" selection-start-line="2067" selection-start-column="17" selection-end-line="2067" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -82,7 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;Связь входного и выходного напряжения стабилизатора</find>
       <find>&gt;Взаимосвязь между входным и выходным током повыша</find>
       <find>&gt;Режимы работы стабилизатора: режим прерывистых токов</find>
       <find>&gt;Расчет параметров элементов повышающего импульсного</find>
@@ -112,6 +109,7 @@
       <find>бипол</find>
       <find>&lt;/sub&gt;&lt;sub&gt;</find>
       <find>tab</find>
+      <find>MsoTableTheme</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -128,12 +126,12 @@
       <replace>&lt;h6</replace>
       <replace>&lt;h5</replace>
       <replace>MsoTableTheme</replace>
-      <replace>article__table</replace>
       <replace>article__image</replace>
       <replace>&lt;p&gt;&lt;h4</replace>
       <replace>&lt;/h4&gt;</replace>
       <replace>&lt;/h5&gt;</replace>
       <replace>&lt;/h6&gt;</replace>
+      <replace>article__table</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/panorama</dir>
@@ -216,10 +214,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="716" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="90" />
+    <option name="y" value="-1413" />
+    <option name="width" value="1321" />
+    <option name="height" value="1334" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -355,21 +354,7 @@
       <workItem from="1583479670196" duration="48473000" />
       <workItem from="1583985920149" duration="57449000" />
       <workItem from="1584211398735" duration="45580000" />
-      <workItem from="1584422346813" duration="8169000" />
-    </task>
-    <task id="LOCAL-00311" summary="Обновление">
-      <created>1584087119947</created>
-      <option name="number" value="00311" />
-      <option name="presentableId" value="LOCAL-00311" />
-      <option name="project" value="LOCAL" />
-      <updated>1584087119947</updated>
-    </task>
-    <task id="LOCAL-00312" summary="Обновление">
-      <created>1584088073294</created>
-      <option name="number" value="00312" />
-      <option name="presentableId" value="LOCAL-00312" />
-      <option name="project" value="LOCAL" />
-      <updated>1584088073294</updated>
+      <workItem from="1584422346813" duration="12934000" />
     </task>
     <task id="LOCAL-00313" summary="Обновление">
       <created>1584090509379</created>
@@ -700,14 +685,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584424140179</updated>
     </task>
-    <option name="localTasksCounter" value="360" />
+    <task id="LOCAL-00360" summary="Обновление">
+      <created>1584451736694</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1584451736703</updated>
+    </task>
+    <task id="LOCAL-00361" summary="Обновление">
+      <created>1584466866478</created>
+      <option name="number" value="00361" />
+      <option name="presentableId" value="LOCAL-00361" />
+      <option name="project" value="LOCAL" />
+      <updated>1584466866478</updated>
+    </task>
+    <option name="localTasksCounter" value="362" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376814000" />
+    <option name="totallyTimeSpent" value="381579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
+    <frame x="90" y="-1413" width="1321" height="1334" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.2931442" />
@@ -820,18 +819,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19950" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1114,10 +1101,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img054.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img059.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="1549" column="52" lean-forward="true" selection-start-line="1549" selection-start-column="52" selection-end-line="1549" selection-end-column="52" />
+        <state relative-caret-position="905">
+          <caret line="2067" column="17" selection-start-line="2067" selection-start-column="17" selection-end-line="2067" selection-end-column="17" />
         </state>
       </provider>
     </entry>
