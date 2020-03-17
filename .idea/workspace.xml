@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="905">
-              <caret line="2067" column="17" selection-start-line="2067" selection-start-column="17" selection-end-line="2067" selection-end-column="17" />
+            <state relative-caret-position="839">
+              <caret line="3260" column="45" selection-start-line="3260" selection-start-column="45" selection-end-line="3260" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -80,7 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;Взаимосвязь между входным и выходным током повыша</find>
       <find>&gt;Режимы работы стабилизатора: режим прерывистых токов</find>
       <find>&gt;Расчет параметров элементов повышающего импульсного</find>
       <find>&gt;Силовой дроссель</find>
@@ -110,6 +109,7 @@
       <find>&lt;/sub&gt;&lt;sub&gt;</find>
       <find>tab</find>
       <find>MsoTableTheme</find>
+      <find>&lt;/sub&gt; &lt;sub&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -354,21 +354,7 @@
       <workItem from="1583479670196" duration="48473000" />
       <workItem from="1583985920149" duration="57449000" />
       <workItem from="1584211398735" duration="45580000" />
-      <workItem from="1584422346813" duration="12934000" />
-    </task>
-    <task id="LOCAL-00313" summary="Обновление">
-      <created>1584090509379</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1584090509379</updated>
-    </task>
-    <task id="LOCAL-00314" summary="Обновление">
-      <created>1584114646929</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1584114646929</updated>
+      <workItem from="1584422346813" duration="16640000" />
     </task>
     <task id="LOCAL-00315" summary="Обновление">
       <created>1584115110820</created>
@@ -699,11 +685,25 @@
       <option name="project" value="LOCAL" />
       <updated>1584466866478</updated>
     </task>
-    <option name="localTasksCounter" value="362" />
+    <task id="LOCAL-00362" summary="Обновление">
+      <created>1584469317697</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1584469317697</updated>
+    </task>
+    <task id="LOCAL-00363" summary="Обновление">
+      <created>1584472866778</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1584472866778</updated>
+    </task>
+    <option name="localTasksCounter" value="364" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381579000" />
+    <option name="totallyTimeSpent" value="385285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="90" y="-1413" width="1321" height="1334" extended-state="0" />
@@ -819,14 +819,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/temp.html" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/bipolar-transistors.html" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance — копия.html" />
@@ -1107,10 +1099,16 @@
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/inductance-img059.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img417.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/img497.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/inductance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="905">
-          <caret line="2067" column="17" selection-start-line="2067" selection-start-column="17" selection-end-line="2067" selection-end-column="17" />
+        <state relative-caret-position="839">
+          <caret line="3260" column="45" selection-start-line="3260" selection-start-column="45" selection-end-line="3260" selection-end-column="45" />
         </state>
       </provider>
     </entry>
