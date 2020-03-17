@@ -1042,10 +1042,10 @@
         <h5 id="21">Система из четырех уравнений – «четыре кита» для расчета силового дросселя </h5>
         <p>Итого для расчета дросселя мы имеем систему из четырех уравнений с пятью неизвестными:</p>
         <figure class="article__image">
-            <img src="image/img185.png" alt="Формула"/>
-            <img src="image/img085.png" alt="Формула"/>
-            <img src="image/img175.png" alt="Формула"/>
-            <img src="image/img187.png" alt="Формула"/>
+            <img src="image/inductance-img093.png" alt="Формула"/>
+            <img src="image/inductance-img071.png" alt="Формула"/>
+            <img src="image/inductance-img076.png" alt="Формула"/>
+            <img src="image/inductance-img094.png" alt="Формула"/>
         </figure>
         <p>Эта система имеет бесконечное число взаимозависимых решений. В реальности решения «квантованы», что
             определяется прежде всего фиксированными размерами магнитопровода. Непосредственный расчет конструкции
@@ -1057,28 +1057,28 @@
             µ<sub>eff</sub> и число витков N входят в формулу для индуктивности дросселя, с другой – в соотношение для
             его максимального тока. Выразим из данных соотношений µ<sub>eff</sub> :</p>
         <figure class="article__image">
-            <img src="image/img189.png" alt="Формула"/>
-            <img src="image/img191.png" alt="Формула"/>
+            <img src="image/inductance-img095.png" alt="Формула"/>
+            <img src="image/inductance-img096.png" alt="Формула"/>
         </figure>
         <p>Приравнивая полученные выражения:</p>
         <figure class="article__image">
-            <img src="image/img193.png" alt="Формула"/>
+            <img src="image/inductance-img097.png" alt="Формула"/>
         </figure>
         <p>Получим выражение для числа витков дросселя:</p>
         <figure class="article__image">
-            <img src="image/img195.png" alt="Формула"/>
-            <img src="image/img197.png" alt="Формула"/>
+            <img src="image/inductance-img098.png" alt="Формула"/>
+            <img src="image/inductance-img099.png" alt="Формула"/>
         </figure>
         <p>Если полученное значение для числа витков N меньше значения максимального числа витков N<sub>max</sub>
             умещаемых в окне магнитопровода:</p>
         <figure class="article__image">
-            <img src="image/img199.png" alt="Формула"/>
+            <img src="image/inductance-img100.png" alt="Формула"/>
         </figure>
         <p>то расчет можно продолжить. Если нет, то нужно выбрать магнитопровод покрупнее.</p>
         <p>Эффективную магнитную проницаемость магнитопровода µ<sub>eff</sub> можно найти, подставляя полученное число
             витков в полученное выше выражение:</p>
         <figure class="article__image">
-            <img src="image/img203.png" alt="Формула"/>
+            <img src="image/inductance-img101.png" alt="Формула"/>
         </figure>
         <p>
         <h4 id="22">Основные соотношения расчета конструкции силового дросселя</h4>
@@ -1093,7 +1093,7 @@
             заданную максимальную плотность тока в обмотке j<sub>max</sub> и максимальное значение тока I<sub>max</sub>:
         </p>
         <figure class="article__image">
-            <img src="image/img203.png" alt="Формула"/>
+            <img src="image/inductance-img102.png" alt="Формула"/>
         </figure>
         <p>Более корректно было бы учитывать не максимальное, а среднеквадратичное значение, но на практике в
             большинстве случаев такое упрощение не существенно влияет на результат. Тем более, что плотность тока
@@ -1102,19 +1102,19 @@
         <p>Исходя из вычисленного значения площади S<sub>wire_Cu</sub> рассчитывают диаметр проводов обмотки (по меди)
             исходя их соотношения, связывающего площадь с диаметром:</p>
         <figure class="article__image">
-            <img src="image/img205.png" alt="Формула"/>
+            <img src="image/inductance-img103.png" alt="Формула"/>
         </figure>
         <p>Однако полученное значение почти наверняка точно не совпадет с характеристиками выпускаемых обмоточных
             проводов. Поэтому на основании вычисленного диаметра провода (по меди) выбирается ближайший диаметр провода
             (по меди) из номенклатуры диаметров выбранного типа провода (ПЭЛ, ПЭТВ и т.д.). Округление производится в
             большую сторону.</p>
         <figure class="article__image">
-            <img src="image/img207.png" alt="Формула"/>
+            <img src="image/inductance-img104.png" alt="Формула"/>
         </figure>
         <p>В соответствии со справочным листком на моточные провода определяется диаметр с изоляцией выбранного типа
             обмоточного провода d<sub>w_ins</sub> :</p>
         <figure class="article__image">
-            <img src="image/img209.png" alt="Формула"/>
+            <img src="image/inductance-img105.png" alt="Формула"/>
         </figure>
         <p>Диаметр провода в изоляции, является одним из базовых параметров и учитывается при расчете числа витков в
             одном слое, проверки условия размещения обмоток в окне магнитопровода и т.д.</p>
@@ -1122,27 +1122,27 @@
         <p>Средняя длина витка обмотки l<sub>w_t_av</sub> определяется исходя из геометрических соображений как среднее
             арифметическое между длинами первого l<sub>w_first</sub>, и последнего витка l<sub>w_last</sub> обмотки:</p>
         <figure class="article__image">
-            <img src="image/img211.png" alt="Формула"/>
+            <img src="image/inductance-img106.png" alt="Формула"/>
         </figure>
         <p>Ниже представлены соотношения для расчета средней длины витка для различных типов магнитопроводов.</p>
         <h6 id="25">Ш- и П- образные магнитопроводы</h6>
         <p>Для Ш- и П- образных магнитопроводов <strong>с прямоугольным сечением магнитопровода</strong>средняя длина
             витка оценивается исходя из конфигурации магнитопровода (рисунок L.6).</p>
         <figure class="article__image">
-            <img src="image/img213.png" alt="Рисунок-схема"/>
+            <img src="image/inductance-img107.png" alt="Рисунок-схема"/>
             <p>Рисунок L.6 К определению средней длины витка для Ш- и П- образных магнитопроводов</p>
         </figure>
         <p>Длина внешнего витка обмотки l<sub>w_last</sub> (без учета закруглений) равна:</p>
         <figure class="article__image">
-            <img src="image/img215.png" alt="Формула"/>
+            <img src="image/inductance-img108.png" alt="Формула"/>
         </figure>
         <p>Или, упрощая:</p>
         <figure class="article__image">
-            <img src="image/img217.png" alt="Формула"/>
+            <img src="image/inductance-img109.png" alt="Формула"/>
         </figure>
         <p>Длина внутреннего витка обмотки l<sub>w_first</sub> равна:</p>
         <figure class="article__image">
-            <img src="image/img219.png" alt="Формула"/>
+            <img src="image/inductance-img110.png" alt="Формула"/>
         </figure>
         <p>Здесь:</p>
         <p>a, b – геометрические параметры, характеризующие сечение каркаса магнитопровода;</p>
@@ -1150,7 +1150,7 @@
         <p>В первом приближении толщину обмотки t<sub>w</sub> можно посчитать исходя из соотношения учитывающее число
             слоев и толщину провода (здесь не учитывается межслоевая изоляция и плотность намотки):</p>
         <figure class="article__image">
-            <img src="image/img221.png" alt="Формула"/>
+            <img src="image/inductance-img111.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>ceiling - функция округления до большего целого;</p>
@@ -1162,7 +1162,7 @@
             [Гейтенко Е.Н. Источники вторичного электропитания. Схемотехника и расчет. Учебное пособие. — М.:
             СОЛОН-ПРЕСС, 2008. — 448 с.]</p>
 
-        <table class="MsoTableTheme">
+        <table class="article__table">
             <tbody>
             <tr>
                 <td>
@@ -1198,28 +1198,28 @@
         
         <p>Итого, объединяя, получаем:</p>
         <figure class="article__image">
-            <img src="image/img223.png" alt="Формула"/>
+            <img src="image/inductance-img112.png" alt="Формула"/>
         </figure>
         <p>Итоговое выражение для средней длины витка обмотки:</p>
         <figure class="article__image">
-            <img src="image/img225.png" alt="Формула"/>
+            <img src="image/inductance-img113.png" alt="Формула"/>
         </figure>
         <p>где толщина обмотки:</p>
         <figure class="article__image">
-            <img src="image/img227.png" alt="Формула"/>
+            <img src="image/inductance-img114.png" alt="Формула"/>
         </figure>
         
         <p>Для Ш- и П- образных, чашеобразных и других магнитопроводов <strong>с круглым сечением центрального стержня
             магнитопровода</strong> средняя длина витка оценивается следующим образом:</p>
         <p>Длина внутреннего витка l<sub>w_first</sub> равна:</p>
         <figure class="article__image">
-            <img src="image/img229.png" alt="Формула"/>
+            <img src="image/inductance-img115.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>R – внутренний радиус каркаса магнитопровода.</p>
         <p>Длина внешнего витка l<sub>w_last</sub> равна:</p>
         <figure class="article__image">
-            <img src="image/img231.png" alt="Формула"/>
+            <img src="image/inductance-img116.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>t<sub>w</sub> - толщина обмотки.</p>
@@ -1227,19 +1227,19 @@
             учитывающее число слоев и толщину провода (здесь не учитывается межслоевая изоляция и плотность намотки):
         </p>
         <figure class="article__image">
-            <img src="image/img233.png" alt="Формула"/>
+            <img src="image/inductance-img117.png" alt="Формула"/>
         </figure>
         <p>Итого, объединяя, получаем:</p>
         <figure class="article__image">
-            <img src="image/img235.png" alt="Формула"/>
+            <img src="image/inductance-img118.png" alt="Формула"/>
         </figure>
         <p>Итоговое выражение для средней длины витка обмотки:</p>
         <figure class="article__image">
-            <img src="image/img237.png" alt="Формула"/>
+            <img src="image/inductance-img119.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <figure class="article__image">
-            <img src="image/img233.png" alt="Формула"/>
+            <img src="image/inductance-img117.png" alt="Формула"/>
         </figure>
         
         <h6 id="26">Тороидальные магнитопроводы</h6>
@@ -1253,27 +1253,27 @@
             определяется из теоремы Пифагора для прямоугольного треугольника (из ширины магнитопровода w<sub>m</sub>, и
             разницы высот внутреннего t<sub>w_ext</sub> и внешнего t<sub>w_int</sub> витков).</p>
         <figure class="article__image">
-            <img src="image/img239.png" alt="Рисунок-схема"/>
+            <img src="image/inductance-img120.png" alt="Рисунок-схема"/>
             <p>Рисунок L.7 - К определению средней длины витка тороидальных магнитопроводов</p>
         </figure>
         <p>Итого общая длина внешнего витка первичной обмотки с учетом закруглений равна:</p>
         <figure class="article__image">
-            <img src="image/img241.png" alt="Формула"/>
+            <img src="image/inductance-img121.png" alt="Формула"/>
         </figure>
         <p>Или:</p>
         <figure class="article__image">
-            <img src="image/img243.png" alt="Формула"/>
+            <img src="image/inductance-img122.png" alt="Формула"/>
         </figure>
         <p>Общая длина внутреннего витка обмотки при условии прямоугольного сечения магнитопровода равна:</p>
         <figure class="article__image">
-            <img src="image/img245.png" alt="Формула"/>
+            <img src="image/inductance-img123.png" alt="Формула"/>
         </figure>
         <p>Плотность намотки и соответственно толщина внутреннего слоя обмотки будет выше плотности намотки внешнего
             слоя. В первом приближении коэффициент пропорциональности равен отношению длин окружностей внешнего и
             внутреннего радиусов тора. Можно считать, что толщины внешнего t<sub>w_ext</sub> и внутреннего
             t<sub>w_int</sub> слоев обмотки связаны этим коэффициентом пропорциональности. Таким образом:</p>
         <figure class="article__image">
-            <img src="image/img247.png" alt="Формула"/>
+            <img src="image/inductance-img124.png" alt="Формула"/>
         </figure>
         <p>R<sub>ext</sub> – внешний радиус тора;</p>
         <p>R<sub>int</sub> – внутренний радиус тора.</p>
@@ -1282,7 +1282,7 @@
             (здесь не учитывается межслоевая изоляция и плотность намотки). Только в качестве высоты обмотки используем
             длину внутренней окружности тора:</p>
         <figure class="article__image">
-            <img src="image/img249.png" alt="Формула"/>
+            <img src="image/inductance-img125.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>функция (ceiling) - округление до большего целого;</p>
@@ -1293,32 +1293,32 @@
         <p>На основании оценочного значения толщины внутреннего слоя t<sub>w_int</sub> можно воспользовавшись пропорцией
             определить толщину внешнего слоя t<sub>w_ext</sub>:</p>
         <figure class="article__image">
-            <img src="image/img251.png" alt="Формула"/>
+            <img src="image/inductance-img126.png" alt="Формула"/>
         </figure>
         <p>Итого, объединяя, получаем:</p>
         <figure class="article__image">
-            <img src="image/img253.png" alt="Формула"/>
-            <img src="image/img255.png" alt="Формула"/>
+            <img src="image/inductance-img127.png" alt="Формула"/>
+            <img src="image/inductance-img128.png" alt="Формула"/>
         </figure>
         <p>Итоговое выражение для средней длины витка обмотки имеет вид:</p>
         <figure class="article__image">
-            <img src="image/img257.png" alt="Формула"/>
+            <img src="image/inductance-img129.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>t<sub>w_int</sub> - толщина внутреннего слоя обмотки:</p>
         <figure class="article__image">
-            <img src="image/img259.png" alt="Формула"/>
+            <img src="image/inductance-img130.png" alt="Формула"/>
         </figure>
         <p>t<sub>w_ext</sub> - толщина внешнего слоя обмотки:</p>
         <figure class="article__image">
-            <img src="image/img261.png" alt="Формула"/>
+            <img src="image/inductance-img131.png" alt="Формула"/>
         </figure>
         
         <h5 id="27">Определение длины обмотки</h5>
         <p>Длина обмотки l<sub>w</sub> определяется как произведение средней длины витка на число витков N<sub>w</sub>:
         </p>
         <figure class="article__image">
-            <img src="image/img263.png" alt="Формула"/>
+            <img src="image/inductance-img132.png" alt="Формула"/>
         </figure>
         <p>Полученная величина определяет, сколько провода нужно отмерить на обмотку дросселя и используется при расчете
             омического сопротивления обмотки.</p>
@@ -1339,13 +1339,13 @@
         <p>Для конструктивного расчета структуры цилиндрической обмотки дросселя определяется средняя ширина намоточного
             слоя hl<sub>av</sub>. Она равна высоте каркаса магнитопровода h<sub>cm </sub>(рисунок L.8):</p>
         <figure class="article__image">
-            <img src="image/img265.png" alt="Формула"/>
+            <img src="image/inductance-img133.png" alt="Формула"/>
         </figure>
         <p>Высота каркаса магнитопровода h<sub>cm</sub> определяется из справочных данных (datasheet) на магнитопровод.
             В ряде случаев, например при использовании секционирования обмотки, в качестве высоты каркаса h<sub>cm</sub>
             используется высота секции.</p>
         <figure class="article__image">
-            <img src="image/img267.png" alt="Рисунок-схема"/>
+            <img src="image/inductance-img134.png" alt="Рисунок-схема"/>
             <p>Рисунок L.8 - К расчету конструкции обмотки дросселя</p>
         </figure>
         <p>Исходя из полученной величины hl<sub>av</sub> и известной величины диаметра проводника обмотки с изоляцией
@@ -1353,7 +1353,7 @@
             рассчитывается как произведение коэффициента укладки k<sub>l</sub> и меньшего целого (floor) от отношения
             h<sub>cm</sub>(определяет hl<sub>av</sub>) к диаметру проводника обмотки с изоляцией d<sub>w_ins</sub>:</p>
         <figure class="article__image">
-            <img src="image/img269.png" alt="Формула"/>
+            <img src="image/inductance-img135.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>floor – операция округления до меньшего целого;</p>
@@ -1364,7 +1364,7 @@
             [Гейтенко Е.Н. Источники вторичного электропитания. Схемотехника и расчет. Учебное пособие. — М.:
             СОЛОН-ПРЕСС, 2008. — 448 с.].</p>
 
-        <table class="MsoTableTheme">
+        <table class="article__table">
             <tbody>
             <tr>
                 <td>
@@ -1396,13 +1396,11 @@
             </tr>
             </tbody>
         </table>
-
-        
         <p>На основе числа витков в одном слое N<sub>l</sub> рассчитывается общее число слоев обмотки. Число слоев в
             обмотке дросселя W<sub>l</sub> определяется как отношение числа витков в обмотке к числу витков в единичном
             слое с округлением до большего целого (ceiling):</p>
         <figure class="article__image">
-            <img src="image/img271.png" alt="Формула"/>
+            <img src="image/inductance-img136.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>N<sub>w</sub> - число витков в обмотке;</p>
@@ -1412,7 +1410,7 @@
             рассчитывается по соотношению, учитывающему толщину межслоевой изоляции [Сетевые блоки питания с
             высокочастотными преобразователями. О.А. Эраносян. Энергоатомиздат. Ленингр. отд-ние, 1991, 176 с.]:</p>
         <figure class="article__image">
-            <img src="image/img273.png" alt="Формула"/>
+            <img src="image/inductance-img137.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>Δ<sub>wl</sub> – толщина межслоевой изоляции обмотки;</p>
@@ -1425,7 +1423,7 @@
             поверхностью каркаса и магнитопроводом и слой внешней изоляции обмотки. Суммарная толщина «пирога» намотки H<sub>Σ</sub>
             составляет:</p>
         <figure class="article__image">
-            <img src="image/img275.png" alt="Формула"/>
+            <img src="image/inductance-img138.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>H<sub>w</sub> - толщина обмотки дросселя;</p>
@@ -1434,7 +1432,7 @@
         <p>Складывая все составляющие проверяем условие фактического размещения всех конструктивных элементов обмотки в
             окне магнитопровода:</p>
         <figure class="article__image">
-            <img src="image/img277.png" alt="Формула"/>
+            <img src="image/inductance-img139.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>H<sub>Σ</sub> - суммарная толщина «пирога» намотки;</p>
@@ -1448,7 +1446,7 @@
             магнитопроводах.</p>
         <p>Итак, для первого слоя обмотки ширина намоточного слоя hl<sub>1</sub> определяется выражением:</p>
         <figure class="article__image">
-            <img src="image/img279.png" alt="Формула"/>
+            <img src="image/inductance-img140.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>D<sub>int</sub> – внутренний диаметр тора магнитопровода (с учетом изоляции);</p>
@@ -1460,42 +1458,42 @@
             + Δ<sub>wl</sub>).</p>
         <p>Для 2-го слоя ширина обмотки будет равна:</p>
         <figure class="article__image">
-            <img src="image/img281.png" alt="Формула"/>
+            <img src="image/inductance-img141.pngg" alt="Формула"/>
         </figure>
         <p>Для 3-го слоя:</p>
         <figure class="article__image">
-            <img src="image/img283.png" alt="Формула"/>
+            <img src="image/inductance-img142.png" alt="Формула"/>
         </figure>
         <p>Для n-го слоя:</p>
         <figure class="article__image">
-            <img src="image/img285.png" alt="Формула"/>
+            <img src="image/inductance-img143.png" alt="Формула"/>
         </figure>
         <p>То есть мы получаем убывающую арифметическую прогрессию.</p>
         <p>С учетом конструктивной необходимости должен оставаться некоторый остаточный диаметр магнитопровода
             D<sub>0</sub>. При этом обеспечивается условие:</p>
         <figure class="article__image">
-            <img src="image/img287.png" alt="Формула"/>
+            <img src="image/inductance-img144.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>D<sub>0</sub> - остаточный диаметр магнитопровода.</p>
         <figure class="article__image">
-            <img src="image/img289.png" alt="Рисунок-схема"/>
+            <img src="image/inductance-img145.png" alt="Рисунок-схема"/>
             <p>Рисунок L.9 - К расчету конструкции обмоток тороидального дросселя: D<sub>int</sub> – внутренний диаметр
                 тора магнитопровода с учетом слоя изоляции, D<sub>0</sub> - остаточный технологический диаметр.</p>
         </figure>
         <p>Используя знак равенства в предыдущем выражении получаем выражение для числа слоев обмотки W<sub>l</sub>:</p>
         <figure class="article__image">
-            <img src="image/img291.png" alt="Формула"/>
+            <img src="image/inductance-img146.png" alt="Формула"/>
             <img src="image/img293.png" alt="Формула"/>
             <img src="image/img295.png" alt="Формула"/>
         </figure>
         <p>Уменьшение ширины намоточного слоя при переходе от слоя к слою определяется выражением:</p>
         <figure class="article__image">
-            <img src="image/img287.png" alt="Формула"/>
+            <img src="image/inductance-img147.png" alt="Формула"/>
         </figure>
         <p>Уменьшение числа витков от слоя к слою определяется выражением:</p>
         <figure class="article__image">
-            <img src="image/img299.png" alt="Формула"/>
+            <img src="image/inductance-img148.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>операция (floor) – округление до меньшего целого;</p>
@@ -1505,8 +1503,7 @@
         <p>Таблица L.1 - Коэффициент укладки в зависимости от диаметра провода для трансформаторов кольцевой конструкции
             [Гейтенко Е.Н. Источники вторичного электропитания. Схемотехника и расчет. Учебное пособие. — М.:
             СОЛОН-ПРЕСС, 2008. — 448 с.].</p>
-
-        <table class="MsoTableTheme">
+        <table class="article__table">
             <tbody>
             <tr>
                 <td>
@@ -1538,24 +1535,22 @@
             </tr>
             </tbody>
         </table>
-
-        
         <p>С учетом того, что число витков от слоя к слою уменьшается в соответствии с законом арифметической
             прогрессии, то сумма всех витков N<sub>w </sub>определяется соотношением:</p>
         <figure class="article__image">
-            <img src="image/img301.png" alt="Формула"/>
+            <img src="image/inductance-img149.png" alt="Формула"/>
         </figure>
         <p>где:</p>
         <p>ΔN<sub>l</sub> - уменьшение числа витков от слоя к слою;</p>
         <p>W<sub>l</sub> - число слоев обмотки;</p>
         <p>N<sub>l_1</sub> – число витков первого слоя обмотки, определяемое из выражения:</p>
         <figure class="article__image">
-            <img src="image/img303.png" alt="Формула"/>
+            <img src="image/inductance-img150.png" alt="Формула"/>
         </figure>
         <p>Практический интерес представляет обратная задача - нахождение числа слоев при заданном числе витков в
             обмотке. Преобразуем предыдущее выражение суммы арифметической прогрессии к виду:</p>
         <figure class="article__image">
-            <img src="image/img305.png" alt="Формула"/>
+            <img src="image/inductance-img151.png" alt="Формула"/>
         </figure>
         <p>И проводя ряд преобразований:</p>
         <figure class="article__image">
@@ -1995,7 +1990,7 @@
             [Гейтенко Е.Н. Источники вторичного электропитания. Схемотехника и расчет. Учебное пособие. — М.:
             СОЛОН-ПРЕСС, 2008. — 448 с.]</p>
 
-        <table class="MsoTableTheme">
+        <table class="article__table">
             <tbody>
             <tr>
                 <td>
@@ -3073,7 +3068,7 @@
             [Гейтенко Е.Н. Источники вторичного электропитания. Схемотехника и расчет. Учебное пособие. — М.:
             СОЛОН-ПРЕСС, 2008. — 448 с.]</p>
 
-        <table class="MsoTableTheme">
+        <table class="article__table">
             <tbody>
             <tr>
                 <td>
@@ -3222,7 +3217,7 @@
             [Гейтенко Е.Н. Источники вторичного электропитания. Схемотехника и расчет. Учебное пособие. — М.:
             СОЛОН-ПРЕСС, 2008. — 448 с.]</p>
 
-        <table class="MsoTableTheme">
+        <table class="article__table">
             <tbody>
             <tr>
                 <td>
