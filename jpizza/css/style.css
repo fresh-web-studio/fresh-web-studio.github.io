@@ -14,6 +14,17 @@ body {
 .mobile {
   display: none; }
 
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  background-color: white; }
+
+.banners {
+  margin-top: 140px; }
+
 .header {
   width: 100%;
   display: flex;
@@ -911,6 +922,9 @@ body {
   .banners .swiper-slide .slide-wrap .right-item {
     margin: auto; } }
 @media screen and (max-width: 1150px) {
+  .banners {
+    margin-top: 74px; }
+
   .container {
     max-width: 600px;
     overflow: hidden; }
