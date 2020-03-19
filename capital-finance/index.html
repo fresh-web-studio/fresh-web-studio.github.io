@@ -13,10 +13,66 @@
 <body>
 <header>
     <div class="container">
-        <div class="header__left"><div class="usd">USD 65.00</div><div class="eur">EUR 75.00</div><div class="tel"><a href="tel:+78001234567" class="phone-link">8 800 123 45 67</a>
-        </div></div>
-        <div class="header__center"><a href="/"><img src="img/logo.svg" class="logo"></a></div>
-        <div class="header__right"></div>
+        <div class="top">
+            <div class="header__left">
+                <div class="header-row">
+                    <div class="usd">USD 65.00</div>
+                    <div class="eur">EUR 75.00</div>
+                    <div class="tel">
+                        <a href="tel:+78001234567" class="phone-link">8 800 123 45 67</a>
+                    </div>
+                </div>
+                <div class="header-row">
+                    <div class="adress">Ул. Название улицы 10, офис 11</div>
+                    <div class="adress">Ул. Название улицы 10, офис 12</div>
+                </div>
+            </div>
+            <div class="header__center">
+                <a href="/"><img src="img/logo.svg" class="logo"></a>
+            </div>
+            <div class="header__right">
+                <div class="header-row">
+                    <div class="mail"><a href="mailto:kapital-finans@mail.ru"></a>kapital-finans@mail.ru</div>
+                    <div class="btn">
+                        <a href="#">написать нам</a>
+                    </div>
+                    <div class="city">
+                        <select name="city" id="city" class="city-choice">
+                            <option disabled selected>Ваш город</option>
+                            <option value="Москва">Москва</option>
+                            <option value="Екатеринбург">Екатеринбург</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="header-row">
+                    <div class="search">Поиск</div>
+                    <div class="call">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+                <ul class="menu touch">
+                    <li>
+                        <a href="#">О компании</a>
+                    </li>
+                    <li>
+                        <a href="#">Обучение</a>
+                    </li>
+                    <li>
+                        <a href="#">Аналитика</a>
+                    </li>
+                    <li>
+                        <a href="#">Партнеры</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <span class="toggle">☰</span>
+            </label>
+        </nav>
     </div>
 </header>
 <main>

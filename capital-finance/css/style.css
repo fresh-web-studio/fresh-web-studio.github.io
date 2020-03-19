@@ -10,30 +10,56 @@ body {
   max-width: 1200px;
   margin: 0 auto; }
 
+header .top {
+  display: flex;
+  flex-wrap: wrap; }
 header .logo {
   width: 123px;
   height: 99px;
   object-fit: contain; }
-header .header__left {
+header .header-row {
   display: flex;
-  flex-wrap: wrap; }
-  header .header__left .usd, header .header__left .eur {
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 4.17;
-    color: #191919; }
-  header .header__left .tel {
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 2.69;
-    text-align: left;
-    color: #191919; }
+  flex-wrap: wrap;
+  justify-content: space-between; }
+header .header__left .usd, header .header__left .eur {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 4.17;
+  color: #191919; }
+header .header__left .tel {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.69;
+  text-align: left;
+  color: #191919; }
 header .header__center .logo {
   width: 123px;
   height: 99px;
   object-fit: contain; }
+header nav {
+  margin: 0 auto;
+  max-width: 1270px;
+  width: 100%; }
+  header nav #checkbox-menu, header nav .toggle, header nav #checkbox-menu-footer {
+    display: none; }
+  header nav .menu {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none; }
+  header nav .menu li a {
+    text-decoration: none;
+    align-self: center;
+    color: #125884;
+    font-size: 15px;
+    padding: 10px 29px;
+    transition: background 0.2s linear; }
 
 .heading {
   width: 100%;
