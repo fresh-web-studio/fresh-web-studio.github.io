@@ -4,7 +4,6 @@
 
 body {
     width: 100%;
-    max-width: 1920px;
     font-family: Montserrat, Arial;
 }
 
@@ -45,6 +44,16 @@ header {
             font-weight: 500;
             line-height: 4.17;
             color: #191919;
+            .dollar, .euro {
+                width: 8px;
+                height: 16px;
+                object-fit: contain;
+            }
+            .euro {
+                width: 13px;
+                height: 13px;
+                object-fit: contain;
+            }
         }
         .tel {
             font-size: 16px;
@@ -65,45 +74,59 @@ header {
 
     }
     /* ===== Menu ===== */
-.nav-conteiner {
-    height: 54px;
-    background-color: #2e2e2e;
-    nav {
-        margin: 0 auto;
-        max-width: 1270px;
-        width: 100%;
-        font-size: 14px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        letter-spacing: normal;
-        text-align: center;
-        text-transform: uppercase;
-        #checkbox-menu, .toggle, #checkbox-menu-footer {
-            display: none;
-        }
-        .menu {
-             padding: 0;
-             margin: 0;
-             display: flex;
-             flex-direction: row;
-             justify-content: space-around;
-             align-items: center;
-             list-style-type: none;}
-        .menu li a {
-            text-decoration: none;
-            align-self: center;
+    .nav-conteiner {
+        background-color: #2e2e2e;
+        nav {
+            margin: 0 auto;
+            max-width: 1270px;
+            width: 100%;
             font-size: 14px;
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
             letter-spacing: normal;
             text-align: center;
-            color: #ffffff;
-            transition: background 0.2s linear;
+            text-transform: uppercase;
+
+            #checkbox-menu, .toggle {
+                display: none;
+            }
+
+            .menu {
+                height: 54px;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                list-style-type: none;
+            }
+            .menu li:first-child {
+                padding-left: 115px;
+            }
+            .menu li:last-child {
+                padding-right: 115px;
+            }
+            .menu li a {
+                text-decoration: none;
+                align-self: center;
+                font-size: 14px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: center;
+                padding: 18px 15px;
+                color: #ffffff;
+                transition: background 0.2s linear;
+            }
+            .menu li a:hover {
+                background-color: #30a6f9;
+            }
         }
+
     }
-}
     /* ===== /Menu ===== */
 
 
@@ -419,51 +442,63 @@ header {
         }
     }
 }
-@media all and (max-width: 800px) {
+@media all and (max-width: 600px) {
+
+header {
+
     /* ===== Menu ===== */
-    .toggle {
-        clear: both;
-        display: block;
-        text-align: center;
-        font-size: 40px;
-        line-height: 40px;
-        width: 100%;
-        color: #ffffff;
-        transition: all .1s linear;
-        background: #125884;
+    .nav-conteiner {
+        .nav {
+            .toggle {
+                clear: both;
+                display: block;
+                text-align: center;
+                font-size: 40px;
+                line-height: 40px;
+                width: 100%;
+                color: #ffffff;
+                transition: all .1s linear;
+                background: #125884;
+            }
+            .toggle:hover {
+                background: #125884;
+            }
+            #checkbox-menu:checked + label .touch li {
+                opacity: 1;
+                visibility: visible;
+                transition: all .7s linear;
+            }
+            #checkbox-menu:checked + label .touch {
+                height: 350px;
+            }
+            .menu {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                height: 0;
+                transition: height .3s linear;
+            }
+            .menu li {
+                display: flex;
+                align-self: center;
+                width: 100%;
+                opacity: 0;
+                visibility: hidden;
+            }
+            .menu li a {
+                width: 100%;
+                text-align: center;
+                align-self: center;
+                align-content: center;
+                padding: 10px;
+            }
+        }
+
+
     }
-    .toggle:hover {
-        background: #125884;
-    }
-    #checkbox-menu:checked + label .touch li {
-        opacity: 1;
-        visibility: visible;
-        transition: all .7s linear;
-    }
-    #checkbox-menu:checked + label .touch {
-        height: 350px;
-    }
-    .menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 0;
-        transition: height .3s linear;
-    }
-    .menu li {
-        display: flex;
-        align-self: center;
-        width: 100%;
-        opacity: 0;
-        visibility: hidden;
-    }
-    .menu li a {
-        width: 100%;
-        text-align: center;
-        align-self: center;
-        align-content: center;
-        padding: 10px;
-    }
+
     /* ===== /Menu-f ===== */
+}
+
 }

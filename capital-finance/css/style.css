@@ -3,7 +3,6 @@
 
 body {
   width: 100%;
-  max-width: 1920px;
   font-family: Montserrat, Arial; }
 
 .container {
@@ -30,6 +29,14 @@ header {
     font-weight: 500;
     line-height: 4.17;
     color: #191919; }
+    header .header__left .usd .dollar, header .header__left .usd .euro, header .header__left .eur .dollar, header .header__left .eur .euro {
+      width: 8px;
+      height: 16px;
+      object-fit: contain; }
+    header .header__left .usd .euro, header .header__left .eur .euro {
+      width: 13px;
+      height: 13px;
+      object-fit: contain; }
   header .header__left .tel {
     font-size: 16px;
     font-weight: 500;
@@ -41,7 +48,6 @@ header {
     height: 99px;
     object-fit: contain; }
   header .nav-conteiner {
-    height: 54px;
     background-color: #2e2e2e; }
     header .nav-conteiner nav {
       margin: 0 auto;
@@ -54,9 +60,10 @@ header {
       letter-spacing: normal;
       text-align: center;
       text-transform: uppercase; }
-      header .nav-conteiner nav #checkbox-menu, header .nav-conteiner nav .toggle, header .nav-conteiner nav #checkbox-menu-footer {
+      header .nav-conteiner nav #checkbox-menu, header .nav-conteiner nav .toggle {
         display: none; }
       header .nav-conteiner nav .menu {
+        height: 54px;
         padding: 0;
         margin: 0;
         display: flex;
@@ -64,6 +71,10 @@ header {
         justify-content: space-around;
         align-items: center;
         list-style-type: none; }
+      header .nav-conteiner nav .menu li:first-child {
+        padding-left: 115px; }
+      header .nav-conteiner nav .menu li:last-child {
+        padding-right: 115px; }
       header .nav-conteiner nav .menu li a {
         text-decoration: none;
         align-self: center;
@@ -73,8 +84,11 @@ header {
         font-style: normal;
         letter-spacing: normal;
         text-align: center;
+        padding: 18px 15px;
         color: #ffffff;
         transition: background 0.2s linear; }
+      header .nav-conteiner nav .menu li a:hover {
+        background-color: #30a6f9; }
 
 .heading {
   width: 100%;
@@ -293,52 +307,46 @@ header {
           text-align: center;
           padding: 0; }
 
-@media all and (max-width: 800px) {
-  /* ===== Menu ===== */
-  .toggle {
-    clear: both;
-    display: block;
-    text-align: center;
-    font-size: 40px;
-    line-height: 40px;
-    width: 100%;
-    color: #ffffff;
-    transition: all .1s linear;
-    background: #125884; }
-
-  .toggle:hover {
-    background: #125884; }
-
-  #checkbox-menu:checked + label .touch li {
-    opacity: 1;
-    visibility: visible;
-    transition: all .7s linear; }
-
-  #checkbox-menu:checked + label .touch {
-    height: 350px; }
-
-  .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 0;
-    transition: height .3s linear; }
-
-  .menu li {
-    display: flex;
-    align-self: center;
-    width: 100%;
-    opacity: 0;
-    visibility: hidden; }
-
-  .menu li a {
-    width: 100%;
-    text-align: center;
-    align-self: center;
-    align-content: center;
-    padding: 10px; }
-
-  /* ===== /Menu-f ===== */ }
+@media all and (max-width: 600px) {
+  header {
+    /* ===== Menu ===== */
+    /* ===== /Menu-f ===== */ }
+    header .nav-conteiner .nav .toggle {
+      clear: both;
+      display: block;
+      text-align: center;
+      font-size: 40px;
+      line-height: 40px;
+      width: 100%;
+      color: #ffffff;
+      transition: all .1s linear;
+      background: #125884; }
+    header .nav-conteiner .nav .toggle:hover {
+      background: #125884; }
+    header .nav-conteiner .nav #checkbox-menu:checked + label .touch li {
+      opacity: 1;
+      visibility: visible;
+      transition: all .7s linear; }
+    header .nav-conteiner .nav #checkbox-menu:checked + label .touch {
+      height: 350px; }
+    header .nav-conteiner .nav .menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 0;
+      transition: height .3s linear; }
+    header .nav-conteiner .nav .menu li {
+      display: flex;
+      align-self: center;
+      width: 100%;
+      opacity: 0;
+      visibility: hidden; }
+    header .nav-conteiner .nav .menu li a {
+      width: 100%;
+      text-align: center;
+      align-self: center;
+      align-content: center;
+      padding: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
