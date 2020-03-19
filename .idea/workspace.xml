@@ -4,7 +4,6 @@
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/psd/2. О компании.psd" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/psd/2. О компании.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/psd/3. Обучение.psd" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/psd/3. Обучение.psd" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -56,11 +55,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+            <state relative-caret-position="406">
+              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -152,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/panorama/action.html" />
         <option value="$PROJECT_DIR$/panorama/contacts.html" />
         <option value="$PROJECT_DIR$/panorama/service.html" />
         <option value="$PROJECT_DIR$/panorama/visa.html" />
@@ -203,6 +210,7 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/tiristori.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/transformator.html" />
         <option value="$PROJECT_DIR$/capital-finance/about.html" />
+        <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
       </list>
     </option>
   </component>
@@ -213,9 +221,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
+    <option name="x" value="159" />
     <option name="y" value="-1417" />
-    <option name="width" value="1828" />
+    <option name="width" value="1721" />
     <option name="height" value="1329" />
   </component>
   <component name="ProjectView">
@@ -234,6 +242,12 @@
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="capital-finance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="capital-finance" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -327,21 +341,7 @@
       <workItem from="1583985920149" duration="57449000" />
       <workItem from="1584211398735" duration="45580000" />
       <workItem from="1584422346813" duration="24797000" />
-      <workItem from="1584511073948" duration="32046000" />
-    </task>
-    <task id="LOCAL-00328" summary="Обновление">
-      <created>1584208077840</created>
-      <option name="number" value="00328" />
-      <option name="presentableId" value="LOCAL-00328" />
-      <option name="project" value="LOCAL" />
-      <updated>1584208077841</updated>
-    </task>
-    <task id="LOCAL-00329" summary="Обновление">
-      <created>1584208263318</created>
-      <option name="number" value="00329" />
-      <option name="presentableId" value="LOCAL-00329" />
-      <option name="project" value="LOCAL" />
-      <updated>1584208263318</updated>
+      <workItem from="1584511073948" duration="32945000" />
     </task>
     <task id="LOCAL-00330" summary="Обновление">
       <created>1584209507705</created>
@@ -672,17 +672,30 @@
       <option name="project" value="LOCAL" />
       <updated>1584610156243</updated>
     </task>
-    <option name="localTasksCounter" value="377" />
+    <task id="LOCAL-00377" summary="Переименовал index.html на about.html, добавил psd макет с папкой psd.">
+      <created>1584611829503</created>
+      <option name="number" value="00377" />
+      <option name="presentableId" value="LOCAL-00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1584611829504</updated>
+    </task>
+    <task id="LOCAL-00378" summary="Исправил psd макеты.&#10;Заменил текст  О компании и убоал &quot;более 20 лет&quot;">
+      <created>1584612409235</created>
+      <option name="number" value="00378" />
+      <option name="presentableId" value="LOCAL-00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1584612409236</updated>
+    </task>
+    <option name="localTasksCounter" value="379" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425488000" />
+    <option name="totallyTimeSpent" value="426387000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="-1417" width="1828" height="1329" extended-state="0" />
-    <editor active="true" />
+    <frame x="159" y="-1417" width="1721" height="1329" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.20945945" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.22288796" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -764,7 +777,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Готова страница &quot;Услуги&quot;" />
     <MESSAGE value="Готова страница &quot;Номера и цены&quot;" />
     <MESSAGE value="Исправил код страницы action.html" />
     <MESSAGE value="Мобильная версия страницы &quot;Акции&quot; готова!" />
@@ -789,12 +801,10 @@
     <MESSAGE value="Обновление - замена картинок" />
     <MESSAGE value="Обновление" />
     <MESSAGE value="Переименовал index.html на about.html, добавил psd макет с папкой psd." />
-    <option name="LAST_COMMIT_MESSAGE" value="Переименовал index.html на about.html, добавил psd макет с папкой psd." />
+    <MESSAGE value="Исправил psd макеты.&#10;Заменил текст  О компании и убоал &quot;более 20 лет&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил psd макеты.&#10;Заменил текст  О компании и убоал &quot;более 20 лет&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/kondensator-img041.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/kondensator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -989,8 +999,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+        <state relative-caret-position="406">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
         </state>
       </provider>
     </entry>
