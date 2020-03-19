@@ -5,6 +5,7 @@
 body {
     width: 100%;
     max-width: 1920px;
+    font-family: Montserrat, Arial;
 }
 
 .container {
@@ -40,14 +41,12 @@ header {
     .header__left {
 
         .usd, .eur {
-            font-family: Montserrat;
             font-size: 12px;
             font-weight: 500;
             line-height: 4.17;
             color: #191919;
         }
         .tel {
-            font-family: Montserrat;
             font-size: 16px;
             font-weight: 500;
             line-height: 2.69;
@@ -65,17 +64,27 @@ header {
     .header__right {
 
     }
+    /* ===== Menu ===== */
+.nav-conteiner {
+    height: 54px;
+    background-color: #2e2e2e;
     nav {
         margin: 0 auto;
         max-width: 1270px;
         width: 100%;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        text-transform: uppercase;
         #checkbox-menu, .toggle, #checkbox-menu-footer {
             display: none;
         }
         .menu {
              padding: 0;
              margin: 0;
-             height: 40px;
              display: flex;
              flex-direction: row;
              justify-content: space-around;
@@ -84,12 +93,19 @@ header {
         .menu li a {
             text-decoration: none;
             align-self: center;
-            color: #125884;
-            font-size: 15px;
-            padding: 10px 29px;
+            font-size: 14px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
             transition: background 0.2s linear;
         }
     }
+}
+    /* ===== /Menu ===== */
+
 
 
 }
@@ -404,5 +420,50 @@ header {
     }
 }
 @media all and (max-width: 800px) {
-
+    /* ===== Menu ===== */
+    .toggle {
+        clear: both;
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+        width: 100%;
+        color: #ffffff;
+        transition: all .1s linear;
+        background: #125884;
+    }
+    .toggle:hover {
+        background: #125884;
+    }
+    #checkbox-menu:checked + label .touch li {
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #checkbox-menu:checked + label .touch {
+        height: 350px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0;
+        transition: height .3s linear;
+    }
+    .menu li {
+        display: flex;
+        align-self: center;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu li a {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+        padding: 10px;
+    }
+    /* ===== /Menu-f ===== */
 }
