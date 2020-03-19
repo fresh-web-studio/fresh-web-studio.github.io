@@ -307,11 +307,11 @@ header {
           text-align: center;
           padding: 0; }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 765px) {
   header {
     /* ===== Menu ===== */
     /* ===== /Menu-f ===== */ }
-    header .nav-conteiner .nav .toggle {
+    header .nav-conteiner nav .toggle {
       clear: both;
       display: block;
       text-align: center;
@@ -319,30 +319,33 @@ header {
       line-height: 40px;
       width: 100%;
       color: #ffffff;
-      transition: all .1s linear;
-      background: #125884; }
-    header .nav-conteiner .nav .toggle:hover {
-      background: #125884; }
-    header .nav-conteiner .nav #checkbox-menu:checked + label .touch li {
+      transition: all .1s linear; }
+    header .nav-conteiner nav .toggle:hover {
+      background: #30a6f9; }
+    header .nav-conteiner nav #checkbox-menu:checked + label .touch li {
       opacity: 1;
       visibility: visible;
       transition: all .7s linear; }
-    header .nav-conteiner .nav #checkbox-menu:checked + label .touch {
-      height: 350px; }
-    header .nav-conteiner .nav .menu {
+    header .nav-conteiner nav #checkbox-menu:checked + label .touch {
+      height: 178px; }
+    header .nav-conteiner nav .menu {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
       height: 0;
       transition: height .3s linear; }
-    header .nav-conteiner .nav .menu li {
+    header .nav-conteiner nav .menu li:first-child {
+      padding-left: 0px; }
+    header .nav-conteiner nav .menu li:last-child {
+      padding-right: 0px; }
+    header .nav-conteiner nav .menu li {
       display: flex;
       align-self: center;
       width: 100%;
       opacity: 0;
       visibility: hidden; }
-    header .nav-conteiner .nav .menu li a {
+    header .nav-conteiner nav .menu li a {
       width: 100%;
       text-align: center;
       align-self: center;

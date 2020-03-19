@@ -91,7 +91,6 @@ header {
             #checkbox-menu, .toggle {
                 display: none;
             }
-
             .menu {
                 height: 54px;
                 padding: 0;
@@ -442,13 +441,13 @@ header {
         }
     }
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 765px) {
 
 header {
 
     /* ===== Menu ===== */
     .nav-conteiner {
-        .nav {
+        nav {
             .toggle {
                 clear: both;
                 display: block;
@@ -458,10 +457,9 @@ header {
                 width: 100%;
                 color: #ffffff;
                 transition: all .1s linear;
-                background: #125884;
             }
             .toggle:hover {
-                background: #125884;
+                background: #30a6f9;
             }
             #checkbox-menu:checked + label .touch li {
                 opacity: 1;
@@ -469,7 +467,7 @@ header {
                 transition: all .7s linear;
             }
             #checkbox-menu:checked + label .touch {
-                height: 350px;
+                height: 178px;
             }
             .menu {
                 display: flex;
@@ -478,6 +476,12 @@ header {
                 align-items: center;
                 height: 0;
                 transition: height .3s linear;
+            }
+            .menu li:first-child {
+                padding-left: 0px;
+            }
+            .menu li:last-child {
+                padding-right: 0px;
             }
             .menu li {
                 display: flex;
