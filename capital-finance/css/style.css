@@ -17,7 +17,8 @@ header {
     text-decoration: none; }
   header .top {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-between; }
   header .logo {
     width: 123px;
     height: 99px;
@@ -28,67 +29,130 @@ header {
   header .header-row-top {
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid #8a8a8a;
-    width: 499px; }
-  header .header__left {
-    width: 538px; }
-    header .header__left .usd, header .header__left .eur {
-      font-size: 12px;
-      line-height: 4.17;
-      color: #191919; }
-      header .header__left .usd img, header .header__left .eur img {
-        margin-right: 9px; }
-      header .header__left .usd .dollar, header .header__left .eur .dollar {
-        width: 8px;
-        height: 21px;
-        object-fit: contain; }
-      header .header__left .usd .euro, header .header__left .eur .euro {
-        width: 13px;
-        height: 21px;
-        object-fit: contain;
-        padding-left: 20px; }
-      header .header__left .usd .smartphone, header .header__left .eur .smartphone {
-        width: 12px;
-        height: 21px;
-        object-fit: contain; }
-    header .header__left .tel {
-      margin-left: 56px;
-      margin-right: 10px; }
-      header .header__left .tel a {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 3.17;
-        text-align: left;
-        color: #191919; }
-      header .header__left .tel img {
-        margin-right: 9px; }
-    header .header__left .marker {
-      width: 12px;
+    border-bottom: 1px solid #8a8a8a; }
+  header .header__left .header-row {
+    line-height: 6; }
+  header .header__left .usd, header .header__left .eur {
+    font-size: 12px;
+    line-height: 4.17;
+    color: #191919; }
+    header .header__left .usd img, header .header__left .eur img {
+      margin-right: 9px; }
+    header .header__left .usd .dollar, header .header__left .eur .dollar {
+      width: 8px;
+      height: 21px;
       object-fit: contain; }
-    header .header__left .adress {
-      font-size: 12px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 4.17;
-      letter-spacing: normal;
-      display: flex; }
-      header .header__left .adress .adress__text {
-        margin-left: 11px;
-        margin-right: 32px; }
-  header .header__center .logo {
-    width: 123px;
-    height: 99px;
+    header .header__left .usd .euro, header .header__left .eur .euro {
+      width: 13px;
+      height: 21px;
+      object-fit: contain;
+      padding-left: 20px; }
+    header .header__left .usd .smartphone, header .header__left .eur .smartphone {
+      width: 12px;
+      height: 21px;
+      object-fit: contain; }
+  header .header__left .tel {
+    margin-left: 56px;
+    margin-right: 10px; }
+    header .header__left .tel a {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 3.17;
+      text-align: left;
+      color: #191919; }
+    header .header__left .tel img {
+      margin-right: 9px; }
+  header .header__left .marker {
+    width: 12px;
     object-fit: contain; }
-  header .header__right {
-    width: 538px; }
-    header .header__right .header-row-top {
-      justify-content: flex-end; }
-      header .header__right .header-row-top .btn {
-        margin-left: 10px;
-        margin-right: 45px; }
-    header .header__right .header-row {
-      justify-content: flex-end; }
+  header .header__left .adress {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    display: flex; }
+    header .header__left .adress .adress__text {
+      margin-left: 11px;
+      margin-right: 32px; }
+  header .header__center {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    header .header__center .logo {
+      width: 123px;
+      height: 99px;
+      object-fit: contain; }
+  header .header__right a {
+    line-height: 3.17; }
+  header .header__right .header-row-top {
+    justify-content: flex-end; }
+    header .header__right .header-row-top .btn {
+      margin-left: 10px;
+      margin-right: 45px; }
+    header .header__right .header-row-top .city {
+      position: relative;
+      line-height: 3.17; }
+      header .header__right .header-row-top .city select {
+        font-size: 11px;
+        width: 108px;
+        height: 30px;
+        border-radius: 15px;
+        border: solid 1px #e0e0e0;
+        cursor: pointer;
+        padding-left: 16px;
+        text-indent: 0.01px;
+        text-overflow: '';
+        -webkit-appearance: button;
+        /* hide default arrow in chrome OSX */ }
+      header .header__right .header-row-top .city::after {
+        /*  Custom dropdown arrow */
+        content: "\f107";
+        font-family: 'FontAwesome';
+        line-height: 4.57;
+        right: 12px;
+        position: absolute;
+        pointer-events: none;
+        font-size: 12px; }
+  header .header__right .header-row {
+    height: 76px;
+    justify-content: flex-end;
+    line-height: 4.7; }
+    header .header__right .header-row form {
+      position: relative; }
+    header .header__right .header-row input {
+      font-size: 13px;
+      width: 169px;
+      height: 34px;
+      border-radius: 22px;
+      border: solid 1px #e0e0e0;
+      padding-left: 16px;
+      text-indent: 0.01px;
+      position: relative;
+      -webkit-appearance: button;
+      /* hide default arrow in chrome OSX */ }
+    header .header__right .header-row button {
+      margin: 10px 0px 0px -30px; }
+    header .header__right .header-row .search__button {
+      color: #8c8c8c;
+      position: absolute;
+      right: 20px;
+      top: 28px; }
+    header .header__right .header-row .search__button::before {
+      content: "\f002";
+      font-family: FontAwesome; }
+    header .header__right .header-row .btn {
+      padding-left: 20px; }
+    header .header__right .header-row button.call {
+      font-size: 11px;
+      height: 38px;
+      margin: 0px;
+      padding: 0px 20px;
+      border-radius: 22px;
+      text-transform: uppercase;
+      border: 0px;
+      background-color: #30a6f9;
+      color: #ffffff; }
   header .nav-conteiner {
     background-color: #2e2e2e; }
     header .nav-conteiner nav {

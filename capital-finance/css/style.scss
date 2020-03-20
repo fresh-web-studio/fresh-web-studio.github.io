@@ -29,6 +29,7 @@ header {
     .top {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
     .logo {
     width: 123px;
@@ -43,10 +44,11 @@ header {
         display: flex;
         flex-wrap: wrap;
         border-bottom: 1px solid #8a8a8a;
-        width: 499px;
     }
     .header__left {
-        width: 538px;
+        .header-row {
+            line-height: 6;
+        }
         .usd, .eur {
             font-size: 12px;
             line-height: 4.17;
@@ -84,7 +86,6 @@ header {
             }
             margin-left: 56px;
             margin-right: 10px;
-
         }
         .marker {
             width: 12px;
@@ -95,7 +96,6 @@ header {
             font-weight: normal;
             font-stretch: normal;
             font-style: normal;
-            line-height: 4.17;
             letter-spacing: normal;
             display: flex;
             .adress__text {
@@ -105,6 +105,9 @@ header {
         }
     }
     .header__center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .logo {
             width: 123px;
             height: 99px;
@@ -112,16 +115,86 @@ header {
         }
     }
     .header__right {
-        width: 538px;
+        a {
+            line-height: 3.17;
+        }
         .header-row-top {
             justify-content: flex-end;
             .btn {
                 margin-left: 10px;
                 margin-right: 45px;
             }
+            .city {
+                position: relative;
+                line-height: 3.17;
+                select {
+                    font-size: 11px;
+                    width: 108px;
+                    height: 30px;
+                    border-radius: 15px;
+                    border: solid 1px #e0e0e0;
+                    cursor:pointer;
+                    padding-left: 16px;
+                    text-indent: 0.01px;
+                    text-overflow: '';
+                    -webkit-appearance: button; /* hide default arrow in chrome OSX */
+                }
+                &::after { /*  Custom dropdown arrow */
+                    content: "\f107";
+                    font-family: 'FontAwesome';
+                    line-height: 4.57;
+                    right: 12px;
+                    position: absolute;
+                    pointer-events: none;
+                    font-size: 12px;
+                }
+            }
         }
         .header-row {
+            height: 76px;
             justify-content: flex-end;
+            line-height: 4.7;
+            form {
+                position: relative;
+            }
+            input {
+                font-size: 13px;
+                width: 169px;
+                height: 34px;
+                border-radius: 22px;
+                border: solid 1px #e0e0e0;
+                padding-left: 16px;
+                text-indent: 0.01px;
+                position: relative;
+                -webkit-appearance: button; /* hide default arrow in chrome OSX */
+            }
+            button {
+                margin: 10px 0px 0px -30px;
+            }
+            .search__button {
+                color: #8c8c8c;
+                position: absolute;
+                right: 20px;
+                top: 28px;
+            }
+            .search__button::before {
+                content: "\f002";
+                font-family: FontAwesome;
+            }
+            .btn {
+                padding-left: 20px;
+            }
+            button.call {
+                font-size: 11px;
+                height: 38px;
+                margin: 0px;
+                padding: 0px 20px;
+                border-radius: 22px;
+                text-transform: uppercase;
+                border: 0px;
+                background-color: #30a6f9;
+                color: #ffffff;
+            }
         }
     }
     /* ===== Menu ===== */
