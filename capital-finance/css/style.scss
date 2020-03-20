@@ -122,6 +122,13 @@ header {
         a:hover {
             color:#0688fa;
         }
+        .mail a {
+            color: #909090;
+            text-decoration: none;
+        }
+        .mail a:hover {
+            color: #777777;
+        }
         .header-row-top {
             justify-content: flex-end;
             .btn {
@@ -280,6 +287,9 @@ footer {
                 color: #c3c3c3;
                 text-decoration: none;
             }
+            a:hover {
+                color: #dfdfdf;
+            }
         }
         .row__mail {
             display: flex;
@@ -292,6 +302,13 @@ footer {
                 a:hover {
                     color:#0688fa;
                 }
+            }
+            a {
+                color: #c3c3c3;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #dfdfdf;
             }
         }
         .row__conf-policy {
@@ -313,6 +330,9 @@ footer {
         .row__tel a {
             color: #ffffff;
             text-decoration: none;
+        }
+        .row__tel a:hover {
+            color: #dfdfdf;
         }
         .row__copyright {
             margin-right: 222px;
