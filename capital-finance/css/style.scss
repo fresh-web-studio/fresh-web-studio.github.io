@@ -35,23 +35,27 @@ header {
     .header-row {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
     }
     .header__left {
 
         .usd, .eur {
             font-size: 12px;
-            font-weight: 500;
             line-height: 4.17;
             color: #191919;
-            .dollar, .euro {
+            .dollar {
                 width: 8px;
                 height: 16px;
                 object-fit: contain;
             }
             .euro {
                 width: 13px;
-                height: 13px;
+                height: 16px;
+                object-fit: contain;
+                padding-left: 20px;
+            }
+            .smartphone {
+                width: 12px;
+                height: 21px;
                 object-fit: contain;
             }
         }
@@ -61,6 +65,11 @@ header {
             line-height: 2.69;
             text-align: left;
             color: #191919;
+            margin-left: 56px;
+            margin-right: 10px;
+            a {
+                text-decoration: none;
+            }
         }
     }
     .header__center {

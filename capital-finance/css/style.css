@@ -22,27 +22,34 @@ header {
     object-fit: contain; }
   header .header-row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
+    flex-wrap: wrap; }
   header .header__left .usd, header .header__left .eur {
     font-size: 12px;
-    font-weight: 500;
     line-height: 4.17;
     color: #191919; }
-    header .header__left .usd .dollar, header .header__left .usd .euro, header .header__left .eur .dollar, header .header__left .eur .euro {
+    header .header__left .usd .dollar, header .header__left .eur .dollar {
       width: 8px;
       height: 16px;
       object-fit: contain; }
     header .header__left .usd .euro, header .header__left .eur .euro {
       width: 13px;
-      height: 13px;
+      height: 16px;
+      object-fit: contain;
+      padding-left: 20px; }
+    header .header__left .usd .smartphone, header .header__left .eur .smartphone {
+      width: 12px;
+      height: 21px;
       object-fit: contain; }
   header .header__left .tel {
     font-size: 16px;
     font-weight: 500;
     line-height: 2.69;
     text-align: left;
-    color: #191919; }
+    color: #191919;
+    margin-left: 56px;
+    margin-right: 10px; }
+    header .header__left .tel a {
+      text-decoration: none; }
   header .header__center .logo {
     width: 123px;
     height: 99px;
