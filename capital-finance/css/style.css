@@ -29,7 +29,7 @@ header {
   header .header-row-top {
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid #8a8a8a; }
+    border-bottom: 1px solid #f0f0f0; }
   header .header__left .header-row {
     line-height: 6; }
   header .header__left .usd, header .header__left .eur {
@@ -84,7 +84,10 @@ header {
       height: 99px;
       object-fit: contain; }
   header .header__right a {
-    line-height: 3.17; }
+    line-height: 3.17;
+    color: #30a6f9; }
+  header .header__right a:hover {
+    color: #0688fa; }
   header .header__right .header-row-top {
     justify-content: flex-end; }
     header .header__right .header-row-top .btn {
@@ -153,6 +156,8 @@ header {
       border: 0px;
       background-color: #30a6f9;
       color: #ffffff; }
+    header .header__right .header-row button.call:hover {
+      background-color: #0688fa; }
   header .nav-conteiner {
     background-color: #2e2e2e; }
     header .nav-conteiner nav {
@@ -195,6 +200,73 @@ header {
         transition: background 0.2s linear; }
       header .nav-conteiner nav .menu li a:hover {
         background-color: #30a6f9; }
+
+footer {
+  background-color: #333333;
+  color: #c3c3c3; }
+  footer .row {
+    padding: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+    footer .row .row__menu p {
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.5;
+      letter-spacing: normal; }
+      footer .row .row__menu p a {
+        text-transform: uppercase;
+        color: #c3c3c3;
+        text-decoration: none; }
+    footer .row .row__mail {
+      display: flex; }
+      footer .row .row__mail .btn {
+        margin-left: 10px; }
+        footer .row .row__mail .btn a {
+          text-decoration: none;
+          color: #30a6f9; }
+        footer .row .row__mail .btn a:hover {
+          color: #0688fa; }
+    footer .row .row__conf-policy {
+      width: 55%;
+      font-size: 11px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.73;
+      letter-spacing: normal; }
+      footer .row .row__conf-policy p {
+        margin-bottom: 10px; }
+    footer .row .row__tel img {
+      margin-right: 11px;
+      margin-bottom: 3px; }
+    footer .row .row__tel a {
+      color: #ffffff;
+      text-decoration: none; }
+    footer .row .row__copyright {
+      margin-right: 222px; }
+  footer .row:first-child {
+    border-bottom: solid 1px #909090;
+    align-items: start; }
+  footer .footer__logo {
+    width: 123px;
+    height: 99px;
+    object-fit: contain; }
+  footer button.call {
+    font-size: 11px;
+    height: 38px;
+    margin: 0px;
+    padding: 0px 20px;
+    border-radius: 22px;
+    text-transform: uppercase;
+    border: 0px;
+    background-color: #30a6f9;
+    color: #ffffff; }
+  footer button.call:hover {
+    background-color: #0688fa; }
 
 .heading {
   width: 100%;
