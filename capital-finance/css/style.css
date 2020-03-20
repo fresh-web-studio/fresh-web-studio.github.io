@@ -13,6 +13,8 @@ body {
 header {
   /* ===== Menu ===== */
   /* ===== /Menu ===== */ }
+  header a {
+    text-decoration: none; }
   header .top {
     display: flex;
     flex-wrap: wrap; }
@@ -23,37 +25,70 @@ header {
   header .header-row {
     display: flex;
     flex-wrap: wrap; }
-  header .header__left .usd, header .header__left .eur {
-    font-size: 12px;
-    line-height: 4.17;
-    color: #191919; }
-    header .header__left .usd .dollar, header .header__left .eur .dollar {
-      width: 8px;
-      height: 16px;
-      object-fit: contain; }
-    header .header__left .usd .euro, header .header__left .eur .euro {
-      width: 13px;
-      height: 16px;
-      object-fit: contain;
-      padding-left: 20px; }
-    header .header__left .usd .smartphone, header .header__left .eur .smartphone {
+  header .header-row-top {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #8a8a8a;
+    width: 499px; }
+  header .header__left {
+    width: 538px; }
+    header .header__left .usd, header .header__left .eur {
+      font-size: 12px;
+      line-height: 4.17;
+      color: #191919; }
+      header .header__left .usd img, header .header__left .eur img {
+        margin-right: 9px; }
+      header .header__left .usd .dollar, header .header__left .eur .dollar {
+        width: 8px;
+        height: 21px;
+        object-fit: contain; }
+      header .header__left .usd .euro, header .header__left .eur .euro {
+        width: 13px;
+        height: 21px;
+        object-fit: contain;
+        padding-left: 20px; }
+      header .header__left .usd .smartphone, header .header__left .eur .smartphone {
+        width: 12px;
+        height: 21px;
+        object-fit: contain; }
+    header .header__left .tel {
+      margin-left: 56px;
+      margin-right: 10px; }
+      header .header__left .tel a {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 3.17;
+        text-align: left;
+        color: #191919; }
+      header .header__left .tel img {
+        margin-right: 9px; }
+    header .header__left .marker {
       width: 12px;
-      height: 21px;
       object-fit: contain; }
-  header .header__left .tel {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 2.69;
-    text-align: left;
-    color: #191919;
-    margin-left: 56px;
-    margin-right: 10px; }
-    header .header__left .tel a {
-      text-decoration: none; }
+    header .header__left .adress {
+      font-size: 12px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 4.17;
+      letter-spacing: normal;
+      display: flex; }
+      header .header__left .adress .adress__text {
+        margin-left: 11px;
+        margin-right: 32px; }
   header .header__center .logo {
     width: 123px;
     height: 99px;
     object-fit: contain; }
+  header .header__right {
+    width: 538px; }
+    header .header__right .header-row-top {
+      justify-content: flex-end; }
+      header .header__right .header-row-top .btn {
+        margin-left: 10px;
+        margin-right: 45px; }
+    header .header__right .header-row {
+      justify-content: flex-end; }
   header .nav-conteiner {
     background-color: #2e2e2e; }
     header .nav-conteiner nav {

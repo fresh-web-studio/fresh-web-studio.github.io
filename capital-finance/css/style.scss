@@ -23,6 +23,9 @@ body {
 // HEADER
 
 header {
+    a {
+        text-decoration: none;
+    }
     .top {
         display: flex;
         flex-wrap: wrap;
@@ -36,20 +39,29 @@ header {
         display: flex;
         flex-wrap: wrap;
     }
+    .header-row-top {
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #8a8a8a;
+        width: 499px;
+    }
     .header__left {
-
+        width: 538px;
         .usd, .eur {
             font-size: 12px;
             line-height: 4.17;
             color: #191919;
+            img {
+                margin-right: 9px;
+            }
             .dollar {
                 width: 8px;
-                height: 16px;
+                height: 21px;
                 object-fit: contain;
             }
             .euro {
                 width: 13px;
-                height: 16px;
+                height: 21px;
                 object-fit: contain;
                 padding-left: 20px;
             }
@@ -60,15 +72,35 @@ header {
             }
         }
         .tel {
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 2.69;
-            text-align: left;
-            color: #191919;
+            a {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 3.17;
+                text-align: left;
+                color: #191919;
+            }
+            img {
+                margin-right: 9px;
+            }
             margin-left: 56px;
             margin-right: 10px;
-            a {
-                text-decoration: none;
+
+        }
+        .marker {
+            width: 12px;
+            object-fit: contain;
+        }
+        .adress {
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 4.17;
+            letter-spacing: normal;
+            display: flex;
+            .adress__text {
+                margin-left: 11px;
+                margin-right: 32px;
             }
         }
     }
@@ -80,7 +112,17 @@ header {
         }
     }
     .header__right {
-
+        width: 538px;
+        .header-row-top {
+            justify-content: flex-end;
+            .btn {
+                margin-left: 10px;
+                margin-right: 45px;
+            }
+        }
+        .header-row {
+            justify-content: flex-end;
+        }
     }
     /* ===== Menu ===== */
     .nav-conteiner {
