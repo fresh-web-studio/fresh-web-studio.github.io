@@ -314,7 +314,6 @@ main .slide-wraper {
     color: #ffffff; }
   main .slide-wraper .slide-item .slide-item__text {
     padding-top: 30px;
-    padding-bottom: 50px;
     width: 491px;
     font-size: 15px;
     font-weight: normal;
@@ -327,7 +326,7 @@ main .slide-wraper {
   main .slide-wraper .slide-item button.btn {
     font-size: 14px;
     height: 57px;
-    margin: 0px;
+    margin-top: 50px;
     padding: 0px 20px;
     border-radius: 30px;
     text-transform: uppercase;
@@ -343,20 +342,16 @@ main .slide-wraper {
     z-index: 1;
     border: none;
     background: transparent; }
-  main .slide-wraper button.owl-prev {
-    background-image: url("../img/left-arrow.png") !important;
-    background-size: cover;
+  main .slide-wraper .owl-prev, main .slide-wraper .owl-next {
+    position: absolute;
+    bottom: 42px;
     width: 42px;
     height: 42px;
-    position: relative;
-    z-index: 1000; }
-  main .slide-wraper button.owl-next {
-    background-image: url("../img/right-arrow.png") !important;
-    background-size: cover;
-    width: 42px;
-    height: 42px;
-    position: relative;
-    z-index: 1000;
+    background-size: 42px 42px !important; }
+  main .slide-wraper .owl-prev {
+    background-image: url("../img/left-arrow@2x.png") !important; }
+  main .slide-wraper .owl-next {
+    background-image: url("../img/right-arrow@2x.png") !important;
     margin-left: 60px; }
 
 .heading {
