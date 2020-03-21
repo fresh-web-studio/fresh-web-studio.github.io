@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: 'Montserrat', sans-serif; }
 
@@ -281,6 +282,82 @@ footer {
     color: #ffffff; }
   footer button.call:hover {
     background-color: #0688fa; }
+
+main .slide-wraper {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+  main .slide-wraper .slide-item.slide1 {
+    background-image: url(../img/slider-bg-1.jpg);
+    background-position: center center;
+    /* Положение фона */
+    background-repeat: no-repeat;
+    /* Отменяем повторение фона */
+    height: 535px; }
+  main .slide-wraper .slide-item.slide2 {
+    background-image: url(../img/slider-bg-2.jpg);
+    background-position: center center;
+    /* Положение фона */
+    background-repeat: no-repeat;
+    /* Отменяем повторение фона */
+    height: 535px; }
+  main .slide-wraper .slide-item .slide-item__header {
+    padding-top: 100px;
+    width: 481px;
+    font-size: 33px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff; }
+  main .slide-wraper .slide-item .slide-item__text {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 491px;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.73;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e1e1e1; }
+  main .slide-wraper .slide-item button.btn {
+    font-size: 14px;
+    height: 57px;
+    margin: 0px;
+    padding: 0px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: 0px;
+    background-color: #30a6f9;
+    color: #ffffff; }
+  main .slide-wraper .slide-item button.btn:hover {
+    background-color: #0688fa; }
+  main .slide-wraper .slide-item .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    bottom: 10.5%;
+    left: 18.4%;
+    z-index: 1;
+    border: none;
+    background: transparent; }
+  main .slide-wraper button.owl-prev {
+    background-image: url("../img/left-arrow.png") !important;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    z-index: 1000; }
+  main .slide-wraper button.owl-next {
+    background-image: url("../img/right-arrow.png") !important;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    z-index: 1000;
+    margin-left: 60px; }
 
 .heading {
   width: 100%;
