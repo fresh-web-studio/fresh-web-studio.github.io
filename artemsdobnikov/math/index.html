@@ -1,38 +1,347 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
+<html>
+<head lang="ru">
     <meta charset="UTF-8">
-    <title>Содержание</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/new_style.css">
+    <meta name="viewport" content="width=1271, initial-scale=1">
 </head>
 <body>
-<a href="boost-converter.html">Повышающий импульсный стабилизатор напряжения</a><br>
-<a href="buck-boost-converter.html">Инвертирующий импульсный стабилизатор напряжения</a><br>
-<a href="buck-converter.html">Понижающий импульсный стабилизатор напряжения</a><br>
-<a href="diods.html">Диоды</a><br>
-<a href="drv-mosfet-igbt.html">Управление MOSFET и IGBT  транзисторами. Схемотехнические решения. Расчет</a><br>
-<a href="filter.html">Входные фильтры</a><br>
-<a href="flyback.html">Обратноходовой преобразователь</a><br>
-<a href="forward.html">Однотактный прямоходовый преобразователь</a><br>
-<a href="full-bridge.html">Мостовой преобразователь с ШИМ</a><br>
-<a href="gate-drivers.html">Интегральные драйверы MOSFET и IGBT транзисторов</a><br>
-<a href="half-bridge.html">Полумостовой преобразователь</a><br>
-<a href="half-bridge-forward.html">Прямоходовый двухключевой преобразователь («косой полу-мост»)</a><br>
-<a href="igbt.html">IGBT-транзисторы</a><br>
-<a href="inductance.html">Катушка индуктивности</a><br>
-<a href="kondensator.html">Конденсатор</a><br>
-<a href="liner-voltage-regulators.html">Линейные интегральные стабилизаторы напряжения</a><br>
-<a href="mosfet.html">MOSFET-транзисторы</a><br>
-<a href="opamp.html">Операционные усилители</a><br>
-<a href="optocoupler.html">Оптопара</a><br>
-<a href="puch-pull.html">Двухтактный преобразователь push-pull</a><br>
-<a href="pwmc.html">ШИМ-контроллеры</a><br>
-<a href="rectifier.html">Выпрямители</a><br>
-<a href="rezistori.html">Резисторы</a><br>
-<a href="stabilitrony.html">Стабилитроны</a><br>
-<a href="tiristori.html">Тиристоры</a><br>
-<a href="transformator.html">Трансформатор</a><br>
-<a href="vlimit.html">Ограничители перенапряжения</a><br>
-<a href="voltage-multipier.html">Умножители напряжения</a><br>
-<a href="voltage-reference.html">Источники опорного напряжения</a><br>
+<div class="mainwrapper">
+    <div class="wrapper wrapper-style">
+        <header class="header">
+            <img src="image/banner.jpg" alt="Формула">
+            <nav>
+                <input type="checkbox" id="checkbox-menu">
+                <label for="checkbox-menu">
+                    <ul class="menu touch">
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#">Дискретные элементы</a>
+                        </li>
+                        <li>
+                            <a href="#">Интегральные элементы, блоки и узлы схем</a>
+                        </li>
+                        <li>
+                            <a href="#">Импульсные стабилизаторы</a>
+                        </li>
+                        <li>
+                            <a href="#">Импульсные преобразователи</a>
+                        </li>
+                    </ul>
+                    <span class="toggle">☰</span>
+                </label>
+            </nav>
+        </header>
+
+        <article class="main">
+            <div class="block">
+
+                <div class="title">Дискретные элементы</div>
+                <div class="row">
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/резистор.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Резисторы</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/индуктивность.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Индуктивность</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/конденсатор.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Конденсаторы</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/трансформатор.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p><a href="transformator.html">Трансформатор</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hrr"></div>
+
+
+                <div class="row">
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/диоды.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p><a href="diods.html">Диоды</a></p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/стабилитрон.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p><a href="stabilitrony.html">Стабилитроны</a></p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+
+                    </div>
+
+                    <div class="box">
+
+                    </div>
+
+
+                </div>
+
+                <div class="hrr"></div>
+
+
+                <div class="row">
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/резистор.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p><a href="rezistori.html">Резисторы</a></p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/транзистор.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p><a href="bipolar-transistors.html">Биполярные транзисторы</a></p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/mosfet.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p><a href="mosfet.html">MOSFET-транзисторы</a></p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/тиристор.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p><a href="tiristori.html">Тиристоры</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hrr"></div>
+
+
+            </div>
+
+
+
+            <div class="block">
+
+                <div class="title">Интегральные элементы, блоки и узлы схем</div>
+                <div class="row">
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/шим-контроллеры.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>ШИМ-контролеры</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/драйвер.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p class="small">Интегральные драйверы MOSFET и IGBT транзисторов</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/управление mosfet.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Управление MOSFET и IGBT транзисторами</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/оу.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Операционные усилители</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="hrr"></div>
+
+
+                <div class="row">
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/ИОН.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Источники опорного напряжения</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/линстаб.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p class="small">Линейные интегральные стабилизаторы напряжения</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/оптрон.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Оптопары</p>
+                        </div>
+                    </div>
+
+
+                    <div class="box">
+
+                    </div>
+
+
+                </div>
+
+                <div class="hrr"></div>
+
+                <div class="row">
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/выпрямитель.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Выпрямители</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/фильтр.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Входные фильтры</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/умножитель.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Умножители</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <img src="image/TVS-диод.PNG" alt="">
+                        </div>
+                        <div class="right_box">
+                            <p>Ограничители перенапряжения</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hrr"></div>
+
+
+            </div>
+
+
+            <div class="block">
+
+                <div class="title">Импульсные стабилизаторы</div>
+                <div class="row">
+                    <div class="box2">
+                        <div class="left_box2">
+                            <img src="image/понижающий.PNG" alt="">
+                        </div>
+                        <div class="right_box2">
+                            <p>Понижающий импульсный стабилизатор напряжения</p>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <div class="left_box2">
+                            <img src="image/повышающий.PNG" alt="">
+                        </div>
+                        <div class="right_box2">
+                            <p>Повышающий импульсный стабилизатор напряжения </p>
+                        </div>
+                    </div>
+
+                    <div class="box2">
+                        <div class="left_box2">
+                            <img src="image/инвертирующий.PNG" alt="">
+                        </div>
+                        <div class="right_box2">
+                            <p>Инвертирующий импульсный стабилизатор напряжения </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="hrr"></div>
+
+
+
+            </div>
+
+        </article>
+
+        <footer class="footer">
+            <div class="container">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#">Справочник</a></li>
+                        <li><a href="#">Практические инструкции</a></li>
+                        <li><a href="#">Технологии</a></li>
+                        <li><a href="#">О сайте</a></li>
+                        <li class="f_menu_right"><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</div>
 </body>
 </html>
