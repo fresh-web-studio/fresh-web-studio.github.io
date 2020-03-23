@@ -8,7 +8,7 @@ $(document).ready(function(){
             navText : ["",""],
             dots:false,
             items: 1,
-            autoplay:false,
+            autoplay:true,
             autoplayTimeout:3000,
             autoplayHoverPause:true
         }
