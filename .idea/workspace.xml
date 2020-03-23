@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление Слайдера и ссылок кнопок">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/косой полумост.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/мост.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/полумост.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/image/пуш-пул.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/img/cash.png" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/img/cash.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/js/main_slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/js/main_slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/psd/1. Главная (ART).psd" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/psd/1. Главная (ART).psd" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -74,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="172" column="45" lean-forward="true" selection-start-line="172" selection-start-column="45" selection-end-line="172" selection-end-column="49" />
+            <state relative-caret-position="1605">
+              <caret line="263" column="37" lean-forward="true" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -86,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="947">
-              <caret line="496" column="60" selection-start-line="496" selection-start-column="60" selection-end-line="496" selection-end-column="60" />
+            <state relative-caret-position="583">
+              <caret line="552" column="27" selection-start-line="552" selection-start-column="27" selection-end-line="552" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -123,7 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>обра</find>
       <find>обратно</find>
       <find>одн</find>
       <find>одно</find>
@@ -153,6 +142,7 @@
       <find>rezistori.html</find>
       <find>и</find>
       <find>с</find>
+      <find>sectionabout</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -178,6 +168,7 @@
       <replace>article__table</replace>
       <replace>и&amp;nbsp;</replace>
       <replace>с&amp;nbsp;</replace>
+      <replace>section</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/panorama</dir>
@@ -262,8 +253,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="496" />
-    <option name="y" value="-1417" />
+    <option name="x" value="497" />
+    <option name="y" value="-1411" />
     <option name="width" value="1384" />
     <option name="height" value="1329" />
   </component>
@@ -282,6 +273,17 @@
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="capital-finance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,11 +298,6 @@
               <item name="capital-finance" type="462c0819:PsiDirectoryNode" />
               <item name="owlcarousel" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="panorama" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,14 +385,7 @@
       <workItem from="1583985920149" duration="57449000" />
       <workItem from="1584211398735" duration="45580000" />
       <workItem from="1584422346813" duration="24797000" />
-      <workItem from="1584511073948" duration="105116000" />
-    </task>
-    <task id="LOCAL-00351" summary="Обновление">
-      <created>1584301528123</created>
-      <option name="number" value="00351" />
-      <option name="presentableId" value="LOCAL-00351" />
-      <option name="project" value="LOCAL" />
-      <updated>1584301528123</updated>
+      <workItem from="1584511073948" duration="112334000" />
     </task>
     <task id="LOCAL-00352" summary="Обновление">
       <created>1584301597832</created>
@@ -733,14 +723,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584951793146</updated>
     </task>
-    <option name="localTasksCounter" value="400" />
+    <task id="LOCAL-00400" summary="Обновление Слайдера и ссылок кнопок">
+      <created>1584957868429</created>
+      <option name="number" value="00400" />
+      <option name="presentableId" value="LOCAL-00400" />
+      <option name="project" value="LOCAL" />
+      <updated>1584957868435</updated>
+    </task>
+    <option name="localTasksCounter" value="401" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="498558000" />
+    <option name="totallyTimeSpent" value="505776000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="496" y="-1417" width="1384" height="1329" extended-state="0" />
+    <frame x="497" y="-1411" width="1384" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.237988" />
@@ -844,13 +841,13 @@
     <MESSAGE value="Обновление подвала" />
     <MESSAGE value="Обновление Rfhectkm" />
     <MESSAGE value="Создаю слайдер" />
-    <MESSAGE value="Обновление Слайдера и ссылок кнопок" />
     <MESSAGE value="Добавление содержания" />
     <MESSAGE value="Обновление Содержания" />
     <MESSAGE value="Обновление главной страницы" />
     <MESSAGE value="Обновление Подвала" />
     <MESSAGE value="Обновление" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
+    <MESSAGE value="Обновление Слайдера и ссылок кнопок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление Слайдера и ссылок кнопок" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/capital-finance/owlcarousel/owl.carousel.min.js">
@@ -1126,20 +1123,6 @@
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/пуш-пул.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="358" column="38" lean-forward="true" selection-start-line="358" selection-start-column="38" selection-end-line="358" selection-end-column="38" />
-          <folding>
-            <element signature="e#1050#1056#0" expanded="true" />
-            <element signature="e#5863#5869#0" expanded="true" />
-            <element signature="e#6622#6628#0" expanded="true" />
-            <element signature="e#7033#7039#0" expanded="true" />
-            <element signature="e#14089#14095#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index — копия.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1171,10 +1154,24 @@
     <entry file="file://$PROJECT_DIR$/capital-finance/owlcarousel/assets/owl.video.play.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="366" lean-forward="true" selection-start-line="366" selection-end-line="366" />
+          <folding>
+            <element signature="e#1050#1056#0" expanded="true" />
+            <element signature="e#5863#5869#0" expanded="true" />
+            <element signature="e#6622#6628#0" expanded="true" />
+            <element signature="e#7033#7039#0" expanded="true" />
+            <element signature="e#14089#14095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="172" column="45" lean-forward="true" selection-start-line="172" selection-start-column="45" selection-end-line="172" selection-end-column="49" />
+        <state relative-caret-position="1605">
+          <caret line="263" column="37" lean-forward="true" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -1183,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="496" column="60" selection-start-line="496" selection-start-column="60" selection-end-line="496" selection-end-column="60" />
+        <state relative-caret-position="583">
+          <caret line="552" column="27" selection-start-line="552" selection-start-column="27" selection-end-line="552" selection-end-column="27" />
         </state>
       </provider>
     </entry>

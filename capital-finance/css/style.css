@@ -397,6 +397,72 @@ main .banners {
           background-color: rgba(166, 54, 54, 0.9); }
         main .banners .container .banners__item .banners__content.grey {
           background-color: rgba(126, 126, 126, 0.9); }
+main section.section h2 {
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.81;
+  letter-spacing: normal;
+  text-align: center;
+  margin-bottom: 60px; }
+main section.section .section__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px; }
+  main section.section .section__items a {
+    text-decoration: none;
+    color: #4f4f4f; }
+  main section.section .section__items .section__item {
+    width: 33.2%;
+    height: 177px;
+    border: solid 1px #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 16px; }
+    main section.section .section__items .section__item img {
+      margin-bottom: 20px; }
+  main section.section .section__items .section__item:hover {
+    border: 0px;
+    box-shadow: 0px 2px 40px 0 rgba(76, 76, 76, 0.08); }
+  main section.section .section__items .section__item:first-child {
+    border-right: 0px; }
+  main section.section .section__items .section__item:last-child {
+    border-left: 0px; }
+main section.info {
+  background-color: #f8f8f8;
+  margin-bottom: 60px; }
+  main section.info .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 65px 0px; }
+    main section.info .container .info__left {
+      width: 20%; }
+    main section.info .container .info__right {
+      width: 80%; }
+      main section.info .container .info__right h2 {
+        margin-top: 24px;
+        font-size: 26px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.81;
+        letter-spacing: normal; }
+      main section.info .container .info__right .text {
+        margin-top: 24px;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c8c8c; }
 
 .heading {
   width: 100%;
