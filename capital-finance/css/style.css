@@ -474,8 +474,8 @@ main section.info {
     color: #ffffff;
     font-size: 33px;
     font-weight: 500;
-    padding-top: 67px;
-    margin-bottom: 49px; }
+    padding-top: 50px;
+    margin-bottom: 37px; }
   .heading .heading-text {
     width: 660px;
     color: #ffffff;
@@ -611,8 +611,7 @@ main section.info {
     flex-wrap: wrap;
     margin-bottom: 40px; }
     .contacts .contacts-block .contacts-row {
-      width: 579px;
-      height: 238px;
+      width: 48%;
       background-color: #ffffff; }
       .contacts .contacts-block .contacts-row .item-title {
         width: 100%;
@@ -629,11 +628,11 @@ main section.info {
           color: #868686; }
       .contacts .contacts-block .contacts-row .contacts-item {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
-        padding: 40px 20px 0; }
+        padding: 40px 0px; }
         .contacts .contacts-block .contacts-row .contacts-item .item {
-          width: 155px;
+          width: 30%;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -648,7 +647,7 @@ main section.info {
             color: #454545;
             font-size: 13px;
             font-weight: 400;
-            line-height: 34px; }
+            line-height: 1.4; }
   .contacts .feedback-block {
     background-color: #30a6f9;
     display: flex;
@@ -843,9 +842,11 @@ main section.info {
       margin-left: -35px; }
     main .slide-wraper .owl-nav.container .owl-next {
       margin-left: 35px; }
-  main .banners .container .banners__item {
-    width: 100%;
-    height: 143px; }
+  main .banners {
+    margin-top: 0px; }
+    main .banners .container .banners__item {
+      width: 100%;
+      height: 143px; }
   main section.section .section__items .section__item,
   main section.info .container .info__left,
   main section.info .container .info__right {
@@ -863,13 +864,29 @@ main section.info {
   main .contacts .contacts-block .contacts-row .contacts-item,
   main .contacts .feedback-block .feedback-form {
     width: 100%; }
+  main .contacts .contacts-block {
+    margin-bottom: 0px; }
+    main .contacts .contacts-block .contacts-row {
+      width: 100%; }
+      main .contacts .contacts-block .contacts-row .contacts-item {
+        padding: 20px 0px; }
+        main .contacts .contacts-block .contacts-row .contacts-item .item {
+          width: 100%;
+          padding-bottom: 20px; }
+          main .contacts .contacts-block .contacts-row .contacts-item .item .adres-text {
+            line-height: 3; }
   main .contacts .feedback-block {
-    padding: 20px; }
+    padding: 40px 20px;
+    margin-bottom: 0px; }
     main .contacts .feedback-block .feedback-title {
       width: 100%;
       font-size: 20px;
       line-height: 23px;
       text-align: center;
-      margin-bottom: 20px; } }
+      margin-bottom: 20px; }
+    main .contacts .feedback-block .feedback-form .feedback .input {
+      width: 100%; }
+    main .contacts .feedback-block .feedback-form .feedback label {
+      line-height: 3; } }
 
 /*# sourceMappingURL=style.css.map */
