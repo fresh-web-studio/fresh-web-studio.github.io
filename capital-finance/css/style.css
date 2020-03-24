@@ -681,9 +681,11 @@ main section.info {
           border: 3px solid #89ceff;
           box-sizing: border-box;
           background-color: #30a6f9;
-          color: #89ceff;
+          color: #ffffff;
           margin-bottom: 18px;
           padding-left: 25px; }
+        .contacts .feedback-block .feedback-form .feedback .input::placeholder {
+          color: #89ceff; }
         .contacts .feedback-block .feedback-form .feedback input[type=checkbox] {
           display: none; }
         .contacts .feedback-block .feedback-form .feedback label {
@@ -867,6 +869,7 @@ main section.info {
       width: 100%;
       font-size: 20px;
       line-height: 23px;
-      text-align: center; } }
+      text-align: center;
+      margin-bottom: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
