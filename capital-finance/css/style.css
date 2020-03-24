@@ -608,6 +608,7 @@ main section.info {
   .contacts .contacts-block {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 40px; }
     .contacts .contacts-block .contacts-row {
       width: 579px;
@@ -629,6 +630,7 @@ main section.info {
       .contacts .contacts-block .contacts-row .contacts-item {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         padding: 40px 20px 0; }
         .contacts .contacts-block .contacts-row .contacts-item .item {
           width: 155px;
@@ -648,24 +650,31 @@ main section.info {
             font-weight: 400;
             line-height: 34px; }
   .contacts .feedback-block {
-    height: 288px;
     background-color: #30a6f9;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 55px; }
+    padding: 55px;
+    margin-bottom: 80px; }
     .contacts .feedback-block .feedback-title {
-      width: 438px;
+      width: 45%;
       color: #ffffff;
       font-size: 35px;
       font-weight: 400;
       line-height: 45px; }
     .contacts .feedback-block .feedback-form {
-      width: 580px; }
+      width: 53%; }
       .contacts .feedback-block .feedback-form .feedback {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between; }
+        justify-content: space-between;
+        /* прячем input checkbox */
+        /* стили для метки */
+        /* формируем внешний вид чекбокса в псевдоэлементе before */
+        /* вариации внешнего вида в зависимости от статуса checkbox */
+        /* checked */
+        /* disabled */ }
         .contacts .feedback-block .feedback-form .feedback .input {
           width: 282px;
           height: 55px;
@@ -675,6 +684,33 @@ main section.info {
           color: #89ceff;
           margin-bottom: 18px;
           padding-left: 25px; }
+        .contacts .feedback-block .feedback-form .feedback input[type=checkbox] {
+          display: none; }
+        .contacts .feedback-block .feedback-form .feedback label {
+          color: #ffffff;
+          cursor: default;
+          font-size: 13px;
+          padding: 10px 0;
+          vertical-align: middle; }
+        .contacts .feedback-block .feedback-form .feedback label:before {
+          content: " ";
+          color: #ffffff;
+          display: inline-block;
+          font: 20px/17px Arial;
+          margin-right: 15px;
+          text-align: center;
+          text-indent: 0px;
+          width: 18px;
+          height: 18px;
+          background: #30a6f9;
+          border: 3px solid #89ceff;
+          border-image: initial;
+          vertical-align: middle; }
+        .contacts .feedback-block .feedback-form .feedback input:checked + label:before {
+          content: "x"; }
+        .contacts .feedback-block .feedback-form .feedback input:disabled + label:before {
+          background: #30a6f9;
+          color: #ffffff; }
         .contacts .feedback-block .feedback-form .feedback .button {
           border: 3px solid #ffffff;
           color: #ffffff;
@@ -804,6 +840,33 @@ main section.info {
     main .slide-wraper .owl-nav.container .owl-prev {
       margin-left: -35px; }
     main .slide-wraper .owl-nav.container .owl-next {
-      margin-left: 35px; } }
+      margin-left: 35px; }
+  main .banners .container .banners__item {
+    width: 100%;
+    height: 143px; }
+  main section.section .section__items .section__item,
+  main section.info .container .info__left,
+  main section.info .container .info__right {
+    width: 100%;
+    text-align: center; }
+    main section.section .section__items .section__item h2,
+    main section.info .container .info__left h2,
+    main section.info .container .info__right h2 {
+      line-height: 1.5; }
+    main section.section .section__items .section__item .text,
+    main section.info .container .info__left .text,
+    main section.info .container .info__right .text {
+      margin: 0px 15px;
+      text-align: center; }
+  main .contacts .contacts-block .contacts-row .contacts-item,
+  main .contacts .feedback-block .feedback-form {
+    width: 100%; }
+  main .contacts .feedback-block {
+    padding: 20px; }
+    main .contacts .feedback-block .feedback-title {
+      width: 100%;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

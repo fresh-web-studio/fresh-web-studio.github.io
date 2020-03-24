@@ -236,6 +236,9 @@ td .article__image img {
     h2, h3, h4, h5, h6, h7 {
         text-indent: 0rem;
     }
+    .article__title-h1 {
+        font-size: 20px;
+    }
     ul {
         padding-inline-start: 10px;
     }
