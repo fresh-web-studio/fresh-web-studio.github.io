@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/index.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -84,11 +79,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="238" column="4" lean-forward="true" selection-start-line="238" selection-start-column="4" selection-end-line="238" selection-end-column="4" />
+            <state relative-caret-position="285">
+              <caret line="235" column="28" lean-forward="true" selection-start-line="235" selection-start-column="28" selection-end-line="235" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <folding>
+                <element signature="e#1050#1056#0" expanded="true" />
+                <element signature="e#5863#5869#0" expanded="true" />
+                <element signature="e#6622#6628#0" expanded="true" />
+                <element signature="e#7033#7039#0" expanded="true" />
+                <element signature="e#14089#14095#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="41" selection-start-line="8" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -260,13 +280,13 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/kondensator.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/index — копия.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/index.html" />
         <option value="$PROJECT_DIR$/capital-finance/js/main_slider.js" />
         <option value="$PROJECT_DIR$/capital-finance/css/style.css" />
         <option value="$PROJECT_DIR$/capital-finance/about.html" />
         <option value="$PROJECT_DIR$/capital-finance/index.html" />
         <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/index.html" />
       </list>
     </option>
   </component>
@@ -429,21 +449,7 @@
       <workItem from="1583985920149" duration="57449000" />
       <workItem from="1584211398735" duration="45580000" />
       <workItem from="1584422346813" duration="24797000" />
-      <workItem from="1584511073948" duration="118175000" />
-    </task>
-    <task id="LOCAL-00353" summary="Обновление">
-      <created>1584330726620</created>
-      <option name="number" value="00353" />
-      <option name="presentableId" value="LOCAL-00353" />
-      <option name="project" value="LOCAL" />
-      <updated>1584330726621</updated>
-    </task>
-    <task id="LOCAL-00354" summary="Обновление">
-      <created>1584331648000</created>
-      <option name="number" value="00354" />
-      <option name="presentableId" value="LOCAL-00354" />
-      <option name="project" value="LOCAL" />
-      <updated>1584331648000</updated>
+      <workItem from="1584511073948" duration="118894000" />
     </task>
     <task id="LOCAL-00355" summary="Обновление">
       <created>1584336725062</created>
@@ -774,11 +780,25 @@
       <option name="project" value="LOCAL" />
       <updated>1584983487448</updated>
     </task>
-    <option name="localTasksCounter" value="402" />
+    <task id="LOCAL-00402" summary="Обновление">
+      <created>1585037850104</created>
+      <option name="number" value="00402" />
+      <option name="presentableId" value="LOCAL-00402" />
+      <option name="project" value="LOCAL" />
+      <updated>1585037850109</updated>
+    </task>
+    <task id="LOCAL-00403" summary="Обновление">
+      <created>1585038585388</created>
+      <option name="number" value="00403" />
+      <option name="presentableId" value="LOCAL-00403" />
+      <option name="project" value="LOCAL" />
+      <updated>1585038585389</updated>
+    </task>
+    <option name="localTasksCounter" value="404" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="511617000" />
+    <option name="totallyTimeSpent" value="512336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="497" y="-1411" width="1384" height="1329" extended-state="0" />
@@ -889,9 +909,9 @@
     <MESSAGE value="Обновление Содержания" />
     <MESSAGE value="Обновление главной страницы" />
     <MESSAGE value="Обновление Подвала" />
-    <MESSAGE value="Обновление" />
     <MESSAGE value="Обновление Слайдера и ссылок кнопок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновление Слайдера и ссылок кнопок" />
+    <MESSAGE value="Обновление" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/capital-finance/owlcarousel/assets/owl.carousel.min.css">
@@ -1124,13 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="319" column="26" lean-forward="true" selection-start-line="319" selection-start-column="26" selection-end-line="319" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/прямоходовый.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1177,35 +1190,10 @@
     <entry file="file://$PROJECT_DIR$/capital-finance/owlcarousel/assets/owl.video.play.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="366" lean-forward="true" selection-start-line="366" selection-end-line="366" />
-          <folding>
-            <element signature="e#1050#1056#0" expanded="true" />
-            <element signature="e#5863#5869#0" expanded="true" />
-            <element signature="e#6622#6628#0" expanded="true" />
-            <element signature="e#7033#7039#0" expanded="true" />
-            <element signature="e#14089#14095#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="683" selection-start-line="683" selection-end-line="683" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="378" column="14" lean-forward="true" selection-start-line="378" selection-start-column="14" selection-end-line="378" selection-end-column="14" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,8 +1216,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="238" column="4" lean-forward="true" selection-start-line="238" selection-start-column="4" selection-end-line="238" selection-end-column="4" />
+        <state relative-caret-position="285">
+          <caret line="235" column="28" lean-forward="true" selection-start-line="235" selection-start-column="28" selection-end-line="235" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="378" column="14" lean-forward="true" selection-start-line="378" selection-start-column="14" selection-end-line="378" selection-end-column="14" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/igbt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="41" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#1050#1056#0" expanded="true" />
+            <element signature="e#5863#5869#0" expanded="true" />
+            <element signature="e#6622#6628#0" expanded="true" />
+            <element signature="e#7033#7039#0" expanded="true" />
+            <element signature="e#14089#14095#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
