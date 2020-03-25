@@ -78,8 +78,8 @@ body {
   border-left: 0;
   height: 90px;
   display: flex;
-  align-items: center
-
+  align-items: center;
+  font-weight: 900;
 }
 
 .right_box p {
@@ -139,6 +139,7 @@ body {
   height: 90px;
   padding: 5px;
   float: left;
+  font-weight: 900;
 }
 
 .left_box2 img, .left_box3 img {
