@@ -809,12 +809,31 @@ main section.partners .container .btn {
     color: #ffffff;
     border: 1px #30a6f9 solid; }
 main .contact-map .korpus0 {
-  position: relative; }
+  position: relative;
+  margin-bottom: 70px; }
   main .contact-map .korpus0 .office-adress:before {
     content: "";
     position: absolute;
     display: block;
     background: url(../img/place.png);
+    height: 24px;
+    width: 28px;
+    left: 0px;
+    top: 3px; }
+  main .contact-map .korpus0 .office-tel:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: url(../img/app.png);
+    height: 24px;
+    width: 28px;
+    left: 0px;
+    top: 3px; }
+  main .contact-map .korpus0 .office-partner:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: url(../img/mail.png);
     height: 24px;
     width: 28px;
     left: 0px;
@@ -836,22 +855,59 @@ main .contact-map .korpus0 label {
   cursor: pointer;
   padding-left: 35px; }
 main .contact-map .korpus0 label:nth-of-type(2) {
-  top: 58px;
+  top: 78px;
   /* 57px + 1px border */ }
 main .contact-map .korpus0 label:nth-of-type(3) {
-  top: 116px;
-  /* 57px + 1px border первой вкладки + 1px border второй вкладки */ }
+  top: 186px;
+  /* 57px + 1px border первой вкладки + 1px border второй вкладки */
+  cursor: auto; }
+  main .contact-map .korpus0 label:nth-of-type(3) .tel {
+    font-size: 23px; }
+main .contact-map .korpus0 label:nth-of-type(4) {
+  top: 264px;
+  cursor: auto; }
+main .contact-map .korpus0 label:nth-of-type(5) {
+  top: 342px;
+  cursor: auto; }
+main .contact-map .korpus0 label:nth-of-type(6) {
+  top: 498px;
+  left: -35px;
+  cursor: pointer; }
+  main .contact-map .korpus0 label:nth-of-type(6) .btn button {
+    font-size: 14px;
+    height: 48px;
+    padding: 0px 50px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: #30a6f9;
+    color: #ffffff;
+    border: 1px #30a6f9 solid; }
+  main .contact-map .korpus0 label:nth-of-type(6) .btn button:hover {
+    background-color: #0688fa;
+    color: #ffffff;
+    border: 1px #30a6f9 solid; }
 main .contact-map .korpus0 input[type="radio"]:checked + label {
   background-color: #f7f7f7;
   padding-left: 50px; }
 main .contact-map .korpus0 > input:nth-of-type(1):checked ~ div:nth-of-type(1),
 main .contact-map .korpus0 > input:nth-of-type(2):checked ~ div:nth-of-type(2),
-main .contact-map .korpus0 > input:nth-of-type(2):checked ~ div:nth-of-type(3) {
+main .contact-map .korpus0 > input:nth-of-type(3):checked ~ div:nth-of-type(3) {
   display: block;
   margin: 1px 5px 1px 437px; }
 main .contact-map .korpus0 .map {
   padding: 17px;
   background-color: #f7f7f7; }
+main .contact-map .korpus0 .header {
+  font-weight: 700; }
+main .contact-map .korpus0 a {
+  color: #222222;
+  text-decoration: none; }
+main .contact-map .korpus0 a:hover {
+  color: #909090;
+  text-decoration: none; }
+main .contact-map .korpus0 img.line {
+  top: 160px;
+  position: absolute; }
 
 @media all and (max-width: 765px) {
   header {
