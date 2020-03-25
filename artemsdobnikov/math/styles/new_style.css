@@ -155,7 +155,7 @@ figcaption {
 
 ul.article__list,
 ol.article__list {
-    font-size: 1.25rem;
+    font-size: 16px;
     padding-left: 5rem;
 }
 
@@ -238,6 +238,12 @@ td .article__image img {
     }
     .article__title-h1 {
         font-size: 20px;
+    }
+    ul.article__list {
+        padding-left: 0px;
+    }
+    ol.article__list {
+        padding-left: 20px;
     }
     .title {
         padding-right: 47px;
