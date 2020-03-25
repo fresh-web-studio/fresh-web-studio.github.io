@@ -597,165 +597,181 @@ main section.info {
 
 .contacts {
   background-color: #f8f8f8; }
-  .contacts .contacts-title {
-    color: #454545;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 21px;
-    padding-top: 65px;
-    margin-bottom: 60px;
-    text-align: center; }
-  .contacts .contacts-block {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 40px; }
-    .contacts .contacts-block .contacts-row {
-      width: 48%;
-      background-color: #ffffff; }
-      .contacts .contacts-block .contacts-row .item-title {
-        width: 100%;
-        color: #454545;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 21px;
-        text-align: center;
-        padding-top: 40px; }
-        .contacts .contacts-block .contacts-row .item-title::after {
-          content: '__';
-          width: 19px;
-          height: 1px;
-          color: #868686; }
-      .contacts .contacts-block .contacts-row .contacts-item {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 40px 0px; }
-        .contacts .contacts-block .contacts-row .contacts-item .item {
-          width: 30%;
+  .contacts .container {
+    padding-bottom: 80px; }
+    .contacts .container .contacts-title {
+      color: #454545;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 21px;
+      padding-top: 65px;
+      margin-bottom: 60px;
+      text-align: center; }
+    .contacts .container .contacts-block {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 40px; }
+      .contacts .container .contacts-block .contacts-row {
+        width: 48%;
+        background-color: #ffffff; }
+        .contacts .container .contacts-block .contacts-row .item-title {
+          width: 100%;
+          color: #454545;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 21px;
+          text-align: center;
+          padding-top: 40px; }
+          .contacts .container .contacts-block .contacts-row .item-title::after {
+            content: '__';
+            width: 19px;
+            height: 1px;
+            color: #868686; }
+        .contacts .container .contacts-block .contacts-row .contacts-item {
           display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center; }
-          .contacts .contacts-block .contacts-row .contacts-item .item .contacts-link {
-            text-decoration: none;
-            color: #454545;
+          justify-content: center;
+          flex-wrap: wrap;
+          padding: 40px 0px; }
+          .contacts .container .contacts-block .contacts-row .contacts-item .item {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center; }
+            .contacts .container .contacts-block .contacts-row .contacts-item .item .contacts-link {
+              text-decoration: none;
+              color: #454545;
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 34px; }
+            .contacts .container .contacts-block .contacts-row .contacts-item .item .adres-text {
+              color: #454545;
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 1.4; }
+    .contacts .container .feedback-block {
+      background-color: #30a6f9;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 55px; }
+      .contacts .container .feedback-block .feedback-title {
+        width: 45%;
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 45px; }
+      .contacts .container .feedback-block .feedback-form {
+        width: 53%; }
+        .contacts .container .feedback-block .feedback-form .feedback {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          /* прячем input checkbox */
+          /* стили для метки */
+          /* формируем внешний вид чекбокса в псевдоэлементе before */
+          /* вариации внешнего вида в зависимости от статуса checkbox */
+          /* checked */
+          /* disabled */ }
+          .contacts .container .feedback-block .feedback-form .feedback .input {
+            width: 282px;
+            height: 55px;
+            border: 3px solid #89ceff;
+            box-sizing: border-box;
+            background-color: #30a6f9;
+            color: #ffffff;
+            margin-bottom: 18px;
+            padding-left: 25px; }
+          .contacts .container .feedback-block .feedback-form .feedback .input::placeholder {
+            color: #89ceff; }
+          .contacts .container .feedback-block .feedback-form .feedback input[type=checkbox] {
+            display: none; }
+          .contacts .container .feedback-block .feedback-form .feedback label {
+            color: #ffffff;
+            cursor: default;
             font-size: 13px;
-            font-weight: 400;
-            line-height: 34px; }
-          .contacts .contacts-block .contacts-row .contacts-item .item .adres-text {
-            color: #454545;
-            font-size: 13px;
-            font-weight: 400;
-            line-height: 1.4; }
-  .contacts .feedback-block {
-    background-color: #30a6f9;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 55px;
-    margin-bottom: 80px; }
-    .contacts .feedback-block .feedback-title {
-      width: 45%;
-      color: #ffffff;
-      font-size: 35px;
-      font-weight: 400;
-      line-height: 45px; }
-    .contacts .feedback-block .feedback-form {
-      width: 53%; }
-      .contacts .feedback-block .feedback-form .feedback {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        /* прячем input checkbox */
-        /* стили для метки */
-        /* формируем внешний вид чекбокса в псевдоэлементе before */
-        /* вариации внешнего вида в зависимости от статуса checkbox */
-        /* checked */
-        /* disabled */ }
-        .contacts .feedback-block .feedback-form .feedback .input {
-          width: 282px;
-          height: 55px;
-          border: 3px solid #89ceff;
-          box-sizing: border-box;
-          background-color: #30a6f9;
-          color: #ffffff;
-          margin-bottom: 18px;
-          padding-left: 25px; }
-        .contacts .feedback-block .feedback-form .feedback .input::placeholder {
-          color: #89ceff; }
-        .contacts .feedback-block .feedback-form .feedback input[type=checkbox] {
-          display: none; }
-        .contacts .feedback-block .feedback-form .feedback label {
-          color: #ffffff;
-          cursor: default;
-          font-size: 13px;
-          padding: 10px 0;
-          vertical-align: middle; }
-        .contacts .feedback-block .feedback-form .feedback label:before {
-          content: " ";
-          color: #ffffff;
-          display: inline-block;
-          font: 20px/17px Arial;
-          margin-right: 15px;
-          text-align: center;
-          text-indent: 0px;
-          width: 18px;
-          height: 18px;
-          background: #30a6f9;
-          border: 3px solid #89ceff;
-          border-image: initial;
-          vertical-align: middle; }
-        .contacts .feedback-block .feedback-form .feedback input:checked + label:before {
-          content: "x"; }
-        .contacts .feedback-block .feedback-form .feedback input:disabled + label:before {
-          background: #30a6f9;
-          color: #ffffff; }
-        .contacts .feedback-block .feedback-form .feedback .button {
-          border: 3px solid #ffffff;
-          color: #ffffff;
-          text-align: center;
-          padding: 0; }
+            padding: 10px 0;
+            vertical-align: middle; }
+          .contacts .container .feedback-block .feedback-form .feedback label:before {
+            content: " ";
+            color: #ffffff;
+            display: inline-block;
+            font: 20px/17px Arial;
+            margin-right: 15px;
+            text-align: center;
+            text-indent: 0px;
+            width: 18px;
+            height: 18px;
+            background: #30a6f9;
+            border: 3px solid #89ceff;
+            border-image: initial;
+            vertical-align: middle; }
+          .contacts .container .feedback-block .feedback-form .feedback input:checked + label:before {
+            content: "x"; }
+          .contacts .container .feedback-block .feedback-form .feedback input:disabled + label:before {
+            background: #30a6f9;
+            color: #ffffff; }
+          .contacts .container .feedback-block .feedback-form .feedback .button {
+            border: 3px solid #ffffff;
+            color: #ffffff;
+            text-align: center;
+            padding: 0; }
 
-main section.numbers1 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-  main section.numbers1 .container .nambers__col-text {
-    width: 50%;
-    max-width: 600px;
-    background-color: #071d2a;
-    color: #ffffff;
-    z-index: 2;
-    position: absolute; }
-  main section.numbers1 .container .nambers__col-text:after {
-    width: 3000px;
-    background-color: #071d2a;
-    content: '';
-    position: absolute;
-    height: 100%;
-    left: -3000px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1; }
-  main section.numbers1 .container .nambers__col-number {
-    width: 50%;
-    max-width: 600px; }
+main .bgc-none {
+  background-color: #ffffff; }
 main section.numbers .container .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
-  main section.numbers .container .row .nambers__col-text .section-aside {
-    right: 0; }
-    main section.numbers .container .row .nambers__col-text .section-aside .section-bordered-inside {
-      background-color: #071d2a;
+  justify-content: space-between;
+  margin-bottom: 80px; }
+  main section.numbers .container .row .nambers__col-text {
+    position: relative;
+    max-width: 50%;
+    background-color: #071d2a;
+    color: #ffffff; }
+    main section.numbers .container .row .nambers__col-text .section-aside {
+      right: 0;
+      position: absolute;
+      width: 50vw;
+      top: 0;
+      bottom: 0; }
+      main section.numbers .container .row .nambers__col-text .section-aside .section-bordered-inside {
+        background-color: #071d2a;
+        position: relative;
+        width: 100%;
+        height: 100%; }
+    main section.numbers .container .row .nambers__col-text .section-aside-body {
       position: relative;
-      width: 100%;
-      height: 100%; }
+      margin: 80px 44px 80px 0px; }
+      main section.numbers .container .row .nambers__col-text .section-aside-body h3 {
+        font-size: 49px;
+        color: white;
+        font-weight: bold;
+        line-height: 1.224; }
+      main section.numbers .container .row .nambers__col-text .section-aside-body .text {
+        font-size: 15px;
+        color: white;
+        line-height: 1.667; }
   main section.numbers .container .row .nambers__col-number {
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
-    max-width: 600px; }
+    max-width: 600px;
+    margin: 60px 0px; }
+    main section.numbers .container .row .nambers__col-number .item {
+      margin-left: 100px;
+      width: 170px; }
+      main section.numbers .container .row .nambers__col-number .item .item__number {
+        font-size: 86px;
+        color: #071d2a;
+        font-weight: bold;
+        margin-top: 10px; }
+      main section.numbers .container .row .nambers__col-number .item .item__text {
+        font-size: 15px;
+        color: #071d2a;
+        line-height: 1.6; }
 
 @media all and (max-width: 765px) {
   header {
@@ -859,6 +875,12 @@ main section.numbers .container .row {
     footer .row .row__mail, footer .row .row__tel, footer .row .row__btn {
       display: none; }
 
+  main .heading {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px; }
+    main .heading .heading-text {
+      width: 85%; }
   main .slide-wraper .slide-item .slide-item__header {
     padding: 30px 10px 20px 10px;
     width: 94%;
@@ -900,32 +922,54 @@ main section.numbers .container .row {
     main section.info .container .info__right .text {
       margin: 0px 15px;
       text-align: center; }
-  main .contacts .contacts-block .contacts-row .contacts-item,
-  main .contacts .feedback-block .feedback-form {
-    width: 100%; }
-  main .contacts .contacts-block {
+  main section.section .section__items {
     margin-bottom: 0px; }
-    main .contacts .contacts-block .contacts-row {
-      width: 100%; }
-      main .contacts .contacts-block .contacts-row .contacts-item {
-        padding: 20px 0px; }
-        main .contacts .contacts-block .contacts-row .contacts-item .item {
-          width: 100%;
-          padding-bottom: 20px; }
-          main .contacts .contacts-block .contacts-row .contacts-item .item .adres-text {
-            line-height: 3; }
-  main .contacts .feedback-block {
+  main .contacts .container .contacts-block .contacts-row .contacts-item,
+  main .contacts .container .feedback-block .feedback-form {
+    width: 100%; }
+  main .contacts .container {
+    padding-bottom: 0px; }
+    main .contacts .container .contacts-block {
+      margin-bottom: 0px; }
+      main .contacts .container .contacts-block .contacts-row {
+        width: 100%; }
+        main .contacts .container .contacts-block .contacts-row .contacts-item {
+          padding: 20px 0px; }
+          main .contacts .container .contacts-block .contacts-row .contacts-item .item {
+            width: 100%;
+            padding-bottom: 20px; }
+            main .contacts .container .contacts-block .contacts-row .contacts-item .item .adres-text {
+              line-height: 3; }
+  main .contacts .container .feedback-block {
     padding: 40px 20px;
     margin-bottom: 0px; }
-    main .contacts .feedback-block .feedback-title {
+    main .contacts .container .feedback-block .feedback-title {
       width: 100%;
       font-size: 20px;
       line-height: 23px;
       text-align: center;
       margin-bottom: 20px; }
-    main .contacts .feedback-block .feedback-form .feedback .input {
+    main .contacts .container .feedback-block .feedback-form .feedback .input {
       width: 100%; }
-    main .contacts .feedback-block .feedback-form .feedback label {
-      line-height: 3; } }
+    main .contacts .container .feedback-block .feedback-form .feedback label {
+      line-height: 3; }
+  main section.numbers .container .row {
+    margin-bottom: 0px; }
+    main section.numbers .container .row .nambers__col-text {
+      max-width: 100%; }
+      main section.numbers .container .row .nambers__col-text .section-aside-body {
+        margin: 80px 20px; }
+        main section.numbers .container .row .nambers__col-text .section-aside-body h3 {
+          font-size: 22px; }
+        main section.numbers .container .row .nambers__col-text .section-aside-body .text {
+          margin-top: 10px; }
+    main section.numbers .container .row .nambers__col-number {
+      width: 100%;
+      text-align: center; }
+      main section.numbers .container .row .nambers__col-number .item {
+        width: 100%;
+        margin: 20px; }
+        main section.numbers .container .row .nambers__col-number .item .item__text {
+          font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */
