@@ -239,6 +239,14 @@ td .article__image img {
     .article__title-h1 {
         font-size: 20px;
     }
+    .title {
+        padding-right: 47px;
+        font-size: 16px;
+    }
+    .row {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
     ul {
         padding-inline-start: 10px;
     }
