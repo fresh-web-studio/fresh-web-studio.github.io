@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/img/mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/img/mail.png" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -70,17 +74,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/training.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
+            <state relative-caret-position="862">
+              <caret line="105" column="14" selection-start-line="83" selection-start-column="8" selection-end-line="105" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="130" column="338" selection-start-line="130" selection-start-column="338" selection-end-line="130" selection-end-column="338" />
+            <state relative-caret-position="-1100">
+              <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -88,17 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="608" column="23" lean-forward="true" selection-start-line="608" selection-start-column="23" selection-end-line="608" selection-end-column="23" />
+            <state relative-caret-position="254">
+              <caret line="1099" selection-start-line="1099" selection-end-line="1099" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+            <state relative-caret-position="635">
+              <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -258,12 +262,12 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/index.html" />
         <option value="$PROJECT_DIR$/capital-finance/index.html" />
-        <option value="$PROJECT_DIR$/capital-finance/contacts.html" />
-        <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
         <option value="$PROJECT_DIR$/capital-finance/analytics.html" />
         <option value="$PROJECT_DIR$/capital-finance/partners.html" />
         <option value="$PROJECT_DIR$/capital-finance/training.html" />
         <option value="$PROJECT_DIR$/capital-finance/about.html" />
+        <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
+        <option value="$PROJECT_DIR$/capital-finance/contacts.html" />
       </list>
     </option>
   </component>
@@ -274,9 +278,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="543" />
+    <option name="x" value="614" />
     <option name="y" value="-1417" />
-    <option name="width" value="1337" />
+    <option name="width" value="1266" />
     <option name="height" value="1329" />
   </component>
   <component name="ProjectView">
@@ -301,6 +305,12 @@
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="capital-finance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="capital-finance" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,21 +398,7 @@
       <workItem from="1584211398735" duration="45580000" />
       <workItem from="1584422346813" duration="24797000" />
       <workItem from="1584511073948" duration="124389000" />
-      <workItem from="1585061806513" duration="29956000" />
-    </task>
-    <task id="LOCAL-00376" summary="Переименовал index.html на about.html, добавил psd макет с папкой psd.">
-      <created>1584610156242</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
-      <option name="project" value="LOCAL" />
-      <updated>1584610156243</updated>
-    </task>
-    <task id="LOCAL-00377" summary="Переименовал index.html на about.html, добавил psd макет с папкой psd.">
-      <created>1584611829503</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
-      <option name="project" value="LOCAL" />
-      <updated>1584611829504</updated>
+      <workItem from="1585061806513" duration="35793000" />
     </task>
     <task id="LOCAL-00378" summary="Исправил psd макеты.&#10;Заменил текст  О компании и убоал &quot;более 20 лет&quot;">
       <created>1584612409235</created>
@@ -733,17 +729,31 @@
       <option name="project" value="LOCAL" />
       <updated>1585158287213</updated>
     </task>
-    <option name="localTasksCounter" value="425" />
+    <task id="LOCAL-00425" summary="Обновление">
+      <created>1585158377023</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
+      <option name="project" value="LOCAL" />
+      <updated>1585158377023</updated>
+    </task>
+    <task id="LOCAL-00426" summary="Обновление">
+      <created>1585158412119</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
+      <option name="project" value="LOCAL" />
+      <updated>1585158412119</updated>
+    </task>
+    <option name="localTasksCounter" value="427" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="547787000" />
+    <option name="totallyTimeSpent" value="553624000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="543" y="-1417" width="1337" height="1329" extended-state="0" />
+    <frame x="614" y="-1417" width="1266" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.23501946" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.23476112" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -878,9 +888,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/прямоходовый.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/косой полумост.PNG" />
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/image/шим-контроллеры.PNG">
       <provider selected="true" editor-type-id="images" />
@@ -1149,17 +1156,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/capital-finance/training.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="608" column="23" lean-forward="true" selection-start-line="608" selection-start-column="23" selection-end-line="608" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+        <state relative-caret-position="862">
+          <caret line="105" column="14" selection-start-line="83" selection-start-column="8" selection-end-line="105" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1177,17 +1177,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/training.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/capital-finance/img/place.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="130" column="338" selection-start-line="130" selection-start-column="338" selection-end-line="130" selection-end-column="338" />
+        <state relative-caret-position="-1100">
+          <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="1099" selection-start-line="1099" selection-end-line="1099" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
         </state>
       </provider>
     </entry>
