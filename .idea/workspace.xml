@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+            <state relative-caret-position="160">
+              <caret line="140" column="63" selection-start-line="140" selection-start-column="63" selection-end-line="140" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -82,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+            <state relative-caret-position="268">
+              <caret line="156" column="19" lean-forward="true" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -132,8 +132,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>прям</find>
-      <find>igb</find>
       <find>-тран</find>
       <find>карту</find>
       <find>кон</find>
@@ -162,6 +160,8 @@
       <find>style=&quot;max-width: 630px;&quot;</find>
       <find>IGBT-транзисторы</find>
       <find>.heading-text</find>
+      <find>font-weight: 900;</find>
+      <find>font-weight: 900</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -425,21 +425,7 @@
       <workItem from="1584211398735" duration="45580000" />
       <workItem from="1584422346813" duration="24797000" />
       <workItem from="1584511073948" duration="124389000" />
-      <workItem from="1585061806513" duration="20063000" />
-    </task>
-    <task id="LOCAL-00364" summary="Обновление">
-      <created>1584473452322</created>
-      <option name="number" value="00364" />
-      <option name="presentableId" value="LOCAL-00364" />
-      <option name="project" value="LOCAL" />
-      <updated>1584473452323</updated>
-    </task>
-    <task id="LOCAL-00365" summary="Обновление">
-      <created>1584474330760</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1584474330760</updated>
+      <workItem from="1585061806513" duration="20641000" />
     </task>
     <task id="LOCAL-00366" summary="Обновление">
       <created>1584505640233</created>
@@ -770,11 +756,25 @@
       <option name="project" value="LOCAL" />
       <updated>1585141519104</updated>
     </task>
-    <option name="localTasksCounter" value="413" />
+    <task id="LOCAL-00413" summary="Обновление">
+      <created>1585142577184</created>
+      <option name="number" value="00413" />
+      <option name="presentableId" value="LOCAL-00413" />
+      <option name="project" value="LOCAL" />
+      <updated>1585142577184</updated>
+    </task>
+    <task id="LOCAL-00414" summary="Обновление">
+      <created>1585143412942</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1585143412942</updated>
+    </task>
+    <option name="localTasksCounter" value="415" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="537894000" />
+    <option name="totallyTimeSpent" value="538472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="606" y="-1417" width="1274" height="1080" extended-state="0" />
@@ -1227,15 +1227,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="160">
+          <caret line="140" column="63" selection-start-line="140" selection-start-column="63" selection-end-line="140" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+        <state relative-caret-position="268">
+          <caret line="156" column="19" lean-forward="true" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
         </state>
       </provider>
     </entry>
