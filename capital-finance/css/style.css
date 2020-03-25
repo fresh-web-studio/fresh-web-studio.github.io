@@ -772,6 +772,19 @@ main section.numbers .container .row {
         font-size: 15px;
         color: #071d2a;
         line-height: 1.6; }
+main section.partners .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  main section.partners .container .partners__item {
+    display: flex;
+    width: 220px;
+    height: 136px;
+    border: solid 1px #f0f0f0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px; }
 
 @media all and (max-width: 765px) {
   header {
