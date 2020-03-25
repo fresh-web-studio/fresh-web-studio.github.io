@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/artemsdobnikov/math/bipolar-transistors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/bipolar-transistors.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/bipolar-transistors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -82,20 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="123" column="88" selection-start-line="123" selection-start-column="77" selection-end-line="123" selection-end-column="88" />
+            <state relative-caret-position="230">
+              <caret line="137" column="46" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/bipolar-transistors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="220">
+              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+              <folding>
+                <element signature="e#13800#13825#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/boost-converter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="39" selection-start-line="9" selection-end-line="10" />
+            <state relative-caret-position="347">
+              <caret line="117" column="51" lean-forward="true" selection-start-line="117" selection-start-column="51" selection-end-line="117" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -162,8 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>одно</find>
-      <find>мосто</find>
       <find>интегр</find>
       <find>пол</find>
       <find>прям</find>
@@ -192,6 +191,8 @@
       <find>sectionabout</find>
       <find>.heading-text</find>
       <find>транзисторы</find>
+      <find>&lt;/figcaption&gt;</find>
+      <find>&lt;/h2&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -199,7 +200,6 @@
       <replace>gif&quot; alt=&quot;Формула&quot;</replace>
       <replace>png&quot; alt=&quot;Формула&quot;</replace>
       <replace>&lt;p&gt;</replace>
-      <replace>&lt;/p&gt;</replace>
       <replace>&lt;/span&gt;</replace>
       <replace>-</replace>
       <replace>&lt;table class=&quot;article__table&quot;&gt;</replace>
@@ -210,7 +210,6 @@
       <replace>MsoTableTheme</replace>
       <replace>article__image</replace>
       <replace>&lt;p&gt;&lt;h4</replace>
-      <replace>&lt;/h4&gt;</replace>
       <replace>&lt;/h5&gt;</replace>
       <replace>&lt;/h6&gt;</replace>
       <replace>&gt;</replace>
@@ -218,6 +217,8 @@
       <replace>и&amp;nbsp;</replace>
       <replace>с&amp;nbsp;</replace>
       <replace>section</replace>
+      <replace>&lt;/p&gt;</replace>
+      <replace>&lt;/h4&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/panorama</dir>
@@ -290,8 +291,8 @@
         <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/new_style.css" />
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/index.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/bipolar-transistors.html" />
+        <option value="$PROJECT_DIR$/artemsdobnikov/math/index.html" />
       </list>
     </option>
   </component>
@@ -302,9 +303,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="597" />
+    <option name="x" value="606" />
     <option name="y" value="-1417" />
-    <option name="width" value="1283" />
+    <option name="width" value="1274" />
     <option name="height" value="1329" />
   </component>
   <component name="ProjectView">
@@ -330,6 +331,13 @@
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
               <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -392,10 +400,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artemsdobnikov/math/image" />
       <recent name="$PROJECT_DIR$/artemsdobnikov/math" />
       <recent name="$PROJECT_DIR$/artemsdobnikov/math/styles" />
       <recent name="$PROJECT_DIR$/capital-finance/owlcrousel" />
-      <recent name="$PROJECT_DIR$/artemsdobnikov/math/image" />
       <recent name="$PROJECT_DIR$/base/csys/banners/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -455,14 +463,7 @@
       <workItem from="1584211398735" duration="45580000" />
       <workItem from="1584422346813" duration="24797000" />
       <workItem from="1584511073948" duration="124389000" />
-      <workItem from="1585061806513" duration="16813000" />
-    </task>
-    <task id="LOCAL-00361" summary="Обновление">
-      <created>1584466866478</created>
-      <option name="number" value="00361" />
-      <option name="presentableId" value="LOCAL-00361" />
-      <option name="project" value="LOCAL" />
-      <updated>1584466866478</updated>
+      <workItem from="1585061806513" duration="18511000" />
     </task>
     <task id="LOCAL-00362" summary="Обновление">
       <created>1584469317697</created>
@@ -800,17 +801,24 @@
       <option name="project" value="LOCAL" />
       <updated>1585132967443</updated>
     </task>
-    <option name="localTasksCounter" value="410" />
+    <task id="LOCAL-00410" summary="Обновление">
+      <created>1585133615911</created>
+      <option name="number" value="00410" />
+      <option name="presentableId" value="LOCAL-00410" />
+      <option name="project" value="LOCAL" />
+      <updated>1585133615911</updated>
+    </task>
+    <option name="localTasksCounter" value="411" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="534644000" />
+    <option name="totallyTimeSpent" value="536342000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="597" y="-1417" width="1283" height="1329" extended-state="0" />
+    <frame x="606" y="-1417" width="1274" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.23639318" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.23567921" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1248,24 +1256,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="123" column="88" selection-start-line="123" selection-start-column="77" selection-end-line="123" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/boost-converter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="39" selection-start-line="9" selection-end-line="10" />
+        <state relative-caret-position="347">
+          <caret line="117" column="51" lean-forward="true" selection-start-line="117" selection-start-column="51" selection-end-line="117" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/bipolar-transistors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="220">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+          <folding>
+            <element signature="e#13800#13825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artemsdobnikov/math/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="137" column="46" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
         </state>
       </provider>
     </entry>
