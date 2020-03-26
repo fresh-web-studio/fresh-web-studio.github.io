@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/capital-finance/img/left-arrow-o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capital-finance/img/right-arrow-o.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/analytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/partners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/training.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/training.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -84,20 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="138" column="26" lean-forward="true" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
+            <state relative-caret-position="281">
+              <caret line="173" column="21" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="1601" column="18" selection-start-line="1601" selection-start-column="18" selection-end-line="1601" selection-end-column="18" />
+            <state relative-caret-position="395">
+              <caret line="1607" column="24" lean-forward="true" selection-start-line="1607" selection-start-column="24" selection-end-line="1607" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -145,8 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Выпрямители</find>
-      <find>&lt;a href=&quot;rezistori.html&quot;&gt;Резисторы&lt;/a&gt;</find>
       <find>&lt;a href=&quot;stabilitrony.html&quot;&gt;Стабилитроны&lt;/a&gt;</find>
       <find>&lt;a href=&quot;tiristori.html&quot;&gt;Тиристоры&lt;/a&gt;</find>
       <find>&lt;a href=&quot;transformator.html&quot;&gt;Трансформатор&lt;/a&gt;</find>
@@ -175,6 +167,8 @@
       <find>heading</find>
       <find>last-of-type</find>
       <find>learn-start</find>
+      <find>.advantages-block</find>
+      <find>-arrow</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -273,8 +267,8 @@
         <option value="$PROJECT_DIR$/capital-finance/analytics.html" />
         <option value="$PROJECT_DIR$/capital-finance/contacts.html" />
         <option value="$PROJECT_DIR$/capital-finance/partners.html" />
-        <option value="$PROJECT_DIR$/capital-finance/about.html" />
         <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
+        <option value="$PROJECT_DIR$/capital-finance/about.html" />
       </list>
     </option>
   </component>
@@ -335,17 +329,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/artemsdobnikov/math/image" />
-      <recent name="$PROJECT_DIR$/artemsdobnikov/math" />
-      <recent name="$PROJECT_DIR$/artemsdobnikov/math/styles" />
-      <recent name="$PROJECT_DIR$/capital-finance/owlcrousel" />
-      <recent name="$PROJECT_DIR$/base/csys/banners/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/base/csys/banners/img" />
       <recent name="$PROJECT_DIR$/artemsdobnikov/math/image" />
       <recent name="$PROJECT_DIR$/jpizza/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/capital-finance/img" />
+      <recent name="$PROJECT_DIR$/artemsdobnikov/math/image" />
+      <recent name="$PROJECT_DIR$/artemsdobnikov/math" />
+      <recent name="$PROJECT_DIR$/artemsdobnikov/math/styles" />
+      <recent name="$PROJECT_DIR$/capital-finance/owlcrousel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -401,14 +395,7 @@
       <workItem from="1584511073948" duration="124389000" />
       <workItem from="1585061806513" duration="52022000" />
       <workItem from="1585237326389" duration="195000" />
-      <workItem from="1585238624108" duration="10129000" />
-    </task>
-    <task id="LOCAL-00387" summary="Обновление шапки">
-      <created>1584689084617</created>
-      <option name="number" value="00387" />
-      <option name="presentableId" value="LOCAL-00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1584689084617</updated>
+      <workItem from="1585238624108" duration="10801000" />
     </task>
     <task id="LOCAL-00388" summary="Обновление шапки">
       <created>1584712904523</created>
@@ -746,17 +733,24 @@
       <option name="project" value="LOCAL" />
       <updated>1585249517574</updated>
     </task>
-    <option name="localTasksCounter" value="436" />
+    <task id="LOCAL-00436" summary="Обновление">
+      <created>1585250562139</created>
+      <option name="number" value="00436" />
+      <option name="presentableId" value="LOCAL-00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1585250562139</updated>
+    </task>
+    <option name="localTasksCounter" value="437" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="580177000" />
+    <option name="totallyTimeSpent" value="580849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="622" y="-1414" width="1266" height="1296" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.23476112" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.23476112" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1191,17 +1185,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
+    <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="138" column="26" lean-forward="true" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
+        <state relative-caret-position="395">
+          <caret line="1607" column="24" lean-forward="true" selection-start-line="1607" selection-start-column="24" selection-end-line="1607" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="1601" column="18" selection-start-line="1601" selection-start-column="18" selection-end-line="1601" selection-end-column="18" />
+        <state relative-caret-position="281">
+          <caret line="173" column="21" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="21" />
         </state>
       </provider>
     </entry>
