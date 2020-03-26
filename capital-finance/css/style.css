@@ -495,6 +495,7 @@ main section.info {
   margin-bottom: 85px; }
   .about .about-block {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between; }
     .about .about-block .about-description {
       width: 50%; }
@@ -533,6 +534,7 @@ main section.info {
   margin-bottom: 75px; }
   .advantages .advantages-block {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between; }
     .advantages .advantages-block .advantages-item {
       display: flex;
@@ -1173,6 +1175,20 @@ main .analytics .container.grey .row {
       text-align: center; }
     footer .row .row__mail, footer .row .row__tel, footer .row .row__btn {
       display: none; }
+
+  .about .about-block .about-description {
+    width: 100%;
+    padding: 0px 20px; }
+    .about .about-block .about-description .about-title {
+      width: 100%;
+      font-size: 32px;
+      line-height: 45px; }
+  .about .about-block .about-description-img img {
+    width: 100%;
+    margin: 10px 0px; }
+
+  .advantages .advantages-block .advantages-item {
+    width: 100%; }
 
   main .heading {
     width: 100%;
