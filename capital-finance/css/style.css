@@ -1180,6 +1180,8 @@ main .analytics .container.grey .row {
     padding-bottom: 30px; }
     main .heading .name .heading-text {
       width: 85%; }
+  main .analytics .container .row .btn button {
+    font-size: 14px; }
   main .analytics .container .row .news {
     text-align: center; }
     main .analytics .container .row .news h2 {
@@ -1315,5 +1317,9 @@ main .analytics .container.grey .row {
       width: 180px; }
       main section.partners .container .partners__items .partners__item img {
         zoom: .8; } }
+@media all and (max-width: 320px) {
+  main .analytics .container.grey .row .table .resp-tab th,
+  main .analytics .container.grey .row .table .resp-tab td {
+    font-size: 6px; } }
 
 /*# sourceMappingURL=style.css.map */
