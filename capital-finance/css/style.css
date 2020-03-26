@@ -908,6 +908,108 @@ main .contact-map .korpus0 a:hover {
 main .contact-map .korpus0 img.line {
   top: 160px;
   position: absolute; }
+main .analytics .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  main .analytics .container .row .news {
+    width: 741px;
+    outline: solid 1px #f0f0f0;
+    padding: 35px; }
+    main .analytics .container .row .news h2 {
+      font-size: 30px;
+      color: #4a4a4a;
+      line-height: 0.767;
+      text-align: left; }
+    main .analytics .container .row .news .info {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #4a4a4a; }
+    main .analytics .container .row .news .news-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      main .analytics .container .row .news .news-list .new {
+        width: 30%;
+        margin-top: 30px; }
+        main .analytics .container .row .news .news-list .new .text {
+          margin-top: 10px;
+          font-size: 13px;
+          color: #4a4a4a;
+          line-height: 1.615; }
+  main .analytics .container .row .sidebar {
+    width: 356px;
+    animation: fake 1s infinite;
+    /* Android 2.3 :checked fix */ }
+@keyframes fake {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 1; } }
+    main .analytics .container .row .sidebar .worko-tabs .state {
+      position: absolute;
+      left: -10000px; }
+    main .analytics .container .row .sidebar .worko-tabs .flex-tabs {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .tab {
+        display: flex;
+        font-size: 12px;
+        padding: 9px 13px;
+        border-radius: 3px;
+        background-color: #ffffff;
+        color: #30a6f9;
+        border: 1px #30a6f9 solid;
+        text-align: center; }
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel {
+        background-color: #fff;
+        padding-top: 10px;
+        min-height: 300px;
+        display: none;
+        width: 100%;
+        flex-basis: auto; }
+        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab {
+          border-radius: 5px;
+          font-weight: normal;
+          border: none;
+          border-collapse: collapse;
+          width: 100%;
+          max-width: 100%; }
+        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th, main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td {
+          padding: 10px 10px;
+          font-size: 10px;
+          border: none;
+          vertical-align: top; }
+        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th {
+          color: #FFF;
+          background: #8d8d8d;
+          font-weight: bold;
+          text-align: center; }
+        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab tr:nth-child(even) {
+          background: #edf7ff; }
+        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td span {
+          color: #FFFFFF;
+          display: none;
+          font-size: 11px;
+          font-weight: bold;
+          padding: 5px 10px;
+          position: absolute;
+          top: 0;
+          left: 0; }
+    main .analytics .container .row .sidebar .worko-tabs .tab:hover {
+      background-color: #fff; }
+    main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label,
+    main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label,
+    main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label,
+    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label {
+      background-color: #30a6f9;
+      color: #ffffff; }
+    main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-panel,
+    main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-panel,
+    main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-panel,
+    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-panel {
+      display: block; }
 
 @media all and (max-width: 765px) {
   header {
@@ -1112,6 +1214,39 @@ main .contact-map .korpus0 img.line {
     main section.partners .container .partners__items .partners__item {
       width: 180px; }
       main section.partners .container .partners__items .partners__item img {
-        zoom: .8; } }
+        zoom: .8; }
+  main .analytics .container .row .sidebar .flex-tabs {
+    flex-direction: column; }
+    main .analytics .container .row .sidebar .flex-tabs .tab {
+      background: #fff;
+      border-bottom: 1px solid #ccc; }
+      main .analytics .container .row .sidebar .flex-tabs .tab:last-of-type {
+        border-bottom: none; }
+    main .analytics .container .row .sidebar .flex-tabs #tab-one-label {
+      order: 1; }
+    main .analytics .container .row .sidebar .flex-tabs #tab-two-label {
+      order: 3; }
+    main .analytics .container .row .sidebar .flex-tabs #tab-three-label {
+      order: 5; }
+    main .analytics .container .row .sidebar .flex-tabs #tab-four-label {
+      order: 7; }
+    main .analytics .container .row .sidebar .flex-tabs #tab-one-panel {
+      order: 2; }
+    main .analytics .container .row .sidebar .flex-tabs #tab-two-panel {
+      order: 4; }
+    main .analytics .container .row .sidebar .flex-tabs #tab-three-panel {
+      order: 6; }
+    main .analytics .container .row .sidebar .flex-tabs #tab-four-panel {
+      order: 8; }
+  main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label,
+  main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label,
+  main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label,
+  main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label {
+    border-bottom: none; }
+  main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-panel,
+  main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-panel,
+  main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-panel,
+  main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-panel {
+    border-bottom: 1px solid #ccc; } }
 
 /*# sourceMappingURL=style.css.map */
