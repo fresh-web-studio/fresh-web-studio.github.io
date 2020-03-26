@@ -1188,27 +1188,37 @@ main .analytics .container.grey .row {
       width: 100%; }
   main .analytics .container .row .sidebar {
     width: 100%; }
-    main .analytics .container .row .sidebar .flex-tabs {
+    main .analytics .container .row .sidebar .worko-tabs .flex-tabs {
       flex-direction: column; }
-      main .analytics .container .row .sidebar .flex-tabs .tab {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .tab {
         justify-content: center;
         font-size: 30px; }
-      main .analytics .container .row .sidebar .flex-tabs #tab-one-label {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-one-label {
         order: 1; }
-      main .analytics .container .row .sidebar .flex-tabs #tab-two-label {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-two-label {
         order: 3; }
-      main .analytics .container .row .sidebar .flex-tabs #tab-three-label {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-three-label {
         order: 5; }
-      main .analytics .container .row .sidebar .flex-tabs #tab-four-label {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-four-label {
         order: 7; }
-      main .analytics .container .row .sidebar .flex-tabs #tab-one-panel {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-one-panel {
         order: 2; }
-      main .analytics .container .row .sidebar .flex-tabs #tab-two-panel {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-two-panel {
         order: 4; }
-      main .analytics .container .row .sidebar .flex-tabs #tab-three-panel {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-three-panel {
         order: 6; }
-      main .analytics .container .row .sidebar .flex-tabs #tab-four-panel {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-four-panel {
         order: 8; }
+  main .analytics .container.grey .row {
+    padding: 40px 20px; }
+    main .analytics .container.grey .row h2 {
+      text-align: center; }
+    main .analytics .container.grey .row .info {
+      text-align: center;
+      line-height: 1.643; }
+    main .analytics .container.grey .row .table .resp-tab th, main .analytics .container.grey .row .table .resp-tab td {
+      padding: 10px 5px;
+      font-size: 9px; }
   main .slide-wraper .slide-item .slide-item__header {
     padding: 30px 10px 20px 10px;
     width: 94%;

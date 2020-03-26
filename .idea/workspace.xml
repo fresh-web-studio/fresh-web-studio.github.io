@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/analytics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
@@ -82,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2376">
+            <state relative-caret-position="-7619">
               <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
             </state>
           </provider>
@@ -91,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="1368" column="5" selection-start-line="1368" selection-start-column="5" selection-end-line="1368" selection-end-column="5" />
+            <state relative-caret-position="941">
+              <caret line="1611" column="17" selection-start-line="1611" selection-start-column="17" selection-end-line="1611" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -100,8 +99,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/analytics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6120">
-              <caret line="255" column="20" selection-start-line="255" selection-start-column="20" selection-end-line="255" selection-end-column="20" />
+            <state relative-caret-position="420">
+              <caret line="286" column="36" selection-start-line="286" selection-start-column="36" selection-end-line="286" selection-end-column="36" />
+              <folding>
+                <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,8 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>оптоп</find>
-      <find>двух</find>
       <find>шим</find>
       <find>Выпрямители</find>
       <find>&lt;a href=&quot;rezistori.html&quot;&gt;Резисторы&lt;/a&gt;</find>
@@ -149,6 +150,8 @@
       <find>.heading-text</find>
       <find>heading-title</find>
       <find>&lt;span&gt;Заголовок 4&lt;/span&gt;</find>
+      <find>heading</find>
+      <find>last-of-type</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -268,36 +271,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="capital-finance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="capital-finance" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -381,20 +355,7 @@
       <workItem from="1584511073948" duration="124389000" />
       <workItem from="1585061806513" duration="52022000" />
       <workItem from="1585237326389" duration="195000" />
-    </task>
-    <task id="LOCAL-00383" summary="Создаю шапку">
-      <created>1584640726049</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
-      <option name="project" value="LOCAL" />
-      <updated>1584640726049</updated>
-    </task>
-    <task id="LOCAL-00384" summary="Создаю шапку">
-      <created>1584644059814</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1584644059815</updated>
+      <workItem from="1585238624108" duration="8543000" />
     </task>
     <task id="LOCAL-00385" summary="Создаю шапку">
       <created>1584644664897</created>
@@ -725,21 +686,36 @@
       <option name="project" value="LOCAL" />
       <updated>1585223519825</updated>
     </task>
-    <option name="localTasksCounter" value="432" />
+    <task id="LOCAL-00432" summary="Обновление">
+      <created>1585238721241</created>
+      <option name="number" value="00432" />
+      <option name="presentableId" value="LOCAL-00432" />
+      <option name="project" value="LOCAL" />
+      <updated>1585238721242</updated>
+    </task>
+    <task id="LOCAL-00433" summary="Обновление">
+      <created>1585247899173</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1585247899173</updated>
+    </task>
+    <option name="localTasksCounter" value="434" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="570048000" />
+    <option name="totallyTimeSpent" value="578591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="614" y="23" width="1266" height="716" extended-state="0" />
+    <frame x="622" y="-1414" width="1266" height="1296" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.23476112" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3271657" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32698962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -747,7 +723,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.16917923" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49960285" weight="0.44042554" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49960285" weight="0.44031143" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50039715" side_tool="true" weight="0.34819177" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22455846" />
@@ -1161,22 +1137,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
+        <state relative-caret-position="-7619">
           <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/analytics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6120">
-          <caret line="255" column="20" selection-start-line="255" selection-start-column="20" selection-end-line="255" selection-end-column="20" />
+        <state relative-caret-position="420">
+          <caret line="286" column="36" selection-start-line="286" selection-start-column="36" selection-end-line="286" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="1368" column="5" selection-start-line="1368" selection-start-column="5" selection-end-line="1368" selection-end-column="5" />
+        <state relative-caret-position="941">
+          <caret line="1611" column="17" selection-start-line="1611" selection-start-column="17" selection-end-line="1611" selection-end-column="17" />
         </state>
       </provider>
     </entry>
