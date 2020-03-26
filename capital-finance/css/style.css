@@ -1171,7 +1171,8 @@ main .analytics .container.grey .row {
       margin: 0px 20px;
       padding-bottom: 30px;
       font-size: 15px;
-      text-align: center; }
+      text-align: center;
+      width: 100%; }
     footer .row .row__mail, footer .row .row__tel, footer .row .row__btn {
       display: none; }
 
@@ -1279,6 +1280,8 @@ main .analytics .container.grey .row {
       text-align: center; }
   main section.section .section__items {
     margin-bottom: 0px; }
+  main section.section h2 {
+    margin-top: 60px; }
   main .contacts .container .contacts-block .contacts-row .contacts-item,
   main .contacts .container .feedback-block .feedback-form {
     width: 100%; }
