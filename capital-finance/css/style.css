@@ -961,7 +961,8 @@ main .analytics .container .row {
         background-color: #ffffff;
         color: #30a6f9;
         border: 1px #30a6f9 solid;
-        text-align: center; }
+        text-align: center;
+        cursor: pointer; }
       main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel {
         background-color: #fff;
         padding-top: 10px;
@@ -972,7 +973,7 @@ main .analytics .container .row {
         main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab {
           border-radius: 5px;
           font-weight: normal;
-          border: none;
+          border: 1px #8d8d8d solid;
           border-collapse: collapse;
           width: 100%;
           max-width: 100%; }
@@ -980,23 +981,17 @@ main .analytics .container .row {
           padding: 10px 10px;
           font-size: 10px;
           border: none;
-          vertical-align: top; }
+          vertical-align: top;
+          text-align: center; }
+          main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th span, main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td span {
+            margin-right: 10px; }
         main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th {
           color: #FFF;
           background: #8d8d8d;
           font-weight: bold;
           text-align: center; }
-        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab tr:nth-child(even) {
-          background: #edf7ff; }
-        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td span {
-          color: #FFFFFF;
-          display: none;
-          font-size: 11px;
-          font-weight: bold;
-          padding: 5px 10px;
-          position: absolute;
-          top: 0;
-          left: 0; }
+        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab tr {
+          border-top: 1px #f0e8e8 solid; }
     main .analytics .container .row .sidebar .worko-tabs .tab:hover {
       background-color: #fff; }
     main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label,
@@ -1010,6 +1005,16 @@ main .analytics .container .row {
     main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-panel,
     main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-panel {
       display: block; }
+  main .analytics .container .row .btn button {
+    font-size: 16px;
+    width: 100%;
+    height: 48px;
+    padding: 0px 50px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: #f6f6f6;
+    color: #414141;
+    border: 0px solid; }
 
 @media all and (max-width: 765px) {
   header {
