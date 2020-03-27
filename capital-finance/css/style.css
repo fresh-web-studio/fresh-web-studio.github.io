@@ -1196,6 +1196,12 @@ main .analytics .container.grey .row {
     padding-bottom: 30px; }
     main .heading .name .heading-text {
       width: 85%; }
+  main .contact-map .korpus0 label:nth-of-type(6) {
+    left: 0px; }
+  main .contact-map .korpus0 > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+  main .contact-map .korpus0 > input:nth-of-type(2):checked ~ div:nth-of-type(2),
+  main .contact-map .korpus0 > input:nth-of-type(3):checked ~ div:nth-of-type(3) {
+    margin: 1px 5px 1px 0px; }
   main .analytics .container .row .btn button {
     font-size: 14px; }
   main .analytics .container .row .news {
@@ -1249,7 +1255,6 @@ main .analytics .container.grey .row {
   main .slide-wraper .slide-item button.btn {
     margin-top: 10px; }
   main .slide-wraper .slide-item.slide1, main .slide-wraper .slide-item.slide2 {
-    background-position: left top;
     height: 400px;
     text-align: center; }
   main .slide-wraper .owl-nav.container {
