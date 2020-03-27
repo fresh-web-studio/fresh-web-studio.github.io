@@ -6,10 +6,9 @@
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/img/cash.png" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/img/cash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/img/license.png" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/img/license.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/img/teacher.png" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/img/teacher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/psd/1. Главная (ART).psd" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/psd/1. Главная (ART).psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/psd/2. О компании.psd" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/psd/2. О компании.psd" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -64,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7920">
-              <caret line="330" column="53" selection-start-line="330" selection-start-column="53" selection-end-line="330" selection-end-column="53" />
+            <state relative-caret-position="189">
+              <caret line="164" column="40" selection-start-line="164" selection-start-column="40" selection-end-line="164" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -91,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="1633" selection-start-line="1633" selection-end-line="1633" />
+            <state relative-caret-position="261">
+              <caret line="1773" column="35" lean-forward="true" selection-start-line="1773" selection-start-column="35" selection-end-line="1773" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -152,7 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;a href=&quot;tiristori.html&quot;&gt;Тиристоры&lt;/a&gt;</find>
       <find>&lt;a href=&quot;transformator.html&quot;&gt;Трансформатор&lt;/a&gt;</find>
       <find>Ограничители перенапряжения</find>
       <find>Умножител</find>
@@ -182,6 +180,7 @@
       <find>-arrow</find>
       <find>.advantages-block</find>
       <find>mail logo</find>
+      <find>korpus0</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -280,8 +279,8 @@
         <option value="$PROJECT_DIR$/capital-finance/partners.html" />
         <option value="$PROJECT_DIR$/capital-finance/js/main.js" />
         <option value="$PROJECT_DIR$/capital-finance/about.html" />
-        <option value="$PROJECT_DIR$/capital-finance/index.html" />
         <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
+        <option value="$PROJECT_DIR$/capital-finance/index.html" />
       </list>
     </option>
   </component>
@@ -410,21 +409,7 @@
       <workItem from="1585061806513" duration="52022000" />
       <workItem from="1585237326389" duration="195000" />
       <workItem from="1585238624108" duration="13108000" />
-      <workItem from="1585287980565" duration="1203000" />
-    </task>
-    <task id="LOCAL-00393" summary="Обновление Слайдера и ссылок кнопок">
-      <created>1584820313185</created>
-      <option name="number" value="00393" />
-      <option name="presentableId" value="LOCAL-00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1584820313185</updated>
-    </task>
-    <task id="LOCAL-00394" summary="Добавление содержания">
-      <created>1584882443701</created>
-      <option name="number" value="00394" />
-      <option name="presentableId" value="LOCAL-00394" />
-      <option name="project" value="LOCAL" />
-      <updated>1584882443701</updated>
+      <workItem from="1585287980565" duration="2458000" />
     </task>
     <task id="LOCAL-00395" summary="Обновление Содержания">
       <created>1584896219202</created>
@@ -755,11 +740,25 @@
       <option name="project" value="LOCAL" />
       <updated>1585253562815</updated>
     </task>
-    <option name="localTasksCounter" value="442" />
+    <task id="LOCAL-00442" summary="Обновление">
+      <created>1585289353634</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1585289353636</updated>
+    </task>
+    <task id="LOCAL-00443" summary="Обновление">
+      <created>1585292041515</created>
+      <option name="number" value="00443" />
+      <option name="presentableId" value="LOCAL-00443" />
+      <option name="project" value="LOCAL" />
+      <updated>1585292041515</updated>
+    </task>
+    <option name="localTasksCounter" value="444" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="584359000" />
+    <option name="totallyTimeSpent" value="585614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="622" y="-1414" width="1266" height="1325" extended-state="0" />
@@ -1185,13 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7920">
-          <caret line="330" column="53" selection-start-line="330" selection-start-column="53" selection-end-line="330" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/training.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1176">
@@ -1239,8 +1231,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="1633" selection-start-line="1633" selection-end-line="1633" />
+        <state relative-caret-position="261">
+          <caret line="1773" column="35" lean-forward="true" selection-start-line="1773" selection-start-column="35" selection-end-line="1773" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="164" column="40" selection-start-line="164" selection-start-column="40" selection-end-line="164" selection-end-column="40" />
         </state>
       </provider>
     </entry>
