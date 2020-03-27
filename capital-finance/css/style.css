@@ -1254,8 +1254,15 @@ main .analytics .container.grey .row {
     width: 94%; }
   main .slide-wraper .slide-item button.btn {
     margin-top: 10px; }
-  main .slide-wraper .slide-item.slide1, main .slide-wraper .slide-item.slide2 {
+  main .slide-wraper .slide-item.slide1 {
     height: 400px;
+    text-align: center;
+    background-position: right center;
+    background-image: url(../img/slider-bg-1-m.jpg); }
+  main .slide-wraper .slide-item.slide2 {
+    background-image: url(../img/slider-bg-2-m.jpg);
+    height: 400px;
+    background-position: center center;
     text-align: center; }
   main .slide-wraper .owl-nav.container {
     justify-content: center;
