@@ -1198,10 +1198,6 @@ main .analytics .container.grey .row {
       width: 85%; }
   main .contact-map .korpus0 label:nth-of-type(6) {
     left: 0px; }
-  main .contact-map .korpus0 > input:nth-of-type(1):checked ~ div:nth-of-type(1),
-  main .contact-map .korpus0 > input:nth-of-type(2):checked ~ div:nth-of-type(2),
-  main .contact-map .korpus0 > input:nth-of-type(3):checked ~ div:nth-of-type(3) {
-    margin: 1px 5px 1px 0px; }
   main .analytics .container .row .btn button {
     font-size: 14px; }
   main .analytics .container .row .news {
@@ -1262,7 +1258,7 @@ main .analytics .container.grey .row {
   main .slide-wraper .slide-item.slide2 {
     background-image: url(../img/slider-bg-2-m.jpg);
     height: 400px;
-    background-position: center center;
+    background-position: right center;
     text-align: center; }
   main .slide-wraper .owl-nav.container {
     justify-content: center;
