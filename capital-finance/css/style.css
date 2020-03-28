@@ -933,11 +933,17 @@ main .analytics .container .row {
       main .analytics .container .row .news .news-list .new {
         width: 30%;
         margin-top: 30px; }
-        main .analytics .container .row .news .news-list .new .text {
+        main .analytics .container .row .news .news-list .new a {
+          text-decoration: none; }
+        main .analytics .container .row .news .news-list .new a img:hover {
+          opacity: .9; }
+        main .analytics .container .row .news .news-list .new a .text {
           margin-top: 10px;
           font-size: 13px;
           color: #4a4a4a;
           line-height: 1.615; }
+        main .analytics .container .row .news .news-list .new a .text:hover {
+          color: #0688fa; }
   main .analytics .container .row .sidebar {
     width: 356px;
     animation: fake 1s infinite;
@@ -1004,6 +1010,11 @@ main .analytics .container .row {
     main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label {
       background-color: #30a6f9;
       color: #ffffff; }
+    main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label:hover,
+    main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label:hover,
+    main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label:hover,
+    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label:hover {
+      background-color: #0688fa; }
     main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-panel,
     main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-panel,
     main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-panel,
@@ -1016,7 +1027,6 @@ main .analytics .container .row {
     width: 100%;
     height: 48px;
     border-radius: 3px;
-    text-transform: uppercase;
     background-color: #f6f6f6;
     color: #414141;
     border: 0;
@@ -1204,8 +1214,10 @@ main .analytics .container.grey .row {
     text-align: center; }
     main .analytics .container .row .news h2 {
       text-align: center; }
-    main .analytics .container .row .news .news-list .new {
+    main .analytics .container .row .news .news-list a.new {
       width: 100%; }
+      main .analytics .container .row .news .news-list a.new .text {
+        text-decoration: none; }
   main .analytics .container .row .sidebar {
     width: 100%; }
     main .analytics .container .row .sidebar .worko-tabs .flex-tabs {
