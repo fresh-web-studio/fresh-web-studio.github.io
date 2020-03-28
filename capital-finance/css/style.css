@@ -913,37 +913,79 @@ main .analytics .container .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
-  main .analytics .container .row .news {
-    width: 741px;
-    outline: solid 1px #f0f0f0;
-    padding: 35px; }
-    main .analytics .container .row .news h2 {
+  main .analytics .container .row .main_info {
+    width: 811px; }
+    main .analytics .container .row .main_info .signal h2 {
+      font-size: 30px;
+      line-height: 0.767;
+      text-align: left; }
+    main .analytics .container .row .main_info .signal .info {
+      margin-top: 20px;
+      font-size: 14px;
+      line-height: 1.5; }
+    main .analytics .container .row .main_info .signal h3 {
+      margin-top: 25px;
+      font-size: 22px; }
+    main .analytics .container .row .main_info .signal .steps-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      main .analytics .container .row .main_info .signal .steps-list .step {
+        width: 31%; }
+        main .analytics .container .row .main_info .signal .steps-list .step h4 {
+          margin-top: 18px;
+          font-size: 14px; }
+        main .analytics .container .row .main_info .signal .steps-list .step h5 {
+          margin-top: 10px;
+          font-size: 15px;
+          font-weight: bold;
+          line-height: 1.5; }
+        main .analytics .container .row .main_info .signal .steps-list .step .text {
+          margin-top: 10px;
+          font-size: 14px;
+          line-height: 1.5; }
+          main .analytics .container .row .main_info .signal .steps-list .step .text span {
+            color: #30a6f9; }
+    main .analytics .container .row .main_info .news {
+      outline: solid 1px #f0f0f0;
+      padding: 35px;
+      margin: 25px 0px; }
+      main .analytics .container .row .main_info .news h2 {
+        font-size: 30px;
+        color: #4a4a4a;
+        line-height: 0.767;
+        text-align: left; }
+      main .analytics .container .row .main_info .news .info {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #4a4a4a; }
+      main .analytics .container .row .main_info .news .news-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        main .analytics .container .row .main_info .news .news-list .new {
+          width: 30%;
+          margin-top: 30px; }
+          main .analytics .container .row .main_info .news .news-list .new a {
+            text-decoration: none; }
+          main .analytics .container .row .main_info .news .news-list .new a img:hover {
+            opacity: .9; }
+          main .analytics .container .row .main_info .news .news-list .new a .text {
+            margin-top: 10px;
+            font-size: 13px;
+            color: #4a4a4a;
+            line-height: 1.615; }
+          main .analytics .container .row .main_info .news .news-list .new a .text:hover {
+            color: #0688fa; }
+    main .analytics .container .row .main_info .briefcase h2 {
       font-size: 30px;
       color: #4a4a4a;
       line-height: 0.767;
       text-align: left; }
-    main .analytics .container .row .news .info {
+    main .analytics .container .row .main_info .briefcase .info {
       margin-top: 20px;
       font-size: 14px;
       color: #4a4a4a; }
-    main .analytics .container .row .news .news-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between; }
-      main .analytics .container .row .news .news-list .new {
-        width: 30%;
-        margin-top: 30px; }
-        main .analytics .container .row .news .news-list .new a {
-          text-decoration: none; }
-        main .analytics .container .row .news .news-list .new a img:hover {
-          opacity: .9; }
-        main .analytics .container .row .news .news-list .new a .text {
-          margin-top: 10px;
-          font-size: 13px;
-          color: #4a4a4a;
-          line-height: 1.615; }
-        main .analytics .container .row .news .news-list .new a .text:hover {
-          color: #0688fa; }
   main .analytics .container .row .sidebar {
     width: 356px;
     animation: fake 1s infinite;
