@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
     </list>
@@ -90,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="1814" column="50" selection-start-line="1814" selection-start-column="50" selection-end-line="1814" selection-end-column="50" />
+            <state relative-caret-position="501">
+              <caret line="2073" column="13" selection-start-line="2073" selection-start-column="13" selection-end-line="2073" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -414,14 +413,7 @@
       <workItem from="1585061806513" duration="52022000" />
       <workItem from="1585237326389" duration="195000" />
       <workItem from="1585238624108" duration="13108000" />
-      <workItem from="1585287980565" duration="10479000" />
-    </task>
-    <task id="LOCAL-00402" summary="Обновление">
-      <created>1585037850104</created>
-      <option name="number" value="00402" />
-      <option name="presentableId" value="LOCAL-00402" />
-      <option name="project" value="LOCAL" />
-      <updated>1585037850109</updated>
+      <workItem from="1585287980565" duration="10518000" />
     </task>
     <task id="LOCAL-00403" summary="Обновление">
       <created>1585038585388</created>
@@ -759,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585417125023</updated>
     </task>
-    <option name="localTasksCounter" value="451" />
+    <task id="LOCAL-00451" summary="Обновление Адаптация">
+      <created>1585417954094</created>
+      <option name="number" value="00451" />
+      <option name="presentableId" value="LOCAL-00451" />
+      <option name="project" value="LOCAL" />
+      <updated>1585417954094</updated>
+    </task>
+    <option name="localTasksCounter" value="452" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="593635000" />
+    <option name="totallyTimeSpent" value="593674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="622" y="-1414" width="1266" height="1325" extended-state="0" />
@@ -876,7 +875,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавление psd макета в прект" />
     <MESSAGE value="Выгрузка логотипа разработчика" />
     <MESSAGE value="Добавление картинок" />
     <MESSAGE value="Добавление логотипа разработчика" />
@@ -901,7 +899,8 @@
     <MESSAGE value="Обновление Подвала" />
     <MESSAGE value="Обновление Слайдера и ссылок кнопок" />
     <MESSAGE value="Обновление" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
+    <MESSAGE value="Обновление Адаптация" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление Адаптация" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/capital-finance/owlcarousel/owl.carousel.js">
@@ -1245,8 +1244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="1814" column="50" selection-start-line="1814" selection-start-column="50" selection-end-line="1814" selection-end-column="50" />
+        <state relative-caret-position="501">
+          <caret line="2073" column="13" selection-start-line="2073" selection-start-column="13" selection-end-line="2073" selection-end-column="13" />
         </state>
       </provider>
     </entry>
