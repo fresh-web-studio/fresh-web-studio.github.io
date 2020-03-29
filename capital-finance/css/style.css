@@ -809,17 +809,51 @@ main section.partners .container .btn {
     background-color: #30a6f9;
     color: #ffffff;
     border: 1px #30a6f9 solid; }
-main .contact-map2 {
-  height: 612px; }
-  main .contact-map2 .container #verticalTab .resp-tabs-list .resp-tab-item .office-adress .header {
-    font-weight: 700; }
+main .contact-map2 .container #verticalTab .resp-tabs-list .resp-tab-item .office-adress .header {
+  font-weight: 700; }
+main .contact-map2 .container #verticalTab .resp-tabs-container {
+  margin-bottom: 60px; }
   main .contact-map2 .container #verticalTab .resp-tabs-container .map {
-    min-width: 100%;
-    position: absolute;
     background-color: #f7f7f7; }
-  main .contact-map2 .container #verticalTab .tel-mail-btn {
-    position: absolute;
-    margin-top: 150px; }
+main .contact-map2 .container #verticalTab .tel-mail-btn {
+  position: absolute;
+  margin-top: 150px;
+  font-size: 13px; }
+  main .contact-map2 .container #verticalTab .tel-mail-btn .office-tel {
+    margin-top: 20px; }
+    main .contact-map2 .container #verticalTab .tel-mail-btn .office-tel .header {
+      font-weight: 700; }
+    main .contact-map2 .container #verticalTab .tel-mail-btn .office-tel .tel {
+      margin-top: 5px;
+      font-size: 15px; }
+      main .contact-map2 .container #verticalTab .tel-mail-btn .office-tel .tel a {
+        color: #222222;
+        text-decoration: none; }
+  main .contact-map2 .container #verticalTab .tel-mail-btn .office-partner {
+    margin-top: 20px; }
+    main .contact-map2 .container #verticalTab .tel-mail-btn .office-partner .header {
+      font-weight: 700; }
+    main .contact-map2 .container #verticalTab .tel-mail-btn .office-partner .mail {
+      margin-top: 5px;
+      font-size: 15px; }
+      main .contact-map2 .container #verticalTab .tel-mail-btn .office-partner .mail a {
+        color: #222222;
+        text-decoration: none; }
+  main .contact-map2 .container #verticalTab .tel-mail-btn .btn {
+    margin-top: 20px; }
+    main .contact-map2 .container #verticalTab .tel-mail-btn .btn button {
+      font-size: 14px;
+      height: 48px;
+      padding: 0px 50px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      background-color: #30a6f9;
+      color: #ffffff;
+      border: 1px #30a6f9 solid; }
+    main .contact-map2 .container #verticalTab .tel-mail-btn .btn button:hover {
+      background-color: #0688fa;
+      color: #ffffff;
+      border: 1px #30a6f9 solid; }
 main .contact-map .korpus0 {
   position: relative;
   margin-bottom: 70px; }
