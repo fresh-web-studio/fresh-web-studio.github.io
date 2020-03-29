@@ -809,6 +809,17 @@ main section.partners .container .btn {
     background-color: #30a6f9;
     color: #ffffff;
     border: 1px #30a6f9 solid; }
+main .contact-map2 {
+  height: 612px; }
+  main .contact-map2 .container #verticalTab .resp-tabs-list .resp-tab-item .office-adress .header {
+    font-weight: 700; }
+  main .contact-map2 .container #verticalTab .resp-tabs-container .map {
+    min-width: 100%;
+    position: absolute;
+    background-color: #f7f7f7; }
+  main .contact-map2 .container #verticalTab .tel-mail-btn {
+    position: absolute;
+    margin-top: 150px; }
 main .contact-map .korpus0 {
   position: relative;
   margin-bottom: 70px; }
@@ -1272,6 +1283,9 @@ main .article .container .row .new {
     padding-bottom: 30px; }
     main .heading .name .heading-text {
       width: 85%; }
+  main .contact-map2 .container #verticalTab .tel-mail-btn {
+    position: relative;
+    margin-top: 10px; }
   main .contact-map .korpus0 label:nth-of-type(6) {
     left: 0px; }
   main .analytics .container .row .btn button {
