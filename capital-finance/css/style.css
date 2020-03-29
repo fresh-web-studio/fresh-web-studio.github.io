@@ -909,84 +909,84 @@ main .contact-map .korpus0 a:hover {
 main .contact-map .korpus0 img.line {
   top: 160px;
   position: absolute; }
-main .analytics .container .row {
+main .analytics .container .row, main .article .container .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
-  main .analytics .container .row .main_info {
+  main .analytics .container .row .main_info, main .article .container .row .main_info {
     width: 811px; }
-    main .analytics .container .row .main_info .signal h2 {
+    main .analytics .container .row .main_info .signal h2, main .article .container .row .main_info .signal h2 {
       font-size: 30px;
       line-height: 0.767;
       text-align: left; }
-    main .analytics .container .row .main_info .signal .info {
+    main .analytics .container .row .main_info .signal .info, main .article .container .row .main_info .signal .info {
       margin-top: 20px;
       font-size: 14px;
       line-height: 1.5; }
-    main .analytics .container .row .main_info .signal h3 {
+    main .analytics .container .row .main_info .signal h3, main .article .container .row .main_info .signal h3 {
       margin-top: 25px;
       font-size: 22px; }
-    main .analytics .container .row .main_info .signal .steps-list {
+    main .analytics .container .row .main_info .signal .steps-list, main .article .container .row .main_info .signal .steps-list {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between; }
-      main .analytics .container .row .main_info .signal .steps-list .step {
+      main .analytics .container .row .main_info .signal .steps-list .step, main .article .container .row .main_info .signal .steps-list .step {
         width: 31%; }
-        main .analytics .container .row .main_info .signal .steps-list .step h4 {
+        main .analytics .container .row .main_info .signal .steps-list .step h4, main .article .container .row .main_info .signal .steps-list .step h4 {
           margin-top: 18px;
           font-size: 14px; }
-        main .analytics .container .row .main_info .signal .steps-list .step h5 {
+        main .analytics .container .row .main_info .signal .steps-list .step h5, main .article .container .row .main_info .signal .steps-list .step h5 {
           margin-top: 10px;
           font-size: 15px;
           font-weight: bold;
           line-height: 1.3; }
-        main .analytics .container .row .main_info .signal .steps-list .step .text {
+        main .analytics .container .row .main_info .signal .steps-list .step .text, main .article .container .row .main_info .signal .steps-list .step .text {
           margin-top: 10px;
           font-size: 14px;
           line-height: 1.5; }
-          main .analytics .container .row .main_info .signal .steps-list .step .text span {
+          main .analytics .container .row .main_info .signal .steps-list .step .text span, main .article .container .row .main_info .signal .steps-list .step .text span {
             color: #30a6f9; }
-    main .analytics .container .row .main_info .news {
+    main .analytics .container .row .main_info .news, main .article .container .row .main_info .news {
       outline: solid 1px #f0f0f0;
       padding: 35px;
       margin: 25px 0px; }
-      main .analytics .container .row .main_info .news h2 {
+      main .analytics .container .row .main_info .news h2, main .article .container .row .main_info .news h2 {
         font-size: 30px;
         color: #4a4a4a;
         line-height: 0.767;
         text-align: left; }
-      main .analytics .container .row .main_info .news .info {
+      main .analytics .container .row .main_info .news .info, main .article .container .row .main_info .news .info {
         margin-top: 20px;
         font-size: 14px;
         color: #4a4a4a; }
-      main .analytics .container .row .main_info .news .news-list {
+      main .analytics .container .row .main_info .news .news-list, main .article .container .row .main_info .news .news-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between; }
-        main .analytics .container .row .main_info .news .news-list .new {
+        main .analytics .container .row .main_info .news .news-list .new, main .article .container .row .main_info .news .news-list .new {
           width: 30%;
           margin-top: 30px; }
-          main .analytics .container .row .main_info .news .news-list .new a {
+          main .analytics .container .row .main_info .news .news-list .new a, main .article .container .row .main_info .news .news-list .new a {
             text-decoration: none; }
-          main .analytics .container .row .main_info .news .news-list .new a img:hover {
+          main .analytics .container .row .main_info .news .news-list .new a img:hover, main .article .container .row .main_info .news .news-list .new a img:hover {
             opacity: .9; }
-          main .analytics .container .row .main_info .news .news-list .new a .text {
+          main .analytics .container .row .main_info .news .news-list .new a .text, main .article .container .row .main_info .news .news-list .new a .text {
             margin-top: 10px;
             font-size: 13px;
             color: #4a4a4a;
             line-height: 1.615; }
-          main .analytics .container .row .main_info .news .news-list .new a .text:hover {
+          main .analytics .container .row .main_info .news .news-list .new a .text:hover, main .article .container .row .main_info .news .news-list .new a .text:hover {
             color: #0688fa; }
-    main .analytics .container .row .main_info .briefcase h2 {
+    main .analytics .container .row .main_info .briefcase h2, main .article .container .row .main_info .briefcase h2 {
       font-size: 30px;
       color: #4a4a4a;
       line-height: 0.767;
       text-align: left; }
-    main .analytics .container .row .main_info .briefcase .info {
+    main .analytics .container .row .main_info .briefcase .info, main .article .container .row .main_info .briefcase .info {
       margin-top: 20px;
       font-size: 14px;
       color: #4a4a4a; }
-  main .analytics .container .row .sidebar {
+  main .analytics .container .row .sidebar, main .article .container .row .sidebar {
     width: 356px;
     animation: fake 1s infinite;
     /* Android 2.3 :checked fix */ }
@@ -995,14 +995,14 @@ main .analytics .container .row {
     opacity: 1; }
   to {
     opacity: 1; } }
-    main .analytics .container .row .sidebar .worko-tabs .state {
+    main .analytics .container .row .sidebar .worko-tabs .state, main .article .container .row .sidebar .worko-tabs .state {
       position: absolute;
       left: -10000px; }
-    main .analytics .container .row .sidebar .worko-tabs .flex-tabs {
+    main .analytics .container .row .sidebar .worko-tabs .flex-tabs, main .article .container .row .sidebar .worko-tabs .flex-tabs {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .tab {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .tab, main .article .container .row .sidebar .worko-tabs .flex-tabs .tab {
         display: flex;
         font-size: 12px;
         padding: 9px 13px;
@@ -1012,57 +1012,66 @@ main .analytics .container .row {
         border: 1px #30a6f9 solid;
         text-align: center;
         cursor: pointer; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .tab:hover {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .tab:hover, main .article .container .row .sidebar .worko-tabs .flex-tabs .tab:hover {
         background-color: #0688fa;
         color: #FFF; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel {
+      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel {
         background-color: #fff;
         padding-top: 10px;
         min-height: 300px;
         display: none;
         width: 100%;
         flex-basis: auto; }
-        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab {
+        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab {
           border-radius: 5px;
           font-weight: normal;
           border: 1px #8d8d8d solid;
           border-collapse: collapse;
           width: 100%;
           max-width: 100%; }
-        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th, main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td {
+        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th, main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td {
           padding: 13px 10px;
           font-size: 10px;
           border: none;
           vertical-align: top;
           text-align: center; }
-          main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th span, main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td span {
+          main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th span, main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td span, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th span, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td span {
             margin-right: 10px; }
-        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th {
+        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th {
           color: #FFF;
           background: #8d8d8d;
           font-weight: bold;
           text-align: center; }
-        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab tr {
+        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab tr, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab tr {
           border-top: 1px #f0e8e8 solid; }
-    main .analytics .container .row .sidebar .worko-tabs .tab:hover {
+    main .analytics .container .row .sidebar .worko-tabs .tab:hover, main .article .container .row .sidebar .worko-tabs .tab:hover {
       background-color: #fff; }
     main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label,
     main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label,
     main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label,
-    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label {
+    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label, main .article .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label,
+    main .article .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label,
+    main .article .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label,
+    main .article .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label {
       background-color: #30a6f9;
       color: #ffffff; }
     main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label:hover,
     main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label:hover,
     main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label:hover,
-    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label:hover {
+    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label:hover, main .article .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label:hover,
+    main .article .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label:hover,
+    main .article .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label:hover,
+    main .article .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label:hover {
       background-color: #0688fa; }
     main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-panel,
     main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-panel,
     main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-panel,
-    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-panel {
+    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-panel, main .article .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-panel,
+    main .article .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-panel,
+    main .article .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-panel,
+    main .article .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-panel {
       display: block; }
-  main .analytics .container .row .btn button {
+  main .analytics .container .row .btn button, main .article .container .row .btn button {
     padding-top: 6px;
     margin-top: 28px;
     font-size: 16px;
@@ -1073,47 +1082,47 @@ main .analytics .container .row {
     color: #414141;
     border: 0;
     text-align: left; }
-    main .analytics .container .row .btn button img {
+    main .analytics .container .row .btn button img, main .article .container .row .btn button img {
       vertical-align: middle;
       margin-right: 20px;
       margin-left: 25px; }
-  main .analytics .container .row .btn button:hover {
+  main .analytics .container .row .btn button:hover, main .article .container .row .btn button:hover {
     background-color: #0688fa;
     color: #ffffff; }
-main .analytics .container.grey .row {
+main .analytics .container.grey .row, main .article .container.grey .row {
   background-color: #f4f4f4;
   padding: 40px 35px;
   margin: 60px 0px; }
-  main .analytics .container.grey .row h2 {
+  main .analytics .container.grey .row h2, main .article .container.grey .row h2 {
     font-size: 30px;
     color: #4a4a4a; }
-  main .analytics .container.grey .row .info {
+  main .analytics .container.grey .row .info, main .article .container.grey .row .info {
     font-size: 14px;
     color: #4a4a4a;
     line-height: 4.643; }
-  main .analytics .container.grey .row .table {
+  main .analytics .container.grey .row .table, main .article .container.grey .row .table {
     width: 100%; }
-    main .analytics .container.grey .row .table .resp-tab {
+    main .analytics .container.grey .row .table .resp-tab, main .article .container.grey .row .table .resp-tab {
       border-radius: 5px;
       font-weight: normal;
       border: none;
       border-collapse: collapse;
       width: 100%;
       max-width: 100%; }
-    main .analytics .container.grey .row .table .resp-tab th, main .analytics .container.grey .row .table .resp-tab td {
+    main .analytics .container.grey .row .table .resp-tab th, main .analytics .container.grey .row .table .resp-tab td, main .article .container.grey .row .table .resp-tab th, main .article .container.grey .row .table .resp-tab td {
       padding: 10px 20px;
       font-size: 13px;
       border: none;
       vertical-align: middle; }
-    main .analytics .container.grey .row .table .resp-tab th {
+    main .analytics .container.grey .row .table .resp-tab th, main .article .container.grey .row .table .resp-tab th {
       color: #FFF;
       background: #30a6f9;
       text-align: left; }
-    main .analytics .container.grey .row .table .resp-tab tr {
+    main .analytics .container.grey .row .table .resp-tab tr, main .article .container.grey .row .table .resp-tab tr {
       background: #ffffff; }
-    main .analytics .container.grey .row .table .resp-tab tr:nth-child(even) {
+    main .analytics .container.grey .row .table .resp-tab tr:nth-child(even), main .article .container.grey .row .table .resp-tab tr:nth-child(even) {
       background: #f4f4f4; }
-    main .analytics .container.grey .row .table .resp-tab td span {
+    main .analytics .container.grey .row .table .resp-tab td span, main .article .container.grey .row .table .resp-tab td span {
       background: #337AB7;
       color: #FFF;
       display: none;
@@ -1124,6 +1133,21 @@ main .analytics .container.grey .row {
       position: absolute;
       top: 0;
       left: 0; }
+main .article .container .row .new {
+  width: 811px; }
+  main .article .container .row .new img {
+    width: 100%; }
+  main .article .container .row .new .data {
+    margin-top: 20px;
+    color: #4a4a4a; }
+  main .article .container .row .new img.line {
+    width: 64px;
+    margin-top: 20px; }
+  main .article .container .row .new .text {
+    margin-bottom: 40px; }
+    main .article .container .row .new .text p {
+      padding: 10px 0px;
+      line-height: 1.5; }
 
 @media all and (max-width: 765px) {
   header {
