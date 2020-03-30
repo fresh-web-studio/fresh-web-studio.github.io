@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/css/easy-responsive-tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/easy-responsive-tabs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
@@ -69,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="1294" lean-forward="true" selection-start-line="1294" selection-end-line="1294" />
+            <state relative-caret-position="1079">
+              <caret line="1426" column="5" selection-start-line="1426" selection-start-column="5" selection-end-line="1426" selection-end-column="5" />
               <folding>
                 <element signature="e#207#6814#0" />
                 <element signature="e#6834#9152#0" />
@@ -109,20 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/capital-finance/css/easy-responsive-tabs.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+            <state relative-caret-position="240">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -278,11 +271,11 @@
         <option value="$PROJECT_DIR$/capital-finance/new1.html" />
         <option value="$USER_HOME$/Downloads/1390809140_desktop/index.html" />
         <option value="$PROJECT_DIR$/capital-finance/contacts2.html" />
-        <option value="$PROJECT_DIR$/capital-finance/contacts.html" />
-        <option value="$PROJECT_DIR$/capital-finance/css/easy-responsive-tabs.css" />
         <option value="$PROJECT_DIR$/capital-finance/index.html" />
         <option value="$PROJECT_DIR$/capital-finance/analytics.html" />
+        <option value="$PROJECT_DIR$/capital-finance/css/easy-responsive-tabs.css" />
         <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
+        <option value="$PROJECT_DIR$/capital-finance/contacts.html" />
       </list>
     </option>
   </component>
@@ -424,21 +417,7 @@
       <workItem from="1585061806513" duration="52022000" />
       <workItem from="1585237326389" duration="195000" />
       <workItem from="1585238624108" duration="13108000" />
-      <workItem from="1585287980565" duration="25483000" />
-    </task>
-    <task id="LOCAL-00411" summary="Обновление">
-      <created>1585140977853</created>
-      <option name="number" value="00411" />
-      <option name="presentableId" value="LOCAL-00411" />
-      <option name="project" value="LOCAL" />
-      <updated>1585140977853</updated>
-    </task>
-    <task id="LOCAL-00412" summary="Обновление">
-      <created>1585141519104</created>
-      <option name="number" value="00412" />
-      <option name="presentableId" value="LOCAL-00412" />
-      <option name="project" value="LOCAL" />
-      <updated>1585141519104</updated>
+      <workItem from="1585287980565" duration="26007000" />
     </task>
     <task id="LOCAL-00413" summary="Обновление">
       <created>1585142577184</created>
@@ -769,17 +748,31 @@
       <option name="project" value="LOCAL" />
       <updated>1585550434876</updated>
     </task>
-    <option name="localTasksCounter" value="460" />
+    <task id="LOCAL-00460" summary="Обновление">
+      <created>1585550565887</created>
+      <option name="number" value="00460" />
+      <option name="presentableId" value="LOCAL-00460" />
+      <option name="project" value="LOCAL" />
+      <updated>1585550565887</updated>
+    </task>
+    <task id="LOCAL-00461" summary="Обновление">
+      <created>1585550870628</created>
+      <option name="number" value="00461" />
+      <option name="presentableId" value="LOCAL-00461" />
+      <option name="project" value="LOCAL" />
+      <updated>1585550870628</updated>
+    </task>
+    <option name="localTasksCounter" value="462" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="608639000" />
+    <option name="totallyTimeSpent" value="609163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="624" y="-1412" width="1266" height="1325" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.23970346" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.23970346" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1235,13 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -1262,15 +1248,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/easy-responsive-tabs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="1294" lean-forward="true" selection-start-line="1294" selection-end-line="1294" />
+        <state relative-caret-position="1079">
+          <caret line="1426" column="5" selection-start-line="1426" selection-start-column="5" selection-end-line="1426" selection-end-column="5" />
           <folding>
             <element signature="e#207#6814#0" />
             <element signature="e#6834#9152#0" />
@@ -1302,6 +1288,13 @@
             <element signature="e#44086#44891#0" />
             <element signature="e#44925#45104#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
