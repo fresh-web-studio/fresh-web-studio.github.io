@@ -833,6 +833,7 @@ main .contact-map {
     font-size: 13px; }
     main .contact-map .container #verticalTab .tel-mail-btn .office-tel {
       margin-top: 25px;
+      margin-left: 20px;
       padding: 15px; }
       main .contact-map .container #verticalTab .tel-mail-btn .office-tel .header {
         font-weight: 700; }
@@ -842,8 +843,18 @@ main .contact-map {
         main .contact-map .container #verticalTab .tel-mail-btn .office-tel .tel a {
           color: #222222;
           text-decoration: none; }
+    main .contact-map .container #verticalTab .tel-mail-btn .office-tel:before {
+      content: "";
+      position: relative;
+      display: block;
+      background: url(../img/app.png);
+      height: 24px;
+      width: 28px;
+      left: -34px;
+      top: 27px; }
     main .contact-map .container #verticalTab .tel-mail-btn .office-partner {
       margin-top: 25px;
+      margin-left: 20px;
       padding: 15px; }
       main .contact-map .container #verticalTab .tel-mail-btn .office-partner .header {
         font-weight: 700; }
@@ -853,6 +864,15 @@ main .contact-map {
         main .contact-map .container #verticalTab .tel-mail-btn .office-partner .mail a {
           color: #222222;
           text-decoration: none; }
+    main .contact-map .container #verticalTab .tel-mail-btn .office-partner:before {
+      content: "";
+      position: relative;
+      display: block;
+      background: url(../img/mail.png);
+      height: 24px;
+      width: 28px;
+      left: -34px;
+      top: 27px; }
     main .contact-map .container #verticalTab .tel-mail-btn .btn {
       margin-top: 35px; }
       main .contact-map .container #verticalTab .tel-mail-btn .btn button {
