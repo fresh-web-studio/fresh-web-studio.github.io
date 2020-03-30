@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -71,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="2070" column="22" selection-start-line="2070" selection-start-column="22" selection-end-line="2070" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="1240" selection-start-line="1240" selection-end-line="1240" />
               <folding>
                 <element signature="e#207#6814#0" />
                 <element signature="e#6834#9152#0" />
@@ -284,7 +282,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="624" />
-    <option name="y" value="-1412" />
+    <option name="y" value="-1413" />
     <option name="width" value="1266" />
     <option name="height" value="1325" />
   </component>
@@ -420,21 +418,7 @@
       <workItem from="1585061806513" duration="52022000" />
       <workItem from="1585237326389" duration="195000" />
       <workItem from="1585238624108" duration="13108000" />
-      <workItem from="1585287980565" duration="27732000" />
-    </task>
-    <task id="LOCAL-00417" summary="Обновление">
-      <created>1585144263459</created>
-      <option name="number" value="00417" />
-      <option name="presentableId" value="LOCAL-00417" />
-      <option name="project" value="LOCAL" />
-      <updated>1585144263459</updated>
-    </task>
-    <task id="LOCAL-00418" summary="Обновление">
-      <created>1585144425318</created>
-      <option name="number" value="00418" />
-      <option name="presentableId" value="LOCAL-00418" />
-      <option name="project" value="LOCAL" />
-      <updated>1585144425323</updated>
+      <workItem from="1585287980565" duration="28059000" />
     </task>
     <task id="LOCAL-00419" summary="Обновление">
       <created>1585146164707</created>
@@ -765,11 +749,25 @@
       <option name="project" value="LOCAL" />
       <updated>1585552136000</updated>
     </task>
-    <option name="localTasksCounter" value="466" />
+    <task id="LOCAL-00466" summary="Обновление">
+      <created>1585558293743</created>
+      <option name="number" value="00466" />
+      <option name="presentableId" value="LOCAL-00466" />
+      <option name="project" value="LOCAL" />
+      <updated>1585558293743</updated>
+    </task>
+    <task id="LOCAL-00467" summary="Обновление">
+      <created>1585558495732</created>
+      <option name="number" value="00467" />
+      <option name="presentableId" value="LOCAL-00467" />
+      <option name="project" value="LOCAL" />
+      <updated>1585558495732</updated>
+    </task>
+    <option name="localTasksCounter" value="468" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="610888000" />
+    <option name="totallyTimeSpent" value="611215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="624" y="-1412" width="1266" height="1325" extended-state="0" />
@@ -1261,8 +1259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="2070" column="22" selection-start-line="2070" selection-start-column="22" selection-end-line="2070" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="1240" selection-start-line="1240" selection-end-line="1240" />
           <folding>
             <element signature="e#207#6814#0" />
             <element signature="e#6834#9152#0" />
