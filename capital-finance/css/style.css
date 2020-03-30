@@ -811,16 +811,26 @@ main section.partners .container .btn {
     border: 1px #30a6f9 solid; }
 main .contact-map2 .container #verticalTab .resp-tabs-list .resp-tab-item .office-adress .header {
   font-weight: 700; }
+main .contact-map2 .container #verticalTab .resp-tabs-list .resp-tab-item .office-adress:before {
+  content: "";
+  position: relative;
+  display: block;
+  background: url(../img/place.png);
+  height: 24px;
+  width: 28px;
+  left: -29px;
+  top: 16px; }
 main .contact-map2 .container #verticalTab .resp-tabs-container {
   margin-bottom: 60px; }
   main .contact-map2 .container #verticalTab .resp-tabs-container .map {
     background-color: #f7f7f7; }
 main .contact-map2 .container #verticalTab .tel-mail-btn {
   position: absolute;
-  margin-top: 150px;
+  margin-top: 180px;
   font-size: 13px; }
   main .contact-map2 .container #verticalTab .tel-mail-btn .office-tel {
-    margin-top: 20px; }
+    margin-top: 25px;
+    padding: 15px; }
     main .contact-map2 .container #verticalTab .tel-mail-btn .office-tel .header {
       font-weight: 700; }
     main .contact-map2 .container #verticalTab .tel-mail-btn .office-tel .tel {
@@ -830,7 +840,8 @@ main .contact-map2 .container #verticalTab .tel-mail-btn {
         color: #222222;
         text-decoration: none; }
   main .contact-map2 .container #verticalTab .tel-mail-btn .office-partner {
-    margin-top: 20px; }
+    margin-top: 25px;
+    padding: 15px; }
     main .contact-map2 .container #verticalTab .tel-mail-btn .office-partner .header {
       font-weight: 700; }
     main .contact-map2 .container #verticalTab .tel-mail-btn .office-partner .mail {
@@ -840,7 +851,7 @@ main .contact-map2 .container #verticalTab .tel-mail-btn {
         color: #222222;
         text-decoration: none; }
   main .contact-map2 .container #verticalTab .tel-mail-btn .btn {
-    margin-top: 20px; }
+    margin-top: 35px; }
     main .contact-map2 .container #verticalTab .tel-mail-btn .btn button {
       font-size: 14px;
       height: 48px;
@@ -1320,6 +1331,9 @@ main .article .container .row .new {
   main .contact-map2 .container #verticalTab .tel-mail-btn {
     position: relative;
     margin-top: 10px; }
+    main .contact-map2 .container #verticalTab .tel-mail-btn .btn {
+      text-align: center;
+      margin-bottom: 50px; }
   main .contact-map .korpus0 label:nth-of-type(6) {
     left: 0px; }
   main .analytics .container .row .btn button {
@@ -1484,9 +1498,9 @@ main .article .container .row .new {
   main section.partners .container .partners__items {
     padding: 0px 20px; }
     main section.partners .container .partners__items .partners__item {
-      width: 180px; }
+      width: 48%; }
       main section.partners .container .partners__items .partners__item img {
-        zoom: .8; } }
+        zoom: .7; } }
 @media all and (max-width: 320px) {
   main .analytics .container.grey .row .table .resp-tab th,
   main .analytics .container.grey .row .table .resp-tab td {
