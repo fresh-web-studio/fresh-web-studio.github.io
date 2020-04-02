@@ -20,9 +20,15 @@ header .container .header-top {
     font-size: 12px;
     color: #191919;
     line-height: 1.75; }
+    header .container .header-top .address .ping {
+      display: flex; }
+      header .container .header-top .address .ping:before {
+        content: url(../img/adres.png);
+        transform: translate(-7px, 2px); }
     header .container .header-top .address a {
       color: #f1460a;
-      text-decoration: none; }
+      text-decoration: none;
+      padding-left: 10px; }
       header .container .header-top .address a:hover {
         color: red; }
   header .container .header-top .mail-form {
@@ -31,7 +37,8 @@ header .container .header-top {
     line-height: 1.75; }
     header .container .header-top .mail-form .mail a {
       color: #191919;
-      text-decoration: none; }
+      text-decoration: none;
+      padding-left: 10px; }
       header .container .header-top .mail-form .mail a:hover {
         color: grey; }
     header .container .header-top .mail-form a {
