@@ -1,3 +1,13 @@
+* {
+  font-family: 'Montserrat', sans-serif; }
 
+body {
+  width: 100%;
+  font-family: Montserrat, Arial; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
