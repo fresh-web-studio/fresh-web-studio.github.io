@@ -56,17 +56,56 @@ header {
             &:hover {
               color: grey;
             }
+            display: flex;
+            &:before {
+              content: url(../img/mail.png);
+              transform: translate(-7px, 1px);
+            }
           }
         }
         a {
           color: rgb(241, 70, 10);
           text-decoration: none;
+          padding-left: 22px;
           &:hover {
             color: red;
           }
         }
       }
+      .tel {
+        display: flex;
+        &:before {
+          content: url(../img/phone.png);
+          transform: translate(-7px, 1px);
+        }
+        a {
+          font-size: 18px;
+          color: rgb(25, 25, 25);
+          font-weight: bold;
+          text-decoration: none;
+          &:hover {
+            color: gray;
+          }
+        }
+      }
+      button {
+        border-radius: 3px;
+        background-color: #f1460a;
+        border: 0;
+        left: 1418px;
+        top: 26px;
+        width: 141px;
+        height: 37px;
+        cursor: pointer;
+        .btn {
+          font-size: 13px;
+          color: rgb(255, 255, 255);
+        }
+        &:hover {
+          background-color: #d02718;
+        }
 
+      }
     }
   }
 }
