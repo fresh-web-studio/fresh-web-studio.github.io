@@ -77,5 +77,17 @@ header .container .header-top {
       color: white; }
     header .container .header-top button:hover {
       background-color: #d02718; }
+header .container .nav-container ul.rd-navbar-nav {
+  padding-inline-start: 0px; }
+  header .container .nav-container ul.rd-navbar-nav li.rd-nav-item {
+    display: inline-block;
+    margin-left: 50px; }
+    header .container .nav-container ul.rd-navbar-nav li.rd-nav-item a.rd-nav-link {
+      color: #333;
+      font-size: 14px;
+      transition: .25s;
+      text-decoration: none; }
+    header .container .nav-container ul.rd-navbar-nav li.rd-nav-item:first-child {
+      margin-left: 0px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -107,5 +107,23 @@ header {
 
       }
     }
+    .nav-container {
+      ul.rd-navbar-nav {
+        padding-inline-start: 0px;
+        li.rd-nav-item {
+          display: inline-block;
+          margin-left: 50px;
+          a.rd-nav-link {
+            color: #333;
+            font-size: 14px;
+            transition: .25s;
+            text-decoration: none;
+          }
+          &:first-child {
+            margin-left: 0px;
+          }
+        }
+      }
+    }
   }
 }
