@@ -122,6 +122,8 @@ header .container {
     letter-spacing: 1px;
     color: #ffffff;
     transition: .2s linear; }
+  header .container .nav-container nav.container .active {
+    border-bottom: 1px white solid; }
   header .container .nav-container nav.container .top-menu > li > a:hover {
     color: #d4d4d4; }
   header .container .nav-container nav.container .dropdown:after {
@@ -172,7 +174,7 @@ header .container {
   header .container .nav-container nav.container .submenu li .link-image {
     padding: 0; }
   header .container .nav-container nav.container .submenu li a:hover, header .container .nav-container nav.container .submenu-standart li a:hover {
-    color: #B03062; }
+    color: #f1460a; }
   header .container .nav-container nav.container .submenu h3 {
     font-family: 'Playfair Display', serif;
     font-size: 20px;

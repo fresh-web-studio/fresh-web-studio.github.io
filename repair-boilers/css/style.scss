@@ -182,7 +182,9 @@ header {
           color: #ffffff;
           transition: .2s linear;
         }
-
+        .active {
+          border-bottom: 1px rgba(255, 255, 255, 1) solid;
+        }
         .top-menu > li > a:hover {
           color: #d4d4d4;
         }
@@ -260,7 +262,7 @@ header {
         }
 
         .submenu li a:hover, .submenu-standart li a:hover {
-          color: #B03062;
+          color: #f1460a;
         }
 
         .submenu h3 {
