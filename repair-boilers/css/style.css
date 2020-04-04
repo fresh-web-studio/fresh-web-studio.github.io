@@ -276,9 +276,9 @@ header .slide-wraper {
         border-radius: 3px;
         background-color: #f7f7f7;
         font-size: 20px;
-        padding-left: 50px;
         width: 376px;
-        height: 66px; }
+        height: 66px;
+        text-align: center; }
   header .slide-wraper .slide-item button.btn {
     border-radius: 3px;
     background-color: #f1460a;
@@ -422,10 +422,14 @@ header .slide-wraper {
     width: 100%;
     font-size: 20px;
     text-align: center; }
+    header .slide-wraper .slide-item .slide-item__header.black {
+      color: #000; }
   header .slide-wraper .slide-item .slide-item__text {
     padding: 0px 10px 20px;
     text-align: center;
     width: 100%; }
+    header .slide-wraper .slide-item .slide-item__text.black {
+      color: #000; }
   header .slide-wraper .slide-item .form-horizontal {
     width: 100%;
     border-radius: 0px;
@@ -437,10 +441,22 @@ header .slide-wraper {
   header .slide-wraper .slide-item.slide1 {
     height: 700px;
     text-align: center;
-    background-position: right center; }
+    background-position: center center; }
   header .slide-wraper .slide-item.slide2 {
     height: 700px;
-    background-position: right center;
+    background-position: center center;
+    text-align: center; }
+  header .slide-wraper .slide-item.slide3 {
+    height: 700px;
+    background-position: center center;
+    text-align: center; }
+  header .slide-wraper .slide-item.slide4 {
+    height: 700px;
+    background-position: center center;
+    text-align: center; }
+  header .slide-wraper .slide-item.slide5 {
+    height: 700px;
+    background-position: center center;
     text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

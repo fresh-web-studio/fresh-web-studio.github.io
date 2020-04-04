@@ -381,9 +381,9 @@ header {
                 border-radius: 3px;
                 background-color: #f7f7f7;
                 font-size: 20px;
-                padding-left: 50px;
                 width: 376px;
                 height: 66px;
+                text-align: center;
               }
 
             }
@@ -601,12 +601,18 @@ header {
           width: 100%;
           font-size: 20px;
           text-align: center;
+          &.black {
+            color: #000;
+          }
         }
 
         .slide-item__text {
           padding: 0px 10px 20px;
           text-align: center;
           width: 100%;
+          &.black {
+            color: #000;
+          }
         }
         .form-horizontal {
           width: 100%;
@@ -628,12 +634,26 @@ header {
       .slide-item.slide1 {
         height: 700px;
         text-align: center;
-        background-position: right center;
+        background-position: center center;
       }
-
       .slide-item.slide2 {
         height: 700px;
-        background-position: right center;
+        background-position: center center;
+        text-align: center;
+      }
+      .slide-item.slide3 {
+        height: 700px;
+        background-position: center center;
+        text-align: center;
+      }
+      .slide-item.slide4 {
+        height: 700px;
+        background-position: center center;
+        text-align: center;
+      }
+      .slide-item.slide5 {
+        height: 700px;
+        background-position: center center;
         text-align: center;
       }
 
