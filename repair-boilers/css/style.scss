@@ -2,9 +2,11 @@
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
 }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,6 +24,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
 }
+
 body {
   width: 100%;
   font-family: Montserrat, Arial;
@@ -41,6 +44,7 @@ header {
   .container {
     position: relative;
     z-index: 2;
+
     .header-top {
       display: flex;
       flex-wrap: wrap;
@@ -182,9 +186,11 @@ header {
           color: #ffffff;
           transition: .2s linear;
         }
+
         .top-menu > li.active {
           border-bottom: 1px rgba(255, 255, 255, 1) solid;
         }
+
         .top-menu > li > a:hover {
           color: #d4d4d4;
         }
@@ -284,151 +290,194 @@ header {
       }
     }
   }
+
   .slide-wraper {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      z-index: 1;
-      margin-top: -50px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: -50px;
 
-      .slide-item.slide1 {
-        background-image: url(../img/slider-bg-1.jpg);
-        background-position: center center; /* Положение фона */
-        background-repeat: no-repeat; /* Отменяем повторение фона */
-        height: 884px;
-      }
-      .slide-item.slide2 {
-        background-image: url(../img/slider-bg-2.jpg);
-        background-position: center center; /* Положение фона */
-        background-repeat: no-repeat; /* Отменяем повторение фона */
-        height: 884px;
-      }
-      .slide-item.slide3 {
-        background-image: url(../img/slider-bg-3.jpg);
-        background-position: center center; /* Положение фона */
-        background-repeat: no-repeat; /* Отменяем повторение фона */
-        height: 884px;
-      }
-      .slide-item.slide4 {
-        background-image: url(../img/slider-bg-4.jpg);
-        background-position: center center; /* Положение фона */
-        background-repeat: no-repeat; /* Отменяем повторение фона */
-        height: 884px;
-      }
-      .slide-item.slide5 {
-        background-image: url(../img/slider-bg-5.jpg);
-        background-position: center center; /* Положение фона */
-        background-repeat: no-repeat; /* Отменяем повторение фона */
-        height: 884px;
+    .slide-item.slide1 {
+      background-image: url(../img/slider-bg-1.jpg);
+      background-position: center center; /* Положение фона */
+      background-repeat: no-repeat; /* Отменяем повторение фона */
+      height: 884px;
+    }
+
+    .slide-item.slide2 {
+      background-image: url(../img/slider-bg-2.jpg);
+      background-position: center center; /* Положение фона */
+      background-repeat: no-repeat; /* Отменяем повторение фона */
+      height: 884px;
+    }
+
+    .slide-item.slide3 {
+      background-image: url(../img/slider-bg-3.jpg);
+      background-position: center center; /* Положение фона */
+      background-repeat: no-repeat; /* Отменяем повторение фона */
+      height: 884px;
+    }
+
+    .slide-item.slide4 {
+      background-image: url(../img/slider-bg-4.jpg);
+      background-position: center center; /* Положение фона */
+      background-repeat: no-repeat; /* Отменяем повторение фона */
+      height: 884px;
+    }
+
+    .slide-item.slide5 {
+      background-image: url(../img/slider-bg-5.jpg);
+      background-position: center center; /* Положение фона */
+      background-repeat: no-repeat; /* Отменяем повторение фона */
+      height: 884px;
+    }
+
+    .slide-item {
+      .slide-item__header {
+        padding-top: 100px;
+        width: 690px;
+        font-size: 47px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.213;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
       }
 
-      .slide-item {
-        .slide-item__header {
-          padding-top: 100px;
-          width: 690px;
-          font-size: 47px;
-          font-weight: bold;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.213;
-          letter-spacing: normal;
-          text-align: left;
-          color: #ffffff;
-        }
+      .slide-item__text {
+        padding-top: 30px;
+        padding-bottom: 55px;
+        width: 500px;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.73;
+        letter-spacing: normal;
+        text-align: left;
+        color: #e1e1e1;
+      }
 
-        .slide-item__text {
-          padding-top: 30px;
-          padding-bottom: 55px;
-          width: 500px;
-          font-size: 15px;
-          font-weight: normal;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.73;
-          letter-spacing: normal;
-          text-align: left;
-          color: #e1e1e1;
-        }
-        .form-horizontal {
-          width: 566px;
-          background-color: #fff;
-          border-radius: 10px;
-          padding: 40px;
-          .form-group {
-            .h2 {
-              font-size: 22px;
-              font-family: "Montserrat";
-              color: rgb(56, 56, 56);
-              font-weight: bold;
-              line-height: 0.955;
-            }
-            .text {
-              font-size: 15px;
-              font-weight: bold;
-              line-height: 1.667;
-              color: #383838;
-              margin: 10px 0 30px 0;
-              span {
-                color: #f1460a;
-              }
-            }
-            .input-phone {
-              padding: 20px 0;
-              input[type="text"] {
-                border-style: solid;
-                border-width: 1px;
-                border-color: rgb(218, 218, 218);
-                border-radius: 3px;
-                background-color: #f7f7f7;
-                font-size: 20px;
-                width: 376px;
-                height: 66px;
-                text-align: center;
-              }
+      .form-horizontal {
+        width: 566px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 40px;
 
+        .form-group {
+          h4 {
+            font-size: 22px;
+            color: rgb(56, 56, 56);
+            font-weight: bold;
+            line-height: 0.955;
+          }
+
+          .text {
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 1.667;
+            color: #383838;
+            margin: 10px 0 30px 0;
+
+            span {
+              color: #f1460a;
             }
           }
+
+          .input-phone {
+            padding: 20px 0;
+
+            input[type="text"] {
+              border-style: solid;
+              border-width: 1px;
+              border-color: rgb(218, 218, 218);
+              border-radius: 3px;
+              background-color: #f7f7f7;
+              font-size: 20px;
+              width: 376px;
+              height: 66px;
+              text-align: center;
+            }
+
+          }
         }
-        button.btn {
-          border-radius: 3px;
-          background-color: #f1460a;
-          border: 0;
-          width: 376px;
-          height: 62px;
-          cursor: pointer;
+      }
+
+      button.btn {
+        border-radius: 3px;
+        background-color: #f1460a;
+        border: 0;
+        width: 376px;
+        height: 62px;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 0px 20px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+
+      button.btn:hover {
+        background-color: #d02718;
+      }
+    }
+  }
+}
+
+main {
+  .advantages {
+    margin: 60px 0;
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .advantages__item {
+        width: 19%;
+
+        h5 {
           font-size: 16px;
-          padding: 0px 20px;
-          text-transform: uppercase;
-          color: #ffffff;
+          color: rgb(29, 29, 29);
+          font-weight: bold;
+          line-height: 2.563;
         }
 
-        button.btn:hover {
-          background-color: #d02718;
+        .info {
+          font-size: 13px;
+          color: rgb(78, 78, 78);
+          line-height: 1.615;
         }
       }
     }
-
+  }
 }
 
-@media screen and (max-width: 670px)  {
+@media screen and (max-width: 670px) {
   header {
     .container {
       .header-top {
         display: block;
         height: 45px;
+
         .logo {
           overflow: hidden;
           width: 43px;
           float: left;
           margin: 6px 17px 1px 7px;
         }
+
         .mail-form, button, .address {
           display: none;
         }
+
         .tel {
           padding-top: 12px;
         }
       }
+
       .nav-container {
         nav.container {
           position: initial;
@@ -550,6 +599,7 @@ header {
             transition: 0s;
             color: #383838;
           }
+
           .top-menu > li > a:hover {
             color: black;
           }
@@ -562,9 +612,11 @@ header {
             padding: 0;
             background: rgba(0, 0, 0, .02);
           }
+
           .submenu-standart li {
             padding: 0px;
           }
+
           .submenu-standart li a {
             padding: 12px 18px;
           }
@@ -594,6 +646,7 @@ header {
         }
       }
     }
+
     .slide-wraper {
       .slide-item {
         .slide-item__header {
@@ -601,6 +654,7 @@ header {
           width: 100%;
           font-size: 20px;
           text-align: center;
+
           &.black {
             color: #000;
           }
@@ -610,14 +664,17 @@ header {
           padding: 0px 10px 20px;
           text-align: center;
           width: 100%;
+
           &.black {
             color: #000;
           }
         }
+
         .form-horizontal {
           width: 100%;
           border-radius: 0px;
           padding: 20px;
+
           .form-group {
             .input-phone {
               input[type="text"] {
@@ -626,6 +683,7 @@ header {
             }
           }
         }
+
         button.btn {
           width: 100%;
         }
@@ -636,27 +694,50 @@ header {
         text-align: center;
         background-position: center center;
       }
+
       .slide-item.slide2 {
         height: 700px;
         background-position: center center;
         text-align: center;
       }
+
       .slide-item.slide3 {
         height: 700px;
         background-position: center center;
         text-align: center;
       }
+
       .slide-item.slide4 {
         height: 700px;
         background-position: center center;
         text-align: center;
       }
+
       .slide-item.slide5 {
         height: 700px;
         background-position: center center;
         text-align: center;
       }
 
+    }
+  }
+  main {
+    .advantages {
+      margin: 60px 0px 30px;
+
+      .container {
+        .advantages__item {
+          width: 100%;
+          text-align: center;
+
+          h5 {
+          }
+
+          .info {
+            padding: 0px 30px 30px;
+          }
+        }
+      }
     }
   }
 }
