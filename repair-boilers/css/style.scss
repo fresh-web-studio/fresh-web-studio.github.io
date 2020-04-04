@@ -420,7 +420,7 @@ header {
           overflow: hidden;
           width: 43px;
           float: left;
-          margin: 3px 17px 3px 3px;
+          margin: 6px 17px 1px 7px;
         }
         .mail-form, button, .address {
           display: none;
@@ -593,6 +593,50 @@ header {
           }
         }
       }
+    }
+    .slide-wraper {
+      .slide-item {
+        .slide-item__header {
+          padding: 30px 10px 20px 10px;
+          width: 100%;
+          font-size: 20px;
+          text-align: center;
+        }
+
+        .slide-item__text {
+          padding: 0px 10px 20px;
+          text-align: center;
+          width: 100%;
+        }
+        .form-horizontal {
+          width: 100%;
+          border-radius: 0px;
+          padding: 20px;
+          .form-group {
+            .input-phone {
+              input[type="text"] {
+                width: 100%;
+              }
+            }
+          }
+        }
+        button.btn {
+          width: 100%;
+        }
+      }
+
+      .slide-item.slide1 {
+        height: 700px;
+        text-align: center;
+        background-position: right center;
+      }
+
+      .slide-item.slide2 {
+        height: 700px;
+        background-position: right center;
+        text-align: center;
+      }
+
     }
   }
 }

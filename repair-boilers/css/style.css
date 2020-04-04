@@ -301,7 +301,7 @@ header .slide-wraper {
       overflow: hidden;
       width: 43px;
       float: left;
-      margin: 3px 17px 3px 3px; }
+      margin: 6px 17px 1px 7px; }
     header .container .header-top .mail-form, header .container .header-top button, header .container .header-top .address {
       display: none; }
     header .container .header-top .tel {
@@ -416,6 +416,31 @@ header .slide-wraper {
       border-bottom: none; }
     header .container .nav-container nav.container .top-menu > li:hover .submenu,
     header .container .nav-container nav.container .top-menu > li:hover .submenu-standart {
-      display: block; } }
+      display: block; }
+  header .slide-wraper .slide-item .slide-item__header {
+    padding: 30px 10px 20px 10px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center; }
+  header .slide-wraper .slide-item .slide-item__text {
+    padding: 0px 10px 20px;
+    text-align: center;
+    width: 100%; }
+  header .slide-wraper .slide-item .form-horizontal {
+    width: 100%;
+    border-radius: 0px;
+    padding: 20px; }
+    header .slide-wraper .slide-item .form-horizontal .form-group .input-phone input[type="text"] {
+      width: 100%; }
+  header .slide-wraper .slide-item button.btn {
+    width: 100%; }
+  header .slide-wraper .slide-item.slide1 {
+    height: 700px;
+    text-align: center;
+    background-position: right center; }
+  header .slide-wraper .slide-item.slide2 {
+    height: 700px;
+    background-position: right center;
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
