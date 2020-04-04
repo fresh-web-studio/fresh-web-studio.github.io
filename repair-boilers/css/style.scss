@@ -321,6 +321,7 @@ header {
 
         .slide-item__text {
           padding-top: 30px;
+          padding-bottom: 55px;
           width: 500px;
           font-size: 15px;
           font-weight: normal;
@@ -331,7 +332,46 @@ header {
           text-align: left;
           color: #e1e1e1;
         }
+        .form-horizontal {
+          width: 566px;
+          background-color: #fff;
+          border-radius: 10px;
+          padding: 40px;
+          .form-group {
+            .h2 {
+              font-size: 22px;
+              font-family: "Montserrat";
+              color: rgb(56, 56, 56);
+              font-weight: bold;
+              line-height: 0.955;
+            }
+            .text {
+              font-size: 15px;
+              font-weight: bold;
+              line-height: 1.667;
+              color: #383838;
+              margin: 10px 0 30px 0;
+              span {
+                color: #f1460a;
+              }
+            }
+            .input-phone {
+              padding: 20px 0;
+              input[type="text"] {
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(218, 218, 218);
+                border-radius: 3px;
+                background-color: #f7f7f7;
+                font-size: 20px;
+                padding-left: 50px;
+                width: 376px;
+                height: 66px;
+              }
 
+            }
+          }
+        }
         button.btn {
           border-radius: 3px;
           background-color: #f1460a;

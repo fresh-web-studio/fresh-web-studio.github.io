@@ -217,6 +217,7 @@ header .slide-wraper {
     color: #ffffff; }
   header .slide-wraper .slide-item .slide-item__text {
     padding-top: 30px;
+    padding-bottom: 55px;
     width: 500px;
     font-size: 15px;
     font-weight: normal;
@@ -226,6 +227,37 @@ header .slide-wraper {
     letter-spacing: normal;
     text-align: left;
     color: #e1e1e1; }
+  header .slide-wraper .slide-item .form-horizontal {
+    width: 566px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px; }
+    header .slide-wraper .slide-item .form-horizontal .form-group .h2 {
+      font-size: 22px;
+      font-family: "Montserrat";
+      color: #383838;
+      font-weight: bold;
+      line-height: 0.955; }
+    header .slide-wraper .slide-item .form-horizontal .form-group .text {
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 1.667;
+      color: #383838;
+      margin: 10px 0 30px 0; }
+      header .slide-wraper .slide-item .form-horizontal .form-group .text span {
+        color: #f1460a; }
+    header .slide-wraper .slide-item .form-horizontal .form-group .input-phone {
+      padding: 20px 0; }
+      header .slide-wraper .slide-item .form-horizontal .form-group .input-phone input[type="text"] {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #dadada;
+        border-radius: 3px;
+        background-color: #f7f7f7;
+        font-size: 20px;
+        padding-left: 50px;
+        width: 376px;
+        height: 66px; }
   header .slide-wraper .slide-item button.btn {
     border-radius: 3px;
     background-color: #f1460a;
