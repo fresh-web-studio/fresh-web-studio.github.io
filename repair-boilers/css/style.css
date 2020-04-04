@@ -309,6 +309,52 @@ main .advantages {
         font-size: 13px;
         color: #4e4e4e;
         line-height: 1.615; }
+main .our_services .container h2 {
+  font-size: 35px;
+  color: #313131;
+  line-height: 1.286;
+  text-align: center;
+  font-weight: 400; }
+  main .our_services .container h2 span {
+    font-weight: 900; }
+main .our_services .container .services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  main .our_services .container .services .services__item {
+    width: 23%;
+    text-align: center; }
+    main .our_services .container .services .services__item .services__top {
+      border: 1px #e9e9e9 solid;
+      border-radius: 3px; }
+      main .our_services .container .services .services__item .services__top .info {
+        font-size: 13px;
+        color: #292929;
+        line-height: 1.615;
+        text-align: center; }
+      main .our_services .container .services .services__item .services__top .price {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 2; }
+    main .our_services .container .services .services__item .services__btn button {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      background-color: #f1460a;
+      border: 0;
+      width: 141px;
+      height: 37px;
+      cursor: pointer; }
+      main .our_services .container .services .services__item .services__btn button .btn {
+        font-size: 13px;
+        color: white; }
+    main .our_services .container .services .services__item .services__btn button:hover {
+      background-color: #d02718; }
+    main .our_services .container .services .services__item .services__btn .btn a {
+      color: #f1460a;
+      text-decoration: underline; }
+      main .our_services .container .services .services__item .services__btn .btn a:hover {
+        color: #d02718; }
 
 @media screen and (max-width: 670px) {
   header .container .header-top {
