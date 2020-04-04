@@ -431,6 +431,7 @@ header {
       }
       .nav-container {
         nav.container {
+          position: initial;
           // Бургер меню меню для мобильных
 
           /* скрываем чекбокс */
@@ -501,7 +502,7 @@ header {
           /* элементы меню */
           .menu-link {
             display: block;
-            color: #ffffff;
+            color: #383838;
             font-weight: 100;
             text-decoration: none;
           }
@@ -547,6 +548,10 @@ header {
           .top-menu > li > a {
             padding: 18px;
             transition: 0s;
+            color: #383838;
+          }
+          .top-menu > li > a:hover {
+            color: black;
           }
 
           .submenu,
