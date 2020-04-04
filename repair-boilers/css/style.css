@@ -260,7 +260,8 @@ header .container .nav-container nav.container .menu-btn {
     header .container .nav-container nav.container .top-menu > li {
       border-bottom: 1px solid #e5e5e5; }
     header .container .nav-container nav.container .top-menu > li > a {
-      padding: 18px; }
+      padding: 18px;
+      transition: 0s; }
     header .container .nav-container nav.container .submenu,
     header .container .nav-container nav.container .submenu-standart {
       position: relative;
