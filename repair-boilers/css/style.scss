@@ -176,7 +176,6 @@ header {
           content: "\f107";
           font-family: FontAwesome;
           margin-left: 4px;
-          vertical-align: top;
         }
 
         .submenu, .submenu-standart {
@@ -245,7 +244,7 @@ header {
           padding: 0;
         }
 
-        .submenu li a:hover {
+        .submenu li a:hover, .submenu-standart li a:hover {
           color: #B03062;
         }
 
@@ -265,6 +264,96 @@ header {
         .menu-btn {
           display: none;
         }
+      }
+    }
+
+    .slide-wraper {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+
+      .slide-item.slide1 {
+        background-image: url(../img/slider-bg-1.jpg);
+        background-position: center center; /* Положение фона */
+        background-repeat: no-repeat; /* Отменяем повторение фона */
+        height: 884px;
+      }
+
+      .slide-item.slide2 {
+        background-image: url(../img/slider-bg-2.jpg);
+        background-position: center center; /* Положение фона */
+        background-repeat: no-repeat; /* Отменяем повторение фона */
+        height: 884px;
+      }
+
+      .slide-item {
+        .slide-item__header {
+          padding-top: 100px;
+          width: 481px;
+          font-size: 33px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.3;
+          letter-spacing: normal;
+          text-align: left;
+          color: #ffffff;
+        }
+
+        .slide-item__text {
+          padding-top: 30px;
+          width: 491px;
+          font-size: 15px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.73;
+          letter-spacing: normal;
+          text-align: left;
+          color: #e1e1e1;
+        }
+
+        button.btn {
+          font-size: 14px;
+          height: 57px;
+          margin-top: 50px;
+          padding: 0px 20px;
+          border-radius: 30px;
+          text-transform: uppercase;
+          border: 0px;
+          background-color: #30a6f9;
+          color: #ffffff;
+        }
+
+        button.btn:hover {
+          background-color: #0688fa;
+        }
+
+        .owl-carousel .owl-nav button.owl-prev {
+          position: absolute;
+          bottom: 10.5%;
+          left: 18.4%;
+          z-index: 1;
+          border: none;
+          background: transparent;
+        }
+      }
+
+      .owl-prev, .owl-next {
+        position: absolute;
+        bottom: 42px;
+        width: 42px;
+        height: 42px;
+        background-size: 42px 42px !important;
+      }
+
+      .owl-prev {
+        background-image: url("../img/left-arrow@2x.png") !important;
+      }
+
+      .owl-next {
+        background-image: url("../img/right-arrow@2x.png") !important;
+        margin-left: 60px;
       }
     }
   }

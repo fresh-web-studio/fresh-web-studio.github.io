@@ -134,7 +134,7 @@ ul {
     align-items: center;
     /* центрируем содержимое кнопки */
     position: absolute;
-    top: 26px;
+    top: 18px;
     right: 20px;
     width: 25px;
     height: 25px;
@@ -149,7 +149,7 @@ ul {
     position: absolute;
     width: 25px;
     height: 2px;
-    background-color: #7504b8; }
+    background-color: #f1460a; }
 
   .menu-btn > span::before {
     content: '';
@@ -168,7 +168,7 @@ ul {
     left: 0;
     width: 100%;
     margin: 0;
-    padding: 80px 0 0 0;
+    padding: 5px 0 0 0;
     list-style: none;
     background-color: #ffffff;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
@@ -218,7 +218,8 @@ ul {
     border-bottom: 1px solid #e5e5e5; }
 
   .top-menu > li > a {
-    padding: 18px; }
+    padding: 18px;
+    transition: 0s; }
 
   .submenu,
   .submenu-standart {
@@ -228,8 +229,11 @@ ul {
     padding: 0;
     background: rgba(0, 0, 0, 0.02); }
 
-  .submenu-standart {
-    padding: 10px 0; }
+  .submenu-standart li {
+    padding: 0px; }
+
+  .submenu-standart li a {
+    padding: 12px 18px; }
 
   .submenu > li {
     border-right: none;
