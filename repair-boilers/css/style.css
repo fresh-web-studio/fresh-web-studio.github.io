@@ -204,6 +204,27 @@ header .slide-wraper {
     background-repeat: no-repeat;
     /* Отменяем повторение фона */
     height: 884px; }
+  header .slide-wraper .slide-item.slide3 {
+    background-image: url(../img/slider-bg-3.jpg);
+    background-position: center center;
+    /* Положение фона */
+    background-repeat: no-repeat;
+    /* Отменяем повторение фона */
+    height: 884px; }
+  header .slide-wraper .slide-item.slide4 {
+    background-image: url(../img/slider-bg-4.jpg);
+    background-position: center center;
+    /* Положение фона */
+    background-repeat: no-repeat;
+    /* Отменяем повторение фона */
+    height: 884px; }
+  header .slide-wraper .slide-item.slide5 {
+    background-image: url(../img/slider-bg-5.jpg);
+    background-position: center center;
+    /* Положение фона */
+    background-repeat: no-repeat;
+    /* Отменяем повторение фона */
+    height: 884px; }
   header .slide-wraper .slide-item .slide-item__header {
     padding-top: 100px;
     width: 690px;
