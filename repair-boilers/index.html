@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap&subset=cyrillic"
           rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -31,16 +31,39 @@
                 <div class="btn">Вызвать мастера</div>
             </button>
         </div>
+
         <div class="nav-container">
-            <ul class="rd-navbar-nav">
-                <li class="rd-nav-item">
-                    <a class="rd-nav-link" href="index.html">Главная</a>
-                </li>
-                <li class="rd-nav-item">
-                    <a class="rd-nav-link" href="repair.html">Ремонт котлов</a>
-                    <span class="rd-navbar-submenu-toggle"></span>
-                </li>
-            </ul>
+            <nav class="container">
+                <ul class="top-menu">
+                    <li><a href="">Главная</a></li>
+                    <li class="dropdown-standart"><a href="" class="dropdown">Ремонт котлов и горелок</a>
+                        <ul class="submenu-standart">
+                            <li><a href="">Электрические</a></li>
+                            <li><a href="">Газовые</a></li>
+                            <li><a href="">Твердотопливные</a></li>
+                            <li><a href="">Дизельные</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="dropdown">Наши услуги</a>
+                        <ul class="submenu-standart">
+                            <li><a href="">Продажа оборудования</a></li>
+                            <li><a href="">Продажа запчастей</a></li>
+                            <li><a href="">Монтаж котлов</a></li>
+                            <li><a href="">Установка горелок</a></li>
+                            <li><a href="">Пусконаладка котельного оборудования</a></li>
+                            <li><a href="">Установка радиаторов</a></li>
+                            <li><a href="">Монтаж водяного тёплого пола</a></li>
+                            <li><a href="">Установка автоматики</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Оборудование</a></li>
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Наши работы</a></li>
+                    <li><a href="">Блог</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
     <div class="slide-wraper">
@@ -88,5 +111,6 @@
 <script src="js/main.js"></script>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="js/menu.min.js"></script>
 </body>
 </html>

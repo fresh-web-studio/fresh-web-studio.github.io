@@ -1,5 +1,12 @@
+@charset "UTF-8";
 * {
   font-family: 'Montserrat', sans-serif; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
 
 body {
   width: 100%;
@@ -77,17 +84,140 @@ header .container .header-top {
       color: white; }
     header .container .header-top button:hover {
       background-color: #d02718; }
-header .container .nav-container ul.rd-navbar-nav {
-  padding-inline-start: 0px; }
-  header .container .nav-container ul.rd-navbar-nav li.rd-nav-item {
+header .container .nav-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+header .container .nav-container .top-menu {
+  background: white;
+  position: relative; }
+header .container .nav-container .top-menu:after, header .container .nav-container .submenu:after {
+  content: "";
+  display: table;
+  clear: both; }
+header .container .nav-container .top-menu > li {
+  float: left; }
+header .container .nav-container .top-menu > li > a {
+  display: block;
+  padding: 14px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000;
+  transition: .2s linear; }
+header .container .nav-container .top-menu > li > a:hover {
+  color: #B03062; }
+header .container .nav-container .dropdown:after {
+  content: "\f107";
+  font-family: FontAwesome;
+  margin-left: 4px;
+  vertical-align: top; }
+header .container .nav-container .submenu, header .container .nav-container .submenu-standart {
+  border-top: 1px solid #e5e5e5;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.07);
+  background: white;
+  padding: 25px 0;
+  position: absolute;
+  top: 100%;
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate3d(0, 30px, 0);
+  transition: .5s ease-out;
+  transform-origin: 0% 0%; }
+header .container .nav-container .submenu {
+  width: 100%; }
+header .container .nav-container .submenu-standart {
+  min-width: 200px;
+  padding: 10px 0; }
+header .container .nav-container .dropdown-standart {
+  position: relative; }
+header .container .nav-container .top-menu > li:hover .submenu, header .container .nav-container .top-menu > li:hover .submenu-standart {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0, 0, 0); }
+header .container .nav-container .submenu > li {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0 18px;
+  border-right: 1px solid #e5e5e5; }
+header .container .nav-container .submenu-standart li {
+  padding: 0 18px; }
+header .container .nav-container .submenu > li:last-child {
+  border-right: none; }
+header .container .nav-container .submenu img {
+  display: block;
+  width: 100%; }
+header .container .nav-container .submenu li a, header .container .nav-container .submenu-standart li a {
+  display: block;
+  padding: 5px 0;
+  color: #666;
+  font-size: 13px; }
+header .container .nav-container .submenu li .link-image {
+  padding: 0; }
+header .container .nav-container .submenu li a:hover {
+  color: #B03062; }
+header .container .nav-container .submenu h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0; }
+
+@media screen and (min-width: 600px) {
+  .pattern {
+    overflow: visible; }
+
+  a.menu-link {
+    display: none; }
+
+  .js .menu,
+  .js .menu > ul ul {
+    max-height: none;
+    overflow: visible;
+    background: none; }
+
+  .js .menu > ul ul {
+    background: #808080;
+    display: none; }
+
+  .js .menu > ul li:hover > ul {
+    display: block; }
+
+  .menu ul {
+    margin: 0 0 0 -0.25em;
+    border: 0; }
+
+  .menu li a {
+    border: 0; }
+
+  .menu li.has-subnav > a {
+    padding-right: 2em; }
+
+  .menu li.has-subnav > a:after {
+    content: ">";
+    font-size: 1em;
+    padding: 0.8em 0.5em; }
+
+  .menu .level-1 > li.has-subnav > a:after {
+    content: "▼"; }
+
+  .menu > ul li {
+    margin: 0 0.25em; }
+
+  .menu > ul > li {
     display: inline-block;
-    margin-left: 50px; }
-    header .container .nav-container ul.rd-navbar-nav li.rd-nav-item a.rd-nav-link {
-      color: #333;
-      font-size: 14px;
-      transition: .25s;
-      text-decoration: none; }
-    header .container .nav-container ul.rd-navbar-nav li.rd-nav-item:first-child {
-      margin-left: 0px; }
+    position: relative; }
+
+  .menu > ul ul {
+    position: absolute;
+    top: 0;
+    left: 12em;
+    width: 12em; }
+
+  .menu > ul ul li {
+    position: relative; }
+
+  .menu > ul ul.level-2 {
+    top: 3em;
+    left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,249 @@
+/// Demo CSS
+
+*{box-sizing: border-box;}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+a {text-decoration: none;}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content {
+  margin: 20px auto;
+  padding: 0 20px;
+}
+//// END Demo CSS
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.top-menu {
+  background: white;
+  position: relative;
+}
+.top-menu:after, .submenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-menu > li {
+  float: left;
+}
+.top-menu > li > a {
+  display: block;
+  padding: 18px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #000;
+  transition: .2s linear;
+}
+.top-menu > li > a:hover {color: #B03062;}
+.dropdown:after {
+  content: "\f107";
+  font-family: FontAwesome;
+  margin-left: 4px;
+  vertical-align: top;
+}
+.submenu, .submenu-standart {
+  border-top: 1px solid #e5e5e5;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,.07);
+  background: white;
+  padding: 25px 0;
+  position: absolute;
+  top: 100%;
+  //left: 0;
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate3d(0,30px,0);
+  transition: .5s ease-out;
+  transform-origin: 0% 0%;
+}
+.submenu {width: 100%;}
+.submenu-standart {
+  min-width: 200px;
+  padding: 10px 0;
+}
+.dropdown-standart {position: relative;}
+.top-menu > li:hover .submenu, .top-menu > li:hover .submenu-standart {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0,0,0);
+}
+.submenu > li {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0 18px;
+  border-right: 1px solid #e5e5e5;
+}
+.submenu-standart li {padding: 0 18px;}
+.submenu > li:last-child {border-right: none;}
+.submenu img {
+  display: block;
+  width: 100%;
+}
+.submenu li a, .submenu-standart li a {
+  display: block;
+  padding: 5px 0;
+  color: #666;
+  font-size: 13px;
+}
+.submenu li .link-image {padding: 0;}
+.submenu li a:hover {color: #B03062;}
+.submenu h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+// Бургер меню меню для мобильных (скрываем в ПК версии)
+
+#menu-toggle {
+  display: none;
+}
+.menu-btn {
+  display: none;
+}
+
+
+@media(max-width:670px) {
+  // Бургер меню меню для мобильных
+
+  /* скрываем чекбокс */
+  #menu-toggle {
+    opacity: 0;
+  }
+
+  /* стилизуем кнопку */
+  .menu-btn {
+    display: flex;
+    /* используем flex для центрирования содержимого */
+    align-items: center;
+    /* центрируем содержимое кнопки */
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 6;
+  }
+
+  /* добавляем "гамбургер" */
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: #7504b8;;
+  }
+
+  .menu-btn > span::before {
+    content: '';
+    top: -6px;
+  }
+
+  .menu-btn > span::after {
+    content: '';
+    top: 6px;
+  }
+
+  /* контейнер меню */
+  .top-menu {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ffffff;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    z-index: 4;
+
+    .menu-item {
+      font-size: 20px;
+      display: block;
+      padding: 0px 15px;
+      text-align: left;
+      line-height: 1.4;
+    }
+  }
+  /* элементы меню */
+  .menu-link {
+    display: block;
+    color: #ffffff;
+    font-weight: 100;
+    text-decoration: none;
+  }
+
+  .menu-link:hover {
+    background-color: #CFD8DC;
+  }
+
+  #menu-toggle:checked ~ .menu-btn > span {
+    transform: rotate(45deg);
+  }
+
+  #menu-toggle:checked ~ .menu-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+
+  #menu-toggle:checked ~ .menu-btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  #menu-toggle:checked ~ .top-menu {
+    visibility: visible;
+    left: 0;
+  }
+
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
+    transition-duration: .25s;
+  }
+
+
+
+
+  .top-menu li {
+    width: 100%;
+    height: auto!important;
+  }
+  .top-menu > li {border-bottom: 1px solid #e5e5e5;}
+  .top-menu > li > a {padding: 18px}
+  .submenu,
+  .submenu-standart {
+    position: relative;
+    display: none;
+    box-shadow: none;
+    padding: 0;
+    background: rgba(0,0,0,.02);
+  }
+  .submenu-standart {padding: 10px 0;}
+  .submenu > li {
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 18px;
+  }
+  .submenu h3 {margin: 0 0 10px}
+  .submenu .image-header {margin: 10px 0}
+  .submenu li:last-of-type {border-bottom: none}
+  .top-menu > li:hover .submenu,
+  .top-menu > li:hover .submenu-standart {display: block;}
+
+}

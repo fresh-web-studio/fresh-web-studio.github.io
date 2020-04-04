@@ -2,10 +2,19 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   width: 100%;
   font-family: Montserrat, Arial;
 }
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -24,70 +33,87 @@ header {
       justify-content: space-between;
       align-items: center;
       height: 90px;
+
       .address {
         font-size: 12px;
         color: rgb(25, 25, 25);
         line-height: 1.75;
+
         .ping {
           display: flex;
+
           &:before {
             content: url(../img/adres.png);
             transform: translate(-7px, 2px);
           }
         }
+
         a {
           color: rgb(241, 70, 10);
           text-decoration: none;
           padding-left: 10px;
+
           &:hover {
             color: red;
           }
         }
       }
+
       .mail-form {
         font-size: 12px;
         color: rgb(25, 25, 25);
         line-height: 1.75;
+
         .mail {
           a {
             color: rgb(25, 25, 25);
             text-decoration: none;
             padding-left: 10px;
+
             &:hover {
               color: grey;
             }
+
             display: flex;
+
             &:before {
               content: url(../img/mail.png);
               transform: translate(-7px, 1px);
             }
           }
         }
+
         a {
           color: rgb(241, 70, 10);
           text-decoration: none;
           padding-left: 22px;
+
           &:hover {
             color: red;
           }
         }
       }
+
       .tel {
         display: flex;
+
         &:before {
           content: url(../img/phone.png);
           transform: translate(-7px, 1px);
         }
+
         a {
           font-size: 18px;
           color: rgb(25, 25, 25);
           font-weight: bold;
           text-decoration: none;
+
           &:hover {
             color: gray;
           }
         }
       }
+
       button {
         border-radius: 3px;
         background-color: #f1460a;
@@ -97,33 +123,198 @@ header {
         width: 141px;
         height: 37px;
         cursor: pointer;
+
         .btn {
           font-size: 13px;
           color: rgb(255, 255, 255);
         }
+
         &:hover {
           background-color: #d02718;
         }
 
       }
     }
+
     .nav-container {
-      ul.rd-navbar-nav {
-        padding-inline-start: 0px;
-        li.rd-nav-item {
-          display: inline-block;
-          margin-left: 50px;
-          a.rd-nav-link {
-            color: #333;
-            font-size: 14px;
-            transition: .25s;
-            text-decoration: none;
-          }
-          &:first-child {
-            margin-left: 0px;
-          }
-        }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .top-menu {
+        background: white;
+        position: relative;
+      }
+
+      .top-menu:after, .submenu:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .top-menu > li {
+        float: left;
+      }
+
+      .top-menu > li > a {
+        display: block;
+        padding: 14px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #000;
+        transition: .2s linear;
+      }
+
+      .top-menu > li > a:hover {
+        color: #B03062;
+      }
+
+      .dropdown:after {
+        content: "\f107";
+        font-family: FontAwesome;
+        margin-left: 4px;
+        vertical-align: top;
+      }
+
+      .submenu, .submenu-standart {
+        border-top: 1px solid #e5e5e5;
+        box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .07);
+        background: white;
+        padding: 25px 0;
+        position: absolute;
+        top: 100%;
+        //left: 0;
+        z-index: 5;
+        opacity: 0;
+        visibility: hidden;
+        transform: translate3d(0, 30px, 0);
+        transition: .5s ease-out;
+        transform-origin: 0% 0%;
+      }
+
+      .submenu {
+        width: 100%;
+      }
+
+      .submenu-standart {
+        min-width: 200px;
+        padding: 10px 0;
+      }
+
+      .dropdown-standart {
+        position: relative;
+      }
+
+      .top-menu > li:hover .submenu, .top-menu > li:hover .submenu-standart {
+        opacity: 1;
+        visibility: visible;
+        transform: translate3d(0, 0, 0);
+      }
+
+      .submenu > li {
+        float: left;
+        width: calc(100% / 3);
+        padding: 0 18px;
+        border-right: 1px solid #e5e5e5;
+      }
+
+      .submenu-standart li {
+        padding: 0 18px;
+      }
+
+      .submenu > li:last-child {
+        border-right: none;
+      }
+
+      .submenu img {
+        display: block;
+        width: 100%;
+      }
+
+      .submenu li a, .submenu-standart li a {
+        display: block;
+        padding: 5px 0;
+        color: #666;
+        font-size: 13px;
+      }
+
+      .submenu li .link-image {
+        padding: 0;
+      }
+
+      .submenu li a:hover {
+        color: #B03062;
+      }
+
+      .submenu h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 10px 0;
       }
     }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .pattern {
+    overflow: visible;
+  }
+  a.menu-link {
+    display: none;
+  }
+  .js .menu,
+  .js .menu > ul ul {
+    max-height: none;
+    overflow: visible;
+    background: none;
+  }
+  .js .menu > ul ul {
+    background: #808080;
+    display: none;
+  }
+  .js .menu > ul li:hover > ul {
+    display: block;
+  }
+  .menu ul {
+    margin: 0 0 0 -0.25em;
+    border: 0;
+  }
+  .menu li a {
+    border: 0;
+  }
+  .menu li.has-subnav > a {
+    padding-right: 2em;
+  }
+  .menu li.has-subnav > a:after {
+    content: ">";
+    font-size: 1em;
+    padding: 0.8em 0.5em;
+  }
+  .menu .level-1 > li.has-subnav > a:after {
+    content: "▼";
+  }
+  .menu > ul li {
+    margin: 0 0.25em;
+  }
+  .menu > ul > li {
+    display: inline-block;
+    position: relative;
+  }
+  .menu > ul ul {
+    position: absolute;
+    top: 0;
+    left: 12em;
+    width: 12em;
+  }
+  .menu > ul ul li {
+    position: relative;
+  }
+  .menu > ul ul.level-2 {
+    top: 3em;
+    left: 0;
   }
 }
