@@ -39,6 +39,8 @@ body {
 
 header {
   .container {
+    position: relative;
+    z-index: 2;
     .header-top {
       display: flex;
       flex-wrap: wrap;
@@ -157,8 +159,9 @@ header {
         }
 
         .top-menu {
-          background: white;
+          //background: white;
           position: relative;
+          border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
         }
 
         .top-menu:after, .submenu:after {
@@ -176,12 +179,12 @@ header {
           padding: 14px;
           font-size: 14px;
           letter-spacing: 1px;
-          color: #000;
+          color: #ffffff;
           transition: .2s linear;
         }
 
         .top-menu > li > a:hover {
-          color: #B03062;
+          color: #d4d4d4;
         }
 
         .dropdown:after {
@@ -279,10 +282,12 @@ header {
       }
     }
   }
-    .slide-wraper {
+  .slide-wraper {
       position: relative;
       width: 100%;
       overflow: hidden;
+    z-index: 1;
+    margin-top: -42px;
 
       .slide-item.slide1 {
         background-image: url(../img/slider-bg-1.jpg);
@@ -340,32 +345,6 @@ header {
         button.btn:hover {
           background-color: #0688fa;
         }
-
-        .owl-carousel .owl-nav button.owl-prev {
-          position: absolute;
-          bottom: 10.5%;
-          left: 18.4%;
-          z-index: 1;
-          border: none;
-          background: transparent;
-        }
-      }
-
-      .owl-prev, .owl-next {
-        position: absolute;
-        bottom: 42px;
-        width: 42px;
-        height: 42px;
-        background-size: 42px 42px !important;
-      }
-
-      .owl-prev {
-        background-image: url("../img/left-arrow@2x.png") !important;
-      }
-
-      .owl-next {
-        background-image: url("../img/right-arrow@2x.png") !important;
-        margin-left: 60px;
       }
     }
 
