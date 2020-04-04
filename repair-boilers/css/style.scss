@@ -182,7 +182,7 @@ header {
           color: #ffffff;
           transition: .2s linear;
         }
-        .active {
+        .top-menu > li.active {
           border-bottom: 1px rgba(255, 255, 255, 1) solid;
         }
         .top-menu > li > a:hover {
@@ -288,8 +288,8 @@ header {
       position: relative;
       width: 100%;
       overflow: hidden;
-    z-index: 1;
-    margin-top: -42px;
+      z-index: 1;
+      margin-top: -50px;
 
       .slide-item.slide1 {
         background-image: url(../img/slider-bg-1.jpg);
@@ -321,7 +321,7 @@ header {
 
         .slide-item__text {
           padding-top: 30px;
-          width: 530px;
+          width: 500px;
           font-size: 15px;
           font-weight: normal;
           font-stretch: normal;
@@ -333,19 +333,20 @@ header {
         }
 
         button.btn {
-          font-size: 14px;
-          height: 57px;
-          margin-top: 50px;
+          border-radius: 3px;
+          background-color: #f1460a;
+          border: 0;
+          width: 376px;
+          height: 62px;
+          cursor: pointer;
+          font-size: 16px;
           padding: 0px 20px;
-          border-radius: 30px;
           text-transform: uppercase;
-          border: 0px;
-          background-color: #30a6f9;
           color: #ffffff;
         }
 
         button.btn:hover {
-          background-color: #0688fa;
+          background-color: #d02718;
         }
       }
     }
