@@ -357,6 +357,43 @@ main .our_services .container .services {
       text-decoration: underline; }
       main .our_services .container .services .services__item .services__btn .btn a:hover {
         color: #d02718; }
+main .our_services_add {
+  margin: 60px 0; }
+  main .our_services_add .container h2 {
+    font-size: 35px;
+    color: #313131;
+    line-height: 1.143;
+    text-align: center; }
+  main .our_services_add .container .main_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .our_services_add .container .main_block .main_block__column {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      text-align: center;
+      width: 48%; }
+      main .our_services_add .container .main_block .main_block__column .column_header {
+        width: 100%;
+        margin: 30px 30px 15px; }
+        main .our_services_add .container .main_block .main_block__column .column_header h3 {
+          font-size: 18px;
+          color: #313131;
+          font-weight: bold;
+          line-height: 2.222;
+          text-align: center; }
+      main .our_services_add .container .main_block .main_block__column .main_block__column__item {
+        width: 48%;
+        border-radius: 3px;
+        box-shadow: 0px 12px 69px 0px rgba(0, 0, 0, 0.09);
+        margin: 10px 0px;
+        padding: 30px; }
+        main .our_services_add .container .main_block .main_block__column .main_block__column__item .text {
+          font-size: 14px;
+          line-height: 1.929; }
+        main .our_services_add .container .main_block .main_block__column .main_block__column__item .price {
+          font-weight: bold; }
 
 @media screen and (max-width: 670px) {
   header .container .header-top {
@@ -569,6 +606,11 @@ main .our_services .container .services {
         color: #f1460a;
         text-decoration: underline; }
         main .our_services .container .services .services__item .services__btn .btn a:hover {
-          color: #d02718; } }
+          color: #d02718; }
+  main .our_services_add .container .main_block .main_block__column {
+    width: 100%;
+    margin: 0px 15px; }
+    main .our_services_add .container .main_block .main_block__column .main_block__column__item .text {
+      font-size: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
