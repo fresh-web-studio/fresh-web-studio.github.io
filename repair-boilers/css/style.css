@@ -394,6 +394,54 @@ main .our_services_add {
           line-height: 1.929; }
         main .our_services_add .container .main_block .main_block__column .main_block__column__item .price {
           font-weight: bold; }
+main .repairs {
+  background-color: #0f1c1c; }
+  main .repairs .container .repairs-block {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .repairs .container .repairs-block .text {
+      width: 55%; }
+      main .repairs .container .repairs-block .text h3 {
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+        line-height: 1.286; }
+        main .repairs .container .repairs-block .text h3 span {
+          color: #f1460a; }
+      main .repairs .container .repairs-block .text h3.report_header {
+        margin-top: 90px; }
+      main .repairs .container .repairs-block .text p {
+        width: 95%;
+        margin: 20px 0;
+        font-size: 14px;
+        line-height: 1.714;
+        color: #ffffff; }
+        main .repairs .container .repairs-block .text p span {
+          color: #f1460a; }
+    main .repairs .container .repairs-block .photo {
+      width: 45%; }
+  main .repairs .container .report {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .repairs .container .report .report__item {
+      width: 25%;
+      margin: 45px 0 60px;
+      text-align: center;
+      border: 1px #2b2b2b solid;
+      padding: 45px; }
+      main .repairs .container .report .report__item .numbers {
+        font-size: 60px;
+        color: #fffefe;
+        font-weight: bold;
+        line-height: 0.751; }
+      main .repairs .container .report .report__item .text {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #98a4a3;
+        line-height: 1.692; }
 
 @media screen and (max-width: 670px) {
   header .container .header-top {

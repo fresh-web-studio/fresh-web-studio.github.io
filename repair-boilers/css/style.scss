@@ -569,6 +569,70 @@ main {
       }
     }
   }
+  .repairs {
+    background-color: #0f1c1c;
+    .container {
+      .repairs-block {
+        padding-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .text {
+          width: 55%;
+          h3 {
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            line-height: 1.286;
+            span {
+              color: #f1460a;
+            }
+          }
+          h3.report_header {
+            margin-top: 90px;
+          }
+          p {
+            width: 95%;
+            margin: 20px 0;
+            font-size: 14px;
+            line-height: 1.714;
+            color: #ffffff;
+            span {
+              color: #f1460a;
+            }
+          }
+        }
+        .photo {
+          width: 45%;
+        }
+      }
+        .report {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          .report__item {
+            width: 25%;
+            margin: 45px 0 60px;
+            text-align: center;
+            border: 1px #2b2b2b solid;
+            padding: 45px;
+            .numbers {
+              font-size: 60px;
+              color: rgb(255, 254, 254);
+              font-weight: bold;
+              line-height: 0.751;
+            }
+            .text {
+              margin-top: 20px;
+              font-size: 12px;
+              color: rgb(152, 164, 163);
+              line-height: 1.692;
+            }
+
+          }
+        }
+    }
+  }
 }
 
 @media screen and (max-width: 670px) {
@@ -934,6 +998,36 @@ main {
               .price {
 
               }
+            }
+          }
+        }
+      }
+    }
+    .repairs {
+      .container {
+        .repairs-block {
+          .text {
+            h3 {
+
+            }
+            h3.report_header {
+            }
+            p {
+              span {
+
+              }
+            }
+          }
+          .photo {
+          }
+        }
+        .report {
+          .report__item {
+            .numbers {
+
+            }
+            .text {
+
             }
           }
         }
