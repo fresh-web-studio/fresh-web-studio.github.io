@@ -688,7 +688,7 @@ main section.info {
             height: 55px;
             border: 3px solid #89ceff;
             box-sizing: border-box;
-            background-color: #30a6f9;
+            background-color: transparent;
             color: #ffffff;
             margin-bottom: 18px;
             padding-left: 25px; }
@@ -726,6 +726,8 @@ main section.info {
             color: #ffffff;
             text-align: center;
             padding: 0; }
+          .contacts .container .feedback-block .feedback-form .feedback .button:hover {
+            background-color: #0688fa; }
 
 main .bgc-none {
   background-color: #ffffff; }
@@ -733,7 +735,7 @@ main section.numbers .container .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 80px; }
+  margin: 80px 0; }
   main section.numbers .container .row .nambers__col-text {
     position: relative;
     max-width: 50%;
@@ -1022,6 +1024,76 @@ main .analytics .container .row, main .article .container .row {
           line-height: 1.5; }
           main .analytics .container .row .main_info .signal .steps-list .step .text span, main .article .container .row .main_info .signal .steps-list .step .text span {
             color: #30a6f9; }
+  main .analytics .container .row .main_info .contacts-analytics .container .feedback-block, main .article .container .row .main_info .contacts-analytics .container .feedback-block {
+    background-image: url(../img/contacts-bg.jpg);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 55px; }
+    main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title {
+      width: 45%;
+      color: #ffffff;
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 45px; }
+      main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title h2, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title h2 {
+        font-size: 35px;
+        color: white;
+        line-height: 1.286; }
+      main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title .text, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title .text {
+        margin-top: 20px;
+        font-size: 15px;
+        color: white;
+        line-height: 1.6; }
+    main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form {
+      width: 53%; }
+      main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback .input, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback .input {
+          width: 282px;
+          height: 55px;
+          border: 3px solid #30a6f9;
+          box-sizing: border-box;
+          color: #30a6f9;
+          background: transparent 0;
+          margin-bottom: 18px;
+          padding-left: 25px; }
+        main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback .button, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback .button {
+          border: 3px solid #30a6f9;
+          color: #ffffff;
+          text-align: center;
+          padding: 0;
+          background-color: #30a6f9; }
+        main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback .button:hover, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback .button:hover {
+          background-color: #0688fa;
+          border: 3px solid #0688fa; }
+        main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback input[type=checkbox], main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback input[type=checkbox] {
+          display: none; }
+        main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback input::placeholder, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback input::placeholder {
+          color: #30a6f9; }
+        main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback label, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback label {
+          color: #30a6f9;
+          cursor: default;
+          font-size: 13px;
+          padding: 10px 0;
+          vertical-align: middle; }
+        main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback label:before, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback label:before {
+          content: " ";
+          color: #ffffff;
+          display: inline-block;
+          font: 20px/17px Arial;
+          margin-right: 15px;
+          text-align: center;
+          text-indent: 0px;
+          width: 18px;
+          height: 18px;
+          border: 3px solid #30a6f9;
+          border-image: initial;
+          vertical-align: middle;
+          background: transparent 0; }
   main .analytics .container .row .main_info .numbers .container .row .nambers__col-text .section-aside-body h3, main .article .container .row .main_info .numbers .container .row .nambers__col-text .section-aside-body h3 {
     font-size: 38px; }
   main .analytics .container .row .main_info .news, main .article .container .row .main_info .news {
