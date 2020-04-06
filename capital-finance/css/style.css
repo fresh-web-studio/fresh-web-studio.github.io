@@ -1395,11 +1395,13 @@ main .article .container .row .new .text {
       main .analytics .container .row .main_info .signal h3 {
         line-height: 1.1; }
       main .analytics .container .row .main_info .signal .steps-list .step {
-        width: 100%; }
+        width: 100%;
+        text-align: center; }
     main .analytics .container .row .main_info .contacts-analytics .container .feedback-block {
       padding: 20px; }
       main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title {
-        width: 100%; }
+        width: 100%;
+        text-align: center; }
         main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title .text {
           margin-bottom: 10px; }
       main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form {
@@ -1525,7 +1527,8 @@ main .article .container .row .new .text {
     main section.numbers .container .row .nambers__col-text {
       max-width: 100%; }
       main section.numbers .container .row .nambers__col-text .section-aside-body {
-        margin: 80px 20px; }
+        margin: 80px 20px;
+        text-align: center; }
         main section.numbers .container .row .nambers__col-text .section-aside-body h3 {
           font-size: 22px; }
         main section.numbers .container .row .nambers__col-text .section-aside-body .text {
