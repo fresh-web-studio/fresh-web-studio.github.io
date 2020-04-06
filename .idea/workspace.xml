@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/training.html" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/training.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -66,12 +67,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/analytics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="157" column="40" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
+            <state relative-caret-position="384">
+              <caret line="120" column="26" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -83,23 +86,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="2180" selection-start-line="2180" selection-end-line="2180" />
+            <state relative-caret-position="611">
+              <caret line="677" column="29" selection-start-line="677" selection-start-column="29" selection-end-line="677" selection-end-column="29" />
               <folding>
                 <element signature="e#195#5349#0" />
                 <element signature="e#5369#7225#0" />
-                <element signature="e#7257#12571#0" />
                 <element signature="e#7275#9364#0" />
                 <element signature="e#9377#10677#0" />
-                <element signature="e#10697#11735#0" />
                 <element signature="e#11752#12569#0" />
                 <element signature="e#12625#13229#0" />
                 <element signature="e#13251#14257#0" />
                 <element signature="e#14288#15011#0" />
                 <element signature="e#15036#16235#0" />
+                <element signature="e#16262#20046#0" />
                 <element signature="e#20148#21859#0" />
                 <element signature="e#21891#22714#0" />
                 <element signature="e#22731#28122#0" />
@@ -113,7 +115,6 @@
                 <element signature="e#38391#38988#0" />
                 <element signature="e#38999#39474#0" />
                 <element signature="e#39489#39578#0" />
-                <element signature="e#39601#39754#0" />
                 <element signature="e#39773#40883#0" />
                 <element signature="e#42059#42297#0" />
                 <element signature="e#43332#43727#0" />
@@ -141,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/training.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
+            <state relative-caret-position="829">
+              <caret line="141" column="31" selection-start-line="141" selection-start-column="31" selection-end-line="141" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -164,7 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>транзисторы</find>
       <find>&lt;/figcaption&gt;</find>
       <find>&lt;/h2&gt;</find>
       <find>style=&quot;max-width: 630px;&quot;</find>
@@ -194,6 +194,7 @@
       <find>811</find>
       <find>#89ceff</find>
       <find>tran</find>
+      <find>.section</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -277,7 +278,6 @@
         <option value="$PROJECT_DIR$/artemsdobnikov/math/voltage-reference.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/index.html" />
-        <option value="$PROJECT_DIR$/capital-finance/training.html" />
         <option value="$PROJECT_DIR$/capital-finance/partners.html" />
         <option value="$PROJECT_DIR$/capital-finance/js/main.js" />
         <option value="$PROJECT_DIR$/capital-finance/about.html" />
@@ -297,6 +297,7 @@
         <option value="$PROJECT_DIR$/capital-finance/analytics.html" />
         <option value="$PROJECT_DIR$/capital-finance/new1.html" />
         <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
+        <option value="$PROJECT_DIR$/capital-finance/training.html" />
       </list>
     </option>
   </component>
@@ -504,21 +505,7 @@
       <workItem from="1585563606872" duration="538000" />
       <workItem from="1585821975546" duration="5429000" />
       <workItem from="1585840280891" duration="12423000" />
-      <workItem from="1585905470570" duration="52522000" />
-    </task>
-    <task id="LOCAL-00463" summary="Обновление">
-      <created>1585551135148</created>
-      <option name="number" value="00463" />
-      <option name="presentableId" value="LOCAL-00463" />
-      <option name="project" value="LOCAL" />
-      <updated>1585551135148</updated>
-    </task>
-    <task id="LOCAL-00464" summary="Обновление">
-      <created>1585551815571</created>
-      <option name="number" value="00464" />
-      <option name="presentableId" value="LOCAL-00464" />
-      <option name="project" value="LOCAL" />
-      <updated>1585551815571</updated>
+      <workItem from="1585905470570" duration="55595000" />
     </task>
     <task id="LOCAL-00465" summary="Обновление">
       <created>1585552136000</created>
@@ -849,17 +836,31 @@
       <option name="project" value="LOCAL" />
       <updated>1586191985805</updated>
     </task>
-    <option name="localTasksCounter" value="512" />
+    <task id="LOCAL-00512" summary="Обновление">
+      <created>1586192346646</created>
+      <option name="number" value="00512" />
+      <option name="presentableId" value="LOCAL-00512" />
+      <option name="project" value="LOCAL" />
+      <updated>1586192346646</updated>
+    </task>
+    <task id="LOCAL-00513" summary="Обновление">
+      <created>1586193682883</created>
+      <option name="number" value="00513" />
+      <option name="presentableId" value="LOCAL-00513" />
+      <option name="project" value="LOCAL" />
+      <updated>1586193682902</updated>
+    </task>
+    <option name="localTasksCounter" value="514" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="682127000" />
+    <option name="totallyTimeSpent" value="685200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="617" y="-1417" width="1270" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2594417" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.2594417" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1270,31 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/training.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/analytics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="157" column="40" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/new1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="808">
@@ -1308,20 +1284,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="2180" selection-start-line="2180" selection-end-line="2180" />
+        <state relative-caret-position="611">
+          <caret line="677" column="29" selection-start-line="677" selection-start-column="29" selection-end-line="677" selection-end-column="29" />
           <folding>
             <element signature="e#195#5349#0" />
             <element signature="e#5369#7225#0" />
-            <element signature="e#7257#12571#0" />
             <element signature="e#7275#9364#0" />
             <element signature="e#9377#10677#0" />
-            <element signature="e#10697#11735#0" />
             <element signature="e#11752#12569#0" />
             <element signature="e#12625#13229#0" />
             <element signature="e#13251#14257#0" />
             <element signature="e#14288#15011#0" />
             <element signature="e#15036#16235#0" />
+            <element signature="e#16262#20046#0" />
             <element signature="e#20148#21859#0" />
             <element signature="e#21891#22714#0" />
             <element signature="e#22731#28122#0" />
@@ -1335,7 +1310,6 @@
             <element signature="e#38391#38988#0" />
             <element signature="e#38999#39474#0" />
             <element signature="e#39489#39578#0" />
-            <element signature="e#39601#39754#0" />
             <element signature="e#39773#40883#0" />
             <element signature="e#42059#42297#0" />
             <element signature="e#43332#43727#0" />
@@ -1346,6 +1320,33 @@
             <element signature="e#45610#46072#0" />
             <element signature="e#47375#47552#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/analytics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="120" column="26" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/training.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="141" column="31" selection-start-line="141" selection-start-column="31" selection-end-line="141" selection-end-column="31" />
         </state>
       </provider>
     </entry>
