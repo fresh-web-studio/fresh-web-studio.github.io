@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -85,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="2173" column="13" lean-forward="true" selection-start-line="2173" selection-start-column="13" selection-end-line="2173" selection-end-column="13" />
+            <state relative-caret-position="488">
+              <caret line="2180" selection-start-line="2180" selection-end-line="2180" />
               <folding>
                 <element signature="e#195#5349#0" />
                 <element signature="e#5369#7225#0" />
@@ -114,8 +115,6 @@
                 <element signature="e#39489#39578#0" />
                 <element signature="e#39601#39754#0" />
                 <element signature="e#39773#40883#0" />
-                <element signature="e#41103#41701#0" />
-                <element signature="e#40093#40099#0" />
                 <element signature="e#42059#42297#0" />
                 <element signature="e#43332#43727#0" />
                 <element signature="e#43748#43859#0" />
@@ -123,7 +122,6 @@
                 <element signature="e#44860#45001#0" />
                 <element signature="e#45137#45312#0" />
                 <element signature="e#45610#46072#0" />
-                <element signature="e#46536#47341#0" />
                 <element signature="e#47375#47552#0" />
               </folding>
             </state>
@@ -506,21 +504,7 @@
       <workItem from="1585563606872" duration="538000" />
       <workItem from="1585821975546" duration="5429000" />
       <workItem from="1585840280891" duration="12423000" />
-      <workItem from="1585905470570" duration="51284000" />
-    </task>
-    <task id="LOCAL-00461" summary="Обновление">
-      <created>1585550870628</created>
-      <option name="number" value="00461" />
-      <option name="presentableId" value="LOCAL-00461" />
-      <option name="project" value="LOCAL" />
-      <updated>1585550870628</updated>
-    </task>
-    <task id="LOCAL-00462" summary="Обновление">
-      <created>1585551112923</created>
-      <option name="number" value="00462" />
-      <option name="presentableId" value="LOCAL-00462" />
-      <option name="project" value="LOCAL" />
-      <updated>1585551112923</updated>
+      <workItem from="1585905470570" duration="52522000" />
     </task>
     <task id="LOCAL-00463" summary="Обновление">
       <created>1585551135148</created>
@@ -851,11 +835,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586183887157</updated>
     </task>
-    <option name="localTasksCounter" value="510" />
+    <task id="LOCAL-00510" summary="Обновление">
+      <created>1586191072171</created>
+      <option name="number" value="00510" />
+      <option name="presentableId" value="LOCAL-00510" />
+      <option name="project" value="LOCAL" />
+      <updated>1586191072171</updated>
+    </task>
+    <task id="LOCAL-00511" summary="Обновление">
+      <created>1586191985805</created>
+      <option name="number" value="00511" />
+      <option name="presentableId" value="LOCAL-00511" />
+      <option name="project" value="LOCAL" />
+      <updated>1586191985805</updated>
+    </task>
+    <option name="localTasksCounter" value="512" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="680889000" />
+    <option name="totallyTimeSpent" value="682127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="617" y="-1417" width="1270" height="1329" extended-state="0" />
@@ -1310,8 +1308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="2173" column="13" lean-forward="true" selection-start-line="2173" selection-start-column="13" selection-end-line="2173" selection-end-column="13" />
+        <state relative-caret-position="488">
+          <caret line="2180" selection-start-line="2180" selection-end-line="2180" />
           <folding>
             <element signature="e#195#5349#0" />
             <element signature="e#5369#7225#0" />
@@ -1339,8 +1337,6 @@
             <element signature="e#39489#39578#0" />
             <element signature="e#39601#39754#0" />
             <element signature="e#39773#40883#0" />
-            <element signature="e#41103#41701#0" />
-            <element signature="e#40093#40099#0" />
             <element signature="e#42059#42297#0" />
             <element signature="e#43332#43727#0" />
             <element signature="e#43748#43859#0" />
@@ -1348,7 +1344,6 @@
             <element signature="e#44860#45001#0" />
             <element signature="e#45137#45312#0" />
             <element signature="e#45610#46072#0" />
-            <element signature="e#46536#47341#0" />
             <element signature="e#47375#47552#0" />
           </folding>
         </state>

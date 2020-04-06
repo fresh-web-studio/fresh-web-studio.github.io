@@ -1398,7 +1398,8 @@ main .article .container .row .new .text {
         width: 100%;
         text-align: center; }
     main .analytics .container .row .main_info .contacts-analytics .container .feedback-block {
-      padding: 20px; }
+      padding: 20px;
+      background-size: cover; }
       main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title {
         width: 100%;
         text-align: center; }
