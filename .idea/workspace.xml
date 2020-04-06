@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/psd/3. Обучение.psd" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/psd/3. Обучение.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capital-finance/psd/4. Аналитика.psd" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/psd/4. Аналитика.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.css.map" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -86,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="2216" column="33" selection-start-line="2216" selection-start-column="33" selection-end-line="2216" selection-end-column="33" />
+            <state relative-caret-position="500">
+              <caret line="2173" column="13" lean-forward="true" selection-start-line="2173" selection-start-column="13" selection-end-line="2173" selection-end-column="13" />
               <folding>
                 <element signature="e#195#5349#0" />
                 <element signature="e#5369#7225#0" />
@@ -507,14 +506,7 @@
       <workItem from="1585563606872" duration="538000" />
       <workItem from="1585821975546" duration="5429000" />
       <workItem from="1585840280891" duration="12423000" />
-      <workItem from="1585905470570" duration="50688000" />
-    </task>
-    <task id="LOCAL-00460" summary="Обновление">
-      <created>1585550565887</created>
-      <option name="number" value="00460" />
-      <option name="presentableId" value="LOCAL-00460" />
-      <option name="project" value="LOCAL" />
-      <updated>1585550565887</updated>
+      <workItem from="1585905470570" duration="51284000" />
     </task>
     <task id="LOCAL-00461" summary="Обновление">
       <created>1585550870628</created>
@@ -852,11 +844,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586178394764</updated>
     </task>
-    <option name="localTasksCounter" value="509" />
+    <task id="LOCAL-00509" summary="Обновление">
+      <created>1586183887157</created>
+      <option name="number" value="00509" />
+      <option name="presentableId" value="LOCAL-00509" />
+      <option name="project" value="LOCAL" />
+      <updated>1586183887157</updated>
+    </task>
+    <option name="localTasksCounter" value="510" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="680293000" />
+    <option name="totallyTimeSpent" value="680889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="617" y="-1417" width="1270" height="1329" extended-state="0" />
@@ -1311,8 +1310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="2216" column="33" selection-start-line="2216" selection-start-column="33" selection-end-line="2216" selection-end-column="33" />
+        <state relative-caret-position="500">
+          <caret line="2173" column="13" lean-forward="true" selection-start-line="2173" selection-start-column="13" selection-end-line="2173" selection-end-column="13" />
           <folding>
             <element signature="e#195#5349#0" />
             <element signature="e#5369#7225#0" />
