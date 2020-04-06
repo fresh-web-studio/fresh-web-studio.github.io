@@ -1351,7 +1351,8 @@ main .article .container .row .new .text {
   main .heading {
     width: 100%;
     height: 100%;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    background-size: cover; }
     main .heading .name .heading-text {
       width: 85%; }
   main .contact-map .container #verticalTab .tel-mail-btn {
