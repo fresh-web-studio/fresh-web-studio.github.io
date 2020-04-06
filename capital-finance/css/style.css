@@ -1217,21 +1217,19 @@ main .analytics .container.grey .row, main .article .container.grey .row {
       position: absolute;
       top: 0;
       left: 0; }
-main .article .container .row .new {
-  width: 811px; }
-  main .article .container .row .new img {
-    width: 100%; }
-  main .article .container .row .new .data {
-    margin-top: 20px;
-    color: #4a4a4a; }
-  main .article .container .row .new img.line {
-    width: 64px;
-    margin-top: 20px; }
-  main .article .container .row .new .text {
-    margin-bottom: 40px; }
-    main .article .container .row .new .text p {
-      padding: 10px 0px;
-      line-height: 1.5; }
+main .article .container .row .new img {
+  width: 100%; }
+main .article .container .row .new .data {
+  margin-top: 20px;
+  color: #4a4a4a; }
+main .article .container .row .new img.line {
+  width: 64px;
+  margin-top: 20px; }
+main .article .container .row .new .text {
+  margin-bottom: 40px; }
+  main .article .container .row .new .text p {
+    padding: 10px 0px;
+    line-height: 1.5; }
 
 @media all and (max-width: 765px) {
   header {
