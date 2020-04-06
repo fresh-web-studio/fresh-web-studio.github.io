@@ -761,16 +761,17 @@ main section.numbers .container .row {
       main section.numbers .container .row .nambers__col-text .section-aside-body .text {
         font-size: 15px;
         color: white;
+        margin-top: 15px;
         line-height: 1.667; }
   main section.numbers .container .row .nambers__col-number {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     max-width: 600px;
-    margin: 60px 0px; }
+    margin: 75px 0px; }
     main section.numbers .container .row .nambers__col-number .item {
-      margin-left: 100px;
-      width: 170px; }
+      margin-left: 80px;
+      width: 205px; }
       main section.numbers .container .row .nambers__col-number .item .item__number {
         font-size: 86px;
         color: #071d2a;
@@ -980,164 +981,108 @@ main .analytics .container .row, main .article .container .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
-  main .analytics .container .row .main_info, main .article .container .row .main_info {
-    width: 811px; }
+  main .analytics .container .row .main_info .signal, main .article .container .row .main_info .signal {
+    text-align: center; }
     main .analytics .container .row .main_info .signal h2, main .article .container .row .main_info .signal h2 {
       font-size: 30px;
-      line-height: 0.767;
-      text-align: left; }
+      line-height: 0.767; }
     main .analytics .container .row .main_info .signal .info, main .article .container .row .main_info .signal .info {
       margin-top: 20px;
       font-size: 14px;
-      line-height: 1.5; }
+      line-height: 1.5;
+      margin-left: 220px;
+      margin-right: 220px; }
+    main .analytics .container .row .main_info .signal img, main .article .container .row .main_info .signal img {
+      margin-top: 50px; }
     main .analytics .container .row .main_info .signal h3, main .article .container .row .main_info .signal h3 {
       margin-top: 25px;
-      font-size: 22px; }
+      font-size: 22px;
+      text-align: center; }
     main .analytics .container .row .main_info .signal .steps-list, main .article .container .row .main_info .signal .steps-list {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between; }
+      justify-content: space-between;
+      text-align: left;
+      margin: 40px 0px; }
       main .analytics .container .row .main_info .signal .steps-list .step, main .article .container .row .main_info .signal .steps-list .step {
         width: 31%; }
         main .analytics .container .row .main_info .signal .steps-list .step h4, main .article .container .row .main_info .signal .steps-list .step h4 {
-          margin-top: 18px;
-          font-size: 14px; }
+          font-size: 14px;
+          color: #9a9a9a; }
         main .analytics .container .row .main_info .signal .steps-list .step h5, main .article .container .row .main_info .signal .steps-list .step h5 {
           margin-top: 10px;
-          font-size: 15px;
+          font-size: 16px;
           font-weight: bold;
-          line-height: 1.3; }
+          line-height: 1.3;
+          color: #4a4a4a; }
         main .analytics .container .row .main_info .signal .steps-list .step .text, main .article .container .row .main_info .signal .steps-list .step .text {
           margin-top: 10px;
           font-size: 14px;
+          color: #6d6d6d;
           line-height: 1.5; }
           main .analytics .container .row .main_info .signal .steps-list .step .text span, main .article .container .row .main_info .signal .steps-list .step .text span {
             color: #30a6f9; }
-    main .analytics .container .row .main_info .news, main .article .container .row .main_info .news {
-      outline: solid 1px #f0f0f0;
-      padding: 35px;
-      margin: 25px 0px; }
-      main .analytics .container .row .main_info .news h2, main .article .container .row .main_info .news h2 {
-        font-size: 30px;
-        color: #4a4a4a;
-        line-height: 0.767;
-        text-align: left; }
-      main .analytics .container .row .main_info .news .info, main .article .container .row .main_info .news .info {
-        margin-top: 20px;
-        font-size: 14px;
-        color: #4a4a4a; }
-      main .analytics .container .row .main_info .news .news-list, main .article .container .row .main_info .news .news-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between; }
-        main .analytics .container .row .main_info .news .news-list .new, main .article .container .row .main_info .news .news-list .new {
-          width: 30%;
-          margin-top: 30px; }
-          main .analytics .container .row .main_info .news .news-list .new a, main .article .container .row .main_info .news .news-list .new a {
-            text-decoration: none; }
-          main .analytics .container .row .main_info .news .news-list .new a img:hover, main .article .container .row .main_info .news .news-list .new a img:hover {
-            opacity: .9; }
-          main .analytics .container .row .main_info .news .news-list .new a .text, main .article .container .row .main_info .news .news-list .new a .text {
-            margin-top: 10px;
-            font-size: 13px;
-            color: #4a4a4a;
-            line-height: 1.615; }
-          main .analytics .container .row .main_info .news .news-list .new a .text:hover, main .article .container .row .main_info .news .news-list .new a .text:hover {
-            color: #0688fa; }
-    main .analytics .container .row .main_info .briefcase h2, main .article .container .row .main_info .briefcase h2 {
+  main .analytics .container .row .main_info .numbers .container .row .nambers__col-text .section-aside-body h3, main .article .container .row .main_info .numbers .container .row .nambers__col-text .section-aside-body h3 {
+    font-size: 38px; }
+  main .analytics .container .row .main_info .news, main .article .container .row .main_info .news {
+    margin: 25px 0px; }
+    main .analytics .container .row .main_info .news h2, main .article .container .row .main_info .news h2 {
       font-size: 30px;
       color: #4a4a4a;
       line-height: 0.767;
-      text-align: left; }
-    main .analytics .container .row .main_info .briefcase .info, main .article .container .row .main_info .briefcase .info {
+      text-align: center; }
+    main .analytics .container .row .main_info .news .info, main .article .container .row .main_info .news .info {
       margin-top: 20px;
       font-size: 14px;
-      color: #4a4a4a; }
-  main .analytics .container .row .sidebar, main .article .container .row .sidebar {
-    width: 356px;
-    animation: fake 1s infinite;
-    /* Android 2.3 :checked fix */ }
-@keyframes fake {
-  from {
-    opacity: 1; }
-  to {
-    opacity: 1; } }
-    main .analytics .container .row .sidebar .worko-tabs .state, main .article .container .row .sidebar .worko-tabs .state {
-      position: absolute;
-      left: -10000px; }
-    main .analytics .container .row .sidebar .worko-tabs .flex-tabs, main .article .container .row .sidebar .worko-tabs .flex-tabs {
+      color: #4a4a4a;
+      text-align: center; }
+    main .analytics .container .row .main_info .news .news-list, main .article .container .row .main_info .news .news-list {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
-      flex-wrap: wrap; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .tab, main .article .container .row .sidebar .worko-tabs .flex-tabs .tab {
-        display: flex;
-        font-size: 12px;
-        padding: 9px 13px;
-        border-radius: 3px;
-        background-color: #ffffff;
-        color: #30a6f9;
-        border: 1px #30a6f9 solid;
-        text-align: center;
-        cursor: pointer; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .tab:hover, main .article .container .row .sidebar .worko-tabs .flex-tabs .tab:hover {
-        background-color: #0688fa;
-        color: #FFF; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel {
-        background-color: #fff;
-        padding-top: 10px;
-        min-height: 300px;
-        display: none;
-        width: 100%;
-        flex-basis: auto; }
-        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab {
-          border-radius: 5px;
-          font-weight: normal;
-          border: 1px #8d8d8d solid;
-          border-collapse: collapse;
-          width: 100%;
-          max-width: 100%; }
-        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th, main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td {
-          padding: 13px 10px;
-          font-size: 10px;
-          border: none;
-          vertical-align: top;
-          text-align: center; }
-          main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th span, main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td span, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th span, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab td span {
-            margin-right: 10px; }
-        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab th {
-          color: #FFF;
-          background: #8d8d8d;
-          font-weight: bold;
-          text-align: center; }
-        main .analytics .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab tr, main .article .container .row .sidebar .worko-tabs .flex-tabs .panel .resp-tab tr {
-          border-top: 1px #f0e8e8 solid; }
-    main .analytics .container .row .sidebar .worko-tabs .tab:hover, main .article .container .row .sidebar .worko-tabs .tab:hover {
-      background-color: #fff; }
-    main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label,
-    main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label,
-    main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label,
-    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label, main .article .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label,
-    main .article .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label,
-    main .article .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label,
-    main .article .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label {
-      background-color: #30a6f9;
-      color: #ffffff; }
-    main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label:hover,
-    main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label:hover,
-    main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label:hover,
-    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label:hover, main .article .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-label:hover,
-    main .article .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-label:hover,
-    main .article .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-label:hover,
-    main .article .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-label:hover {
-      background-color: #0688fa; }
-    main .analytics .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-panel,
-    main .analytics .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-panel,
-    main .analytics .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-panel,
-    main .analytics .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-panel, main .article .container .row .sidebar #tab-one:checked ~ .tabs #tab-one-panel,
-    main .article .container .row .sidebar #tab-two:checked ~ .tabs #tab-two-panel,
-    main .article .container .row .sidebar #tab-three:checked ~ .tabs #tab-three-panel,
-    main .article .container .row .sidebar #tab-four:checked ~ .tabs #tab-four-panel {
-      display: block; }
+      margin: 0px 84px; }
+      main .analytics .container .row .main_info .news .news-list .new, main .article .container .row .main_info .news .news-list .new {
+        width: 22%;
+        margin-top: 30px; }
+        main .analytics .container .row .main_info .news .news-list .new a, main .article .container .row .main_info .news .news-list .new a {
+          text-decoration: none; }
+        main .analytics .container .row .main_info .news .news-list .new a img:hover, main .article .container .row .main_info .news .news-list .new a img:hover {
+          opacity: .9; }
+        main .analytics .container .row .main_info .news .news-list .new a .text, main .article .container .row .main_info .news .news-list .new a .text {
+          margin-top: 10px;
+          font-size: 13px;
+          color: #4a4a4a;
+          line-height: 1.615; }
+        main .analytics .container .row .main_info .news .news-list .new a .text:hover, main .article .container .row .main_info .news .news-list .new a .text:hover {
+          color: #0688fa; }
+  main .analytics .container .row .main_info .briefcase h2, main .article .container .row .main_info .briefcase h2 {
+    font-size: 30px;
+    color: #4a4a4a;
+    line-height: 0.767;
+    text-align: center; }
+  main .analytics .container .row .main_info .briefcase .info, main .article .container .row .main_info .briefcase .info {
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 14px;
+    color: #4a4a4a;
+    text-align: center;
+    line-height: 1.5; }
+  main .analytics .container .row .main_info .briefcase .briefcase__row, main .article .container .row .main_info .briefcase .briefcase__row {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .analytics .container .row .main_info .briefcase .briefcase__row .item, main .article .container .row .main_info .briefcase .briefcase__row .item {
+      border: 1px #f0f0f0 solid;
+      width: 21%;
+      text-align: center;
+      padding: 50px 23px; }
+      main .analytics .container .row .main_info .briefcase .briefcase__row .item .text, main .article .container .row .main_info .briefcase .briefcase__row .item .text {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #4f4f4f;
+        line-height: 1.688; }
   main .analytics .container .row .btn button, main .article .container .row .btn button {
     padding-top: 6px;
     margin-top: 28px;
@@ -1374,6 +1319,9 @@ main .article .container .row .new {
       main .analytics .container .row .main_info .signal h2 {
         line-height: 1.1;
         text-align: center; }
+      main .analytics .container .row .main_info .signal .info {
+        margin-left: 20px;
+        margin-right: 20px; }
       main .analytics .container .row .main_info .signal h3 {
         line-height: 1.1; }
       main .analytics .container .row .main_info .signal .steps-list .step {
@@ -1391,30 +1339,11 @@ main .article .container .row .new {
         line-height: 1.1;
         text-align: center; }
       main .analytics .container .row .main_info .briefcase .info {
-        text-align: center; }
-  main .analytics .container .row .sidebar {
-    width: 100%; }
-    main .analytics .container .row .sidebar .worko-tabs .flex-tabs {
-      flex-direction: column; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs .tab {
-        justify-content: center;
-        font-size: 30px; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-one-label {
-        order: 1; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-two-label {
-        order: 3; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-three-label {
-        order: 5; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-four-label {
-        order: 7; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-one-panel {
-        order: 2; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-two-panel {
-        order: 4; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-three-panel {
-        order: 6; }
-      main .analytics .container .row .sidebar .worko-tabs .flex-tabs #tab-four-panel {
-        order: 8; }
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px; }
+      main .analytics .container .row .main_info .briefcase .briefcase__row .item {
+        width: 100%; }
   main .analytics .container.grey .row {
     padding: 40px 20px; }
     main .analytics .container.grey .row h2 {
