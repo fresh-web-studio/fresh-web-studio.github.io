@@ -4,6 +4,8 @@
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capital-finance/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/psd/3. Обучение.psd" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/psd/3. Обучение.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capital-finance/psd/4. Аналитика.psd" beforeDir="false" afterPath="$PROJECT_DIR$/capital-finance/psd/4. Аналитика.psd" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -65,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/capital-finance/analytics.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
-              <caret line="157" column="40" lean-forward="true" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
+              <caret line="157" column="40" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -84,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="2218" column="31" selection-start-line="2218" selection-start-column="31" selection-end-line="2218" selection-end-column="31" />
+            <state relative-caret-position="812">
+              <caret line="2216" column="33" selection-start-line="2216" selection-start-column="33" selection-end-line="2216" selection-end-column="33" />
               <folding>
                 <element signature="e#195#5349#0" />
                 <element signature="e#5369#7225#0" />
@@ -107,7 +109,6 @@
                 <element signature="e#29328#30391#0" />
                 <element signature="e#30412#30703#0" />
                 <element signature="e#34180#35451#0" />
-                <element signature="e#35464#35902#0" />
                 <element signature="e#35953#38380#0" />
                 <element signature="e#38391#38988#0" />
                 <element signature="e#38999#39474#0" />
@@ -125,6 +126,19 @@
                 <element signature="e#45610#46072#0" />
                 <element signature="e#46536#47341#0" />
                 <element signature="e#47375#47552#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/capital-finance/new1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="808">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -270,7 +284,6 @@
         <option value="$PROJECT_DIR$/capital-finance/partners.html" />
         <option value="$PROJECT_DIR$/capital-finance/js/main.js" />
         <option value="$PROJECT_DIR$/capital-finance/about.html" />
-        <option value="$PROJECT_DIR$/capital-finance/new1.html" />
         <option value="$USER_HOME$/Downloads/1390809140_desktop/index.html" />
         <option value="$PROJECT_DIR$/capital-finance/contacts2.html" />
         <option value="$PROJECT_DIR$/capital-finance/css/easy-responsive-tabs.css" />
@@ -285,6 +298,7 @@
         <option value="$PROJECT_DIR$/repair-boilers/css/style.scss" />
         <option value="$PROJECT_DIR$/repair-boilers/index.html" />
         <option value="$PROJECT_DIR$/capital-finance/analytics.html" />
+        <option value="$PROJECT_DIR$/capital-finance/new1.html" />
         <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
       </list>
     </option>
@@ -493,21 +507,7 @@
       <workItem from="1585563606872" duration="538000" />
       <workItem from="1585821975546" duration="5429000" />
       <workItem from="1585840280891" duration="12423000" />
-      <workItem from="1585905470570" duration="49911000" />
-    </task>
-    <task id="LOCAL-00458" summary="Обновление">
-      <created>1585550288592</created>
-      <option name="number" value="00458" />
-      <option name="presentableId" value="LOCAL-00458" />
-      <option name="project" value="LOCAL" />
-      <updated>1585550288592</updated>
-    </task>
-    <task id="LOCAL-00459" summary="Обновление">
-      <created>1585550434876</created>
-      <option name="number" value="00459" />
-      <option name="presentableId" value="LOCAL-00459" />
-      <option name="project" value="LOCAL" />
-      <updated>1585550434876</updated>
+      <workItem from="1585905470570" duration="50688000" />
     </task>
     <task id="LOCAL-00460" summary="Обновление">
       <created>1585550565887</created>
@@ -838,11 +838,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586177960770</updated>
     </task>
-    <option name="localTasksCounter" value="507" />
+    <task id="LOCAL-00507" summary="Обновление">
+      <created>1586178270096</created>
+      <option name="number" value="00507" />
+      <option name="presentableId" value="LOCAL-00507" />
+      <option name="project" value="LOCAL" />
+      <updated>1586178270096</updated>
+    </task>
+    <task id="LOCAL-00508" summary="Обновление">
+      <created>1586178394764</created>
+      <option name="number" value="00508" />
+      <option name="presentableId" value="LOCAL-00508" />
+      <option name="project" value="LOCAL" />
+      <updated>1586178394764</updated>
+    </task>
+    <option name="localTasksCounter" value="509" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="679516000" />
+    <option name="totallyTimeSpent" value="680293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="617" y="-1417" width="1270" height="1329" extended-state="0" />
@@ -1080,18 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/new1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="128" column="40" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="40" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/js/easyResponsiveTabs.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1281,7 +1283,7 @@
     <entry file="file://$PROJECT_DIR$/capital-finance/analytics.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="157" column="40" lean-forward="true" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
+          <caret line="157" column="40" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="40" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -1296,10 +1298,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/new1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="2218" column="31" selection-start-line="2218" selection-start-column="31" selection-end-line="2218" selection-end-column="31" />
+        <state relative-caret-position="812">
+          <caret line="2216" column="33" selection-start-line="2216" selection-start-column="33" selection-end-line="2216" selection-end-column="33" />
           <folding>
             <element signature="e#195#5349#0" />
             <element signature="e#5369#7225#0" />
@@ -1321,7 +1334,6 @@
             <element signature="e#29328#30391#0" />
             <element signature="e#30412#30703#0" />
             <element signature="e#34180#35451#0" />
-            <element signature="e#35464#35902#0" />
             <element signature="e#35953#38380#0" />
             <element signature="e#38391#38988#0" />
             <element signature="e#38999#39474#0" />
