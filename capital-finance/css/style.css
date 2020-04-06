@@ -1482,6 +1482,8 @@ main .article .container .row .new .text {
     main .analytics .container.grey .row .table .resp-tab th, main .analytics .container.grey .row .table .resp-tab td {
       padding: 10px 5px;
       font-size: 9px; }
+  main .article .container .row .new {
+    margin: 0px 20px; }
   main .slide-wraper .slide-item .slide-item__header {
     padding: 30px 10px 20px 10px;
     width: 94%;
