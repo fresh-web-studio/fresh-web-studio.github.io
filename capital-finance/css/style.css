@@ -1058,7 +1058,7 @@ main .analytics .container .row, main .article .container .row {
           border: 3px solid #30a6f9;
           box-sizing: border-box;
           color: #30a6f9;
-          background: transparent 0;
+          background: transparent;
           margin-bottom: 18px;
           padding-left: 25px; }
         main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback .button, main .article .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback .button {
@@ -1398,6 +1398,18 @@ main .article .container .row .new {
         line-height: 1.1; }
       main .analytics .container .row .main_info .signal .steps-list .step {
         width: 100%; }
+    main .analytics .container .row .main_info .contacts-analytics .container .feedback-block {
+      padding: 20px; }
+      main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title {
+        width: 100%; }
+        main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-title .text {
+          margin-bottom: 10px; }
+      main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form {
+        width: 100%; }
+        main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback .input {
+          width: 100%; }
+        main .analytics .container .row .main_info .contacts-analytics .container .feedback-block .feedback-form .feedback label {
+          line-height: 3; }
     main .analytics .container .row .main_info .news {
       text-align: center;
       padding: 20px; }
@@ -1507,6 +1519,7 @@ main .article .container .row .new {
     main .contacts .container .feedback-block .feedback-form .feedback label {
       line-height: 3; }
   main section.numbers .container .row {
+    margin-top: 0px;
     margin-bottom: 0px; }
     main section.numbers .container .row .nambers__col-text {
       max-width: 100%; }
