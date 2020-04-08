@@ -1,17 +1,31 @@
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel(
-
+    $("#owl-carousel1").owlCarousel(
         {
             loop:true,
             margin:0,
-            nav:false,
-            navText : ["",""],
-            dots:false,
             items: 1,
-            autoplay:false,
+            autoplay:true,
             autoplayTimeout:6000,
             autoplayHoverPause:true
         }
-
+    );
+    $("#owl-carousel2").owlCarousel(
+        {
+            loop:true,
+            margin:35,
+            nav:true,
+            dots:false,
+            autoplay:true,
+            autoplayTimeout:6000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                670:{
+                    items:4
+                }
+            }
+        }
     );
 });

@@ -333,7 +333,8 @@ main .our_services .container .services {
         font-size: 13px;
         color: #292929;
         line-height: 1.615;
-        text-align: center; }
+        text-align: center;
+        margin: 0px 20px; }
       main .our_services .container .services .services__item .services__top .price {
         font-size: 16px;
         font-weight: bold;
@@ -469,6 +470,57 @@ main .stages {
           color: #777777;
           line-height: 1.786;
           margin: 15px 0; }
+main .install {
+  margin: 60px 0; }
+  main .install .container h2 {
+    font-size: 35px;
+    color: #313131;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px; }
+    main .install .container h2 span {
+      font-weight: bold; }
+  main .install .container .owl-carousel.owl-theme#owl-carousel2 .slide-item {
+    text-align: center;
+    border: 1px #e9e9e9 solid;
+    border-radius: 3px;
+    padding: 20px; }
+    main .install .container .owl-carousel.owl-theme#owl-carousel2 .slide-item .name {
+      font-size: 15px;
+      color: #313131;
+      line-height: 1.533; }
+    main .install .container .owl-carousel.owl-theme#owl-carousel2 .slide-item button {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      background-color: #f1460a;
+      border: 0;
+      width: 180px;
+      height: 37px;
+      cursor: pointer; }
+      main .install .container .owl-carousel.owl-theme#owl-carousel2 .slide-item button .btn {
+        font-size: 13px;
+        color: white; }
+  main .install .container .owl-carousel.owl-theme#owl-carousel2 .owl-nav {
+    margin-top: 0px; }
+    main .install .container .owl-carousel.owl-theme#owl-carousel2 .owl-nav button {
+      position: absolute;
+      top: 44%;
+      width: 43px;
+      height: 43px;
+      border-radius: 3px;
+      background-color: #414141;
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: bold; }
+      main .install .container .owl-carousel.owl-theme#owl-carousel2 .owl-nav button span {
+        position: absolute;
+        top: 11px;
+        left: 15px; }
+    main .install .container .owl-carousel.owl-theme#owl-carousel2 .owl-nav button.owl-prev {
+      left: -20px; }
+    main .install .container .owl-carousel.owl-theme#owl-carousel2 .owl-nav button.owl-next {
+      right: -20px; }
 
 @media screen and (max-width: 670px) {
   header .container .header-top {
@@ -715,6 +767,14 @@ main .stages {
       text-align: center; }
       main .stages .container .stages-itams .item {
         margin-top: 20px;
-        width: 100%; } }
+        width: 100%; }
+  main .install .container .owl-carousel.owl-theme#owl-carousel2 .slide-item {
+    margin: 0 20px; }
+  main .install .container .owl-carousel.owl-theme#owl-carousel2 .owl-nav button span {
+    top: -5px; }
+  main .install .container .owl-carousel.owl-theme#owl-carousel2 .owl-nav button.owl-prev {
+    left: 0px; }
+  main .install .container .owl-carousel.owl-theme#owl-carousel2 .owl-nav button.owl-next {
+    right: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
