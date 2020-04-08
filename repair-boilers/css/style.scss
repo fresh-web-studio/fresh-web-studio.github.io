@@ -726,7 +726,7 @@ main {
             font-weight: bold;
             span {
               position: absolute;
-              top: 11px;
+              top: -5px;
               left: 15px;
             }
           }
@@ -741,6 +741,144 @@ main {
 
     }
   }
+  .officially {
+     background-color: #223433;
+     .container {
+       padding: 80px 0;
+       h2 {
+         font-size: 35px;
+         color: rgb(152, 162, 161);
+         font-weight: 400;
+         text-align: center;
+         span {
+           font-weight: bold;
+         }
+       }
+       .info {
+         font-size: 14px;
+         color: rgb(152, 162, 161);
+         line-height: 2.857;
+         text-align: center;
+       }
+
+       .owl-carousel.owl-theme#owl-carousel3 {
+         margin: 20px 0;
+         .owl-item.center {
+           transform: scale(1);
+           opacity: 1;
+           margin-top: 5px;
+           transition: .2s linear;
+            .slide-item {
+              .name {
+                font-size: 15px;
+                color: rgb(49, 49, 49);
+                line-height: 1.533;
+              }
+
+              button {
+                margin-top: 20px;
+                margin-bottom: 10px;
+                border-radius: 3px;
+                background-color: #f1460a;
+                border: 0;
+                width: 180px;
+                height: 37px;
+                cursor: pointer;
+                .btn {
+                  font-size: 13px;
+                  color: white;
+                }
+              }
+            }
+          }
+         .owl-item.center::after {
+           content: url("../img/shadow.png");
+           display: block;
+           margin-top: 10px;
+           transition: .2s linear;
+         }
+         .owl-item {
+           transform: scale(.8);
+           opacity: .3;
+         }
+         .owl-nav.container {
+           margin-top: 0px;
+           padding: 0;
+           button {
+             position: absolute;
+             top: 37%;
+             width: 43px;
+             height: 43px;
+             border-radius: 3px;
+             background-color: #f1460a;
+             color: #ffffff;
+             font-size: 40px;
+             font-weight: bold;
+             span {
+               position: absolute;
+               top: -5px;
+               left: 15px;
+             }
+           }
+           button.owl-prev {
+             left: -20px;
+           }
+           button.owl-next {
+             right: -20px;
+           }
+         }
+       }
+     }
+   }
+  .reviews {
+    margin: 60px 0;
+    .container {
+      h2 {
+        font-size: 35px;
+        color: rgb(49, 49, 49);
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      .owl-carousel.owl-theme#owl-carousel4 {
+
+      }
+      .owl-theme {
+        .owl-dots {
+          .owl-dot:hover, .owl-dot.active {
+            span {
+              background: #f1460a;
+            }
+          }
+        }
+      }
+
+
+
+
+
+      .btn {
+        text-align: center;
+        button.reviews-btn {
+          margin-top: 20px;
+          margin-bottom: 10px;
+          border-radius: 3px;
+          background-color: #f1460a;
+          border: 0;
+          width: 180px;
+          height: 37px;
+          cursor: pointer;
+          .btn {
+            font-size: 13px;
+            color: white;
+          }
+        }
+      }
+
+
+    }
+  }
+
 
 }
 
@@ -1197,7 +1335,6 @@ main {
           .owl-nav {
             button {
               span {
-                top: -5px;
               }
             }
             button.owl-prev {
@@ -1209,6 +1346,78 @@ main {
           }
         }
 
+      }
+    }
+    .officially {
+      .container {
+        h2 {
+          span {
+          }
+        }
+        .info {
+        }
+        .owl-carousel.owl-theme#owl-carousel3 {
+          .owl-item.center {
+            transform: scale(1);
+            margin-top: 0;
+            .slide-item {
+              padding: 20px;
+              .name {
+              }
+              button {
+                .btn {
+                }
+              }
+            }
+          }
+          .owl-item.center::after {
+            content: "";
+            margin-top: 0;
+          }
+          .owl-item {
+            transform: scale(1);
+            .slide-item {
+              padding: 20px;
+            }
+          }
+          .owl-nav.container {
+            button {
+              top: 44%;
+              span {
+              }
+            }
+            button.owl-prev {
+              left: 0px;
+            }
+            button.owl-next {
+              right: 0px;
+            }
+          }
+        }
+      }
+    }
+    .reviews {
+      .container {
+        h2 {
+        }
+        .owl-carousel.owl-theme#owl-carousel4 {
+        }
+        .owl-theme {
+          padding: 20px;
+          .owl-dots {
+            .owl-dot:hover, .owl-dot.active {
+              span {
+                background: #f1460a;
+              }
+            }
+          }
+        }
+        .btn {
+          button.reviews-btn {
+            .btn {
+            }
+          }
+        }
       }
     }
   }
