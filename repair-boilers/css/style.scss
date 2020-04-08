@@ -1877,10 +1877,18 @@ footer {
           .worko-tabs {
             .flex-tabs{
               flex-direction: column;
+              .header-equipment {
+                margin-right: 0px;
+                margin-bottom: 30px;
+                h1 {
+                  text-align: center;
+                }
+              }
               .tab{
                 justify-content: center;
-                font-size: 30px;
-              }
+                font-size: 18px;
+                border-radius: 0px;
+                }
               .equipment-items {
                 .item {
                   width: 100%;
@@ -1888,12 +1896,12 @@ footer {
                 }
               }
               #tab-one-label{order:1;}
-              #tab-two-label{order: 3;}
-              #tab-three-label{order: 5;};
-              #tab-four-label{order: 7;};
-              #tab-one-panel{order: 2;}
-              #tab-two-panel{order: 4;}
-              #tab-three-panel{order: 6;}
+              #tab-two-label{order: 2;}
+              #tab-three-label{order: 3;};
+              #tab-four-label{order: 4;};
+              #tab-one-panel{order: 5;}
+              #tab-two-panel{order: 6;}
+              #tab-three-panel{order: 7;}
               #tab-four-panel{ order: 8;}
             }
           }

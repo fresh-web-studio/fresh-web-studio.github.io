@@ -1215,26 +1215,32 @@ footer {
     width: 100%; }
     main .equipment .container .row .worko-tabs .flex-tabs {
       flex-direction: column; }
+      main .equipment .container .row .worko-tabs .flex-tabs .header-equipment {
+        margin-right: 0px;
+        margin-bottom: 30px; }
+        main .equipment .container .row .worko-tabs .flex-tabs .header-equipment h1 {
+          text-align: center; }
       main .equipment .container .row .worko-tabs .flex-tabs .tab {
         justify-content: center;
-        font-size: 30px; }
+        font-size: 18px;
+        border-radius: 0px; }
       main .equipment .container .row .worko-tabs .flex-tabs .equipment-items .item {
         width: 100%;
         margin: 15px 20px; }
       main .equipment .container .row .worko-tabs .flex-tabs #tab-one-label {
         order: 1; }
       main .equipment .container .row .worko-tabs .flex-tabs #tab-two-label {
-        order: 3; }
-      main .equipment .container .row .worko-tabs .flex-tabs #tab-three-label {
-        order: 5; }
-      main .equipment .container .row .worko-tabs .flex-tabs #tab-four-label {
-        order: 7; }
-      main .equipment .container .row .worko-tabs .flex-tabs #tab-one-panel {
         order: 2; }
-      main .equipment .container .row .worko-tabs .flex-tabs #tab-two-panel {
+      main .equipment .container .row .worko-tabs .flex-tabs #tab-three-label {
+        order: 3; }
+      main .equipment .container .row .worko-tabs .flex-tabs #tab-four-label {
         order: 4; }
-      main .equipment .container .row .worko-tabs .flex-tabs #tab-three-panel {
+      main .equipment .container .row .worko-tabs .flex-tabs #tab-one-panel {
+        order: 5; }
+      main .equipment .container .row .worko-tabs .flex-tabs #tab-two-panel {
         order: 6; }
+      main .equipment .container .row .worko-tabs .flex-tabs #tab-three-panel {
+        order: 7; }
       main .equipment .container .row .worko-tabs .flex-tabs #tab-four-panel {
         order: 8; }
 
