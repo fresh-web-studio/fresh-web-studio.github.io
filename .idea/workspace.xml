@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repair-boilers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/index.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -102,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="40" column="2" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+            <state relative-caret-position="192">
+              <caret line="950" column="3" lean-forward="true" selection-start-line="950" selection-start-column="3" selection-end-line="950" selection-end-column="3" />
               <folding>
                 <element signature="e#795#9142#0" />
                 <element signature="e#2894#5800#0" />
@@ -118,7 +117,6 @@
                 <element signature="e#18652#18662#0" />
                 <element signature="e#18401#19143#0" />
                 <element signature="e#20034#20044#0" />
-                <element signature="e#21041#21047#0" />
                 <element signature="e#14047#19787#0" />
                 <element signature="e#19813#20063#0" />
                 <element signature="e#20082#21627#0" />
@@ -127,10 +125,26 @@
                 <element signature="e#23696#24505#0" />
                 <element signature="e#25696#27255#0" />
                 <element signature="e#29350#31552#0" />
-                <element signature="e#30949#31458#0" />
                 <element signature="e#31564#32408#0" />
                 <element signature="e#32928#33921#0" />
                 <element signature="e#36591#39822#0" />
+                <element signature="e#39961#40029#0" />
+                <element signature="e#39961#40389#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="819">
+              <caret line="1882" column="7" lean-forward="true" selection-start-line="1882" selection-start-column="7" selection-end-line="1882" selection-end-column="11" />
+              <folding>
+                <element signature="e#5369#7225#0" />
+                <element signature="e#7275#9364#0" />
+                <element signature="e#9377#10677#0" />
+                <element signature="e#38332#50640#0" />
               </folding>
             </state>
           </provider>
@@ -319,6 +333,12 @@
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="capital-finance" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="repair-boilers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -431,21 +451,7 @@
       <workItem from="1585821975546" duration="5429000" />
       <workItem from="1585840280891" duration="12423000" />
       <workItem from="1585905470570" duration="59696000" />
-      <workItem from="1586256468630" duration="33121000" />
-    </task>
-    <task id="LOCAL-00477" summary="Обновление">
-      <created>1585992604589</created>
-      <option name="number" value="00477" />
-      <option name="presentableId" value="LOCAL-00477" />
-      <option name="project" value="LOCAL" />
-      <updated>1585992604589</updated>
-    </task>
-    <task id="LOCAL-00478" summary="Обновление">
-      <created>1585992836666</created>
-      <option name="number" value="00478" />
-      <option name="presentableId" value="LOCAL-00478" />
-      <option name="project" value="LOCAL" />
-      <updated>1585992836666</updated>
+      <workItem from="1586256468630" duration="34284000" />
     </task>
     <task id="LOCAL-00479" summary="Обновление">
       <created>1585992873485</created>
@@ -776,17 +782,31 @@
       <option name="project" value="LOCAL" />
       <updated>1586338999473</updated>
     </task>
-    <option name="localTasksCounter" value="526" />
+    <task id="LOCAL-00526" summary="Обновление">
+      <created>1586349918288</created>
+      <option name="number" value="00526" />
+      <option name="presentableId" value="LOCAL-00526" />
+      <option name="project" value="LOCAL" />
+      <updated>1586349918289</updated>
+    </task>
+    <task id="LOCAL-00527" summary="Обновление">
+      <created>1586350241806</created>
+      <option name="number" value="00527" />
+      <option name="presentableId" value="LOCAL-00527" />
+      <option name="project" value="LOCAL" />
+      <updated>1586350241806</updated>
+    </task>
+    <option name="localTasksCounter" value="528" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="722422000" />
+    <option name="totallyTimeSpent" value="723585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="617" y="-1417" width="1270" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.2594417" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2594417" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1090,18 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5480">
-          <caret line="173" column="21" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="21" />
-          <folding>
-            <element signature="e#5369#7225#0" />
-            <element signature="e#7275#9364#0" />
-            <element signature="e#9377#10677#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/panorama/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1258,10 +1266,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="1882" column="7" lean-forward="true" selection-start-line="1882" selection-start-column="7" selection-end-line="1882" selection-end-column="11" />
+          <folding>
+            <element signature="e#5369#7225#0" />
+            <element signature="e#7275#9364#0" />
+            <element signature="e#9377#10677#0" />
+            <element signature="e#38332#50640#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="40" column="2" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        <state relative-caret-position="192">
+          <caret line="950" column="3" lean-forward="true" selection-start-line="950" selection-start-column="3" selection-end-line="950" selection-end-column="3" />
           <folding>
             <element signature="e#795#9142#0" />
             <element signature="e#2894#5800#0" />
@@ -1276,7 +1297,6 @@
             <element signature="e#18652#18662#0" />
             <element signature="e#18401#19143#0" />
             <element signature="e#20034#20044#0" />
-            <element signature="e#21041#21047#0" />
             <element signature="e#14047#19787#0" />
             <element signature="e#19813#20063#0" />
             <element signature="e#20082#21627#0" />
@@ -1285,10 +1305,11 @@
             <element signature="e#23696#24505#0" />
             <element signature="e#25696#27255#0" />
             <element signature="e#29350#31552#0" />
-            <element signature="e#30949#31458#0" />
             <element signature="e#31564#32408#0" />
             <element signature="e#32928#33921#0" />
             <element signature="e#36591#39822#0" />
+            <element signature="e#39961#40029#0" />
+            <element signature="e#39961#40389#0" />
           </folding>
         </state>
       </provider>

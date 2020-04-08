@@ -952,7 +952,7 @@ main {
 }
 
 footer {
-  margin-top: 80px;
+  margin-top: 40px;
   .container {
     .row {
       display: flex;
@@ -963,7 +963,7 @@ footer {
         max-width: 600px;
         .red-border {
           border: 10px #f1460a solid;
-          margin: 60px;
+          margin: 100px 60px 20px;
           padding: 50px;
           h2 {
             font-size: 35px;
@@ -1083,7 +1083,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 670px) {
+@media all and (max-width: 670px) {
   header {
     .container {
       .header-top {
@@ -1799,6 +1799,21 @@ footer {
         }
       }
     }
+  }
+}
+
+@media all and (max-width: 375px) {
+  main .repair-peter .container div p {
+    font-size: 13px;
+  }
+  main .repair-peter {
+    height: 500px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  main .repair-peter .container div p {
+    font-size: 12px;
   }
 }
 
