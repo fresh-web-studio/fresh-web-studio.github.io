@@ -320,6 +320,18 @@ main .advantages {
         font-size: 13px;
         color: #4e4e4e;
         line-height: 1.615; }
+main .our_services .container h1 {
+  font-size: 35px;
+  color: #313131;
+  line-height: 1.286;
+  text-align: left;
+  font-weight: 400; }
+  main .our_services .container h1 span {
+    font-weight: 900; }
+  main .our_services .container h1 span.text {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #383737; }
 main .our_services .container h2 {
   font-size: 35px;
   color: #313131;
@@ -328,10 +340,6 @@ main .our_services .container h2 {
   font-weight: 400; }
   main .our_services .container h2 span {
     font-weight: 900; }
-  main .our_services .container h2 span.text {
-    margin-left: 20px;
-    font-size: 16px;
-    color: #383737; }
 main .our_services .container h2.left {
   text-align: left; }
 main .our_services .container .services {
@@ -1078,6 +1086,12 @@ footer {
       text-align: center; }
       main .advantages .container .advantages__item .info {
         padding: 0px 30px 30px; }
+  main .our_services .container h1 {
+    text-align: center;
+    line-height: 1; }
+    main .our_services .container h1 span.text {
+      display: block;
+      margin-top: 18px; }
   main .our_services .container h2 {
     margin: 0px 20px; }
   main .our_services .container .services {
