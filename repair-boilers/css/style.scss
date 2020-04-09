@@ -1153,6 +1153,119 @@ main {
       }
     }
   }
+  .comfort-plus {
+    background-image: url("../img/comfort-plus-bg.jpg");
+    background-position: center;
+    height: 566px;
+    .container {
+      padding: 80px 0;
+      div {
+        h2 {
+          width: 40%;
+          font-size: 47px;
+          color: rgb(48, 48, 48);
+          font-weight: bold;
+        }
+        p {
+          width: 40%;
+          margin-top: 40px;
+          font-size: 14px;
+          color: rgb(48, 48, 48);
+          line-height: 1.857;
+        }
+      }
+    }
+  }
+  .advantages-green {
+    padding: 60px 0;
+    background-color: #303030;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .advantages__item {
+        width: 19%;
+        h5 {
+          font-size: 16px;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          line-height: 1.563;
+          margin: 5px 0;
+        }
+        .info {
+          font-size: 13px;
+          color: rgb(255, 255, 255);
+          line-height: 1.615;
+        }
+      }
+    }
+  }
+  .responsibility {
+    .container {
+      .repairs-block {
+        padding-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .text {
+          width: 55%;
+          h3 {
+            font-size: 35px;
+            color: #272727;
+            font-weight: bold;
+            line-height: 1.286;
+            span {
+              color: #f1460a;
+            }
+          }
+          h3.report_header {
+            margin-top: 90px;
+          }
+          p {
+            width: 80%;
+            margin: 20px 0;
+            font-size: 14px;
+            line-height: 1.714;
+            color: #6b6b6b;
+            span {
+              font-weight: bold;
+            }
+          }
+        }
+        .photo {
+          width: 45%;
+        }
+      }
+      .report {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .report__item {
+          width: 25%;
+          margin: 45px 0 80px;
+          text-align: center;
+          border: 1px rgba(255, 255, 255, 0.1) solid;
+          padding: 45px;
+          .numbers {
+            font-size: 60px;
+            color: rgb(255, 254, 254);
+            font-weight: bold;
+            line-height: 0.751;
+          }
+          .text {
+            margin-top: 20px;
+            font-size: 12px;
+            color: rgb(152, 164, 163);
+            line-height: 1.692;
+          }
+
+        }
+      }
+    }
+  }
+
+
 }
 
 footer {
@@ -1922,6 +2035,27 @@ footer {
               #tab-three-panel{order: 7;}
               #tab-four-panel{ order: 8;}
             }
+          }
+        }
+      }
+    }
+    .comfort-plus {
+      background-image: url("../img/comfort-plus-bg-m.jpg");
+      background-position: center;
+      height: 440px;
+      text-align: center;
+      .container {
+        padding: 40px 0;
+        div {
+          margin: 0px 20px;
+          h2 {
+            width: 100%;
+            font-size: 30px;
+          }
+          p {
+            margin-top: 20px;
+            width: 100%;
+            font-size: 16px;
           }
         }
       }

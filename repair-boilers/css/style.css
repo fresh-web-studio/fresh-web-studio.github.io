@@ -810,6 +810,88 @@ main .equipment .container .row {
   main .equipment .container .row #tab-three:checked ~ .tabs #tab-three-panel,
   main .equipment .container .row #tab-four:checked ~ .tabs #tab-four-panel {
     display: block; }
+main .comfort-plus {
+  background-image: url("../img/comfort-plus-bg.jpg");
+  background-position: center;
+  height: 566px; }
+  main .comfort-plus .container {
+    padding: 80px 0; }
+    main .comfort-plus .container div h2 {
+      width: 40%;
+      font-size: 47px;
+      color: #303030;
+      font-weight: bold; }
+    main .comfort-plus .container div p {
+      width: 40%;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #303030;
+      line-height: 1.857; }
+main .advantages-green {
+  padding: 60px 0;
+  background-color: #303030; }
+  main .advantages-green .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .advantages-green .container .advantages__item {
+      width: 19%; }
+      main .advantages-green .container .advantages__item h5 {
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        line-height: 1.563;
+        margin: 5px 0; }
+      main .advantages-green .container .advantages__item .info {
+        font-size: 13px;
+        color: white;
+        line-height: 1.615; }
+main .responsibility .container .repairs-block {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  main .responsibility .container .repairs-block .text {
+    width: 55%; }
+    main .responsibility .container .repairs-block .text h3 {
+      font-size: 35px;
+      color: #272727;
+      font-weight: bold;
+      line-height: 1.286; }
+      main .responsibility .container .repairs-block .text h3 span {
+        color: #f1460a; }
+    main .responsibility .container .repairs-block .text h3.report_header {
+      margin-top: 90px; }
+    main .responsibility .container .repairs-block .text p {
+      width: 80%;
+      margin: 20px 0;
+      font-size: 14px;
+      line-height: 1.714;
+      color: #6b6b6b; }
+      main .responsibility .container .repairs-block .text p span {
+        font-weight: bold; }
+  main .responsibility .container .repairs-block .photo {
+    width: 45%; }
+main .responsibility .container .report {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  main .responsibility .container .report .report__item {
+    width: 25%;
+    margin: 45px 0 80px;
+    text-align: center;
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    padding: 45px; }
+    main .responsibility .container .report .report__item .numbers {
+      font-size: 60px;
+      color: #fffefe;
+      font-weight: bold;
+      line-height: 0.751; }
+    main .responsibility .container .report .report__item .text {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #98a4a3;
+      line-height: 1.692; }
 
 footer {
   margin-top: 40px; }
@@ -1257,6 +1339,22 @@ footer {
         order: 7; }
       main .equipment .container .row .worko-tabs .flex-tabs #tab-four-panel {
         order: 8; }
+  main .comfort-plus {
+    background-image: url("../img/comfort-plus-bg-m.jpg");
+    background-position: center;
+    height: 440px;
+    text-align: center; }
+    main .comfort-plus .container {
+      padding: 40px 0; }
+      main .comfort-plus .container div {
+        margin: 0px 20px; }
+        main .comfort-plus .container div h2 {
+          width: 100%;
+          font-size: 30px; }
+        main .comfort-plus .container div p {
+          margin-top: 20px;
+          width: 100%;
+          font-size: 16px; }
 
   footer {
     margin-top: 80px; }
