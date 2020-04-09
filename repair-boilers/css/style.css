@@ -903,6 +903,119 @@ main .responsibility .container .report {
       font-size: 12px;
       color: #98a4a3;
       line-height: 1.692; }
+main .works .container .row {
+  animation: fake 1s infinite;
+  /* Android 2.3 :checked fix */ }
+@keyframes fake {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 1; } }
+  main .works .container .row .worko-tabs .state {
+    position: absolute;
+    left: -10000px; }
+  main .works .container .row .worko-tabs .flex-tabs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    main .works .container .row .worko-tabs .flex-tabs .works-items {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      main .works .container .row .worko-tabs .flex-tabs .works-items .item {
+        width: 24%;
+        text-align: center;
+        padding: 7px 0px; }
+        main .works .container .row .worko-tabs .flex-tabs .works-items .item img {
+          display: block;
+          width: 100%; }
+        main .works .container .row .worko-tabs .flex-tabs .works-items .item .name {
+          font-size: 15px;
+          color: #313131;
+          line-height: 1.533; }
+        main .works .container .row .worko-tabs .flex-tabs .works-items .item button {
+          margin-top: 20px;
+          margin-bottom: 10px;
+          border-radius: 3px;
+          background-color: #f1460a;
+          border: 0;
+          width: 180px;
+          height: 37px;
+          cursor: pointer; }
+          main .works .container .row .worko-tabs .flex-tabs .works-items .item button .btn {
+            font-size: 13px;
+            color: white; }
+          main .works .container .row .worko-tabs .flex-tabs .works-items .item button:hover {
+            background-color: #d02718; }
+    main .works .container .row .worko-tabs .flex-tabs .btn-and {
+      text-align: center;
+      margin: 30px; }
+      main .works .container .row .worko-tabs .flex-tabs .btn-and a {
+        color: #494949;
+        font-size: 15px; }
+      main .works .container .row .worko-tabs .flex-tabs .btn-and:after {
+        content: "\f107";
+        font-family: FontAwesome;
+        margin-left: 2px;
+        color: #494949; }
+    main .works .container .row .worko-tabs .flex-tabs .header-works {
+      margin-right: 510px; }
+    main .works .container .row .worko-tabs .flex-tabs .tab {
+      display: flex;
+      font-size: 12px;
+      padding: 11px 13px;
+      border-radius: 3px;
+      background-color: #ffffff;
+      color: #f1460a;
+      border: 1px #f1460a solid;
+      text-align: center;
+      cursor: pointer; }
+    main .works .container .row .worko-tabs .flex-tabs .tab:hover {
+      background-color: #d02718;
+      color: #FFF; }
+    main .works .container .row .worko-tabs .flex-tabs .panel {
+      background-color: #fff;
+      padding-top: 10px;
+      min-height: 300px;
+      display: none;
+      width: 100%;
+      flex-basis: auto; }
+      main .works .container .row .worko-tabs .flex-tabs .panel .resp-tab {
+        border-radius: 5px;
+        font-weight: normal;
+        border: 1px #8d8d8d solid;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 100%; }
+      main .works .container .row .worko-tabs .flex-tabs .panel .resp-tab th, main .works .container .row .worko-tabs .flex-tabs .panel .resp-tab td {
+        padding: 13px 10px;
+        font-size: 10px;
+        border: none;
+        vertical-align: top;
+        text-align: center; }
+        main .works .container .row .worko-tabs .flex-tabs .panel .resp-tab th span, main .works .container .row .worko-tabs .flex-tabs .panel .resp-tab td span {
+          margin-right: 10px; }
+      main .works .container .row .worko-tabs .flex-tabs .panel .resp-tab th {
+        color: #FFF;
+        background: #8d8d8d;
+        font-weight: bold;
+        text-align: center; }
+      main .works .container .row .worko-tabs .flex-tabs .panel .resp-tab tr {
+        border-top: 1px #f0e8e8 solid; }
+  main .works .container .row .worko-tabs .tab:hover {
+    background-color: #fff; }
+  main .works .container .row #tab-one:checked ~ .tabs #tab-one-label,
+  main .works .container .row #tab-two:checked ~ .tabs #tab-two-label,
+  main .works .container .row #tab-three:checked ~ .tabs #tab-three-label,
+  main .works .container .row #tab-four:checked ~ .tabs #tab-four-label {
+    background-color: #f1460a;
+    color: #ffffff; }
+  main .works .container .row #tab-one:checked ~ .tabs #tab-one-panel,
+  main .works .container .row #tab-two:checked ~ .tabs #tab-two-panel,
+  main .works .container .row #tab-three:checked ~ .tabs #tab-three-panel,
+  main .works .container .row #tab-four:checked ~ .tabs #tab-four-panel {
+    display: block; }
 
 footer {
   margin-top: 40px; }
