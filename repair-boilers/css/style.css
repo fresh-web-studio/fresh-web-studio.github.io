@@ -868,6 +868,19 @@ main .responsibility .container .responsibility-block {
       color: #6b6b6b; }
       main .responsibility .container .responsibility-block .text p span {
         font-weight: bold; }
+    main .responsibility .container .responsibility-block .text button {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      background-color: #f1460a;
+      border: 0;
+      width: 180px;
+      height: 37px;
+      cursor: pointer; }
+      main .responsibility .container .responsibility-block .text button .btn {
+        font-size: 13px;
+        color: white;
+        text-transform: uppercase; }
   main .responsibility .container .responsibility-block .photo {
     width: 45%; }
 main .responsibility .container .report {

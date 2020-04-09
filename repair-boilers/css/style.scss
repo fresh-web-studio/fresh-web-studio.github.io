@@ -1230,6 +1230,21 @@ main {
               font-weight: bold;
             }
           }
+          button {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            background-color: #f1460a;
+            border: 0;
+            width: 180px;
+            height: 37px;
+            cursor: pointer;
+            .btn {
+              font-size: 13px;
+              color: white;
+              text-transform: uppercase;
+            }
+          }
         }
         .photo {
           width: 45%;
