@@ -1203,18 +1203,17 @@ main {
   }
   .responsibility {
     .container {
-      .repairs-block {
-        padding-top: 80px;
+      .responsibility-block {
+        padding: 80px 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         .text {
-          width: 55%;
+          width: 45%;
           h3 {
-            font-size: 35px;
+            font-size: 50px;
             color: #272727;
             font-weight: bold;
-            line-height: 1.286;
             span {
               color: #f1460a;
             }
@@ -1223,7 +1222,6 @@ main {
             margin-top: 90px;
           }
           p {
-            width: 80%;
             margin: 20px 0;
             font-size: 14px;
             line-height: 1.714;

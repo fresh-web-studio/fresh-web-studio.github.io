@@ -846,31 +846,29 @@ main .advantages-green {
         font-size: 13px;
         color: white;
         line-height: 1.615; }
-main .responsibility .container .repairs-block {
-  padding-top: 80px;
+main .responsibility .container .responsibility-block {
+  padding: 80px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
-  main .responsibility .container .repairs-block .text {
-    width: 55%; }
-    main .responsibility .container .repairs-block .text h3 {
-      font-size: 35px;
+  main .responsibility .container .responsibility-block .text {
+    width: 45%; }
+    main .responsibility .container .responsibility-block .text h3 {
+      font-size: 50px;
       color: #272727;
-      font-weight: bold;
-      line-height: 1.286; }
-      main .responsibility .container .repairs-block .text h3 span {
+      font-weight: bold; }
+      main .responsibility .container .responsibility-block .text h3 span {
         color: #f1460a; }
-    main .responsibility .container .repairs-block .text h3.report_header {
+    main .responsibility .container .responsibility-block .text h3.report_header {
       margin-top: 90px; }
-    main .responsibility .container .repairs-block .text p {
-      width: 80%;
+    main .responsibility .container .responsibility-block .text p {
       margin: 20px 0;
       font-size: 14px;
       line-height: 1.714;
       color: #6b6b6b; }
-      main .responsibility .container .repairs-block .text p span {
+      main .responsibility .container .responsibility-block .text p span {
         font-weight: bold; }
-  main .responsibility .container .repairs-block .photo {
+  main .responsibility .container .responsibility-block .photo {
     width: 45%; }
 main .responsibility .container .report {
   display: flex;
