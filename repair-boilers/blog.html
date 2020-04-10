@@ -15,7 +15,7 @@
 <header>
     <div class="container">
         <div class="header-top">
-            <div class="logo"><img src="img\logo.jpg" alt=""></div>
+            <div class="logo"><a href="index.html"><img src="img\logo.jpg" alt="Лого"></a></div>
             <div class="address">
                 <div class="ping">Санкт-Петербург, Новочеркасский пр. 34</div>
                 <div><a href="#">смотреть на карте</a></div>
@@ -27,9 +27,11 @@
             <div class="tel">
                 <a href="tel:89646110404">+7 (964) 611 04 04</a>
             </div>
-            <button>
-                <div class="btn">Вызвать мастера</div>
-            </button>
+            <a href="#modal" class="button openModal">
+                <button>
+                    <div class="btn">Вызвать мастера</div>
+                </button>
+            </a>
         </div>
     </div>
     <div class="nav-container black">
@@ -184,9 +186,11 @@
                     <div class="tel">
                         <a href="tel:89646110404">+7 (964) 611 04 04</a>
                     </div>
-                    <button>
-                        <div class="btn">Вызвать мастера</div>
-                    </button>
+                    <a href="#modal" class="button openModal">
+                        <button>
+                            <div class="btn">Вызвать мастера</div>
+                        </button>
+                    </a>
                 </div>
                 <div class="copyright">
                     © Комфорт Плюс. Политика конфиденциальности
@@ -200,9 +204,46 @@
                 </div>
             </div>
         </div>
-
     </div>
 </footer>
+<div id="modal" class="modal">
+    <div>
+        <div class="text">
+            <div id="blok_tel">
+                <form action="" method="post" class="form1">
+                    <h3>Вызов мастера</h3>
+                    <div class="info">Оставьте Ваши данные и мы свяжемся с Вами
+                        в течение 5 минут для подтверждения заявки.</div>
+                    <label for="name" class="control-label">Имя</label>
+                    <div class="input-name">
+                        <input type="text" name="name" class="inputbox" id="name" value="" placeholder="Введите Ваше имя">
+                    </div>
+                    <label for="telephon" class="control-label">Телефон</label>
+                    <div class="input-phone">
+                        <input type="text" name="tel" class="inputbox" id="telephon" value="" placeholder="+7 (__) ___-__-__">
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="btn">Вызвать мастера</button>
+                    </div>
+                </form>
+                <?if(isset($_POST["submit_tel"]))
+                            {
+                            $email = 'ваша_почта@yandex.com';
+                            /* Отправляем email */
+                            mail($email, "Заказ обратного звонка на сайте ...", "\n
+                            Посетитель заказал обратный звонок! \n
+                            Телефон : ".$_POST['tel']."
+                            ");
+                            echo 'Заявка принята!';
+                            }
+                            ?>
+            </div>
+
+
+        </div>
+        <a href="#close" title="Закрыть">Закрыть</a>
+    </div>
+</div>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/main_slider.js"></script>
