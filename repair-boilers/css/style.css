@@ -1319,6 +1319,8 @@ footer {
         padding: 0px 15px;
         text-align: left;
         line-height: 1.4; }
+      header .nav-container nav.container .top-menu .menu-item.active {
+        background-color: #CFD8DC; }
     header .nav-container nav.container .menu-link {
       display: block;
       color: #383838;
@@ -1558,6 +1560,9 @@ footer {
     padding: 20px; }
     main .reviews .container .owl-theme .owl-dots .owl-dot:hover span, main .reviews .container .owl-theme .owl-dots .owl-dot.active span {
       background: #f1460a; }
+  main .blog .container h1 {
+    font-size: 25px;
+    text-align: center; }
   main .blog .container .blog-items {
     margin: 30px 0; }
     main .blog .container .blog-items .item {
@@ -1614,6 +1619,24 @@ footer {
           margin-top: 20px;
           width: 100%;
           font-size: 16px; }
+  main .reviews-page .container h1 {
+    font-size: 25px;
+    text-align: center; }
+  main .reviews-page .container .reviews-page-items .item {
+    width: 100%; }
+  main .contacts .container h1 {
+    font-size: 25px;
+    margin: 0 20px; }
+  main .contacts .container .contacts-bottom {
+    margin: 0 50px 30px; }
+    main .contacts .container .contacts-bottom .address {
+      margin-bottom: 10px;
+      margin-left: 11px; }
+    main .contacts .container .contacts-bottom .mail-form {
+      margin-bottom: 10px; }
+    main .contacts .container .contacts-bottom .tel {
+      margin-bottom: 15px;
+      margin-left: 9px; }
 
   footer {
     margin-top: 80px; }
