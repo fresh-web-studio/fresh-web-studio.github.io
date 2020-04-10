@@ -372,13 +372,20 @@ header {
       }
 
       .top-menu > li > a:hover {
-        color: #d4d4d4;
+        color: #d02718;
       }
 
       .dropdown:after {
-        content: "\f107";
+         content: "\f107";
+         font-family: FontAwesome;
+         margin-left: 4px;
+         margin-top: 3px;
+         float: right;
+       }
+      .dropright:after {
+        content: "\f105";
         font-family: FontAwesome;
-        margin-left: 4px;
+        float: right;
       }
 
       .submenu, .submenu-standart {
@@ -388,7 +395,20 @@ header {
         padding: 25px 0;
         position: absolute;
         top: 100%;
-        //left: 0;
+        z-index: 5;
+        opacity: 0;
+        visibility: hidden;
+        transform: translate3d(0, 30px, 0);
+        transition: .5s ease-out;
+        transform-origin: 0% 0%;
+      }
+      .submenu-standart-submenu {
+        border-top: 1px solid #e5e5e5;
+        box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .07);
+        background: white;
+        position: absolute;
+        top: 80%;
+        left: 101%;
         z-index: 5;
         opacity: 0;
         visibility: hidden;
@@ -403,18 +423,24 @@ header {
 
       .submenu-standart {
         min-width: 200px;
-        padding: 10px 0;
+        padding: 0;
       }
-
+      .submenu-standart-submenu {
+        min-width: 225px;
+        padding: 0;
+      }
       .dropdown-standart {
         position: relative;
       }
 
-      .top-menu > li:hover .submenu, .top-menu > li:hover .submenu-standart {
+      .top-menu > li:hover .submenu,
+      .top-menu > li:hover .submenu-standart,
+      .top-menu .submenu-standart > li:hover .submenu-standart-submenu{
         opacity: 1;
         visibility: visible;
         transform: translate3d(0, 0, 0);
       }
+
 
       .submenu > li {
         float: left;
@@ -424,7 +450,8 @@ header {
       }
 
       .submenu-standart li {
-        padding: 0 18px;
+        padding: 10px 18px;
+        border-bottom: 1px #e8e8e8 solid;
       }
 
       .submenu > li:last-child {
@@ -2104,13 +2131,19 @@ footer {
           color: black;
         }
 
+        .dropright:after {
+          content: "\f107";
+        }
+
         .submenu,
-        .submenu-standart {
+        .submenu-standart,
+        .submenu-standart-submenu {
           position: relative;
           display: none;
           box-shadow: none;
           padding: 0;
           background: rgba(0, 0, 0, .02);
+          left: 0;
         }
 
         .submenu-standart li {
@@ -2140,7 +2173,8 @@ footer {
         }
 
         .top-menu > li:hover .submenu,
-        .top-menu > li:hover .submenu-standart {
+        .top-menu > li:hover .submenu-standart,
+        .top-menu .submenu-standart > li:hover .submenu-standart-submenu{
           display: block;
         }
       }
