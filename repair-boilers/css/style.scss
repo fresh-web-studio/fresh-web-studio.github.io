@@ -42,7 +42,6 @@ body {
 
 header {
   .container {
-
     .header-top {
       display: flex;
       flex-wrap: wrap;
@@ -154,7 +153,7 @@ header {
   .nav-container {
     //position: relative;
     //z-index: 2;
-    background-color: #303030;
+
     nav.container {
       ul {
         list-style: none;
@@ -289,12 +288,19 @@ header {
       }
     }
   }
+  .nav-container.black {
+    background-color: #303030;
+  }
+  .nav-container.main {
+    position: relative;
+    z-index: 2;
+  }
   .slide-wraper {
     position: relative;
     width: 100%;
     overflow: hidden;
-    //z-index: 1;
-    //margin-top: -50px;
+    z-index: 1;
+    margin-top: -50px;
 
     .slide-item.slide1 {
       background-image: url(../img/slider-bg-1.jpg);
@@ -1510,7 +1516,119 @@ main {
       }
     }
   }
+  .contacts {
+    .maps {
+      margin: 30px 0;
+    }
+    .container {
+      h1 {
+        font-size: 35px;
+        color: rgb(49, 49, 49);
+      }
 
+      .contacts-bottom {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 50px;
+        .address {
+          font-size: 12px;
+          color: rgb(25, 25, 25);
+          line-height: 1.75;
+
+          .ping {
+            display: flex;
+
+            &:before {
+              content: url(../img/adres.png);
+              transform: translate(-7px, 2px);
+            }
+          }
+
+          a {
+            color: rgb(241, 70, 10);
+            text-decoration: none;
+            padding-left: 10px;
+
+            &:hover {
+              color: red;
+            }
+          }
+        }
+
+        .mail-form {
+          font-size: 12px;
+          color: rgb(25, 25, 25);
+          line-height: 1.75;
+
+          .mail {
+            a {
+              color: rgb(25, 25, 25);
+              text-decoration: none;
+              padding-left: 10px;
+
+              &:hover {
+                color: grey;
+              }
+
+              display: flex;
+
+              &:before {
+                content: url(../img/mail.png);
+                transform: translate(-7px, 1px);
+              }
+            }
+          }
+
+          a {
+            color: rgb(241, 70, 10);
+            text-decoration: none;
+            padding-left: 22px;
+
+            &:hover {
+              color: red;
+            }
+          }
+        }
+
+        .tel {
+          display: flex;
+
+          &:before {
+            content: url(../img/phone.png);
+            transform: translate(-7px, 1px);
+          }
+          a {
+            font-size: 18px;
+            color: rgb(25, 25, 25);
+            font-weight: bold;
+            text-decoration: none;
+            &:hover {
+              color: gray;
+            }
+          }
+        }
+        button {
+          border-radius: 3px;
+          background-color: #f1460a;
+          border: 0;
+          left: 1418px;
+          top: 26px;
+          width: 141px;
+          height: 37px;
+          cursor: pointer;
+          .btn {
+            font-size: 13px;
+            color: rgb(255, 255, 255);
+          }
+          &:hover {
+            background-color: #d02718;
+          }
+        }
+      }
+    }
+  }
 }
 
 footer {
