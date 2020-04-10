@@ -1029,6 +1029,51 @@ main .works .container .row {
   main .works .container .row #tab-three:checked ~ .tabs #tab-three-panel,
   main .works .container .row #tab-four:checked ~ .tabs #tab-four-panel {
     display: block; }
+main .reviews-page .container h1 {
+  font-size: 35px;
+  color: #313131;
+  margin-bottom: 20px; }
+main .reviews-page .container .reviews-page-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  main .reviews-page .container .reviews-page-items .item {
+    margin: 15px 0;
+    width: 19%; }
+    main .reviews-page .container .reviews-page-items .item img {
+      width: 100%; }
+    main .reviews-page .container .reviews-page-items .item .text {
+      font-size: 14px;
+      color: #313131;
+      line-height: 1.643; }
+    main .reviews-page .container .reviews-page-items .item a {
+      font-size: 14px;
+      color: #f1460a; }
+main .reviews-page .container .btn {
+  text-align: center; }
+  main .reviews-page .container .btn button {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: #f1460a;
+    border: 0;
+    width: 180px;
+    height: 37px;
+    cursor: pointer; }
+    main .reviews-page .container .btn button .btn {
+      font-size: 13px;
+      color: white; }
+main .reviews-page .container .btn-and {
+  text-align: center;
+  margin: 30px; }
+  main .reviews-page .container .btn-and a {
+    color: #494949;
+    font-size: 15px; }
+  main .reviews-page .container .btn-and:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    margin-left: 2px;
+    color: #494949; }
 
 footer {
   margin-top: 40px; }

@@ -1449,6 +1449,67 @@ main {
       }
     }
   }
+  .reviews-page {
+    .container {
+      h1 {
+        font-size: 35px;
+        color: rgb(49, 49, 49);
+        margin-bottom: 20px;
+      }
+      .reviews-page-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .item {
+          margin: 15px 0;
+          width: 19%;
+          img {
+            width: 100%;
+          }
+          .text {
+            font-size: 14px;
+            color: rgb(49, 49, 49);
+            line-height: 1.643;
+          }
+          a {
+            font-size: 14px;
+            color: #f1460a;
+          }
+        }
+      }
+      .btn {
+        text-align: center;
+        button {
+          margin-top: 60px;
+          margin-bottom: 10px;
+          border-radius: 3px;
+          background-color: #f1460a;
+          border: 0;
+          width: 180px;
+          height: 37px;
+          cursor: pointer;
+          .btn {
+            font-size: 13px;
+            color: white;
+          }
+        }
+      }
+      .btn-and {
+        text-align: center;
+        margin: 30px;
+        a {
+          color: #494949;
+          font-size: 15px;
+        }
+        &:after {
+          content: "\f107";
+          font-family: FontAwesome;
+          margin-left: 2px;
+          color: #494949;
+        }
+      }
+    }
+  }
 
 }
 
