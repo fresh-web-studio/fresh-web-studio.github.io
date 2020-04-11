@@ -364,7 +364,7 @@ header {
         transition: .2s linear;
         border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
       }
-      .top-menu > li.active {
+      .top-menu > li.active  {
         display: block;
         padding: 14px 15px;
         font-size: 14px;
@@ -455,6 +455,12 @@ header {
       .submenu-standart li {
         padding: 10px 18px;
         border-bottom: 1px #e8e8e8 solid;
+      }
+
+      .submenu-standart li.active {
+        color: #666;
+        font-size: 13px;
+        padding: 12px 18px;
       }
 
       .submenu > li:last-child {
@@ -1846,6 +1852,77 @@ main {
       }
     }
   }
+  .prices {
+    .container {
+      h1 {
+        font-size: 47px;
+        color: rgb(25, 25, 25);
+        font-weight: bold;
+        line-height: 1.213;
+      }
+
+      h2 {
+        font-size: 18px;
+        color: rgb(25, 25, 25);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 50px;
+        margin-bottom: 34px;
+      }
+
+      .table {
+        width: 100%;
+        .resp-tab {
+          border-radius: 5px;
+          font-weight: normal;
+          border: none;
+          border-collapse: collapse;
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .resp-tab th, .resp-tab td {
+          padding: 10px 20px;
+          font-size: 14px;
+          border: none;
+          vertical-align: middle;
+          text-align: center;
+        }
+
+        .resp-tab th:first-child, .resp-tab td:first-child {
+          border-right: 1px #ffffff solid;
+          text-align: left;
+          width: 730px;
+        }
+
+        .resp-tab th {
+          color: #FFF;
+          background: #f1460a;
+        }
+
+        .resp-tab tr {
+          background: #ffffff;
+        }
+
+        .resp-tab tr:nth-child(even) {
+          background: #f4f4f4;
+        }
+
+        .resp-tab td span {
+          background: #337AB7;
+          color: #FFF;
+          display: none;
+          font-size: 11px;
+          font-weight: bold;
+          text-transform: uppercase;
+          padding: 5px 10px;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+  }
 }
 
 footer {
@@ -2732,6 +2809,29 @@ footer {
           .tel {
             margin-bottom: 15px;
             margin-left: 9px;
+          }
+        }
+      }
+    }
+    .prices {
+      .container {
+        h1 {
+          font-size: 25px;
+          text-align: center;
+        }
+        h2 {
+          font-size: 16px;
+          text-align: center;
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+        .table {
+          padding: 0 10px;
+          .resp-tab {
+            th, td {
+              padding: 10px 5px;
+              font-size: 9px;
+            }
           }
         }
       }

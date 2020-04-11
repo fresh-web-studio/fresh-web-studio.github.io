@@ -324,6 +324,10 @@ header .nav-container nav.container .submenu > li {
 header .nav-container nav.container .submenu-standart li {
   padding: 10px 18px;
   border-bottom: 1px #e8e8e8 solid; }
+header .nav-container nav.container .submenu-standart li.active {
+  color: #666;
+  font-size: 13px;
+  padding: 12px 18px; }
 header .nav-container nav.container .submenu > li:last-child {
   border-right: none; }
 header .nav-container nav.container .submenu img {
@@ -1326,6 +1330,55 @@ main .contacts .container .contacts-bottom {
       color: white; }
     main .contacts .container .contacts-bottom button:hover {
       background-color: #d02718; }
+main .prices .container h1 {
+  font-size: 47px;
+  color: #191919;
+  font-weight: bold;
+  line-height: 1.213; }
+main .prices .container h2 {
+  font-size: 18px;
+  color: #191919;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 34px; }
+main .prices .container .table {
+  width: 100%; }
+  main .prices .container .table .resp-tab {
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%; }
+  main .prices .container .table .resp-tab th, main .prices .container .table .resp-tab td {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    vertical-align: middle;
+    text-align: center; }
+  main .prices .container .table .resp-tab th:first-child, main .prices .container .table .resp-tab td:first-child {
+    border-right: 1px #ffffff solid;
+    text-align: left;
+    width: 730px; }
+  main .prices .container .table .resp-tab th {
+    color: #FFF;
+    background: #f1460a; }
+  main .prices .container .table .resp-tab tr {
+    background: #ffffff; }
+  main .prices .container .table .resp-tab tr:nth-child(even) {
+    background: #f4f4f4; }
+  main .prices .container .table .resp-tab td span {
+    background: #337AB7;
+    color: #FFF;
+    display: none;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 footer {
   margin-top: 40px; }
@@ -1854,6 +1907,19 @@ footer {
     main .contacts .container .contacts-bottom .tel {
       margin-bottom: 15px;
       margin-left: 9px; }
+  main .prices .container h1 {
+    font-size: 25px;
+    text-align: center; }
+  main .prices .container h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  main .prices .container .table {
+    padding: 0 10px; }
+    main .prices .container .table .resp-tab th, main .prices .container .table .resp-tab td {
+      padding: 10px 5px;
+      font-size: 9px; }
 
   footer {
     margin-top: 80px; }
