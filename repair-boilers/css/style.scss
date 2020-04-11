@@ -343,9 +343,7 @@ header {
       }
 
       .top-menu {
-        //background: white;
         position: relative;
-        border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
       }
 
       .top-menu:after, .submenu:after {
@@ -360,19 +358,24 @@ header {
 
       .top-menu > li > a {
         display: block;
-        padding: 14px 11px;
+        padding: 14px 15px;
         font-size: 14px;
-        letter-spacing: 1px;
         color: #ffffff;
         transition: .2s linear;
+        border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
       }
-
       .top-menu > li.active {
+        display: block;
+        padding: 14px 15px;
+        font-size: 14px;
+        color: #ffffff;
+        transition: .2s linear;
         border-bottom: 1px rgba(255, 255, 255, 1) solid;
       }
 
       .top-menu > li > a:hover {
         color: #d02718;
+        border-bottom: 1px rgba(255, 255, 255, 1) solid;
       }
 
       .dropdown:after {
@@ -639,28 +642,27 @@ header {
 }
 
 main {
-  .breadcrumb-block {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    .container {
-      .breadcrumb {
-        li {
-          display: inline-block;
-
-          a {
-            font-size: 12px;
-            color: rgb(186, 186, 186);
-            text-decoration: none;
-          }
-        }
-
-        li+li:before {
-          color: rgb(186, 186, 186);
-          content: "> ";
-          padding: 0 5px;
-          font-size: 12px;
-        }
+  .breadcrumb {
+    padding-top: 16px;
+    margin-bottom: 46px;
+    li {
+      display: inline-block;
+      a {
+        font-size: 12px;
+        color: rgb(186, 186, 186);
+        text-decoration: none;
       }
+      span {
+        font-size: 12px;
+        color: rgb(186, 186, 186);
+      }
+    }
+
+    li+li:before {
+      color: rgb(186, 186, 186);
+      content: "> ";
+      padding: 0 5px;
+      font-size: 12px;
     }
   }
   .advantages {
@@ -1394,9 +1396,8 @@ main {
   .comfort-plus {
     background-image: url("../img/comfort-plus-bg.jpg");
     background-position: center;
-    height: 566px;
+    height: 563px;
     .container {
-      padding: 80px 0;
       div {
         h2 {
           width: 40%;
