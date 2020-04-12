@@ -463,6 +463,76 @@ header .slide-wraper {
     color: #ffffff; }
   header .slide-wraper .slide-item button.btn:hover {
     background-color: #d02718; }
+header .seo {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  margin-top: -50px; }
+  header .seo .seo__banner {
+    background-image: url(../img/seo-bg.jpg);
+    background-position: center center;
+    /* Положение фона */
+    background-repeat: no-repeat;
+    /* Отменяем повторение фона */
+    height: 819px; }
+    header .seo .seo__banner .container {
+      padding: 150px 0; }
+      header .seo .seo__banner .container h1 {
+        font-size: 47px;
+        color: white;
+        font-weight: bold;
+        line-height: 1.213;
+        text-align: center;
+        margin-bottom: 28px; }
+      header .seo .seo__banner .container .text {
+        font-size: 16px;
+        color: white;
+        line-height: 1.625;
+        text-align: center;
+        margin-bottom: 55px; }
+      header .seo .seo__banner .container .form-horizontal {
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #ffffff;
+        width: 672px;
+        height: 258px;
+        padding: 30px 40px; }
+        header .seo .seo__banner .container .form-horizontal .form-group h4 {
+          font-size: 22px;
+          font-weight: bold; }
+        header .seo .seo__banner .container .form-horizontal .form-group .text {
+          color: #383838;
+          font-size: 15px;
+          margin: 20px; }
+          header .seo .seo__banner .container .form-horizontal .form-group .text span {
+            color: #f1460a;
+            font-weight: 600; }
+        header .seo .seo__banner .container .form-horizontal .form-tel-button {
+          display: flex;
+          justify-content: space-between; }
+          header .seo .seo__banner .container .form-horizontal .form-tel-button .input-phone input[type="text"] {
+            border-style: solid;
+            border-width: 1px;
+            border-color: #dadada;
+            border-radius: 3px;
+            background-color: #f7f7f7;
+            font-size: 20px;
+            width: 290px;
+            height: 66px;
+            padding: 0px 30px; }
+          header .seo .seo__banner .container .form-horizontal .form-tel-button .input-button .btn button.btn {
+            border-radius: 3px;
+            background-color: #f1460a;
+            border: 0;
+            width: 290px;
+            height: 66px;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 0px 20px;
+            text-transform: uppercase;
+            color: #ffffff; }
 
 main .breadcrumb {
   padding-top: 16px;
@@ -1661,6 +1731,54 @@ footer {
     height: 700px;
     background-position: center center;
     text-align: center; }
+  header .seo .seo__banner {
+    background-image: url(../img/seo-bg.jpg);
+    height: 619px; }
+    header .seo .seo__banner .container {
+      padding: 50px 0; }
+      header .seo .seo__banner .container h1 {
+        font-size: 28px;
+        margin-bottom: 28px; }
+      header .seo .seo__banner .container .text {
+        font-size: 16px;
+        margin-bottom: 35px;
+        margin-left: 20px;
+        margin-right: 20px; }
+      header .seo .seo__banner .container .form-horizontal {
+        padding: 20px 20px;
+        width: 100%;
+        height: 100%; }
+        header .seo .seo__banner .container .form-horizontal .form-group h4 {
+          font-size: 22px;
+          font-weight: bold; }
+        header .seo .seo__banner .container .form-horizontal .form-group .text {
+          color: #383838;
+          font-size: 15px;
+          margin: 20px; }
+          header .seo .seo__banner .container .form-horizontal .form-group .text span {
+            color: #f1460a;
+            font-weight: 600; }
+        header .seo .seo__banner .container .form-horizontal .form-tel-button {
+          display: block; }
+          header .seo .seo__banner .container .form-horizontal .form-tel-button .input-phone {
+            margin-bottom: 10px; }
+            header .seo .seo__banner .container .form-horizontal .form-tel-button .input-phone input[type="text"] {
+              width: 100%;
+              height: 40px;
+              text-align: center; }
+          header .seo .seo__banner .container .form-horizontal .form-tel-button .input-button {
+            width: 100%; }
+            header .seo .seo__banner .container .form-horizontal .form-tel-button .input-button .btn button.btn {
+              border-radius: 3px;
+              background-color: #f1460a;
+              border: 0;
+              width: 100%;
+              height: 40px;
+              cursor: pointer;
+              font-size: 16px;
+              padding: 0px 20px;
+              text-transform: uppercase;
+              color: #ffffff; }
 
   main .breadcrumb-block {
     margin: 0 20px;
