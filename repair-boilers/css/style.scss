@@ -1907,7 +1907,13 @@ main {
         .resp-tab tr:nth-child(even) {
           background: #f4f4f4;
         }
-
+        .resp-tab td.cell {
+          width: 204px;
+          text-align: center;
+        }
+        .resp-tab td.cell-back {
+          background: #ffffff;
+        }
         .resp-tab td span {
           background: #337AB7;
           color: #FFF;

@@ -1368,6 +1368,11 @@ main .prices .container .table {
     background: #ffffff; }
   main .prices .container .table .resp-tab tr:nth-child(even) {
     background: #f4f4f4; }
+  main .prices .container .table .resp-tab td.cell {
+    width: 204px;
+    text-align: center; }
+  main .prices .container .table .resp-tab td.cell-back {
+    background: #ffffff; }
   main .prices .container .table .resp-tab td span {
     background: #337AB7;
     color: #FFF;
