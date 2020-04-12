@@ -1663,7 +1663,8 @@ footer {
     text-align: center; }
 
   main .breadcrumb-block {
-    margin: 0 20px; }
+    margin: 0 20px;
+    text-align: left; }
   main .advantages {
     margin: 60px 0px 30px; }
     main .advantages .container .advantages__item {
@@ -1881,10 +1882,10 @@ footer {
   main .comfort-plus {
     background-image: url("../img/comfort-plus-bg-m.jpg");
     background-position: center;
-    height: 440px;
+    height: 480px;
     text-align: center; }
     main .comfort-plus .container {
-      padding: 40px 0; }
+      padding: 0; }
       main .comfort-plus .container div {
         margin: 0px 20px; }
         main .comfort-plus .container div h2 {
@@ -1894,11 +1895,78 @@ footer {
           margin-top: 20px;
           width: 100%;
           font-size: 16px; }
+  main .advantages-green .container .advantages__item {
+    width: 100%;
+    text-align: center;
+    margin: 0px 40px; }
+    main .advantages-green .container .advantages__item img {
+      margin-top: 30px; }
+  main .responsibility .container .responsibility-block {
+    padding: 40px 0; }
+    main .responsibility .container .responsibility-block .text {
+      width: 100%;
+      text-align: center;
+      margin: 0px 20px; }
+      main .responsibility .container .responsibility-block .text h3 {
+        font-size: 30px;
+        color: #272727;
+        font-weight: bold; }
+        main .responsibility .container .responsibility-block .text h3 span {
+          color: #f1460a; }
+      main .responsibility .container .responsibility-block .text h3.report_header {
+        margin-top: 90px; }
+      main .responsibility .container .responsibility-block .text p {
+        margin: 20px 0;
+        font-size: 14px;
+        line-height: 1.714;
+        color: #6b6b6b; }
+        main .responsibility .container .responsibility-block .text p span {
+          font-weight: bold; }
+      main .responsibility .container .responsibility-block .text button {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        background-color: #f1460a;
+        border: 0;
+        width: 180px;
+        height: 37px;
+        cursor: pointer; }
+        main .responsibility .container .responsibility-block .text button .btn {
+          font-size: 13px;
+          color: white;
+          text-transform: uppercase; }
+    main .responsibility .container .responsibility-block .photo {
+      width: 100%; }
+      main .responsibility .container .responsibility-block .photo img {
+        width: 100%;
+        padding: 20px 20px; }
+  main .responsibility .container .report {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .responsibility .container .report .report__item {
+      width: 25%;
+      margin: 45px 0 80px;
+      text-align: center;
+      border: 1px rgba(255, 255, 255, 0.1) solid;
+      padding: 45px; }
+      main .responsibility .container .report .report__item .numbers {
+        font-size: 60px;
+        color: #fffefe;
+        font-weight: bold;
+        line-height: 0.751; }
+      main .responsibility .container .report .report__item .text {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #98a4a3;
+        line-height: 1.692; }
   main .reviews-page .container h1 {
     font-size: 25px;
     text-align: center; }
-  main .reviews-page .container .reviews-page-items .item {
-    width: 100%; }
+  main .reviews-page .container .reviews-page-items {
+    padding: 0px 20px; }
+    main .reviews-page .container .reviews-page-items .item {
+      width: 100%; }
   main .contacts .container h1 {
     font-size: 25px;
     margin: 0 20px; }
@@ -2023,11 +2091,17 @@ footer {
   main .repair-peter .container div p {
     font-size: 13px; }
 
+  main .comfort-plus {
+    height: 520px; }
+
   main .repair-peter {
     height: 500px; } }
 @media all and (max-width: 320px) {
   main .repair-peter .container div p {
     font-size: 12px; }
+
+  main .comfort-plus {
+    height: 550px; }
 
   main .repair-peter {
     height: 530px; } }
