@@ -391,6 +391,13 @@ header .slide-wraper {
     background-repeat: no-repeat;
     /* Отменяем повторение фона */
     height: 884px; }
+  header .slide-wraper .slide-item.slide6 {
+    background-image: url(../img/slider-bg-6.jpg);
+    background-position: center center;
+    /* Положение фона */
+    background-repeat: no-repeat;
+    /* Отменяем повторение фона */
+    height: 884px; }
   header .slide-wraper .slide-item .slide-item__header {
     padding-top: 100px;
     width: 690px;
@@ -916,7 +923,8 @@ main .blog .container h2 {
   color: #313131;
   line-height: 1.143;
   text-align: center;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  font-weight: 400; }
 main .blog .container .blog-items {
   display: flex;
   flex-wrap: wrap;
@@ -1192,10 +1200,21 @@ main .works .container .row {
       main .works .container .row .worko-tabs .flex-tabs .works-items .item {
         width: 24%;
         text-align: center;
-        padding: 7px 0px; }
+        padding: 7px 0 36px; }
         main .works .container .row .worko-tabs .flex-tabs .works-items .item img {
           display: block;
           width: 100%; }
+        main .works .container .row .worko-tabs .flex-tabs .works-items .item .data {
+          font-size: 11px;
+          text-align: left;
+          margin-top: 10px;
+          margin-bottom: 4px;
+          color: #6c6c6c; }
+        main .works .container .row .worko-tabs .flex-tabs .works-items .item h2 {
+          font-size: 14px;
+          text-align: left;
+          font-weight: bold;
+          color: #191919; }
         main .works .container .row .worko-tabs .flex-tabs .works-items .item .name {
           font-size: 15px;
           color: #313131;

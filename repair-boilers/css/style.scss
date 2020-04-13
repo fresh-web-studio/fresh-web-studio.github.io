@@ -548,6 +548,13 @@ header {
       height: 884px;
     }
 
+    .slide-item.slide6 {
+      background-image: url(../img/slider-bg-6.jpg);
+      background-position: center center; /* Положение фона */
+      background-repeat: no-repeat; /* Отменяем повторение фона */
+      height: 884px;
+    }
+
     .slide-item {
       .slide-item__header {
         padding-top: 100px;
@@ -1269,6 +1276,7 @@ main {
         line-height: 1.143;
         text-align: center;
         margin-bottom: 60px;
+        font-weight: 400;
       }
       .blog-items {
         display: flex;
@@ -1643,10 +1651,23 @@ main {
               .item {
                 width: 24%;
                 text-align: center;
-                padding: 7px 0px;
+                padding: 7px 0 36px;
                 img {
                   display: block;
                   width: 100%;
+                }
+                .data {
+                  font-size: 11px;
+                  text-align: left;
+                  margin-top: 10px;
+                  margin-bottom: 4px;
+                  color: #6c6c6c;
+                }
+                h2 {
+                  font-size: 14px;
+                  text-align: left;
+                  font-weight: bold;
+                  color: #191919;
                 }
                 .name {
                   font-size: 15px;
