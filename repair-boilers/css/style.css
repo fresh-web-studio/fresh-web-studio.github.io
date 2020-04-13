@@ -119,17 +119,13 @@ body {
 
 @-webkit-keyframes bounce {
   0% {
-    -webkit-transform: scale3d(0.1, 0.1, 1);
-    -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9); }
+    -webkit-transform: scale3d(0.1, 0.1, 1); }
   55% {
-    -webkit-transform: scale3d(1.08, 1.08, 1);
-    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0); }
+    -webkit-transform: scale3d(1.08, 1.08, 1); }
   75% {
-    -webkit-transform: scale3d(0.95, 0.95, 1);
-    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); }
+    -webkit-transform: scale3d(0.95, 0.95, 1); }
   100% {
-    -webkit-transform: scale3d(1, 1, 1);
-    -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9); } }
+    -webkit-transform: scale3d(1, 1, 1); } }
 @-webkit-keyframes minimise {
   0% {
     -webkit-transform: scale3d(1, 1, 1); }
@@ -258,8 +254,6 @@ header .nav-container nav.container .top-menu > li > a.active {
   display: block;
   padding: 14px 15px;
   font-size: 14px;
-  color: #ffffff;
-  transition: .2s linear;
   border-bottom: 1px white solid; }
 header .nav-container nav.container .top-menu > li > a:hover {
   color: #d02718;
@@ -1574,6 +1568,24 @@ footer {
           height: 100%; }
 
 @media all and (max-width: 670px) {
+  .modal > div {
+    width: 100%;
+    /* По умолчанию минимизируем анимацию */
+    -webkit-animation: minimise 500ms linear;
+    /* Придаем хороший вид */
+    padding: 20px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+
+  .modal .info {
+    margin: 10px;
+    text-align: center; }
+
+  .modal a[href="#close"]:after {
+    /* Позиционируем */
+    right: 3px;
+    top: -10px; }
+
   header .container .header-top {
     display: block;
     height: 45px; }
