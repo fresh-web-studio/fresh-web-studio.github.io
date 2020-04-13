@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.scss" afterDir="false" />
     </list>
@@ -63,40 +61,39 @@
     <favorites_list name="fresh-web-studio.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="2178" column="45" selection-start-line="2178" selection-start-column="45" selection-end-line="2178" selection-end-column="45" />
-                  <folding>
-                    <element signature="e#4237#6242#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1720">
-                  <caret line="144" selection-start-line="144" selection-end-line="144" />
-                  <folding>
-                    <element signature="e#4237#6242#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="2577" column="30" selection-start-line="2577" selection-start-column="30" selection-end-line="2577" selection-end-column="30" />
+              <folding>
+                <element signature="e#4237#6242#0" />
+                <element signature="e#49682#57373#0" />
+                <element signature="e#57405#57458#0" />
+                <element signature="e#57475#57725#0" />
+                <element signature="e#59484#59941#0" />
+                <element signature="e#59955#60719#0" />
+                <element signature="e#60732#61119#0" />
+                <element signature="e#61133#61692#0" />
+                <element signature="e#61709#62788#0" />
+                <element signature="e#62807#63257#0" />
+                <element signature="e#63271#63711#0" />
+                <element signature="e#63722#64219#0" />
+                <element signature="e#64235#65263#0" />
+                <element signature="e#65275#66328#0" />
+                <element signature="e#66347#66787#0" />
+                <element signature="e#66810#67078#0" />
+                <element signature="e#67099#69079#0" />
+                <element signature="e#69098#69336#0" />
+                <element signature="e#69351#69786#0" />
+                <element signature="e#69799#70238#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -400,28 +397,7 @@
       <workItem from="1585840280891" duration="12423000" />
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
-      <workItem from="1586508125627" duration="57155000" />
-    </task>
-    <task id="LOCAL-00510" summary="Обновление">
-      <created>1586191072171</created>
-      <option name="number" value="00510" />
-      <option name="presentableId" value="LOCAL-00510" />
-      <option name="project" value="LOCAL" />
-      <updated>1586191072171</updated>
-    </task>
-    <task id="LOCAL-00511" summary="Обновление">
-      <created>1586191985805</created>
-      <option name="number" value="00511" />
-      <option name="presentableId" value="LOCAL-00511" />
-      <option name="project" value="LOCAL" />
-      <updated>1586191985805</updated>
-    </task>
-    <task id="LOCAL-00512" summary="Обновление">
-      <created>1586192346646</created>
-      <option name="number" value="00512" />
-      <option name="presentableId" value="LOCAL-00512" />
-      <option name="project" value="LOCAL" />
-      <updated>1586192346646</updated>
+      <workItem from="1586508125627" duration="58033000" />
     </task>
     <task id="LOCAL-00513" summary="Обновление">
       <created>1586193682883</created>
@@ -745,17 +721,38 @@
       <option name="project" value="LOCAL" />
       <updated>1586774434375</updated>
     </task>
-    <option name="localTasksCounter" value="559" />
+    <task id="LOCAL-00559" summary="Обновление">
+      <created>1586776465345</created>
+      <option name="number" value="00559" />
+      <option name="presentableId" value="LOCAL-00559" />
+      <option name="project" value="LOCAL" />
+      <updated>1586776465345</updated>
+    </task>
+    <task id="LOCAL-00560" summary="Обновление">
+      <created>1586776545700</created>
+      <option name="number" value="00560" />
+      <option name="presentableId" value="LOCAL-00560" />
+      <option name="project" value="LOCAL" />
+      <updated>1586776545700</updated>
+    </task>
+    <task id="LOCAL-00561" summary="Обновление">
+      <created>1586777052746</created>
+      <option name="number" value="00561" />
+      <option name="presentableId" value="LOCAL-00561" />
+      <option name="project" value="LOCAL" />
+      <updated>1586777052746</updated>
+    </task>
+    <option name="localTasksCounter" value="562" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="811829000" />
+    <option name="totallyTimeSpent" value="812707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="558" y="-971" width="1319" height="909" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.2620363" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.26124704" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1267,18 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repair-boilers/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="381" column="38" selection-start-line="381" selection-start-column="38" selection-end-line="381" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1316,12 +1301,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/repair-boilers/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="381" column="38" selection-start-line="381" selection-start-column="38" selection-end-line="381" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1720">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        <state relative-caret-position="303">
+          <caret line="2577" column="30" selection-start-line="2577" selection-start-column="30" selection-end-line="2577" selection-end-column="30" />
           <folding>
             <element signature="e#4237#6242#0" />
+            <element signature="e#49682#57373#0" />
+            <element signature="e#57405#57458#0" />
+            <element signature="e#57475#57725#0" />
+            <element signature="e#59484#59941#0" />
+            <element signature="e#59955#60719#0" />
+            <element signature="e#60732#61119#0" />
+            <element signature="e#61133#61692#0" />
+            <element signature="e#61709#62788#0" />
+            <element signature="e#62807#63257#0" />
+            <element signature="e#63271#63711#0" />
+            <element signature="e#63722#64219#0" />
+            <element signature="e#64235#65263#0" />
+            <element signature="e#65275#66328#0" />
+            <element signature="e#66347#66787#0" />
+            <element signature="e#66810#67078#0" />
+            <element signature="e#67099#69079#0" />
+            <element signature="e#69098#69336#0" />
+            <element signature="e#69351#69786#0" />
+            <element signature="e#69799#70238#0" />
           </folding>
         </state>
       </provider>
