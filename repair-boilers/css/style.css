@@ -2022,6 +2022,22 @@ footer {
       text-align: center; }
       main .blog .container .blog-items .item img {
         width: 100%; }
+  main .blog .container .article {
+    text-align: center; }
+    main .blog .container .article .data {
+      padding: 10px; }
+    main .blog .container .article img {
+      border-radius: 5px;
+      padding: 20px;
+      width: 100%; }
+    main .blog .container .article p {
+      padding: 20px;
+      text-align: left; }
+  main .blog .container .btn-back a {
+    color: #494949;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px; }
   main .equipment .container .row {
     width: 100%; }
     main .equipment .container .row .worko-tabs .flex-tabs {

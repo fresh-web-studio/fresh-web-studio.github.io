@@ -2957,6 +2957,33 @@ footer {
             }
           }
         }
+        .article {
+          text-align: center;
+          h1 {
+
+          }
+          .data {
+            padding: 10px;
+          }
+          img {
+            border-radius: 5px;
+            padding: 20px;
+            width: 100%;
+          }
+          p {
+            padding: 20px;
+            text-align: left;
+          }
+        }
+        .btn-back {
+
+          a {
+            color: #494949;
+            font-size: 15px;
+            text-decoration: none;
+            padding: 20px;
+          }
+        }
       }
     }
     .equipment {
