@@ -2586,14 +2586,18 @@ footer {
         .services {
           justify-content: center;
           .services__item {
-            width: 275px;
+            width: 50%;
             margin: 20px 0;
             .services__top {
               border: 1px #e9e9e9 solid;
               border-radius: 3px;
               padding-top: 7px;
+              margin: 0 10px;
+              img {
+                width: 100%;
+              }
               .info {
-                font-size: 13px;
+                font-size: 10px;
                 color: rgb(41, 41, 41);
                 line-height: 1.615;
                 text-align: center;
