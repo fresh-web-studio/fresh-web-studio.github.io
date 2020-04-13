@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css.map" afterDir="false" />
@@ -99,11 +99,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="2441" column="25" selection-start-line="2441" selection-start-column="25" selection-end-line="2441" selection-end-column="25" />
+            <state relative-caret-position="485">
+              <caret line="506" column="18" selection-start-line="506" selection-start-column="18" selection-end-line="506" selection-end-column="18" />
               <folding>
                 <element signature="e#4237#6242#0" />
-                <element signature="e#6264#9912#0" />
+                <element signature="e#6285#9908#0" />
                 <element signature="e#13383#15861#0" />
                 <element signature="e#15886#16298#0" />
                 <element signature="e#16313#16761#0" />
@@ -147,6 +147,15 @@
                 <element signature="e#69799#70238#0" />
                 <element signature="e#70252#73590#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/panorama/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -324,8 +333,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-553" />
-    <option name="y" value="-1071" />
+    <option name="x" value="-355" />
+    <option name="y" value="-1292" />
     <option name="width" value="1240" />
     <option name="height" value="874" />
   </component>
@@ -340,6 +349,11 @@
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="panorama" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -470,21 +484,7 @@
       <workItem from="1585840280891" duration="12423000" />
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
-      <workItem from="1586508125627" duration="62587000" />
-    </task>
-    <task id="LOCAL-00518" summary="Обновление">
-      <created>1586197608429</created>
-      <option name="number" value="00518" />
-      <option name="presentableId" value="LOCAL-00518" />
-      <option name="project" value="LOCAL" />
-      <updated>1586197608429</updated>
-    </task>
-    <task id="LOCAL-00519" summary="Обновление">
-      <created>1586197717628</created>
-      <option name="number" value="00519" />
-      <option name="presentableId" value="LOCAL-00519" />
-      <option name="project" value="LOCAL" />
-      <updated>1586197717628</updated>
+      <workItem from="1586508125627" duration="63376000" />
     </task>
     <task id="LOCAL-00520" summary="Обновление">
       <created>1586197885976</created>
@@ -815,14 +815,28 @@
       <option name="project" value="LOCAL" />
       <updated>1586781446332</updated>
     </task>
-    <option name="localTasksCounter" value="567" />
+    <task id="LOCAL-00567" summary="Обновление">
+      <created>1586782177492</created>
+      <option name="number" value="00567" />
+      <option name="presentableId" value="LOCAL-00567" />
+      <option name="project" value="LOCAL" />
+      <updated>1586782177492</updated>
+    </task>
+    <task id="LOCAL-00568" summary="Обновление">
+      <created>1586782326589</created>
+      <option name="number" value="00568" />
+      <option name="presentableId" value="LOCAL-00568" />
+      <option name="project" value="LOCAL" />
+      <updated>1586782326589</updated>
+    </task>
+    <option name="localTasksCounter" value="569" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="817261000" />
+    <option name="totallyTimeSpent" value="818050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-553" y="-1071" width="1240" height="874" extended-state="0" />
+    <frame x="-355" y="-1292" width="1240" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.26094276" />
@@ -1054,13 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/panorama/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1395,13 +1402,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="2441" column="25" selection-start-line="2441" selection-start-column="25" selection-end-line="2441" selection-end-column="25" />
+        <state relative-caret-position="485">
+          <caret line="506" column="18" selection-start-line="506" selection-start-column="18" selection-end-line="506" selection-end-column="18" />
           <folding>
             <element signature="e#4237#6242#0" />
-            <element signature="e#6264#9912#0" />
+            <element signature="e#6285#9908#0" />
             <element signature="e#13383#15861#0" />
             <element signature="e#15886#16298#0" />
             <element signature="e#16313#16761#0" />

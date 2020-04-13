@@ -349,6 +349,7 @@ header .nav-container.black {
   background-color: #303030; }
 header .nav-container.main {
   position: relative;
+  display: flex;
   z-index: 2; }
 header .slide-wraper {
   position: relative;
