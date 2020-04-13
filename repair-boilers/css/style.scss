@@ -364,7 +364,7 @@ header {
         transition: .2s linear;
         border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
       }
-      .top-menu > li.active  {
+      .top-menu > li > a.active  {
         display: block;
         padding: 14px 15px;
         font-size: 14px;

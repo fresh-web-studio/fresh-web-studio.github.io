@@ -40,7 +40,7 @@
             <label class="menu-btn" for="menu-toggle">
                 <span></span>
             </label>
-            <ul class="top-menu">
+            <ul id="nav" class="top-menu">
                 <li class="menu-item"><a href="index.html">Главная</a></li>
                 <li class="menu-item"><a href="#" class="dropdown menu-link">Ремонт котлов</a>
                     <ul class="submenu-standart">
@@ -77,7 +77,7 @@
                 <li class="menu-item"><a class="menu-link" href="about.html">О компании</a></li>
                 <li class="menu-item"><a class="menu-link" href="works.html">Наши работы</a></li>
                 <li class="menu-item"><a class="menu-link" href="blog.html">Блог</a></li>
-                <li class="menu-item active">Отзывы</li>
+                <li class="menu-item"><a class="menu-link" href="reviews.html">Отзывы</a></li>
                 <li class="menu-item"><a class="menu-link" href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
@@ -152,44 +152,6 @@
         </div>
     </div>
 </main>
-<div id="modal" class="modal">
-    <div>
-        <div class="text">
-            <div id="blok_tel">
-                <form action="" method="post" class="form1">
-                    <h3>Вызов мастера</h3>
-                    <div class="info">Оставьте Ваши данные и мы свяжемся с Вами
-                        в течение 5 минут для подтверждения заявки.</div>
-                    <label for="name" class="control-label">Имя</label>
-                    <div class="input-name">
-                        <input type="text" name="name" class="inputbox" id="name" value="" placeholder="Введите Ваше имя">
-                    </div>
-                    <label for="telephon" class="control-label">Телефон</label>
-                    <div class="input-phone">
-                        <input type="text" name="tel" class="inputbox" id="telephon" value="" placeholder="+7 (__) ___-__-__">
-                    </div>
-                    <div class="btn">
-                        <button type="submit" class="btn">Вызвать мастера</button>
-                    </div>
-                </form>
-                <?if(isset($_POST["submit_tel"]))
-                            {
-                            $email = 'ваша_почта@yandex.com';
-                            /* Отправляем email */
-                            mail($email, "Заказ обратного звонка на сайте ...", "\n
-                            Посетитель заказал обратный звонок! \n
-                            Телефон : ".$_POST['tel']."
-                            ");
-                            echo 'Заявка принята!';
-                            }
-                            ?>
-            </div>
-
-
-        </div>
-        <a href="#close" title="Закрыть">Закрыть</a>
-    </div>
-</div>
 <footer>
     <div class="container">
         <div class="row">
@@ -228,8 +190,47 @@
 
     </div>
 </footer>
+<div id="modal" class="modal">
+    <div>
+        <div class="text">
+            <div id="blok_tel">
+                <form action="" method="post" class="form1">
+                    <h3>Вызов мастера</h3>
+                    <div class="info">Оставьте Ваши данные и мы свяжемся с Вами
+                        в течение 5 минут для подтверждения заявки.</div>
+                    <label for="name" class="control-label">Имя</label>
+                    <div class="input-name">
+                        <input type="text" name="name" class="inputbox" id="name" value="" placeholder="Введите Ваше имя">
+                    </div>
+                    <label for="telephon" class="control-label">Телефон</label>
+                    <div class="input-phone">
+                        <input type="text" name="tel" class="inputbox" id="telephon" value="" placeholder="+7 (__) ___-__-__">
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="btn">Вызвать мастера</button>
+                    </div>
+                </form>
+                <?if(isset($_POST["submit_tel"]))
+                            {
+                            $email = 'ваша_почта@yandex.com';
+                            /* Отправляем email */
+                            mail($email, "Заказ обратного звонка на сайте ...", "\n
+                            Посетитель заказал обратный звонок! \n
+                            Телефон : ".$_POST['tel']."
+                            ");
+                            echo 'Заявка принята!';
+                            }
+                            ?>
+            </div>
+
+
+        </div>
+        <a href="#close" title="Закрыть">Закрыть</a>
+    </div>
+</div>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/main_slider.js"></script>
+<script src="js/menu.min.js"></script>
 </body>
 </html>
