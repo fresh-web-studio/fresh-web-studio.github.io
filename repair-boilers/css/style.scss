@@ -507,7 +507,7 @@ header {
     z-index: 2;
   }
   .slide-wraper {
-    position: absolute;
+    position: relative;
     width: 100%;
     overflow: hidden;
     z-index: 1;
@@ -2439,7 +2439,6 @@ footer {
       }
     }
     .slide-wraper {
-      position: relative;
       .slide-item {
         .slide-item__header {
           padding: 30px 10px 20px 10px;
