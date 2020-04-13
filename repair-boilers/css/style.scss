@@ -2429,7 +2429,9 @@ footer {
         }
       }
     }
+
     .nav-container.main {
+      display: block;
       nav.container {
         .menu-btn {
           top: -33px;

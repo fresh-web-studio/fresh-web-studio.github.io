@@ -1750,10 +1750,12 @@ footer {
     header .nav-container nav.container .top-menu > li:hover .submenu-standart,
     header .nav-container nav.container .top-menu .submenu-standart > li:hover .submenu-standart-submenu {
       display: block; }
-  header .nav-container.main nav.container .menu-btn {
-    top: -33px; }
-  header .nav-container.main nav.container .top-menu {
-    top: -51px; }
+  header .nav-container.main {
+    display: block; }
+    header .nav-container.main nav.container .menu-btn {
+      top: -33px; }
+    header .nav-container.main nav.container .top-menu {
+      top: -51px; }
   header .slide-wraper .slide-item .slide-item__header {
     padding: 30px 10px 20px 10px;
     width: 100%;
