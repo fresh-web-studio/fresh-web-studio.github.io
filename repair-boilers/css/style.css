@@ -635,7 +635,8 @@ main .our_services_add {
     font-size: 35px;
     color: #313131;
     line-height: 1.143;
-    text-align: center; }
+    text-align: center;
+    font-weight: 400; }
   main .our_services_add .container .main_block {
     display: flex;
     flex-wrap: wrap;
@@ -652,7 +653,7 @@ main .our_services_add {
         main .our_services_add .container .main_block .main_block__column .column_header h3 {
           font-size: 18px;
           color: #313131;
-          font-weight: bold;
+          font-weight: 400;
           line-height: 2.222;
           text-align: center; }
       main .our_services_add .container .main_block .main_block__column .main_block__column__item {
@@ -811,6 +812,8 @@ main .officially {
       text-align: center; }
     main .officially .container .owl-carousel.owl-theme#owl-carousel3 {
       margin: 20px 0; }
+      main .officially .container .owl-carousel.owl-theme#owl-carousel3 .owl-item img {
+        border-radius: 6px; }
       main .officially .container .owl-carousel.owl-theme#owl-carousel3 .owl-item.center {
         transform: scale(1);
         opacity: 1;
@@ -878,7 +881,7 @@ main .repair-peter {
       font-size: 15px;
       color: #313131;
       line-height: 1.667;
-      margin: 15px 0; }
+      margin: 30px 0; }
 main .reviews {
   margin: 60px 0;
   background-color: #fcfcfc; }
@@ -1950,7 +1953,8 @@ footer {
           font-size: 20px; }
         main .repair-peter .container div p {
           width: 100%;
-          font-size: 14px; }
+          font-size: 14px;
+          margin: 15px 0; }
   main .reviews .container .owl-theme {
     padding: 20px; }
     main .reviews .container .owl-theme .owl-dots .owl-dot:hover span, main .reviews .container .owl-theme .owl-dots .owl-dot.active span {
@@ -1958,6 +1962,8 @@ footer {
   main .blog .container h1 {
     font-size: 25px;
     text-align: center; }
+  main .blog .container h2 {
+    font-weight: 400; }
   main .blog .container .blog-items {
     margin: 30px 0; }
     main .blog .container .blog-items .item {

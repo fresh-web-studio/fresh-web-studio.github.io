@@ -881,6 +881,7 @@ main {
         color: rgb(49, 49, 49);
         line-height: 1.143;
         text-align: center;
+        font-weight: 400;
       }
       .main_block {
         display: flex;
@@ -898,7 +899,7 @@ main {
             h3 {
               font-size: 18px;
               color: rgb(49, 49, 49);
-              font-weight: bold;
+              font-weight: 400;
               line-height: 2.222;
               text-align: center;
             }
@@ -1114,6 +1115,9 @@ main {
        }
        .owl-carousel.owl-theme#owl-carousel3 {
          margin: 20px 0;
+         .owl-item img {
+           border-radius: 6px;
+         }
          .owl-item.center {
            transform: scale(1);
            opacity: 1;
@@ -1201,7 +1205,7 @@ main {
           font-size: 15px;
           color: rgb(49, 49, 49);
           line-height: 1.667;
-          margin: 15px 0;
+          margin: 30px 0;
         }
 
       }
@@ -2833,6 +2837,7 @@ footer {
           p {
             width: 100%;
             font-size: 14px;
+            margin: 15px 0;
           }
         }
       }
@@ -2866,6 +2871,9 @@ footer {
         h1 {
           font-size: 25px;
           text-align: center;
+        }
+        h2 {
+          font-weight: 400;
         }
         .blog-items {
           margin: 30px 0;
