@@ -2197,6 +2197,17 @@ footer {
     right: 3px;
     top: -10px;
   }
+  .modal .input-phone input[type="text"], .modal .input-name input[type="text"] {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dadada;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    font-size: 20px;
+    width: 100%;
+    height: 46px;
+    padding: 0px 20px;
+  }
   header {
     .container {
       .header-top {
@@ -3292,6 +3303,11 @@ footer {
 }
 
 @media all and (max-width: 320px) {
+
+  .modal > div {
+    margin: 3% auto;
+  }
+
   main .repair-peter .container div p {
     font-size: 12px;
   }

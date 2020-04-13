@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.scss" afterDir="false" />
     </list>
@@ -65,13 +66,38 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="2577" column="30" selection-start-line="2577" selection-start-column="30" selection-end-line="2577" selection-end-column="30" />
+            <state relative-caret-position="305">
+              <caret line="3296" column="20" lean-forward="true" selection-start-line="3296" selection-start-column="20" selection-end-line="3296" selection-end-column="20" />
               <folding>
                 <element signature="e#4237#6242#0" />
+                <element signature="e#6264#9912#0" />
+                <element signature="e#10057#13375#0" />
+                <element signature="e#13383#15861#0" />
+                <element signature="e#15886#16298#0" />
+                <element signature="e#16313#16761#0" />
+                <element signature="e#16778#18874#0" />
+                <element signature="e#18895#20071#0" />
+                <element signature="e#20083#21588#0" />
+                <element signature="e#21599#22408#0" />
+                <element signature="e#22420#23979#0" />
+                <element signature="e#23994#26204#0" />
+                <element signature="e#26221#26730#0" />
+                <element signature="e#26742#27743#0" />
+                <element signature="e#27752#29202#0" />
+                <element signature="e#29216#33617#0" />
+                <element signature="e#33634#34089#0" />
+                <element signature="e#34110#34618#0" />
+                <element signature="e#34637#36406#0" />
+                <element signature="e#36416#40643#0" />
+                <element signature="e#40660#41932#0" />
+                <element signature="e#41945#44287#0" />
+                <element signature="e#44298#45964#0" />
+                <element signature="e#45978#46382#0" />
+                <element signature="e#46393#49635#0" />
                 <element signature="e#49682#57373#0" />
                 <element signature="e#57405#57458#0" />
                 <element signature="e#57475#57725#0" />
+                <element signature="e#57744#59461#0" />
                 <element signature="e#59484#59941#0" />
                 <element signature="e#59955#60719#0" />
                 <element signature="e#60732#61119#0" />
@@ -79,7 +105,6 @@
                 <element signature="e#61709#62788#0" />
                 <element signature="e#62807#63257#0" />
                 <element signature="e#63271#63711#0" />
-                <element signature="e#63722#64219#0" />
                 <element signature="e#64235#65263#0" />
                 <element signature="e#65275#66328#0" />
                 <element signature="e#66347#66787#0" />
@@ -251,10 +276,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="558" />
-    <option name="y" value="-971" />
-    <option name="width" value="1319" />
-    <option name="height" value="909" />
+    <option name="x" value="637" />
+    <option name="y" value="-982" />
+    <option name="width" value="1240" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -397,21 +422,7 @@
       <workItem from="1585840280891" duration="12423000" />
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
-      <workItem from="1586508125627" duration="58033000" />
-    </task>
-    <task id="LOCAL-00513" summary="Обновление">
-      <created>1586193682883</created>
-      <option name="number" value="00513" />
-      <option name="presentableId" value="LOCAL-00513" />
-      <option name="project" value="LOCAL" />
-      <updated>1586193682902</updated>
-    </task>
-    <task id="LOCAL-00514" summary="Обновление">
-      <created>1586195472907</created>
-      <option name="number" value="00514" />
-      <option name="presentableId" value="LOCAL-00514" />
-      <option name="project" value="LOCAL" />
-      <updated>1586195472907</updated>
+      <workItem from="1586508125627" duration="59250000" />
     </task>
     <task id="LOCAL-00515" summary="Обновление">
       <created>1586195881218</created>
@@ -742,17 +753,31 @@
       <option name="project" value="LOCAL" />
       <updated>1586777052746</updated>
     </task>
-    <option name="localTasksCounter" value="562" />
+    <task id="LOCAL-00562" summary="Обновление">
+      <created>1586777413697</created>
+      <option name="number" value="00562" />
+      <option name="presentableId" value="LOCAL-00562" />
+      <option name="project" value="LOCAL" />
+      <updated>1586777413697</updated>
+    </task>
+    <task id="LOCAL-00563" summary="Обновление">
+      <created>1586778386954</created>
+      <option name="number" value="00563" />
+      <option name="presentableId" value="LOCAL-00563" />
+      <option name="project" value="LOCAL" />
+      <updated>1586778386954</updated>
+    </task>
+    <option name="localTasksCounter" value="564" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="812707000" />
+    <option name="totallyTimeSpent" value="813924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="558" y="-971" width="1319" height="909" extended-state="0" />
+    <frame x="637" y="-982" width="1240" height="920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.26124704" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.26124704" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1315,13 +1340,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="2577" column="30" selection-start-line="2577" selection-start-column="30" selection-end-line="2577" selection-end-column="30" />
+        <state relative-caret-position="305">
+          <caret line="3296" column="20" lean-forward="true" selection-start-line="3296" selection-start-column="20" selection-end-line="3296" selection-end-column="20" />
           <folding>
             <element signature="e#4237#6242#0" />
+            <element signature="e#6264#9912#0" />
+            <element signature="e#10057#13375#0" />
+            <element signature="e#13383#15861#0" />
+            <element signature="e#15886#16298#0" />
+            <element signature="e#16313#16761#0" />
+            <element signature="e#16778#18874#0" />
+            <element signature="e#18895#20071#0" />
+            <element signature="e#20083#21588#0" />
+            <element signature="e#21599#22408#0" />
+            <element signature="e#22420#23979#0" />
+            <element signature="e#23994#26204#0" />
+            <element signature="e#26221#26730#0" />
+            <element signature="e#26742#27743#0" />
+            <element signature="e#27752#29202#0" />
+            <element signature="e#29216#33617#0" />
+            <element signature="e#33634#34089#0" />
+            <element signature="e#34110#34618#0" />
+            <element signature="e#34637#36406#0" />
+            <element signature="e#36416#40643#0" />
+            <element signature="e#40660#41932#0" />
+            <element signature="e#41945#44287#0" />
+            <element signature="e#44298#45964#0" />
+            <element signature="e#45978#46382#0" />
+            <element signature="e#46393#49635#0" />
             <element signature="e#49682#57373#0" />
             <element signature="e#57405#57458#0" />
             <element signature="e#57475#57725#0" />
+            <element signature="e#57744#59461#0" />
             <element signature="e#59484#59941#0" />
             <element signature="e#59955#60719#0" />
             <element signature="e#60732#61119#0" />
@@ -1329,7 +1379,6 @@
             <element signature="e#61709#62788#0" />
             <element signature="e#62807#63257#0" />
             <element signature="e#63271#63711#0" />
-            <element signature="e#63722#64219#0" />
             <element signature="e#64235#65263#0" />
             <element signature="e#65275#66328#0" />
             <element signature="e#66347#66787#0" />
