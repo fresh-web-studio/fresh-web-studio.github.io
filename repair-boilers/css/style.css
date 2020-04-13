@@ -971,6 +971,23 @@ main .blog .container .btn-and {
     font-family: FontAwesome;
     margin-left: 2px;
     color: #494949; }
+main .blog .container .article {
+  text-align: center; }
+  main .blog .container .article .data {
+    padding: 10px; }
+  main .blog .container .article img {
+    border-radius: 5px;
+    padding: 10px; }
+  main .blog .container .article p {
+    padding: 10px 0;
+    text-align: left; }
+main .blog .container .btn-back {
+  padding: 20px 0; }
+  main .blog .container .btn-back a {
+    color: #494949;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 0; }
 main .equipment .container .row {
   animation: fake 1s infinite;
   /* Android 2.3 :checked fix */ }

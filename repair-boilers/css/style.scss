@@ -1338,6 +1338,32 @@ main {
           color: #494949;
         }
       }
+      .article {
+        text-align: center;
+        h1 {
+
+        }
+        .data {
+          padding: 10px;
+        }
+        img {
+          border-radius: 5px;
+          padding: 10px;
+        }
+        p {
+          padding: 10px 0;
+          text-align: left;
+        }
+      }
+      .btn-back {
+        padding: 20px 0;
+        a {
+          color: #494949;
+          font-size: 15px;
+          text-decoration: none;
+          padding: 10px 0;
+        }
+      }
     }
   }
   .equipment {
