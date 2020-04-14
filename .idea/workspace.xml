@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repair-boilers/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repair-boilers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repair-boilers/seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/seo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-boilers/js/litezoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/js/litezoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-boilers/psd/1. Главная.psd" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/psd/1. Главная.psd" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -63,11 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repair-boilers/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="677" column="25" lean-forward="true" selection-start-line="677" selection-start-column="25" selection-end-line="677" selection-end-column="25" />
+            <state relative-caret-position="236">
+              <caret line="685" column="40" selection-start-line="685" selection-start-column="40" selection-end-line="685" selection-end-column="40" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -111,10 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repair-boilers/js/litezoom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="282">
+              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <element signature="e#28#35#1" expanded="true" />
               </folding>
@@ -386,10 +386,10 @@
         <option value="$USER_HOME$/Downloads/highslide-5.0.0/examples/gallery-in-box.html" />
         <option value="$PROJECT_DIR$/repair-boilers/js/zoom.js" />
         <option value="$PROJECT_DIR$/repair-boilers/css/style.scss" />
-        <option value="$PROJECT_DIR$/repair-boilers/js/litezoom.js" />
         <option value="$PROJECT_DIR$/repair-boilers/seo.html" />
         <option value="$PROJECT_DIR$/repair-boilers/about.html" />
         <option value="$PROJECT_DIR$/repair-boilers/index.html" />
+        <option value="$PROJECT_DIR$/repair-boilers/js/litezoom.js" />
       </list>
     </option>
   </component>
@@ -400,10 +400,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="610" />
-    <option name="y" value="-1219" />
+    <option name="x" value="630" />
+    <option name="y" value="-929" />
     <option name="width" value="1251" />
-    <option name="height" value="1130" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -540,14 +540,7 @@
       <workItem from="1585840280891" duration="12423000" />
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
-      <workItem from="1586508125627" duration="87518000" />
-    </task>
-    <task id="LOCAL-00527" summary="Обновление">
-      <created>1586350241806</created>
-      <option name="number" value="00527" />
-      <option name="presentableId" value="LOCAL-00527" />
-      <option name="project" value="LOCAL" />
-      <updated>1586350241806</updated>
+      <workItem from="1586508125627" duration="87971000" />
     </task>
     <task id="LOCAL-00528" summary="Обновление">
       <created>1586351112670</created>
@@ -885,14 +878,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586858333836</updated>
     </task>
-    <option name="localTasksCounter" value="576" />
+    <task id="LOCAL-00576" summary="Обновление">
+      <created>1586872171218</created>
+      <option name="number" value="00576" />
+      <option name="presentableId" value="LOCAL-00576" />
+      <option name="project" value="LOCAL" />
+      <updated>1586872171232</updated>
+    </task>
+    <option name="localTasksCounter" value="577" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="842192000" />
+    <option name="totallyTimeSpent" value="842645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="610" y="-1219" width="1251" height="1130" extended-state="0" />
+    <frame x="630" y="-929" width="1251" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.21184321" />
@@ -1431,15 +1431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repair-boilers/js/litezoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#28#35#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/works.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-435">
@@ -1489,8 +1480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="677" column="25" lean-forward="true" selection-start-line="677" selection-start-column="25" selection-end-line="677" selection-end-column="25" />
+        <state relative-caret-position="236">
+          <caret line="685" column="40" selection-start-line="685" selection-start-column="40" selection-end-line="685" selection-end-column="40" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -1515,6 +1506,16 @@
             <element signature="n#div#9;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repair-boilers/js/litezoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="e#28#35#1" expanded="true" />
           </folding>
         </state>
       </provider>

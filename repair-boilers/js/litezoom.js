@@ -35,7 +35,6 @@
 
             $('#lz__magnify').css({
               "display": "none",
-
               "position": "fixed",
               "max-width": options.maxWidth + "px",
               "overflow": "scroll",
