@@ -2350,7 +2350,8 @@ footer {
     background-position: top center;
     background-color: #0e4e4a; }
     header .slide-wraper .slide-item.slide1 .slide-item__header {
-      font-size: 18px; }
+      font-size: 18px;
+      padding: 25px 30px; }
   header .slide-wraper .slide-item.slide2 {
     background-size: 140%;
     height: 630px;
@@ -2394,6 +2395,7 @@ footer {
     background-position: top center;
     background-color: #0e4e4a; }
     header .slide-wraper .slide-item.slide1 .slide-item__header {
+      padding: 25px 30px;
       font-size: 15px; }
   header .slide-wraper .slide-item.slide2 {
     background-size: 185%;
