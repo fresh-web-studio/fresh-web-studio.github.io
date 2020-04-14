@@ -1620,6 +1620,8 @@ footer {
     -moz-border-radius: 3px;
     border-radius: 3px; }
 
+  .modal h3 {
+    font-size: 26px; }
   .modal .info {
     margin: 10px;
     text-align: center; }
@@ -1639,6 +1641,10 @@ footer {
     width: 100%;
     height: 46px;
     padding: 0px 20px; }
+
+  .modal .btn button {
+    margin-top: 0px;
+    height: 42px; }
 
   header .container .header-top {
     display: block;
