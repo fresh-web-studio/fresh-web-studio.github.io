@@ -105,7 +105,7 @@ body {
   width: 437px;
   background: #ffffff;
   position: relative;
-  margin: 23% auto;
+  margin: 13% auto;
   /* По умолчанию минимизируем анимацию */
   -webkit-animation: minimise 500ms linear;
   /* Придаем хороший вид */
@@ -1795,25 +1795,35 @@ footer {
   header .slide-wraper .slide-item button.btn {
     width: 100%; }
   header .slide-wraper .slide-item.slide1 {
-    height: 700px;
+    background-size: 117%;
+    height: 630px;
     text-align: center;
-    background-position: center center; }
+    background-position: top center;
+    background-color: #0e4e4a; }
   header .slide-wraper .slide-item.slide2 {
-    height: 700px;
-    background-position: center center;
-    text-align: center; }
+    background-size: 117%;
+    height: 630px;
+    background-position: top center;
+    text-align: center;
+    background-color: #4b6f95; }
   header .slide-wraper .slide-item.slide3 {
-    height: 700px;
-    background-position: center center;
-    text-align: center; }
+    background-size: 117%;
+    height: 630px;
+    background-position: top center;
+    text-align: center;
+    background-color: #707575; }
   header .slide-wraper .slide-item.slide4 {
-    height: 700px;
-    background-position: center center;
-    text-align: center; }
+    background-size: 117%;
+    height: 630px;
+    background-position: top center;
+    text-align: center;
+    background-color: #8b7e78; }
   header .slide-wraper .slide-item.slide5 {
-    height: 700px;
-    background-position: center center;
-    text-align: center; }
+    background-size: 117%;
+    height: 630px;
+    background-position: top center;
+    text-align: center;
+    background-color: #cdcdcd; }
   header .seo .seo__banner {
     background-image: url(../img/seo-bg.jpg);
     height: 579px; }
@@ -2319,10 +2329,92 @@ footer {
     height: 520px; }
 
   main .repair-peter {
-    height: 500px; } }
+    height: 500px; }
+
+  header .slide-wraper .slide-item.slide1 {
+    background-size: 140%;
+    height: 630px;
+    text-align: center;
+    background-position: top center;
+    background-color: #0e4e4a; }
+    header .slide-wraper .slide-item.slide1 .slide-item__header {
+      font-size: 18px; }
+  header .slide-wraper .slide-item.slide2 {
+    background-size: 140%;
+    height: 630px;
+    text-align: center;
+    background-position: top center;
+    background-color: #4b6f95; }
+    header .slide-wraper .slide-item.slide2 .slide-item__header {
+      font-size: 18px; }
+  header .slide-wraper .slide-item.slide3 {
+    background-size: 140%;
+    height: 630px;
+    text-align: center;
+    background-position: top center;
+    background-color: #707575; }
+    header .slide-wraper .slide-item.slide3 .slide-item__header {
+      font-size: 18px; }
+  header .slide-wraper .slide-item.slide4 {
+    background-size: 140%;
+    height: 630px;
+    text-align: center;
+    background-position: top center;
+    background-color: #8b7e78; }
+    header .slide-wraper .slide-item.slide4 .slide-item__header {
+      font-size: 18px; }
+  header .slide-wraper .slide-item.slide5 {
+    background-size: 140%;
+    height: 630px;
+    text-align: center;
+    background-position: top center;
+    background-color: #cdcdcd; }
+    header .slide-wraper .slide-item.slide5 .slide-item__header {
+      font-size: 18px; } }
 @media all and (max-width: 320px) {
   .modal > div {
     margin: 3% auto; }
+
+  header .slide-wraper .slide-item.slide1 {
+    background-size: 185%;
+    height: 650px;
+    text-align: center;
+    background-position: top center;
+    background-color: #0e4e4a; }
+    header .slide-wraper .slide-item.slide1 .slide-item__header {
+      font-size: 15px; }
+  header .slide-wraper .slide-item.slide2 {
+    background-size: 185%;
+    height: 650px;
+    text-align: center;
+    background-position: top center;
+    background-color: #4b6f95; }
+    header .slide-wraper .slide-item.slide2 .slide-item__header {
+      font-size: 15px; }
+  header .slide-wraper .slide-item.slide3 {
+    background-size: 185%;
+    height: 650px;
+    text-align: center;
+    background-position: top center;
+    background-color: #707575; }
+    header .slide-wraper .slide-item.slide3 .slide-item__header {
+      font-size: 15px; }
+  header .slide-wraper .slide-item.slide4 {
+    background-size: 185%;
+    height: 650px;
+    text-align: center;
+    background-position: top center;
+    background-color: #8b7e78; }
+    header .slide-wraper .slide-item.slide4 .slide-item__header {
+      font-size: 15px; }
+  header .slide-wraper .slide-item.slide5 {
+    background-size: 185%;
+    height: 650px;
+    text-align: center;
+    background-position: top center;
+    background-color: #cdcdcd; }
+    header .slide-wraper .slide-item.slide5 .slide-item__header {
+      font-size: 15px; }
 
   main .repair-peter .container div p {
     font-size: 12px; }
