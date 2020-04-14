@@ -399,6 +399,8 @@ header .slide-wraper {
     background-repeat: no-repeat;
     /* Отменяем повторение фона */
     height: 884px; }
+  header .slide-wraper .slide-item .slide-item__header.black, header .slide-wraper .slide-item .slide-item__text.black {
+    color: #000000; }
   header .slide-wraper .slide-item .slide-item__header {
     padding-top: 100px;
     width: 690px;

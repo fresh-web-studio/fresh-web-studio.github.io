@@ -557,6 +557,9 @@ header {
     }
 
     .slide-item {
+      .slide-item__header.black, .slide-item__text.black {
+        color: #000000;
+      }
       .slide-item__header {
         padding-top: 100px;
         width: 690px;
