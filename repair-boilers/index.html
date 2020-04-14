@@ -629,28 +629,28 @@
             <!-- Слайдер officially -->
             <div class="owl-carousel owl-theme" id="owl-carousel3">
                 <div class="slide-item">
-                    <img src="img/item-sert1.jpg" alt="Сертификат 1">
+                    <img src="img/item-sert1.jpg" class="fz__minimized" alt="Сертификат 1">
                 </div>
                 <div class="slide-item">
-                    <img src="img/item-sert2.jpg" alt="Сертификат 2">
+                    <img src="img/item-sert2.jpg" class="fz__minimized" alt="Сертификат 2">
                 </div>
                 <div class="slide-item">
-                    <img src="img/item-sert3.jpg" alt="Сертификат 3">
+                    <img src="img/item-sert3.jpg" class="fz__minimized" alt="Сертификат 3">
                 </div>
                 <div class="slide-item">
-                    <img src="img/item-sert4.jpg" alt="Сертификат 4">
+                    <img src="img/item-sert4.jpg" class="fz__minimized" alt="Сертификат 4">
                 </div>
                 <div class="slide-item">
-                    <img src="img/item-sert5.jpg" alt="Сертификат 5">
+                    <img src="img/item-sert5.jpg" class="fz__minimized" alt="Сертификат 5">
                 </div>
                 <div class="slide-item">
-                    <img src="img/item-sert1.jpg" alt="Сертификат 1">
+                    <img src="img/item-sert1.jpg" class="fz__minimized" alt="Сертификат 1">
                 </div>
                 <div class="slide-item">
-                    <img src="img/item-sert2.jpg" alt="Сертификат 2">
+                    <img src="img/item-sert2.jpg" class="fz__minimized" alt="Сертификат 2">
                 </div>
                 <div class="slide-item">
-                    <img src="img/item-sert3.jpg" alt="Сертификат 3">
+                    <img src="img/item-sert3.jpg" class="fz__minimized" alt="Сертификат 3">
                 </div>
             </div>
         </div>
@@ -681,28 +681,28 @@
             <!-- Слайдер officially -->
             <div class="owl-carousel owl-theme" id="owl-carousel4">
                 <div class="slide-item">
-                    <img src="img/reviews-1.jpg" alt="Сертификат 1">
+                    <img src="img/reviews-1.jpg" class="fz__minimized" alt="Сертификат 1">
                 </div>
                 <div class="slide-item">
-                    <img src="img/reviews-2.jpg" alt="Сертификат 2">
+                    <img src="img/reviews-2.jpg" class="fz__minimized" alt="Сертификат 2">
                 </div>
                 <div class="slide-item">
-                    <img src="img/reviews-3.jpg" alt="Сертификат 3">
+                    <img src="img/reviews-3.jpg" class="fz__minimized" alt="Сертификат 3">
                 </div>
                 <div class="slide-item">
-                    <img src="img/reviews-4.jpg" alt="Сертификат 4">
+                    <img src="img/reviews-4.jpg" class="fz__minimized" alt="Сертификат 4">
                 </div>
                 <div class="slide-item">
-                    <img src="img/reviews-5.jpg" alt="Сертификат 5">
+                    <img src="img/reviews-5.jpg" class="fz__minimized" alt="Сертификат 5">
                 </div>
                 <div class="slide-item">
-                    <img src="img/reviews-6.jpg" alt="Сертификат 1">
+                    <img src="img/reviews-6.jpg" class="fz__minimized" alt="Сертификат 1">
                 </div>
                 <div class="slide-item">
-                    <img src="img/reviews-1.jpg" alt="Сертификат 2">
+                    <img src="img/reviews-1.jpg" class="fz__minimized" alt="Сертификат 2">
                 </div>
                 <div class="slide-item">
-                    <img src="img/reviews-2.jpg" alt="Сертификат 3">
+                    <img src="img/reviews-2.jpg" class="fz__minimized" alt="Сертификат 3">
                 </div>
             </div>
             <div class="btn">
@@ -826,10 +826,15 @@
         <a href="#close" title="Закрыть">Закрыть</a>
     </div>
 </div>
-
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/main_slider.js"></script>
 <script src="js/menu.min.js"></script>
+<script src="js/litezoom.min.js"></script>
+<script>
+    if(window.screen.width > 800) {
+        $('.fz__minimized').litezoom({speed:400, viewTitle:true});
+    }
+</script>
 </body>
 </html>
