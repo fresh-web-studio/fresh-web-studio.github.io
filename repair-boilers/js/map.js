@@ -6,28 +6,28 @@ ymaps.ready(function () {
             searchControlProvider: 'yandex#search'
         }),
 
-        // Создаём макет содержимого.
+        // РЎРѕР·РґР°С‘Рј РјР°РєРµС‚ СЃРѕРґРµСЂР¶РёРјРѕРіРѕ.
         MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
             '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
         ),
 
         myPlacemarkWithContent = new ymaps.Placemark([59.927004, 30.414413], {
-            hintContent: 'Комфорт Плюс: газовые котлы и колонки',
-            balloonContent: 'Комфорт Плюс: газовые котлы и колонки',
+            hintContent: 'РљРѕРјС„РѕСЂС‚ РџР»СЋСЃ: РіР°Р·РѕРІС‹Рµ РєРѕС‚Р»С‹ Рё РєРѕР»РѕРЅРєРё',
+            balloonContent: 'РљРѕРјС„РѕСЂС‚ РџР»СЋСЃ: РіР°Р·РѕРІС‹Рµ РєРѕС‚Р»С‹ Рё РєРѕР»РѕРЅРєРё',
         }, {
-            // Опции.
-            // Необходимо указать данный тип макета.
+            // РћРїС†РёРё.
+            // РќРµРѕР±С…РѕРґРёРјРѕ СѓРєР°Р·Р°С‚СЊ РґР°РЅРЅС‹Р№ С‚РёРї РјР°РєРµС‚Р°.
             iconLayout: 'default#imageWithContent',
-            // Своё изображение иконки метки.
+            // РЎРІРѕС‘ РёР·РѕР±СЂР°Р¶РµРЅРёРµ РёРєРѕРЅРєРё РјРµС‚РєРё.
             iconImageHref: 'img/logo-map-w.png',
-            // Размеры метки.
+            // Р Р°Р·РјРµСЂС‹ РјРµС‚РєРё.
             iconImageSize: [38, 38],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
+            // РЎРјРµС‰РµРЅРёРµ Р»РµРІРѕРіРѕ РІРµСЂС…РЅРµРіРѕ СѓРіР»Р° РёРєРѕРЅРєРё РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ
+            // РµС‘ "РЅРѕР¶РєРё" (С‚РѕС‡РєРё РїСЂРёРІСЏР·РєРё).
             iconImageOffset: [-19, -19],
-            // Смещение слоя с содержимым относительно слоя с картинкой.
+            // РЎРјРµС‰РµРЅРёРµ СЃР»РѕСЏ СЃ СЃРѕРґРµСЂР¶РёРјС‹Рј РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ СЃР»РѕСЏ СЃ РєР°СЂС‚РёРЅРєРѕР№.
             iconContentOffset: [15, 15],
-            // Макет содержимого.
+            // РњР°РєРµС‚ СЃРѕРґРµСЂР¶РёРјРѕРіРѕ.
             iconContentLayout: MyIconContentLayout
         });
 
@@ -40,12 +40,12 @@ ymaps.ready(function () {
 
     var activeMapButton = new ymaps.control.Button({
         data: {
-            content: "Акт. карту"
+            content: "РђРєС‚. РєР°СЂС‚Сѓ"
         },
         options: {
             position: {
                 right: 10,
-                top: 450
+                top: 50
             },
             maxWidth: [200]
         }
@@ -54,10 +54,10 @@ ymaps.ready(function () {
     activeMapButton.events.add('click', function (e) {
 
         var target = e.get('target');
-        var text = 'Акт. карту';
+        var text = 'РђРєС‚. РєР°СЂС‚Сѓ';
 
         if ( target.data.get('content') == text ) {
-            text = 'Деакт. карту';
+            text = 'Р”РµР°РєС‚. РєР°СЂС‚Сѓ';
             myMap.behaviors.enable(events);
         } else {
             myMap.behaviors.disable(events);
@@ -68,5 +68,7 @@ ymaps.ready(function () {
         t = target;
 
     });
+
+    myMap.controls.add(activeMapButton);
 
 });

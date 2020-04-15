@@ -12,82 +12,7 @@
 
     <script src="https://api-maps.yandex.ru/2.1/?apikey=ae440fb2-a89c-4edc-a859-4232de5cfc11&lang=ru_RU" type="text/javascript">
     </script>
-    <script type="text/javascript">
-        ymaps.ready(function () {
-            var myMap = new ymaps.Map('map', {
-                    center: [59.927004, 30.414413],
-                    zoom: 17
-                }, {
-                    searchControlProvider: 'yandex#search'
-                }),
 
-                // Создаём макет содержимого.
-                MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-                    '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
-                ),
-
-                myPlacemarkWithContent = new ymaps.Placemark([59.927004, 30.414413], {
-                    hintContent: 'Комфорт Плюс: газовые котлы и колонки',
-                    balloonContent: 'Комфорт Плюс: газовые котлы и колонки',
-                }, {
-                    // Опции.
-                    // Необходимо указать данный тип макета.
-                    iconLayout: 'default#imageWithContent',
-                    // Своё изображение иконки метки.
-                    iconImageHref: 'img/logo-map-w.png',
-                    // Размеры метки.
-                    iconImageSize: [38, 38],
-                    // Смещение левого верхнего угла иконки относительно
-                    // её "ножки" (точки привязки).
-                    iconImageOffset: [-19, -19],
-                    // Смещение слоя с содержимым относительно слоя с картинкой.
-                    iconContentOffset: [15, 15],
-                    // Макет содержимого.
-                    iconContentLayout: MyIconContentLayout
-                });
-
-            myMap.geoObjects
-                .add(myPlacemarkWithContent);
-
-            var events = ['scrollZoom','drag','dblClickZoom','multiTouch'];
-
-            myMap.behaviors.disable(events);
-
-            var activeMapButton = new ymaps.control.Button({
-                data: {
-                    content: "Акт. карту"
-                },
-                options: {
-                    position: {
-                        left: 125,
-                        top: 10
-                    },
-                    maxWidth: [200]
-                }
-            });
-
-            activeMapButton.events.add('click', function (e) {
-
-                var target = e.get('target');
-                var text = 'Акт. карту';
-
-                if ( target.data.get('content') == text ) {
-                    text = 'Деакт. карту';
-                    myMap.behaviors.enable(events);
-                } else {
-                    myMap.behaviors.disable(events);
-                }
-
-                target.data.set('content', text);
-
-                t = target;
-
-            });
-
-            myMap.controls.add(activeMapButton);
-
-        });
-    </script>
     <title>Главная</title>
 </head>
 <body>
@@ -910,6 +835,7 @@
 <script src="js/main_slider.js"></script>
 <script src="js/menu.min.js"></script>
 <script src="js/litezoom.min.js"></script>
+<script src="js/map.min.js"></script>
 <script>
     if(window.screen.width > 800) {
         $('.fz__minimized').litezoom({speed:400, viewTitle:true});
