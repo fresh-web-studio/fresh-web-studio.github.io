@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ae440fb2-a89c-4edc-a859-4232de5cfc11&lang=ru_RU" type="text/javascript">
+    </script>
     <title>Цены на монтаж</title>
 </head>
 <body>
@@ -859,7 +861,7 @@
             <div class="column-map">
                 <div class="section-aside">
                     <div class="section-bordered-inside">
-                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A16111ef957f0e1eaa38cf5021e53f80ea4916d1f3892f4b40b1a1f71fe776252&amp;source=constructor" width="100%" height="616" frameborder="0"></iframe>
+                        <div id="map" style="width: 100%; height: 616px"></div>
                     </div>
                 </div>
             </div>
@@ -871,5 +873,6 @@
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/main_slider.js"></script>
 <script src="js/menu.min.js"></script>
+<script src="js/map.min.js"></script>
 </body>
 </html>
