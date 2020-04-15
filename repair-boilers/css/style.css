@@ -634,10 +634,10 @@ main .our_services .container .services {
           color: white; }
       main .our_services .container .services .services__item .services__btn button:hover {
         background-color: #d02718; }
-      main .our_services .container .services .services__item .services__btn .btn a {
+      main .our_services .container .services .services__item .services__btn a {
         color: #f1460a;
         text-decoration: underline; }
-        main .our_services .container .services .services__item .services__btn .btn a:hover {
+        main .our_services .container .services .services__item .services__btn a:hover {
           color: #d02718; }
 main .our_services_add {
   margin: 60px 0; }

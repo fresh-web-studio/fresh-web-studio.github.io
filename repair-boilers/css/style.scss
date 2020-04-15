@@ -870,15 +870,14 @@ main {
             button:hover {
               background-color: #d02718;
             }
-            .btn {
               a {
                 color: #f1460a;
                 text-decoration: underline;
                 &:hover {
                   color: #d02718;
                 }
+
               }
-            }
           }
         }
       }
