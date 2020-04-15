@@ -6,6 +6,7 @@ ymaps.ready(function () {
             searchControlProvider: 'yandex#search'
         }),
 
+        /// Добавляем свою иконку
         // Создаём макет содержимого.
         MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
             '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
@@ -34,6 +35,8 @@ ymaps.ready(function () {
     myMap.geoObjects
         .add(myPlacemarkWithContent);
 
+
+    // Отключаем лишний скрол
     var events = ['scrollZoom','drag','dblClickZoom','multiTouch'];
 
     myMap.behaviors.disable(events);
