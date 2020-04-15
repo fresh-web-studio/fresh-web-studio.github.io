@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
+      <change afterPath="$PROJECT_DIR$/repair-boilers/js/map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css.map" afterDir="false" />
@@ -67,9 +68,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repair-boilers/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+            <state relative-caret-position="482">
+              <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -92,7 +94,7 @@
                 <element signature="n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#8;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#9;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -100,10 +102,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repair-boilers/js/map.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="71" selection-end-column="3" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repair-boilers/js/main_slider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repair-boilers/seo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="367" selection-start-line="367" selection-end-line="372" selection-end-column="9" />
+            <state relative-caret-position="185">
+              <caret line="318" column="26" selection-start-line="318" selection-start-column="26" selection-end-line="318" selection-end-column="26" />
               <folding>
                 <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -116,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1936">
-              <caret line="557" lean-forward="true" selection-start-line="557" selection-end-line="557" />
+            <state relative-caret-position="39">
+              <caret line="2072" column="3" selection-start-line="2072" selection-start-column="3" selection-end-line="2072" selection-end-column="3" />
               <folding>
                 <element signature="e#4237#6242#0" />
                 <element signature="e#6285#9908#0" />
@@ -179,42 +202,6 @@
                 <element signature="e#69351#69786#0" />
                 <element signature="e#69799#70238#0" />
                 <element signature="e#70252#73590#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repair-boilers/reviews.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="145" column="70" selection-start-line="145" selection-start-column="70" selection-end-line="145" selection-end-column="70" />
-              <folding>
-                <element signature="n#ol#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repair-boilers/js/main_slider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repair-boilers/contacts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
-              <folding>
-                <element signature="n#ul#0;n#nav#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -317,7 +304,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/artemsdobnikov/math/vlimit.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/voltage-multipier.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/voltage-reference.html" />
         <option value="$PROJECT_DIR$/artemsdobnikov/math/styles/style.css" />
@@ -367,6 +353,7 @@
         <option value="$PROJECT_DIR$/repair-boilers/js/litezoom.js" />
         <option value="$PROJECT_DIR$/repair-boilers/reviews.html" />
         <option value="$PROJECT_DIR$/repair-boilers/css/style.scss" />
+        <option value="$PROJECT_DIR$/repair-boilers/js/map.js" />
         <option value="$PROJECT_DIR$/repair-boilers/index.html" />
       </list>
     </option>
@@ -378,10 +365,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-581" />
-    <option name="y" value="-942" />
-    <option name="width" value="1251" />
-    <option name="height" value="840" />
+    <option name="x" value="654" />
+    <option name="y" value="-1417" />
+    <option name="width" value="1230" />
+    <option name="height" value="1299" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -518,21 +505,7 @@
       <workItem from="1585840280891" duration="12423000" />
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
-      <workItem from="1586508125627" duration="90269000" />
-    </task>
-    <task id="LOCAL-00533" summary="Обновление">
-      <created>1586454939830</created>
-      <option name="number" value="00533" />
-      <option name="presentableId" value="LOCAL-00533" />
-      <option name="project" value="LOCAL" />
-      <updated>1586454939831</updated>
-    </task>
-    <task id="LOCAL-00534" summary="Обновление">
-      <created>1586455325013</created>
-      <option name="number" value="00534" />
-      <option name="presentableId" value="LOCAL-00534" />
-      <option name="project" value="LOCAL" />
-      <updated>1586455325013</updated>
+      <workItem from="1586508125627" duration="108076000" />
     </task>
     <task id="LOCAL-00535" summary="Обновление">
       <created>1586457175231</created>
@@ -863,22 +836,36 @@
       <option name="project" value="LOCAL" />
       <updated>1586881752190</updated>
     </task>
-    <option name="localTasksCounter" value="582" />
+    <task id="LOCAL-00582" summary="Обновление">
+      <created>1586883652413</created>
+      <option name="number" value="00582" />
+      <option name="presentableId" value="LOCAL-00582" />
+      <option name="project" value="LOCAL" />
+      <updated>1586883652417</updated>
+    </task>
+    <task id="LOCAL-00583" summary="Обновление">
+      <created>1586884155304</created>
+      <option name="number" value="00583" />
+      <option name="presentableId" value="LOCAL-00583" />
+      <option name="project" value="LOCAL" />
+      <updated>1586884155304</updated>
+    </task>
+    <option name="localTasksCounter" value="584" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="844943000" />
+    <option name="totallyTimeSpent" value="862750000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-581" y="-942" width="1251" height="840" extended-state="0" />
+    <frame x="654" y="-1417" width="1230" height="1299" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.21184321" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.20713073" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32285714" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32096636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1008,7 +995,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/repair-boilers/js/install_slider.js" />
     <entry file="file://$PROJECT_DIR$/repair-boilers/js/main_slider.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1291,13 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repair-boilers/js/main_slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/js/high.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1353,17 +1332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repair-boilers/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="232" column="70" selection-start-line="232" selection-start-column="70" selection-end-line="232" selection-end-column="70" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/js/litezoom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -1374,22 +1342,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repair-boilers/seo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="367" selection-start-line="367" selection-end-line="372" selection-end-column="9" />
-          <folding>
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/reviews.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="145" column="70" selection-start-line="145" selection-start-column="70" selection-end-line="145" selection-end-column="70" />
+        <state relative-caret-position="291">
+          <caret line="156" column="25" lean-forward="true" selection-start-line="156" selection-start-column="25" selection-end-line="156" selection-end-column="25" />
           <folding>
             <element signature="n#ol#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1399,8 +1355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1936">
-          <caret line="557" lean-forward="true" selection-start-line="557" selection-end-line="557" />
+        <state relative-caret-position="39">
+          <caret line="2072" column="3" selection-start-line="2072" selection-start-column="3" selection-end-line="2072" selection-end-column="3" />
           <folding>
             <element signature="e#4237#6242#0" />
             <element signature="e#6285#9908#0" />
@@ -1466,11 +1422,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/repair-boilers/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1195">
+          <caret line="232" column="70" selection-start-line="232" selection-start-column="70" selection-end-line="232" selection-end-column="70" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repair-boilers/js/main_slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repair-boilers/seo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="318" column="26" selection-start-line="318" selection-start-column="26" selection-end-line="318" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repair-boilers/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="71" selection-end-column="3" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+        <state relative-caret-position="482">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -1493,7 +1490,7 @@
             <element signature="n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#8;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
