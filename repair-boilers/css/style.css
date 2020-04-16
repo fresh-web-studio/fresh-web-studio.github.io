@@ -1631,6 +1631,8 @@ footer {
     padding-bottom: 10px; }
   header .slide-wraper .slide-item .form-horizontal .form-group .input-name, header .slide-wraper .slide-item .form-horizontal .form-group .input-phone {
     padding: 5px 0; }
+  header .slide-wraper .slide-item button.btn {
+    margin-top: 5px; }
   header .slide-wraper .slide-item.slide1, header .slide-wraper .slide-item.slide2, header .slide-wraper .slide-item.slide3, header .slide-wraper .slide-item.slide4, header .slide-wraper .slide-item.slide5 {
     background-size: 115%;
     background-position: left;

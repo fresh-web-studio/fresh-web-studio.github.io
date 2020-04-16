@@ -125,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="2270" column="12" selection-start-line="2270" selection-start-column="12" selection-end-line="2270" selection-end-column="12" />
+            <state relative-caret-position="589">
+              <caret line="2268" column="21" lean-forward="true" selection-start-line="2268" selection-start-column="21" selection-end-line="2268" selection-end-column="21" />
               <folding>
                 <element signature="e#4032#6037#0" />
                 <element signature="e#6059#9707#0" />
@@ -170,6 +170,8 @@
                 <element signature="e#72622#73057#0" />
                 <element signature="e#73070#73509#0" />
                 <element signature="e#73523#76861#0" />
+                <element signature="e#78201#78672#0" />
+                <element signature="e#80223#80237#0" />
               </folding>
             </state>
           </provider>
@@ -472,21 +474,7 @@
       <workItem from="1585840280891" duration="12423000" />
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
-      <workItem from="1586508125627" duration="132135000" />
-    </task>
-    <task id="LOCAL-00557" summary="Обновление">
-      <created>1586756560118</created>
-      <option name="number" value="00557" />
-      <option name="presentableId" value="LOCAL-00557" />
-      <option name="project" value="LOCAL" />
-      <updated>1586756560118</updated>
-    </task>
-    <task id="LOCAL-00558" summary="Обновление">
-      <created>1586774434375</created>
-      <option name="number" value="00558" />
-      <option name="presentableId" value="LOCAL-00558" />
-      <option name="project" value="LOCAL" />
-      <updated>1586774434375</updated>
+      <workItem from="1586508125627" duration="133884000" />
     </task>
     <task id="LOCAL-00559" summary="Обновление">
       <created>1586776465345</created>
@@ -817,17 +805,31 @@
       <option name="project" value="LOCAL" />
       <updated>1587040838946</updated>
     </task>
-    <option name="localTasksCounter" value="606" />
+    <task id="LOCAL-00606" summary="Обновление">
+      <created>1587042723162</created>
+      <option name="number" value="00606" />
+      <option name="presentableId" value="LOCAL-00606" />
+      <option name="project" value="LOCAL" />
+      <updated>1587042723162</updated>
+    </task>
+    <task id="LOCAL-00607" summary="Обновление">
+      <created>1587044155758</created>
+      <option name="number" value="00607" />
+      <option name="presentableId" value="LOCAL-00607" />
+      <option name="project" value="LOCAL" />
+      <updated>1587044155758</updated>
+    </task>
+    <option name="localTasksCounter" value="608" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="886809000" />
+    <option name="totallyTimeSpent" value="888558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="724" y="-1408" width="1158" height="1321" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.159132" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.159132" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -962,9 +964,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/repair-boilers/owlcarousel/assets/owl.carousel.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/slide.html" />
     <entry file="file://$PROJECT_DIR$/repair-boilers/owlcarousel/assets/owl.theme.default.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -1381,10 +1380,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/capital-finance/img/slider-bg-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="2270" column="12" selection-start-line="2270" selection-start-column="12" selection-end-line="2270" selection-end-column="12" />
+        <state relative-caret-position="589">
+          <caret line="2268" column="21" lean-forward="true" selection-start-line="2268" selection-start-column="21" selection-end-line="2268" selection-end-column="21" />
           <folding>
             <element signature="e#4032#6037#0" />
             <element signature="e#6059#9707#0" />
@@ -1428,6 +1430,8 @@
             <element signature="e#72622#73057#0" />
             <element signature="e#73070#73509#0" />
             <element signature="e#73523#76861#0" />
+            <element signature="e#78201#78672#0" />
+            <element signature="e#80223#80237#0" />
           </folding>
         </state>
       </provider>

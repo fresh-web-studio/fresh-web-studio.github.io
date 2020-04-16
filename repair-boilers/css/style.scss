@@ -2266,7 +2266,11 @@ footer {
             }
           }
         }
+        button.btn {
+          margin-top: 5px;
+        }
       }
+
       .slide-item.slide1, .slide-item.slide2, .slide-item.slide3, .slide-item.slide4, .slide-item.slide5 {
         background-size: 115%;
         background-position: left;
