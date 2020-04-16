@@ -1629,6 +1629,8 @@ footer {
   header .slide-wraper .slide-item .slide-item__text {
     padding-top: 10px;
     padding-bottom: 10px; }
+  header .slide-wraper .slide-item .form-horizontal .form-group .input-name, header .slide-wraper .slide-item .form-horizontal .form-group .input-phone {
+    padding: 5px 0; }
   header .slide-wraper .slide-item.slide1, header .slide-wraper .slide-item.slide2, header .slide-wraper .slide-item.slide3, header .slide-wraper .slide-item.slide4, header .slide-wraper .slide-item.slide5 {
     background-size: 115%;
     background-position: left;
@@ -2418,29 +2420,39 @@ footer {
   header .seo .seo__banner {
     height: 730px; }
 
+  header .slide-wraper .slide-item .slide-item__text {
+    font-size: 12px; }
+
+  header .slide-wraper .slide-item .slide-item__text {
+    font-size: 12px; }
   header .slide-wraper .slide-item.slide1 {
     background-size: 185%;
+    height: 500px;
     background-color: #0e4e4a; }
     header .slide-wraper .slide-item.slide1 .slide-item__header {
       padding: 16px 30px;
       font-size: 15px; }
   header .slide-wraper .slide-item.slide2 {
     background-size: 185%;
+    height: 500px;
     background-color: #4b6f95; }
     header .slide-wraper .slide-item.slide2 .slide-item__header {
       font-size: 15px; }
   header .slide-wraper .slide-item.slide3 {
     background-size: 185%;
+    height: 500px;
     background-color: #707575; }
     header .slide-wraper .slide-item.slide3 .slide-item__header {
       font-size: 15px; }
   header .slide-wraper .slide-item.slide4 {
     background-size: 185%;
+    height: 500px;
     background-color: #8b7e78; }
     header .slide-wraper .slide-item.slide4 .slide-item__header {
       font-size: 15px; }
   header .slide-wraper .slide-item.slide5 {
     background-size: 185%;
+    height: 500px;
     background-color: #cdcdcd; }
     header .slide-wraper .slide-item.slide5 .slide-item__header {
       font-size: 15px; }

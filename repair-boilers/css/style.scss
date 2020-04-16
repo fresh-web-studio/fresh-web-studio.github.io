@@ -2259,6 +2259,13 @@ footer {
           padding-top: 10px;
           padding-bottom: 10px;
         }
+        .form-horizontal {
+          .form-group {
+            .input-name, .input-phone {
+              padding: 5px 0
+            }
+          }
+        }
       }
       .slide-item.slide1, .slide-item.slide2, .slide-item.slide3, .slide-item.slide4, .slide-item.slide5 {
         background-size: 115%;
@@ -3527,9 +3534,18 @@ footer {
   header .seo .seo__banner {
     height: 730px;
   }
+  header .slide-wraper .slide-item .slide-item__text {
+    font-size: 12px;
+  }
   header .slide-wraper {
+    .slide-item {
+      .slide-item__text {
+        font-size: 12px;
+      }
+    }
     .slide-item.slide1 {
       background-size: 185%;
+      height: 500px;
       background-color: #0e4e4a;
       .slide-item__header {
         padding: 16px 30px;
@@ -3538,6 +3554,7 @@ footer {
     }
     .slide-item.slide2 {
       background-size: 185%;
+      height: 500px;
       background-color: #4b6f95;
       .slide-item__header {
         font-size: 15px;
@@ -3545,6 +3562,7 @@ footer {
     }
     .slide-item.slide3 {
       background-size: 185%;
+      height: 500px;
       background-color: #707575;
       .slide-item__header {
         font-size: 15px;
@@ -3552,6 +3570,7 @@ footer {
     }
     .slide-item.slide4 {
       background-size: 185%;
+      height: 500px;
       background-color: #8b7e78;
       .slide-item__header {
         font-size: 15px;
@@ -3559,6 +3578,7 @@ footer {
     }
     .slide-item.slide5 {
       background-size: 185%;
+      height: 500px;
       background-color: #cdcdcd;
       .slide-item__header {
         font-size: 15px;
