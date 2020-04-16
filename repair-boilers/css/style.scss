@@ -2693,14 +2693,16 @@ footer {
               border-radius: 3px;
               padding-top: 7px;
               margin: 0 10px;
+              min-height: 100%;
               img {
                 width: 100%;
               }
               .info {
                 font-size: 10px;
                 color: rgb(41, 41, 41);
-                line-height: 1.615;
+                line-height: 1.4;
                 text-align: center;
+                min-height: 58px;
               }
               .price {
                 font-size: 16px;
