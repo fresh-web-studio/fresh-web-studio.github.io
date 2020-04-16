@@ -2376,6 +2376,15 @@ footer {
   main .repair-peter {
     height: 500px; }
 
+  main .our_services .container h2 {
+    font-size: 29px; }
+  main .our_services .container .services .services__item .services__top .info {
+    margin: 0px 17px; }
+  main .our_services .container .services .services__item .services__btn button {
+    width: 120px; }
+  main .our_services .container .services .services__item .services__btn a {
+    font-size: 13px; }
+
   header .slide-wraper .slide-item.slide1 {
     background-size: 140%;
     background-color: #0e4e4a; }
@@ -2446,6 +2455,15 @@ footer {
     height: 530px; }
 
   main .seo-block .container h2 {
-    font-size: 26px; } }
+    font-size: 26px; }
+
+  main .our_services .container h2 {
+    font-size: 20px; }
+  main .our_services .container .services .services__item .services__top .info {
+    margin: 0px 17px; }
+  main .our_services .container .services .services__item .services__btn button {
+    width: 120px; }
+  main .our_services .container .services .services__item .services__btn a {
+    font-size: 13px; } }
 
 /*# sourceMappingURL=style.css.map */

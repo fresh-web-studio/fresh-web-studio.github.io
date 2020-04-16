@@ -3453,6 +3453,32 @@ footer {
   main .repair-peter {
     height: 500px;
   }
+  main {
+    .our_services {
+      .container{
+        h2 {
+          font-size: 29px;
+        }
+        .services {
+          .services__item {
+            .services__top {
+              .info {
+                margin: 0px 17px;
+              }
+            }
+            .services__btn {
+              button {
+                width: 120px;
+              }
+              a {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   header .slide-wraper {
     .slide-item.slide1 {
       background-size: 140%;
@@ -3550,6 +3576,32 @@ footer {
   }
   main .seo-block .container h2 {
     font-size: 26px;
+  }
+  main {
+    .our_services {
+      .container{
+        h2 {
+          font-size: 20px;
+        }
+        .services {
+          .services__item {
+            .services__top {
+              .info {
+                margin: 0px 17px;
+              }
+            }
+            .services__btn {
+              button {
+                width: 120px;
+              }
+              a {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
