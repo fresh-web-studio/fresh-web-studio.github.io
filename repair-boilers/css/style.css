@@ -1807,7 +1807,11 @@ footer {
       padding-top: 10px; }
       header .slide-wraper .slide-item .form-horizontal .form-group .input-phone input[type="text"], header .slide-wraper .slide-item .form-horizontal .form-group .input-name input[type="text"] {
         width: 100%;
-        height: 46px; }
+        height: 40px; }
+    header .slide-wraper .slide-item .form-horizontal .form-group .text {
+      font-size: 12px;
+      line-height: 1.4;
+      margin: 6px 0; }
   header .slide-wraper .slide-item button.btn {
     width: 100%; }
   header .slide-wraper .slide-item.slide1 {

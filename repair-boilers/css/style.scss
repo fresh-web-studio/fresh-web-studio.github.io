@@ -2514,8 +2514,13 @@ footer {
               padding-top: 10px;
               input[type="text"] {
                 width: 100%;
-                height: 46px;
+                height: 40px;
               }
+            }
+            .text {
+              font-size: 12px;
+              line-height: 1.4;
+              margin: 6px 0;
             }
           }
         }
