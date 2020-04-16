@@ -6,6 +6,8 @@
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-boilers/js/main_slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/js/main_slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-boilers/js/main_slider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/js/main_slider.min.js" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -116,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repair-boilers/js/main_slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="168">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -125,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="2268" column="21" lean-forward="true" selection-start-line="2268" selection-start-column="21" selection-end-line="2268" selection-end-column="21" />
+            <state relative-caret-position="990">
+              <caret line="2624" column="33" selection-start-line="2624" selection-start-column="33" selection-end-line="2624" selection-end-column="33" />
               <folding>
                 <element signature="e#4032#6037#0" />
                 <element signature="e#6059#9707#0" />
@@ -320,10 +322,10 @@
         <option value="$PROJECT_DIR$/repair-boilers/equipment.html" />
         <option value="$PROJECT_DIR$/repair-boilers/about.html" />
         <option value="$PROJECT_DIR$/repair-boilers/services.html" />
-        <option value="$PROJECT_DIR$/repair-boilers/js/main_slider.js" />
         <option value="$PROJECT_DIR$/repair-boilers/seo.html" />
         <option value="$PROJECT_DIR$/repair-boilers/js/map.js" />
         <option value="$PROJECT_DIR$/repair-boilers/index.html" />
+        <option value="$PROJECT_DIR$/repair-boilers/js/main_slider.js" />
         <option value="$PROJECT_DIR$/repair-boilers/css/style.scss" />
       </list>
     </option>
@@ -474,14 +476,7 @@
       <workItem from="1585840280891" duration="12423000" />
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
-      <workItem from="1586508125627" duration="133884000" />
-    </task>
-    <task id="LOCAL-00559" summary="Обновление">
-      <created>1586776465345</created>
-      <option name="number" value="00559" />
-      <option name="presentableId" value="LOCAL-00559" />
-      <option name="project" value="LOCAL" />
-      <updated>1586776465345</updated>
+      <workItem from="1586508125627" duration="136437000" />
     </task>
     <task id="LOCAL-00560" summary="Обновление">
       <created>1586776545700</created>
@@ -819,17 +814,24 @@
       <option name="project" value="LOCAL" />
       <updated>1587044155758</updated>
     </task>
-    <option name="localTasksCounter" value="608" />
+    <task id="LOCAL-00608" summary="Обновление">
+      <created>1587044884706</created>
+      <option name="number" value="00608" />
+      <option name="presentableId" value="LOCAL-00608" />
+      <option name="project" value="LOCAL" />
+      <updated>1587044884706</updated>
+    </task>
+    <option name="localTasksCounter" value="609" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="888558000" />
+    <option name="totallyTimeSpent" value="891111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="724" y="-1408" width="1158" height="1321" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.159132" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.159132" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -843,7 +845,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.16857143" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49917626" weight="0.22407733" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50082374" side_tool="true" weight="0.4383378" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50082374" side_tool="true" weight="0.4377646" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22455846" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32996973" />
@@ -1327,13 +1329,6 @@
     <entry file="file://$PROJECT_DIR$/repair-boilers/psd/2.1 Ремонт котлов - под сео Электрические.psd">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/repair-boilers/js/main_slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1383,10 +1378,17 @@
     <entry file="file://$PROJECT_DIR$/capital-finance/img/slider-bg-3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/repair-boilers/js/main_slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="2268" column="21" lean-forward="true" selection-start-line="2268" selection-start-column="21" selection-end-line="2268" selection-end-column="21" />
+        <state relative-caret-position="990">
+          <caret line="2624" column="33" selection-start-line="2624" selection-start-column="33" selection-end-line="2624" selection-end-column="33" />
           <folding>
             <element signature="e#4032#6037#0" />
             <element signature="e#6059#9707#0" />

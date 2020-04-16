@@ -4,7 +4,7 @@ $(document).ready(function(){
             loop:true,
             margin:0,
             items: 1,
-            autoplay:false,
+            autoplay:true,
             autoplayTimeout:6000,
             autoplayHoverPause:true
         }
@@ -35,7 +35,7 @@ $(document).ready(function(){
             nav:true,
             center:true,
             dots:false,
-            autoplay:false,
+            autoplay:true,
             autoplayTimeout:5000,
             autoplayHoverPause:true,
             responsive:{
