@@ -518,42 +518,42 @@ header {
       background-image: url(../img/slider-bg-1.jpg);
       background-position: center center; /* Положение фона */
       background-repeat: no-repeat; /* Отменяем повторение фона */
-      height: 884px;
+      height: 750px;
     }
 
     .slide-item.slide2 {
       background-image: url(../img/slider-bg-2.jpg);
       background-position: center center; /* Положение фона */
       background-repeat: no-repeat; /* Отменяем повторение фона */
-      height: 884px;
+      height: 750px;
     }
 
     .slide-item.slide3 {
       background-image: url(../img/slider-bg-3.jpg);
       background-position: center center; /* Положение фона */
       background-repeat: no-repeat; /* Отменяем повторение фона */
-      height: 884px;
+      height: 750px;
     }
 
     .slide-item.slide4 {
       background-image: url(../img/slider-bg-4.jpg);
       background-position: center center; /* Положение фона */
       background-repeat: no-repeat; /* Отменяем повторение фона */
-      height: 884px;
+      height: 750px;
     }
 
     .slide-item.slide5 {
       background-image: url(../img/slider-bg-5.jpg);
       background-position: center center; /* Положение фона */
       background-repeat: no-repeat; /* Отменяем повторение фона */
-      height: 884px;
+      height: 750px;
     }
 
     .slide-item.slide6 {
       background-image: url(../img/slider-bg-6.jpg);
       background-position: center center; /* Положение фона */
       background-repeat: no-repeat; /* Отменяем повторение фона */
-      height: 884px;
+      height: 750px;
     }
 
     .slide-item {
@@ -561,9 +561,9 @@ header {
         color: #000000;
       }
       .slide-item__header {
-        padding-top: 100px;
+        padding-top: 80px;
         width: 690px;
-        font-size: 47px;
+        font-size: 40px;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
@@ -574,8 +574,8 @@ header {
       }
 
       .slide-item__text {
-        padding-top: 30px;
-        padding-bottom: 55px;
+        padding-top: 16px;
+        padding-bottom: 30px;
         width: 500px;
         font-size: 15px;
         font-weight: normal;
@@ -591,7 +591,7 @@ header {
         width: 566px;
         background-color: #fff;
         border-radius: 10px;
-        padding: 40px;
+        padding: 35px;
 
         .form-group {
           h4 {
@@ -606,14 +606,14 @@ header {
             font-weight: bold;
             line-height: 1.667;
             color: #383838;
-            margin: 10px 0 0 0;
+            margin: 10px 0;
             span {
               color: #f1460a;
             }
           }
 
           .input-phone, .input-name {
-            padding: 20px 0;
+            padding: 10px 0;
 
             input[type="text"] {
               border-style: solid;
@@ -623,7 +623,7 @@ header {
               background-color: #f7f7f7;
               font-size: 20px;
               width: 376px;
-              height: 66px;
+              height: 50px;
               text-align: center;
             }
           }
@@ -631,11 +631,12 @@ header {
       }
 
       button.btn {
+        margin-top: 10px;
         border-radius: 3px;
         background-color: #f1460a;
         border: 0;
         width: 376px;
-        height: 62px;
+        height: 50px;
         cursor: pointer;
         font-size: 16px;
         padding: 0px 20px;
@@ -2525,6 +2526,7 @@ footer {
       }
 
       .slide-item.slide1 {
+        background-image: url(../img/slider-bg-1-m.jpg);
         background-size: 117%;
         height: 630px;
         text-align: center;
