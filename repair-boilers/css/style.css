@@ -2420,11 +2420,16 @@ footer {
   header .seo .seo__banner {
     height: 730px; }
 
+  header .slide-wraper .slide-item .form-horizontal .form-group .input-name, header .slide-wraper .slide-item .form-horizontal .form-group .input-phone {
+    padding-top: 5px; }
+    header .slide-wraper .slide-item .form-horizontal .form-group .input-name input[type="text"], header .slide-wraper .slide-item .form-horizontal .form-group .input-phone input[type="text"] {
+      width: 100%;
+      height: 30px;
+      font-size: 16px; }
   header .slide-wraper .slide-item .slide-item__text {
     font-size: 12px; }
-
-  header .slide-wraper .slide-item .slide-item__text {
-    font-size: 12px; }
+  header .slide-wraper .slide-item button.btn {
+    margin-top: 5px; }
   header .slide-wraper .slide-item.slide1 {
     background-size: 185%;
     height: 500px;
