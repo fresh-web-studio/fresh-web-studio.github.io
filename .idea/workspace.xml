@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repair-boilers/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repair-boilers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/repair-boilers/index.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repair-boilers/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1183">
-              <caret line="120" column="27" lean-forward="true" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+            <state relative-caret-position="145">
+              <caret line="90" column="39" lean-forward="true" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -105,13 +106,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="2515" column="28" lean-forward="true" selection-start-line="2515" selection-start-column="28" selection-end-line="2515" selection-end-column="28" />
+            <state relative-caret-position="198">
+              <caret line="3533" column="24" lean-forward="true" selection-start-line="3533" selection-start-column="24" selection-end-line="3533" selection-end-column="24" />
               <folding>
                 <element signature="e#4032#6037#0" />
                 <element signature="e#6059#9707#0" />
                 <element signature="e#9731#9767#0" />
                 <element signature="e#9790#9854#0" />
+                <element signature="e#16030#47505#0" />
                 <element signature="e#26441#26950#0" />
                 <element signature="e#26962#27963#0" />
                 <element signature="e#27972#29918#0" />
@@ -124,6 +126,7 @@
                 <element signature="e#43066#45408#0" />
                 <element signature="e#45419#47085#0" />
                 <element signature="e#47099#47503#0" />
+                <element signature="e#47514#50756#0" />
                 <element signature="e#51727#52075#0" />
                 <element signature="e#52095#55995#0" />
                 <element signature="e#56021#56184#0" />
@@ -450,21 +453,7 @@
       <workItem from="1585840280891" duration="12423000" />
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
-      <workItem from="1586508125627" duration="123538000" />
-    </task>
-    <task id="LOCAL-00552" summary="Обновление">
-      <created>1586712663085</created>
-      <option name="number" value="00552" />
-      <option name="presentableId" value="LOCAL-00552" />
-      <option name="project" value="LOCAL" />
-      <updated>1586712663085</updated>
-    </task>
-    <task id="LOCAL-00553" summary="Обновление">
-      <created>1586713023637</created>
-      <option name="number" value="00553" />
-      <option name="presentableId" value="LOCAL-00553" />
-      <option name="project" value="LOCAL" />
-      <updated>1586713023637</updated>
+      <workItem from="1586508125627" duration="129551000" />
     </task>
     <task id="LOCAL-00554" summary="Обновление">
       <created>1586714297948</created>
@@ -795,11 +784,25 @@
       <option name="project" value="LOCAL" />
       <updated>1587030012116</updated>
     </task>
-    <option name="localTasksCounter" value="601" />
+    <task id="LOCAL-00601" summary="Обновление">
+      <created>1587031214572</created>
+      <option name="number" value="00601" />
+      <option name="presentableId" value="LOCAL-00601" />
+      <option name="project" value="LOCAL" />
+      <updated>1587031214572</updated>
+    </task>
+    <task id="LOCAL-00602" summary="Обновление">
+      <created>1587033487153</created>
+      <option name="number" value="00602" />
+      <option name="presentableId" value="LOCAL-00602" />
+      <option name="project" value="LOCAL" />
+      <updated>1587033487153</updated>
+    </task>
+    <option name="localTasksCounter" value="603" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="878212000" />
+    <option name="totallyTimeSpent" value="884225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="724" y="-973" width="1158" height="886" extended-state="0" />
@@ -810,7 +813,7 @@
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32037532" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31903484" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1327,8 +1330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1183">
-          <caret line="120" column="27" lean-forward="true" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+        <state relative-caret-position="145">
+          <caret line="90" column="39" lean-forward="true" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -1355,13 +1358,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="2515" column="28" lean-forward="true" selection-start-line="2515" selection-start-column="28" selection-end-line="2515" selection-end-column="28" />
+        <state relative-caret-position="198">
+          <caret line="3533" column="24" lean-forward="true" selection-start-line="3533" selection-start-column="24" selection-end-line="3533" selection-end-column="24" />
           <folding>
             <element signature="e#4032#6037#0" />
             <element signature="e#6059#9707#0" />
             <element signature="e#9731#9767#0" />
             <element signature="e#9790#9854#0" />
+            <element signature="e#16030#47505#0" />
             <element signature="e#26441#26950#0" />
             <element signature="e#26962#27963#0" />
             <element signature="e#27972#29918#0" />
@@ -1374,6 +1378,7 @@
             <element signature="e#43066#45408#0" />
             <element signature="e#45419#47085#0" />
             <element signature="e#47099#47503#0" />
+            <element signature="e#47514#50756#0" />
             <element signature="e#51727#52075#0" />
             <element signature="e#52095#55995#0" />
             <element signature="e#56021#56184#0" />
