@@ -335,12 +335,102 @@ header .container .header-top {
     header .container .header-top button:hover {
       background-color: #0688fa; }
 
+main .design {
+  background-image: url("../img/design-bg.jpg");
+  background-position: top center;
+  height: 568px;
+  text-align: center; }
+  main .design .container {
+    padding: 82px 0; }
+    main .design .container .row {
+      width: 50%;
+      text-align: left; }
+      main .design .container .row h1 {
+        font-size: 38px;
+        color: white;
+        font-weight: bold;
+        line-height: 1.263; }
+      main .design .container .row .text {
+        margin-top: 30px;
+        font-size: 16px;
+        color: white; }
+main .prices-info {
+  background-color: #f7f7f7; }
+  main .prices-info .container .prices {
+    margin-top: -190px;
+    position: absolute;
+    background-color: #ffffff;
+    width: 1200px;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.2); }
+    main .prices-info .container .prices h2 {
+      font-size: 30px;
+      color: #242424;
+      font-weight: bold;
+      padding-bottom: 35px; }
+    main .prices-info .container .prices .items-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      main .prices-info .container .prices .items-list .item {
+        border: 1px #e0e0e0 solid;
+        border-radius: 12px;
+        overflow: hidden; }
+        main .prices-info .container .prices .items-list .item .row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin: 20px; }
+          main .prices-info .container .prices .items-list .item .row .text {
+            width: 50%;
+            font-size: 15px;
+            color: #201f1f; }
+            main .prices-info .container .prices .items-list .item .row .text div {
+              font-size: 18px;
+              font-weight: bold; }
+          main .prices-info .container .prices .items-list .item .row button {
+            border-radius: 20px;
+            background-color: #6195e3;
+            border: 0;
+            left: 1418px;
+            top: 26px;
+            width: 141px;
+            height: 37px;
+            cursor: pointer;
+            text-transform: uppercase; }
+            main .prices-info .container .prices .items-list .item .row button .btn {
+              font-size: 10px;
+              color: white; }
+            main .prices-info .container .prices .items-list .item .row button:hover {
+              background-color: #0688fa; }
+  main .prices-info .container .info {
+    padding-top: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .prices-info .container .info .column {
+      width: 50%; }
+      main .prices-info .container .info .column h3 {
+        font-size: 26px;
+        color: #201f1f;
+        line-height: 36px; }
+        main .prices-info .container .info .column h3 span {
+          color: #6195e3; }
+      main .prices-info .container .info .column .text {
+        font-size: 16px;
+        color: #202020;
+        line-height: 1.625;
+        margin-top: 15px;
+        width: 80%; }
+
 footer .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
   footer .container .column {
-    width: 16%; }
+    width: 16%;
+    padding: 60px 0; }
     footer .container .column img {
       margin-bottom: 14px; }
     footer .container .column .copyright {
