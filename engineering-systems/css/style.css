@@ -512,13 +512,12 @@ footer .container {
         left: 0;
         width: 100%;
         margin: 0;
-        padding: 5px 0 0 0;
         list-style: none;
         background-color: #ffffff;
         box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
         z-index: 4; }
         header .container .header-top .nav-container nav .top-menu .menu-item {
-          padding: 0px 15px;
+          padding: 0px;
           line-height: 1.4; }
         header .container .header-top .nav-container nav .top-menu .menu-item.active {
           background-color: #CFD8DC; }
