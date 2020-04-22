@@ -958,6 +958,7 @@ footer {
   }
   main {
     .design {
+      height: 378px;
       .container {
         padding: 28% 20px;
         background: rgba(0, 0, 0, 0.5);
@@ -973,6 +974,51 @@ footer {
         }
       }
     }
+    .prices-info {
+      .container {
+        .prices {
+          margin-top: 0px;
+          position: relative;
+          width: 100%;
+          padding: 20px;
+          .items-list {
+            .item {
+              margin-bottom: 20px;
+              img {
+                width: 100%;
+              }
+              .row {
+                .text {
+                  div {
+                    font-size: 16px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .info {
+          padding: 50px 20px;
+          text-align: center;
+          .column {
+            width: 100%;
+            padding: 20px 0;
+            .text {
+              width: 100%;
+            }
+            .row {
+              .column {
+                width: 100%;
+                margin-left: 0px;
+                .text {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
   footer {
     .container {
@@ -981,6 +1027,7 @@ footer {
         margin-left: 20px;
         margin-right: 20px;
         text-align: center;
+        padding: 10px 0;
         h4 {
           margin-top: 20px;
         }
