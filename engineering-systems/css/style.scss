@@ -66,6 +66,184 @@ body {
   margin: 0 auto;
 }
 
+/// Начало всплывающего окна
+/* Контейнер */
+.modal {
+  /* Слой перекрытия */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 10000;
+  /* Трансформации прозрачности при открытии  */
+  -webkit-transition: opacity 500ms ease-in;
+  -moz-transition: opacity 500ms ease-in;
+  transition: opacity 500ms ease-in;
+  /* Скрываем изначально */
+  opacity: 0;
+  pointer-events: none;
+  h2 {
+    font-size: 36px;
+    padding: 0 0 20px;
+  }
+  h3 {
+    font-size: 30px;
+    color: rgb(25, 25, 25);
+    font-weight: bold;
+    text-align: center;
+  }
+  .info {
+    font-size: 13px;
+    color: rgb(125, 125, 125);
+    line-height: 1.769;
+    margin: 15px 20px 20px;
+  }
+  .control_label {
+    font-size: 13px;
+    color: rgb(65, 65, 65);
+    line-height: 1.769;
+  }
+  .input-phone, .input-name {
+    padding: 10px 0 20px;
+    input[type="text"] {
+      border-style: solid;
+      border-width: 1px;
+      border-color: #dadada;
+      border-radius: 3px;
+      background-color: #f7f7f7;
+      font-size: 20px;
+      width: 100%;
+      height: 66px;
+      padding: 0px 20px;
+    }
+  }
+  .btn {
+    button {
+      margin-top: 20px;
+      border-radius: 30px;
+      background-color: #6195e3;
+      border: 0;
+      width: 100%;
+      height: 62px;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 0px 20px;
+      text-transform: uppercase;
+      color: #ffffff;
+      &:hover {
+        background-color: #0688fa;
+      }
+    }
+  }
+
+  .modal_title {
+    display: block;
+    text-align: center;
+    font-size: 22pt;
+  }
+}
+/* Показываем модальное окно */
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Содержание */
+.modal > div {
+  width: 437px;
+  background: #ffffff;
+  position: relative;
+  margin: 13% auto;
+
+  /* По умолчанию минимизируем анимацию */
+  -webkit-animation: minimise 500ms linear;
+
+  /* Придаем хороший вид */
+  padding: 30px 40px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* Изменяем анимацию при открытии модального окна*/
+.modal:target > div {
+  -webkit-animation-name: bounce;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: scale3d(0.1,0.1,1);
+  }
+  55% {
+    -webkit-transform: scale3d(1.08,1.08,1);
+  }
+  75% {
+    -webkit-transform: scale3d(0.95,0.95,1);
+  }
+  100% {
+    -webkit-transform: scale3d(1,1,1);
+  }
+}
+
+@-webkit-keyframes minimise {
+  0% {
+    -webkit-transform: scale3d(1,1,1);
+  }
+  100% {
+    -webkit-transform: scale3d(0.1,0.1,1);
+  }
+}
+
+/* Ссылка на кнопку Закрыть */
+.modal a[href="#close"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: transparent;
+}
+
+/* Сбрасываем изменения */
+.modal a[href="#close"]:focus {
+  outline: none;
+}
+
+/* Создаем кнопку Закрыть */
+.modal a[href="#close"]:after {
+  content: '\00D7';
+  font-size: 50px;
+  font-weight: 100;
+
+  /* Позиционируем */
+  position: absolute;
+  right: -30px;
+  top: -22px;
+
+  /* Стили */
+  text-decoration: none;
+  color: #a7a7a7;
+}
+
+.modal a[href="#close"]:focus:after,
+.modal a[href="#close"]:hover:after {
+  -webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+}
+
+.modal a[href="#close"]:focus:after {
+  outline: 0px solid #000;
+}
+
+/* Открываем модальное окно */
+a.openModal {
+
+}
+a.openModal:hover,
+a.openModal:focus {
+}
+/// Конец всплывающего окна
+
+
 header {
   .container {
     .header-top {
@@ -98,7 +276,7 @@ header {
             padding: 14px 15px;
             font-size: 13px;
             color: #191919;
-            transition: .2s linear;
+            cursor: pointer;
           }
 
           .top-menu > li > a {
@@ -113,7 +291,7 @@ header {
           }
 
           .top-menu > li > a:hover {
-            color: #d02718;
+            color: gray;
             border-bottom: 1px rgba(255, 255, 255, 1) solid;
           }
 
@@ -223,7 +401,7 @@ header {
           }
 
           .submenu li a:hover, .submenu-standart li a:hover {
-            color: #f1460a;
+            color: gray;
           }
 
           .submenu h3 {
@@ -285,7 +463,394 @@ header {
     }
   }
 }
+main {
+
+}
+footer {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .column {
+      width: 16%;
+      img {
+        margin-bottom: 14px;
+      }
+      .copyright {
+        font-size: 11px;
+        font-family: "Gilroy Regular";
+        color: rgb(140, 140, 140);
+        line-height: 1.545;
+        a {
+          color: #8c8c8c;
+          text-decoration: underline;
+          &:hover {
+            color: black;
+          }
+        }
+      }
+      h4 {
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+      }
+      li {
+        list-style: none;
+        a {
+          color: #8c8c8c;
+          font-size: 12px;
+          line-height: 1.867;
+          &:hover {
+            color: black;
+          }
+        }
+      }
+      .tel_btn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .tel {
+          display: flex;
+          align-items: center;
+          i.phone-icon {
+            display: block;
+            margin-right: 10px;
+            width: 14px;
+            height: 14px;
+            background: no-repeat center url(../img/tel.svg);
+          }
+          a {
+            font-size: 16px;
+            color: rgb(25, 25, 25);
+            font-weight: bold;
+            &:hover {
+              color: gray;
+            }
+          }
+
+        }
+        button {
+          border-radius: 20px;
+          background-color: #6195e3;
+          border: 0;
+          left: 1418px;
+          top: 26px;
+          width: 141px;
+          height: 37px;
+          cursor: pointer;
+          text-transform: uppercase;
+          .btn {
+            font-size: 10px;
+            color: rgb(255, 255, 255);
+          }
+          &:hover {
+            background-color: #0688fa;
+          }
+        }
+      }
+
+      .address, .time {
+        color: #191919;
+        font-size: 13px;
+        line-height: 2.8;
+      }
+      .mail {
+        a {
+          color: #191919;
+          font-size: 13px;
+          line-height: 2.8;
+          &:hover {
+            color: black;
+          }
+        }
+      }
+
+    }
+    .column:first-child {
+      width: 26%;
+      margin-right: 60px;
+
+    }
+    .column:last-child {
+      width: 26%;
+      margin-left: 60px;
+    }
+  }
+}
+
+/*======================================================*/
+/*======================================================*/
+/*======================================================*/
 
 @media all and (max-width: 670px) {
 
+  .modal > div {
+    width: 100%;
+    margin: 13% auto;
+    /* По умолчанию минимизируем анимацию */
+    -webkit-animation: minimise 500ms linear;
+    /* Придаем хороший вид */
+    padding: 20px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .modal {
+    h3 {
+      font-size: 26px;
+    }
+    .info {
+      margin: 10px;
+      text-align: center;
+    }
+  }
+  .modal a[href="#close"]:after {
+    /* Позиционируем */
+    right: 3px;
+    top: -10px;
+  }
+  .modal .input-phone input[type="text"], .modal .input-name input[type="text"] {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dadada;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    font-size: 20px;
+    width: 100%;
+    height: 46px;
+    padding: 0px 20px;
+  }
+  .modal .btn button {
+    margin-top: 0px;
+    height: 42px;
+  }
+
+  header {
+    .container {
+      .header-top {
+        display: block;
+        height: 62px;
+        .logo {
+          overflow: hidden;
+          width: 52px;
+          float: left;
+          margin: 6px 17px 1px 7px;
+        }
+        button {
+          display: none;
+        }
+        .tel {
+          padding-top: 22px;
+        }
+        .nav-container {
+          nav {
+            position: initial;
+            // Бургер меню меню для мобильных
+
+            /* скрываем чекбокс */
+            #menu-toggle {
+              opacity: 0;
+            }
+
+            /* стилизуем кнопку */
+            .menu-btn {
+              display: flex;
+              /* используем flex для центрирования содержимого */
+              align-items: center;
+              /* центрируем содержимое кнопки */
+              position: absolute;
+              top: 18px;
+              right: 20px;
+              width: 25px;
+              height: 25px;
+              cursor: pointer;
+              z-index: 6;
+            }
+
+            /* добавляем "гамбургер" */
+            .menu-btn > span,
+            .menu-btn > span::before,
+            .menu-btn > span::after {
+              display: block;
+              position: absolute;
+              width: 25px;
+              height: 2px;
+              background-color: #6195e3;;
+            }
+
+            .menu-btn > span::before {
+              content: '';
+              top: -6px;
+            }
+
+            .menu-btn > span::after {
+              content: '';
+              top: 6px;
+            }
+
+            /* контейнер меню */
+            .top-menu {
+              display: block;
+              position: absolute;
+              visibility: hidden;
+              top: 63px;
+              left: 0;
+              width: 100%;
+              margin: 0;
+              padding: 5px 0 0 0;
+              list-style: none;
+              background-color: #ffffff;
+              box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+              z-index: 4;
+
+              .menu-item {
+                padding: 0px 15px;
+                line-height: 1.4;
+              }
+              .menu-item.active {
+                background-color: #CFD8DC;
+              }
+            }
+
+            /* элементы меню */
+            .menu-link {
+              display: block;
+              color: #383838;
+              font-weight: 100;
+              text-decoration: none;
+            }
+
+            .menu-link:hover {
+              background-color: #CFD8DC;
+            }
+
+            #menu-toggle:checked ~ .menu-btn > span {
+              transform: rotate(45deg);
+            }
+
+            #menu-toggle:checked ~ .menu-btn > span::before {
+              top: 0;
+              transform: rotate(0);
+            }
+
+            #menu-toggle:checked ~ .menu-btn > span::after {
+              top: 0;
+              transform: rotate(90deg);
+            }
+
+            #menu-toggle:checked ~ .top-menu {
+              visibility: visible;
+              left: 0;
+            }
+
+            .menu-btn > span,
+            .menu-btn > span::before,
+            .menu-btn > span::after {
+              transition-duration: .1s;
+            }
+
+            .top-menu li {
+              width: 100%;
+              height: auto !important;
+            }
+
+            .top-menu > li {
+              border-bottom: 1px solid #e5e5e5;
+            }
+
+            .top-menu > li > a {
+              padding: 18px;
+              transition: 0s;
+              color: #383838;
+            }
+
+            .top-menu > li > a:hover {
+              color: black;
+            }
+
+            .dropright:after {
+              content: "\f107";
+            }
+
+            .submenu,
+            .submenu-standart,
+            .submenu-standart-submenu {
+              position: relative;
+              display: none;
+              box-shadow: none;
+              padding: 0;
+              background: rgba(0, 0, 0, .02);
+              left: 0;
+            }
+
+            .submenu-standart li {
+              padding: 0px;
+            }
+
+            .submenu-standart li a {
+              padding: 12px 18px;
+            }
+
+            .submenu > li {
+              border-right: none;
+              border-bottom: 1px solid #e5e5e5;
+              padding: 18px;
+            }
+
+            .submenu h3 {
+              margin: 0 0 10px
+            }
+
+            .submenu .image-header {
+              margin: 10px 0;
+            }
+
+            .submenu li:last-of-type {
+              border-bottom: none
+            }
+
+            .top-menu > li:hover .submenu,
+            .top-menu > li:hover .submenu-standart,
+            .top-menu .submenu-standart > li:hover .submenu-standart-submenu{
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .container {
+      .column, .column:first-child, .column:last-child {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        h4 {
+          margin-top: 20px;
+        }
+        .tel_btn {
+          justify-content: center;
+          display: inline-block;
+          margin-top: 20px;
+          button {
+            margin-top: 20px;
+          }
+        }
+        .copyright {
+          margin-bottom: 20px;
+        }
+      }
+      .column.order {
+        order: 2;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 320px) {
+
+  .modal > div {
+    margin: 3% auto;
+  }
 }

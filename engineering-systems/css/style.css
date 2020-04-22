@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Gilroy Light';
   src: url("Gilroy-Light.eot");
@@ -48,6 +49,140 @@ body {
   max-width: 1200px;
   margin: 0 auto; }
 
+/* Контейнер */
+.modal {
+  /* Слой перекрытия */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  /* Трансформации прозрачности при открытии  */
+  -webkit-transition: opacity 500ms ease-in;
+  -moz-transition: opacity 500ms ease-in;
+  transition: opacity 500ms ease-in;
+  /* Скрываем изначально */
+  opacity: 0;
+  pointer-events: none; }
+  .modal h2 {
+    font-size: 36px;
+    padding: 0 0 20px; }
+  .modal h3 {
+    font-size: 30px;
+    color: #191919;
+    font-weight: bold;
+    text-align: center; }
+  .modal .info {
+    font-size: 13px;
+    color: #7d7d7d;
+    line-height: 1.769;
+    margin: 15px 20px 20px; }
+  .modal .control_label {
+    font-size: 13px;
+    color: #414141;
+    line-height: 1.769; }
+  .modal .input-phone, .modal .input-name {
+    padding: 10px 0 20px; }
+    .modal .input-phone input[type="text"], .modal .input-name input[type="text"] {
+      border-style: solid;
+      border-width: 1px;
+      border-color: #dadada;
+      border-radius: 3px;
+      background-color: #f7f7f7;
+      font-size: 20px;
+      width: 100%;
+      height: 66px;
+      padding: 0px 20px; }
+  .modal .btn button {
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #6195e3;
+    border: 0;
+    width: 100%;
+    height: 62px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    color: #ffffff; }
+    .modal .btn button:hover {
+      background-color: #0688fa; }
+  .modal .modal_title {
+    display: block;
+    text-align: center;
+    font-size: 22pt; }
+
+/* Показываем модальное окно */
+.modal:target {
+  opacity: 1;
+  pointer-events: auto; }
+
+/* Содержание */
+.modal > div {
+  width: 437px;
+  background: #ffffff;
+  position: relative;
+  margin: 13% auto;
+  /* По умолчанию минимизируем анимацию */
+  -webkit-animation: minimise 500ms linear;
+  /* Придаем хороший вид */
+  padding: 30px 40px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+/* Изменяем анимацию при открытии модального окна*/
+.modal:target > div {
+  -webkit-animation-name: bounce; }
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: scale3d(0.1, 0.1, 1); }
+  55% {
+    -webkit-transform: scale3d(1.08, 1.08, 1); }
+  75% {
+    -webkit-transform: scale3d(0.95, 0.95, 1); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1); } }
+@-webkit-keyframes minimise {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1); }
+  100% {
+    -webkit-transform: scale3d(0.1, 0.1, 1); } }
+/* Ссылка на кнопку Закрыть */
+.modal a[href="#close"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: transparent; }
+
+/* Сбрасываем изменения */
+.modal a[href="#close"]:focus {
+  outline: none; }
+
+/* Создаем кнопку Закрыть */
+.modal a[href="#close"]:after {
+  content: '\00D7';
+  font-size: 50px;
+  font-weight: 100;
+  /* Позиционируем */
+  position: absolute;
+  right: -30px;
+  top: -22px;
+  /* Стили */
+  text-decoration: none;
+  color: #a7a7a7; }
+
+.modal a[href="#close"]:focus:after,
+.modal a[href="#close"]:hover:after {
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1); }
+
+.modal a[href="#close"]:focus:after {
+  outline: 0px solid #000; }
+
+/* Открываем модальное окно */
 header .container .header-top {
   display: flex;
   flex-wrap: wrap;
@@ -70,7 +205,7 @@ header .container .header-top {
     padding: 14px 15px;
     font-size: 13px;
     color: #191919;
-    transition: .2s linear; }
+    cursor: pointer; }
   header .container .header-top .nav-container nav .top-menu > li > a {
     font-size: 13px;
     color: #191919;
@@ -80,7 +215,7 @@ header .container .header-top {
     padding: 14px 15px;
     font-size: 13px; }
   header .container .header-top .nav-container nav .top-menu > li > a:hover {
-    color: #d02718;
+    color: gray;
     border-bottom: 1px white solid; }
   header .container .header-top .nav-container nav .dropdown:after {
     content: "\f107";
@@ -159,7 +294,7 @@ header .container .header-top {
   header .container .header-top .nav-container nav .submenu li .link-image {
     padding: 0; }
   header .container .header-top .nav-container nav .submenu li a:hover, header .container .header-top .nav-container nav .submenu-standart li a:hover {
-    color: #f1460a; }
+    color: gray; }
   header .container .header-top .nav-container nav .submenu h3 {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
@@ -199,5 +334,276 @@ header .container .header-top {
       color: white; }
     header .container .header-top button:hover {
       background-color: #0688fa; }
+
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  footer .container .column {
+    width: 16%; }
+    footer .container .column img {
+      margin-bottom: 14px; }
+    footer .container .column .copyright {
+      font-size: 11px;
+      font-family: "Gilroy Regular";
+      color: #8c8c8c;
+      line-height: 1.545; }
+      footer .container .column .copyright a {
+        color: #8c8c8c;
+        text-decoration: underline; }
+        footer .container .column .copyright a:hover {
+          color: black; }
+    footer .container .column h4 {
+      font-size: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 14px; }
+    footer .container .column li {
+      list-style: none; }
+      footer .container .column li a {
+        color: #8c8c8c;
+        font-size: 12px;
+        line-height: 1.867; }
+        footer .container .column li a:hover {
+          color: black; }
+    footer .container .column .tel_btn {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      footer .container .column .tel_btn .tel {
+        display: flex;
+        align-items: center; }
+        footer .container .column .tel_btn .tel i.phone-icon {
+          display: block;
+          margin-right: 10px;
+          width: 14px;
+          height: 14px;
+          background: no-repeat center url(../img/tel.svg); }
+        footer .container .column .tel_btn .tel a {
+          font-size: 16px;
+          color: #191919;
+          font-weight: bold; }
+          footer .container .column .tel_btn .tel a:hover {
+            color: gray; }
+      footer .container .column .tel_btn button {
+        border-radius: 20px;
+        background-color: #6195e3;
+        border: 0;
+        left: 1418px;
+        top: 26px;
+        width: 141px;
+        height: 37px;
+        cursor: pointer;
+        text-transform: uppercase; }
+        footer .container .column .tel_btn button .btn {
+          font-size: 10px;
+          color: white; }
+        footer .container .column .tel_btn button:hover {
+          background-color: #0688fa; }
+    footer .container .column .address, footer .container .column .time {
+      color: #191919;
+      font-size: 13px;
+      line-height: 2.8; }
+    footer .container .column .mail a {
+      color: #191919;
+      font-size: 13px;
+      line-height: 2.8; }
+      footer .container .column .mail a:hover {
+        color: black; }
+  footer .container .column:first-child {
+    width: 26%;
+    margin-right: 60px; }
+  footer .container .column:last-child {
+    width: 26%;
+    margin-left: 60px; }
+
+/*======================================================*/
+/*======================================================*/
+/*======================================================*/
+@media all and (max-width: 670px) {
+  .modal > div {
+    width: 100%;
+    margin: 13% auto;
+    /* По умолчанию минимизируем анимацию */
+    -webkit-animation: minimise 500ms linear;
+    /* Придаем хороший вид */
+    padding: 20px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+
+  .modal h3 {
+    font-size: 26px; }
+  .modal .info {
+    margin: 10px;
+    text-align: center; }
+
+  .modal a[href="#close"]:after {
+    /* Позиционируем */
+    right: 3px;
+    top: -10px; }
+
+  .modal .input-phone input[type="text"], .modal .input-name input[type="text"] {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dadada;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    font-size: 20px;
+    width: 100%;
+    height: 46px;
+    padding: 0px 20px; }
+
+  .modal .btn button {
+    margin-top: 0px;
+    height: 42px; }
+
+  header .container .header-top {
+    display: block;
+    height: 62px; }
+    header .container .header-top .logo {
+      overflow: hidden;
+      width: 52px;
+      float: left;
+      margin: 6px 17px 1px 7px; }
+    header .container .header-top button {
+      display: none; }
+    header .container .header-top .tel {
+      padding-top: 22px; }
+    header .container .header-top .nav-container nav {
+      position: initial;
+      /* скрываем чекбокс */
+      /* стилизуем кнопку */
+      /* добавляем "гамбургер" */
+      /* контейнер меню */
+      /* элементы меню */ }
+      header .container .header-top .nav-container nav #menu-toggle {
+        opacity: 0; }
+      header .container .header-top .nav-container nav .menu-btn {
+        display: flex;
+        /* используем flex для центрирования содержимого */
+        align-items: center;
+        /* центрируем содержимое кнопки */
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        z-index: 6; }
+      header .container .header-top .nav-container nav .menu-btn > span,
+      header .container .header-top .nav-container nav .menu-btn > span::before,
+      header .container .header-top .nav-container nav .menu-btn > span::after {
+        display: block;
+        position: absolute;
+        width: 25px;
+        height: 2px;
+        background-color: #6195e3; }
+      header .container .header-top .nav-container nav .menu-btn > span::before {
+        content: '';
+        top: -6px; }
+      header .container .header-top .nav-container nav .menu-btn > span::after {
+        content: '';
+        top: 6px; }
+      header .container .header-top .nav-container nav .top-menu {
+        display: block;
+        position: absolute;
+        visibility: hidden;
+        top: 63px;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 5px 0 0 0;
+        list-style: none;
+        background-color: #ffffff;
+        box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+        z-index: 4; }
+        header .container .header-top .nav-container nav .top-menu .menu-item {
+          padding: 0px 15px;
+          line-height: 1.4; }
+        header .container .header-top .nav-container nav .top-menu .menu-item.active {
+          background-color: #CFD8DC; }
+      header .container .header-top .nav-container nav .menu-link {
+        display: block;
+        color: #383838;
+        font-weight: 100;
+        text-decoration: none; }
+      header .container .header-top .nav-container nav .menu-link:hover {
+        background-color: #CFD8DC; }
+      header .container .header-top .nav-container nav #menu-toggle:checked ~ .menu-btn > span {
+        transform: rotate(45deg); }
+      header .container .header-top .nav-container nav #menu-toggle:checked ~ .menu-btn > span::before {
+        top: 0;
+        transform: rotate(0); }
+      header .container .header-top .nav-container nav #menu-toggle:checked ~ .menu-btn > span::after {
+        top: 0;
+        transform: rotate(90deg); }
+      header .container .header-top .nav-container nav #menu-toggle:checked ~ .top-menu {
+        visibility: visible;
+        left: 0; }
+      header .container .header-top .nav-container nav .menu-btn > span,
+      header .container .header-top .nav-container nav .menu-btn > span::before,
+      header .container .header-top .nav-container nav .menu-btn > span::after {
+        transition-duration: .1s; }
+      header .container .header-top .nav-container nav .top-menu li {
+        width: 100%;
+        height: auto !important; }
+      header .container .header-top .nav-container nav .top-menu > li {
+        border-bottom: 1px solid #e5e5e5; }
+      header .container .header-top .nav-container nav .top-menu > li > a {
+        padding: 18px;
+        transition: 0s;
+        color: #383838; }
+      header .container .header-top .nav-container nav .top-menu > li > a:hover {
+        color: black; }
+      header .container .header-top .nav-container nav .dropright:after {
+        content: "\f107"; }
+      header .container .header-top .nav-container nav .submenu,
+      header .container .header-top .nav-container nav .submenu-standart,
+      header .container .header-top .nav-container nav .submenu-standart-submenu {
+        position: relative;
+        display: none;
+        box-shadow: none;
+        padding: 0;
+        background: rgba(0, 0, 0, 0.02);
+        left: 0; }
+      header .container .header-top .nav-container nav .submenu-standart li {
+        padding: 0px; }
+      header .container .header-top .nav-container nav .submenu-standart li a {
+        padding: 12px 18px; }
+      header .container .header-top .nav-container nav .submenu > li {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding: 18px; }
+      header .container .header-top .nav-container nav .submenu h3 {
+        margin: 0 0 10px; }
+      header .container .header-top .nav-container nav .submenu .image-header {
+        margin: 10px 0; }
+      header .container .header-top .nav-container nav .submenu li:last-of-type {
+        border-bottom: none; }
+      header .container .header-top .nav-container nav .top-menu > li:hover .submenu,
+      header .container .header-top .nav-container nav .top-menu > li:hover .submenu-standart,
+      header .container .header-top .nav-container nav .top-menu .submenu-standart > li:hover .submenu-standart-submenu {
+        display: block; }
+
+  footer .container .column, footer .container .column:first-child, footer .container .column:last-child {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center; }
+    footer .container .column h4, footer .container .column:first-child h4, footer .container .column:last-child h4 {
+      margin-top: 20px; }
+    footer .container .column .tel_btn, footer .container .column:first-child .tel_btn, footer .container .column:last-child .tel_btn {
+      justify-content: center;
+      display: inline-block;
+      margin-top: 20px; }
+      footer .container .column .tel_btn button, footer .container .column:first-child .tel_btn button, footer .container .column:last-child .tel_btn button {
+        margin-top: 20px; }
+    footer .container .column .copyright, footer .container .column:first-child .copyright, footer .container .column:last-child .copyright {
+      margin-bottom: 20px; }
+  footer .container .column.order {
+    order: 2; } }
+@media all and (max-width: 320px) {
+  .modal > div {
+    margin: 3% auto; } }
 
 /*# sourceMappingURL=style.css.map */
