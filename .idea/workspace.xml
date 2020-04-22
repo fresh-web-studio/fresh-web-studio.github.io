@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engineering-systems/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineering-systems/psd/0. Главная.psd" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/psd/0. Главная.psd" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -70,9 +69,12 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/engineering-systems/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+                <state relative-caret-position="380">
+                  <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
                   <folding>
+                    <element signature="e#2635#2641#0" expanded="true" />
+                    <element signature="e#2688#2694#0" expanded="true" />
+                    <element signature="e#5453#5459#0" expanded="true" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -83,8 +85,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="577">
-                  <caret line="571" column="26" selection-start-line="571" selection-start-column="26" selection-end-line="571" selection-end-column="26" />
+                <state relative-caret-position="195">
+                  <caret line="961" column="19" selection-start-line="961" selection-start-column="19" selection-end-line="961" selection-end-column="19" />
                   <folding>
                     <element signature="e#1595#1601#0" />
                     <element signature="e#1770#1788#0" />
@@ -496,14 +498,7 @@
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
       <workItem from="1586508125627" duration="137557000" />
-      <workItem from="1587488832423" duration="24530000" />
-    </task>
-    <task id="LOCAL-00566" summary="Обновление">
-      <created>1586781446332</created>
-      <option name="number" value="00566" />
-      <option name="presentableId" value="LOCAL-00566" />
-      <option name="project" value="LOCAL" />
-      <updated>1586781446332</updated>
+      <workItem from="1587488832423" duration="26049000" />
     </task>
     <task id="LOCAL-00567" summary="Обновление">
       <created>1586782177492</created>
@@ -841,11 +836,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587573923063</updated>
     </task>
-    <option name="localTasksCounter" value="615" />
+    <task id="LOCAL-00615" summary="Обновление">
+      <created>1587585410830</created>
+      <option name="number" value="00615" />
+      <option name="presentableId" value="LOCAL-00615" />
+      <option name="project" value="LOCAL" />
+      <updated>1587585410830</updated>
+    </task>
+    <option name="localTasksCounter" value="616" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="916761000" />
+    <option name="totallyTimeSpent" value="918280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="724" y="-1408" width="1158" height="1321" extended-state="0" />
@@ -1352,9 +1354,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+        <state relative-caret-position="380">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
           <folding>
+            <element signature="e#2635#2641#0" expanded="true" />
+            <element signature="e#2688#2694#0" expanded="true" />
+            <element signature="e#5453#5459#0" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -1363,8 +1368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="571" column="26" selection-start-line="571" selection-start-column="26" selection-end-line="571" selection-end-column="26" />
+        <state relative-caret-position="195">
+          <caret line="961" column="19" selection-start-line="961" selection-start-column="19" selection-end-line="961" selection-end-column="19" />
           <folding>
             <element signature="e#1595#1601#0" />
             <element signature="e#1770#1788#0" />
