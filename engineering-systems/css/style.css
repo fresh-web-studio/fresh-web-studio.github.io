@@ -441,6 +441,50 @@ main .prices-info {
             color: #202020;
             line-height: 1.833;
             width: 100%; }
+main .guarantees .container .row {
+  margin: 90px 0px; }
+  main .guarantees .container .row h3 {
+    font-size: 40px;
+    color: #201f1f;
+    font-weight: bold;
+    line-height: 1.625; }
+  main .guarantees .container .row img.line {
+    margin-top: 15px;
+    margin-bottom: 20px; }
+  main .guarantees .container .row .guarantees-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .guarantees .container .row .guarantees-list .guarantees-item {
+      width: 19%; }
+      main .guarantees .container .row .guarantees-list .guarantees-item img {
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      main .guarantees .container .row .guarantees-list .guarantees-item .info {
+        font-size: 15px;
+        color: #201f1f;
+        line-height: 1.867; }
+main .order-estimate {
+  background-image: url("../img/order-estimate-bg.jpg");
+  background-position: center center;
+  /* Положение фона */
+  background-repeat: no-repeat;
+  /* Отменяем повторение фона */
+  height: 889px; }
+  main .order-estimate .container .row {
+    padding: 100px 0;
+    width: 40%; }
+    main .order-estimate .container .row h4 {
+      font-size: 38px;
+      color: white;
+      font-weight: bold;
+      line-height: 1.263; }
+    main .order-estimate .container .row .text {
+      margin-top: 20px;
+      margin-bottom: 60px;
+      font-size: 16px;
+      color: white;
+      line-height: 1.813; }
 
 footer .container {
   display: flex;
@@ -713,8 +757,15 @@ footer .container {
       margin-bottom: 20px; }
       main .prices-info .container .prices .items-list .item img {
         width: 100%; }
-      main .prices-info .container .prices .items-list .item .row .text div {
-        font-size: 16px; }
+      main .prices-info .container .prices .items-list .item .row {
+        justify-content: center; }
+        main .prices-info .container .prices .items-list .item .row .text {
+          width: 100%;
+          text-align: center; }
+          main .prices-info .container .prices .items-list .item .row .text div {
+            font-size: 16px; }
+        main .prices-info .container .prices .items-list .item .row button {
+          margin-top: 15px; }
   main .prices-info .container .info {
     padding: 50px 20px;
     text-align: center; }
@@ -728,6 +779,19 @@ footer .container {
         margin-left: 0px; }
         main .prices-info .container .info .column .row .column .text {
           font-size: 14px; }
+  main .guarantees .container .row {
+    text-align: center;
+    padding: 0 20px; }
+    main .guarantees .container .row h3 {
+      font-size: 32px;
+      line-height: 1.2; }
+    main .guarantees .container .row .guarantees-list .guarantees-item {
+      width: 100%; }
+      main .guarantees .container .row .guarantees-list .guarantees-item img {
+        margin-top: 30px; }
+      main .guarantees .container .row .guarantees-list .guarantees-item .info {
+        padding: 0 20px;
+        font-size: 18px; }
 
   footer .container .column, footer .container .column:first-child, footer .container .column:last-child {
     width: 100%;

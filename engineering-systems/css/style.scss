@@ -601,7 +601,69 @@ main {
       }
     }
   }
+  .guarantees {
+    .container {
+      .row {
+        margin: 90px 0px;
+        h3 {
+          font-size: 40px;
+          color: rgb(32, 31, 31);
+          font-weight: bold;
+          line-height: 1.625;
+        }
+        img.line {
+          margin-top: 15px;
+          margin-bottom: 20px;
+        }
+        .guarantees-list {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          .guarantees-item {
+            width: 19%;
+            img {
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+            .info {
+              font-size: 15px;
+              color: rgb(32, 31, 31);
+              line-height: 1.867;
+            }
 
+          }
+        }
+      }
+    }
+  }
+  .order-estimate {
+    background-image: url("../img/order-estimate-bg.jpg");
+    background-position: center center; /* Положение фона */
+    background-repeat: no-repeat; /* Отменяем повторение фона */
+    height: 889px;
+    .container {
+      .row {
+        padding: 100px 0;
+        width: 40%;
+        h4 {
+          font-size: 38px;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          line-height: 1.263;
+        }
+        .text {
+          margin-top: 20px;
+          margin-bottom: 60px;
+          font-size: 16px;
+          color: rgb(255, 255, 255);
+          line-height: 1.813;
+        }
+        .form-vertical {
+
+        }
+      }
+    }
+  }
 }
 footer {
   .container {
@@ -988,10 +1050,16 @@ footer {
                 width: 100%;
               }
               .row {
+                justify-content: center;
                 .text {
+                  width: 100%;
+                  text-align: center;
                   div {
                     font-size: 16px;
                   }
+                }
+                button {
+                  margin-top: 15px;
                 }
               }
             }
@@ -1013,6 +1081,32 @@ footer {
                 .text {
                   font-size: 14px;
                 }
+              }
+            }
+          }
+        }
+      }
+    }
+    .guarantees {
+      .container {
+        .row {
+          text-align: center;
+          padding: 0 20px;
+          h3 {
+            font-size: 32px;
+            line-height: 1.2;
+          }
+          img.line {
+          }
+          .guarantees-list {
+            .guarantees-item {
+              width: 100%;
+              img {
+                margin-top: 30px;
+              }
+              .info {
+                padding: 0 20px;
+                font-size: 18px;
               }
             }
           }
@@ -1055,4 +1149,24 @@ footer {
   .modal > div {
     margin: 3% auto;
   }
+  main {
+    .prices-info {
+      .container {
+        .prices {
+          .items-list {
+            .item {
+              .row {
+                .text {
+
+                }
+                button {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
