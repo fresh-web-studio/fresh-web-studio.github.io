@@ -817,39 +817,41 @@ main {
           background-repeat: no-repeat;
           background-position: top center;
           height: 387px;
-          padding: 50px 70px;
-
-          h1 {
-            font-size: 35px;
-            color: rgb(25, 25, 25);
-            font-weight: bold;
-            line-height: 1.857;
-            width: 55%;
-          }
-          .text {
-            font-size: 14px;
-            color: rgb(25, 25, 25);
-            line-height: 1.786;
-            width: 55%;
-            margin-bottom: 36px;
-          }
-          button {
-            border-radius: 24px;
-            background-color: #6195e3;
-            border: 0;
-            width: 196px;
-            height: 48px;
-            cursor: pointer;
-            text-transform: uppercase;
-            .btn {
-              font-size: 14px;
-              color: white;
+          .blackout {
+            .blackout__body {
+              padding: 50px 70px;
+              h1 {
+                font-size: 35px;
+                color: rgb(25, 25, 25);
+                font-weight: bold;
+                line-height: 1.857;
+                width: 55%;
+              }
+              .text {
+                font-size: 14px;
+                color: rgb(25, 25, 25);
+                line-height: 1.786;
+                width: 55%;
+                margin-bottom: 36px;
+              }
+              button {
+                border-radius: 24px;
+                background-color: #6195e3;
+                border: 0;
+                width: 196px;
+                height: 48px;
+                cursor: pointer;
+                text-transform: uppercase;
+                .btn {
+                  font-size: 14px;
+                  color: white;
+                }
+                &:hover {
+                  background-color: #0688fa;
+                }
+              }
             }
-            &:hover {
-              background-color: #0688fa;
-            }
           }
-
         }
         .price {
           background-color: #ffffff;
@@ -1547,18 +1549,30 @@ footer {
           overflow: visible;
           .banner {
             background-position: right center;
-            padding: 50px 20px;
             text-align: center;
             height: 100%;
-            h1 {
-              width: 100%;
-              font-size: 30px;
-              line-height: 1.2;
+            .blackout {
+              background: rgba(0, 0, 0, 0.5);
+              .blackout__body {
+                padding: 30px 20px;
+                h1 {
+                  width: 100%;
+                  font-size: 26px;
+                  line-height: 1.2;
+                  color: #ffffff;
+                }
+                .text {
+                  width: 100%;
+                  color: #ffffff;
+                  font-size: 14px;
+                  line-height: 1.4;
+                  margin-bottom: 20px;
+                }
+              }
             }
-            .text {
-              width: 100%;
+          }
+          .price {
 
-            }
           }
         }
       }
