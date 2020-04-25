@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engineering-systems/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineering-systems/psd/0. Главная.psd" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/psd/0. Главная.psd" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -70,8 +69,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/engineering-systems/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="183" column="36" selection-start-line="183" selection-start-column="36" selection-end-line="183" selection-end-column="36" />
+                <state relative-caret-position="307">
+                  <caret line="176" column="30" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
                   <folding>
                     <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="e#2635#2641#0" expanded="true" />
@@ -79,6 +78,7 @@
                     <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="e#5453#5459#0" expanded="true" />
                     <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#7621#7627#0" expanded="true" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -89,8 +89,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="678">
-                  <caret line="661" column="10" selection-start-line="661" selection-start-column="10" selection-end-line="661" selection-end-column="10" />
+                <state relative-caret-position="153">
+                  <caret line="1256" column="19" selection-start-line="1256" selection-start-column="19" selection-end-line="1256" selection-end-column="19" />
                   <folding>
                     <element signature="e#1595#1601#0" />
                     <element signature="e#1770#1788#0" />
@@ -98,6 +98,9 @@
                     <element signature="e#10083#10266#0" />
                     <element signature="e#10612#11011#0" />
                     <element signature="e#13459#13773#0" />
+                    <element signature="e#14215#18002#0" />
+                    <element signature="e#14895#18127#0" />
+                    <element signature="e#18141#18324#0" />
                     <element signature="e#10119#10986#0" />
                     <element signature="e#10964#11427#0" />
                     <element signature="e#11443#11868#0" />
@@ -108,6 +111,7 @@
                     <element signature="e#21938#21960#0" />
                     <element signature="e#22399#22421#0" />
                     <element signature="e#23050#23064#0" />
+                    <element signature="e#32696#32879#0" />
                     <element signature="e#18202#18212#0" />
                     <element signature="e#23537#23562#0" />
                   </folding>
@@ -122,8 +126,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/repair-boilers/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
-                  <caret line="100" column="22" selection-start-line="100" selection-start-column="20" selection-end-line="120" selection-end-column="27" />
+                <state relative-caret-position="91">
+                  <caret line="98" column="45" lean-forward="true" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
                   <folding>
                     <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -152,8 +156,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="122">
-                  <caret line="515" selection-start-line="515" selection-end-line="516" selection-end-column="66" />
+                <state relative-caret-position="69">
+                  <caret line="1156" column="17" selection-start-line="1156" selection-start-column="17" selection-end-line="1156" selection-end-column="17" />
                   <folding>
                     <element signature="e#6080#9703#0" />
                     <element signature="e#9731#9767#0" />
@@ -165,7 +169,6 @@
                     <element signature="e#20258#21763#0" />
                     <element signature="e#21774#22583#0" />
                     <element signature="e#22595#24154#0" />
-                    <element signature="e#24169#26446#0" />
                     <element signature="e#26463#26972#0" />
                     <element signature="e#26984#27985#0" />
                     <element signature="e#27994#29940#0" />
@@ -388,13 +391,12 @@
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="engineering-systems" type="462c0819:PsiDirectoryNode" />
+              <item name="capital-finance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="engineering-systems" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -513,14 +515,7 @@
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
       <workItem from="1586508125627" duration="137557000" />
-      <workItem from="1587488832423" duration="33643000" />
-    </task>
-    <task id="LOCAL-00569" summary="Обновление">
-      <created>1586783150884</created>
-      <option name="number" value="00569" />
-      <option name="presentableId" value="LOCAL-00569" />
-      <option name="project" value="LOCAL" />
-      <updated>1586783150884</updated>
+      <workItem from="1587488832423" duration="40629000" />
     </task>
     <task id="LOCAL-00570" summary="Обновление">
       <created>1586783319396</created>
@@ -858,11 +853,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587588032888</updated>
     </task>
-    <option name="localTasksCounter" value="618" />
+    <task id="LOCAL-00618" summary="Обновление">
+      <created>1587668878224</created>
+      <option name="number" value="00618" />
+      <option name="presentableId" value="LOCAL-00618" />
+      <option name="project" value="LOCAL" />
+      <updated>1587668878225</updated>
+    </task>
+    <option name="localTasksCounter" value="619" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="925874000" />
+    <option name="totallyTimeSpent" value="932860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="723" y="-1408" width="1158" height="1321" extended-state="0" />
@@ -1281,10 +1283,13 @@
     <entry file="file://$PROJECT_DIR$/engineering-systems/img/prices__photo1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/1.1 Монтаж вентиляции.psd">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="100" column="22" selection-start-line="100" selection-start-column="20" selection-end-line="120" selection-end-column="27" />
+        <state relative-caret-position="91">
+          <caret line="98" column="45" lean-forward="true" selection-start-line="98" selection-start-column="45" selection-end-line="98" selection-end-column="45" />
           <folding>
             <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -1309,30 +1314,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/1.1 Монтаж вентиляции.psd">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="183" column="36" selection-start-line="183" selection-start-column="36" selection-end-line="183" selection-end-column="36" />
-          <folding>
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2635#2641#0" expanded="true" />
-            <element signature="e#2688#2694#0" expanded="true" />
-            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#5453#5459#0" expanded="true" />
-            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="515" selection-start-line="515" selection-end-line="516" selection-end-column="66" />
+        <state relative-caret-position="69">
+          <caret line="1156" column="17" selection-start-line="1156" selection-start-column="17" selection-end-line="1156" selection-end-column="17" />
           <folding>
             <element signature="e#6080#9703#0" />
             <element signature="e#9731#9767#0" />
@@ -1344,7 +1329,6 @@
             <element signature="e#20258#21763#0" />
             <element signature="e#21774#22583#0" />
             <element signature="e#22595#24154#0" />
-            <element signature="e#24169#26446#0" />
             <element signature="e#26463#26972#0" />
             <element signature="e#26984#27985#0" />
             <element signature="e#27994#29940#0" />
@@ -1386,10 +1370,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/engineering-systems/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="176" column="30" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#2635#2641#0" expanded="true" />
+            <element signature="e#2688#2694#0" expanded="true" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#5453#5459#0" expanded="true" />
+            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#7621#7627#0" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="661" column="10" selection-start-line="661" selection-start-column="10" selection-end-line="661" selection-end-column="10" />
+        <state relative-caret-position="153">
+          <caret line="1256" column="19" selection-start-line="1256" selection-start-column="19" selection-end-line="1256" selection-end-column="19" />
           <folding>
             <element signature="e#1595#1601#0" />
             <element signature="e#1770#1788#0" />
@@ -1397,6 +1399,9 @@
             <element signature="e#10083#10266#0" />
             <element signature="e#10612#11011#0" />
             <element signature="e#13459#13773#0" />
+            <element signature="e#14215#18002#0" />
+            <element signature="e#14895#18127#0" />
+            <element signature="e#18141#18324#0" />
             <element signature="e#10119#10986#0" />
             <element signature="e#10964#11427#0" />
             <element signature="e#11443#11868#0" />
@@ -1407,6 +1412,7 @@
             <element signature="e#21938#21960#0" />
             <element signature="e#22399#22421#0" />
             <element signature="e#23050#23064#0" />
+            <element signature="e#32696#32879#0" />
             <element signature="e#18202#18212#0" />
             <element signature="e#23537#23562#0" />
           </folding>

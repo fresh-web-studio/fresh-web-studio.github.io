@@ -659,7 +659,147 @@ main {
           line-height: 1.813;
         }
         .form-vertical {
+          .form-group {
+            .select-box {
+              position: relative;
+              display: block;
+              width: 387px;
+              color: #ffffff;
+              border-bottom: 1px solid #ffffff;
+              border-left: 1px solid #ffffff;
 
+              &__current {
+                position: relative;
+                cursor: pointer;
+                outline: none;
+
+                &:focus {
+                  & + .select-box__list {
+                    opacity: 1;
+
+                    // We have to set "animation-name: none;" to make the list visible (read below how it works)
+
+                    animation-name: none;
+
+                    .select-box__option {
+                      cursor: pointer;
+                    }
+                  }
+
+                  .select-box__icon {
+                    transform: translateY(-50%) rotate(180deg);
+                  }
+                }
+              }
+
+              &__icon {
+                position: absolute;
+                top: 50%;
+                right: 15px;
+                transform: translateY(-50%);
+                width: 20px;
+                opacity: 0.3;
+                transition: 0.2s ease;
+              }
+
+              &__value {
+                display: flex;
+              }
+
+              &__input {
+                display: none;
+
+                &:checked + .select-box__input-text {
+                  display: block;
+                }
+              }
+
+              &__input-text {
+                display: none;
+                width: 100%;
+                margin: 0;
+                padding: 15px;
+              }
+
+              &__list {
+                position: absolute;
+                width: 100%;
+                padding: 0;
+                list-style: none;
+                opacity: 0;
+
+                // We need to use animation with delay.
+                // Otherwise the click event will not have time to run on label, because this element disapears immediately when .select-box__current element loses the focus.
+                // This delay will not be noticed because we set "opacity" to "0".
+                // We also use "animation-fill-mode: forwards" to make the list stay hidden.
+
+                animation-name: HideList;
+                animation-duration: 0.5s;
+                animation-delay: 0.5s;
+                animation-fill-mode: forwards;
+                animation-timing-function: step-start;
+              }
+
+              &__option {
+                display: block;
+                padding: 15px;
+                background-color: #fff;
+                color: #000;
+
+                &:hover,
+                &:focus {
+                  color: #546c84;
+                  background-color: #fbfbfb;
+                }
+              }
+              &__option[for="0"] {
+                color: #838485;
+              }
+
+            }
+
+            @keyframes HideList {
+              from {
+                transform: scaleY(1);
+              }
+              to {
+                transform: scaleY(0);
+              }
+            }
+
+            .input-name input[type="text"], .input-phone input[type="text"] {
+              width: 387px;
+              height: 57px;
+              color: #ffffff;
+              border-top: 0;
+              border-right: 0;
+              border-bottom: 1px solid #ffffff;
+              border-left: 1px solid #ffffff;
+              background: transparent;
+              font-size: 16px;
+              padding-left: 20px;
+              margin-top: 40px;
+            }
+            .input-name input[type="text"]::placeholder, .input-phone input[type="text"]::placeholder {
+              color: #ffffff;
+            }
+            button.btn {
+              margin-top: 40px;
+              background-color: #6195e3;
+              border: 0;
+              width: 387px;
+              height: 50px;
+              cursor: pointer;
+              font-size: 16px;
+              padding: 0px 20px;
+              text-transform: uppercase;
+              color: #ffffff;
+              &:hover {
+                background-color: #0688fa;
+              }
+            }
+
+          }
         }
       }
     }
@@ -1108,6 +1248,103 @@ footer {
                 padding: 0 20px;
                 font-size: 18px;
               }
+            }
+          }
+        }
+      }
+    }
+    .order-estimate {
+      height: 100%;
+      .container {
+        background: rgba(0, 0, 0, 0.5);
+        .row {
+          padding: 80px 20px;
+          width: 100%;
+          h4 {
+            font-size: 28px;
+            line-height: 1.263;
+            text-align: center;
+          }
+          .text {
+            margin-top: 20px;
+            margin-bottom: 60px;
+            font-size: 16px;
+            line-height: 1.813;
+            text-align: center;
+          }
+          .form-vertical {
+            .form-group {
+              .select-box {
+                width: 100%;
+                &__current {
+
+                  &:focus {
+                    & + .select-box__list {
+
+                      .select-box__option {
+
+                      }
+                    }
+
+                    .select-box__icon {
+                    }
+                  }
+                }
+
+                &__icon {
+                }
+
+                &__value {
+                }
+
+                &__input {
+
+                  &:checked + .select-box__input-text {
+                  }
+                }
+
+                &__input-text {
+                }
+
+                &__list {
+
+                }
+
+                &__option {
+
+
+                  &:hover,
+                  &:focus {
+
+                  }
+                }
+                &__option[for="0"] {
+                }
+
+              }
+
+              @keyframes HideList {
+                from {
+                  transform: scaleY(1);
+                }
+                to {
+                  transform: scaleY(0);
+                }
+              }
+
+              .input-name input[type="text"], .input-phone input[type="text"] {
+                width: 100%;
+
+              }
+              .input-name input[type="text"]::placeholder, .input-phone input[type="text"]::placeholder {
+              }
+              button.btn {
+                width: 100%;
+                &:hover {
+                  background-color: #0688fa;
+                }
+              }
+
             }
           }
         }

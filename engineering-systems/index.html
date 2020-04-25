@@ -174,7 +174,7 @@
                 <h4>
                     Закажите расчётную
                     смету на работы всего
-                    за 1 день
+                    за 1&nbsp;день
                 </h4>
                 <div class="text">
                     Оставьте заявку и наш специалист произведет
@@ -183,11 +183,38 @@
                 </div>
                 <form class="form-vertical">
                     <div class="form-group">
-                        <select name="service[]">
-                            <option >Выберите вид работ</option>
-                            <option value="Монтаж вентиляции">Монтаж вентиляции</option>
-                            <option value="Монтаж кондиционирования">Монтаж кондиционирования</option>
-                        </select>
+
+                        <div class="select-box">
+                            <div class="select-box__current" tabindex="1">
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked"/>
+                                    <p class="select-box__input-text">Выберите вид работ</p>
+                                </div>
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="1" value="Монтаж вентиляции" name="Ben"/>
+                                    <p class="select-box__input-text">Монтаж вентиляции</p>
+                                </div>
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="2" value="Монтаж кондиционирования" name="Ben"/>
+                                    <p class="select-box__input-text">Монтаж кондиционирования</p>
+                                </div>
+                                <!--
+                                <img class="select-box__icon" src="img/arrow.svg" alt="Arrow Icon" aria-hidden="true"/>
+                                -->
+                            </div>
+                            <ul class="select-box__list">
+                                <li>
+                                    <label class="select-box__option" for="0" aria-hidden="aria-hidden">Выберите вид работ</label>
+                                </li>
+                                <li>
+                                    <label class="select-box__option" for="1" aria-hidden="aria-hidden">Монтаж вентиляции</label>
+                                </li>
+                                <li>
+                                    <label class="select-box__option" for="2" aria-hidden="aria-hidden">Монтаж кондиционирования</label>
+                                </li>
+                            </ul>
+                        </div>
+
                         <div class="input-name">
                             <input type="text" name="name" class="inputbox" id="name0" value="" placeholder="Введите Ваше имя">
                         </div>
