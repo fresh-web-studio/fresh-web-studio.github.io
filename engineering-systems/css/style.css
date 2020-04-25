@@ -338,8 +338,7 @@ header .container .header-top {
 main .design {
   background-image: url("../img/design-bg.jpg");
   background-position: top center;
-  height: 568px;
-  text-align: center; }
+  height: 568px; }
   main .design .container {
     padding: 82px 0; }
     main .design .container .row {
@@ -575,89 +574,180 @@ main .order-estimate {
       color: #ffffff; }
       main .order-estimate .container .row .form-vertical .form-group button.btn:hover {
         background-color: #0688fa; }
-
-footer .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-  footer .container .column {
-    width: 16%;
-    padding: 60px 0; }
-    footer .container .column img {
-      margin-bottom: 14px; }
-    footer .container .column .copyright {
-      font-size: 11px;
-      font-family: "Gilroy Regular";
-      color: #8c8c8c;
-      line-height: 1.545; }
-      footer .container .column .copyright a {
-        color: #8c8c8c;
-        text-decoration: underline; }
-        footer .container .column .copyright a:hover {
-          color: black; }
-    footer .container .column h4 {
-      font-size: 15px;
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-bottom: 14px; }
-    footer .container .column li {
-      list-style: none; }
-      footer .container .column li a {
-        color: #8c8c8c;
-        font-size: 12px;
-        line-height: 1.867; }
-        footer .container .column li a:hover {
-          color: black; }
-    footer .container .column .tel_btn {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between; }
-      footer .container .column .tel_btn .tel {
-        display: flex;
-        align-items: center; }
-        footer .container .column .tel_btn .tel i.phone-icon {
-          display: block;
-          margin-right: 10px;
-          width: 14px;
-          height: 14px;
-          background: no-repeat center url(../img/tel.svg); }
-        footer .container .column .tel_btn .tel a {
-          font-size: 16px;
-          color: #191919;
-          font-weight: bold; }
-          footer .container .column .tel_btn .tel a:hover {
-            color: gray; }
-      footer .container .column .tel_btn button {
-        border-radius: 20px;
+main .ventilation {
+  background-color: #f7f7f7;
+  padding-top: 30px; }
+  main .ventilation .container .banner_price {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08); }
+    main .ventilation .container .banner_price .banner {
+      background-image: url("../img/ventilation-bg.jpg");
+      background-position: top center;
+      height: 387px;
+      padding: 50px 70px; }
+      main .ventilation .container .banner_price .banner h1 {
+        font-size: 35px;
+        color: #191919;
+        font-weight: bold;
+        line-height: 1.857;
+        width: 55%; }
+      main .ventilation .container .banner_price .banner .text {
+        font-size: 14px;
+        color: #191919;
+        line-height: 1.786;
+        width: 55%;
+        margin-bottom: 36px; }
+      main .ventilation .container .banner_price .banner button {
+        border-radius: 24px;
         background-color: #6195e3;
         border: 0;
-        left: 1418px;
-        top: 26px;
-        width: 141px;
-        height: 37px;
+        width: 196px;
+        height: 48px;
         cursor: pointer;
         text-transform: uppercase; }
-        footer .container .column .tel_btn button .btn {
-          font-size: 10px;
+        main .ventilation .container .banner_price .banner button .btn {
+          font-size: 14px;
           color: white; }
-        footer .container .column .tel_btn button:hover {
+        main .ventilation .container .banner_price .banner button:hover {
           background-color: #0688fa; }
-    footer .container .column .address, footer .container .column .time {
-      color: #191919;
-      font-size: 13px;
-      line-height: 2.8; }
-    footer .container .column .mail a {
-      color: #191919;
-      font-size: 13px;
-      line-height: 2.8; }
-      footer .container .column .mail a:hover {
-        color: black; }
-  footer .container .column:first-child {
-    width: 26%;
-    margin-right: 60px; }
-  footer .container .column:last-child {
-    width: 26%;
-    margin-left: 60px; }
+    main .ventilation .container .banner_price .price {
+      background-color: #ffffff;
+      padding: 60px 60px; }
+      main .ventilation .container .banner_price .price h2 {
+        font-size: 35px;
+        color: #191919;
+        font-weight: bold;
+        line-height: 1.229;
+        text-align: center;
+        margin-bottom: 40px; }
+      main .ventilation .container .banner_price .price table {
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        border-spacing: 0; }
+        main .ventilation .container .banner_price .price table tbody tr td {
+          padding: 10px 30px;
+          border-bottom: 1px #f4f4f4 solid; }
+        main .ventilation .container .banner_price .price table tbody tr td:last-child {
+          text-align: right; }
+        main .ventilation .container .banner_price .price table tbody tr:first-child {
+          background-color: #6195e3;
+          color: #ffffff; }
+          main .ventilation .container .banner_price .price table tbody tr:first-child td {
+            border-bottom: 0; }
+        main .ventilation .container .banner_price .price table tbody tr:last-child td {
+          border-bottom: 0; }
+  main .ventilation .container .info .row h3 {
+    font-size: 32px;
+    color: #191919;
+    font-weight: bold;
+    line-height: 1.344;
+    text-align: center;
+    margin: 60px 210px; }
+  main .ventilation .container .info .row .info-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    main .ventilation .container .info .row .info-list .info-item {
+      width: 19%; }
+      main .ventilation .container .info .row .info-list .info-item img {
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      main .ventilation .container .info .row .info-list .info-item h4 {
+        font-size: 18px;
+        color: #191919;
+        font-weight: bold;
+        line-height: 2.389; }
+      main .ventilation .container .info .row .info-list .info-item .info {
+        font-size: 13px;
+        color: #757575;
+        line-height: 1.923; }
+
+footer {
+  background-color: #f7f7f7; }
+  footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    footer .container .column {
+      width: 16%;
+      padding: 60px 0; }
+      footer .container .column img {
+        margin-bottom: 14px; }
+      footer .container .column .copyright {
+        font-size: 11px;
+        font-family: "Gilroy Regular";
+        color: #8c8c8c;
+        line-height: 1.545; }
+        footer .container .column .copyright a {
+          color: #8c8c8c;
+          text-decoration: underline; }
+          footer .container .column .copyright a:hover {
+            color: black; }
+      footer .container .column h4 {
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 14px; }
+      footer .container .column li {
+        list-style: none; }
+        footer .container .column li a {
+          color: #8c8c8c;
+          font-size: 12px;
+          line-height: 1.867; }
+          footer .container .column li a:hover {
+            color: black; }
+      footer .container .column .tel_btn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        footer .container .column .tel_btn .tel {
+          display: flex;
+          align-items: center; }
+          footer .container .column .tel_btn .tel i.phone-icon {
+            display: block;
+            margin-right: 10px;
+            width: 14px;
+            height: 14px;
+            background: no-repeat center url(../img/tel.svg); }
+          footer .container .column .tel_btn .tel a {
+            font-size: 16px;
+            color: #191919;
+            font-weight: bold; }
+            footer .container .column .tel_btn .tel a:hover {
+              color: gray; }
+        footer .container .column .tel_btn button {
+          border-radius: 20px;
+          background-color: #6195e3;
+          border: 0;
+          left: 1418px;
+          top: 26px;
+          width: 141px;
+          height: 37px;
+          cursor: pointer;
+          text-transform: uppercase; }
+          footer .container .column .tel_btn button .btn {
+            font-size: 10px;
+            color: white; }
+          footer .container .column .tel_btn button:hover {
+            background-color: #0688fa; }
+      footer .container .column .address, footer .container .column .time {
+        color: #191919;
+        font-size: 13px;
+        line-height: 2.8; }
+      footer .container .column .mail a {
+        color: #191919;
+        font-size: 13px;
+        line-height: 2.8; }
+        footer .container .column .mail a:hover {
+          color: black; }
+    footer .container .column:first-child {
+      width: 26%;
+      margin-right: 60px; }
+    footer .container .column:last-child {
+      width: 26%;
+      margin-left: 60px; }
 
 /*======================================================*/
 /*======================================================*/
