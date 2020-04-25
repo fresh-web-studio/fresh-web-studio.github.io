@@ -648,7 +648,8 @@ main .ventilation {
   main .ventilation .container .info .row .info-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding-bottom: 60px; }
     main .ventilation .container .info .row .info-list .info-item {
       width: 19%; }
       main .ventilation .container .info .row .info-list .info-item img {
@@ -663,6 +664,13 @@ main .ventilation {
         font-size: 13px;
         color: #757575;
         line-height: 1.923; }
+main .contact-form {
+  background-image: url("../img/contact-form-bg.jpg");
+  background-position: center center;
+  /* Положение фона */
+  background-repeat: no-repeat;
+  /* Отменяем повторение фона */
+  height: 421px; }
 
 footer {
   background-color: #f7f7f7; }

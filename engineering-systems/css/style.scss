@@ -905,6 +905,7 @@ main {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            padding-bottom: 60px;
             .info-item {
               width: 19%;
               img {
@@ -922,11 +923,19 @@ main {
                 color: rgb(117, 117, 117);
                 line-height: 1.923;
               }
-
             }
           }
         }
       }
+    }
+  }
+  .contact-form {
+    background-image: url("../img/contact-form-bg.jpg");
+    background-position: center center; /* Положение фона */
+    background-repeat: no-repeat; /* Отменяем повторение фона */
+    height: 421px;
+    .container {
+
     }
   }
 
