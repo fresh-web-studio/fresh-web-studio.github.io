@@ -467,6 +467,7 @@ main {
   .design {
     background-image: url("../img/design-bg.jpg");
     background-position: top center;
+    background-repeat: no-repeat;
     height: 568px;
     .container {
       padding: 82px 0;
@@ -813,6 +814,7 @@ main {
         box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08);
         .banner {
           background-image: url("../img/ventilation-bg.jpg");
+          background-repeat: no-repeat;
           background-position: top center;
           height: 387px;
           padding: 50px 70px;
@@ -935,7 +937,57 @@ main {
     background-repeat: no-repeat; /* Отменяем повторение фона */
     height: 421px;
     .container {
-
+      padding: 80px 0;
+      .form-horizontal {
+        text-align: center;
+        .form-group {
+          h4 {
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            line-height: 1.375;
+            text-align: center;
+          }
+          .text {
+            font-size: 17px;
+            color: rgb(255, 255, 255);
+            line-height: 1.706;
+            text-align: center;
+            margin: 25px 305px 60px;
+          }
+        }
+        .form-tel-button {
+          display: flex;
+          justify-content: center;
+          .input-name input[type="text"], .input-phone input[type="text"] {
+            border-style: solid;
+            border-width: 1px;
+            border-color: #dadada;
+            background: transparent;
+            font-size: 16px;
+            width: 300px;
+            height: 58px;
+            padding: 0px 20px;
+            margin-right: 20px;
+            color: #ffffff;
+          }
+          button {
+            background-color: #6195e3;
+            border: 0;
+            width: 300px;
+            height: 58px;
+            cursor: pointer;
+            text-transform: uppercase;
+            .btn {
+              font-size: 15px;
+              color: white;
+            }
+            &:hover {
+              background-color: #0688fa;
+            }
+          }
+        }
+      }
     }
   }
 
@@ -1480,6 +1532,31 @@ footer {
                   background-color: #0688fa;
                 }
               }
+
+            }
+          }
+        }
+      }
+    }
+    .ventilation {
+      padding-top: 0;
+      .container {
+        .banner_price {
+          border-radius: 0;
+          box-shadow: none;
+          overflow: visible;
+          .banner {
+            background-position: right center;
+            padding: 50px 20px;
+            text-align: center;
+            height: 100%;
+            h1 {
+              width: 100%;
+              font-size: 30px;
+              line-height: 1.2;
+            }
+            .text {
+              width: 100%;
 
             }
           }

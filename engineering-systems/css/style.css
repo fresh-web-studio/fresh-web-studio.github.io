@@ -338,6 +338,7 @@ header .container .header-top {
 main .design {
   background-image: url("../img/design-bg.jpg");
   background-position: top center;
+  background-repeat: no-repeat;
   height: 568px; }
   main .design .container {
     padding: 82px 0; }
@@ -583,6 +584,7 @@ main .ventilation {
     box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08); }
     main .ventilation .container .banner_price .banner {
       background-image: url("../img/ventilation-bg.jpg");
+      background-repeat: no-repeat;
       background-position: top center;
       height: 387px;
       padding: 50px 70px; }
@@ -671,6 +673,48 @@ main .contact-form {
   background-repeat: no-repeat;
   /* Отменяем повторение фона */
   height: 421px; }
+  main .contact-form .container {
+    padding: 80px 0; }
+    main .contact-form .container .form-horizontal {
+      text-align: center; }
+      main .contact-form .container .form-horizontal .form-group h4 {
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        line-height: 1.375;
+        text-align: center; }
+      main .contact-form .container .form-horizontal .form-group .text {
+        font-size: 17px;
+        color: white;
+        line-height: 1.706;
+        text-align: center;
+        margin: 25px 305px 60px; }
+      main .contact-form .container .form-horizontal .form-tel-button {
+        display: flex;
+        justify-content: center; }
+        main .contact-form .container .form-horizontal .form-tel-button .input-name input[type="text"], main .contact-form .container .form-horizontal .form-tel-button .input-phone input[type="text"] {
+          border-style: solid;
+          border-width: 1px;
+          border-color: #dadada;
+          background: transparent;
+          font-size: 16px;
+          width: 300px;
+          height: 58px;
+          padding: 0px 20px;
+          margin-right: 20px;
+          color: #ffffff; }
+        main .contact-form .container .form-horizontal .form-tel-button button {
+          background-color: #6195e3;
+          border: 0;
+          width: 300px;
+          height: 58px;
+          cursor: pointer;
+          text-transform: uppercase; }
+          main .contact-form .container .form-horizontal .form-tel-button button .btn {
+            font-size: 15px;
+            color: white; }
+          main .contact-form .container .form-horizontal .form-tel-button button:hover {
+            background-color: #0688fa; }
 
 footer {
   background-color: #f7f7f7; }
@@ -1010,6 +1054,23 @@ footer {
           width: 100%; }
           main .order-estimate .container .row .form-vertical .form-group button.btn:hover {
             background-color: #0688fa; }
+  main .ventilation {
+    padding-top: 0; }
+    main .ventilation .container .banner_price {
+      border-radius: 0;
+      box-shadow: none;
+      overflow: visible; }
+      main .ventilation .container .banner_price .banner {
+        background-position: right center;
+        padding: 50px 20px;
+        text-align: center;
+        height: 100%; }
+        main .ventilation .container .banner_price .banner h1 {
+          width: 100%;
+          font-size: 30px;
+          line-height: 1.2; }
+        main .ventilation .container .banner_price .banner .text {
+          width: 100%; }
 
   footer .container .column, footer .container .column:first-child, footer .container .column:last-child {
     width: 100%;
