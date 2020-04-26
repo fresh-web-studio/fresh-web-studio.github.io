@@ -956,7 +956,7 @@ main .about {
           line-height: 1.786;
           width: 42%; }
     main .about .container .banner_mission .text {
-      padding: 20px 35px; }
+      padding: 20px 0px; }
       main .about .container .banner_mission .text p {
         padding: 10px 0;
         font-size: 14px;
@@ -992,7 +992,7 @@ main .about {
     background-position: top center;
     height: 457px; }
     main .about .text-add .container {
-      padding: 100px 0px; }
+      padding: 90px 0px; }
       main .about .text-add .container p {
         width: 50%;
         padding: 10px 0;
@@ -1458,6 +1458,40 @@ footer {
     border-radius: 0px; }
     main .projects .container .row .list-item .item {
       width: 43%;
+      text-align: center; }
+  main .about {
+    padding-top: 0; }
+    main .about .container .banner_mission {
+      border-radius: 0;
+      box-shadow: none;
+      overflow: visible; }
+      main .about .container .banner_mission .banner {
+        background-position: right center;
+        text-align: center;
+        height: 100%; }
+        main .about .container .banner_mission .banner .blackout {
+          background: rgba(0, 0, 0, 0.5); }
+          main .about .container .banner_mission .banner .blackout .blackout__body {
+            padding: 30px 20px; }
+            main .about .container .banner_mission .banner .blackout .blackout__body h1 {
+              width: 100%;
+              font-size: 26px;
+              line-height: 1.2;
+              color: #ffffff; }
+            main .about .container .banner_mission .banner .blackout .blackout__body .text {
+              width: 100%;
+              color: #ffffff;
+              font-size: 14px;
+              line-height: 1.4;
+              padding-bottom: 0px; }
+      main .about .container .banner_mission .text {
+        padding: 30px 20px; }
+    main .about .container .info .row h3 {
+      margin: 60px 10px;
+      font-size: 26px; }
+    main .about .container .info .row .info-list .info-item {
+      width: 100%;
+      padding: 10px 20px;
       text-align: center; }
 
   footer .container .column, footer .container .column:first-child, footer .container .column:last-child {
