@@ -1284,6 +1284,84 @@ main {
       }
     }
   }
+  .about {
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    .container {
+      .banner_mission {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08);
+        .banner {
+          background-image: url("../img/about-bg.jpg");
+          background-repeat: no-repeat;
+          background-position: top center;
+          height: 387px;
+          .blackout {
+            .blackout__body {
+              padding: 110px 70px;
+              h1 {
+                font-size: 35px;
+                color: rgb(25, 25, 25);
+                font-weight: bold;
+                line-height: 1.857;
+                width: 55%;
+                text-transform: uppercase;
+              }
+              .text {
+                font-size: 14px;
+                color: rgb(25, 25, 25);
+                line-height: 1.786;
+                width: 42%;
+              }
+            }
+          }
+        }
+        .text {
+          padding: 20px 35px;
+          p {
+            padding: 10px 0;
+            font-size: 14px;
+            color: rgb(25, 25, 25);
+            line-height: 1.857;
+          }
+        }
+      }
+      .info {
+        .row {
+          h3 {
+            font-size: 32px;
+            color: #191919;
+            font-weight: bold;
+            line-height: 1.344;
+            text-align: center;
+            margin: 60px 210px;
+          }
+          .info-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-bottom: 60px;
+            .info-item {
+              width: 18%;
+              text-align: center;
+              h4 {
+                font-size: 17px;
+                color: rgb(25, 25, 25);
+                font-weight: bold;
+                line-height: 2.5;
+              }
+              .info {
+                font-size: 14px;
+                color: rgb(121, 121, 121);
+                line-height: 1.643;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
 }
 footer {
