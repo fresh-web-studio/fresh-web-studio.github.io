@@ -1155,7 +1155,6 @@ main {
               li.active a {
                 font-size: 13px;
                 color: #6195e3;
-                line-height: 3.385;
               }
             }
           }
@@ -1199,6 +1198,9 @@ main {
                     color: rgb(255, 255, 255);
                     font-weight: bold;
                     line-height: 1.8;
+                  }
+                  &:hover {
+                    background-color: #0688fa;
                   }
                 }
               }
@@ -1942,7 +1944,37 @@ footer {
         }
       }
     }
+    .equipment {
+      .container {
+        .row {
+          h1 {
 
+          }
+          .aside_content {
+            .aside {
+              width: 100%;
+              padding: 0px 20px;
+              ul {
+                li {
+                  a {
+                    line-height: 2.38;
+                  }
+                }
+              }
+            }
+            .content {
+              .list-item {
+                .item {
+                  width: 45%;
+                  padding: 10px 10px;
+                  margin: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
   footer {
     .container {

@@ -835,8 +835,7 @@ main .equipment {
               color: #6195e3; }
         main .equipment .container .row .aside_content .aside ul li.active a {
           font-size: 13px;
-          color: #6195e3;
-          line-height: 3.385; }
+          color: #6195e3; }
     main .equipment .container .row .aside_content .content {
       border-radius: 10px;
       background-color: #ffffff;
@@ -875,6 +874,8 @@ main .equipment {
               color: white;
               font-weight: bold;
               line-height: 1.8; }
+            main .equipment .container .row .aside_content .content .list-item .item button:hover {
+              background-color: #0688fa; }
       main .equipment .container .row .aside_content .content .page_number {
         padding: 15px; }
         main .equipment .container .row .aside_content .content .page_number ul {
@@ -1330,6 +1331,15 @@ footer {
       width: 100%;
       padding: 10px 20px;
       text-align: center; }
+  main .equipment .container .row .aside_content .aside {
+    width: 100%;
+    padding: 0px 20px; }
+    main .equipment .container .row .aside_content .aside ul li a {
+      line-height: 2.38; }
+  main .equipment .container .row .aside_content .content .list-item .item {
+    width: 45%;
+    padding: 10px 10px;
+    margin: 5px; }
 
   footer .container .column, footer .container .column:first-child, footer .container .column:last-child {
     width: 100%;
