@@ -90,8 +90,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/engineering-systems/ventilation.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+                <state relative-caret-position="310">
+                  <caret line="157" column="24" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
                   <folding>
                     <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -103,8 +103,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="1566" column="31" selection-start-line="1566" selection-start-column="31" selection-end-line="1566" selection-end-column="31" />
+                <state relative-caret-position="214">
+                  <caret line="1614" column="19" lean-forward="true" selection-start-line="1614" selection-start-column="19" selection-end-line="1614" selection-end-column="19" />
                   <folding>
                     <element signature="e#1595#1601#0" />
                     <element signature="e#1770#1788#0" />
@@ -130,6 +130,10 @@
                     <element signature="e#23050#23064#0" />
                     <element signature="e#29173#33979#0" />
                     <element signature="e#32696#32879#0" />
+                    <element signature="e#36075#36118#0" />
+                    <element signature="e#36245#36271#0" />
+                    <element signature="e#37105#37131#0" />
+                    <element signature="e#37571#37593#0" />
                     <element signature="e#18202#18212#0" />
                     <element signature="e#23537#23562#0" />
                   </folding>
@@ -245,8 +249,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;span&gt;Заголовок 4&lt;/span&gt;</find>
-      <find>heading</find>
       <find>last-of-type</find>
       <find>learn-start</find>
       <find>-arrow</find>
@@ -275,6 +277,8 @@
       <find>.submenu,</find>
       <find>place</find>
       <find>&amp;:hover</find>
+      <find>blackout</find>
+      <find>30</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -305,6 +309,7 @@
       <replace>h5</replace>
       <replace>#30a6f9</replace>
       <replace>/</replace>
+      <replace>&amp;nbsp30</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/panorama</dir>
@@ -528,14 +533,7 @@
       <workItem from="1585905470570" duration="59696000" />
       <workItem from="1586256468630" duration="65373000" />
       <workItem from="1586508125627" duration="137557000" />
-      <workItem from="1587488832423" duration="58721000" />
-    </task>
-    <task id="LOCAL-00574" summary="Обновление">
-      <created>1586852502481</created>
-      <option name="number" value="00574" />
-      <option name="presentableId" value="LOCAL-00574" />
-      <option name="project" value="LOCAL" />
-      <updated>1586852502484</updated>
+      <workItem from="1587488832423" duration="61357000" />
     </task>
     <task id="LOCAL-00575" summary="Обновление">
       <created>1586858333836</created>
@@ -873,11 +871,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587837826316</updated>
     </task>
-    <option name="localTasksCounter" value="623" />
+    <task id="LOCAL-00623" summary="Обновление">
+      <created>1587840427832</created>
+      <option name="number" value="00623" />
+      <option name="presentableId" value="LOCAL-00623" />
+      <option name="project" value="LOCAL" />
+      <updated>1587840427833</updated>
+    </task>
+    <option name="localTasksCounter" value="624" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="950952000" />
+    <option name="totallyTimeSpent" value="953588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="723" y="-1408" width="1158" height="1321" extended-state="0" />
@@ -1383,17 +1388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/ventilation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1413,10 +1407,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/engineering-systems/ventilation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="157" column="24" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="1566" column="31" selection-start-line="1566" selection-start-column="31" selection-end-line="1566" selection-end-column="31" />
+        <state relative-caret-position="214">
+          <caret line="1614" column="19" lean-forward="true" selection-start-line="1614" selection-start-column="19" selection-end-line="1614" selection-end-column="19" />
           <folding>
             <element signature="e#1595#1601#0" />
             <element signature="e#1770#1788#0" />
@@ -1442,6 +1447,10 @@
             <element signature="e#23050#23064#0" />
             <element signature="e#29173#33979#0" />
             <element signature="e#32696#32879#0" />
+            <element signature="e#36075#36118#0" />
+            <element signature="e#36245#36271#0" />
+            <element signature="e#37105#37131#0" />
+            <element signature="e#37571#37593#0" />
             <element signature="e#18202#18212#0" />
             <element signature="e#23537#23562#0" />
           </folding>
