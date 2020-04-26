@@ -986,6 +986,19 @@ main .about {
         font-size: 14px;
         color: #797979;
         line-height: 1.643; }
+  main .about .text-add {
+    background-image: url("../img/text-add-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 457px; }
+    main .about .text-add .container {
+      padding: 100px 0px; }
+      main .about .text-add .container p {
+        width: 50%;
+        padding: 10px 0;
+        font-size: 14px;
+        color: #191919;
+        line-height: 1.857; }
 
 footer {
   background-color: #f7f7f7; }

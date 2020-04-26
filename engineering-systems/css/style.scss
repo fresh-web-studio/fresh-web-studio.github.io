@@ -1361,6 +1361,22 @@ main {
         }
       }
     }
+    .text-add {
+      background-image: url("../img/text-add-bg.jpg");
+      background-repeat: no-repeat;
+      background-position: top center;
+      height: 457px;
+      .container {
+        padding: 100px 0px;
+        p {
+          width: 50%;
+          padding: 10px 0;
+          font-size: 14px;
+          color: rgb(25, 25, 25);
+          line-height: 1.857;
+        }
+      }
+    }
   }
 
 }
