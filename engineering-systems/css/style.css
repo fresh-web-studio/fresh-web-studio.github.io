@@ -1493,6 +1493,12 @@ footer {
       width: 100%;
       padding: 10px 20px;
       text-align: center; }
+    main .about .text-add {
+      height: 100%; }
+      main .about .text-add .container {
+        padding: 40px 20px; }
+        main .about .text-add .container p {
+          width: 100%; }
 
   footer .container .column, footer .container .column:first-child, footer .container .column:last-child {
     width: 100%;
