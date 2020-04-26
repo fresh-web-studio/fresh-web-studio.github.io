@@ -992,6 +992,137 @@ main {
       }
     }
   }
+  .condition {
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    .container {
+      .banner_price {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08);
+        .banner {
+          background-image: url("../img/condition-bg.jpg");
+          background-repeat: no-repeat;
+          background-position: top center;
+          height: 387px;
+          .blackout {
+            .blackout__body {
+              padding: 50px 70px;
+              h1 {
+                font-size: 35px;
+                color: rgb(25, 25, 25);
+                font-weight: bold;
+                line-height: 1.857;
+                width: 55%;
+              }
+              .text {
+                font-size: 14px;
+                color: rgb(25, 25, 25);
+                line-height: 1.786;
+                width: 55%;
+                margin-bottom: 36px;
+              }
+              button {
+                border-radius: 24px;
+                background-color: #6195e3;
+                border: 0;
+                width: 196px;
+                height: 48px;
+                cursor: pointer;
+                text-transform: uppercase;
+                .btn {
+                  font-size: 14px;
+                  color: white;
+                }
+                &:hover {
+                  background-color: #0688fa;
+                }
+              }
+            }
+          }
+        }
+        .price {
+          background-color: #ffffff;
+          padding: 60px 60px;
+          h2 {
+            font-size: 35px;
+            color: rgb(25, 25, 25);
+            font-weight: bold;
+            line-height: 1.229;
+            text-align: center;
+            margin-bottom: 40px;
+          }
+          table {
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            border-spacing: 0;
+            tbody {
+              tr {
+                td {
+                  padding: 10px 30px;
+                  border-bottom: 1px #f4f4f4 solid;
+                }
+                td:last-child {
+                  text-align: right;
+                }
+              }
+              tr:first-child {
+                background-color: #6195e3;
+                color: #ffffff;
+                td {
+                  border-bottom: 0;
+                }
+              }
+              tr:last-child {
+                td {
+                  border-bottom: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+      .info {
+        .row {
+          h3 {
+            font-size: 32px;
+            color: rgb(25, 25, 25);
+            font-weight: bold;
+            line-height: 1.344;
+            text-align: center;
+            margin: 60px 210px;
+          }
+          .info-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-bottom: 60px;
+            .info-item {
+              width: 28%;
+              text-align: center;
+              img {
+                margin-top: 10px;
+                margin-bottom: 10px;
+              }
+              h4 {
+                font-size: 18px;
+                color: rgb(25, 25, 25);
+                font-weight: bold;
+                line-height: 2.389;
+              }
+              .info {
+                font-size: 16px;
+                color: rgb(66, 66, 66);
+                line-height: 1.563;
+                margin: 0px 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
 }
 footer {
@@ -1635,6 +1766,72 @@ footer {
         }
       }
     }
+    .condition {
+      padding-top: 0;
+      .container {
+        .banner_price {
+          border-radius: 0;
+          box-shadow: none;
+          overflow: visible;
+          .banner {
+            background-position: right center;
+            text-align: center;
+            height: 100%;
+            .blackout {
+              background: rgba(0, 0, 0, 0.5);
+              .blackout__body {
+                padding: 30px 20px;
+                h1 {
+                  width: 100%;
+                  font-size: 26px;
+                  line-height: 1.2;
+                  color: #ffffff;
+                }
+                .text {
+                  width: 100%;
+                  color: #ffffff;
+                  font-size: 14px;
+                  line-height: 1.4;
+                  margin-bottom: 20px;
+                }
+              }
+            }
+          }
+          .price {
+            padding: 40px 20px;
+            h2 {
+              font-size: 26px;
+            }
+            table {
+              font-size: 10px;
+              tbody {
+                tr {
+                  td {
+                    padding: 5px 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .info {
+          .row {
+            h3 {
+              margin: 60px 10px;
+              font-size: 26px;
+            }
+            .info-list {
+              .info-item {
+                width: 100%;
+                padding: 10px 20px;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+
   }
   footer {
     .container {
