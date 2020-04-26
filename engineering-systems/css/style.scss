@@ -1948,7 +1948,8 @@ footer {
       .container {
         .row {
           h1 {
-
+            clear: both;
+            text-align: center;
           }
           .aside_content {
             .aside {
@@ -1957,12 +1958,13 @@ footer {
               ul {
                 li {
                   a {
-                    line-height: 2.38;
+                    line-height: 2.8;
                   }
                 }
               }
             }
             .content {
+              border-radius: 0px;
               .list-item {
                 .item {
                   width: 45%;

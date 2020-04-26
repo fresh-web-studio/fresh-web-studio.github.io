@@ -1331,15 +1331,20 @@ footer {
       width: 100%;
       padding: 10px 20px;
       text-align: center; }
+  main .equipment .container .row h1 {
+    clear: both;
+    text-align: center; }
   main .equipment .container .row .aside_content .aside {
     width: 100%;
     padding: 0px 20px; }
     main .equipment .container .row .aside_content .aside ul li a {
-      line-height: 2.38; }
-  main .equipment .container .row .aside_content .content .list-item .item {
-    width: 45%;
-    padding: 10px 10px;
-    margin: 5px; }
+      line-height: 2.8; }
+  main .equipment .container .row .aside_content .content {
+    border-radius: 0px; }
+    main .equipment .container .row .aside_content .content .list-item .item {
+      width: 45%;
+      padding: 10px 10px;
+      margin: 5px; }
 
   footer .container .column, footer .container .column:first-child, footer .container .column:last-child {
     width: 100%;
