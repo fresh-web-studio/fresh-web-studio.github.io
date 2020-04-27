@@ -1246,6 +1246,43 @@ main {
       }
     }
   }
+  .project {
+    .container {
+      h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .row {
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08);
+        padding: 20px;
+        margin-bottom: 40px;
+        img {
+          width: 600px;
+        }
+        .data_author {
+          display: flex;
+          margin: 20px 0;
+          .data, .author, .two-line {
+            color: #8c8c8c;
+          }
+          .two-line {
+            padding: 0 10px;
+          }
+        }
+        img.line {
+          width: 40px;
+        }
+        .text {
+          p {
+            padding: 10px 0;
+          }
+        }
+      }
+
+    }
+  }
   .articles {
     .container {
       h1 {
@@ -2333,6 +2370,20 @@ footer {
               width: 43%;
               text-align: center;
             }
+          }
+        }
+      }
+    }
+    .project {
+      .container {
+        h1 {
+          clear: both;
+          text-align: center;
+        }
+        .row {
+          border-radius: 0;
+          img {
+            width: 100%;
           }
         }
       }
