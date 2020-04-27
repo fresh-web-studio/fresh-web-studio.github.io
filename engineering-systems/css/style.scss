@@ -1201,6 +1201,7 @@ main {
     .container {
       h1 {
         font-size: 20px;
+        margin-bottom: 20px;
       }
       .row {
         border-radius: 10px;
@@ -1243,6 +1244,116 @@ main {
           }
         }
       }
+    }
+  }
+  .articles {
+    .container {
+      h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .row {
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08);
+        .list-item {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          padding: 10px;
+          .item {
+            width: 23%;
+            margin: 10px;
+            img {
+              width: 100%;
+              border-radius: 3px;
+            }
+            h2 {
+              margin-top: 10px;
+              font-size: 16px;
+
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -moz-box;
+              -moz-box-orient: vertical;
+              display: -webkit-box;
+              -webkit-line-clamp: 1;
+              -webkit-box-orient: vertical;
+              line-clamp: 1;
+              box-orient: vertical;
+            }
+            .text {
+              font-size: 14px;
+              color: rgb(45, 45, 45);
+              line-height: 1.538;
+              margin: 5px 0px 10px;
+
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -moz-box;
+              -moz-box-orient: vertical;
+              display: -webkit-box;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+              line-clamp: 3;
+              box-orient: vertical;
+            }
+            button {
+              border-radius: 3px;
+              background-color: #6195e3;
+              border: 0;
+              width: 122px;
+              height: 32px;
+              cursor: pointer;
+              margin-bottom: 20px;
+              .btn {
+                color: #ffffff;
+                font-size: 13px;
+              }
+              &:hover {
+                background-color: #0688fa;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .article {
+    .container {
+      h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .row {
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08);
+        padding: 20px;
+        margin-bottom: 40px;
+        img {
+          width: 600px;
+        }
+        .data_author {
+          display: flex;
+          margin: 20px 0;
+          .data, .author, .two-line {
+            color: #8c8c8c;
+          }
+          .two-line {
+            padding: 0 10px;
+          }
+        }
+        img.line {
+          width: 40px;
+        }
+        .text {
+          p {
+            padding: 10px 0;
+          }
+        }
+      }
+
     }
   }
   .about {
@@ -2303,6 +2414,37 @@ footer {
               margin-top: 10px;
               justify-content: center;
             }
+          }
+        }
+      }
+    }
+    .articles {
+      .container {
+        h1 {
+          clear: both;
+          text-align: center;
+        }
+        .row {
+          border-radius: 0;
+          .list-item {
+            .item {
+              width: 100%;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+    .article {
+      .container {
+        h1 {
+          clear: both;
+          text-align: center;
+        }
+        .row {
+          border-radius: 0;
+          img {
+            width: 100%;
           }
         }
       }
