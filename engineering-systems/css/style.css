@@ -905,29 +905,32 @@ main .projects .container .row {
           font-size: 13px; }
         main .projects .container .row .list-item .item button:hover {
           background-color: #0688fa; }
-main .project .container h1 {
-  font-size: 20px;
-  margin-bottom: 20px; }
-main .project .container .row {
-  border-radius: 10px;
-  background-color: #ffffff;
-  box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08);
-  padding: 20px;
-  margin-bottom: 40px; }
-  main .project .container .row img {
-    width: 100%; }
-  main .project .container .row .data_author {
-    display: flex;
-    margin: 20px 0; }
-    main .project .container .row .data_author .data, main .project .container .row .data_author .author, main .project .container .row .data_author .two-line {
-      color: #8c8c8c; }
-    main .project .container .row .data_author .two-line {
-      padding: 0 10px; }
-  main .project .container .row img.line {
-    width: 40px; }
-  main .project .container .row .text p {
-    padding: 10px 0;
-    line-height: 1.4; }
+main .project {
+  background-color: #f7f7f7;
+  padding-bottom: 80px; }
+  main .project .container h1 {
+    font-size: 20px;
+    padding: 20px 0; }
+  main .project .container .row {
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    margin-bottom: 40px; }
+    main .project .container .row img {
+      width: 100%; }
+    main .project .container .row .data_author {
+      display: flex;
+      margin: 20px 0; }
+      main .project .container .row .data_author .data, main .project .container .row .data_author .author, main .project .container .row .data_author .two-line {
+        color: #8c8c8c; }
+      main .project .container .row .data_author .two-line {
+        padding: 0 10px; }
+    main .project .container .row img.line {
+      width: 40px; }
+    main .project .container .row .text p {
+      padding: 10px 0;
+      line-height: 1.4; }
 main .articles .container h1 {
   font-size: 20px;
   margin-bottom: 20px; }
@@ -985,29 +988,31 @@ main .articles .container .row {
           font-size: 13px; }
         main .articles .container .row .list-item .item button:hover {
           background-color: #0688fa; }
-main .article .container h1 {
-  font-size: 20px;
-  margin-bottom: 20px; }
-main .article .container .row {
-  border-radius: 10px;
-  background-color: #ffffff;
-  box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08);
-  padding: 20px;
-  margin-bottom: 40px; }
-  main .article .container .row img {
-    width: 100%; }
-  main .article .container .row .data_author {
-    display: flex;
-    margin: 20px 0; }
-    main .article .container .row .data_author .data, main .article .container .row .data_author .author, main .article .container .row .data_author .two-line {
-      color: #8c8c8c; }
-    main .article .container .row .data_author .two-line {
-      padding: 0 10px; }
-  main .article .container .row img.line {
-    width: 40px; }
-  main .article .container .row .text p {
-    padding: 10px 0;
-    line-height: 1.4; }
+main .article {
+  background-color: #f7f7f7;
+  padding-bottom: 80px; }
+  main .article .container h1 {
+    font-size: 20px;
+    padding: 20px 0; }
+  main .article .container .row {
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.08);
+    padding: 20px; }
+    main .article .container .row img {
+      width: 100%; }
+    main .article .container .row .data_author {
+      display: flex;
+      margin: 20px 0; }
+      main .article .container .row .data_author .data, main .article .container .row .data_author .author, main .article .container .row .data_author .two-line {
+        color: #8c8c8c; }
+      main .article .container .row .data_author .two-line {
+        padding: 0 10px; }
+    main .article .container .row img.line {
+      width: 40px; }
+    main .article .container .row .text p {
+      padding: 10px 0;
+      line-height: 1.4; }
 main .about {
   background-color: #f7f7f7;
   padding-top: 30px; }
