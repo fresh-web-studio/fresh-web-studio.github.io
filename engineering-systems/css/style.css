@@ -1013,7 +1013,7 @@ main .contacts {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      margin: 0px 50px 20px; }
+      margin: 10px 50px 30px; }
       main .contacts .container .content .contacts-row .tel {
         display: flex;
         align-items: center; }
@@ -1604,6 +1604,15 @@ footer {
         background: rgba(255, 255, 255, 0.5); }
         main .about .text-add .container p {
           width: 100%; }
+  main .contacts .container h1 {
+    clear: both;
+    text-align: center; }
+  main .contacts .container .content .contacts-row {
+    display: block;
+    margin: 0px 0px 20px; }
+    main .contacts .container .content .contacts-row .tel, main .contacts .container .content .contacts-row .address, main .contacts .container .content .contacts-row .mail, main .contacts .container .content .contacts-row .time {
+      margin-top: 10px;
+      justify-content: center; }
 
   footer .container .column, footer .container .column:first-child, footer .container .column:last-child {
     width: 100%;
@@ -1619,6 +1628,8 @@ footer {
       margin-top: 20px; }
       footer .container .column .tel_btn button, footer .container .column:first-child .tel_btn button, footer .container .column:last-child .tel_btn button {
         margin-top: 20px; }
+    footer .container .column .address, footer .container .column .mail, footer .container .column .time, footer .container .column:first-child .address, footer .container .column:first-child .mail, footer .container .column:first-child .time, footer .container .column:last-child .address, footer .container .column:last-child .mail, footer .container .column:last-child .time {
+      justify-content: center; }
     footer .container .column .copyright, footer .container .column:first-child .copyright, footer .container .column:last-child .copyright {
       margin-bottom: 20px; }
   footer .container .column.order {

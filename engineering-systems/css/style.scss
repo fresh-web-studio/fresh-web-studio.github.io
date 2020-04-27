@@ -1394,7 +1394,7 @@ main {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
-          margin: 0px 50px 20px;
+          margin: 10px 50px 30px;
           .tel {
             display: flex;
             align-items: center;
@@ -2322,7 +2322,24 @@ footer {
         }
       }
     }
-
+    .contacts {
+      .container {
+        h1 {
+          clear: both;
+          text-align: center;
+        }
+        .content {
+          .contacts-row {
+            display: block;
+            margin: 0px 0px 20px;
+            .tel, .address,.mail, .time {
+              margin-top: 10px;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
   }
   footer {
     .container {
@@ -2342,6 +2359,9 @@ footer {
           button {
             margin-top: 20px;
           }
+        }
+        .address, .mail, .time {
+          justify-content: center;
         }
         .copyright {
           margin-bottom: 20px;
