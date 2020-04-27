@@ -1259,7 +1259,7 @@ main {
         padding: 20px;
         margin-bottom: 40px;
         img {
-          width: 600px;
+          width: 100%;
         }
         .data_author {
           display: flex;
@@ -1277,6 +1277,7 @@ main {
         .text {
           p {
             padding: 10px 0;
+            line-height: 1.4;
           }
         }
       }
@@ -1369,7 +1370,7 @@ main {
         padding: 20px;
         margin-bottom: 40px;
         img {
-          width: 600px;
+          width: 100%;
         }
         .data_author {
           display: flex;
@@ -1387,6 +1388,7 @@ main {
         .text {
           p {
             padding: 10px 0;
+            line-height: 1.4;
           }
         }
       }
