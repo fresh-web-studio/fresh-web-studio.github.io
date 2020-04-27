@@ -1085,19 +1085,11 @@ main {
       }
       .info {
         .row {
-          h3 {
-            font-size: 32px;
-            color: rgb(25, 25, 25);
-            font-weight: bold;
-            line-height: 1.344;
-            text-align: center;
-            margin: 60px 210px;
-          }
           .info-list {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            padding-bottom: 60px;
+            padding: 60px 0;
             .info-item {
               width: 28%;
               text-align: center;
@@ -1880,6 +1872,9 @@ footer {
           position: relative;
           width: 100%;
           padding: 20px;
+          h2 {
+            text-align: center;
+          }
           .items-list {
             .item {
               margin-bottom: 20px;
@@ -2234,6 +2229,9 @@ footer {
                   width: 45%;
                   padding: 10px 10px;
                   margin: 5px;
+                  img {
+                    width: 100%;
+                  }
                 }
               }
             }

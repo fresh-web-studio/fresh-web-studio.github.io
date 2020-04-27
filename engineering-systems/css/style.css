@@ -782,18 +782,11 @@ main .condition {
             border-bottom: 0; }
         main .condition .container .banner_price .price table tbody tr:last-child td {
           border-bottom: 0; }
-  main .condition .container .info .row h3 {
-    font-size: 32px;
-    color: #191919;
-    font-weight: bold;
-    line-height: 1.344;
-    text-align: center;
-    margin: 60px 210px; }
   main .condition .container .info .row .info-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 60px; }
+    padding: 60px 0; }
     main .condition .container .info .row .info-list .info-item {
       width: 28%;
       text-align: center; }
@@ -1371,6 +1364,8 @@ footer {
     position: relative;
     width: 100%;
     padding: 20px; }
+    main .prices-info .container .prices h2 {
+      text-align: center; }
     main .prices-info .container .prices .items-list .item {
       margin-bottom: 20px; }
       main .prices-info .container .prices .items-list .item img {
@@ -1554,6 +1549,8 @@ footer {
       width: 45%;
       padding: 10px 10px;
       margin: 5px; }
+      main .equipment .container .row .aside_content .content .list-item .item img {
+        width: 100%; }
   main .projects .container h1 {
     clear: both;
     text-align: center;
