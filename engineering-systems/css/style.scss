@@ -1378,6 +1378,98 @@ main {
       }
     }
   }
+  .contacts {
+    background-color: #f6f6f6;
+    .container {
+      h1 {
+        font-size: 20px;
+        color: rgb(25, 25, 25);
+        line-height: 3.25;
+      }
+      .content {
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding: 20px;
+        .contacts-row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin: 0px 50px 20px;
+          .tel {
+            display: flex;
+            align-items: center;
+            i.phone-icon {
+              display: block;
+              margin-right: 10px;
+              width: 14px;
+              height: 14px;
+              background: no-repeat center url(../img/tel.svg);
+            }
+            a {
+              font-size: 16px;
+              color: rgb(25, 25, 25);
+              font-weight: bold;
+              &:hover {
+                color: gray;
+              }
+            }
+
+          }
+          .address {
+            display: flex;
+            color: #191919;
+            font-size: 13px;
+            i.address-icon {
+              display: block;
+              margin-right: 10px;
+              width: 14px;
+              height: 14px;
+              background: no-repeat center url(../img/marker.svg);
+            }
+          }
+          .mail {
+            display: flex;
+            i.mail-icon {
+              display: block;
+              margin-right: 10px;
+              width: 14px;
+              height: 14px;
+              background: no-repeat center url(../img/mail.svg);
+            }
+            a {
+              color: #191919;
+              font-size: 13px;
+              &:hover {
+                color: black;
+              }
+            }
+          }
+          .time {
+            display: flex;
+            color: #191919;
+            font-size: 13px;
+            i.time-icon {
+              display: block;
+              margin-right: 10px;
+              width: 14px;
+              height: 14px;
+              background: no-repeat center url(../img/colendar.svg);
+            }
+          }
+        }
+        .map {
+          -moz-border-radius: 10px; /* Firefox */
+          -webkit-border-radius: 10px; /* Safari, Chrome */
+          -khtml-border-radius: 10px; /* KHTML */
+          border-radius: 10px; /* CSS3 */
+          overflow: hidden;
+          position: relative;
+          /* chrome bug fix */
+          -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+        }
+      }
+    }
+  }
 
 }
 footer {
@@ -1434,7 +1526,7 @@ footer {
             margin-right: 10px;
             width: 14px;
             height: 14px;
-            background: no-repeat center url(../img/tel.svg);
+            background: no-repeat center url(../img/tel-contacts.svg);
           }
           a {
             font-size: 16px;
@@ -1466,19 +1558,48 @@ footer {
         }
       }
 
-      .address, .time {
+      .address {
+        margin-top: 10px;
+        display: flex;
         color: #191919;
         font-size: 13px;
-        line-height: 2.8;
+        i.address-icon {
+          display: block;
+          margin-right: 10px;
+          width: 14px;
+          height: 14px;
+          background: no-repeat center url(../img/marker.svg);
+        }
       }
       .mail {
+        margin-top: 20px;
+        display: flex;
+        i.mail-icon {
+          display: block;
+          margin-right: 10px;
+          width: 14px;
+          height: 14px;
+          background: no-repeat center url(../img/mail.svg);
+        }
         a {
           color: #191919;
           font-size: 13px;
-          line-height: 2.8;
           &:hover {
             color: black;
           }
+        }
+      }
+      .time {
+        margin-top: 20px;
+        display: flex;
+        color: #191919;
+        font-size: 13px;
+        i.time-icon {
+          display: block;
+          margin-right: 10px;
+          width: 14px;
+          height: 14px;
+          background: no-repeat center url(../img/colendar.svg);
         }
       }
 
@@ -1992,8 +2113,9 @@ footer {
       }
     }
     .contact-form {
+      height: 100%;
       .container {
-        padding: 20px 0;
+        padding: 40px 0;
         .form-horizontal {
           .form-group {
             h4 {
@@ -2192,6 +2314,7 @@ footer {
         height: 100%;
         .container {
           padding: 40px 20px;
+          background: rgba(255, 255, 255, 0.5);
           p {
             width: 100%;
 
