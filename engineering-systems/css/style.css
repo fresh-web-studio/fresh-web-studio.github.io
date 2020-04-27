@@ -1013,7 +1013,7 @@ main .contacts {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      margin: 10px 50px 30px; }
+      margin: 10px 55px 30px; }
       main .contacts .container .content .contacts-row .tel {
         display: flex;
         align-items: center; }
@@ -1022,7 +1022,7 @@ main .contacts {
           margin-right: 10px;
           width: 14px;
           height: 14px;
-          background: no-repeat center url(../img/tel.svg); }
+          background: no-repeat center url(../img/tel-contacts.svg); }
         main .contacts .container .content .contacts-row .tel a {
           font-size: 16px;
           color: #191919;
