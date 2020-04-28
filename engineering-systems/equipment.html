@@ -76,7 +76,7 @@
                                 <div class="name">Фреон BLG-R 404A Blowgrana
                                     в одн. баллоне 10,9 кг.</div>
                                 <div class="price">4 550 руб.</div>
-                                <a href="#modal" class="button openModal">
+                                <a href="#modal2" class="button openModal">
                                     <button>
                                         <div class="btn">Купить</div>
                                     </button>
@@ -87,7 +87,7 @@
                                 <div class="name">Фреон BLG-R 404A Blowgrana
                                     в одн. баллоне 10,9 кг.</div>
                                 <div class="price">4 550 руб.</div>
-                                <a href="#modal" class="button openModal">
+                                <a href="#modal2" class="button openModal">
                                     <button>
                                         <div class="btn">Купить</div>
                                     </button>
@@ -98,7 +98,7 @@
                                 <div class="name">Фреон BLG-R 404A Blowgrana
                                     в одн. баллоне 10,9 кг.</div>
                                 <div class="price">4 550 руб.</div>
-                                <a href="#modal" class="button openModal">
+                                <a href="#modal2" class="button openModal">
                                     <button>
                                         <div class="btn">Купить</div>
                                     </button>
@@ -109,7 +109,7 @@
                                 <div class="name">Фреон BLG-R 404A Blowgrana
                                     в одн. баллоне 10,9 кг.</div>
                                 <div class="price">4 550 руб.</div>
-                                <a href="#modal" class="button openModal">
+                                <a href="#modal2" class="button openModal">
                                     <button>
                                         <div class="btn">Купить</div>
                                     </button>
@@ -120,7 +120,7 @@
                                 <div class="name">Фреон BLG-R 404A Blowgrana
                                     в одн. баллоне 10,9 кг.</div>
                                 <div class="price">4 550 руб.</div>
-                                <a href="#modal" class="button openModal">
+                                <a href="#modal2" class="button openModal">
                                     <button>
                                         <div class="btn">Купить</div>
                                     </button>
@@ -131,7 +131,7 @@
                                 <div class="name">Фреон BLG-R 404A Blowgrana
                                     в одн. баллоне 10,9 кг.</div>
                                 <div class="price">4 550 руб.</div>
-                                <a href="#modal" class="button openModal">
+                                <a href="#modal2" class="button openModal">
                                     <button>
                                         <div class="btn">Купить</div>
                                     </button>
@@ -142,7 +142,7 @@
                                 <div class="name">Фреон BLG-R 404A Blowgrana
                                     в одн. баллоне 10,9 кг.</div>
                                 <div class="price">4 550 руб.</div>
-                                <a href="#modal" class="button openModal">
+                                <a href="#modal2" class="button openModal">
                                     <button>
                                         <div class="btn">Купить</div>
                                     </button>
@@ -153,7 +153,7 @@
                                 <div class="name">Фреон BLG-R 404A Blowgrana
                                     в одн. баллоне 10,9 кг.</div>
                                 <div class="price">4 550 руб.</div>
-                                <a href="#modal" class="button openModal">
+                                <a href="#modal2" class="button openModal">
                                     <button>
                                         <div class="btn">Купить</div>
                                     </button>
@@ -164,7 +164,7 @@
                                 <div class="name">Фреон BLG-R 404A Blowgrana
                                     в одн. баллоне 10,9 кг.</div>
                                 <div class="price">4 550 руб.</div>
-                                <a href="#modal" class="button openModal">
+                                <a href="#modal2" class="button openModal">
                                     <button>
                                         <div class="btn">Купить</div>
                                     </button>
@@ -258,6 +258,44 @@
                     <label for="telephon" class="control-label">Телефон</label>
                     <div class="input-phone">
                         <input type="text" name="tel" class="inputbox" id="telephon" value="" placeholder="+7 (__) ___-__-__">
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="btn">Вызвать инженера</button>
+                    </div>
+                </form>
+                <?if(isset($_POST["submit_tel"]))
+                            {
+                            $email = 'ваша_почта@yandex.com';
+                            /* Отправляем email */
+                            mail($email, "Заказ обратного звонка на сайте ...", "\n
+                            Посетитель заказал обратный звонок! \n
+                            Телефон : ".$_POST['tel']."
+                            ");
+                            echo 'Заявка принята!';
+                            }
+                            ?>
+            </div>
+
+
+        </div>
+        <a href="#close" title="Закрыть">Закрыть</a>
+    </div>
+</div>
+<div id="modal2" class="modal">
+    <div>
+        <div class="text">
+            <div id="blok_tel2">
+                <form action="" method="post" class="form1">
+                    <h3>Оформите заявку</h3>
+                    <div class="info">Оставьте Ваши данные и мы свяжемся с Вами
+                        в течение 5 минут для подтверждения заявки.</div>
+                    <label for="name2" class="control-label">Имя</label>
+                    <div class="input-name">
+                        <input type="text" name="name" class="inputbox" id="name2" value="" placeholder="Введите Ваше имя">
+                    </div>
+                    <label for="telephon2" class="control-label">Телефон</label>
+                    <div class="input-phone">
+                        <input type="text" name="tel" class="inputbox" id="telephon2" value="" placeholder="+7 (__) ___-__-__">
                     </div>
                     <div class="btn">
                         <button type="submit" class="btn">Вызвать инженера</button>
