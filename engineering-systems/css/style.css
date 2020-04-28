@@ -1274,9 +1274,9 @@ footer {
 /*======================================================*/
 /*======================================================*/
 /*======================================================*/
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1200px) {
   .modal > div {
-    margin: 3% auto; } }
+    margin: 5% auto; } }
 @media all and (max-width: 670px) {
   .modal > div {
     width: 100%;
