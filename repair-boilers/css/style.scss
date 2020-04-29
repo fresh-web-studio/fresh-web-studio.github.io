@@ -2222,6 +2222,9 @@ footer {
 }
 
 @media all and (max-width: 1366px) {
+  .modal > div {
+    margin: 5% auto;
+  }
   header {
     .slide-wraper {
       .slide-item {

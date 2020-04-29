@@ -1611,6 +1611,9 @@ footer {
           height: 100%; }
 
 @media all and (max-width: 1366px) {
+  .modal > div {
+    margin: 5% auto; }
+
   header .slide-wraper .slide-item .slide-item__header {
     padding-top: 80px; }
   header .slide-wraper .slide-item .slide-item__text {
