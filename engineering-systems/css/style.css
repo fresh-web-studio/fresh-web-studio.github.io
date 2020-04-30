@@ -296,23 +296,23 @@ header .container .header-top {
       height: 14px;
       background: no-repeat center url(../img/tel.svg); }
     header .container .header-top .tel a {
-      font-size: 18px;
+      font-size: 17px;
       color: #191919;
       font-weight: bold; }
       header .container .header-top .tel a:hover {
         color: gray; }
   header .container .header-top button {
-    border-radius: 25px;
+    border-radius: 23px;
     background-color: #6195e3;
     border: 0;
     left: 1418px;
     top: 26px;
-    width: 170px;
-    height: 50px;
+    width: 155px;
+    height: 46px;
     cursor: pointer;
     text-transform: uppercase; }
     header .container .header-top button .btn {
-      font-size: 12px;
+      font-size: 11px;
       color: white; }
     header .container .header-top button:hover {
       background-color: #0688fa; }
