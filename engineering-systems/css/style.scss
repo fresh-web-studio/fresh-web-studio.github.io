@@ -862,6 +862,13 @@ main {
             }
           }
         }
+        .warranty {
+          padding: 20px 0 0;
+          font-weight: 600;
+          p {
+            padding: 5px 30px;
+          }
+        }
       }
       .info {
         .row {
@@ -1047,6 +1054,13 @@ main {
                   border-bottom: 0;
                 }
               }
+            }
+          }
+          .warranty {
+            padding: 20px 0 0;
+            font-weight: 600;
+            p {
+              padding: 5px 30px;
             }
           }
         }
@@ -2217,6 +2231,13 @@ footer {
                 }
               }
             }
+            .warranty {
+              text-align: center;
+              p {
+                font-size: 12px;
+                padding: 5px 0px;
+              }
+            }
           }
         }
         .info {
@@ -2311,6 +2332,13 @@ footer {
                     padding: 5px 10px;
                   }
                 }
+              }
+            }
+            .warranty {
+              text-align: center;
+              p {
+                font-size: 12px;
+                padding: 5px 0px;
               }
             }
           }

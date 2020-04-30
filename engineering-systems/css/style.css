@@ -623,6 +623,11 @@ main .ventilation {
             border-bottom: 0; }
         main .ventilation .container .banner_price .price table tbody tr:last-child td {
           border-bottom: 0; }
+    main .ventilation .container .banner_price .warranty {
+      padding: 20px 0 0;
+      font-weight: 600; }
+      main .ventilation .container .banner_price .warranty p {
+        padding: 5px 30px; }
   main .ventilation .container .info .row h3 {
     font-size: 32px;
     color: #191919;
@@ -764,6 +769,11 @@ main .condition {
             border-bottom: 0; }
         main .condition .container .banner_price .price table tbody tr:last-child td {
           border-bottom: 0; }
+      main .condition .container .banner_price .price .warranty {
+        padding: 20px 0 0;
+        font-weight: 600; }
+        main .condition .container .banner_price .price .warranty p {
+          padding: 5px 30px; }
   main .condition .container .info .row .info-list {
     display: flex;
     flex-wrap: wrap;
@@ -1563,6 +1573,11 @@ footer {
           font-size: 10px; }
           main .ventilation .container .banner_price .price table tbody tr td {
             padding: 5px 10px; }
+        main .ventilation .container .banner_price .price .warranty {
+          text-align: center; }
+          main .ventilation .container .banner_price .price .warranty p {
+            font-size: 12px;
+            padding: 5px 0px; }
     main .ventilation .container .info .row h3 {
       margin: 60px 10px;
       font-size: 26px; }
@@ -1623,6 +1638,11 @@ footer {
           font-size: 10px; }
           main .condition .container .banner_price .price table tbody tr td {
             padding: 5px 10px; }
+        main .condition .container .banner_price .price .warranty {
+          text-align: center; }
+          main .condition .container .banner_price .price .warranty p {
+            font-size: 12px;
+            padding: 5px 0px; }
     main .condition .container .info .row h3 {
       margin: 60px 10px;
       font-size: 26px; }
