@@ -414,8 +414,6 @@ header {
         border-radius: 23px;
         background-color: #6195e3;
         border: 0;
-        left: 1418px;
-        top: 26px;
         width: 155px;
         height: 46px;
         cursor: pointer;
@@ -463,7 +461,8 @@ main {
         margin-top: -190px;
         position: absolute;
         background-color: #ffffff;
-        width: 1200px;
+        width: 100%;
+        max-width: 1200px;
         border-radius: 10px;
         padding: 35px;
         box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.2);
@@ -479,10 +478,13 @@ main {
           flex-wrap: wrap;
           justify-content: space-between;
           .item {
+            width: 49%;
             border: 1px #e0e0e0 solid;
             border-radius: 12px;
             overflow: hidden;
-            img {}
+            img {
+              width: 100%;
+            }
             .row {
               display: flex;
               flex-wrap: wrap;
@@ -1668,8 +1670,6 @@ footer {
           border-radius: 25px;
           background-color: #6195e3;
           border: 0;
-          left: 1418px;
-          top: 26px;
           width: 170px;
           height: 50px;
           cursor: pointer;
@@ -1752,6 +1752,37 @@ footer {
 @media all and (max-width: 1280px) {
   .modal > div {
     margin: 5% auto;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .modal > div {
+    margin: 5% auto;
+  }
+  header {
+    .container {
+      .header-top {
+        .nav-container {
+          nav {
+            .top-menu > li {
+              padding: 14px 7px;
+            }
+          }
+        }
+        .tel {
+          a {
+            font-size: 14px;
+          }
+        }
+        button {
+          width: 122px;
+          height: 37px;
+          .btn {
+            font-size: 10px;
+          }
+        }
+      }
+    }
   }
 }
 

@@ -305,8 +305,6 @@ header .container .header-top {
     border-radius: 23px;
     background-color: #6195e3;
     border: 0;
-    left: 1418px;
-    top: 26px;
     width: 155px;
     height: 46px;
     cursor: pointer;
@@ -342,7 +340,8 @@ main .prices-info {
     margin-top: -190px;
     position: absolute;
     background-color: #ffffff;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     border-radius: 10px;
     padding: 35px;
     box-shadow: 0px 0px 101px 0px rgba(0, 0, 0, 0.2); }
@@ -356,9 +355,12 @@ main .prices-info {
       flex-wrap: wrap;
       justify-content: space-between; }
       main .prices-info .container .prices .items-list .item {
+        width: 49%;
         border: 1px #e0e0e0 solid;
         border-radius: 12px;
         overflow: hidden; }
+        main .prices-info .container .prices .items-list .item img {
+          width: 100%; }
         main .prices-info .container .prices .items-list .item .row {
           display: flex;
           flex-wrap: wrap;
@@ -1226,8 +1228,6 @@ footer {
           border-radius: 25px;
           background-color: #6195e3;
           border: 0;
-          left: 1418px;
-          top: 26px;
           width: 170px;
           height: 50px;
           cursor: pointer;
@@ -1288,6 +1288,19 @@ footer {
 @media all and (max-width: 1280px) {
   .modal > div {
     margin: 5% auto; } }
+@media all and (max-width: 1200px) {
+  .modal > div {
+    margin: 5% auto; }
+
+  header .container .header-top .nav-container nav .top-menu > li {
+    padding: 14px 7px; }
+  header .container .header-top .tel a {
+    font-size: 14px; }
+  header .container .header-top button {
+    width: 122px;
+    height: 37px; }
+    header .container .header-top button .btn {
+      font-size: 10px; } }
 @media all and (max-width: 670px) {
   .modal > div {
     width: 100%;
