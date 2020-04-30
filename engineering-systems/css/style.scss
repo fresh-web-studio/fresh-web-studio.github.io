@@ -249,7 +249,7 @@ header {
           }
 
           .top-menu > li > a {
-            font-size: 13px;
+            font-size: 14px;
             color: #191919;
             transition: .2s linear;
           }
@@ -345,7 +345,7 @@ header {
 
           .submenu-standart li.active {
             color: #666;
-            font-size: 13px;
+            font-size: 14px;
             padding: 12px 18px;
           }
 
@@ -362,7 +362,7 @@ header {
             display: block;
             padding: 5px 0;
             color: #666;
-            font-size: 13px;
+            font-size: 14px;
           }
 
           .submenu li .link-image {
@@ -402,7 +402,7 @@ header {
           background: no-repeat center url(../img/tel.svg);
         }
         a {
-          font-size: 16px;
+          font-size: 18px;
           color: rgb(25, 25, 25);
           font-weight: bold;
           &:hover {
@@ -412,17 +412,17 @@ header {
 
       }
       button {
-        border-radius: 20px;
+        border-radius: 25px;
         background-color: #6195e3;
         border: 0;
         left: 1418px;
         top: 26px;
-        width: 141px;
-        height: 37px;
+        width: 170px;
+        height: 50px;
         cursor: pointer;
         text-transform: uppercase;
         .btn {
-          font-size: 10px;
+          font-size: 12px;
           color: rgb(255, 255, 255);
         }
         &:hover {
@@ -1599,8 +1599,7 @@ footer {
         margin-bottom: 14px;
       }
       .copyright {
-        font-size: 11px;
-        font-family: "Gilroy Regular";
+        font-size: 14px;
         color: rgb(140, 140, 140);
         line-height: 1.545;
         a {
@@ -1612,7 +1611,7 @@ footer {
         }
       }
       h4 {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: bold;
         text-transform: uppercase;
         margin-bottom: 14px;
@@ -1621,7 +1620,7 @@ footer {
         list-style: none;
         a {
           color: #8c8c8c;
-          font-size: 12px;
+          font-size: 15px;
           line-height: 1.867;
           &:hover {
             color: black;
@@ -1638,12 +1637,12 @@ footer {
           i.phone-icon {
             display: block;
             margin-right: 10px;
-            width: 14px;
-            height: 14px;
+            width: 19px;
+            height: 19px;
             background: no-repeat center url(../img/tel-contacts.svg);
           }
           a {
-            font-size: 16px;
+            font-size: 20px;
             color: rgb(25, 25, 25);
             font-weight: bold;
             &:hover {
@@ -1653,17 +1652,17 @@ footer {
 
         }
         button {
-          border-radius: 20px;
+          border-radius: 25px;
           background-color: #6195e3;
           border: 0;
           left: 1418px;
           top: 26px;
-          width: 141px;
-          height: 37px;
+          width: 170px;
+          height: 50px;
           cursor: pointer;
           text-transform: uppercase;
           .btn {
-            font-size: 10px;
+            font-size: 12px;
             color: rgb(255, 255, 255);
           }
           &:hover {
@@ -1676,12 +1675,12 @@ footer {
         margin-top: 10px;
         display: flex;
         color: #191919;
-        font-size: 13px;
+        font-size: 16px;
         i.address-icon {
           display: block;
           margin-right: 10px;
-          width: 14px;
-          height: 14px;
+          width: 19px;
+          height: 19px;
           background: no-repeat center url(../img/marker.svg);
         }
       }
@@ -1691,13 +1690,13 @@ footer {
         i.mail-icon {
           display: block;
           margin-right: 10px;
-          width: 14px;
-          height: 14px;
+          width: 19px;
+          height: 19px;
           background: no-repeat center url(../img/mail.svg);
         }
         a {
           color: #191919;
-          font-size: 13px;
+          font-size: 16px;
           &:hover {
             color: black;
           }
@@ -1707,25 +1706,23 @@ footer {
         margin-top: 20px;
         display: flex;
         color: #191919;
-        font-size: 13px;
+        font-size: 16px;
         i.time-icon {
           display: block;
           margin-right: 10px;
-          width: 14px;
-          height: 14px;
+          width: 19px;
+          height: 19px;
           background: no-repeat center url(../img/colendar.svg);
         }
       }
 
     }
     .column:first-child {
-      width: 26%;
-      margin-right: 60px;
-
+      width: 21%;
+      margin-right: 20px;
     }
     .column:last-child {
-      width: 26%;
-      margin-left: 60px;
+      width: 31%;
     }
   }
 }
