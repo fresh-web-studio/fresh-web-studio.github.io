@@ -1292,6 +1292,10 @@ footer {
   .modal > div {
     margin: 5% auto; }
 
+  .container {
+    padding-left: 10px;
+    padding-right: 10px; }
+
   header .container .header-top .nav-container nav .top-menu > li {
     padding: 14px 7px; }
   header .container .header-top .tel a {
@@ -1300,7 +1304,29 @@ footer {
     width: 122px;
     height: 37px; }
     header .container .header-top button .btn {
-      font-size: 10px; } }
+      font-size: 8px; }
+
+  main .design .container {
+    padding-left: 10px;
+    padding-right: 10px; }
+    main .design .container .row h1 {
+      font-size: 37px; }
+  main .prices-info .container .prices {
+    width: 98%; }
+  main .prices-info .container .info .column .row .column {
+    margin-left: 60px; }
+
+  footer .container .column .copyright {
+    font-size: 11px; }
+  footer .container .column .tel_btn .tel a {
+    font-size: 16px; }
+  footer .container .column .tel_btn button {
+    width: 135px;
+    height: 35px; }
+    footer .container .column .tel_btn button .btn {
+      font-size: 10px; }
+  footer .container .column .address, footer .container .column .mail, footer .container .column .time {
+    font-size: 13px; } }
 @media all and (max-width: 670px) {
   .modal > div {
     width: 100%;
@@ -1485,6 +1511,7 @@ footer {
     main .prices-info .container .prices h2 {
       text-align: center; }
     main .prices-info .container .prices .items-list .item {
+      width: 100%;
       margin-bottom: 20px; }
       main .prices-info .container .prices .items-list .item img {
         width: 100%; }

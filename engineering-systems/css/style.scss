@@ -1759,6 +1759,10 @@ footer {
   .modal > div {
     margin: 5% auto;
   }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   header {
     .container {
       .header-top {
@@ -1778,8 +1782,63 @@ footer {
           width: 122px;
           height: 37px;
           .btn {
-            font-size: 10px;
+            font-size: 8px;
           }
+        }
+      }
+    }
+  }
+  main {
+    .design {
+      .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        .row {
+          h1 {
+            font-size: 37px;
+          }
+        }
+      }
+    }
+    .prices-info {
+      .container {
+        .prices {
+          width: 98%;
+        }
+        .info {
+          .column {
+            .row {
+              .column {
+                margin-left: 60px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .container {
+      .column {
+        .copyright {
+          font-size: 11px;
+        }
+        .tel_btn {
+          .tel {
+            a {
+              font-size: 16px;
+            }
+          }
+          button {
+            width: 135px;
+            height: 35px;
+            .btn {
+              font-size: 10px;
+            }
+          }
+        }
+        .address, .mail, .time {
+          font-size: 13px;
         }
       }
     }
@@ -2051,6 +2110,7 @@ footer {
           }
           .items-list {
             .item {
+              width: 100%;
               margin-bottom: 20px;
               img {
                 width: 100%;
