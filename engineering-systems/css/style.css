@@ -1054,7 +1054,7 @@ main .about {
     main .about .container .banner_mission .text {
       padding: 20px 0px; }
       main .about .container .banner_mission .text p {
-        padding: 10px 0;
+        padding: 10px 20px;
         font-size: 14px;
         color: #191919;
         line-height: 1.857; }
