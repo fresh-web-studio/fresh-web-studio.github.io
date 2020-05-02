@@ -1822,6 +1822,17 @@ footer {
         padding: 40px 0;
       }
     }
+    .projects {
+      .container {
+        .row {
+          .list-item {
+            .item {
+              width: 22%;
+            }
+          }
+        }
+      }
+    }
   }
   footer {
     .container {
@@ -2505,7 +2516,7 @@ footer {
           border-radius: 0px;
           .list-item {
             .item {
-              width: 43%;
+              width: 42%;
               text-align: center;
             }
           }
