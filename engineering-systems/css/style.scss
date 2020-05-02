@@ -1779,7 +1779,7 @@ footer {
           }
         }
         button {
-          width: 122px;
+          width: 110px;
           height: 37px;
           .btn {
             font-size: 8px;
@@ -1830,6 +1830,30 @@ footer {
               width: 22%;
             }
           }
+        }
+      }
+    }
+    .about {
+      .container {
+        .banner_mission {
+          .banner {
+            .blackout {
+              .blackout__body {
+                h1 {
+                  font-size: 30px;
+                }
+                .text {
+                  width: 50%;
+
+                }
+              }
+            }
+          }
+        }
+      }
+      .text-add {
+        .container {
+          padding: 80px 10px;
         }
       }
     }

@@ -1301,7 +1301,7 @@ footer {
   header .container .header-top .tel a {
     font-size: 14px; }
   header .container .header-top button {
-    width: 122px;
+    width: 110px;
     height: 37px; }
     header .container .header-top button .btn {
       font-size: 8px; }
@@ -1321,6 +1321,12 @@ footer {
       padding: 40px 0; }
   main .projects .container .row .list-item .item {
     width: 22%; }
+  main .about .container .banner_mission .banner .blackout .blackout__body h1 {
+    font-size: 30px; }
+  main .about .container .banner_mission .banner .blackout .blackout__body .text {
+    width: 50%; }
+  main .about .text-add .container {
+    padding: 80px 10px; }
 
   footer .container .column .copyright {
     font-size: 11px; }
