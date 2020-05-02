@@ -1315,6 +1315,10 @@ footer {
     width: 98%; }
   main .prices-info .container .info .column .row .column {
     margin-left: 60px; }
+  main .contact-form {
+    height: 100%; }
+    main .contact-form .container {
+      padding: 40px 0; }
 
   footer .container .column .copyright {
     font-size: 11px; }
