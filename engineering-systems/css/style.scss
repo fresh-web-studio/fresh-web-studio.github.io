@@ -1756,6 +1756,50 @@ footer {
 }
 
 @media all and (max-width: 1200px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  main {
+    .design {
+      .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        .row {
+          h1 {
+            font-size: 37px;
+          }
+        }
+      }
+    }
+    .prices-info {
+      .container {
+        .prices {
+          width: 98%;
+        }
+        .info {
+          .column {
+            .row {
+              .column {
+                margin-left: 60px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .about {
+      .text-add {
+        .container {
+          padding: 80px 10px;
+        }
+      }
+    }
+  }
+
+}
+
+@media all and (max-width: 1100px) {
   .modal > div {
     margin: 5% auto;
   }
@@ -1789,33 +1833,6 @@ footer {
     }
   }
   main {
-    .design {
-      .container {
-        padding-left: 10px;
-        padding-right: 10px;
-        .row {
-          h1 {
-            font-size: 37px;
-          }
-        }
-      }
-    }
-    .prices-info {
-      .container {
-        .prices {
-          width: 98%;
-        }
-        .info {
-          .column {
-            .row {
-              .column {
-                margin-left: 60px;
-              }
-            }
-          }
-        }
-      }
-    }
     .contact-form {
       height: 100%;
       .container {
@@ -1849,11 +1866,6 @@ footer {
               }
             }
           }
-        }
-      }
-      .text-add {
-        .container {
-          padding: 80px 10px;
         }
       }
     }

@@ -1289,6 +1289,22 @@ footer {
   .modal > div {
     margin: 5% auto; } }
 @media all and (max-width: 1200px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  main .design .container {
+    padding-left: 10px;
+    padding-right: 10px; }
+    main .design .container .row h1 {
+      font-size: 37px; }
+  main .prices-info .container .prices {
+    width: 98%; }
+  main .prices-info .container .info .column .row .column {
+    margin-left: 60px; }
+  main .about .text-add .container {
+    padding: 80px 10px; } }
+@media all and (max-width: 1100px) {
   .modal > div {
     margin: 5% auto; }
 
@@ -1306,15 +1322,6 @@ footer {
     header .container .header-top button .btn {
       font-size: 8px; }
 
-  main .design .container {
-    padding-left: 10px;
-    padding-right: 10px; }
-    main .design .container .row h1 {
-      font-size: 37px; }
-  main .prices-info .container .prices {
-    width: 98%; }
-  main .prices-info .container .info .column .row .column {
-    margin-left: 60px; }
   main .contact-form {
     height: 100%; }
     main .contact-form .container {
@@ -1325,8 +1332,6 @@ footer {
     font-size: 30px; }
   main .about .container .banner_mission .banner .blackout .blackout__body .text {
     width: 50%; }
-  main .about .text-add .container {
-    padding: 80px 10px; }
   main .articles .container .row .list-item .item {
     width: 22%; }
 
