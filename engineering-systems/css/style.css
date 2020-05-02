@@ -1327,6 +1327,8 @@ footer {
     width: 50%; }
   main .about .text-add .container {
     padding: 80px 10px; }
+  main .articles .container .row .list-item .item {
+    width: 22%; }
 
   footer .container .column .copyright {
     font-size: 11px; }
