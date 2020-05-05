@@ -1027,42 +1027,17 @@ main {
               }
             }
           }
-          .warranty {
-            padding: 20px 0 0;
-            font-weight: 600;
-            p {
-              padding: 5px 30px;
-            }
-          }
         }
       }
       .info {
         .row {
-          .info-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            padding: 60px 0;
-            .info-item {
-              width: 28%;
-              text-align: center;
-              img {
-                margin-top: 10px;
-                margin-bottom: 10px;
-              }
-              h4 {
-                font-size: 18px;
-                color: rgb(25, 25, 25);
-                font-weight: bold;
-                line-height: 2.389;
-              }
-              .info {
-                font-size: 16px;
-                color: rgb(66, 66, 66);
-                line-height: 1.563;
-                margin: 0px 30px;
-              }
-            }
+          h3 {
+            font-size: 32px;
+            color: rgb(25, 25, 25);
+            font-weight: bold;
+            line-height: 1.344;
+            text-align: center;
+            padding: 60px 210px;
           }
         }
       }

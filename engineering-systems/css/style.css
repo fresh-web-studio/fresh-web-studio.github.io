@@ -747,32 +747,13 @@ main .condition {
             border-bottom: 0; }
         main .condition .container .banner_price .price table tbody tr:last-child td {
           border-bottom: 0; }
-      main .condition .container .banner_price .price .warranty {
-        padding: 20px 0 0;
-        font-weight: 600; }
-        main .condition .container .banner_price .price .warranty p {
-          padding: 5px 30px; }
-  main .condition .container .info .row .info-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 60px 0; }
-    main .condition .container .info .row .info-list .info-item {
-      width: 28%;
-      text-align: center; }
-      main .condition .container .info .row .info-list .info-item img {
-        margin-top: 10px;
-        margin-bottom: 10px; }
-      main .condition .container .info .row .info-list .info-item h4 {
-        font-size: 18px;
-        color: #191919;
-        font-weight: bold;
-        line-height: 2.389; }
-      main .condition .container .info .row .info-list .info-item .info {
-        font-size: 16px;
-        color: #424242;
-        line-height: 1.563;
-        margin: 0px 30px; }
+  main .condition .container .info .row h3 {
+    font-size: 32px;
+    color: #191919;
+    font-weight: bold;
+    line-height: 1.344;
+    text-align: center;
+    padding: 60px 210px; }
 main .equipment {
   background-color: #f7f7f7; }
   main .equipment .container .row h1 {
