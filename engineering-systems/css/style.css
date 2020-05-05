@@ -625,37 +625,13 @@ main .ventilation {
             border-bottom: 0; }
         main .ventilation .container .banner_price .price table tbody tr:last-child td {
           border-bottom: 0; }
-    main .ventilation .container .banner_price .warranty {
-      padding: 20px 0 0;
-      font-weight: 600; }
-      main .ventilation .container .banner_price .warranty p {
-        padding: 5px 30px; }
   main .ventilation .container .info .row h3 {
     font-size: 32px;
     color: #191919;
     font-weight: bold;
     line-height: 1.344;
     text-align: center;
-    margin: 60px 210px; }
-  main .ventilation .container .info .row .info-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 60px; }
-    main .ventilation .container .info .row .info-list .info-item {
-      width: 19%; }
-      main .ventilation .container .info .row .info-list .info-item img {
-        margin-top: 10px;
-        margin-bottom: 10px; }
-      main .ventilation .container .info .row .info-list .info-item h4 {
-        font-size: 18px;
-        color: #191919;
-        font-weight: bold;
-        line-height: 2.389; }
-      main .ventilation .container .info .row .info-list .info-item .info {
-        font-size: 13px;
-        color: #757575;
-        line-height: 1.923; }
+    padding: 60px 210px; }
 main .contact-form {
   background-image: url("../img/contact-form-bg.jpg");
   background-position: center center;
