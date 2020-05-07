@@ -1260,6 +1260,8 @@ footer {
     width: 98%; }
   main .prices-info .container .info .column .row .column {
     margin-left: 60px; }
+    main .prices-info .container .info .column .row .column .numbers {
+      font-size: 70px; }
   main .about .text-add .container {
     padding: 80px 10px; } }
 @media all and (max-width: 1100px) {

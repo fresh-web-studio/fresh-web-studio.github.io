@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineering-systems/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.scss" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -90,15 +89,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="208" column="1" lean-forward="true" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
+            <state relative-caret-position="917">
+              <caret line="1729" column="34" selection-start-line="1729" selection-start-column="34" selection-end-line="1729" selection-end-column="34" />
               <folding>
                 <element signature="e#4006#9172#0" />
+                <element signature="e#9178#38305#0" />
                 <element signature="e#9190#9713#0" />
                 <element signature="e#9793#11485#0" />
+                <element signature="e#38313#41318#0" />
               </folding>
             </state>
           </provider>
@@ -119,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engineering-systems/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
+            <state relative-caret-position="211">
+              <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -147,7 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-arrow</find>
       <find>.advantages-block</find>
       <find>mail logo</find>
       <find>korpus0</find>
@@ -177,6 +177,7 @@
       <find>30</find>
       <find>Подробнее</find>
       <find>Подробности</find>
+      <find>инженер</find>
     </findStrings>
     <replaceStrings>
       <replace>png&quot; alt</replace>
@@ -280,9 +281,9 @@
         <option value="$PROJECT_DIR$/repair-boilers/css/style.scss" />
         <option value="$PROJECT_DIR$/engineering-systems/ventilation.html" />
         <option value="$PROJECT_DIR$/engineering-systems/condition.html" />
-        <option value="$PROJECT_DIR$/engineering-systems/css/style.scss" />
         <option value="$PROJECT_DIR$/engineering-systems/index.html" />
         <option value="$PROJECT_DIR$/engineering-systems/about.html" />
+        <option value="$PROJECT_DIR$/engineering-systems/css/style.scss" />
       </list>
     </option>
   </component>
@@ -427,14 +428,7 @@
       <workItem from="1588237880845" duration="8014000" />
       <workItem from="1588358911970" duration="8214000" />
       <workItem from="1588676365879" duration="3042000" />
-      <workItem from="1588835125180" duration="843000" />
-    </task>
-    <task id="LOCAL-00635" summary="Обновление">
-      <created>1587930077259</created>
-      <option name="number" value="00635" />
-      <option name="presentableId" value="LOCAL-00635" />
-      <option name="project" value="LOCAL" />
-      <updated>1587930077260</updated>
+      <workItem from="1588835125180" duration="1507000" />
     </task>
     <task id="LOCAL-00636" summary="Обновление">
       <created>1587980463513</created>
@@ -772,11 +766,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588835728540</updated>
     </task>
-    <option name="localTasksCounter" value="684" />
+    <task id="LOCAL-00684" summary="Обновление">
+      <created>1588836022274</created>
+      <option name="number" value="00684" />
+      <option name="presentableId" value="LOCAL-00684" />
+      <option name="project" value="LOCAL" />
+      <updated>1588836022274</updated>
+    </task>
+    <option name="localTasksCounter" value="685" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1024040000" />
+    <option name="totallyTimeSpent" value="1024704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="658" y="-1414" width="1231" height="1360" extended-state="0" />
@@ -795,7 +796,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.6666667" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49917626" visible="true" weight="0.10573771" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49917626" weight="0.10573771" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50082374" side_tool="true" weight="0.4377646" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22455846" />
@@ -1195,18 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="208" column="1" lean-forward="true" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
-          <folding>
-            <element signature="e#4006#9172#0" />
-            <element signature="e#9190#9713#0" />
-            <element signature="e#9793#11485#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/ventilation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
@@ -1222,12 +1211,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
+        <state relative-caret-position="211">
+          <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="1729" column="34" selection-start-line="1729" selection-start-column="34" selection-end-line="1729" selection-end-column="34" />
+          <folding>
+            <element signature="e#4006#9172#0" />
+            <element signature="e#9178#38305#0" />
+            <element signature="e#9190#9713#0" />
+            <element signature="e#9793#11485#0" />
+            <element signature="e#38313#41318#0" />
           </folding>
         </state>
       </provider>
