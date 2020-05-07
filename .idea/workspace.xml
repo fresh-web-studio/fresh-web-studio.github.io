@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineering-systems/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/index.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -67,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engineering-systems/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="116" column="43" lean-forward="true" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
+            <state relative-caret-position="2256">
+              <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
               <folding>
                 <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -82,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engineering-systems/condition.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="136" column="12" lean-forward="true" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
+            <state relative-caret-position="3264">
+              <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
               <folding>
                 <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
@@ -93,39 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="554" selection-start-line="554" selection-end-line="554" />
+            <state relative-caret-position="61">
+              <caret line="208" column="1" lean-forward="true" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
               <folding>
                 <element signature="e#4006#9172#0" />
                 <element signature="e#9190#9713#0" />
                 <element signature="e#9793#11485#0" />
-                <element signature="e#12663#13402#0" />
-                <element signature="e#13421#18227#0" />
-                <element signature="e#18243#21680#0" />
-                <element signature="e#21840#23450#0" />
-                <element signature="e#26911#29999#0" />
-                <element signature="e#30012#31195#0" />
-                <element signature="e#31207#31993#0" />
-                <element signature="e#32006#33939#0" />
-                <element signature="e#33951#34708#0" />
-                <element signature="e#34718#37128#0" />
-                <element signature="e#37141#39750#0" />
-                <element signature="e#39761#42766#0" />
-                <element signature="e#46481#51199#0" />
-                <element signature="e#51221#51536#0" />
-                <element signature="e#51554#52772#0" />
-                <element signature="e#52789#53311#0" />
-                <element signature="e#53332#55373#0" />
-                <element signature="e#57137#57859#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/engineering-systems/ventilation.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="422">
@@ -288,8 +266,8 @@
         <option value="$PROJECT_DIR$/engineering-systems/about.html" />
         <option value="$PROJECT_DIR$/engineering-systems/ventilation.html" />
         <option value="$PROJECT_DIR$/engineering-systems/condition.html" />
-        <option value="$PROJECT_DIR$/engineering-systems/index.html" />
         <option value="$PROJECT_DIR$/engineering-systems/css/style.scss" />
+        <option value="$PROJECT_DIR$/engineering-systems/index.html" />
       </list>
     </option>
   </component>
@@ -433,21 +411,8 @@
       <workItem from="1588181012551" duration="1000" />
       <workItem from="1588237880845" duration="8014000" />
       <workItem from="1588358911970" duration="8214000" />
-      <workItem from="1588676365879" duration="1906000" />
-    </task>
-    <task id="LOCAL-00631" summary="Обновление">
-      <created>1587925657147</created>
-      <option name="number" value="00631" />
-      <option name="presentableId" value="LOCAL-00631" />
-      <option name="project" value="LOCAL" />
-      <updated>1587925657147</updated>
-    </task>
-    <task id="LOCAL-00632" summary="Обновление">
-      <created>1587927146424</created>
-      <option name="number" value="00632" />
-      <option name="presentableId" value="LOCAL-00632" />
-      <option name="project" value="LOCAL" />
-      <updated>1587927146424</updated>
+      <workItem from="1588676365879" duration="3042000" />
+      <workItem from="1588835125180" duration="334000" />
     </task>
     <task id="LOCAL-00633" summary="Обновление">
       <created>1587927806253</created>
@@ -778,15 +743,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588677358033</updated>
     </task>
-    <option name="localTasksCounter" value="680" />
+    <task id="LOCAL-00680" summary="Обновление">
+      <created>1588678364210</created>
+      <option name="number" value="00680" />
+      <option name="presentableId" value="LOCAL-00680" />
+      <option name="project" value="LOCAL" />
+      <updated>1588678364210</updated>
+    </task>
+    <task id="LOCAL-00681" summary="Обновление">
+      <created>1588681461517</created>
+      <option name="number" value="00681" />
+      <option name="presentableId" value="LOCAL-00681" />
+      <option name="project" value="LOCAL" />
+      <updated>1588681461517</updated>
+    </task>
+    <option name="localTasksCounter" value="682" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1022061000" />
+    <option name="totallyTimeSpent" value="1023531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="658" y="-1414" width="1231" height="1360" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.27226463" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
@@ -801,7 +779,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.6666667" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49917626" weight="0.10573771" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49917626" visible="true" weight="0.10573771" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50082374" side_tool="true" weight="0.4377646" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22455846" />
@@ -1190,35 +1168,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/ventilation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="179" column="12" selection-start-line="178" selection-end-line="182" selection-end-column="18" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/condition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="136" column="12" lean-forward="true" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
-          <folding>
-            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="116" column="43" lean-forward="true" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
+        <state relative-caret-position="2256">
+          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
           <folding>
             <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -1228,32 +1181,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/engineering-systems/condition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
+          <folding>
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="554" selection-start-line="554" selection-end-line="554" />
+        <state relative-caret-position="61">
+          <caret line="208" column="1" lean-forward="true" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
           <folding>
             <element signature="e#4006#9172#0" />
             <element signature="e#9190#9713#0" />
             <element signature="e#9793#11485#0" />
-            <element signature="e#12663#13402#0" />
-            <element signature="e#13421#18227#0" />
-            <element signature="e#18243#21680#0" />
-            <element signature="e#21840#23450#0" />
-            <element signature="e#26911#29999#0" />
-            <element signature="e#30012#31195#0" />
-            <element signature="e#31207#31993#0" />
-            <element signature="e#32006#33939#0" />
-            <element signature="e#33951#34708#0" />
-            <element signature="e#34718#37128#0" />
-            <element signature="e#37141#39750#0" />
-            <element signature="e#39761#42766#0" />
-            <element signature="e#46481#51199#0" />
-            <element signature="e#51221#51536#0" />
-            <element signature="e#51554#52772#0" />
-            <element signature="e#52789#53311#0" />
-            <element signature="e#53332#55373#0" />
-            <element signature="e#57137#57859#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engineering-systems/ventilation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="179" column="12" selection-start-line="178" selection-end-line="182" selection-end-column="18" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
