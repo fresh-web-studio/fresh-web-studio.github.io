@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engineering-systems/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-systems/css/style.scss" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
@@ -61,30 +64,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engineering-systems/index.html">
+        <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2256">
-              <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-              <folding>
-                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engineering-systems/condition.html">
+        <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3264">
-              <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
-              <folding>
-                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="121">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -92,43 +84,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="917">
-              <caret line="1729" column="34" selection-start-line="1729" selection-start-column="34" selection-end-line="1729" selection-end-column="34" />
+            <state relative-caret-position="372">
+              <caret line="1766" column="30" selection-start-line="1766" selection-start-column="30" selection-end-line="1766" selection-end-column="30" />
               <folding>
                 <element signature="e#4006#9172#0" />
                 <element signature="e#9178#38305#0" />
                 <element signature="e#9190#9713#0" />
                 <element signature="e#9793#11485#0" />
                 <element signature="e#38313#41318#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engineering-systems/ventilation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="179" column="12" selection-start-line="178" selection-end-line="182" selection-end-column="18" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engineering-systems/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#41696#42420#0" />
               </folding>
             </state>
           </provider>
@@ -233,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jpizza/index.html" />
         <option value="$PROJECT_DIR$/base/menu/index.html" />
         <option value="$PROJECT_DIR$/base/menu/style.scss" />
         <option value="$PROJECT_DIR$/capital-finance/new1.html" />
@@ -283,6 +246,7 @@
         <option value="$PROJECT_DIR$/engineering-systems/condition.html" />
         <option value="$PROJECT_DIR$/engineering-systems/index.html" />
         <option value="$PROJECT_DIR$/engineering-systems/about.html" />
+        <option value="$PROJECT_DIR$/tyndyrnaya/css/style.scss" />
         <option value="$PROJECT_DIR$/engineering-systems/css/style.scss" />
       </list>
     </option>
@@ -316,6 +280,29 @@
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="engineering-systems" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="engineering-systems" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
+              <item name="owlcarousel" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -340,19 +327,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tyndyrnaya" />
+      <recent name="$PROJECT_DIR$/engineering-systems" />
+      <recent name="$PROJECT_DIR$/engineering-systems/img" />
+      <recent name="$PROJECT_DIR$/engineering-systems/js" />
+      <recent name="$PROJECT_DIR$/engineering-systems/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/repair-boilers/css" />
       <recent name="$PROJECT_DIR$/repair-boilers/psd/Иконки" />
       <recent name="$PROJECT_DIR$/repair-boilers/img" />
       <recent name="$PROJECT_DIR$/base/csys/banners/img" />
       <recent name="$PROJECT_DIR$/artemsdobnikov/math/image" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/engineering-systems" />
-      <recent name="$PROJECT_DIR$/engineering-systems/img" />
-      <recent name="$PROJECT_DIR$/engineering-systems/js" />
-      <recent name="$PROJECT_DIR$/engineering-systems/css" />
-      <recent name="$PROJECT_DIR$/repair-boilers/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -429,20 +416,6 @@
       <workItem from="1588358911970" duration="8214000" />
       <workItem from="1588676365879" duration="3042000" />
       <workItem from="1588835125180" duration="1507000" />
-    </task>
-    <task id="LOCAL-00636" summary="Обновление">
-      <created>1587980463513</created>
-      <option name="number" value="00636" />
-      <option name="presentableId" value="LOCAL-00636" />
-      <option name="project" value="LOCAL" />
-      <updated>1587980463537</updated>
-    </task>
-    <task id="LOCAL-00637" summary="Обновление">
-      <created>1587982356796</created>
-      <option name="number" value="00637" />
-      <option name="presentableId" value="LOCAL-00637" />
-      <option name="project" value="LOCAL" />
-      <updated>1587982356796</updated>
     </task>
     <task id="LOCAL-00638" summary="Обновление">
       <created>1587984480193</created>
@@ -773,17 +746,32 @@
       <option name="project" value="LOCAL" />
       <updated>1588836022274</updated>
     </task>
-    <option name="localTasksCounter" value="685" />
+    <task id="LOCAL-00685" summary="Обновление">
+      <created>1589130150354</created>
+      <option name="number" value="00685" />
+      <option name="presentableId" value="LOCAL-00685" />
+      <option name="project" value="LOCAL" />
+      <updated>1589130150354</updated>
+    </task>
+    <task id="LOCAL-00686" summary="Обновление">
+      <created>1589130520085</created>
+      <option name="number" value="00686" />
+      <option name="presentableId" value="LOCAL-00686" />
+      <option name="project" value="LOCAL" />
+      <updated>1589130520085</updated>
+    </task>
+    <option name="localTasksCounter" value="687" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1024704000" />
+    <option name="totallyTimeSpent" value="1025707000" />
   </component>
+  <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="658" y="-1414" width="1231" height="1360" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.27226463" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.2776873" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -918,19 +906,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/Ð Ð°Ð±Ð¾ÑÑ/7_NTC/1_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/comment.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/dirt.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/download.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1221,16 +1196,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/js/main_slider.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="1729" column="34" selection-start-line="1729" selection-start-column="34" selection-end-line="1729" selection-end-column="34" />
+        <state relative-caret-position="372">
+          <caret line="1766" column="30" selection-start-line="1766" selection-start-column="30" selection-end-line="1766" selection-end-column="30" />
           <folding>
             <element signature="e#4006#9172#0" />
             <element signature="e#9178#38305#0" />
             <element signature="e#9190#9713#0" />
             <element signature="e#9793#11485#0" />
             <element signature="e#38313#41318#0" />
+            <element signature="e#41696#42420#0" />
           </folding>
         </state>
       </provider>

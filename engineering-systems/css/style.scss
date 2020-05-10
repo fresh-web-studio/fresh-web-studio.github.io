@@ -1757,10 +1757,14 @@ footer {
   header {
     .container {
       .header-top {
+        .logo {
+          overflow: hidden;
+          width: 52px;
+        }
         .nav-container {
           nav {
             .top-menu > li {
-              padding: 14px 7px;
+              padding: 14px 14px;
             }
           }
         }

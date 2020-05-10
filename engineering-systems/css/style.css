@@ -1272,8 +1272,11 @@ footer {
     padding-left: 10px;
     padding-right: 10px; }
 
+  header .container .header-top .logo {
+    overflow: hidden;
+    width: 52px; }
   header .container .header-top .nav-container nav .top-menu > li {
-    padding: 14px 7px; }
+    padding: 14px 14px; }
   header .container .header-top .tel a {
     font-size: 14px; }
   header .container .header-top button {
