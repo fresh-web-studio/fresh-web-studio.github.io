@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tyndyrnaya/css/Gilroy-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tyndyrnaya/css/Gilroy-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tyndyrnaya/css/Gilroy-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tyndyrnaya/css/Gilroy-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tyndyrnaya/css/Gilroy-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tyndyrnaya/css/Gilroy-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tyndyrnaya/css/Gilroy-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tyndyrnaya/css/Gilroy-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tyndyrnaya/css/Gilroy-Regular.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyndyrnaya/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/index.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -64,43 +77,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="1761" column="22" selection-start-line="1761" selection-start-column="22" selection-end-line="1761" selection-end-column="22" />
+            <state relative-caret-position="197">
+              <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
               <folding>
-                <element signature="e#4006#9172#0" />
-                <element signature="e#9178#38305#0" />
-                <element signature="e#9190#9713#0" />
-                <element signature="e#9793#11485#0" />
-                <element signature="e#38313#41318#0" />
-                <element signature="e#41696#42420#0" />
+                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="412">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+              <folding>
+                <element signature="e#813#2717#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/base/menu/style.scss" />
         <option value="$PROJECT_DIR$/capital-finance/new1.html" />
         <option value="$PROJECT_DIR$/capital-finance/training.html" />
         <option value="$PROJECT_DIR$/capital-finance/new2.html" />
@@ -252,9 +253,10 @@
         <option value="$PROJECT_DIR$/engineering-systems/condition.html" />
         <option value="$PROJECT_DIR$/engineering-systems/index.html" />
         <option value="$PROJECT_DIR$/engineering-systems/about.html" />
-        <option value="$PROJECT_DIR$/tyndyrnaya/css/style.scss" />
         <option value="$PROJECT_DIR$/engineering-systems/css/style.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tyndyrnaya/index.html" />
+        <option value="$PROJECT_DIR$/tyndyrnaya/css/style.scss" />
       </list>
     </option>
   </component>
@@ -268,7 +270,7 @@
     <option name="x" value="655" />
     <option name="y" value="-1417" />
     <option name="width" value="1231" />
-    <option name="height" value="1360" />
+    <option name="height" value="802" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -281,6 +283,34 @@
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="artemsdobnikov" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
+              <item name="psd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,19 +336,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tyndyrnaya/psd" />
-      <recent name="$PROJECT_DIR$/tyndyrnaya" />
-      <recent name="$PROJECT_DIR$/engineering-systems" />
-      <recent name="$PROJECT_DIR$/engineering-systems/img" />
-      <recent name="$PROJECT_DIR$/engineering-systems/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/repair-boilers/css" />
       <recent name="$PROJECT_DIR$/repair-boilers/psd/Иконки" />
       <recent name="$PROJECT_DIR$/repair-boilers/img" />
       <recent name="$PROJECT_DIR$/base/csys/banners/img" />
       <recent name="$PROJECT_DIR$/artemsdobnikov/math/image" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tyndyrnaya/css" />
+      <recent name="$PROJECT_DIR$/tyndyrnaya/psd" />
+      <recent name="$PROJECT_DIR$/tyndyrnaya" />
+      <recent name="$PROJECT_DIR$/engineering-systems" />
+      <recent name="$PROJECT_DIR$/engineering-systems/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,14 +426,7 @@
       <workItem from="1588676365879" duration="3042000" />
       <workItem from="1588835125180" duration="1507000" />
       <workItem from="1589135066060" duration="45000" />
-      <workItem from="1589136227882" duration="470000" />
-    </task>
-    <task id="LOCAL-00640" summary="Обновление">
-      <created>1587988673515</created>
-      <option name="number" value="00640" />
-      <option name="presentableId" value="LOCAL-00640" />
-      <option name="project" value="LOCAL" />
-      <updated>1587988673515</updated>
+      <workItem from="1589136227882" duration="4016000" />
     </task>
     <task id="LOCAL-00641" summary="Обновление">
       <created>1587988752805</created>
@@ -741,15 +764,22 @@
       <option name="project" value="LOCAL" />
       <updated>1589134475819</updated>
     </task>
-    <option name="localTasksCounter" value="689" />
+    <task id="LOCAL-00689" summary="Обновление">
+      <created>1589136725353</created>
+      <option name="number" value="00689" />
+      <option name="presentableId" value="LOCAL-00689" />
+      <option name="project" value="LOCAL" />
+      <updated>1589136725353</updated>
+    </task>
+    <option name="localTasksCounter" value="690" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1027019000" />
+    <option name="totallyTimeSpent" value="1030565000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="655" y="-1417" width="1231" height="1360" extended-state="0" />
+    <frame x="655" y="-1417" width="1231" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2773537" />
@@ -757,7 +787,7 @@
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31721312" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31570998" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -765,7 +795,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.5068493" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.497557" visible="true" weight="0.52868855" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.497557" visible="true" weight="0.326284" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502443" side_tool="true" weight="0.5291096" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22431506" />
@@ -882,14 +912,11 @@
     <MESSAGE value="Обновление Подвала" />
     <MESSAGE value="Обновление Слайдера и ссылок кнопок" />
     <MESSAGE value="Обновление Адаптация" />
-    <MESSAGE value="Обновление" />
     <MESSAGE value="Обновление psd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновление psd" />
+    <MESSAGE value="Обновление" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/drive.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/drive (2).svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1177,20 +1204,6 @@
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/js/main_slider.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1206,10 +1219,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/psd/1. Главная.psd">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="412">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+          <folding>
+            <element signature="e#813#2717#0" />
+          </folding>
         </state>
       </provider>
     </entry>

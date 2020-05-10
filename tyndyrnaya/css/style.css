@@ -1,6 +1,15 @@
 @font-face {
   font-family: "DrumRegular";
   src: url("drumregular.ttf"); }
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Medium.ttf"); }
+@font-face {
+  font-family: "GilroyBlack";
+  src: url("Gilroy-Black.ttf"); }
+@font-face {
+  font-family: "GilroyRegular";
+  src: url("Gilroy-Regular.ttf"); }
 a {
   text-decoration: none; }
 
@@ -94,6 +103,37 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 {
   background-position: center center;
   background-repeat: no-repeat;
   height: 663px; }
+  header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container {
+    padding-left: 10px;
+    padding-right: 10px; }
+    header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .slide_item__header {
+      font-size: 100px;
+      font-family: "GilroyBlack";
+      color: white;
+      line-height: 0.66; }
+      header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .slide_item__header span {
+        display: block;
+        font-size: 80px;
+        font-family: "GilroyRegular"; }
+    header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .slide_item__text {
+      font-size: 17px;
+      color: white;
+      line-height: 2.742; }
+    header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .btn {
+      border-radius: 3px;
+      background-color: #ff3d02;
+      width: 150px;
+      padding: 10px 10px;
+      font-size: 14px;
+      font-family: "Gilroy";
+      color: white;
+      line-height: .0;
+      display: flex;
+      text-transform: uppercase;
+      align-items: center; }
+      header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .btn:before {
+        content: url(../img/btn-menu.png);
+        padding-right: 10px; }
 header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 {
   background-image: url(../img/item-2.jpg);
   background-position: center center;

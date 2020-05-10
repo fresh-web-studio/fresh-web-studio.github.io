@@ -2,6 +2,18 @@
   font-family: "DrumRegular";
   src: url("drumregular.ttf");
 }
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "GilroyBlack";
+  src: url("Gilroy-Black.ttf");
+}
+@font-face {
+  font-family: "GilroyRegular";
+  src: url("Gilroy-Regular.ttf");
+}
 a {
   text-decoration: none;
 }
@@ -126,9 +138,42 @@ header {
         background-repeat: no-repeat;
         height: 663px;
         .container {
-          .slide-item__header {}
-          .slide-item__text {}
-          button.btn {}
+          padding-left: 10px;
+          padding-right: 10px;
+          .slide_item__header {
+            font-size: 100px;
+            font-family: "GilroyBlack";
+            color: rgb(255, 255, 255);
+            line-height: 0.66;
+            span {
+              display: block;
+              font-size: 80px;
+              font-family: "GilroyRegular";
+            }
+          }
+          .slide_item__text {
+            font-size: 17px;
+            color: rgb(255, 255, 255);
+            line-height: 2.742;
+          }
+          .btn {
+            border-radius: 3px;
+            background-color: #ff3d02;
+            width: 150px;
+            padding: 10px 10px;
+
+            font-size: 14px;
+            font-family: "Gilroy";
+            color: white;
+            line-height: .0;
+            display: flex;
+            text-transform: uppercase;
+            align-items: center;
+            &:before {
+              content: url(../img/btn-menu.png);
+              padding-right: 10px;
+            }
+          }
         }
       }
       .slide-item.slide2 {
