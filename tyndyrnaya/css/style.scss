@@ -160,22 +160,24 @@ header {
               margin-top: 46px;
               margin-bottom: 58px;
             }
-            .btn {
-              border-radius: 3px;
-              background-color: #ff3d02;
-              width: 150px;
-              padding: 10px 10px;
+            a {
+              .btn {
+                border-radius: 3px;
+                background-color: #ff3d02;
+                width: 150px;
+                padding: 10px 10px;
 
-              font-size: 14px;
-              font-family: "Gilroy";
-              color: white;
-              line-height: .0;
-              display: flex;
-              text-transform: uppercase;
-              align-items: center;
-              &:before {
-                content: url(../img/btn-menu.png);
-                padding-right: 10px;
+                font-size: 14px;
+                font-family: "Gilroy";
+                color: white;
+                line-height: .0;
+                display: flex;
+                text-transform: uppercase;
+                align-items: center;
+                &:before {
+                  content: url(../img/btn-menu.png);
+                  padding-right: 10px;
+                }
               }
             }
           }
@@ -186,6 +188,38 @@ header {
         background-position: center center;
         background-repeat: no-repeat;
         height: 663px;
+        .container {
+
+          .slide_item__header {
+            font-size: 111px;
+            font-family: "DrumRegular";
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            text-align: center;
+            padding-top: 34px;
+          }
+          .slide_item__text {
+            background-image: url(../img/line.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: 238px;
+            width: 434px;
+            float: right;
+            text-align: center;
+            margin: 55px 152px;
+            .call {
+              font-size: 73px;
+              font-family: "DrumRegular";
+              color: rgb(255, 255, 255);
+              padding-top: 25px;
+            }
+            .tel {
+              font-size: 50px;
+              font-family: "DrumRegular";
+              color: #f9f65c;
+            }
+          }
+        }
       }
 
       .owl-nav {
@@ -294,8 +328,6 @@ header {
   }
 
 }
-
-
 @media all and (max-width: 1200px) {
   header {
     .container {
@@ -329,6 +361,34 @@ header {
         }
       }
     }
+    .slide-wrapper {
+      #owl-carousel1.owl-carousel.owl-theme {
+        .slide-item.slide1 {
+          .container {
+            .right-block {
+              .slide_item__header {
+                font-size: 77px;
+                span {}
+              }
+              .slide_item__text {}
+              a {
+                .btn {}
+              }
+            }
+          }
+        }
+        .slide-item.slide2 {
+          .container {
+            .slide_item__header {
+            }
+            .slide_item__text {
+              margin: 55px 80px;
+            }
+          }
+        }
+      }
+    }
+
   }
 }
 @media all and (max-width: 1100px) {
@@ -364,6 +424,36 @@ header {
         }
       }
     }
+    .slide-wrapper {
+      #owl-carousel1.owl-carousel.owl-theme {
+        .slide-item.slide1 {
+          .container {
+            .right-block {
+              .slide_item__header {
+                span {}
+              }
+              .slide_item__text {}
+              a {
+                .btn {}
+              }
+            }
+          }
+        }
+        .slide-item.slide2 {
+          .container {
+            .slide_item__header {
+              font-size: 9vw;
+            }
+            .slide_item__text {
+              a {
+                color: #f9f65c;
+              }
+            }
+          }
+        }
+      }
+    }
+
   }
 
 }
@@ -481,6 +571,42 @@ header {
         }
       }
     }
+    .slide-wrapper {
+      #owl-carousel1.owl-carousel.owl-theme {
+        .slide-item.slide1 {
+          height: 100%;
+          .container {
+            padding: 55px 10px 55px 10px;
+            .right-block {
+              width: 100%;
+              .slide_item__header {
+                font-size: 15vw;
+                span {
+                  font-size: 15vw;
+                }
+              }
+              .slide_item__text {
+
+              }
+              a {
+                .btn {}
+              }
+            }
+          }
+        }
+        .slide-item.slide2 {
+          .container {
+            .slide_item__header {}
+            .slide_item__text {
+              .call {}
+              .tel {}
+            }
+          }
+        }
+
+      }
+    }
+
   }
 
 }
