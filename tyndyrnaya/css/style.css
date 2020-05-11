@@ -284,7 +284,7 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
       order: 2;
       padding-left: 20px; }
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 {
-    height: 100%; }
+    height: 413px; }
     header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container {
       padding: 55px 10px 55px 10px; }
       header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block {
@@ -292,7 +292,25 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
         header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block .slide_item__header {
           font-size: 15vw; }
           header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block .slide_item__header span {
-            font-size: 15vw; } }
+            font-size: 15vw; }
+  header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 {
+    height: 413px; }
+    header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 .container {
+      padding: 30px 0px;
+      background: rgba(0, 0, 0, 0.5); }
+      header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 .container .slide_item__header {
+        padding-top: 0px;
+        font-size: 14vw; }
+      header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 .container .slide_item__text {
+        background-size: contain;
+        float: none;
+        margin: 0 auto;
+        width: 80%; }
+        header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 .container .slide_item__text .call {
+          font-size: 17vw;
+          padding-top: 34px; }
+        header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 .container .slide_item__text .tel {
+          font-size: 10vw; } }
 @media all and (max-width: 320px) {
   header .container .header .cart {
     padding-left: 2px; } }

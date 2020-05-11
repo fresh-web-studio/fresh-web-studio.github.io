@@ -6,11 +6,6 @@
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/img/item-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/img/item-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/js/main_slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/js/main_slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/js/main_slider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/js/main_slider.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/psd/Баннеры.psd" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/psd/Баннеры.psd" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -83,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="448" column="31" selection-start-line="448" selection-start-column="31" selection-end-line="448" selection-end-column="31" />
+            <state relative-caret-position="286">
+              <caret line="599" column="23" selection-start-line="599" selection-start-column="23" selection-end-line="599" selection-end-column="23" />
               <folding>
                 <element signature="e#867#2753#0" />
                 <element signature="e#4606#5162#0" />
@@ -93,7 +88,6 @@
                 <element signature="e#5821#6377#0" />
                 <element signature="e#6447#7003#0" />
                 <element signature="e#7076#9682#0" />
-                <element signature="e#11709#11965#0" />
                 <element signature="e#9752#10275#0" />
                 <element signature="e#10344#10895#0" />
               </folding>
@@ -446,14 +440,7 @@
       <workItem from="1588676365879" duration="3042000" />
       <workItem from="1588835125180" duration="1507000" />
       <workItem from="1589135066060" duration="45000" />
-      <workItem from="1589136227882" duration="10075000" />
-    </task>
-    <task id="LOCAL-00643" summary="Обновление">
-      <created>1587999503952</created>
-      <option name="number" value="00643" />
-      <option name="presentableId" value="LOCAL-00643" />
-      <option name="project" value="LOCAL" />
-      <updated>1587999503952</updated>
+      <workItem from="1589136227882" duration="11732000" />
     </task>
     <task id="LOCAL-00644" summary="Обновление">
       <created>1588002336520</created>
@@ -791,11 +778,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589142163851</updated>
     </task>
-    <option name="localTasksCounter" value="692" />
+    <task id="LOCAL-00692" summary="Обновление">
+      <created>1589210715407</created>
+      <option name="number" value="00692" />
+      <option name="presentableId" value="LOCAL-00692" />
+      <option name="project" value="LOCAL" />
+      <updated>1589210715413</updated>
+    </task>
+    <option name="localTasksCounter" value="693" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1036624000" />
+    <option name="totallyTimeSpent" value="1038281000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -1265,8 +1259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="448" column="31" selection-start-line="448" selection-start-column="31" selection-end-line="448" selection-end-column="31" />
+        <state relative-caret-position="286">
+          <caret line="599" column="23" selection-start-line="599" selection-start-column="23" selection-end-line="599" selection-end-column="23" />
           <folding>
             <element signature="e#867#2753#0" />
             <element signature="e#4606#5162#0" />
@@ -1275,7 +1269,6 @@
             <element signature="e#5821#6377#0" />
             <element signature="e#6447#7003#0" />
             <element signature="e#7076#9682#0" />
-            <element signature="e#11709#11965#0" />
             <element signature="e#9752#10275#0" />
             <element signature="e#10344#10895#0" />
           </folding>
