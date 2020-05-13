@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyndyrnaya/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/index.html" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -63,33 +64,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="93" column="42" lean-forward="true" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
+            <state relative-caret-position="408">
+              <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#3943#3949#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="599" column="23" selection-start-line="599" selection-start-column="23" selection-end-line="599" selection-end-column="23" />
+            <state relative-caret-position="291">
+              <caret line="695" column="32" lean-forward="true" selection-start-line="695" selection-start-column="32" selection-end-line="695" selection-end-column="32" />
               <folding>
                 <element signature="e#867#2753#0" />
+                <element signature="e#2846#3601#0" />
                 <element signature="e#4606#5162#0" />
                 <element signature="e#5198#5755#0" />
                 <element signature="e#5793#6383#0" />
                 <element signature="e#5821#6377#0" />
                 <element signature="e#6447#7003#0" />
+                <element signature="e#8522#8778#0" />
+                <element signature="e#8806#8920#0" />
+                <element signature="e#11624#12335#0" />
                 <element signature="e#7076#9682#0" />
+                <element signature="e#11709#11965#0" />
+                <element signature="e#13120#13292#0" />
                 <element signature="e#9752#10275#0" />
+                <element signature="e#14570#15743#0" />
+                <element signature="e#14645#15096#0" />
                 <element signature="e#10344#10895#0" />
+                <element signature="e#16070#16521#0" />
               </folding>
             </state>
           </provider>
@@ -257,8 +271,8 @@
         <option value="$PROJECT_DIR$/engineering-systems/css/style.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/tyndyrnaya/js/main_slider.js" />
-        <option value="$PROJECT_DIR$/tyndyrnaya/index.html" />
         <option value="$PROJECT_DIR$/tyndyrnaya/css/style.scss" />
+        <option value="$PROJECT_DIR$/tyndyrnaya/index.html" />
       </list>
     </option>
   </component>
@@ -440,14 +454,7 @@
       <workItem from="1588676365879" duration="3042000" />
       <workItem from="1588835125180" duration="1507000" />
       <workItem from="1589135066060" duration="45000" />
-      <workItem from="1589136227882" duration="11732000" />
-    </task>
-    <task id="LOCAL-00644" summary="Обновление">
-      <created>1588002336520</created>
-      <option name="number" value="00644" />
-      <option name="presentableId" value="LOCAL-00644" />
-      <option name="project" value="LOCAL" />
-      <updated>1588002336520</updated>
+      <workItem from="1589136227882" duration="20238000" />
     </task>
     <task id="LOCAL-00645" summary="Обновление">
       <created>1588002550467</created>
@@ -785,11 +792,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589210715413</updated>
     </task>
-    <option name="localTasksCounter" value="693" />
+    <task id="LOCAL-00693" summary="Обновление">
+      <created>1589219049633</created>
+      <option name="number" value="00693" />
+      <option name="presentableId" value="LOCAL-00693" />
+      <option name="project" value="LOCAL" />
+      <updated>1589219049633</updated>
+    </task>
+    <option name="localTasksCounter" value="694" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1038281000" />
+    <option name="totallyTimeSpent" value="1046787000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -1247,30 +1261,43 @@
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/img/line.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="93" column="42" lean-forward="true" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
-          <folding>
-            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="599" column="23" selection-start-line="599" selection-start-column="23" selection-end-line="599" selection-end-column="23" />
+        <state relative-caret-position="291">
+          <caret line="695" column="32" lean-forward="true" selection-start-line="695" selection-start-column="32" selection-end-line="695" selection-end-column="32" />
           <folding>
             <element signature="e#867#2753#0" />
+            <element signature="e#2846#3601#0" />
             <element signature="e#4606#5162#0" />
             <element signature="e#5198#5755#0" />
             <element signature="e#5793#6383#0" />
             <element signature="e#5821#6377#0" />
             <element signature="e#6447#7003#0" />
+            <element signature="e#8522#8778#0" />
+            <element signature="e#8806#8920#0" />
+            <element signature="e#11624#12335#0" />
             <element signature="e#7076#9682#0" />
+            <element signature="e#11709#11965#0" />
+            <element signature="e#13120#13292#0" />
             <element signature="e#9752#10275#0" />
+            <element signature="e#14570#15743#0" />
+            <element signature="e#14645#15096#0" />
             <element signature="e#10344#10895#0" />
+            <element signature="e#16070#16521#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
+          <folding>
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#3943#3949#0" expanded="true" />
           </folding>
         </state>
       </provider>
