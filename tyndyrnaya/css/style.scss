@@ -337,13 +337,13 @@ header {
             flex-wrap: wrap;
             justify-content: space-between;
             width: 100%;
-            padding: 0 10px;
+            padding: 0 10px 15px 10px;
             .slide-item__address {
               width: 25%;
               font-family: "DrumRegular";
               color: #ffffff;
               text-align: center;
-              font-size: 21px;
+              font-size: 28px;
               line-height: 2.905;
               img {
                 width: 25px;
@@ -356,6 +356,7 @@ header {
                 width: 303px;
                 height: 150px;
                 border-radius: 20px;
+                box-shadow: 10px 8px 0px rgba(0, 0, 0, 0.18);
 
                 color: #ffffff;
                 font-size: 23px;
@@ -368,7 +369,14 @@ header {
                   padding-top: 33px;
                 }
               }
-
+              img {
+                width: 69px;
+                margin: 0 34%;
+              }
+              img.shadow {
+                transform: translate(9px, -37px);
+                opacity: .38;
+              }
 
             }
 
@@ -638,6 +646,30 @@ header {
             }
           }
         }
+        .slide-item.slide5 {
+          .container {
+            .row {
+              .slide-item__address {
+                font-size: 26px;
+                img {
+                }
+              }
+              .slide_item__tel {
+                .tel-block {
+                  a {
+                    color: #ffffff;
+                  }
+                  img {
+                  }
+                }
+                img {
+                }
+                img.shadow {
+                }
+              }
+            }
+          }
+        }
       }
     }
 
@@ -852,6 +884,49 @@ header {
               }
               a {
                 .btn {}
+              }
+            }
+          }
+        }
+        .slide-item.slide5 {
+          height: 413px;
+          .container {
+            background: rgba(0, 0, 0, 0.5);
+            .row {
+              .slide-item__address {
+                width: 100%;
+                line-height: 1.4;
+                img {
+                }
+              }
+              .slide_item__tel {
+                padding-top: 10px;
+                margin: 0 auto;
+                .tel-block {
+                  background-color: #232525;
+                  width: 270px;
+                  height: 30px;
+                  border-radius: 20px;
+                  box-shadow: 10px 8px 0px rgba(0, 0, 0, 0.18);
+                  color: #ffffff;
+                  font-size: 22px;
+                  text-align: center;
+                  display: flex;
+                  justify-content: space-between;
+                  padding-bottom: 16px;
+                  padding-top: 20px;
+                  padding-right: 23px;
+                  img {
+                    width: 26px;
+                    height: 30px;
+                    padding-top: 0px;
+                  }
+                }
+                img[alt="Угол"] {
+                  display: none;
+                }
+                img.shadow {
+                }
               }
             }
           }
