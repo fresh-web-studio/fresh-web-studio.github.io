@@ -10,6 +10,9 @@
 @font-face {
   font-family: "GilroyRegular";
   src: url("Gilroy-Regular.ttf"); }
+@font-face {
+  font-family: "FiraSansBold";
+  src: url("Fira-Sans-Bold.ttf"); }
 a {
   text-decoration: none; }
 
@@ -210,6 +213,42 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide3 {
           header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide3 .container .row .slide-item__table .slide_item__text .price {
             line-height: 2.093;
             color: #d56862; }
+header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 {
+  background-image: url(../img/item-4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 663px; }
+  header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container {
+    padding: 124px 10px 120px 70px;
+    display: flex; }
+    header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block {
+      width: 40%; }
+      header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__header {
+        font-size: 100px;
+        font-family: "FiraSansBold";
+        color: white;
+        line-height: 1; }
+      header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
+        font-family: "DrumRegular";
+        font-size: 80px;
+        color: #ff3d02;
+        margin-top: 20px;
+        margin-bottom: 58px; }
+      header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block a .btn {
+        border-radius: 3px;
+        background-color: #ff3d02;
+        width: 159px;
+        height: 46px;
+        padding: 0px 10px;
+        font-size: 14px;
+        font-family: "Gilroy";
+        color: white;
+        display: flex;
+        text-transform: uppercase;
+        align-items: center;
+        justify-content: center; }
+        header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block a .btn:hover {
+          background-color: #d93909; }
 header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
   margin-top: 0px; }
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav button {
@@ -242,7 +281,11 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block .slide_item__header {
     font-size: 77px; }
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 .container .slide_item__text {
-    margin: 55px 80px; } }
+    margin: 55px 80px; }
+  header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__header {
+    font-size: 87px; }
+  header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
+    font-size: 65px; } }
 @media all and (max-width: 1100px) {
   header .container .header nav.header-nav ul.nav-menu li.menu-item {
     padding: 10px 15px; }
@@ -374,7 +417,20 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
           header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide3 .container .row .slide-item__table .slide_item__text .line {
             line-height: 1; }
           header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide3 .container .row .slide-item__table .slide_item__text .price {
-            line-height: 1; } }
+            line-height: 1; }
+  header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 {
+    background-position: center right;
+    height: 413px; }
+    header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container {
+      padding: 12% 10px 10%;
+      background: rgba(0, 0, 0, 0.5); }
+      header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block {
+        width: 100%; }
+        header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__header {
+          font-size: 64px;
+          width: 80%; }
+        header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
+          font-size: 60px; } }
 @media all and (max-width: 375px) {
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 {
     height: 413px; }
@@ -385,7 +441,11 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
         header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block .slide_item__header {
           font-size: 15vw; }
           header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block .slide_item__header span {
-            font-size: 15vw; } }
+            font-size: 15vw; }
+  header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container {
+    padding: 13% 10px 12%; }
+    header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
+      font-size: 56px; } }
 @media all and (max-width: 320px) {
   header .container .header .cart {
     padding-left: 2px; }
@@ -403,6 +463,12 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
     padding: 11% 0px 10%; }
     header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 .container .slide_item__text .call {
       font-size: 14vw;
-      padding-top: 54px; } }
+      padding-top: 54px; }
+  header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container {
+    padding: 16% 10px 22%; }
+    header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__header {
+      font-size: 57px; }
+    header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
+      font-size: 47px; } }
 
 /*# sourceMappingURL=style.css.map */
