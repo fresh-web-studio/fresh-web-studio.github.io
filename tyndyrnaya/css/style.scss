@@ -322,6 +322,39 @@ header {
           }
         }
       }
+      .slide-item.slide5 {
+        background-image: url(../img/item-5.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 663px;
+        .container {
+          display: flex;
+          height: 100%;
+          align-items: center;
+          justify-content: space-between;
+          .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 10px;
+            .slide-item__address {
+              width: 25%;
+              font-family: "DrumRegular";
+              color: #ffffff;
+              text-align: center;
+              font-size: 21px;
+              line-height: 2.905;
+              img {
+                width: 25px;
+                margin: 0 auto;
+              }
+            }
+            .slide_item__tel {}
+          }
+        }
+      }
+
       .owl-nav {
         margin-top: 0px;
         button {

@@ -249,6 +249,32 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 {
         justify-content: center; }
         header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block a .btn:hover {
           background-color: #d93909; }
+header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 {
+  background-image: url(../img/item-5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 663px; }
+  header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between; }
+    header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 10px; }
+      header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide-item__address {
+        width: 25%;
+        font-family: "DrumRegular";
+        color: #ffffff;
+        text-align: center;
+        font-size: 21px;
+        line-height: 2.905; }
+        header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide-item__address img {
+          width: 25px;
+          margin: 0 auto; }
 header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
   margin-top: 0px; }
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav button {
