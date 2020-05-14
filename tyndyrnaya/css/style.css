@@ -275,6 +275,20 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 {
         header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide-item__address img {
           width: 25px;
           margin: 0 auto; }
+      header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide_item__tel .tel-block {
+        background-color: #232525;
+        width: 303px;
+        height: 150px;
+        border-radius: 20px;
+        color: #ffffff;
+        font-size: 23px;
+        text-align: center; }
+        header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide_item__tel .tel-block img {
+          width: 33px;
+          height: 33px;
+          margin: 0 auto;
+          padding-bottom: 16px;
+          padding-top: 33px; }
 header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
   margin-top: 0px; }
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav button {

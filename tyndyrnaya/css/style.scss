@@ -350,7 +350,28 @@ header {
                 margin: 0 auto;
               }
             }
-            .slide_item__tel {}
+            .slide_item__tel {
+              .tel-block {
+                background-color: #232525;
+                width: 303px;
+                height: 150px;
+                border-radius: 20px;
+
+                color: #ffffff;
+                font-size: 23px;
+                text-align: center;
+                img {
+                  width: 33px;
+                  height: 33px;
+                  margin: 0 auto;
+                  padding-bottom: 16px;
+                  padding-top: 33px;
+                }
+              }
+
+
+            }
+
           }
         }
       }
