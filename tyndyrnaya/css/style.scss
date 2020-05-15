@@ -515,6 +515,7 @@ main {
             flex-wrap: wrap;
             justify-content: space-between;
             .text {
+              width: 192px;
               .price {
                 font-size: 19px;
                 color: rgb(62, 62, 62);
@@ -532,7 +533,7 @@ main {
               .quantity-choice {
                 padding-left: 16px;
                 padding-bottom: 2px;
-                width: 124px;
+                width: 123px;
                 height: 40px;
                 border-radius: 3px;
                 border: 1px solid #f0f0f0;
@@ -541,7 +542,6 @@ main {
                 -moz-appearance: none;
                 appearance: none;
                 position: relative;
-                margin-left: 51px;
                 z-index: 2;
               }
               &:after {
