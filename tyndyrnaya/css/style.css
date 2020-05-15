@@ -323,34 +323,52 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
 main .catalog {
   background-color: #fdfdfd; }
   main .catalog .container {
-    padding: 65px 0px; }
-    main .catalog .container h2.meat {
+    padding-bottom: 80px; }
+    main .catalog .container h2 {
+      margin-top: 40px;
       font-size: 22px;
       color: #333333;
       margin-left: 40px; }
-      main .catalog .container h2.meat:before {
-        content: url(../img/snack.svg);
-        margin-left: -40px;
-        position: absolute;
-        margin-top: -6px; }
-    main .catalog .container h2.kebab {
-      font-size: 22px;
-      color: #333333;
-      margin-left: 40px; }
-      main .catalog .container h2.kebab:before {
-        content: url(../img/kebab.svg);
-        margin-left: -40px;
-        position: absolute;
-        margin-top: 0px; }
-    main .catalog .container h2.meal {
-      font-size: 22px;
-      color: #333333;
-      margin-left: 40px; }
-      main .catalog .container h2.meal:before {
-        content: url(../img/meal.svg);
-        margin-left: -40px;
-        position: absolute;
-        margin-top: 0px; }
+    main .catalog .container h2.meat:before {
+      content: url(../img/snack.svg);
+      margin-left: -40px;
+      position: absolute;
+      margin-top: -6px; }
+    main .catalog .container h2.kebab:before {
+      content: url(../img/kebab.svg);
+      margin-left: -40px;
+      position: absolute;
+      margin-top: 0px; }
+    main .catalog .container h2.meal:before {
+      content: url(../img/meal.svg);
+      margin-left: -40px;
+      position: absolute;
+      margin-top: 0px; }
+    main .catalog .container h2.garnishes:before {
+      content: url(../img/garnishes.svg);
+      margin-left: -40px;
+      position: absolute;
+      margin-top: 0px; }
+    main .catalog .container h2.sauce:before {
+      content: url(../img/sauce.svg);
+      margin-left: -40px;
+      position: absolute;
+      margin-top: 2px; }
+    main .catalog .container h2.food:before {
+      content: url(../img/food.svg);
+      margin-left: -40px;
+      position: absolute;
+      margin-top: 2px; }
+    main .catalog .container h2.drinks:before {
+      content: url(../img/drinks.svg);
+      margin-left: -40px;
+      position: absolute;
+      margin-top: -2px; }
+    main .catalog .container h2.add:before {
+      content: url(../img/add.svg);
+      margin-left: -40px;
+      position: absolute;
+      margin-top: -1px; }
     main .catalog .container .main-items {
       display: flex;
       flex-wrap: wrap; }
@@ -381,6 +399,29 @@ main .catalog {
             font-size: 11px;
             color: #a8a6a6;
             line-height: 1.636; }
+          main .catalog .container .main-items .item .row .quantity {
+            font-size: 13px;
+            position: relative; }
+            main .catalog .container .main-items .item .row .quantity .quantity-choice {
+              padding-left: 16px;
+              padding-bottom: 2px;
+              width: 124px;
+              height: 40px;
+              border-radius: 3px;
+              border: 1px solid #f0f0f0;
+              background-color: transparent;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              appearance: none;
+              position: relative;
+              margin-left: 51px;
+              z-index: 2; }
+            main .catalog .container .main-items .item .row .quantity:after {
+              padding: 12px;
+              content: url(../img/select.svg);
+              position: absolute;
+              right: 0px;
+              z-index: 1; }
           main .catalog .container .main-items .item .row a .btn {
             border-radius: 3px;
             background-color: #ff3d02;
