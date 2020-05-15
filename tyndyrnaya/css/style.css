@@ -341,14 +341,22 @@ main .catalog {
         content: url(../img/kebab.svg);
         margin-left: -40px;
         position: absolute;
-        margin-top: -6px; }
+        margin-top: 0px; }
+    main .catalog .container h2.meal {
+      font-size: 22px;
+      color: #333333;
+      margin-left: 40px; }
+      main .catalog .container h2.meal:before {
+        content: url(../img/meal.svg);
+        margin-left: -40px;
+        position: absolute;
+        margin-top: 0px; }
     main .catalog .container .main-items {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between; }
+      flex-wrap: wrap; }
       main .catalog .container .main-items .item {
-        margin: 19px 0;
-        width: 32%;
+        margin: 19px 21px 19px 0px;
+        width: 409px;
         background-color: #ffffff;
         border-radius: 3px;
         box-shadow: 0px 0px 21px 0px rgba(227, 227, 227, 0.47); }
@@ -390,6 +398,8 @@ main .catalog {
               padding-left: 5px; }
             main .catalog .container .main-items .item .row a .btn:hover {
               background-color: #d93909; }
+      main .catalog .container .main-items .item:nth-of-type(3n) {
+        margin-right: 0px; }
 
 /*======================================================*/
 /*======================================================*/

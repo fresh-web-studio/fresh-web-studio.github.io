@@ -439,16 +439,26 @@ main {
           content: url(../img/kebab.svg);
           margin-left: -40px;
           position: absolute;
-          margin-top: -6px;
+          margin-top: 0px;
+        }
+      }
+      h2.meal {
+        font-size: 22px;
+        color: rgb(51, 51, 51);
+        margin-left: 40px;
+        &:before {
+          content: url(../img/meal.svg);
+          margin-left: -40px;
+          position: absolute;
+          margin-top: 0px;
         }
       }
       .main-items {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         .item {
-          margin: 19px 0;
-          width: 32%;
+          margin: 19px 21px 19px 0px;
+          width: 409px;
           background-color: #ffffff;
           border-radius: 3px;
           box-shadow: 0px 0px 21px 0px rgba(227, 227, 227, 0.47);
@@ -502,6 +512,9 @@ main {
               }
             }
           }
+        }
+        .item:nth-of-type(3n) {
+          margin-right: 0px;
         }
       }
     }
