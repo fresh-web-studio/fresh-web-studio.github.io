@@ -320,6 +320,77 @@ header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav {
     right: -20px;
     float: right; }
 
+main .catalog {
+  background-color: #fdfdfd; }
+  main .catalog .container {
+    padding: 65px 0px; }
+    main .catalog .container h2.meat {
+      font-size: 22px;
+      color: #333333;
+      margin-left: 40px; }
+      main .catalog .container h2.meat:before {
+        content: url(../img/snack.svg);
+        margin-left: -40px;
+        position: absolute;
+        margin-top: -6px; }
+    main .catalog .container h2.kebab {
+      font-size: 22px;
+      color: #333333;
+      margin-left: 40px; }
+      main .catalog .container h2.kebab:before {
+        content: url(../img/kebab.svg);
+        margin-left: -40px;
+        position: absolute;
+        margin-top: -6px; }
+    main .catalog .container .main-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      main .catalog .container .main-items .item {
+        margin: 19px 0;
+        width: 32%;
+        background-color: #ffffff;
+        border-radius: 3px;
+        box-shadow: 0px 0px 21px 0px rgba(227, 227, 227, 0.47); }
+        main .catalog .container .main-items .item img {
+          width: 100%; }
+        main .catalog .container .main-items .item h3 {
+          padding: 0px 20px;
+          font-size: 13px;
+          color: #3e3e3e;
+          line-height: 3.55;
+          border-bottom: 1px solid #f6f6f6; }
+        main .catalog .container .main-items .item .row {
+          padding: 10px 20px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between; }
+          main .catalog .container .main-items .item .row .text .price {
+            font-size: 19px;
+            color: #3e3e3e;
+            font-weight: bold; }
+          main .catalog .container .main-items .item .row .text .info {
+            font-size: 11px;
+            color: #a8a6a6;
+            line-height: 1.636; }
+          main .catalog .container .main-items .item .row a .btn {
+            border-radius: 3px;
+            background-color: #ff3d02;
+            width: 33px;
+            padding: 10px 10px;
+            font-size: 14px;
+            font-family: "Gilroy";
+            color: white;
+            line-height: .0;
+            display: flex;
+            text-transform: uppercase;
+            align-items: center; }
+            main .catalog .container .main-items .item .row a .btn::after {
+              content: url(../img/shopping-cart.svg);
+              padding-left: 5px; }
+            main .catalog .container .main-items .item .row a .btn:hover {
+              background-color: #d93909; }
+
 /*======================================================*/
 /*======================================================*/
 /*======================================================*/
