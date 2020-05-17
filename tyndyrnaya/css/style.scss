@@ -698,6 +698,8 @@ main {
       float: left;
       border-radius: 3px;
       background-color: #ffffff;
+      z-index: 999;
+      box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.04);
       &:before {
         content: url(../img/marker.png);
         margin-left: -23px;
@@ -720,13 +722,14 @@ main {
 
     .resp-tab-content {
       display: none;
-      padding: 15px;
       margin-top: -29px;
+      height: 512px;
+      overflow: hidden;
     }
 
     .resp-tab-active {
       border-radius: 3px;
-      box-shadow: 0px 7px 38px 0px rgba(0, 0, 0, 0.18);
+      box-shadow: 0px 7px 38px 0px rgba(0, 0, 0, 0.18) !important;
     }
 
     .resp-tab-active {
@@ -736,11 +739,6 @@ main {
 
     .resp-content-active, .resp-accordion-active {
       display: block;
-    }
-
-    .resp-tab-content {
-      border: 1px solid #c1c1c1;
-      border-top-color: #5AB1D0;
     }
 
     h2.resp-accordion {
@@ -761,9 +759,41 @@ main {
       border-bottom: 12px solid #c1c1c1 !important;
       background: blue;
     }
+
+    .ymaps-2-1-76-controls__toolbar {
+      margin-top: 60px !important;
+    }
+    .telephone {
+      font-weight: 600;
+      font-size: 30px;
+      color: #303030;
+      padding: 12px 27px 12px 27px;
+      list-style: none;
+      cursor: pointer;
+      border-radius: 3px;
+      background-color: #ffffff;
+      z-index: 999;
+      box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.04);
+      position: relative;
+      bottom: 410px;
+      width: 256px;
+      margin: 0 auto;
+      a {
+        color: #303030;
+      }
+    }
   }
 }
-
+footer {
+  font-size: 11px;
+  color: rgb(174, 174, 174);
+  line-height: 2.273;
+  text-align: center;
+  -moz-transform: scale(1.06, 1);
+  -webkit-transform: scale(1.06, 1);
+  -ms-transform: scale(1.06, 1);
+  padding: 23px 0;
+}
 
 /*======================================================*/
 /*======================================================*/
@@ -931,6 +961,11 @@ main {
         }
       }
     }
+    .contact-home {
+      .resp-tabs-list li {
+        padding: 20px 32px 20px 46px;
+      }
+    }
   }
 }
 @media all and (max-width: 1100px) {
@@ -1070,6 +1105,11 @@ main {
             }
           }
         }
+      }
+    }
+    .contact-home {
+      .resp-tabs-list li {
+        padding: 20px 22px 20px 36px;
       }
     }
   }
@@ -1425,7 +1465,9 @@ main {
       .resp-vtabs .resp-tab-content {
         border: 1px solid #C1C1C1;
       }
-
+      .resp-tab-content {
+        margin-top: 0px;
+      }
       .resp-vtabs .resp-tabs-container {
         border: none;
         float: none;
@@ -1440,6 +1482,13 @@ main {
 
       .resp-vtabs .resp-tab-content:last-child {
         border-bottom: 1px solid #c1c1c1 !important;
+      }
+
+      .ymaps-2-1-76-controls__toolbar {
+        margin-top: 10px !important;
+      }
+      .ymaps-2-1-76-controls__control {
+        top: 60px !important;
       }
     }
   }

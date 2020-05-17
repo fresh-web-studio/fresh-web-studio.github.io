@@ -533,7 +533,9 @@ main .contact-home .resp-tabs-list li {
   cursor: pointer;
   float: left;
   border-radius: 3px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  z-index: 999;
+  box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.04); }
   main .contact-home .resp-tabs-list li:before {
     content: url(../img/marker.png);
     margin-left: -23px;
@@ -549,19 +551,17 @@ main .contact-home h2.resp-accordion {
   display: none; }
 main .contact-home .resp-tab-content {
   display: none;
-  padding: 15px;
-  margin-top: -29px; }
+  margin-top: -29px;
+  height: 512px;
+  overflow: hidden; }
 main .contact-home .resp-tab-active {
   border-radius: 3px;
-  box-shadow: 0px 7px 38px 0px rgba(0, 0, 0, 0.18); }
+  box-shadow: 0px 7px 38px 0px rgba(0, 0, 0, 0.18) !important; }
 main .contact-home .resp-tab-active {
   border-bottom: none;
   background-color: #fff; }
 main .contact-home .resp-content-active, main .contact-home .resp-accordion-active {
   display: block; }
-main .contact-home .resp-tab-content {
-  border: 1px solid #c1c1c1;
-  border-top-color: #5AB1D0; }
 main .contact-home h2.resp-accordion {
   font-size: 13px;
   border: 1px solid #c1c1c1;
@@ -575,6 +575,35 @@ main .contact-home h2.resp-tab-active {
 main .contact-home h2.resp-tab-title:last-child {
   border-bottom: 12px solid #c1c1c1 !important;
   background: blue; }
+main .contact-home .ymaps-2-1-76-controls__toolbar {
+  margin-top: 60px !important; }
+main .contact-home .telephone {
+  font-weight: 600;
+  font-size: 30px;
+  color: #303030;
+  padding: 12px 27px 12px 27px;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #ffffff;
+  z-index: 999;
+  box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.04);
+  position: relative;
+  bottom: 410px;
+  width: 256px;
+  margin: 0 auto; }
+  main .contact-home .telephone a {
+    color: #303030; }
+
+footer {
+  font-size: 11px;
+  color: #aeaeae;
+  line-height: 2.273;
+  text-align: center;
+  -moz-transform: scale(1.06, 1);
+  -webkit-transform: scale(1.06, 1);
+  -ms-transform: scale(1.06, 1);
+  padding: 23px 0; }
 
 /*======================================================*/
 /*======================================================*/
@@ -596,7 +625,9 @@ main .contact-home h2.resp-tab-title:last-child {
     main .catalog .container .main-items .item {
       width: 349px; }
       main .catalog .container .main-items .item .row .text {
-        width: 133px; } }
+        width: 133px; }
+  main .contact-home .resp-tabs-list li {
+    padding: 20px 32px 20px 46px; } }
 @media all and (max-width: 1100px) {
   header .container .header nav.header-nav ul.nav-menu li.menu-item {
     padding: 10px 15px; }
@@ -619,7 +650,9 @@ main .contact-home h2.resp-tab-title:last-child {
         padding-left: 10px;
         width: 90px; }
   main .advantages .container .advantages-block .advantages-item {
-    width: 255px; } }
+    width: 255px; }
+  main .contact-home .resp-tabs-list li {
+    padding: 20px 22px 20px 36px; } }
 @media all and (max-width: 670px) {
   header .container .header {
     justify-content: left; }
@@ -821,6 +854,8 @@ main .contact-home h2.resp-tab-title:last-child {
     display: block; }
   main .contact-home .resp-vtabs .resp-tab-content {
     border: 1px solid #C1C1C1; }
+  main .contact-home .resp-tab-content {
+    margin-top: 0px; }
   main .contact-home .resp-vtabs .resp-tabs-container {
     border: none;
     float: none;
@@ -830,7 +865,11 @@ main .contact-home h2.resp-tab-title:last-child {
   main .contact-home .resp-accordion-closed {
     display: none !important; }
   main .contact-home .resp-vtabs .resp-tab-content:last-child {
-    border-bottom: 1px solid #c1c1c1 !important; } }
+    border-bottom: 1px solid #c1c1c1 !important; }
+  main .contact-home .ymaps-2-1-76-controls__toolbar {
+    margin-top: 10px !important; }
+  main .contact-home .ymaps-2-1-76-controls__control {
+    top: 60px !important; } }
 @media all and (max-width: 375px) {
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 {
     height: 413px; }
