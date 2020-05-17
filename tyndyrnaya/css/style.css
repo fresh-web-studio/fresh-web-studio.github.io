@@ -473,7 +473,7 @@ main .about {
     flex-wrap: wrap;
     justify-content: space-between; }
     main .about .about-block .about-description {
-      width: 50%;
+      width: 44%;
       padding-left: 48px; }
       main .about .about-block .about-description .about-title {
         width: 484px;
@@ -494,20 +494,87 @@ main .about {
         font-weight: 400;
         line-height: 23px;
         margin-bottom: 25px; }
-      main .about .about-block .about-description .learn-start {
-        text-decoration: none; }
-        main .about .about-block .about-description .learn-start .link-text {
-          width: 178px;
-          height: 47px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color: #30a6f9;
-          border-radius: 3px;
-          color: #ffffff;
-          font-size: 12px;
-          font-weight: 600;
-          line-height: 25px; }
+      main .about .about-block .about-description a .btn {
+        border-radius: 3px;
+        background-color: #ff3d02;
+        width: 178px;
+        height: 46px;
+        padding: 0px 10px;
+        font-size: 14px;
+        font-family: "Gilroy";
+        color: white;
+        display: flex;
+        text-transform: uppercase;
+        align-items: center;
+        justify-content: center; }
+        main .about .about-block .about-description a .btn:hover {
+          background-color: #d93909; }
+main .contact-home h2 {
+  font-size: 35px;
+  color: #303030;
+  text-align: center;
+  -moz-transform: scale(1.06, 1);
+  -webkit-transform: scale(1.06, 1);
+  -ms-transform: scale(1.06, 1);
+  font-weight: 400;
+  padding-bottom: 64px; }
+main .contact-home ul.resp-tabs-list, main .contact-home p {
+  margin: 0px;
+  padding: 0px; }
+main .contact-home .resp-tabs-list {
+  display: flex;
+  justify-content: space-between; }
+main .contact-home .resp-tabs-list li {
+  font-weight: 600;
+  font-size: 14px;
+  color: #303030;
+  padding: 20px 42px 20px 56px;
+  list-style: none;
+  cursor: pointer;
+  float: left;
+  border-radius: 3px;
+  background-color: #ffffff; }
+  main .contact-home .resp-tabs-list li:before {
+    content: url(../img/marker.png);
+    margin-left: -23px;
+    position: absolute;
+    margin-top: 1px; }
+main .contact-home .resp-tabs-container {
+  padding: 0px;
+  background-color: #fff;
+  clear: left; }
+main .contact-home h2.resp-accordion {
+  cursor: pointer;
+  padding: 5px;
+  display: none; }
+main .contact-home .resp-tab-content {
+  display: none;
+  padding: 15px;
+  margin-top: -29px; }
+main .contact-home .resp-tab-active {
+  border-radius: 3px;
+  box-shadow: 0px 7px 38px 0px rgba(0, 0, 0, 0.18); }
+main .contact-home .resp-tab-active {
+  border-bottom: none;
+  background-color: #fff; }
+main .contact-home .resp-content-active, main .contact-home .resp-accordion-active {
+  display: block; }
+main .contact-home .resp-tab-content {
+  border: 1px solid #c1c1c1;
+  border-top-color: #5AB1D0; }
+main .contact-home h2.resp-accordion {
+  font-size: 13px;
+  border: 1px solid #c1c1c1;
+  border-top: 0px solid #c1c1c1;
+  margin: 0px;
+  padding: 10px 15px; }
+main .contact-home h2.resp-tab-active {
+  border-bottom: 0px solid #c1c1c1 !important;
+  margin-bottom: 0px !important;
+  padding: 10px 15px !important; }
+main .contact-home h2.resp-tab-title:last-child {
+  border-bottom: 12px solid #c1c1c1 !important;
+  background: blue; }
 
 /*======================================================*/
 /*======================================================*/
@@ -747,7 +814,23 @@ main .about {
       line-height: 45px; }
   main .about .about-block .about-description-img img {
     width: 100%;
-    margin: 10px 0px; } }
+    margin: 10px 0px; }
+  main .contact-home ul.resp-tabs-list {
+    display: none; }
+  main .contact-home h2.resp-accordion {
+    display: block; }
+  main .contact-home .resp-vtabs .resp-tab-content {
+    border: 1px solid #C1C1C1; }
+  main .contact-home .resp-vtabs .resp-tabs-container {
+    border: none;
+    float: none;
+    width: 100%;
+    min-height: 100px;
+    clear: none; }
+  main .contact-home .resp-accordion-closed {
+    display: none !important; }
+  main .contact-home .resp-vtabs .resp-tab-content:last-child {
+    border-bottom: 1px solid #c1c1c1 !important; } }
 @media all and (max-width: 375px) {
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 {
     height: 413px; }

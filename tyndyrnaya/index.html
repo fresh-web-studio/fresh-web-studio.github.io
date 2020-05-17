@@ -145,7 +145,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="slide-item__address">
-                            <img src="img/ping.svg" alt="Пинг" />
+                            <img src="img/ping.png" alt="Пинг" />
                             Видова 156 а1<br>
                             Видова 194<br>
                             Сумумское шоссе 7а<br>
@@ -157,8 +157,8 @@
                                 <img src="img/phone.svg" alt="Телефон">
                                 +7 (918) 668 05 05
                             </div>
-                            <img src="img/corner.svg" alt="Угол" />
-                            <img src="img/corner.svg" class="shadow" alt="Угол" />
+                            <img src="img/corner.png" alt="Угол" />
+                            <img src="img/corner.png" class="shadow" alt="Угол" />
                         </div>
                     </div>
                 </div>
@@ -1136,7 +1136,43 @@
                     </a>
                 </div>
                 <div class="about-description-img">
-                    <img src="img/about-img.jpg" alt="about image" class="about-img">
+                    <img src="img/about-slide.png" alt="about image" class="about-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-home">
+        <h2>Наши контакты</h2>
+        <div id="HorizontalTab">
+            <div class="container">
+                <ul class="resp-tabs-list hor_1">
+                    <li>ул. Видова 156а</li>
+                    <li>ул. Видова 194</li>
+                    <li>Сухумское шоссе 7а</li>
+                    <li>Пр. Ленина 79</li>
+                    <li>Пр. Дзержинского 190а</li>
+                </ul>
+            </div>
+
+            <div class="resp-tabs-container hor_1">
+                <div>
+                    <p>
+                    <div id="map1" style="width: 100%; height: 512px"></div>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    <div id="map2" style="width: 100%; height: 616px"></div>
+                    </p>
+                </div>
+                <div>
+                    <p>Tab 3 Container</p>
+                </div>
+                <div>
+                    <p>Tab 4 Container</p>
+                </div>
+                <div>
+                    <p>Tab 5 Container</p>
                 </div>
             </div>
         </div>
@@ -1146,6 +1182,19 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/main_slider.min.js"></script>
+<!-- Tabs -->
+<script src="js/easyResponsiveTabs.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#HorizontalTab').easyResponsiveTabs({
+            type: 'default',
+            width: 'auto',
+            fit: true
+        });
+    });
+</script>
+<!-- /Tabs -->
+<script src="js/map.min.js"></script>
 </body>
 
 </html>
