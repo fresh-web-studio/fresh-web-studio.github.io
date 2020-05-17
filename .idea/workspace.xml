@@ -90,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="620" column="21" selection-start-line="620" selection-start-column="21" selection-end-line="620" selection-end-column="21" />
+            <state relative-caret-position="292">
+              <caret line="1846" lean-forward="true" selection-start-line="1846" selection-end-line="1846" />
               <folding>
                 <element signature="e#1109#10901#0" />
                 <element signature="e#1124#3028#0" />
@@ -117,10 +117,23 @@
                 <element signature="e#23198#29672#0" />
                 <element signature="e#29695#30244#0" />
                 <element signature="e#30261#30649#0" />
+                <element signature="e#35472#36033#0" />
+                <element signature="e#35322#35658#0" />
                 <element signature="e#35818#36612#0" />
                 <element signature="e#31240#32914#0" />
-                <element signature="e#32922#33280#0" />
+                <element signature="e#38361#38700#0" />
+                <element signature="e#39255#40125#0" />
+                <element signature="e#39331#39665#0" />
+                <element signature="e#38752#40196#0" />
                 <element signature="e#33345#33868#0" />
+                <element signature="e#39312#40192#0" />
+                <element signature="e#40219#40557#0" />
+                <element signature="e#41917#42709#0" />
+                <element signature="e#41967#42301#0" />
+                <element signature="e#40609#42715#0" />
+                <element signature="e#42723#43141#0" />
+                <element signature="e#42738#43137#0" />
+                <element signature="e#45352#45686#0" />
               </folding>
             </state>
           </provider>
@@ -457,14 +470,7 @@
       <workItem from="1588835125180" duration="1507000" />
       <workItem from="1589135066060" duration="45000" />
       <workItem from="1589136227882" duration="56610000" />
-      <workItem from="1589636853585" duration="30434000" />
-    </task>
-    <task id="LOCAL-00660" summary="Обновление">
-      <created>1588154497495</created>
-      <option name="number" value="00660" />
-      <option name="presentableId" value="LOCAL-00660" />
-      <option name="project" value="LOCAL" />
-      <updated>1588154497495</updated>
+      <workItem from="1589636853585" duration="31763000" />
     </task>
     <task id="LOCAL-00661" summary="Обновление">
       <created>1588240181717</created>
@@ -802,18 +808,25 @@
       <option name="project" value="LOCAL" />
       <updated>1589736612447</updated>
     </task>
-    <option name="localTasksCounter" value="709" />
+    <task id="LOCAL-00709" summary="Обновление">
+      <created>1589737429232</created>
+      <option name="number" value="00709" />
+      <option name="presentableId" value="LOCAL-00709" />
+      <option name="project" value="LOCAL" />
+      <updated>1589737429232</updated>
+    </task>
+    <option name="localTasksCounter" value="710" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1113593000" />
+    <option name="totallyTimeSpent" value="1114922000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
     <frame x="655" y="-1417" width="1231" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2773537" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.2773537" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1360,8 +1373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="620" column="21" selection-start-line="620" selection-start-column="21" selection-end-line="620" selection-end-column="21" />
+        <state relative-caret-position="292">
+          <caret line="1846" lean-forward="true" selection-start-line="1846" selection-end-line="1846" />
           <folding>
             <element signature="e#1109#10901#0" />
             <element signature="e#1124#3028#0" />
@@ -1387,10 +1400,23 @@
             <element signature="e#23198#29672#0" />
             <element signature="e#29695#30244#0" />
             <element signature="e#30261#30649#0" />
+            <element signature="e#35472#36033#0" />
+            <element signature="e#35322#35658#0" />
             <element signature="e#35818#36612#0" />
             <element signature="e#31240#32914#0" />
-            <element signature="e#32922#33280#0" />
+            <element signature="e#38361#38700#0" />
+            <element signature="e#39255#40125#0" />
+            <element signature="e#39331#39665#0" />
+            <element signature="e#38752#40196#0" />
             <element signature="e#33345#33868#0" />
+            <element signature="e#39312#40192#0" />
+            <element signature="e#40219#40557#0" />
+            <element signature="e#41917#42709#0" />
+            <element signature="e#41967#42301#0" />
+            <element signature="e#40609#42715#0" />
+            <element signature="e#42723#43141#0" />
+            <element signature="e#42738#43137#0" />
+            <element signature="e#45352#45686#0" />
           </folding>
         </state>
       </provider>

@@ -892,9 +892,12 @@ footer {
     main .about .about-block .about-description-img {
       padding-top: 20px;
       width: 100%; }
-      main .about .about-block .about-description-img img {
-        width: 100%;
-        margin: 10px 0px; }
+      main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide1 {
+        background-size: contain;
+        height: 400px; }
+      main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
+        background-size: contain;
+        height: 400px; }
   main .contact-home ul.resp-tabs-list {
     display: none; }
   main .contact-home h2.resp-accordion {
@@ -934,10 +937,36 @@ footer {
       font-size: 56px; }
 
   main .catalog .container .main-items .item .row .quantity .quantity-choice {
-    width: 95px; } }
+    width: 95px; }
+  main .about .about-block .about-description {
+    width: 100%;
+    padding: 0px 20px; }
+    main .about .about-block .about-description .about-title {
+      width: 100%;
+      font-size: 32px;
+      line-height: 45px; }
+  main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide1 {
+    background-size: contain;
+    height: 375px; }
+  main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
+    background-size: contain;
+    height: 375px; } }
 @media all and (max-width: 360px) {
   main .catalog .container .main-items .item .row .text {
-    width: 151px; } }
+    width: 151px; }
+  main .about .about-block .about-description {
+    width: 100%;
+    padding: 0px 20px; }
+    main .about .about-block .about-description .about-title {
+      width: 100%;
+      font-size: 32px;
+      line-height: 45px; }
+  main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide1 {
+    background-size: contain;
+    height: 360px; }
+  main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
+    background-size: contain;
+    height: 360px; } }
 @media all and (max-width: 320px) {
   header .container .header .cart {
     padding-left: 2px; }
@@ -968,6 +997,19 @@ footer {
     main .catalog .container .main-items .item .row .text .info {
       font-size: 9px; }
   main .catalog .container .main-items .item .row .quantity .quantity-choice {
-    width: 84px; } }
+    width: 84px; }
+  main .about .about-block .about-description {
+    width: 100%;
+    padding: 0px 20px; }
+    main .about .about-block .about-description .about-title {
+      width: 100%;
+      font-size: 32px;
+      line-height: 45px; }
+  main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide1 {
+    background-size: contain;
+    height: 320px; }
+  main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
+    background-size: contain;
+    height: 320px; } }
 
 /*# sourceMappingURL=style.css.map */

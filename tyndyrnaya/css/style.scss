@@ -1488,7 +1488,6 @@ footer {
             width: 100%;
             font-size: 32px;
             line-height: 45px;
-
             .name {
             }
           }
@@ -1502,13 +1501,20 @@ footer {
           }
 
         }
-
         .about-description-img {
           padding-top: 20px;
           width: 100%;
-          img {
-            width: 100%;
-            margin: 10px 0px;
+          .slide-about {
+            #owl-carousel2.owl-carousel.owl-theme {
+              .slide-item.slide1 {
+                background-size: contain;
+                height: 400px;
+              }
+              .slide-item.slide2 {
+                background-size: contain;
+                height: 400px;
+              }
+            }
           }
         }
       }
@@ -1661,7 +1667,46 @@ footer {
         }
       }
     }
+    .about {
+      .about-block {
+        .about-description {
+          width: 100%;
+          padding: 0px 20px;
+          .about-title {
+            width: 100%;
+            font-size: 32px;
+            line-height: 45px;
+            .name {
+            }
+          }
+
+          .about-text {
+          }
+
+          .learn-start {
+            .link-text {
+            }
+          }
+
+        }
+        .about-description-img {
+          .slide-about {
+            #owl-carousel2.owl-carousel.owl-theme {
+              .slide-item.slide1 {
+                background-size: contain;
+                height: 375px;
+              }
+              .slide-item.slide2 {
+                background-size: contain;
+                height: 375px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
+
 }
 @media all and (max-width: 360px) {
   header {
@@ -1755,6 +1800,44 @@ footer {
               .quantity {
                 .quantity-choice {
                 }
+              }
+            }
+          }
+        }
+      }
+    }
+    .about {
+      .about-block {
+        .about-description {
+          width: 100%;
+          padding: 0px 20px;
+          .about-title {
+            width: 100%;
+            font-size: 32px;
+            line-height: 45px;
+            .name {
+            }
+          }
+
+          .about-text {
+          }
+
+          .learn-start {
+            .link-text {
+            }
+          }
+
+        }
+        .about-description-img {
+          .slide-about {
+            #owl-carousel2.owl-carousel.owl-theme {
+              .slide-item.slide1 {
+                background-size: contain;
+                height: 360px;
+              }
+              .slide-item.slide2 {
+                background-size: contain;
+                height: 360px;
               }
             }
           }
@@ -1888,5 +1971,44 @@ footer {
         }
       }
     }
+    .about {
+      .about-block {
+        .about-description {
+          width: 100%;
+          padding: 0px 20px;
+          .about-title {
+            width: 100%;
+            font-size: 32px;
+            line-height: 45px;
+            .name {
+            }
+          }
+
+          .about-text {
+          }
+
+          .learn-start {
+            .link-text {
+            }
+          }
+
+        }
+        .about-description-img {
+          .slide-about {
+            #owl-carousel2.owl-carousel.owl-theme {
+              .slide-item.slide1 {
+                background-size: contain;
+                height: 320px;
+              }
+              .slide-item.slide2 {
+                background-size: contain;
+                height: 320px;
+              }
+            }
+          }
+        }
+      }
+    }
+
   }
 }
