@@ -18,6 +18,10 @@
   font-family: "FiraSansBold";
   src: url("Fira-Sans-Bold.ttf");
 }
+@font-face {
+  font-family: "BedelAlternate";
+  src: url("BedelAlternate-BasicAlt.otf");
+}
 a {
   text-decoration: none;
 }
@@ -619,7 +623,6 @@ main {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-
       .about-description {
         width: 44%;
         padding-left: 48px;
@@ -663,6 +666,57 @@ main {
             justify-content: center;
             &:hover {
               background-color: #d93909;
+            }
+          }
+        }
+      }
+      .about-description-img {
+        width: 555px;
+        .slide-about {
+          #owl-carousel2.owl-carousel.owl-theme {
+            .slide-item.slide1 {
+              background-image: url(../img/about-slide.png);
+              background-position: center center;
+              background-repeat: no-repeat;
+              height: 544px;
+            }
+            .slide-item.slide2 {
+              background-image: url(../img/about-slide.png);
+              background-position: center center;
+              background-repeat: no-repeat;
+              height: 544px;
+            }
+            .owl-nav {
+              margin-top: 0px;
+
+              button {
+                font-family: "BedelAlternate";
+                position: relative;
+                width: 37px;
+                height: 50px;
+                bottom: 80px;
+                border-radius: 3px;
+                color: #ffffff;
+                font-size: 50px;
+                font-weight: bold;
+                margin: 0;
+                span {
+                  position: absolute;
+                  top: -5px;
+                  left: 7px;
+                }
+                &:hover {
+                  background: transparent;
+                }
+              }
+              button.owl-prev {
+                left: -60px;
+                float: right;
+              }
+              button.owl-next {
+                right: -15px;
+                float: right;
+              }
             }
           }
         }

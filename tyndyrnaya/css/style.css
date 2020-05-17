@@ -14,6 +14,9 @@
 @font-face {
   font-family: "FiraSansBold";
   src: url("Fira-Sans-Bold.ttf"); }
+@font-face {
+  font-family: "BedelAlternate";
+  src: url("BedelAlternate-BasicAlt.otf"); }
 a {
   text-decoration: none; }
 
@@ -509,6 +512,43 @@ main .about {
         justify-content: center; }
         main .about .about-block .about-description a .btn:hover {
           background-color: #d93909; }
+    main .about .about-block .about-description-img {
+      width: 555px; }
+      main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide1 {
+        background-image: url(../img/about-slide.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 544px; }
+      main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
+        background-image: url(../img/about-slide.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 544px; }
+      main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .owl-nav {
+        margin-top: 0px; }
+        main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .owl-nav button {
+          font-family: "BedelAlternate";
+          position: relative;
+          width: 37px;
+          height: 50px;
+          bottom: 80px;
+          border-radius: 3px;
+          color: #ffffff;
+          font-size: 50px;
+          font-weight: bold;
+          margin: 0; }
+          main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .owl-nav button span {
+            position: absolute;
+            top: -5px;
+            left: 7px; }
+          main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .owl-nav button:hover {
+            background: transparent; }
+        main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .owl-nav button.owl-prev {
+          left: -60px;
+          float: right; }
+        main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .owl-nav button.owl-next {
+          right: -15px;
+          float: right; }
 main .contact-home h2 {
   font-size: 35px;
   color: #303030;
