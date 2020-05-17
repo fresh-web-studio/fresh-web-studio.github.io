@@ -618,7 +618,7 @@ main {
     }
   }
   .about {
-    margin-bottom: 85px;
+    margin-bottom: 40px;
     .about-block {
       display: flex;
       flex-wrap: wrap;
@@ -1166,6 +1166,13 @@ footer {
         padding: 20px 22px 20px 36px;
       }
     }
+    .about {
+      .about-block {
+        .about-description-img {
+          width: 48%;
+        }
+      }
+    }
   }
 }
 @media all and (max-width: 670px) {
@@ -1472,11 +1479,11 @@ footer {
       }
     }
     .about {
+      margin-bottom: 0px;
       .about-block {
         .about-description {
           width: 100%;
           padding: 0px 20px;
-
           .about-title {
             width: 100%;
             font-size: 32px;
@@ -1497,6 +1504,8 @@ footer {
         }
 
         .about-description-img {
+          padding-top: 20px;
+          width: 100%;
           img {
             width: 100%;
             margin: 10px 0px;

@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
-      <change afterPath="$PROJECT_DIR$/tyndyrnaya/css/BedelAlternate-BasicAlt.otf" afterDir="false" />
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/js/main_slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/js/main_slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/js/main_slider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/js/main_slider.min.js" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -94,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="708" column="42" selection-start-line="708" selection-start-column="42" selection-end-line="708" selection-end-column="42" />
+            <state relative-caret-position="352">
+              <caret line="620" column="21" selection-start-line="620" selection-start-column="21" selection-end-line="620" selection-end-column="21" />
               <folding>
                 <element signature="e#1109#10901#0" />
                 <element signature="e#1124#3028#0" />
@@ -117,10 +113,11 @@
                 <element signature="e#20346#22489#0" />
                 <element signature="e#22512#22859#0" />
                 <element signature="e#22876#23146#0" />
+                <element signature="e#27677#27757#0" />
                 <element signature="e#23198#29672#0" />
                 <element signature="e#29695#30244#0" />
                 <element signature="e#30261#30649#0" />
-                <element signature="e#30661#31188#0" />
+                <element signature="e#35818#36612#0" />
                 <element signature="e#31240#32914#0" />
                 <element signature="e#32922#33280#0" />
                 <element signature="e#33345#33868#0" />
@@ -460,14 +457,7 @@
       <workItem from="1588835125180" duration="1507000" />
       <workItem from="1589135066060" duration="45000" />
       <workItem from="1589136227882" duration="56610000" />
-      <workItem from="1589636853585" duration="29495000" />
-    </task>
-    <task id="LOCAL-00659" summary="Обновление">
-      <created>1588153322606</created>
-      <option name="number" value="00659" />
-      <option name="presentableId" value="LOCAL-00659" />
-      <option name="project" value="LOCAL" />
-      <updated>1588153322606</updated>
+      <workItem from="1589636853585" duration="30434000" />
     </task>
     <task id="LOCAL-00660" summary="Обновление">
       <created>1588154497495</created>
@@ -805,18 +795,25 @@
       <option name="project" value="LOCAL" />
       <updated>1589729664746</updated>
     </task>
-    <option name="localTasksCounter" value="708" />
+    <task id="LOCAL-00708" summary="Обновление">
+      <created>1589736612446</created>
+      <option name="number" value="00708" />
+      <option name="presentableId" value="LOCAL-00708" />
+      <option name="project" value="LOCAL" />
+      <updated>1589736612447</updated>
+    </task>
+    <option name="localTasksCounter" value="709" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1112654000" />
+    <option name="totallyTimeSpent" value="1113593000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
     <frame x="655" y="-1417" width="1231" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2773537" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2773537" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1363,8 +1360,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="708" column="42" selection-start-line="708" selection-start-column="42" selection-end-line="708" selection-end-column="42" />
+        <state relative-caret-position="352">
+          <caret line="620" column="21" selection-start-line="620" selection-start-column="21" selection-end-line="620" selection-end-column="21" />
           <folding>
             <element signature="e#1109#10901#0" />
             <element signature="e#1124#3028#0" />
@@ -1386,10 +1383,11 @@
             <element signature="e#20346#22489#0" />
             <element signature="e#22512#22859#0" />
             <element signature="e#22876#23146#0" />
+            <element signature="e#27677#27757#0" />
             <element signature="e#23198#29672#0" />
             <element signature="e#29695#30244#0" />
             <element signature="e#30261#30649#0" />
-            <element signature="e#30661#31188#0" />
+            <element signature="e#35818#36612#0" />
             <element signature="e#31240#32914#0" />
             <element signature="e#32922#33280#0" />
             <element signature="e#33345#33868#0" />

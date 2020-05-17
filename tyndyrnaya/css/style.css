@@ -470,7 +470,7 @@ main .advantages {
         line-height: 22px;
         margin: 0 auto; }
 main .about {
-  margin-bottom: 85px; }
+  margin-bottom: 40px; }
   main .about .about-block {
     display: flex;
     flex-wrap: wrap;
@@ -692,7 +692,9 @@ footer {
   main .advantages .container .advantages-block .advantages-item {
     width: 255px; }
   main .contact-home .resp-tabs-list li {
-    padding: 20px 22px 20px 36px; } }
+    padding: 20px 22px 20px 36px; }
+  main .about .about-block .about-description-img {
+    width: 48%; } }
 @media all and (max-width: 670px) {
   header .container .header {
     justify-content: left; }
@@ -878,16 +880,21 @@ footer {
     padding-bottom: 40px; }
   main .advantages .container .advantages-block .advantages-item:last-child {
     padding-bottom: 0px; }
-  main .about .about-block .about-description {
-    width: 100%;
-    padding: 0px 20px; }
-    main .about .about-block .about-description .about-title {
+  main .about {
+    margin-bottom: 0px; }
+    main .about .about-block .about-description {
       width: 100%;
-      font-size: 32px;
-      line-height: 45px; }
-  main .about .about-block .about-description-img img {
-    width: 100%;
-    margin: 10px 0px; }
+      padding: 0px 20px; }
+      main .about .about-block .about-description .about-title {
+        width: 100%;
+        font-size: 32px;
+        line-height: 45px; }
+    main .about .about-block .about-description-img {
+      padding-top: 20px;
+      width: 100%; }
+      main .about .about-block .about-description-img img {
+        width: 100%;
+        margin: 10px 0px; }
   main .contact-home ul.resp-tabs-list {
     display: none; }
   main .contact-home h2.resp-accordion {
