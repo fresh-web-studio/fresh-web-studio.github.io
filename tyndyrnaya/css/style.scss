@@ -837,6 +837,42 @@ main {
       }
     }
   }
+  .big-menu {
+    .container {
+      h1 {
+        font-size: 35px;
+        font-weight: 400;
+        color: rgb(25, 25, 25);
+        text-align: center;
+        line-height: 132px;
+      }
+      .list-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        a {
+          width: 11.4%;
+          text-align: center;
+          border: 1px solid #e3e2e2;
+          border-radius: 3px;
+          .menu-item {
+            padding: 22px;
+            img {}
+            .name {
+              font-size: 13px;
+              color: rgb(25, 25, 25);
+              line-height: 1.615;
+            }
+          }
+          &:hover {
+            background-color: #f7f7f7;
+            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.14);
+          }
+        }
+      }
+    }
+  }
+
 }
 footer {
   font-size: 11px;
@@ -1018,6 +1054,25 @@ footer {
     .contact-home {
       .resp-tabs-list li {
         padding: 20px 32px 20px 46px;
+      }
+    }
+    .big-menu {
+      .container {
+        h1 {
+        }
+        .list-menu {
+          a {
+            .menu-item {
+              padding: 14px;
+              img {}
+              .name {
+                font-size: 11px;
+              }
+            }
+            &:hover {
+            }
+          }
+        }
       }
     }
   }
@@ -1435,6 +1490,7 @@ footer {
     .catalog {
       .container {
         padding-left: 0px;
+        padding-bottom: 0px;
         h2 {
           margin-left: 50px;
         }
@@ -1558,6 +1614,27 @@ footer {
       }
       .ymaps-2-1-76-controls__control {
         top: 60px !important;
+      }
+    }
+    .big-menu {
+      .container {
+        h1 {
+        }
+        .list-menu {
+          a {
+            width: 43%;
+            margin: 10px;
+            .menu-item {
+              padding: 20px;
+              img {}
+              .name {
+                font-size: 3.9vw;
+              }
+            }
+            &:hover {
+            }
+          }
+        }
       }
     }
   }

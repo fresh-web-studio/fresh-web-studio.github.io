@@ -634,6 +634,30 @@ main .contact-home .telephone {
   margin: 0 auto; }
   main .contact-home .telephone a {
     color: #303030; }
+main .big-menu .container h1 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #191919;
+  text-align: center;
+  line-height: 132px; }
+main .big-menu .container .list-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  main .big-menu .container .list-menu a {
+    width: 11.4%;
+    text-align: center;
+    border: 1px solid #e3e2e2;
+    border-radius: 3px; }
+    main .big-menu .container .list-menu a .menu-item {
+      padding: 22px; }
+      main .big-menu .container .list-menu a .menu-item .name {
+        font-size: 13px;
+        color: #191919;
+        line-height: 1.615; }
+    main .big-menu .container .list-menu a:hover {
+      background-color: #f7f7f7;
+      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.14); }
 
 footer {
   font-size: 11px;
@@ -667,7 +691,11 @@ footer {
       main .catalog .container .main-items .item .row .text {
         width: 133px; }
   main .contact-home .resp-tabs-list li {
-    padding: 20px 32px 20px 46px; } }
+    padding: 20px 32px 20px 46px; }
+  main .big-menu .container .list-menu a .menu-item {
+    padding: 14px; }
+    main .big-menu .container .list-menu a .menu-item .name {
+      font-size: 11px; } }
 @media all and (max-width: 1100px) {
   header .container .header nav.header-nav ul.nav-menu li.menu-item {
     padding: 10px 15px; }
@@ -863,7 +891,8 @@ footer {
           display: none; }
 
   main .catalog .container {
-    padding-left: 0px; }
+    padding-left: 0px;
+    padding-bottom: 0px; }
     main .catalog .container h2 {
       margin-left: 50px; }
     main .catalog .container .main-items .item {
@@ -919,7 +948,14 @@ footer {
   main .contact-home .ymaps-2-1-76-controls__toolbar {
     margin-top: 10px !important; }
   main .contact-home .ymaps-2-1-76-controls__control {
-    top: 60px !important; } }
+    top: 60px !important; }
+  main .big-menu .container .list-menu a {
+    width: 43%;
+    margin: 10px; }
+    main .big-menu .container .list-menu a .menu-item {
+      padding: 20px; }
+      main .big-menu .container .list-menu a .menu-item .name {
+        font-size: 3.9vw; } }
 @media all and (max-width: 375px) {
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 {
     height: 413px; }
