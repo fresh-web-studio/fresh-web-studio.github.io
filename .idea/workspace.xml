@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/menu.html" afterDir="false" />
     </list>
+    <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
     <ignored path="capital-finance/psd/Иконки/app.svg" />
@@ -67,10 +64,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="147" column="37" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
+            <state relative-caret-position="391">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
-                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -91,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="68" column="9" selection-start-line="68" selection-end-line="138" selection-end-column="10" />
+            <state relative-caret-position="300">
+              <caret line="67" column="6" lean-forward="true" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -103,23 +100,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="1500" column="22" selection-start-line="1500" selection-start-column="22" selection-end-line="1500" selection-end-column="22" />
+            <state relative-caret-position="304">
+              <caret line="100" column="39" lean-forward="true" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
               <folding>
-                <element signature="e#1109#10901#0" />
-                <element signature="e#1124#3028#0" />
-                <element signature="e#1138#3024#0" />
-                <element signature="e#3117#4599#0" />
-                <element signature="e#4625#5720#0" />
-                <element signature="e#5746#7252#0" />
-                <element signature="e#7278#8595#0" />
-                <element signature="e#8621#10302#0" />
-                <element signature="e#10920#15233#0" />
-                <element signature="e#15248#15982#0" />
-                <element signature="e#16083#18774#0" />
-                <element signature="e#16147#17078#0" />
-                <element signature="e#17288#19171#0" />
-                <element signature="e#21376#22219#0" />
+                <element signature="e#3137#10989#0" />
+                <element signature="e#11011#15324#0" />
+                <element signature="e#15339#16073#0" />
+                <element signature="e#16083#18861#0" />
+                <element signature="e#18878#21363#0" />
+                <element signature="e#21286#21504#0" />
                 <element signature="e#17317#17860#0" />
                 <element signature="e#17334#17856#0" />
                 <element signature="e#17909#18452#0" />
@@ -131,11 +120,15 @@
                 <element signature="e#22512#22859#0" />
                 <element signature="e#22876#23146#0" />
                 <element signature="e#27677#27757#0" />
+                <element signature="e#27856#27870#0" />
                 <element signature="e#23198#29672#0" />
+                <element signature="e#29695#30244#0" />
+                <element signature="e#34325#34849#0" />
                 <element signature="e#30261#30649#0" />
                 <element signature="e#35472#36033#0" />
                 <element signature="e#35322#35658#0" />
                 <element signature="e#35818#36612#0" />
+                <element signature="e#38304#38614#0" />
                 <element signature="e#31240#32914#0" />
                 <element signature="e#38361#38700#0" />
                 <element signature="e#39255#40125#0" />
@@ -192,13 +185,13 @@
       <find>item.html</find>
       <find>corner</find>
       <find>map</find>
-      <find>ping</find>
       <find>люля</find>
       <find>соус</find>
       <find>Напитки</find>
       <find>Дополнительно</find>
       <find>alt=&quot;&quot;&gt;</find>
       <find>alt=&quot;&quot; /&gt;</find>
+      <find>ping</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;p&gt;</replace>
@@ -229,8 +222,8 @@
       <replace>Подробности</replace>
       <replace>Читать</replace>
       <replace>Цена</replace>
-      <replace>#</replace>
       <replace>alt=&quot;Иконка&quot; /&gt;</replace>
+      <replace>#</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/panorama</dir>
@@ -315,13 +308,13 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="655" />
+    <option name="x" value="105" />
     <option name="y" value="-1417" />
-    <option name="width" value="1231" />
-    <option name="height" value="802" />
+    <option name="width" value="1781" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -332,11 +325,36 @@
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".gitignore" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,20 +466,6 @@
       <workItem from="1589135066060" duration="45000" />
       <workItem from="1589136227882" duration="56610000" />
       <workItem from="1589636853585" duration="37981000" />
-    </task>
-    <task id="LOCAL-00664" summary="Обновление">
-      <created>1588243042400</created>
-      <option name="number" value="00664" />
-      <option name="presentableId" value="LOCAL-00664" />
-      <option name="project" value="LOCAL" />
-      <updated>1588243042400</updated>
-    </task>
-    <task id="LOCAL-00665" summary="Обновление">
-      <created>1588243443074</created>
-      <option name="number" value="00665" />
-      <option name="presentableId" value="LOCAL-00665" />
-      <option name="project" value="LOCAL" />
-      <updated>1588243443079</updated>
     </task>
     <task id="LOCAL-00666" summary="Обновление">
       <created>1588243503184</created>
@@ -792,18 +796,31 @@
       <option name="project" value="LOCAL" />
       <updated>1589786787200</updated>
     </task>
-    <option name="localTasksCounter" value="713" />
+    <task id="LOCAL-00713" summary="Обновление">
+      <created>1589799654121</created>
+      <option name="number" value="00713" />
+      <option name="presentableId" value="LOCAL-00713" />
+      <option name="project" value="LOCAL" />
+      <updated>1589799654121</updated>
+    </task>
+    <task id="LOCAL-00714" summary="Обновление">
+      <created>1589819523652</created>
+      <option name="number" value="00714" />
+      <option name="presentableId" value="LOCAL-00714" />
+      <option name="project" value="LOCAL" />
+      <updated>1589819523652</updated>
+    </task>
+    <option name="localTasksCounter" value="715" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1121140000" />
+    <option name="totallyTimeSpent" value="1122876000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="655" y="-1417" width="1231" height="802" extended-state="0" />
-    <editor active="true" />
+    <frame x="105" y="-1417" width="1781" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2773537" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.18912666" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -816,7 +833,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.5068493" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4970314" weight="0.326284" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4970314" weight="0.32527474" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5029686" side_tool="true" weight="0.326284" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22431506" />
@@ -938,21 +955,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/repair-boilers/seo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="121" selection-end-column="23" />
-          <folding>
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineering-systems/js/menu.js" />
     <entry file="file://$PROJECT_DIR$/repair-boilers/img/logo-map.png">
       <provider selected="true" editor-type-id="images" />
@@ -973,36 +975,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/phone.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/vote.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/phone (2).svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/agreement.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/back.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/calendar.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/contract.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/marker.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/phone.svg" />
+    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/vote.svg" />
+    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/phone (2).svg" />
+    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/agreement.svg" />
+    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/back.svg" />
+    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/calendar.svg" />
+    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/contract.svg" />
+    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/marker.svg" />
     <entry file="file://$PROJECT_DIR$/engineering-systems/img/mail.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/mail.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/Иконки/mail.svg" />
     <entry file="file://$PROJECT_DIR$/capital-finance/new1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -1171,9 +1155,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tyndyrnaya/psd/1. Главная.psd">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/psd/1. Главная.psd" />
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/img/line.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1252,20 +1234,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Easy-Responsive-Tabs-to-Accordion-master/css/easy-responsive-tabs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="109" column="9" selection-start-line="84" selection-start-column="4" selection-end-line="110" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Easy-Responsive-Tabs-to-Accordion-master/Index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="20" selection-start-line="34" selection-end-line="60" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Easy-Responsive-Tabs-to-Accordion-master/css/easy-responsive-tabs.css" />
+    <entry file="file://$USER_HOME$/Downloads/Easy-Responsive-Tabs-to-Accordion-master/Index1.html" />
     <entry file="file://$PROJECT_DIR$/repair-boilers/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1325,10 +1295,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="147" column="37" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
+        <state relative-caret-position="391">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
-            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -1347,33 +1317,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="68" column="9" selection-start-line="68" selection-end-line="138" selection-end-column="10" />
+        <state relative-caret-position="300">
+          <caret line="67" column="6" lean-forward="true" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="1500" column="22" selection-start-line="1500" selection-start-column="22" selection-end-line="1500" selection-end-column="22" />
+        <state relative-caret-position="304">
+          <caret line="100" column="39" lean-forward="true" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
           <folding>
-            <element signature="e#1109#10901#0" />
-            <element signature="e#1124#3028#0" />
-            <element signature="e#1138#3024#0" />
-            <element signature="e#3117#4599#0" />
-            <element signature="e#4625#5720#0" />
-            <element signature="e#5746#7252#0" />
-            <element signature="e#7278#8595#0" />
-            <element signature="e#8621#10302#0" />
-            <element signature="e#10920#15233#0" />
-            <element signature="e#15248#15982#0" />
-            <element signature="e#16083#18774#0" />
-            <element signature="e#16147#17078#0" />
-            <element signature="e#17288#19171#0" />
-            <element signature="e#21376#22219#0" />
+            <element signature="e#3137#10989#0" />
+            <element signature="e#11011#15324#0" />
+            <element signature="e#15339#16073#0" />
+            <element signature="e#16083#18861#0" />
+            <element signature="e#18878#21363#0" />
+            <element signature="e#21286#21504#0" />
             <element signature="e#17317#17860#0" />
             <element signature="e#17334#17856#0" />
             <element signature="e#17909#18452#0" />
@@ -1385,11 +1354,15 @@
             <element signature="e#22512#22859#0" />
             <element signature="e#22876#23146#0" />
             <element signature="e#27677#27757#0" />
+            <element signature="e#27856#27870#0" />
             <element signature="e#23198#29672#0" />
+            <element signature="e#29695#30244#0" />
+            <element signature="e#34325#34849#0" />
             <element signature="e#30261#30649#0" />
             <element signature="e#35472#36033#0" />
             <element signature="e#35322#35658#0" />
             <element signature="e#35818#36612#0" />
+            <element signature="e#38304#38614#0" />
             <element signature="e#31240#32914#0" />
             <element signature="e#38361#38700#0" />
             <element signature="e#39255#40125#0" />
