@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tyndyrnaya/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/psd/1. Главная.psd" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/psd/1. Главная.psd" afterDir="false" />
     </list>
     <ignored path=".idea/dictionaries/" />
     <ignored path="capital-finance/css/.sass-cache/bf26b2f1378dd5a04769c70fd39606195a807e92/style.scssc" />
@@ -62,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="158" column="55" selection-start-line="158" selection-start-column="55" selection-end-line="158" selection-end-column="55" />
+            <state relative-caret-position="112">
+              <caret line="147" column="37" lean-forward="true" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -86,11 +85,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tyndyrnaya/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="502" column="35" selection-start-line="502" selection-start-column="35" selection-end-line="502" selection-end-column="35" />
+              <folding>
+                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
-              <caret line="1709" column="1" lean-forward="true" selection-start-line="1709" selection-start-column="1" selection-end-line="1709" selection-end-column="1" />
+              <caret line="1709" column="1" selection-start-line="1709" selection-start-column="1" selection-end-line="1709" selection-end-column="1" />
               <folding>
                 <element signature="e#1109#10901#0" />
                 <element signature="e#1124#3028#0" />
@@ -138,15 +149,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tyndyrnaya/js/main_slider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -161,8 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>href=&quot;&quot;</find>
-      <find>.menu-btn</find>
       <find>h2</find>
       <find>slide-wraper</find>
       <find>811</find>
@@ -191,6 +191,8 @@
       <find>corner</find>
       <find>map</find>
       <find>ping</find>
+      <find>люля</find>
+      <find>соус</find>
     </findStrings>
     <replaceStrings>
       <replace>png&quot; alt=&quot;Формула&quot;</replace>
@@ -246,7 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/capital-finance/new4.html" />
         <option value="$PROJECT_DIR$/capital-finance/new5.html" />
         <option value="$PROJECT_DIR$/capital-finance/new6.html" />
         <option value="$PROJECT_DIR$/capital-finance/css/style.scss" />
@@ -297,6 +298,7 @@
         <option value="$PROJECT_DIR$/tyndyrnaya/js/main_slider.js" />
         <option value="$PROJECT_DIR$/tyndyrnaya/css/style.scss" />
         <option value="$PROJECT_DIR$/tyndyrnaya/index.html" />
+        <option value="$PROJECT_DIR$/tyndyrnaya/menu.html" />
       </list>
     </option>
   </component>
@@ -333,31 +335,6 @@
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="easyResponsiveTabs.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="tyndyrnaya" type="462c0819:PsiDirectoryNode" />
               <item name="psd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -385,10 +362,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tyndyrnaya" />
       <recent name="$PROJECT_DIR$/tyndyrnaya/css" />
       <recent name="$PROJECT_DIR$/tyndyrnaya/js" />
       <recent name="$PROJECT_DIR$/tyndyrnaya/psd" />
-      <recent name="$PROJECT_DIR$/tyndyrnaya" />
       <recent name="$PROJECT_DIR$/engineering-systems" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -475,14 +452,7 @@
       <workItem from="1588835125180" duration="1507000" />
       <workItem from="1589135066060" duration="45000" />
       <workItem from="1589136227882" duration="56610000" />
-      <workItem from="1589636853585" duration="32200000" />
-    </task>
-    <task id="LOCAL-00662" summary="Обновление">
-      <created>1588240635328</created>
-      <option name="number" value="00662" />
-      <option name="presentableId" value="LOCAL-00662" />
-      <option name="project" value="LOCAL" />
-      <updated>1588240635328</updated>
+      <workItem from="1589636853585" duration="34939000" />
     </task>
     <task id="LOCAL-00663" summary="Обновление">
       <created>1588240983150</created>
@@ -820,16 +790,22 @@
       <option name="project" value="LOCAL" />
       <updated>1589739048767</updated>
     </task>
-    <option name="localTasksCounter" value="711" />
+    <task id="LOCAL-00711" summary="Обновление">
+      <created>1589739347812</created>
+      <option name="number" value="00711" />
+      <option name="presentableId" value="LOCAL-00711" />
+      <option name="project" value="LOCAL" />
+      <updated>1589739347812</updated>
+    </task>
+    <option name="localTasksCounter" value="712" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1115359000" />
+    <option name="totallyTimeSpent" value="1118098000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
     <frame x="655" y="-1417" width="1231" height="802" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2773537" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
@@ -966,9 +942,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/engineering-systems/psd/1.1 Монтаж вентиляции.psd">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/repair-boilers/seo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1357,7 +1330,7 @@
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
-          <caret line="1709" column="1" lean-forward="true" selection-start-line="1709" selection-start-column="1" selection-end-line="1709" selection-end-column="1" />
+          <caret line="1709" column="1" selection-start-line="1709" selection-start-column="1" selection-end-line="1709" selection-end-column="1" />
           <folding>
             <element signature="e#1109#10901#0" />
             <element signature="e#1124#3028#0" />
@@ -1406,8 +1379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="158" column="55" selection-start-line="158" selection-start-column="55" selection-end-line="158" selection-end-column="55" />
+        <state relative-caret-position="112">
+          <caret line="147" column="37" lean-forward="true" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -1422,6 +1395,16 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="502" column="35" selection-start-line="502" selection-start-column="35" selection-end-line="502" selection-end-column="35" />
+          <folding>
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
