@@ -660,6 +660,54 @@ main .big-menu .container .list-menu {
     main .big-menu .container .list-menu a:hover {
       background-color: #f7f7f7;
       box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.14); }
+main .bonus .container .banner {
+  background-image: url("../img/bonus-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px;
+  display: flex;
+  align-items: center; }
+  main .bonus .container .banner .info {
+    padding-left: 90px;
+    width: 30%; }
+    main .bonus .container .banner .info h1 {
+      font-size: 45px;
+      color: #ea5b3b;
+      font-weight: bold;
+      text-transform: uppercase; }
+    main .bonus .container .banner .info .text {
+      font-size: 17px;
+      color: #181818;
+      line-height: 1.588;
+      padding: 20px 0; }
+    main .bonus .container .banner .info .point {
+      font-size: 31px;
+      font-weight: bold; }
+      main .bonus .container .banner .info .point span {
+        color: #ea5b3b; }
+main .bonus .container h2 {
+  font-size: 25px;
+  padding-top: 60px;
+  padding-bottom: 16px;
+  font-weight: 300; }
+main .bonus .container p {
+  font-size: 14px;
+  padding: 10px 0; }
+main .bonus .container ul {
+  padding-left: 30px; }
+  main .bonus .container ul li {
+    padding: 10px 0; }
+main .bonus .container p.red {
+  color: #ffffff;
+  background-color: #ff4100;
+  width: 54%;
+  font-size: 25px;
+  margin: 15px 0;
+  padding: 10px; }
+main .bonus .container ol {
+  padding-left: 30px; }
+  main .bonus .container ol li {
+    padding: 10px 0; }
 
 footer {
   font-size: 11px;
@@ -697,7 +745,12 @@ footer {
   main .big-menu .container .list-menu a .menu-item {
     padding: 14px; }
     main .big-menu .container .list-menu a .menu-item .name {
-      font-size: 11px; } }
+      font-size: 11px; }
+  main .bonus {
+    padding: 0 10px; }
+    main .bonus .container p.red {
+      width: 55%;
+      font-size: 22px; } }
 @media all and (max-width: 1100px) {
   header .container .header nav.header-nav ul.nav-menu li.menu-item {
     padding: 10px 15px; }
@@ -724,7 +777,9 @@ footer {
   main .contact-home .resp-tabs-list li {
     padding: 20px 22px 20px 36px; }
   main .about .about-block .about-description-img {
-    width: 48%; } }
+    width: 48%; }
+  main .bonus .container p.red {
+    width: 60%; } }
 @media all and (max-width: 670px) {
   header .container .header {
     justify-content: left; }
@@ -957,7 +1012,17 @@ footer {
     main .big-menu .container .list-menu a .menu-item {
       padding: 20px; }
       main .big-menu .container .list-menu a .menu-item .name {
-        font-size: 3.9vw; } }
+        font-size: 3.9vw; }
+  main .bonus .container .banner .info {
+    padding-left: 0px;
+    width: 100%;
+    text-align: center; }
+    main .bonus .container .banner .info h1 {
+      font-size: 34px; }
+    main .bonus .container .banner .info .text {
+      font-size: 22px; }
+  main .bonus .container p.red {
+    width: 95%; } }
 @media all and (max-width: 375px) {
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 {
     height: 413px; }
