@@ -880,6 +880,7 @@ main {
   .bonus {
     .container {
       .banner {
+        padding-top: 55px;
         background-image: url("../img/bonus-bg.jpg");
         background-repeat: no-repeat;
         background-position: center center;
@@ -943,15 +944,116 @@ main {
       }
     }
   }
+  .reviews  {
+    .container {
+      padding: 70px 0;
+      text-align: center;
+      h1 {
+        font-size: 30px;
+        color: #191919;
+        font-weight: 300;
+      }
+      .info {
+        width: 470px;
+        margin: 0 auto;
+        line-height: 2;
+        color: #616060;
+        font-size: 15px;
+        padding-top: 12px;
+        padding-bottom: 25px;
+      }
+      .feedback {
+        width: 790px;
+        margin: 0 auto;
+        input {
+          border-radius: 3px;
+          width: 250px;
+          height: 53px;
+          border: 1px solid #f5f5f5;
+          box-sizing: border-box;
+          background-color: #f5f5f5;
+          color: #ff4100;
+          margin: 7px 5px;
+          padding-left: 25px;
+
+        }
+        textarea.big {
+          width: 725px;
+          height: 140px;
+          background-color: #f5f5f5;
+          border: 1px solid #f5f5f5;
+          border-radius: 3px;
+          margin: 7px 5px;
+          padding: 25px;
+          &::placeholder {
+
+          }
+        }
+        input.button {
+          background-color: #ff4100;
+          padding-left: 0px;
+          cursor: pointer;
+          font-size: 15px;
+          color: #ffffff;
+          &:hover {
+            background-color: #d93909;
+          }
+        }
+        input[type=checkbox] {
+          display: none;
+        }
+        label {
+          color: #818181;
+          cursor: default;
+          font-size: 13px;
+          padding: 15px 0;
+          vertical-align: middle;
+          &:before {
+            content: " ";
+            color: #ff4100;
+            display: inline-block;
+            font: 20px/17px Arial;
+            margin-right: 15px;
+            text-align: center;
+            text-indent: 0px;
+            width: 18px;
+            height: 18px;
+            background: #f5f5f5;
+            border: 1px solid #f5f5f5;
+            border-image: initial;
+            vertical-align: middle;
+          }
+          a {
+            text-decoration: underline;
+            color: #666666;
+            &:hover {
+              color: #ff3d02;
+            }
+          }
+        }
+        /* вариации внешнего вида в зависимости от статуса checkbox */
+        /* checked */
+        input:checked + label:before {
+          content: "x";
+        }
+
+        /* disabled */
+        input:disabled + label:before {
+          background: #30a6f9;
+          color: #ffffff;
+        }
+        .label {
+          padding: 20px 0;
+        }
+      }
+    }
+  }
 }
 footer {
   font-size: 11px;
   color: rgb(174, 174, 174);
   line-height: 2.273;
   text-align: center;
-  -moz-transform: scale(1.06, 1);
-  -webkit-transform: scale(1.06, 1);
-  -ms-transform: scale(1.06, 1);
   padding: 23px 0;
 }
 
@@ -1812,7 +1914,25 @@ footer {
         }
       }
     }
-
+    .reviews {
+      padding: 0 10px;
+      .container {
+        .info {
+          width: 100%;
+        }
+        .feedback {
+          width: 100%;
+          input {
+            width: 100%;
+            margin: 7px 0;
+          }
+          textarea.big {
+            width: 87%;
+            margin: 7px 0;
+          }
+        }
+      }
+    }
   }
 }
 @media all and (max-width: 375px) {
@@ -1958,6 +2078,20 @@ footer {
         }
       }
     }
+    .reviews {
+      .container {
+        .info {
+        }
+        .feedback {
+          input {
+          }
+          textarea.big {
+            width: 84%;
+          }
+        }
+      }
+    }
+
   }
 
 }
@@ -2097,6 +2231,20 @@ footer {
         }
       }
     }
+    .reviews {
+      .container {
+        .info {
+        }
+        .feedback {
+          input {
+          }
+          textarea.big {
+            width: 85%;
+          }
+        }
+      }
+    }
+
   }
 }
 @media all and (max-width: 320px) {
@@ -2258,6 +2406,19 @@ footer {
                 height: 320px;
               }
             }
+          }
+        }
+      }
+    }
+    .reviews {
+      .container {
+        .info {
+        }
+        .feedback {
+          input {
+          }
+          textarea.big {
+            width: 83%;
           }
         }
       }

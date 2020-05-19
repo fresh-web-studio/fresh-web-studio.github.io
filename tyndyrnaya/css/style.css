@@ -663,6 +663,7 @@ main .big-menu .container .list-menu {
       background-color: #f7f7f7;
       box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.14); }
 main .bonus .container .banner {
+  padding-top: 55px;
   background-image: url("../img/bonus-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -710,15 +711,93 @@ main .bonus .container ol {
   padding-left: 30px; }
   main .bonus .container ol li {
     padding: 10px 0; }
+main .reviews .container {
+  padding: 70px 0;
+  text-align: center; }
+  main .reviews .container h1 {
+    font-size: 30px;
+    color: #191919;
+    font-weight: 300; }
+  main .reviews .container .info {
+    width: 470px;
+    margin: 0 auto;
+    line-height: 2;
+    color: #616060;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 25px; }
+  main .reviews .container .feedback {
+    width: 790px;
+    margin: 0 auto;
+    /* вариации внешнего вида в зависимости от статуса checkbox */
+    /* checked */
+    /* disabled */ }
+    main .reviews .container .feedback input {
+      border-radius: 3px;
+      width: 250px;
+      height: 53px;
+      border: 1px solid #f5f5f5;
+      box-sizing: border-box;
+      background-color: #f5f5f5;
+      color: #ff4100;
+      margin: 7px 5px;
+      padding-left: 25px; }
+    main .reviews .container .feedback textarea.big {
+      width: 725px;
+      height: 140px;
+      background-color: #f5f5f5;
+      border: 1px solid #f5f5f5;
+      border-radius: 3px;
+      margin: 7px 5px;
+      padding: 25px; }
+    main .reviews .container .feedback input.button {
+      background-color: #ff4100;
+      padding-left: 0px;
+      cursor: pointer;
+      font-size: 15px;
+      color: #ffffff; }
+      main .reviews .container .feedback input.button:hover {
+        background-color: #d93909; }
+    main .reviews .container .feedback input[type=checkbox] {
+      display: none; }
+    main .reviews .container .feedback label {
+      color: #818181;
+      cursor: default;
+      font-size: 13px;
+      padding: 15px 0;
+      vertical-align: middle; }
+      main .reviews .container .feedback label:before {
+        content: " ";
+        color: #ff4100;
+        display: inline-block;
+        font: 20px/17px Arial;
+        margin-right: 15px;
+        text-align: center;
+        text-indent: 0px;
+        width: 18px;
+        height: 18px;
+        background: #f5f5f5;
+        border: 1px solid #f5f5f5;
+        border-image: initial;
+        vertical-align: middle; }
+      main .reviews .container .feedback label a {
+        text-decoration: underline;
+        color: #666666; }
+        main .reviews .container .feedback label a:hover {
+          color: #ff3d02; }
+    main .reviews .container .feedback input:checked + label:before {
+      content: "x"; }
+    main .reviews .container .feedback input:disabled + label:before {
+      background: #30a6f9;
+      color: #ffffff; }
+    main .reviews .container .feedback .label {
+      padding: 20px 0; }
 
 footer {
   font-size: 11px;
   color: #aeaeae;
   line-height: 2.273;
   text-align: center;
-  -moz-transform: scale(1.06, 1);
-  -webkit-transform: scale(1.06, 1);
-  -ms-transform: scale(1.06, 1);
   padding: 23px 0; }
 
 /*======================================================*/
@@ -1024,7 +1103,19 @@ footer {
     main .bonus .container .banner .info .text {
       font-size: 22px; }
   main .bonus .container p.red {
-    width: 95%; } }
+    width: 95%; }
+  main .reviews {
+    padding: 0 10px; }
+    main .reviews .container .info {
+      width: 100%; }
+    main .reviews .container .feedback {
+      width: 100%; }
+      main .reviews .container .feedback input {
+        width: 100%;
+        margin: 7px 0; }
+      main .reviews .container .feedback textarea.big {
+        width: 87%;
+        margin: 7px 0; } }
 @media all and (max-width: 375px) {
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 {
     height: 413px; }
@@ -1055,7 +1146,9 @@ footer {
     height: 375px; }
   main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
     background-size: contain;
-    height: 375px; } }
+    height: 375px; }
+  main .reviews .container .feedback textarea.big {
+    width: 84%; } }
 @media all and (max-width: 360px) {
   main .catalog .container .main-items .item .row .text {
     width: 151px; }
@@ -1071,7 +1164,9 @@ footer {
     height: 360px; }
   main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
     background-size: contain;
-    height: 360px; } }
+    height: 360px; }
+  main .reviews .container .feedback textarea.big {
+    width: 85%; } }
 @media all and (max-width: 320px) {
   header .container .header .cart {
     padding-left: 2px; }
@@ -1115,6 +1210,8 @@ footer {
     height: 320px; }
   main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
     background-size: contain;
-    height: 320px; } }
+    height: 320px; }
+  main .reviews .container .feedback textarea.big {
+    width: 83%; } }
 
 /*# sourceMappingURL=style.css.map */
