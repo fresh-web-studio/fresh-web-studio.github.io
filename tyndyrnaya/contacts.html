@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800&display=swap&subset=cyrillic"
+          rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ae440fb2-a89c-4edc-a859-4232de5cfc11&lang=ru_RU" type="text/javascript"></script>
+        <title>Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo" class="logo-img" />
+                </a>
+            </div>
+            <nav class="header-nav">
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+                <ul id="nav" class="nav-menu">
+                    <li class="menu-item">
+                        <a class="menu-link" href="index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="menu.html">
+                            Меню
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="bonus.html">
+                            Бонусная программа
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="reviews.html">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="contacts.html">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="time-date">
+                <i class="time-date-icon"></i>
+                <div class="text">24/7</div>
+            </div>
+            <div class="cart">
+                <a href="#">
+                    <i class="cart-icon"></i>
+                    <div class="text">0 (0 ₽)</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="contact-map">
+        <div class="container">
+            <h1>Наши контакты</h1>
+            <div id="verticalTab">
+                <ul class="resp-tabs-list">
+                    <li class="row">
+                        <div class="office-adress one">
+                            <div class="adress">ул. Видова 156а</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office-adress two">
+                            <div class="adress">ул. Видова 194</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office-adress two">
+                            <div class="adress">Сухумское шоссе 7а</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office-adress two">
+                            <div class="adress">Пр. Ленина 79</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="office-adress two">
+                            <div class="adress">Пр. Дзержинского 190а</div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="resp-tabs-container">
+                    <div class="map">
+                        <div id="map1" style="width: 100%; height: 512px"></div>
+                    </div>
+                    <div class="map">
+                        <div id="map2" style="width: 100%; height: 512px"></div>
+                    </div>
+                    <div class="map">
+                        <div id="map3" style="width: 100%; height: 512px"></div>
+                    </div>
+                    <div class="map">
+                        <div id="map4" style="width: 100%; height: 512px"></div>
+                    </div>
+                    <div class="map">
+                        <div id="map5" style="width: 100%; height: 512px"></div>
+                    </div>
+                </div>
+                <div class="tel-mail-btn">
+                    <div class="office-tel">
+                        <div class="tel"><a href="tel:+79186680505">8 (918) 668 05 05</a></div>
+                        <a href="menu.html" class="menu">
+                            Перейти в меню
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    Copyright © 2020 Все права защищены.
+</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/easyResponsiveTabs.min.js"></script>
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#verticalTab').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true
+        });
+    });
+</script>
+<script src="js/map.min.js"></script>
+<script src="js/menu.min.js"></script>
+</body>
+</html>
