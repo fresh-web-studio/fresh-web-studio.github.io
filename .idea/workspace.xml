@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tyndyrnaya/bonus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" afterDir="false" />
@@ -89,20 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="288">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/bonus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+            <state relative-caret-position="264">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -110,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="1794" column="9" lean-forward="true" selection-start-line="1794" selection-start-column="9" selection-end-line="1794" selection-end-column="9" />
+            <state relative-caret-position="56">
+              <caret line="425" column="1" selection-start-line="425" selection-start-column="1" selection-end-line="425" selection-end-column="1" />
               <folding>
                 <element signature="e#1200#10992#0" />
                 <element signature="e#2398#2529#0" />
@@ -309,9 +308,9 @@
         <option value="$PROJECT_DIR$/tyndyrnaya/js/main_slider.js" />
         <option value="$PROJECT_DIR$/.git/hooks/pre-push" />
         <option value="$PROJECT_DIR$/tyndyrnaya/index.html" />
+        <option value="$PROJECT_DIR$/tyndyrnaya/css/style.scss" />
         <option value="$PROJECT_DIR$/tyndyrnaya/menu.html" />
         <option value="$PROJECT_DIR$/tyndyrnaya/bonus.html" />
-        <option value="$PROJECT_DIR$/tyndyrnaya/css/style.scss" />
       </list>
     </option>
   </component>
@@ -511,13 +510,6 @@
       <workItem from="1589135066060" duration="45000" />
       <workItem from="1589136227882" duration="56610000" />
       <workItem from="1589636853585" duration="37981000" />
-    </task>
-    <task id="LOCAL-00669" summary="Обновление">
-      <created>1588408792665</created>
-      <option name="number" value="00669" />
-      <option name="presentableId" value="LOCAL-00669" />
-      <option name="project" value="LOCAL" />
-      <updated>1588408792665</updated>
     </task>
     <task id="LOCAL-00670" summary="Обновление">
       <created>1588409244373</created>
@@ -855,11 +847,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589824146956</updated>
     </task>
-    <option name="localTasksCounter" value="718" />
+    <task id="LOCAL-00718" summary="Обновление">
+      <created>1589828857726</created>
+      <option name="number" value="00718" />
+      <option name="presentableId" value="LOCAL-00718" />
+      <option name="project" value="LOCAL" />
+      <updated>1589828857726</updated>
+    </task>
+    <option name="localTasksCounter" value="719" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1130796000" />
+    <option name="totallyTimeSpent" value="1132235000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -1380,8 +1379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="1794" column="9" lean-forward="true" selection-start-line="1794" selection-start-column="9" selection-end-line="1794" selection-end-column="9" />
+        <state relative-caret-position="56">
+          <caret line="425" column="1" selection-start-line="425" selection-start-column="1" selection-end-line="425" selection-end-column="1" />
           <folding>
             <element signature="e#1200#10992#0" />
             <element signature="e#2398#2529#0" />
@@ -1431,17 +1430,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tyndyrnaya/bonus.html">
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+        <state relative-caret-position="288">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tyndyrnaya/menu.html">
+    <entry file="file://$PROJECT_DIR$/tyndyrnaya/bonus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="264">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
