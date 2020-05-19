@@ -1262,6 +1262,7 @@ main {
   }
 }
 footer {
+  clear: both;
   font-size: 11px;
   color: rgb(174, 174, 174);
   line-height: 2.273;
@@ -1494,6 +1495,16 @@ footer {
         }
       }
     }
+    .contact-map {
+      .resp-vtabs {
+        ul.resp-tabs-list {
+          width: 26%;
+        }
+        .resp-tabs-container {
+          width: 74%;
+        }
+      }
+    }
   }
 }
 @media all and (max-width: 1100px) {
@@ -1680,16 +1691,7 @@ footer {
         }
       }
     }
-    .contact-map {
-      .resp-vtabs {
-        ul.resp-tabs-list {
-          width: 26%;
-        }
-        .resp-tabs-container {
-          width: 74%;
-        }
-      }
-    }
+
   }
 }
 @media all and (max-width: 670px) {
@@ -2165,17 +2167,22 @@ footer {
             }
           }
           .resp-tabs-container {
+            margin-bottom: 10px;
           }
           .tel-mail-btn {
             position: relative;
             margin-top: 10px;
+            text-align: center;
             .btn {
               text-align: center;
               margin-bottom: 50px;
             }
-            .office-tel, .office-partner {
+            .office-tel {
               margin-top: 0px;
-              margin-left: 45px;
+              margin-left: 12px;
+              a.menu {
+                margin-top: 20px;
+              }
             }
           }
         }

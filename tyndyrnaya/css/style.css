@@ -930,6 +930,7 @@ main .contact-map {
     display: block; }
 
 footer {
+  clear: both;
   font-size: 11px;
   color: #aeaeae;
   line-height: 2.273;
@@ -967,7 +968,11 @@ footer {
     padding: 0 10px; }
     main .bonus .container p.red {
       width: 55%;
-      font-size: 22px; } }
+      font-size: 22px; }
+  main .contact-map .resp-vtabs ul.resp-tabs-list {
+    width: 26%; }
+  main .contact-map .resp-vtabs .resp-tabs-container {
+    width: 74%; } }
 @media all and (max-width: 1100px) {
   header .container .header nav.header-nav ul.nav-menu li.menu-item {
     padding: 10px 15px; }
@@ -996,11 +1001,7 @@ footer {
   main .about .about-block .about-description-img {
     width: 48%; }
   main .bonus .container p.red {
-    width: 60%; }
-  main .contact-map .resp-vtabs ul.resp-tabs-list {
-    width: 26%; }
-  main .contact-map .resp-vtabs .resp-tabs-container {
-    width: 74%; } }
+    width: 60%; } }
 @media all and (max-width: 670px) {
   header .container .header {
     justify-content: left; }
@@ -1256,15 +1257,20 @@ footer {
       main .reviews .container .feedback textarea.big {
         width: 87%;
         margin: 7px 0; }
+  main .contact-map .container #verticalTab .resp-tabs-container {
+    margin-bottom: 10px; }
   main .contact-map .container #verticalTab .tel-mail-btn {
     position: relative;
-    margin-top: 10px; }
+    margin-top: 10px;
+    text-align: center; }
     main .contact-map .container #verticalTab .tel-mail-btn .btn {
       text-align: center;
       margin-bottom: 50px; }
-    main .contact-map .container #verticalTab .tel-mail-btn .office-tel, main .contact-map .container #verticalTab .tel-mail-btn .office-partner {
+    main .contact-map .container #verticalTab .tel-mail-btn .office-tel {
       margin-top: 0px;
-      margin-left: 45px; }
+      margin-left: 12px; }
+      main .contact-map .container #verticalTab .tel-mail-btn .office-tel a.menu {
+        margin-top: 20px; }
   main .contact-map ul.resp-tabs-list {
     display: none; }
   main .contact-map h2.resp-accordion {

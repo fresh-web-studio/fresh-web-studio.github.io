@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tyndyrnaya/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyndyrnaya/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/css/style.scss" afterDir="false" />
@@ -91,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="122" column="26" lean-forward="true" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -108,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="1083" column="22" selection-start-line="1083" selection-start-column="22" selection-end-line="1083" selection-end-column="22" />
+            <state relative-caret-position="397">
+              <caret line="1264" column="14" selection-start-line="1264" selection-start-column="14" selection-end-line="1264" selection-end-column="14" />
               <folding>
                 <element signature="e#1200#10992#0" />
                 <element signature="e#1215#3119#0" />
@@ -122,7 +122,6 @@
                 <element signature="e#21376#22171#0" />
                 <element signature="e#22259#23042#0" />
                 <element signature="e#23749#23759#0" />
-                <element signature="e#21286#21504#0" />
                 <element signature="e#17317#17860#0" />
                 <element signature="e#17334#17856#0" />
                 <element signature="e#17909#18452#0" />
@@ -131,6 +130,7 @@
                 <element signature="e#24725#24805#0" />
                 <element signature="e#25718#26513#0" />
                 <element signature="e#27507#28887#0" />
+                <element signature="e#34938#35096#0" />
                 <element signature="e#20346#22489#0" />
                 <element signature="e#22512#22859#0" />
                 <element signature="e#22876#23146#0" />
@@ -147,7 +147,7 @@
                 <element signature="e#38304#38614#0" />
                 <element signature="e#41156#41599#0" />
                 <element signature="e#44199#44213#0" />
-                <element signature="e#49953#51063#0" />
+                <element signature="e#49184#50382#0" />
                 <element signature="e#31240#32914#0" />
                 <element signature="e#38361#38700#0" />
                 <element signature="e#39255#40125#0" />
@@ -577,13 +577,6 @@
       <workItem from="1589136227882" duration="56610000" />
       <workItem from="1589636853585" duration="37981000" />
     </task>
-    <task id="LOCAL-00672" summary="Обновление">
-      <created>1588410366055</created>
-      <option name="number" value="00672" />
-      <option name="presentableId" value="LOCAL-00672" />
-      <option name="project" value="LOCAL" />
-      <updated>1588410366055</updated>
-    </task>
     <task id="LOCAL-00673" summary="Обновление">
       <created>1588410617590</created>
       <option name="number" value="00673" />
@@ -920,11 +913,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589876612244</updated>
     </task>
-    <option name="localTasksCounter" value="721" />
+    <task id="LOCAL-00721" summary="Обновление">
+      <created>1589911643172</created>
+      <option name="number" value="00721" />
+      <option name="presentableId" value="LOCAL-00721" />
+      <option name="project" value="LOCAL" />
+      <updated>1589911643175</updated>
+    </task>
+    <option name="localTasksCounter" value="722" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1143262000" />
+    <option name="totallyTimeSpent" value="1144686000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -1495,8 +1495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="122" column="26" lean-forward="true" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
+        <state relative-caret-position="300">
+          <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1510,8 +1510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="1083" column="22" selection-start-line="1083" selection-start-column="22" selection-end-line="1083" selection-end-column="22" />
+        <state relative-caret-position="397">
+          <caret line="1264" column="14" selection-start-line="1264" selection-start-column="14" selection-end-line="1264" selection-end-column="14" />
           <folding>
             <element signature="e#1200#10992#0" />
             <element signature="e#1215#3119#0" />
@@ -1524,7 +1524,6 @@
             <element signature="e#21376#22171#0" />
             <element signature="e#22259#23042#0" />
             <element signature="e#23749#23759#0" />
-            <element signature="e#21286#21504#0" />
             <element signature="e#17317#17860#0" />
             <element signature="e#17334#17856#0" />
             <element signature="e#17909#18452#0" />
@@ -1533,6 +1532,7 @@
             <element signature="e#24725#24805#0" />
             <element signature="e#25718#26513#0" />
             <element signature="e#27507#28887#0" />
+            <element signature="e#34938#35096#0" />
             <element signature="e#20346#22489#0" />
             <element signature="e#22512#22859#0" />
             <element signature="e#22876#23146#0" />
@@ -1549,7 +1549,7 @@
             <element signature="e#38304#38614#0" />
             <element signature="e#41156#41599#0" />
             <element signature="e#44199#44213#0" />
-            <element signature="e#49953#51063#0" />
+            <element signature="e#49184#50382#0" />
             <element signature="e#31240#32914#0" />
             <element signature="e#38361#38700#0" />
             <element signature="e#39255#40125#0" />
