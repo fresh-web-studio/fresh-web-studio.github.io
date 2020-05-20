@@ -530,6 +530,14 @@ main {
             color: rgb(62, 62, 62);
             line-height: 3.55;
             border-bottom: 1px solid #f6f6f6;
+            a {
+              &:hover {
+                color: #ff3d02 !important;
+              }
+              &:visited {
+                color: rgb(62, 62, 62);
+              }
+            }
           }
           .row {
             padding: 10px 20px;

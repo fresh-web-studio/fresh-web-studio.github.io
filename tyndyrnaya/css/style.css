@@ -403,6 +403,10 @@ main .catalog {
           color: #3e3e3e;
           line-height: 3.55;
           border-bottom: 1px solid #f6f6f6; }
+          main .catalog .container .main-items .item h3 a:hover {
+            color: #ff3d02 !important; }
+          main .catalog .container .main-items .item h3 a:visited {
+            color: #3e3e3e; }
         main .catalog .container .main-items .item .row {
           padding: 10px 20px;
           display: flex;
