@@ -1736,6 +1736,11 @@ footer {
     .catalog {
       .container {
         padding-left: 10px;
+        h3 {
+          padding-top: 40px;
+          padding-bottom: 30px;
+          line-height: 1.4;
+        }
         .main-items {
           .item {
             width: 320px;
@@ -2344,8 +2349,9 @@ footer {
           }
           .info {
             width: 100%;
-            padding: 0;
-            h1 {}
+            h1 {
+              text-align: center;
+            }
             .text {}
             .properties {
               width: 100%;
@@ -2355,10 +2361,29 @@ footer {
               .weight {}
             }
             .price-block {
+              width: 100%;
+              justify-content: center;
               .price {
+                font-size: 50px;
+                width: 100%;
+                text-align: center;
               }
               .input-group.quantity_goods {
-                input#button_minus, input#button_plus {}
+                justify-content: center;
+                width: 100%;
+                margin: 20px 0;
+                input#button_minus, input#button_plus {
+                  -webkit-appearance: none;
+                  border-radius: 22px;
+                  border: 0;
+                  background-color: #e5e5e5;
+                  width: 60px;
+                  height: 44px;
+                  cursor: pointer;
+                  font-size: 23px;
+                  color: #505050;
+                  line-height: 0.5;
+                }
                 input#num_count {}
               }
               a {
