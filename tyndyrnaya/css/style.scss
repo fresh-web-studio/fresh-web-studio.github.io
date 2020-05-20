@@ -1277,6 +1277,7 @@ main {
     .container {
       .row {
         margin-top: 55px;
+        margin-bottom: 20px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -2333,6 +2334,42 @@ footer {
         border-bottom: 1px solid #c1c1c1 !important;
       }
     }
+    .product {
+      .container {
+        .row {
+          padding: 0 15px;
+          .product-photo {
+            width: 100%;
+            img {}
+          }
+          .info {
+            width: 100%;
+            padding: 0;
+            h1 {}
+            .text {}
+            .properties {
+              width: 100%;
+              .name {
+                width: 70%;
+              }
+              .weight {}
+            }
+            .price-block {
+              .price {
+              }
+              .input-group.quantity_goods {
+                input#button_minus, input#button_plus {}
+                input#num_count {}
+              }
+              a {
+                .btn {}
+              }
+            }
+          }
+        }
+      }
+    }
+
   }
 }
 @media all and (max-width: 375px) {
@@ -2487,6 +2524,43 @@ footer {
           }
           textarea.big {
             width: 84%;
+          }
+        }
+      }
+    }
+    .product {
+      .container {
+        .row {
+          .product-photo {
+            img {}
+          }
+          .info {
+            h1 {}
+            .text {}
+            .properties {
+              .name {
+              }
+              .weight {}
+            }
+            .price-block {
+              width: 100%;
+              justify-content: center;
+              .price {
+                font-size: 50px;
+                width: 100%;
+                text-align: center;
+              }
+              .input-group.quantity_goods {
+                justify-content: center;
+                width: 100%;
+                margin: 20px 0;
+                input#button_minus, input#button_plus {}
+                input#num_count {}
+              }
+              a {
+                .btn {}
+              }
+            }
           }
         }
       }

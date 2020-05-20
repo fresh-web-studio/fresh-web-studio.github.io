@@ -940,6 +940,7 @@ main .contact-map {
     display: block; }
 main .product .container .row {
   margin-top: 55px;
+  margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
@@ -1378,7 +1379,18 @@ footer {
   main .contact-map .resp-accordion-closed {
     display: none !important; }
   main .contact-map .resp-vtabs .resp-tab-content:last-child {
-    border-bottom: 1px solid #c1c1c1 !important; } }
+    border-bottom: 1px solid #c1c1c1 !important; }
+  main .product .container .row {
+    padding: 0 15px; }
+    main .product .container .row .product-photo {
+      width: 100%; }
+    main .product .container .row .info {
+      width: 100%;
+      padding: 0; }
+      main .product .container .row .info .properties {
+        width: 100%; }
+        main .product .container .row .info .properties .name {
+          width: 70%; } }
 @media all and (max-width: 375px) {
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 {
     height: 413px; }
@@ -1411,7 +1423,18 @@ footer {
     background-size: contain;
     height: 375px; }
   main .reviews .container .feedback textarea.big {
-    width: 84%; } }
+    width: 84%; }
+  main .product .container .row .info .price-block {
+    width: 100%;
+    justify-content: center; }
+    main .product .container .row .info .price-block .price {
+      font-size: 50px;
+      width: 100%;
+      text-align: center; }
+    main .product .container .row .info .price-block .input-group.quantity_goods {
+      justify-content: center;
+      width: 100%;
+      margin: 20px 0; } }
 @media all and (max-width: 360px) {
   main .catalog .container .main-items .item .row .text {
     width: 151px; }
