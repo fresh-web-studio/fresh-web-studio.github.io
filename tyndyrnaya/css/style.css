@@ -334,7 +334,7 @@ main .catalog {
   main .catalog .container {
     padding-bottom: 80px; }
     main .catalog .container h2 {
-      margin-top: 40px;
+      padding-top: 40px;
       font-size: 22px;
       color: #333333;
       margin-left: 40px; }
