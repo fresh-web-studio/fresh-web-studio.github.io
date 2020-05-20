@@ -149,6 +149,8 @@ header {
           header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block a .btn:before {
             content: url(../img/btn-menu.png);
             padding-right: 10px; }
+          header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block a .btn:hover {
+            background-color: #d93909; }
   header .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 {
     background-image: url(../img/item-2.jpg);
     background-position: center center;
@@ -376,6 +378,14 @@ main .catalog {
       margin-left: -40px;
       position: absolute;
       margin-top: -1px; }
+    main .catalog .container h3 {
+      padding-top: 85px;
+      padding-bottom: 60px;
+      font-size: 27px;
+      font-weight: 300;
+      color: #343434;
+      line-height: 1.037;
+      text-align: center; }
     main .catalog .container .main-items {
       display: flex;
       flex-wrap: wrap; }
@@ -928,6 +938,88 @@ main .contact-map {
     margin: 0px; }
   main .contact-map .resp-tab-content-active {
     display: block; }
+main .product .container .row {
+  margin-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  main .product .container .row .product-photo {
+    width: 50%; }
+    main .product .container .row .product-photo img {
+      width: 100%; }
+  main .product .container .row .info {
+    padding: 0 15px;
+    width: 47%; }
+    main .product .container .row .info h1 {
+      font-size: 31px;
+      color: #191919;
+      line-height: 0.903; }
+    main .product .container .row .info .text {
+      font-size: 14px;
+      color: #4e4e4e;
+      line-height: 1.714;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    main .product .container .row .info .properties {
+      width: 30%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      main .product .container .row .info .properties .name {
+        font-size: 12px;
+        color: #4e4e4e;
+        line-height: 2.75;
+        width: 115px; }
+      main .product .container .row .info .properties .weight {
+        font-size: 12px;
+        color: #4e4e4e;
+        line-height: 2.75; }
+    main .product .container .row .info .price-block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 390px; }
+      main .product .container .row .info .price-block .price {
+        font-size: 28px;
+        color: #191919;
+        font-weight: bold;
+        line-height: 1.179; }
+      main .product .container .row .info .price-block .input-group.quantity_goods {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        main .product .container .row .info .price-block .input-group.quantity_goods input#button_minus, main .product .container .row .info .price-block .input-group.quantity_goods input#button_plus {
+          border-radius: 50%;
+          border: 0;
+          background-color: #e5e5e5;
+          width: 37px;
+          height: 37px;
+          cursor: pointer;
+          font-size: 23px;
+          color: #505050;
+          line-height: 0.8; }
+        main .product .container .row .info .price-block .input-group.quantity_goods input#num_count {
+          font-size: 20px;
+          color: #505050;
+          border: 0;
+          text-align: center;
+          width: 50px; }
+      main .product .container .row .info .price-block a .btn {
+        border-radius: 19px;
+        background-color: #ff3d02;
+        width: 125px;
+        height: 37px;
+        padding: 0px 5px;
+        font-size: 14px;
+        color: white;
+        display: flex;
+        text-transform: uppercase;
+        align-items: center;
+        justify-content: center; }
+        main .product .container .row .info .price-block a .btn:hover {
+          background-color: #d93909; }
 
 footer {
   clear: both;

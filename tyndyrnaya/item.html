@@ -65,12 +65,106 @@
     </div>
 </header>
 <main>
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="product-photo">
+                    <img src="img/main-photo.jpg" alt="Шашлык из свинины" />
+                </div>
+                <div class="info">
+                    <h1>Шашлык из свинины</h1>
+                    <div class="text">Шашлык из свинины, приготовленный на гриле. Подаётся с гарниром на выбор,
+                        овощным салатом и соусом.</div>
+                    <div class="properties">
+                        <div class="name">Основное блюдо</div>
+                        <div class="weight">250 г</div>
+                        <div class="name">Гарнир</div>
+                        <div class="weight">140 г</div>
+                        <div class="name">Овощной салат</div>
+                        <div class="weight">60 г</div>
+                        <div class="name">Соус</div>
+                        <div class="weight">50 г</div>
+                    </div>
+                    <div class="price-block">
+                        <div class="price">489 ₽</div>
+                        <div class="input-group quantity_goods">
+                            <input type="button" value="-" id="button_minus" />
+                            <input type="text" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty" />
+                            <input type="button" value="+" id="button_plus" />
+                        </div>
+                        <a href="#">
+                            <div class="btn">В корзину</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </div>
+    <div class="catalog">
+        <div class="container">
+            <h3>Добавить к этому блюду</h3>
+            <div class="main-items">
+                <div class="item">
+                    <img src="img/photo-item-add-1.jpg" alt="фото" />
+                    <h3>Аджапсандал</h3>
+                    <div class="row">
+                        <div class="text">
+                            <div class="price">
+                                162,50 ₽
+                            </div>
+                            <div class="info">Цена за 1 порцию / 250 г.</div>
+                        </div>
+                        <a href="#">
+                            <div class="btn">
+                                +
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/photo-item-add-2.jpg" alt="фото" />
+                    <h3>Картофель</h3>
+                    <div class="row">
+                        <div class="text">
+                            <div class="price">
+                                35 ₽
+                            </div>
+                            <div class="info">Цена за 1 порцию / 100 г.</div>
+                        </div>
+                        <a href="#">
+                            <div class="btn">
+                                +
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/photo-item-add-3.jpg" alt="фото" />
+                    <h3>Грибы</h3>
+                    <div class="row">
+                        <div class="text">
+                            <div class="price">
+                                75 ₽
+                            </div>
+                            <div class="info">Цена за 1 порцию / 100 г.</div>
+                        </div>
+                        <a href="#">
+                            <div class="btn">
+                                +
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 <footer>
     Copyright © 2020 Все права защищены.
 </footer>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/menu.min.js"></script>
+<script src="js/quantity-goods.min.js"></script>
 </body>
 </html>
