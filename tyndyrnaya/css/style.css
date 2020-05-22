@@ -1066,6 +1066,10 @@ footer {
       width: 349px; }
       main .catalog .container .main-items .item .row .text {
         width: 180px; }
+    main .catalog .container .main-items .item:nth-of-type(3n) {
+      margin-right: 0px; }
+    main .catalog .container .main-items .item:nth-of-type(4n) {
+      margin-right: 21px; }
   main .contact-home .resp-tabs-list li {
     padding: 20px 32px 20px 46px; }
   main .big-menu .container .list-menu a .menu-item {
@@ -1301,14 +1305,27 @@ footer {
     main .catalog .container h2 {
       margin-left: 50px; }
     main .catalog .container .main-items .item {
-      width: 100%;
+      width: 43%;
       margin: 19px 10px 19px 10px; }
-      main .catalog .container .main-items .item:nth-of-type(3n) {
-        margin-right: 10px; }
-      main .catalog .container .main-items .item .row .text {
-        width: 164px; }
-      main .catalog .container .main-items .item .row .quantity .quantity-choice {
-        width: 133px; }
+      main .catalog .container .main-items .item h3 {
+        height: 47px;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px; }
+      main .catalog .container .main-items .item .row {
+        justify-content: center;
+        padding: 0 0 10px; }
+        main .catalog .container .main-items .item .row .text {
+          width: 164px;
+          text-align: center; }
+    main .catalog .container .main-items .item:nth-of-type(2n) {
+      margin-right: 0; }
+    main .catalog .container .main-items .item:nth-of-type(3n) {
+      margin-right: 10px; }
+    main .catalog .container .main-items .item:nth-of-type(4n) {
+      margin-right: 10px; }
   main .advantages .container .advantages-block .advantages-item {
     width: 100%;
     padding-bottom: 40px; }
@@ -1469,8 +1486,6 @@ footer {
     padding: 13% 10px 12%; }
     main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
       font-size: 56px; }
-  main .catalog .container .main-items .item .row .quantity .quantity-choice {
-    width: 95px; }
   main .about .about-block .about-description {
     width: 100%;
     padding: 0px 20px; }
@@ -1558,7 +1573,8 @@ footer {
     main .catalog .container .main-items .item .row .text .info {
       font-size: 9px; }
   main .catalog .container .main-items .item .row .quantity .quantity-choice {
-    width: 84px; }
+    width: 64px;
+    padding-left: 8px; }
   main .about .about-block .about-description {
     width: 100%;
     padding: 0px 20px; }
