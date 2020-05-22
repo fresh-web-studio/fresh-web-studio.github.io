@@ -1305,7 +1305,7 @@ footer {
     main .catalog .container h2 {
       margin-left: 50px; }
     main .catalog .container .main-items .item {
-      width: 43%;
+      width: 45%;
       margin: 19px 10px 19px 10px; }
       main .catalog .container .main-items .item h3 {
         height: 47px;
@@ -1486,6 +1486,8 @@ footer {
     padding: 13% 10px 12%; }
     main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
       font-size: 56px; }
+  main .catalog .container .main-items .item {
+    width: 44%; }
   main .about .about-block .about-description {
     width: 100%;
     padding: 0px 20px; }
@@ -1568,13 +1570,15 @@ footer {
       font-size: 57px; }
     main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
       font-size: 47px; }
-  main .catalog .container .main-items .item .row .text {
-    width: 122px; }
-    main .catalog .container .main-items .item .row .text .info {
-      font-size: 9px; }
-  main .catalog .container .main-items .item .row .quantity .quantity-choice {
-    width: 64px;
-    padding-left: 8px; }
+  main .catalog .container .main-items .item {
+    width: 43%; }
+    main .catalog .container .main-items .item .row .text {
+      width: 122px; }
+      main .catalog .container .main-items .item .row .text .info {
+        font-size: 9px; }
+    main .catalog .container .main-items .item .row .quantity .quantity-choice {
+      width: 64px;
+      padding-left: 8px; }
   main .about .about-block .about-description {
     width: 100%;
     padding: 0px 20px; }
