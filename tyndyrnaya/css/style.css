@@ -397,7 +397,7 @@ main {
         flex-wrap: wrap; }
         main .catalog .container .main-items .item {
           margin: 19px 21px 19px 0px;
-          width: 409px;
+          width: 300px;
           background-color: #ffffff;
           border-radius: 3px;
           box-shadow: 0px 0px 21px 0px rgba(227, 227, 227, 0.47); }
@@ -421,7 +421,7 @@ main {
             flex-wrap: wrap;
             justify-content: space-between; }
             main .catalog .container .main-items .item .row .text {
-              width: 192px; }
+              width: 131px; }
               main .catalog .container .main-items .item .row .text .price {
                 font-size: 19px;
                 color: #3e3e3e;
@@ -434,9 +434,9 @@ main {
               font-size: 13px;
               position: relative; }
               main .catalog .container .main-items .item .row .quantity .quantity-choice {
-                padding-left: 16px;
+                padding-left: 10px;
                 padding-bottom: 2px;
-                width: 123px;
+                width: 74px;
                 height: 39px;
                 border-radius: 3px;
                 border: 1px solid #f0f0f0;
@@ -447,7 +447,7 @@ main {
                 position: relative;
                 z-index: 2; }
               main .catalog .container .main-items .item .row .quantity:after {
-                padding: 12px;
+                padding: 10px;
                 content: url(../img/select.png);
                 position: absolute;
                 right: 0px;
@@ -469,7 +469,7 @@ main {
                 padding-left: 5px; }
               main .catalog .container .main-items .item .row a .btn:hover {
                 background-color: #d93909; }
-        main .catalog .container .main-items .item:nth-of-type(3n) {
+        main .catalog .container .main-items .item:nth-of-type(4n) {
           margin-right: 0px; }
   main .advantages {
     margin-bottom: 75px;
@@ -1065,7 +1065,7 @@ footer {
     main .catalog .container .main-items .item {
       width: 349px; }
       main .catalog .container .main-items .item .row .text {
-        width: 133px; }
+        width: 180px; }
   main .contact-home .resp-tabs-list li {
     padding: 20px 32px 20px 46px; }
   main .big-menu .container .list-menu a .menu-item {
@@ -1109,6 +1109,8 @@ footer {
       line-height: 1.4; }
     main .catalog .container .main-items .item {
       width: 320px; }
+      main .catalog .container .main-items .item .row .text {
+        width: 137px; }
       main .catalog .container .main-items .item .row .quantity .quantity-choice {
         padding-left: 10px;
         width: 90px; }
