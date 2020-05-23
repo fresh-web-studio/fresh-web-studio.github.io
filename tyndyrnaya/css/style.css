@@ -1547,6 +1547,8 @@ footer {
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
     width: 100%; }
 
+  main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__header {
+    font-size: 61px; }
   main .about .about-block .about-description {
     width: 100%;
     padding: 0px 20px; }
