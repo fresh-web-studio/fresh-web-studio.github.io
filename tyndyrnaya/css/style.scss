@@ -1207,7 +1207,7 @@ main {
     }
     .resp-vtabs .resp-tabs-list li {
       display: block;
-      padding: 15px 35px !important;
+      padding: 15px 10px 15px 35px !important;
       margin: 0;
       cursor: pointer;
       float: none;
@@ -2329,6 +2329,19 @@ footer {
         }
       }
     }
+    .contact-map {
+      .container {
+      }
+      .resp-vtabs {
+        ul.resp-tabs-list {
+          width: 30%;
+
+        }
+        .resp-tabs-container {
+          width: 69%;
+        }
+      }
+    }
   }
 }
 @media all and (max-width: 770px) {
@@ -2526,6 +2539,13 @@ footer {
               }
             }
           }
+        }
+      }
+    }
+    .contact-map {
+      .resp-tabs-list {
+        li {
+          font-size: 12px;
         }
       }
     }
@@ -3334,9 +3354,7 @@ footer {
         }
       }
     }
-
   }
-
 }
 @media all and (max-width: 360px) {
   header {

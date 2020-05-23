@@ -913,7 +913,7 @@ main {
       width: 22%; }
     main .contact-map .resp-vtabs .resp-tabs-list li {
       display: block;
-      padding: 15px 35px !important;
+      padding: 15px 10px 15px 35px !important;
       margin: 0;
       cursor: pointer;
       float: none; }
@@ -1136,7 +1136,11 @@ footer {
   main .catalog .container .main-items .block .item .row .quantity .quantity-choice {
     padding-left: 5px; }
   main .catalog .container .main-items .block .item .row .quantity:after {
-    padding: 10px 5px; } }
+    padding: 10px 5px; }
+  main .contact-map .resp-vtabs ul.resp-tabs-list {
+    width: 30%; }
+  main .contact-map .resp-vtabs .resp-tabs-container {
+    width: 69%; } }
 @media all and (max-width: 770px) {
   header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
     padding: 10px 4px; }
@@ -1148,7 +1152,9 @@ footer {
   main .big-menu .container .list-menu a .menu-item {
     padding: 10px 3px; }
     main .big-menu .container .list-menu a .menu-item .name {
-      font-size: 9px; } }
+      font-size: 9px; }
+  main .contact-map .resp-tabs-list li {
+    font-size: 12px; } }
 @media all and (max-width: 670px) {
   header .header-fix {
     position: fixed;
