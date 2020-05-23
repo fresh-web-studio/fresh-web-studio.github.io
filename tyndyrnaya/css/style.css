@@ -1283,9 +1283,9 @@ footer {
         main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide_item__tel .tel-block {
           background-color: #232525;
           width: 270px;
-          height: 30px;
+          height: 44px;
           border-radius: 20px;
-          box-shadow: 10px 8px 0px rgba(0, 0, 0, 0.18);
+          box-shadow: 10px 8px 0 rgba(0, 0, 0, 0.18);
           color: #ffffff;
           font-size: 22px;
           text-align: center;
@@ -1296,8 +1296,8 @@ footer {
           padding-right: 23px; }
           main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide_item__tel .tel-block img {
             width: 26px;
-            height: 30px;
-            padding-top: 0px; }
+            height: 40px;
+            padding-top: 0; }
         main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide_item__tel img[alt="Угол"] {
           display: none; }
   main .catalog .container {
@@ -1563,7 +1563,7 @@ footer {
   main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container {
     padding: 16% 10px 22%; }
     main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__header {
-      font-size: 57px; }
+      font-size: 50px; }
     main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
       font-size: 47px; }
   main .about .about-block .about-description {

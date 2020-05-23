@@ -2008,9 +2008,9 @@ footer {
                 .tel-block {
                   background-color: #232525;
                   width: 270px;
-                  height: 30px;
+                  height: 44px;
                   border-radius: 20px;
-                  box-shadow: 10px 8px 0px rgba(0, 0, 0, 0.18);
+                  box-shadow: 10px 8px 0 rgba(0, 0, 0, 0.18);
                   color: #ffffff;
                   font-size: 22px;
                   text-align: center;
@@ -2021,8 +2021,8 @@ footer {
                   padding-right: 23px;
                   img {
                     width: 26px;
-                    height: 30px;
-                    padding-top: 0px;
+                    height: 40px;
+                    padding-top: 0;
                   }
                 }
                 img[alt="Угол"] {
@@ -2832,7 +2832,7 @@ footer {
             padding: 16% 10px 22%;
             .left-block {
               .slide_item__header {
-                font-size: 57px;
+                font-size: 50px;
               }
               .slide_item__text {
                 font-size: 47px;
