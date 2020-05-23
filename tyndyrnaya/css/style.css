@@ -188,6 +188,8 @@ main {
         font-size: 50px;
         font-family: "DrumRegular";
         color: #f9f65c; }
+        main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 .container .slide_item__text .tel a {
+          color: #f9f65c; }
   main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide3 {
     background-image: url(../img/item-3.jpg);
     background-position: center center;
@@ -301,6 +303,8 @@ main {
           color: #ffffff;
           font-size: 23px;
           text-align: center; }
+          main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide_item__tel .tel-block a {
+            color: #ffffff; }
           main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide_item__tel .tel-block img {
             width: 33px;
             margin: 0 auto;

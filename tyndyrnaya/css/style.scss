@@ -242,6 +242,9 @@ main {
               font-size: 50px;
               font-family: "DrumRegular";
               color: #f9f65c;
+              a {
+                color: #f9f65c;
+              }
             }
           }
         }
@@ -382,6 +385,9 @@ main {
                 color: #ffffff;
                 font-size: 23px;
                 text-align: center;
+                a {
+                  color: #ffffff;
+                }
                 img {
                   width: 33px;
                   margin: 0 auto;
@@ -1487,7 +1493,6 @@ footer {
             }
           }
         }
-
       }
     }
     .catalog {
