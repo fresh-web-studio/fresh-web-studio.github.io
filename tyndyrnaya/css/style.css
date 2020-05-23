@@ -332,6 +332,8 @@ main {
       font-size: 40px;
       font-weight: bold;
       margin: 0; }
+      main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav button:hover {
+        background: transparent; }
       main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .owl-nav button span {
         position: absolute;
         top: -5px;

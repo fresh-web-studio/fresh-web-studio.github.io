@@ -426,6 +426,9 @@ main {
           font-size: 40px;
           font-weight: bold;
           margin: 0;
+          &:hover {
+            background: transparent;
+          }
           span {
             position: absolute;
             top: -5px;
