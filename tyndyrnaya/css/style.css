@@ -1057,14 +1057,8 @@ footer {
 /*======================================================*/
 /*======================================================*/
 @media all and (max-width: 1200px) {
-  header .header-fix {
-    position: fixed;
-    background-color: white;
-    z-index: 99;
-    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
-    width: 100%; }
-    header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
-      padding: 10px 20px; }
+  header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
+    padding: 10px 20px; }
 
   main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block .slide_item__header {
     font-size: 77px; }
@@ -1094,14 +1088,8 @@ footer {
   main .contact-map .resp-vtabs .resp-tabs-container {
     width: 74%; } }
 @media all and (max-width: 1100px) {
-  header .header-fix {
-    position: fixed;
-    background-color: white;
-    z-index: 99;
-    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
-    width: 100%; }
-    header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
-      padding: 10px 15px; }
+  header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
+    padding: 10px 15px; }
 
   main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide2 .container .slide_item__header {
     font-size: 9vw; }
@@ -1127,6 +1115,40 @@ footer {
     width: 48%; }
   main .bonus .container p.red {
     width: 60%; } }
+@media all and (max-width: 975px) {
+  header .header-fix .container .header .logo {
+    overflow: hidden;
+    width: 100px; }
+
+  main .catalog .container .main-items .block .item .row {
+    padding: 10px 10px; }
+  main .big-menu .container .list-menu a .menu-item {
+    padding: 10px 5px; }
+    main .big-menu .container .list-menu a .menu-item .name {
+      font-size: 10px; } }
+@media all and (max-width: 890px) {
+  header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
+    padding: 10px 7px; }
+
+  main .catalog .container .main-items .block .item .row .text .info {
+    font-size: 8px; } }
+@media all and (max-width: 835px) {
+  main .catalog .container .main-items .block .item .row .quantity .quantity-choice {
+    padding-left: 5px; }
+  main .catalog .container .main-items .block .item .row .quantity:after {
+    padding: 10px 5px; } }
+@media all and (max-width: 770px) {
+  header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
+    padding: 10px 4px; }
+  header .header-fix .container .header .time-date .text {
+    font-size: 12px; }
+  header .header-fix .container .header .cart a .text {
+    font-size: 12px; }
+
+  main .big-menu .container .list-menu a .menu-item {
+    padding: 10px 3px; }
+    main .big-menu .container .list-menu a .menu-item .name {
+      font-size: 9px; } }
 @media all and (max-width: 670px) {
   header .header-fix {
     position: fixed;
@@ -1136,9 +1158,6 @@ footer {
     width: 100%; }
     header .header-fix .container .header {
       justify-content: left; }
-      header .header-fix .container .header .logo {
-        overflow: hidden;
-        width: 100px; }
       header .header-fix .container .header nav.header-nav input#menu-toggle {
         opacity: 0; }
       header .header-fix .container .header nav.header-nav #menu-toggle:checked ~ .menu-btn > span {
@@ -1325,7 +1344,7 @@ footer {
         main .catalog .container .main-items .block .item .row a {
           width: 34%; }
           main .catalog .container .main-items .block .item .row a .btn {
-            padding: 10px 12px; }
+            padding: 10px 25px; }
   main .advantages .container .advantages-block .advantages-item {
     width: 100%;
     padding-bottom: 40px; }
@@ -1486,6 +1505,8 @@ footer {
     padding: 13% 10px 12%; }
     main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
       font-size: 56px; }
+  main .catalog .container .main-items .block .item .row a .btn {
+    padding: 10px 12px; }
   main .about .about-block .about-description {
     width: 100%;
     padding: 0px 20px; }
