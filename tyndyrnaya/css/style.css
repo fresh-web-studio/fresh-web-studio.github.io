@@ -1292,12 +1292,12 @@ footer {
           display: flex;
           justify-content: space-between;
           padding-bottom: 16px;
-          padding-top: 20px;
-          padding-right: 23px; }
+          padding-top: 8px;
+          padding-right: 17px; }
           main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide_item__tel .tel-block img {
             width: 26px;
-            height: 40px;
-            padding-top: 0; }
+            height: 43px;
+            padding-top: 3px; }
         main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide_item__tel img[alt="Угол"] {
           display: none; }
   main .catalog .container {
