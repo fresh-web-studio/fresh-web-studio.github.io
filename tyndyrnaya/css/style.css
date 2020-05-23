@@ -109,7 +109,8 @@ header .header-fix {
         margin-right: 10px;
         width: 40px;
         height: 40px;
-        background: no-repeat center url(../img/cart.png); }
+        background: no-repeat center url(../img/cart.png);
+        background-size: 40px; }
       header .header-fix .container .header .cart a .text {
         font-size: 15px;
         line-height: 1.867;
