@@ -48,6 +48,9 @@ body {
 .mobile {
   display: none; }
 
+* {
+  box-sizing: border-box; }
+
 header .header-fix {
   position: fixed;
   background-color: white;
@@ -346,7 +349,7 @@ main {
         padding-top: 40px;
         font-size: 22px;
         color: #333333;
-        margin-left: 40px; }
+        margin-left: 53px; }
       main .catalog .container h2.meat:before {
         content: url(../img/snack.png);
         margin-left: -40px;
@@ -397,83 +400,90 @@ main {
         text-align: center; }
       main .catalog .container .main-items {
         display: flex;
-        flex-wrap: wrap; }
-        main .catalog .container .main-items .item {
-          margin: 19px 21px 19px 0px;
-          width: 300px;
-          background-color: #ffffff;
-          border-radius: 3px;
-          box-shadow: 0px 0px 21px 0px rgba(227, 227, 227, 0.47); }
-          main .catalog .container .main-items .item img {
-            width: 100%; }
-          main .catalog .container .main-items .item h3 {
-            padding: 0px 20px;
-            font-size: 13px;
-            color: #3e3e3e;
-            line-height: 3.55;
-            border-bottom: 1px solid #f6f6f6; }
-            main .catalog .container .main-items .item h3 a {
-              color: #3e3e3e; }
-              main .catalog .container .main-items .item h3 a:hover {
-                color: #ff3d02 !important; }
-              main .catalog .container .main-items .item h3 a:visited {
-                color: #3e3e3e; }
-          main .catalog .container .main-items .item .row {
-            padding: 10px 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between; }
-            main .catalog .container .main-items .item .row .text {
-              width: 131px; }
-              main .catalog .container .main-items .item .row .text .price {
-                font-size: 19px;
-                color: #3e3e3e;
-                font-weight: bold; }
-              main .catalog .container .main-items .item .row .text .info {
-                font-size: 10px;
-                color: #a8a6a6;
-                line-height: 1.636; }
-            main .catalog .container .main-items .item .row .quantity {
+        flex-wrap: wrap;
+        width: 100%; }
+        main .catalog .container .main-items .block {
+          width: 25%;
+          padding: 10px; }
+          main .catalog .container .main-items .block .item {
+            background-color: #ffffff;
+            border-radius: 3px;
+            box-shadow: 0px 0px 21px 0px rgba(227, 227, 227, 0.47); }
+            main .catalog .container .main-items .block .item img {
+              width: 100%; }
+            main .catalog .container .main-items .block .item h3 {
+              padding: 0px 20px;
               font-size: 13px;
-              position: relative; }
-              main .catalog .container .main-items .item .row .quantity .quantity-choice {
-                padding-left: 10px;
-                padding-bottom: 2px;
-                width: 74px;
-                height: 39px;
-                border-radius: 3px;
-                border: 1px solid #f0f0f0;
-                background-color: transparent;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                appearance: none;
-                position: relative;
-                z-index: 2; }
-              main .catalog .container .main-items .item .row .quantity:after {
-                padding: 10px;
-                content: url(../img/select.png);
-                position: absolute;
-                right: 0px;
-                z-index: 1; }
-            main .catalog .container .main-items .item .row a .btn {
-              border-radius: 3px;
-              background-color: #ff3d02;
-              width: 33px;
-              padding: 10px 10px;
-              font-size: 14px;
-              font-family: "Gilroy";
-              color: white;
-              line-height: .0;
+              color: #3e3e3e;
+              line-height: 3.55;
+              border-bottom: 1px solid #f6f6f6; }
+              main .catalog .container .main-items .block .item h3 a {
+                color: #3e3e3e; }
+                main .catalog .container .main-items .block .item h3 a:hover {
+                  color: #ff3d02 !important; }
+                main .catalog .container .main-items .block .item h3 a:visited {
+                  color: #3e3e3e; }
+            main .catalog .container .main-items .block .item .row {
+              padding: 10px 20px;
               display: flex;
-              text-transform: uppercase;
-              align-items: center; }
-              main .catalog .container .main-items .item .row a .btn::after {
-                content: url(../img/shopping-cart.png);
-                padding-left: 5px; }
-              main .catalog .container .main-items .item .row a .btn:hover {
-                background-color: #d93909; }
-        main .catalog .container .main-items .item:nth-of-type(4n) {
-          margin-right: 0px; }
+              flex-wrap: wrap;
+              justify-content: space-between; }
+              main .catalog .container .main-items .block .item .row .text {
+                width: 51%; }
+                main .catalog .container .main-items .block .item .row .text .price {
+                  font-size: 19px;
+                  color: #3e3e3e;
+                  font-weight: bold; }
+                main .catalog .container .main-items .block .item .row .text .info {
+                  font-size: 9px;
+                  color: #a8a6a6;
+                  line-height: 1.636; }
+              main .catalog .container .main-items .block .item .row .quantity {
+                font-size: 13px;
+                position: relative;
+                width: 31%; }
+                main .catalog .container .main-items .block .item .row .quantity .quantity-choice {
+                  padding-left: 10px;
+                  padding-bottom: 2px;
+                  width: 100%;
+                  height: 39px;
+                  border-radius: 3px;
+                  border: 1px solid #f0f0f0;
+                  background-color: transparent;
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                  appearance: none;
+                  position: relative;
+                  z-index: 2; }
+                main .catalog .container .main-items .block .item .row .quantity:after {
+                  padding: 10px;
+                  content: url(../img/select.png);
+                  position: absolute;
+                  right: 0px;
+                  z-index: 1; }
+              main .catalog .container .main-items .block .item .row a {
+                width: 18%;
+                display: flex;
+                height: 39px; }
+                main .catalog .container .main-items .block .item .row a .btn {
+                  border-radius: 3px;
+                  background-color: #ff3d02;
+                  padding: 10px 6px;
+                  font-size: 14px;
+                  font-family: "Gilroy";
+                  color: white;
+                  line-height: .0;
+                  display: flex;
+                  text-transform: uppercase;
+                  align-items: center;
+                  width: 100%; }
+                  main .catalog .container .main-items .block .item .row a .btn:hover {
+                    background-color: #d93909; }
+                main .catalog .container .main-items .block .item .row a img {
+                  width: 80%;
+                  padding-left: 3px; }
+          main .catalog .container .main-items .block .item:nth-of-type(4n) {
+            margin-right: 0px; }
   main .advantages {
     margin-bottom: 75px;
     background-color: #000000; }
@@ -647,7 +657,7 @@ main {
     font-weight: 600;
     font-size: 30px;
     color: #303030;
-    padding: 12px 27px 12px 27px;
+    padding: 12px;
     list-style: none;
     cursor: pointer;
     border-radius: 3px;
@@ -656,7 +666,7 @@ main {
     box-shadow: 0px 1px 28px 0px rgba(0, 0, 0, 0.04);
     position: relative;
     bottom: 410px;
-    width: 256px;
+    width: 280px;
     margin: 0 auto; }
     main .contact-home .telephone a {
       color: #303030; }
@@ -1065,14 +1075,8 @@ footer {
     font-size: 65px; }
   main .catalog .container {
     padding-left: 10px; }
-    main .catalog .container .main-items .item {
-      width: 349px; }
-      main .catalog .container .main-items .item .row .text {
-        width: 180px; }
-    main .catalog .container .main-items .item:nth-of-type(3n) {
-      margin-right: 0px; }
-    main .catalog .container .main-items .item:nth-of-type(4n) {
-      margin-right: 21px; }
+    main .catalog .container .main-items .block {
+      width: 33%; }
   main .contact-home .resp-tabs-list li {
     padding: 20px 32px 20px 46px; }
   main .big-menu .container .list-menu a .menu-item {
@@ -1114,13 +1118,6 @@ footer {
       padding-top: 40px;
       padding-bottom: 30px;
       line-height: 1.4; }
-    main .catalog .container .main-items .item {
-      width: 320px; }
-      main .catalog .container .main-items .item .row .text {
-        width: 137px; }
-      main .catalog .container .main-items .item .row .quantity .quantity-choice {
-        padding-left: 10px;
-        width: 90px; }
   main .advantages .container .advantages-block .advantages-item {
     width: 255px; }
   main .contact-home .resp-tabs-list li {
@@ -1307,28 +1304,27 @@ footer {
     padding-bottom: 0px; }
     main .catalog .container h2 {
       margin-left: 50px; }
-    main .catalog .container .main-items .item {
-      width: 45%;
-      margin: 19px 10px 19px 10px; }
-      main .catalog .container .main-items .item h3 {
+    main .catalog .container .main-items .block {
+      width: 50%; }
+      main .catalog .container .main-items .block .item h3 {
         height: 47px;
         line-height: 1;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 0 10px; }
-      main .catalog .container .main-items .item .row {
+      main .catalog .container .main-items .block .item .row {
         justify-content: center;
         padding: 0 0 10px; }
-        main .catalog .container .main-items .item .row .text {
-          width: 164px;
+        main .catalog .container .main-items .block .item .row .text {
+          width: 100%;
           text-align: center; }
-    main .catalog .container .main-items .item:nth-of-type(2n) {
-      margin-right: 0; }
-    main .catalog .container .main-items .item:nth-of-type(3n) {
-      margin-right: 10px; }
-    main .catalog .container .main-items .item:nth-of-type(4n) {
-      margin-right: 10px; }
+        main .catalog .container .main-items .block .item .row .quantity {
+          width: 50%; }
+        main .catalog .container .main-items .block .item .row a {
+          width: 34%; }
+          main .catalog .container .main-items .block .item .row a .btn {
+            padding: 10px 12px; }
   main .advantages .container .advantages-block .advantages-item {
     width: 100%;
     padding-bottom: 40px; }
@@ -1489,8 +1485,6 @@ footer {
     padding: 13% 10px 12%; }
     main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
       font-size: 56px; }
-  main .catalog .container .main-items .item {
-    width: 44%; }
   main .about .about-block .about-description {
     width: 100%;
     padding: 0px 20px; }
@@ -1525,8 +1519,6 @@ footer {
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
     width: 100%; }
 
-  main .catalog .container .main-items .item .row .text {
-    width: 151px; }
   main .about .about-block .about-description {
     width: 100%;
     padding: 0px 20px; }
@@ -1573,15 +1565,6 @@ footer {
       font-size: 57px; }
     main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__text {
       font-size: 47px; }
-  main .catalog .container .main-items .item {
-    width: 43%; }
-    main .catalog .container .main-items .item .row .text {
-      width: 122px; }
-      main .catalog .container .main-items .item .row .text .info {
-        font-size: 9px; }
-    main .catalog .container .main-items .item .row .quantity .quantity-choice {
-      width: 64px;
-      padding-left: 8px; }
   main .about .about-block .about-description {
     width: 100%;
     padding: 0px 20px; }
