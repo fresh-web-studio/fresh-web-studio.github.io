@@ -45,9 +45,9 @@ time, mark, audio, video {
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
+$width-con: 100%;
 .container {
-  width: 100%;
+  width: $width-con;
   max-width: 1270px;
   margin: 0 auto;
 }
@@ -536,7 +536,7 @@ main {
         flex-wrap: wrap;
         width: 100%;
         .block {
-          width: 25%;
+          width: $width-con/4;
           padding: 10px;
           .item {
             background-color: #ffffff;
@@ -1476,7 +1476,7 @@ footer {
         padding-left: 10px;
         .main-items {
           .block {
-            width: 33%;
+            width: $width-con/3;
             .item {
               .row {
                 .text {
@@ -2855,7 +2855,7 @@ footer {
         }
         .main-items {
           .block {
-            width: 50%;
+            width: $width-con/2;
             .item {
               h3 {
                 height: 47px;
