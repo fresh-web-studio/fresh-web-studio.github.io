@@ -322,7 +322,7 @@ main {
             }
             .slide_item__text {
               font-family: "DrumRegular";
-              font-size: 80px;
+              font-size: 78px;
               color: #ff3d02;
               margin-top: 20px;
               margin-bottom: 58px;
@@ -1651,6 +1651,15 @@ footer {
             }
           }
         }
+        .slide-item.slide4 {
+          .container {
+            .left-block {
+              .slide_item__header {
+                font-size: 84px;
+              }
+            }
+          }
+        }
         .slide-item.slide5 {
           .container {
             .row {
@@ -2216,6 +2225,7 @@ footer {
               .slide_item__header {
               }
               .slide-item__table {
+                width: 34%;
                 .slide_item__text {
                   .name {
                   }
@@ -2226,10 +2236,20 @@ footer {
             }
           }
         }
+        .slide-item.slide4 {
+          .container {
+            .left-block {
+              .slide_item__header {
+                font-size: 64px;
+              }
+            }
+          }
+        }
         .slide-item.slide5 {
           .container {
             .row {
               .slide-item__address {
+                font-size: 21px;
                 img {
                 }
               }
@@ -2429,10 +2449,20 @@ footer {
             }
           }
         }
+        .slide-item.slide4 {
+          .container {
+            .left-block {
+              .slide_item__header {
+                font-size: 60px;
+              }
+            }
+          }
+        }
         .slide-item.slide5 {
           .container {
             .row {
               .slide-item__address {
+                font-size: 19px;
                 img {
                 }
               }
@@ -2689,7 +2719,8 @@ footer {
                 }
               }
               .slide_item__text {
-
+                margin-top: 20px;
+                margin-bottom: 30px;
               }
               a {
                 .btn {}
@@ -2704,7 +2735,7 @@ footer {
             background: rgba(0, 0, 0, 0.1);
             .slide_item__header {
               padding-top: 0px;
-              font-size: 14vw;
+              font-size: 9vw;
             }
             .slide_item__text {
               background-size: contain;
@@ -2712,11 +2743,11 @@ footer {
               margin: 0 auto;
               width: 80%;
               .call {
-                font-size: 17vw;
-                padding-top: 34px;
+                font-size: 12vw;
+                padding-top: 18px;
               }
               .tel {
-                font-size: 10vw;
+                font-size: 9vw;
               }
             }
           }
@@ -2728,7 +2759,7 @@ footer {
             background: rgba(255, 255, 255, 0.5);
             .row {
               .slide_item__header {
-                font-size: 13vw;
+                font-size: 11vw;
                 width: 100%;
                 margin-bottom: 10px;
                 text-align: center;
@@ -2765,6 +2796,8 @@ footer {
               }
               .slide_item__text {
                 font-size: 60px;
+                margin-top: 0px;
+                margin-bottom: 30px;
               }
               a {
                 .btn {}
@@ -3153,7 +3186,8 @@ footer {
     }
   }
 }
-@media all and (max-width: 384px) {
+
+@media all and (max-width: 415px) {
   header {
     .header-fix {
       position: fixed;
@@ -3210,7 +3244,8 @@ footer {
                 }
               }
               .slide_item__text {
-
+                margin-top: 36px;
+                margin-bottom: 46px;
               }
               a {
                 .btn {}
@@ -3219,13 +3254,26 @@ footer {
           }
         }
         .slide-item.slide2 {
+          height: 413px;
           .container {
             .slide_item__header {
+              font-size: 14vw;
             }
             .slide_item__text {
               .call {
+                padding-top: 50px;
               }
               .tel {
+              }
+            }
+          }
+        }
+        .slide-item.slide3 {
+          .container {
+            .row {
+              .slide_item__header {
+                font-size: 13vw;
+                padding-top: 36px;
               }
             }
           }
@@ -3237,6 +3285,8 @@ footer {
               .slide_item__header {}
               .slide_item__text {
                 font-size: 56px;
+                margin-top: 20px;
+                margin-bottom: 58px;
               }
               a {
                 .btn {}
