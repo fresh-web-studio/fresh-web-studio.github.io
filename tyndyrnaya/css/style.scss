@@ -45,6 +45,7 @@ time, mark, audio, video {
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 .container {
   width: 100%;
   max-width: 1270px;
@@ -631,12 +632,7 @@ main {
               }
             }
           }
-          .item:nth-of-type(4n) {
-            margin-right: 0px;
-          }
-
         }
-
       }
     }
   }

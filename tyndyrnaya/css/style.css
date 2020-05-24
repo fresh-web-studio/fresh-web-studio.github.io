@@ -485,8 +485,6 @@ main {
                 main .catalog .container .main-items .block .item .row a img {
                   width: 80%;
                   padding-left: 3px; }
-          main .catalog .container .main-items .block .item:nth-of-type(4n) {
-            margin-right: 0px; }
   main .advantages {
     margin-bottom: 75px;
     background-color: #000000; }
