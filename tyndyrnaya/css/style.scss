@@ -368,11 +368,11 @@ main {
             width: 100%;
             padding: 0 10px 15px 10px;
             .slide-item__address {
-              width: 25%;
+              width: 30%;
               font-family: "DrumRegular";
               color: #ffffff;
               text-align: center;
-              font-size: 28px;
+              font-size: 26px;
               line-height: 2.905;
               img {
                 width: 25px;
@@ -510,7 +510,7 @@ main {
           content: url(../img/drinks.png);
           margin-left: -40px;
           position: absolute;
-          margin-top: -2px;
+          margin-top: -5px;
         }
       }
       h2.add {
@@ -1660,7 +1660,7 @@ footer {
           .container {
             .row {
               .slide-item__address {
-                font-size: 26px;
+                font-size: 24px;
                 img {
                 }
               }

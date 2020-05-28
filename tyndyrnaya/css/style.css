@@ -289,11 +289,11 @@ main {
         width: 100%;
         padding: 0 10px 15px 10px; }
         main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide-item__address {
-          width: 25%;
+          width: 30%;
           font-family: "DrumRegular";
           color: #ffffff;
           text-align: center;
-          font-size: 28px;
+          font-size: 26px;
           line-height: 2.905; }
           main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide-item__address img {
             width: 25px;
@@ -387,7 +387,7 @@ main {
         content: url(../img/drinks.png);
         margin-left: -40px;
         position: absolute;
-        margin-top: -2px; }
+        margin-top: -5px; }
       main .catalog .container h2.add:before {
         content: url(../img/add.png);
         margin-left: -40px;
@@ -1100,7 +1100,7 @@ footer {
   main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide4 .container .left-block .slide_item__header {
     font-size: 84px; }
   main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide-item__address {
-    font-size: 26px; }
+    font-size: 24px; }
   main .slide-wrapper #owl-carousel1.owl-carousel.owl-theme .slide-item.slide5 .container .row .slide_item__tel .tel-block a {
     color: #ffffff; }
   main .catalog .container {
