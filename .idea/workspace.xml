@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Industrial-flooring/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Industrial-flooring/index.html" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -66,12 +65,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Industrial-flooring/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="213">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -392,21 +394,7 @@
       <workItem from="1590327112924" duration="2302000" />
       <workItem from="1590506834191" duration="1898000" />
       <workItem from="1590654580974" duration="6000" />
-      <workItem from="1590656775560" duration="5891000" />
-    </task>
-    <task id="LOCAL-00713" summary="Обновление">
-      <created>1589799654121</created>
-      <option name="number" value="00713" />
-      <option name="presentableId" value="LOCAL-00713" />
-      <option name="project" value="LOCAL" />
-      <updated>1589799654121</updated>
-    </task>
-    <task id="LOCAL-00714" summary="Обновление">
-      <created>1589819523652</created>
-      <option name="number" value="00714" />
-      <option name="presentableId" value="LOCAL-00714" />
-      <option name="project" value="LOCAL" />
-      <updated>1589819523652</updated>
+      <workItem from="1590656775560" duration="7774000" />
     </task>
     <task id="LOCAL-00715" summary="Обновление">
       <created>1589819906123</created>
@@ -737,18 +725,32 @@
       <option name="project" value="LOCAL" />
       <updated>1590665658592</updated>
     </task>
-    <option name="localTasksCounter" value="762" />
+    <task id="LOCAL-00762" summary="Обновление">
+      <created>1590668319833</created>
+      <option name="number" value="00762" />
+      <option name="presentableId" value="LOCAL-00762" />
+      <option name="project" value="LOCAL" />
+      <updated>1590668319833</updated>
+    </task>
+    <task id="LOCAL-00763" summary="Обновление">
+      <created>1590669622548</created>
+      <option name="number" value="00763" />
+      <option name="presentableId" value="LOCAL-00763" />
+      <option name="project" value="LOCAL" />
+      <updated>1590669622548</updated>
+    </task>
+    <option name="localTasksCounter" value="764" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1208176000" />
+    <option name="totallyTimeSpent" value="1210059000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.3355049" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.3355049" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -3349,12 +3351,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Industrial-flooring/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="213">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
