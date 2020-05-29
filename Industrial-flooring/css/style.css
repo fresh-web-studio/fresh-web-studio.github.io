@@ -68,9 +68,9 @@ body {
 }
 
 .contacts-tel a {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 600;
-    color: #000;
+    color: #fff;
 }
 
 .contacts-tel a:hover {
@@ -2176,7 +2176,9 @@ p span {
         padding-left: 15px;
         padding-right: 15px;
     }
-
+    #sync2 .item {
+        margin: 2px;
+    }
     .footer-nav li {
         text-align: center;
     }

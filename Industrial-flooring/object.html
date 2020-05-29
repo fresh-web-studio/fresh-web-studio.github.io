@@ -13,7 +13,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Бетонны пол в здании склада</title>
+    <title>Бетонный пол в здании склада</title>
     <link rel='dns-prefetch' href='//s.w.org'/>
     <link rel='stylesheet' id='wp-block-library-css' href='css/style1.min.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='bootstrap-css' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css?ver=5.4.1' type='text/css' media='all'/>
@@ -26,6 +26,13 @@
     <link rel='stylesheet' id='solid-css' href='css/solid.min.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='style-css' href='css/style.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='magnific-css' href='magnific-popup.css' type='text/css' media='all'/>
+
+    <!--
+1. ТУТ ОБЯЗАТЕЛЬНО УКАЗАТЬ НОВЫЙ АПИ КЛЮЧ ДЛЯ КАРТЫ
+2. В скрипте map.js указать координаты адреса организации и иконки
+-->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ae440fb2-a89c-4edc-a859-4232de5cfc11&lang=ru_RU" type="text/javascript"></script>
+
 </head>
 <body class="post-template-default single single-post postid-34 single-format-standard">
 <header>
@@ -188,7 +195,9 @@
                     <br>
                     <br>
                     <br>
-                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс.Карты</a><a href="https://yandex.ru/maps/?ll=37.695518%2C54.130390&source=wizgeo&utm_medium=mapframe&utm_source=maps&z=9" style="color:#eee;font-size:12px;position:absolute;top:14px;">Тульская область — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCQsNThG9C" width="100%" height="528" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
+                    <div class="map">
+                        <div id="map" style="width: 100%; height: 528px"></div>
+                    </div>
                 </div>
                 <div class="col-12 col-lg-9 col-xl-3"></div>
             </div>
@@ -287,5 +296,6 @@
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js?ver=5.4.1"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/slide-big-plus.min.js"></script>
+<script src="js/map.min.js"></script>
 </body>
 </html>
