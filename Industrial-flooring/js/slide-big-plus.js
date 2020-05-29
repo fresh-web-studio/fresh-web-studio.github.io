@@ -34,7 +34,7 @@ $(document).ready(function () {
             responsive : {
                 // breakpoint from 0 up
                 0 : {
-                    items: 4
+                    items: 8
                 },
                 // breakpoint from 400 up
                 420 : {

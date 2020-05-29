@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/js/slide-big-plus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/owlcarousel/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/owlcarousel/assets/owl.carousel.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/owlcarousel/assets/owl.carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/owlcarousel/assets/owl.theme.default.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/owlcarousel/assets/owl.theme.default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/owlcarousel/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/owlcarousel/owl.carousel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Industrial-flooring/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Industrial-flooring/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Industrial-flooring/js/slide-big-plus.js" beforeDir="false" afterPath="$PROJECT_DIR$/Industrial-flooring/js/slide-big-plus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Industrial-flooring/js/slide-big-plus.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Industrial-flooring/js/slide-big-plus.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Industrial-flooring/object.html" beforeDir="false" afterPath="$PROJECT_DIR$/Industrial-flooring/object.html" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
@@ -76,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Industrial-flooring/object.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="284" column="55" selection-start-line="284" selection-start-column="55" selection-end-line="284" selection-end-column="55" />
+            <state relative-caret-position="234">
+              <caret line="186" column="31" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
               <folding>
                 <element signature="e#532#730#0" />
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -105,12 +97,13 @@
                 <element signature="n#li#3;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#4;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#5;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#p#0;n#div#3;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -148,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Industrial-flooring/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="1446" column="25" selection-start-line="1446" selection-start-column="25" selection-end-line="1446" selection-end-column="25" />
+            <state relative-caret-position="322">
+              <caret line="2091" column="24" selection-start-line="2091" selection-start-column="24" selection-end-line="2091" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -157,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Industrial-flooring/js/slide-big-plus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="259">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
@@ -353,7 +346,7 @@
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="Industrial-flooring" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -516,14 +509,7 @@
       <workItem from="1590654580974" duration="6000" />
       <workItem from="1590656775560" duration="8474000" />
       <workItem from="1590676128108" duration="768000" />
-      <workItem from="1590738019352" duration="6226000" />
-    </task>
-    <task id="LOCAL-00718" summary="Обновление">
-      <created>1589828857726</created>
-      <option name="number" value="00718" />
-      <option name="presentableId" value="LOCAL-00718" />
-      <option name="project" value="LOCAL" />
-      <updated>1589828857726</updated>
+      <workItem from="1590738019352" duration="6990000" />
     </task>
     <task id="LOCAL-00719" summary="Обновление">
       <created>1589867691895</created>
@@ -861,11 +847,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590739391151</updated>
     </task>
-    <option name="localTasksCounter" value="767" />
+    <task id="LOCAL-00767" summary="Обновление">
+      <created>1590745012178</created>
+      <option name="number" value="00767" />
+      <option name="presentableId" value="LOCAL-00767" />
+      <option name="project" value="LOCAL" />
+      <updated>1590745012178</updated>
+    </task>
+    <option name="localTasksCounter" value="768" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1217753000" />
+    <option name="totallyTimeSpent" value="1218517000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -3450,8 +3443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Industrial-flooring/object.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="284" column="55" selection-start-line="284" selection-start-column="55" selection-end-line="284" selection-end-column="55" />
+        <state relative-caret-position="234">
+          <caret line="186" column="31" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
           <folding>
             <element signature="e#532#730#0" />
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -3479,12 +3472,13 @@
             <element signature="n#li#3;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#4;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#5;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#div#3;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -3520,15 +3514,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Industrial-flooring/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="1446" column="25" selection-start-line="1446" selection-start-column="25" selection-end-line="1446" selection-end-column="25" />
+        <state relative-caret-position="322">
+          <caret line="2091" column="24" selection-start-line="2091" selection-start-column="24" selection-end-line="2091" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Industrial-flooring/js/slide-big-plus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state relative-caret-position="259">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
