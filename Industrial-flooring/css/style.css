@@ -1436,6 +1436,76 @@ p span {
     width: 60.84%;
 }
 
+/* object */
+.container .info {
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+/* object slider */
+.slide-wrapper {
+    padding-bottom: 60px;
+}
+#sync1 .item {
+    margin: 5px;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#sync2 .item {
+    background: #c9c9c9;
+    margin: 5px;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+#sync2 .item h1 {
+    font-size: 18px;
+}
+#sync2 .current .item {
+    outline: 3px solid #ffcc00;
+}
+
+#sync2.owl-carousel.owl-loaded {
+    text-align: -webkit-center;
+}
+.owl-theme .owl-nav {
+    /*default owl-theme theme reset .disabled:hover links */
+}
+.owl-theme .owl-nav [class*="owl-"] {
+    transition: all 0.3s ease;
+}
+.owl-theme .owl-nav [class*="owl-"].disabled:hover {
+    background-color: #d6d6d6;
+}
+
+#sync1.owl-theme {
+    position: relative;
+}
+#sync1.owl-theme .owl-next,
+#sync1.owl-theme .owl-prev {
+    width: 22px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+}
+#sync1.owl-theme .owl-prev {
+    left: 10px;
+}
+#sync1.owl-theme .owl-next {
+    right: 10px;
+}
+
+/* /object slider */
+
+
 @media (max-width: 1430px) {
     .service-discr img {
         right: -33px;
