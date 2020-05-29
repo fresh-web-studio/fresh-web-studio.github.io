@@ -48,7 +48,7 @@ ymaps.ready(function () {
         options: {
             position: {
                 right: 10,
-                top: 50
+                top: 10
             },
             maxWidth: [200]
         }
@@ -73,5 +73,16 @@ ymaps.ready(function () {
     });
 
     myMap.controls.add(activeMapButton);
-
+    // Удалим с карты «Ползунок масштаба».
+    myMap.controls.remove('zoomControl');
+    // Удалим с карты «Пробки».
+    myMap.controls.remove('trafficControl');
+    // Удалим с карты «Слои».
+    myMap.controls.remove('typeSelector');
+    // Удалим с карты «Полный экран».
+    myMap.controls.remove('fullscreenControl');
+    // Удалим с карты «Поиск».
+    myMap.controls.remove('searchControl');
+    // Удалим с карты «GPS».
+    myMap.controls.remove('geolocationControl');
 });
