@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Industrial-flooring/js/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Industrial-flooring/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Industrial-flooring/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Industrial-flooring/object.html" beforeDir="false" afterPath="$PROJECT_DIR$/Industrial-flooring/object.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Industrial-flooring/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/Industrial-flooring/js/map.js" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -135,11 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Industrial-flooring/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="2179" column="20" lean-forward="true" selection-start-line="2179" selection-start-column="20" selection-end-line="2179" selection-end-column="20" />
+            <state relative-caret-position="156">
+              <caret line="2169" column="19" lean-forward="true" selection-start-line="2169" selection-start-column="19" selection-end-line="2169" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -578,11 +575,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Industrial-flooring/js/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="66">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -738,8 +735,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Industrial-flooring/js/slide-big-plus.js" />
         <option value="$PROJECT_DIR$/Industrial-flooring/object.html" />
-        <option value="$PROJECT_DIR$/Industrial-flooring/js/map.js" />
         <option value="$PROJECT_DIR$/Industrial-flooring/css/style.css" />
+        <option value="$PROJECT_DIR$/Industrial-flooring/js/map.js" />
       </list>
     </option>
   </component>
@@ -771,6 +768,12 @@
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="Industrial-flooring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Industrial-flooring" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -892,21 +895,7 @@
       <workItem from="1590654580974" duration="6000" />
       <workItem from="1590656775560" duration="8474000" />
       <workItem from="1590676128108" duration="768000" />
-      <workItem from="1590738019352" duration="8549000" />
-    </task>
-    <task id="LOCAL-00721" summary="Обновление">
-      <created>1589911643172</created>
-      <option name="number" value="00721" />
-      <option name="presentableId" value="LOCAL-00721" />
-      <option name="project" value="LOCAL" />
-      <updated>1589911643175</updated>
-    </task>
-    <task id="LOCAL-00722" summary="Обновление">
-      <created>1589913166290</created>
-      <option name="number" value="00722" />
-      <option name="presentableId" value="LOCAL-00722" />
-      <option name="project" value="LOCAL" />
-      <updated>1589913166290</updated>
+      <workItem from="1590738019352" duration="8822000" />
     </task>
     <task id="LOCAL-00723" summary="Обновление">
       <created>1589915102810</created>
@@ -1237,11 +1226,25 @@
       <option name="project" value="LOCAL" />
       <updated>1590746077361</updated>
     </task>
-    <option name="localTasksCounter" value="770" />
+    <task id="LOCAL-00770" summary="Обновление">
+      <created>1590747302760</created>
+      <option name="number" value="00770" />
+      <option name="presentableId" value="LOCAL-00770" />
+      <option name="project" value="LOCAL" />
+      <updated>1590747302760</updated>
+    </task>
+    <task id="LOCAL-00771" summary="Обновление">
+      <created>1590747491116</created>
+      <option name="number" value="00771" />
+      <option name="presentableId" value="LOCAL-00771" />
+      <option name="project" value="LOCAL" />
+      <updated>1590747491117</updated>
+    </task>
+    <option name="localTasksCounter" value="772" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1220076000" />
+    <option name="totallyTimeSpent" value="1220349000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -3826,16 +3829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Industrial-flooring/js/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Industrial-flooring/object.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -3906,8 +3899,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Industrial-flooring/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="2179" column="20" lean-forward="true" selection-start-line="2179" selection-start-column="20" selection-end-line="2179" selection-end-column="20" />
+        <state relative-caret-position="156">
+          <caret line="2169" column="19" lean-forward="true" selection-start-line="2169" selection-start-column="19" selection-end-line="2169" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Industrial-flooring/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
