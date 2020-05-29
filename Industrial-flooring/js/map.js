@@ -20,9 +20,9 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: 'img/marker.png',
+            iconImageHref: 'img/marker1.png',
             // Размеры метки.
-            iconImageSize: [41, 41],
+            iconImageSize: [45, 45],
             // Смещение левого верхнего угла иконки относительно
             // её "ножки" (точки привязки).
             iconImageOffset: [-19, 5],
