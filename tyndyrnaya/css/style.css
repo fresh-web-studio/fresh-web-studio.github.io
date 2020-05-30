@@ -362,7 +362,7 @@ main {
         content: url(../img/kebab.png);
         margin-left: -40px;
         position: absolute;
-        margin-top: 0px; }
+        margin-top: -3px; }
       main .catalog .container h2.meal:before {
         content: url(../img/meal.png);
         margin-left: -40px;
@@ -385,7 +385,7 @@ main {
         margin-top: 2px; }
       main .catalog .container h2.drinks:before {
         content: url(../img/drinks.png);
-        margin-left: -40px;
+        margin-left: -39px;
         position: absolute;
         margin-top: -5px; }
       main .catalog .container h2.add:before {

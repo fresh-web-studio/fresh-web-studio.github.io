@@ -470,7 +470,7 @@ main {
           content: url(../img/kebab.png);
           margin-left: -40px;
           position: absolute;
-          margin-top: 0px;
+          margin-top: -3px;
         }
       }
       h2.meal {
@@ -508,7 +508,7 @@ main {
       h2.drinks {
         &:before {
           content: url(../img/drinks.png);
-          margin-left: -40px;
+          margin-left: -39px;
           position: absolute;
           margin-top: -5px;
         }
