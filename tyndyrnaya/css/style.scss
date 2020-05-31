@@ -2426,6 +2426,18 @@ footer {
         }
       }
     }
+    .product {
+      .container {
+        .row {
+          .product-photo {
+            width: 50%;
+          }
+          .info {
+            width: 50%;
+          }
+        }
+      }
+    }
   }
 }
 @media all and (max-width: 770px) {
@@ -3204,12 +3216,14 @@ footer {
             h1 {
               text-align: center;
             }
-            .text {}
+            .text {
+              text-align: center;
+            }
             .properties {
               width: 100%;
               .row-add {
                 .name {
-                  width: 50%;
+                  width: 15%;
                 }
                 .input-group.quantity_goods {
                   input#button_minus_cake, input#button_plus_cake, input#button_minus_fruit_drink, input#button_plus_fruit_drink, input#button_plus_sauce, input#button_minus_sauce  {
@@ -3219,7 +3233,7 @@ footer {
                   }
                 }
                 a {
-                  width: 36%;
+                  width: 10%;
                 }
               }
 
@@ -3453,7 +3467,6 @@ footer {
           .info {
             h1 {}
             .text {
-              text-align: center;
             }
             .properties {
               .row-add {

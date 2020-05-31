@@ -1197,7 +1197,11 @@ footer {
   main .contact-map .resp-vtabs ul.resp-tabs-list {
     width: 30%; }
   main .contact-map .resp-vtabs .resp-tabs-container {
-    width: 69%; } }
+    width: 69%; }
+  main .product .container .row .product-photo {
+    width: 50%; }
+  main .product .container .row .info {
+    width: 50%; } }
 @media all and (max-width: 770px) {
   header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
     padding: 10px 4px; }
@@ -1530,16 +1534,18 @@ footer {
       padding: 0; }
       main .product .container .row .info h1 {
         text-align: center; }
+      main .product .container .row .info .text {
+        text-align: center; }
       main .product .container .row .info .properties {
         width: 100%; }
         main .product .container .row .info .properties .row-add .name {
-          width: 50%; }
+          width: 15%; }
         main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_minus_cake, main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_plus_cake, main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_minus_fruit_drink, main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_plus_fruit_drink, main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_plus_sauce, main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_minus_sauce {
           -webkit-appearance: none;
           border-radius: 14px;
           width: 44px; }
         main .product .container .row .info .properties .row-add a {
-          width: 36%; }
+          width: 10%; }
       main .product .container .row .info .price-block {
         width: 100%;
         justify-content: center; }
@@ -1613,8 +1619,6 @@ footer {
   main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
     background-size: contain;
     height: 375px; }
-  main .product .container .row .info .text {
-    text-align: center; }
   main .product .container .row .info .properties .row-add .name {
     width: 33%; }
   main .product .container .row .info .properties .row-add a {
