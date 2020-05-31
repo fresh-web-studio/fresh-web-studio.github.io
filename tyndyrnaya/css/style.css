@@ -1174,7 +1174,9 @@ footer {
   main .big-menu .container .list-menu a .menu-item {
     padding: 10px 5px; }
     main .big-menu .container .list-menu a .menu-item .name {
-      font-size: 10px; } }
+      font-size: 10px; }
+  main .product .container .row .product-photo {
+    padding-left: 0; } }
 @media all and (max-width: 890px) {
   header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
     padding: 10px 7px; }
@@ -1530,8 +1532,14 @@ footer {
         text-align: center; }
       main .product .container .row .info .properties {
         width: 100%; }
-        main .product .container .row .info .properties .name {
-          width: 70%; }
+        main .product .container .row .info .properties .row-add .name {
+          width: 50%; }
+        main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_minus_cake, main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_plus_cake, main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_minus_fruit_drink, main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_plus_fruit_drink, main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_plus_sauce, main .product .container .row .info .properties .row-add .input-group.quantity_goods input#button_minus_sauce {
+          -webkit-appearance: none;
+          border-radius: 14px;
+          width: 44px; }
+        main .product .container .row .info .properties .row-add a {
+          width: 36%; }
       main .product .container .row .info .price-block {
         width: 100%;
         justify-content: center; }
@@ -1605,6 +1613,12 @@ footer {
   main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
     background-size: contain;
     height: 375px; }
+  main .product .container .row .info .text {
+    text-align: center; }
+  main .product .container .row .info .properties .row-add .name {
+    width: 33%; }
+  main .product .container .row .info .properties .row-add a {
+    width: 20%; }
   main .product .container .row .info .price-block {
     width: 100%;
     justify-content: center; }
@@ -1638,7 +1652,24 @@ footer {
     height: 360px; }
   main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
     background-size: contain;
-    height: 360px; } }
+    height: 360px; }
+  main .product .container .row .info .text {
+    text-align: center; }
+  main .product .container .row .info .properties .row-add .name {
+    width: 40%; }
+  main .product .container .row .info .properties .row-add a {
+    width: 20%; }
+  main .product .container .row .info .price-block {
+    width: 100%;
+    justify-content: center; }
+    main .product .container .row .info .price-block .price {
+      font-size: 50px;
+      width: 100%;
+      text-align: center; }
+    main .product .container .row .info .price-block .input-group.quantity_goods {
+      justify-content: center;
+      width: 100%;
+      margin: 20px 0; } }
 @media all and (max-width: 320px) {
   header .header-fix {
     position: fixed;
@@ -1682,6 +1713,23 @@ footer {
     height: 320px; }
   main .about .about-block .about-description-img .slide-about #owl-carousel2.owl-carousel.owl-theme .slide-item.slide2 {
     background-size: contain;
-    height: 320px; } }
+    height: 320px; }
+  main .product .container .row .info .text {
+    text-align: center; }
+  main .product .container .row .info .properties .row-add .name {
+    width: 70%; }
+  main .product .container .row .info .properties .row-add a {
+    width: 37%; }
+  main .product .container .row .info .price-block {
+    width: 100%;
+    justify-content: center; }
+    main .product .container .row .info .price-block .price {
+      font-size: 50px;
+      width: 100%;
+      text-align: center; }
+    main .product .container .row .info .price-block .input-group.quantity_goods {
+      justify-content: center;
+      width: 100%;
+      margin: 20px 0; } }
 
 /*# sourceMappingURL=style.css.map */
