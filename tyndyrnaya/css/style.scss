@@ -1420,6 +1420,9 @@ main {
                   text-transform: uppercase;
                   align-items: center;
                   width: 100%;
+                  &:hover {
+                    background-color: #d93909;
+                  }
                 }
                 img {
                   width: 80%;

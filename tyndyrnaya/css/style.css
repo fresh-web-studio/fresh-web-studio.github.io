@@ -1088,6 +1088,8 @@ main {
               text-transform: uppercase;
               align-items: center;
               width: 100%; }
+              main .product .container .row .info .properties .row-add a .btn:hover {
+                background-color: #d93909; }
             main .product .container .row .info .properties .row-add a img {
               width: 80%;
               padding-left: 3px; }
