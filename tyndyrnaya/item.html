@@ -76,18 +76,7 @@
                 </div>
                 <div class="info">
                     <h1>Шашлык из свинины</h1>
-                    <div class="text">Шашлык из свинины, приготовленный на гриле. Подаётся с гарниром на выбор,
-                        овощным салатом и соусом.</div>
-                    <div class="properties">
-                        <div class="name">Основное блюдо</div>
-                        <div class="weight">250 г</div>
-                        <div class="name">Гарнир</div>
-                        <div class="weight">140 г</div>
-                        <div class="name">Овощной салат</div>
-                        <div class="weight">60 г</div>
-                        <div class="name">Соус</div>
-                        <div class="weight">50 г</div>
-                    </div>
+                    <div class="text">Вес блюда 250 г.</div>
                     <div class="price-block">
                         <div class="price">489 ₽</div>
                         <div class="input-group quantity_goods">
@@ -98,6 +87,51 @@
                         <a href="#">
                             <div class="btn">В корзину</div>
                         </a>
+                    </div>
+                    <h5>Добавить к этому блюду:</h5>
+                    <div class="properties">
+                        <div class="row-add">
+                            <div class="name">Соус 100 г</div>
+                            <div class="line">&#8194;</div>
+                            <div class="input-group quantity_goods">
+                                <input type="button" value="-" id="button_minus_sauce" />
+                                <input type="text" step="1" min="1" max="10" id="num_count_sauce" name="quantity" value="1" title="Qty" />
+                                <input type="button" value="+" id="button_plus_sauce" />
+                            </div>
+                            <a href="#">
+                                <div class="btn">
+                                    + <img src="img/shopping-cart-b.png" alt="В корзину">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="row-add">
+                            <div class="name">Морс 0,3 л</div>
+                            <div class="line">&#8194;</div>
+                            <div class="input-group quantity_goods">
+                                <input type="button" value="-" id="button_minus_fruit_drink" />
+                                <input type="text" step="1" min="1" max="10" id="num_count_fruit_drink" name="quantity" value="1" title="Qty" />
+                                <input type="button" value="+" id="button_plus_fruit_drink" />
+                            </div>
+                            <a href="#">
+                                <div class="btn">
+                                    + <img src="img/shopping-cart-b.png" alt="В корзину">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="row-add">
+                            <div class="name">Лепешка</div>
+                            <div class="line">&#8194;</div>
+                            <div class="input-group quantity_goods">
+                                <input type="button" value="-" id="button_minus_cake" />
+                                <input type="text" step="1" min="1" max="10" id="num_count_cake" name="quantity" value="1" title="Qty" />
+                                <input type="button" value="+" id="button_plus_cake" />
+                            </div>
+                            <a href="#">
+                                <div class="btn">
+                                    + <img src="img/shopping-cart-b.png" alt="В корзину">
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
