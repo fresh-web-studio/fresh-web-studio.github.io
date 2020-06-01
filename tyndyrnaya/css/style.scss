@@ -1279,42 +1279,69 @@ main {
         flex-wrap: wrap;
         justify-content: space-between;
         .product-photo {
-          width: 60%;
-          padding-left: 133px;
+          width: 50%;
           img {
             width: 100%;
           }
         }
         .info {
           padding: 0 15px;
-          width: 40%;
+          width: 47%;
+
           h1 {
             font-size: 31px;
             color: rgb(25, 25, 25);
             line-height: 0.903;
           }
+
           .text {
-            font-size: 13px;
+            font-size: 14px;
             color: rgb(78, 78, 78);
             line-height: 1.714;
             margin-top: 20px;
             margin-bottom: 20px;
           }
+
+          .properties {
+            width: 180px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .name {
+              font-size: 12px;
+              color: rgb(78, 78, 78);
+              line-height: 2.75;
+              width: 115px;
+            }
+
+            .weight {
+              font-size: 12px;
+              color: rgb(78, 78, 78);
+              line-height: 2.75;
+            }
+          }
+
           .price-block {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             width: 390px;
+
             .price {
               font-size: 28px;
               color: rgb(25, 25, 25);
               font-weight: bold;
               line-height: 1.179;
             }
+
             .input-group.quantity_goods {
               display: flex;
               flex-wrap: wrap;
               justify-content: space-between;
+
               input#button_minus, input#button_plus {
                 border-radius: 50%;
                 border: 0;
@@ -1327,6 +1354,7 @@ main {
                 color: rgb(80, 80, 80);
                 line-height: 0.8;
               }
+
               input#num_count {
                 font-size: 20px;
                 color: rgb(80, 80, 80);
@@ -1335,6 +1363,7 @@ main {
                 width: 50px;
               }
             }
+
             a {
               .btn {
                 border-radius: 19px;
@@ -1348,85 +1377,9 @@ main {
                 text-transform: uppercase;
                 align-items: center;
                 justify-content: center;
+
                 &:hover {
                   background-color: #d93909;
-                }
-              }
-            }
-          }
-          h5 {
-            font-size: 15px;
-            font-weight: 500;
-            color: rgb(52, 52, 52);
-            line-height: 1.867;
-            padding-top: 40px;
-          }
-          .properties {
-            width: 300px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            .row-add {
-              display: flex;
-              justify-content: space-between;
-              .name {
-                font-size: 14px;
-                color: rgb(78, 78, 78);
-                line-height: 2.75;
-                width: 45%;
-              }
-              .line {
-                border-bottom: 1px solid #e5e5e5;
-                width: 40%;
-                margin-bottom: 10px;
-              }
-              .input-group.quantity_goods {
-                display: flex;
-                justify-content: space-between;
-                input#button_minus_cake, input#button_plus_cake, input#button_minus_fruit_drink, input#button_plus_fruit_drink, input#button_plus_sauce, input#button_minus_sauce  {
-                  border-radius: 50%;
-                  border: 0;
-                  background-color: #e5e5e5;
-                  width: 28px;
-                  height: 28px;
-                  cursor: pointer;
-
-                  font-size: 17px;
-                  color: rgb(80, 80, 80);
-                  line-height: 0.8;
-                }
-                input#num_count_sauce, input#num_count_fruit_drink, input#num_count_cake {
-                  font-size: 15px;
-                  color: rgb(80, 80, 80);
-                  border: 0;
-                  text-align: center;
-                  width: 30px;
-                  padding-bottom: 10px;
-                }
-              }
-              a {
-                width: 18%;
-                display: flex;
-                height: 29px;
-                margin-left: 10px;
-                .btn {
-                  border-radius: 3px;
-                  background-color: #ff3d02;
-                  padding: 10px 6px;
-                  font-size: 14px;
-                  font-family: "Gilroy";
-                  color: white;
-                  line-height: .0;
-                  display: flex;
-                  text-transform: uppercase;
-                  align-items: center;
-                  width: 100%;
-                  &:hover {
-                    background-color: #d93909;
-                  }
-                }
-                img {
-                  width: 80%;
-                  padding-left: 3px;
                 }
               }
             }
@@ -3224,22 +3177,9 @@ footer {
             }
             .properties {
               width: 100%;
-              .row-add {
-                .name {
-                  width: 15%;
-                }
-                .input-group.quantity_goods {
-                  input#button_minus_cake, input#button_plus_cake, input#button_minus_fruit_drink, input#button_plus_fruit_drink, input#button_plus_sauce, input#button_minus_sauce  {
-                    -webkit-appearance: none;
-                    border-radius: 14px;
-                    width: 44px;
-                  }
-                }
-                a {
-                  width: 10%;
-                }
+              .name {
+                width: 50%;
               }
-
             }
             .price-block {
               width: 100%;
@@ -3472,15 +3412,9 @@ footer {
             .text {
             }
             .properties {
-              .row-add {
-                .name {
-                  width: 33%;
-                }
-                a {
-                  width: 20%;
-                }
+              .name {
+                width: 190px;
               }
-
             }
             .price-block {
               width: 100%;
@@ -3677,14 +3611,6 @@ footer {
               text-align: center;
             }
             .properties {
-              .row-add {
-                .name {
-                  width: 40%;
-                }
-                a {
-                  width: 20%;
-                }
-              }
             }
             .price-block {
               width: 100%;
@@ -3906,15 +3832,6 @@ footer {
               text-align: center;
             }
             .properties {
-              .row-add {
-                .name {
-                  width: 70%;
-                }
-                a {
-                  width: 37%;
-                }
-              }
-
             }
             .price-block {
               width: 100%;
