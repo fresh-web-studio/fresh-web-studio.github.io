@@ -984,22 +984,6 @@ main {
         line-height: 1.714;
         margin-top: 20px;
         margin-bottom: 20px; }
-      main .product .container .row .info .properties {
-        width: 180px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between; }
-        main .product .container .row .info .properties .name {
-          font-size: 12px;
-          color: #4e4e4e;
-          line-height: 2.75;
-          width: 115px; }
-        main .product .container .row .info .properties .weight {
-          font-size: 12px;
-          color: #4e4e4e;
-          line-height: 2.75; }
       main .product .container .row .info .price-block {
         display: flex;
         flex-wrap: wrap;
