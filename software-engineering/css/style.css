@@ -50,7 +50,7 @@ header .header-fix {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 90px; }
+    height: 130px; }
     header .header-fix .container .header-top .nav-container nav ul {
       list-style: none;
       margin: 0;
@@ -196,23 +196,71 @@ header .header-fix {
         background-color: #0688fa; }
 
 main {
-  padding-top: 90px; }
+  padding-top: 130px; }
   main .optimization .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
     main .optimization .container .column_left {
-      width: 660px; }
+      width: 56%; }
       main .optimization .container .column_left h1 {
         font-size: 70px;
         font-family: "DinProBlack";
         color: black;
-        line-height: 1.143; }
+        line-height: 1.143;
+        padding-top: 105px; }
+        main .optimization .container .column_left h1 span {
+          font-family: "DinProBlack"; }
+          main .optimization .container .column_left h1 span:before {
+            content: url(../img/line.jpg);
+            position: absolute;
+            z-index: -1;
+            margin-top: 7px;
+            margin-left: 2px; }
       main .optimization .container .column_left .text {
         font-size: 20px;
         font-family: "DinPro";
         color: black;
-        line-height: 1.5; }
+        line-height: 1.5;
+        width: 56%;
+        padding-top: 20px;
+        padding-bottom: 60px; }
+      main .optimization .container .column_left .form-horizontal .form-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        main .optimization .container .column_left .form-horizontal .form-group .input-name input#name.inputbox {
+          width: 210px;
+          height: 55px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: #eff2f8;
+          border-radius: 26px;
+          background-color: #eff2f8;
+          padding-left: 25px;
+          font-size: 16px; }
+        main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone.form-control {
+          width: 210px;
+          height: 55px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: #eff2f8;
+          border-radius: 26px;
+          background-color: #eff2f8;
+          padding-left: 25px;
+          font-size: 16px; }
+      main .optimization .container .column_left .form-horizontal .form-group a.button button {
+        border-radius: 30px;
+        background-color: #2568ef;
+        border: 0;
+        width: 210px;
+        height: 55px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 11px;
+        color: white; }
+        main .optimization .container .column_left .form-horizontal .form-group a.button button:hover {
+          background-color: #0688fa; }
 
 /*======================================================*/
 /*======================================================*/
