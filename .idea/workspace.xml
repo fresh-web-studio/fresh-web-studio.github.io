@@ -1281,8 +1281,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/software-engineering/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="114" column="6" selection-start-line="114" selection-start-column="4" selection-end-line="176" selection-end-column="10" />
+            <state relative-caret-position="252">
+              <caret line="114" column="27" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
               <folding>
                 <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -1290,11 +1290,11 @@
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -1303,8 +1303,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/software-engineering/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="1387" column="24" selection-start-line="1387" selection-start-column="24" selection-end-line="1387" selection-end-column="24" />
+            <state relative-caret-position="467">
+              <caret line="477" column="19" selection-start-line="477" selection-start-column="19" selection-end-line="477" selection-end-column="19" />
               <folding>
                 <element signature="e#2#72#0" />
                 <element signature="e#76#104#0" />
@@ -1349,7 +1349,7 @@
                 <element signature="e#6049#6429#0" />
                 <element signature="e#6267#6348#0" />
                 <element signature="e#6367#6419#0" />
-                <element signature="e#6488#6498#0" />
+                <element signature="e#7500#7809#0" />
                 <element signature="e#9183#9193#0" />
                 <element signature="e#10527#11127#0" />
                 <element signature="e#6696#7324#0" />
@@ -1477,6 +1477,7 @@
                 <element signature="e#14189#14256#0" />
                 <element signature="e#25882#26582#0" />
                 <element signature="e#28154#28453#0" />
+                <element signature="e#30563#31268#0" />
                 <element signature="e#14333#15116#0" />
                 <element signature="e#14344#15113#0" />
                 <element signature="e#14362#15108#0" />
@@ -2270,14 +2271,7 @@
       <workItem from="1590919319804" duration="10084000" />
       <workItem from="1591009469811" duration="2003000" />
       <workItem from="1591100203713" duration="687000" />
-      <workItem from="1591181093071" duration="20476000" />
-    </task>
-    <task id="LOCAL-00749" summary="Обновление">
-      <created>1590242760325</created>
-      <option name="number" value="00749" />
-      <option name="presentableId" value="LOCAL-00749" />
-      <option name="project" value="LOCAL" />
-      <updated>1590242760325</updated>
+      <workItem from="1591181093071" duration="22574000" />
     </task>
     <task id="LOCAL-00750" summary="Обновление">
       <created>1590243345124</created>
@@ -2615,11 +2609,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591210106313</updated>
     </task>
-    <option name="localTasksCounter" value="798" />
+    <task id="LOCAL-00798" summary="Обновление Второй блок">
+      <created>1591215617354</created>
+      <option name="number" value="00798" />
+      <option name="presentableId" value="LOCAL-00798" />
+      <option name="project" value="LOCAL" />
+      <updated>1591215617354</updated>
+    </task>
+    <option name="localTasksCounter" value="799" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1262693000" />
+    <option name="totallyTimeSpent" value="1264791000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -2733,7 +2734,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Правка стилей footer" />
     <MESSAGE value="Нимерованный список ol" />
     <MESSAGE value="Нимерованный список ul. Содержание без ссылок" />
     <MESSAGE value="Добавил alt к картинкам" />
@@ -2758,7 +2758,8 @@
     <MESSAGE value="Обновление вернул старую карточку товара" />
     <MESSAGE value="Обновление" />
     <MESSAGE value="Обновление Первый блок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновление Первый блок" />
+    <MESSAGE value="Обновление Второй блок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление Второй блок" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/panorama/index.html">
@@ -6046,8 +6047,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/software-engineering/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="114" column="6" selection-start-line="114" selection-start-column="4" selection-end-line="176" selection-end-column="10" />
+        <state relative-caret-position="252">
+          <caret line="114" column="27" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
           <folding>
             <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -6055,19 +6056,19 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/software-engineering/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="1387" column="24" selection-start-line="1387" selection-start-column="24" selection-end-line="1387" selection-end-column="24" />
+        <state relative-caret-position="467">
+          <caret line="477" column="19" selection-start-line="477" selection-start-column="19" selection-end-line="477" selection-end-column="19" />
           <folding>
             <element signature="e#2#72#0" />
             <element signature="e#76#104#0" />
@@ -6112,7 +6113,7 @@
             <element signature="e#6049#6429#0" />
             <element signature="e#6267#6348#0" />
             <element signature="e#6367#6419#0" />
-            <element signature="e#6488#6498#0" />
+            <element signature="e#7500#7809#0" />
             <element signature="e#9183#9193#0" />
             <element signature="e#10527#11127#0" />
             <element signature="e#6696#7324#0" />
@@ -6240,6 +6241,7 @@
             <element signature="e#14189#14256#0" />
             <element signature="e#25882#26582#0" />
             <element signature="e#28154#28453#0" />
+            <element signature="e#30563#31268#0" />
             <element signature="e#14333#15116#0" />
             <element signature="e#14344#15113#0" />
             <element signature="e#14362#15108#0" />

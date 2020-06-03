@@ -346,6 +346,68 @@ main {
             font-family: "DINPro";
             color: #313131;
             line-height: 1.625; }
+  main .how {
+    padding: 75px 10px;
+    background-image: url(../img/bg-how.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 1044px; }
+    main .how .container {
+      display: flex;
+      flex-wrap: wrap; }
+      main .how .container .line-index {
+        z-index: 3;
+        width: 100%; }
+        main .how .container .line-index h2 {
+          font-size: 45px;
+          font-family: "DinPro";
+          color: #313131;
+          line-height: 1.222;
+          text-align: center;
+          margin: 0 auto;
+          width: 40%; }
+          main .how .container .line-index h2 span {
+            font-family: "DinPro"; }
+            main .how .container .line-index h2 span:before {
+              content: url(../img/line.jpg);
+              position: absolute;
+              z-index: -1; }
+      main .how .container .line-index.how h2 span:before {
+        margin-top: 12px;
+        transform: scale(0.8);
+        margin-left: -47px; }
+      main .how .container .form-horizontal .form-group .input-name input#company.inputbox {
+        width: 210px;
+        height: 55px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #eff2f8;
+        border-radius: 26px;
+        background-color: #eff2f8;
+        padding-left: 25px;
+        font-size: 16px; }
+      main .how .container .form-horizontal .form-group .input-phone input#phone2.form-control {
+        width: 210px;
+        height: 55px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #eff2f8;
+        border-radius: 26px;
+        background-color: #eff2f8;
+        padding-left: 25px;
+        font-size: 16px; }
+      main .how .container .form-horizontal .form-group a.button button {
+        border-radius: 30px;
+        background-color: #2568ef;
+        border: 0;
+        width: 210px;
+        height: 55px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 11px;
+        color: white; }
+        main .how .container .form-horizontal .form-group a.button button:hover {
+          background-color: #0688fa; }
 
 /*======================================================*/
 /*======================================================*/

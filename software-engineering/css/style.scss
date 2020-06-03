@@ -470,6 +470,116 @@ main {
       }
     }
   }
+  .how {
+    padding: 75px 10px;
+    background-image: url(../img/bg-how.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 1044px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      .line-index {
+        z-index: 3;
+        width: $width-con;
+        h2 {
+          font-size: 45px;
+          font-family: "DinPro";
+          color: rgb(49, 49, 49);
+          line-height: 1.222;
+          text-align: center;
+          margin: 0 auto;
+          width: 40%;
+          span {
+            font-family: "DinPro";
+            &:before {
+              content: url(../img/line.jpg);
+              position: absolute;
+              z-index: -1;
+            }
+          }
+        }
+      }
+      .line-index.how {
+        h2 {
+          span {
+            &:before {
+              margin-top: 12px;
+              transform: scale(0.8);
+              margin-left: -47px;
+            }
+          }
+        }
+      }
+      .line-index.clients {
+        h2 {
+          span {}
+        }
+      }
+      .info {}
+      .fields {
+        .fields__item {
+          img {}
+          .text {}
+        }
+      }
+      .line-index.find-out {
+        h2 {
+          span {}
+        }
+      }
+      .info {}
+      .form-horizontal {
+        .form-group {
+          .input-name {
+            input#company.inputbox {
+              width: 210px;
+              height: 55px;
+              border-style: solid;
+              border-width: 1px;
+              border-color: #eff2f8;
+              border-radius: 26px;
+              background-color: #eff2f8;
+              padding-left: 25px;
+              font-size: 16px;
+            }
+          }
+          .input-phone {
+            input#phone2.form-control {
+              width: 210px;
+              height: 55px;
+              border-style: solid;
+              border-width: 1px;
+              border-color: #eff2f8;
+              border-radius: 26px;
+              background-color: #eff2f8;
+              padding-left: 25px;
+              font-size: 16px;
+            }
+          }
+        }
+        .form-group {
+          a.button {
+            button {
+              border-radius: 30px;
+              background-color: #2568ef;
+              border: 0;
+              width: 210px;
+              height: 55px;
+              cursor: pointer;
+              text-transform: uppercase;
+              font-size: 11px;
+              color: white;
+              &:hover {
+                background-color: #0688fa;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 
 
