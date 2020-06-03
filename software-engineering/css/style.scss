@@ -6,6 +6,10 @@
   font-family: "DinPro";
   src: url("din_pro.otf");
 }
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("MyriadPro-Regular.otf");
+}
 
 * {
   font-family: 'Montserrat', sans-serif;
@@ -278,7 +282,7 @@ main {
       flex-wrap: wrap;
       justify-content: space-between;
       .column_left {
-        width: 56%;
+        width: 52%;
         h1 {
           font-size: 70px;
           font-family: "DinProBlack";
@@ -361,7 +365,51 @@ main {
       }
     }
   }
+  .goods_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .item {
+      width: $width-con/3-5;
+      padding-left: 50px;
+      h3 {
+        font-size: 19px;
+        font-family: "DinPro";
+        color: rgb(49, 49, 49);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.526;
+        padding-bottom: 25px;
+      }
+      h3.backup:before {
+        content: url(../img/backup-file.jpg);
+        margin-left: -50px;
+        position: absolute;
+        margin-top: 4px;
+      }
+      h3.efficiency:before {
+        content: url(../img/efficiency.jpg);
+        margin-left: -50px;
+        position: absolute;
+        margin-top: 4px;
+      }
+      h3.code:before {
+        content: url(../img/code.jpg);
+        margin-left: -50px;
+        position: absolute;
+        margin-top: 4px;
+      }
+
+      .text {
+        font-size: 16px;
+        font-family: "Myriad Pro";
+        color: rgb(101, 101, 101);
+        line-height: 1.563;
+      }
+    }
+  }
 }
+
 
 
 /*======================================================*/
