@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "DinProBlack";
+  src: url("din_pro_black.otf");
+}
+@font-face {
+  font-family: "DinPro";
+  src: url("din_pro.otf");
+}
+
 * {
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
@@ -37,7 +46,6 @@ $width-con: 100%;
 .mobile {
   display: none;
 }
-
 
 header {
   .header-fix {
@@ -264,7 +272,30 @@ header {
 }
 main {
   padding-top: 90px;
+  .optimization {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .column_left {
+        width: 660px;
+        h1 {
+          font-size: 70px;
+          font-family: "DinProBlack";
+          color: rgb(0, 0, 0);
+          line-height: 1.143;
+        }
+        .text {
+          font-size: 20px;
+          font-family: "DinPro";
+          color: rgb(0, 0, 0);
+          line-height: 1.5;
+        }
 
+
+      }
+    }
+  }
 }
 
 
