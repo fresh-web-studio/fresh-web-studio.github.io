@@ -201,6 +201,10 @@ header .header-fix {
 main {
   padding-top: 130px; }
   main .optimization .container {
+    background-image: url(../img/banner-image-1.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 575px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
@@ -264,14 +268,15 @@ main {
         color: white; }
         main .optimization .container .column_left .form-horizontal .form-group a.button button:hover {
           background-color: #0688fa; }
-  main .goods_items {
+  main .goods .container .goods_items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; }
-    main .goods_items .item {
+    justify-content: space-between;
+    padding: 100px 0; }
+    main .goods .container .goods_items .item {
       width: 28.3333333333%;
       padding-left: 50px; }
-      main .goods_items .item h3 {
+      main .goods .container .goods_items .item h3 {
         font-size: 19px;
         font-family: "DinPro";
         color: #313131;
@@ -279,32 +284,33 @@ main {
         text-transform: uppercase;
         line-height: 1.526;
         padding-bottom: 25px; }
-      main .goods_items .item h3.backup:before {
+      main .goods .container .goods_items .item h3.backup:before {
         content: url(../img/backup-file.jpg);
         margin-left: -50px;
         position: absolute;
         margin-top: 4px; }
-      main .goods_items .item h3.efficiency:before {
+      main .goods .container .goods_items .item h3.efficiency:before {
         content: url(../img/efficiency.jpg);
         margin-left: -50px;
         position: absolute;
         margin-top: 4px; }
-      main .goods_items .item h3.code:before {
+      main .goods .container .goods_items .item h3.code:before {
         content: url(../img/code.jpg);
         margin-left: -50px;
         position: absolute;
         margin-top: 4px; }
-      main .goods_items .item .text {
+      main .goods .container .goods_items .item .text {
         font-size: 16px;
         font-family: "Myriad Pro";
         color: #656565;
-        line-height: 1.563; }
+        line-height: 1.563;
+        padding-right: 71px; }
 
 /*======================================================*/
 /*======================================================*/
 /*======================================================*/
 @media all and (max-width: 1200px) {
-  header .header-fix .container .header-top {
+  header .header-fix .container {
     padding: 0 10px; }
     header .header-fix .container .header-top .logo {
       overflow: hidden;
@@ -318,17 +324,76 @@ main {
     header .header-fix .container .header-top button {
       width: 110px; }
       header .header-fix .container .header-top button .btn {
-        font-size: 8px; } }
+        font-size: 8px; }
+
+  main .optimization .container {
+    padding: 0 10px; }
+    main .optimization .container .column_left h1 {
+      font-size: 60px; }
+      main .optimization .container .column_left h1 span:before {
+        transform: scale(0.88);
+        margin-left: -27px; }
+    main .optimization .container .column_left .text {
+      width: 76%; }
+    main .optimization .container .column_left .form-horizontal .form-group .input-name input#name.inputbox {
+      width: 180px;
+      height: 40px;
+      padding-left: 15px;
+      font-size: 14px; }
+    main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone.form-control {
+      width: 180px;
+      height: 40px;
+      padding-left: 15px;
+      font-size: 14px; }
+    main .optimization .container .column_left .form-horizontal .form-group a.button button {
+      width: 180px;
+      height: 40px;
+      padding-left: 15px;
+      font-size: 9px; }
+  main .goods .container .goods_items .item h3 {
+    font-size: 15px; }
+  main .goods .container .goods_items .item .text {
+    font-size: 12px; } }
+@media all and (max-width: 1100px) {
+  main .optimization .container .column_left h1 {
+    font-size: 54px; }
+    main .optimization .container .column_left h1 span:before {
+      transform: scale(0.78);
+      margin-left: -45px;
+      margin-top: 11px; }
+  main .optimization .container .column_left .text {
+    font-size: 18px; }
+  main .optimization .container .column_left .form-horizontal .form-group .input-name input#name.inputbox {
+    width: 170px; }
+  main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone.form-control {
+    width: 170px; }
+  main .optimization .container .column_left .form-horizontal .form-group a.button button {
+    width: 170px;
+    padding-left: 8px; }
+  main .goods .container .goods_items .item {
+    width: 31.3333333333%; } }
+@media all and (max-width: 975px) {
+  main .optimization .container .column_left h1 {
+    font-size: 60px; } }
 @media all and (max-width: 890px) {
   header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
-    padding: 10px 7px; } }
+    padding: 10px 7px; }
+
+  main .optimization .container .column_left h1 {
+    font-size: 60px; } }
+@media all and (max-width: 835px) {
+  main .optimization .container .column_left h1 {
+    font-size: 60px; } }
 @media all and (max-width: 770px) {
   header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
     padding: 10px 4px; }
   header .header-fix .container .header .time-date .text {
     font-size: 12px; }
   header .header-fix .container .header .cart a .text {
-    font-size: 12px; } }
+    font-size: 12px; }
+
+  main .optimization .container .column_left h1 {
+    font-size: 60px; } }
 @media all and (max-width: 670px) {
   header .header-fix .container .header-top {
     display: block;
@@ -454,14 +519,61 @@ main {
       header .header-fix .container .header-top .nav-container nav .top-menu > li:hover .submenu,
       header .header-fix .container .header-top .nav-container nav .top-menu > li:hover .submenu-standart,
       header .header-fix .container .header-top .nav-container nav .top-menu .submenu-standart > li:hover .submenu-standart-submenu {
-        display: block; } }
+        display: block; }
+
+  main .optimization .container .column_left h1 {
+    font-size: 60px; } }
 @media all and (max-width: 415px) {
   header .header-fix {
     position: fixed;
     background-color: white;
     z-index: 99;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
-    width: 100%; } }
+    width: 100%; }
+
+  main {
+    padding-top: 62px; }
+    main .optimization .container {
+      text-align: center;
+      background-position: center center;
+      z-index: 0; }
+      main .optimization .container .column_left {
+        width: 100%;
+        z-index: 3; }
+        main .optimization .container .column_left h1 {
+          font-size: 36px; }
+          main .optimization .container .column_left h1 span:before {
+            transform: scale(0.53);
+            margin-left: -108px; }
+        main .optimization .container .column_left .text {
+          width: 100%;
+          padding-top: 10px;
+          padding-bottom: 20px; }
+        main .optimization .container .column_left .form-horizontal .form-group {
+          display: block; }
+          main .optimization .container .column_left .form-horizontal .form-group .input-name {
+            padding-bottom: 12px; }
+            main .optimization .container .column_left .form-horizontal .form-group .input-name input#name.inputbox {
+              font-size: 18px;
+              width: 100%; }
+          main .optimization .container .column_left .form-horizontal .form-group .input-phone {
+            padding-bottom: 12px; }
+            main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone.form-control {
+              font-size: 18px;
+              width: 100%; }
+        main .optimization .container .column_left .form-horizontal .form-group a.button {
+          padding-bottom: 12px; }
+          main .optimization .container .column_left .form-horizontal .form-group a.button button {
+            width: 100%;
+            font-size: 18px; }
+    main .goods .container {
+      padding: 0 10px; }
+      main .goods .container .goods_items {
+        padding: 50px 0; }
+        main .goods .container .goods_items .item {
+          width: 100%; }
+          main .goods .container .goods_items .item h3 {
+            padding: 10px 0; } }
 @media all and (max-width: 360px) {
   header .header-fix {
     position: fixed;
