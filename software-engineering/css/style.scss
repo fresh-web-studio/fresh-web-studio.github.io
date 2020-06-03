@@ -418,6 +418,58 @@ main {
       }
     }
   }
+  .advantages {
+    background-color: #f6f6f6;
+    .container {
+      padding: 75px 10px;
+      background-image: url(../img/back.jpg);
+      display: flex;
+      flex-wrap: wrap;
+      .line-index {
+        z-index: 3;
+        width: $width-con;
+        h2 {
+          font-size: 45px;
+          font-family: "DinPro";
+          color: rgb(49, 49, 49);
+          line-height: 1.222;
+          text-align: center;
+          margin: 0 auto;
+          width: 40%;
+          span {
+            font-family: "DinPro";
+            &:before {
+              content: url(../img/line.jpg);
+              position: absolute;
+              z-index: -1;
+              margin-top: 12px;
+              transform: scale(.7);
+              margin-left: -64px;
+            }
+          }
+        }
+      }
+      .items-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 68px;
+        .item {
+          width: $width-con/4;
+          text-align: center;
+          img {
+          }
+          .info {
+            padding: 20px 20px 40px;
+            font-size: 16px;
+            font-family: "DINPro";
+            color: rgb(49, 49, 49);
+            line-height: 1.625;
+          }
+        }
+      }
+    }
+  }
 }
 
 
@@ -1313,6 +1365,29 @@ main {
             }
             .text {
             }
+          }
+        }
+      }
+    }
+    .advantages {
+      .container {
+        .line-index {
+          h2 {
+            font-size: 39px;
+            width: 100%;
+            span {
+              &:before {
+                transform: scale(0.65);
+                margin-left: -83px;
+              }
+            }
+          }
+        }
+        .items-list {
+          .item {
+            width: 100%;
+            img {}
+            .info {}
           }
         }
       }

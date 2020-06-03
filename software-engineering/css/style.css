@@ -305,6 +305,47 @@ main {
         color: #656565;
         line-height: 1.563;
         padding-right: 71px; }
+  main .advantages {
+    background-color: #f6f6f6; }
+    main .advantages .container {
+      padding: 75px 10px;
+      background-image: url(../img/back.jpg);
+      display: flex;
+      flex-wrap: wrap; }
+      main .advantages .container .line-index {
+        z-index: 3;
+        width: 100%; }
+        main .advantages .container .line-index h2 {
+          font-size: 45px;
+          font-family: "DinPro";
+          color: #313131;
+          line-height: 1.222;
+          text-align: center;
+          margin: 0 auto;
+          width: 40%; }
+          main .advantages .container .line-index h2 span {
+            font-family: "DinPro"; }
+            main .advantages .container .line-index h2 span:before {
+              content: url(../img/line.jpg);
+              position: absolute;
+              z-index: -1;
+              margin-top: 12px;
+              transform: scale(0.7);
+              margin-left: -64px; }
+      main .advantages .container .items-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 68px; }
+        main .advantages .container .items-list .item {
+          width: 25%;
+          text-align: center; }
+          main .advantages .container .items-list .item .info {
+            padding: 20px 20px 40px;
+            font-size: 16px;
+            font-family: "DINPro";
+            color: #313131;
+            line-height: 1.625; }
 
 /*======================================================*/
 /*======================================================*/
@@ -573,7 +614,15 @@ main {
         main .goods .container .goods_items .item {
           width: 100%; }
           main .goods .container .goods_items .item h3 {
-            padding: 10px 0; } }
+            padding: 10px 0; }
+    main .advantages .container .line-index h2 {
+      font-size: 39px;
+      width: 100%; }
+      main .advantages .container .line-index h2 span:before {
+        transform: scale(0.65);
+        margin-left: -83px; }
+    main .advantages .container .items-list .item {
+      width: 100%; } }
 @media all and (max-width: 360px) {
   header .header-fix {
     position: fixed;
