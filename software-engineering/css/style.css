@@ -330,7 +330,7 @@ main {
               position: absolute;
               z-index: -1;
               margin-top: 12px;
-              transform: scale(0.7);
+              transform: scaleX(0.7);
               margin-left: -64px; }
       main .advantages .container .items-list {
         display: flex;
@@ -347,7 +347,7 @@ main {
             color: #313131;
             line-height: 1.625; }
   main .how {
-    padding: 75px 10px;
+    padding: 60px 10px;
     background-image: url(../img/bg-how.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -365,49 +365,105 @@ main {
           line-height: 1.222;
           text-align: center;
           margin: 0 auto;
-          width: 40%; }
+          width: 50%; }
           main .how .container .line-index h2 span {
             font-family: "DinPro"; }
             main .how .container .line-index h2 span:before {
               content: url(../img/line.jpg);
               position: absolute;
               z-index: -1; }
-      main .how .container .line-index.how h2 span:before {
-        margin-top: 12px;
-        transform: scale(0.8);
+      main .how .container .line-index.how-h h2 span:before {
+        margin-top: 7px;
+        transform: scaleX(0.8);
         margin-left: -47px; }
-      main .how .container .form-horizontal .form-group .input-name input#company.inputbox {
-        width: 210px;
-        height: 55px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #eff2f8;
-        border-radius: 26px;
-        background-color: #eff2f8;
-        padding-left: 25px;
-        font-size: 16px; }
-      main .how .container .form-horizontal .form-group .input-phone input#phone2.form-control {
-        width: 210px;
-        height: 55px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #eff2f8;
-        border-radius: 26px;
-        background-color: #eff2f8;
-        padding-left: 25px;
-        font-size: 16px; }
-      main .how .container .form-horizontal .form-group a.button button {
-        border-radius: 30px;
-        background-color: #2568ef;
-        border: 0;
-        width: 210px;
-        height: 55px;
-        cursor: pointer;
-        text-transform: uppercase;
-        font-size: 11px;
-        color: white; }
-        main .how .container .form-horizontal .form-group a.button button:hover {
-          background-color: #0688fa; }
+      main .how .container .line-index.clients {
+        padding-top: 730px; }
+        main .how .container .line-index.clients h2 span:before {
+          margin-top: 7px;
+          transform: scaleX(1.12);
+          margin-left: 24px; }
+      main .how .container .info {
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 100%;
+        font-size: 18px;
+        font-family: "DinPro";
+        color: #676767;
+        line-height: 1.611;
+        text-align: center; }
+      main .how .container .fields {
+        padding-top: 110px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        main .how .container .fields .fields__item {
+          border-radius: 10px;
+          box-shadow: 0px 13px 62px 0px rgba(0, 0, 0, 0.07);
+          text-align: center;
+          width: 18%;
+          padding: 37px; }
+          main .how .container .fields .fields__item img {
+            padding-bottom: 27px; }
+      main .how .container .line-index.find-out h2 {
+        padding-top: 107px;
+        font-size: 70px;
+        font-family: "DINPro";
+        color: black;
+        line-height: 1.143; }
+        main .how .container .line-index.find-out h2 span:before {
+          margin-top: 7px;
+          transform: scaleX(0.6);
+          margin-left: -94px; }
+      main .how .container .form-horizontal {
+        padding-top: 47px;
+        padding-bottom: 70px;
+        width: 28%;
+        margin: 0 auto; }
+        main .how .container .form-horizontal .form-group .input-name {
+          padding-bottom: 20px; }
+          main .how .container .form-horizontal .form-group .input-name input#company.inputbox {
+            width: 100%;
+            height: 55px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #eff2f8;
+            border-radius: 26px;
+            background-color: #eff2f8;
+            padding-left: 25px;
+            font-size: 16px; }
+        main .how .container .form-horizontal .form-group .input-phone {
+          padding-bottom: 20px; }
+          main .how .container .form-horizontal .form-group .input-phone input#phone2.form-control {
+            width: 100%;
+            height: 55px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #eff2f8;
+            border-radius: 26px;
+            background-color: #eff2f8;
+            padding-left: 25px;
+            font-size: 16px; }
+        main .how .container .form-horizontal .form-group a.button button {
+          border-radius: 30px;
+          background-color: #2568ef;
+          border: 0;
+          width: 100%;
+          height: 55px;
+          cursor: pointer;
+          text-transform: uppercase;
+          font-size: 16px;
+          color: white; }
+          main .how .container .form-horizontal .form-group a.button button:hover {
+            background-color: #0688fa; }
+        main .how .container .form-horizontal .text {
+          padding: 30px;
+          font-size: 13px;
+          text-align: center; }
+          main .how .container .form-horizontal .text a {
+            font-weight: 700;
+            text-decoration: underline;
+            color: #4b4b4b; }
 
 /*======================================================*/
 /*======================================================*/
@@ -434,7 +490,7 @@ main {
     main .optimization .container .column_left h1 {
       font-size: 60px; }
       main .optimization .container .column_left h1 span:before {
-        transform: scale(0.88);
+        transform: scaleX(0.88);
         margin-left: -27px; }
     main .optimization .container .column_left .text {
       width: 76%; }
@@ -456,12 +512,20 @@ main {
   main .goods .container .goods_items .item h3 {
     font-size: 15px; }
   main .goods .container .goods_items .item .text {
-    font-size: 12px; } }
+    font-size: 12px; }
+  main .how {
+    background-size: 192%; }
+    main .how .container .line-index.clients {
+      padding-top: 700px; }
+    main .how .container .fields .fields__item {
+      padding: 30px; }
+    main .how .container .form-horizontal {
+      width: 31%; } }
 @media all and (max-width: 1100px) {
   main .optimization .container .column_left h1 {
     font-size: 54px; }
     main .optimization .container .column_left h1 span:before {
-      transform: scale(0.78);
+      transform: scaleX(0.78);
       margin-left: -45px;
       margin-top: 11px; }
   main .optimization .container .column_left .text {
@@ -474,7 +538,9 @@ main {
     width: 170px;
     padding-left: 8px; }
   main .goods .container .goods_items .item {
-    width: 31.3333333333%; } }
+    width: 31.3333333333%; }
+  main .how .container .line-index.clients {
+    padding-top: 600px; } }
 @media all and (max-width: 975px) {
   main .optimization .container .column_left h1 {
     font-size: 60px; } }
@@ -646,7 +712,7 @@ main {
         main .optimization .container .column_left h1 {
           font-size: 36px; }
           main .optimization .container .column_left h1 span:before {
-            transform: scale(0.53);
+            transform: scaleX(0.53);
             margin-left: -108px; }
         main .optimization .container .column_left .text {
           width: 100%;
@@ -681,17 +747,64 @@ main {
       font-size: 39px;
       width: 100%; }
       main .advantages .container .line-index h2 span:before {
-        transform: scale(0.65);
+        transform: scaleX(0.65);
         margin-left: -83px; }
     main .advantages .container .items-list .item {
-      width: 100%; } }
+      width: 100%; }
+    main .how {
+      margin-top: 50px;
+      padding: 0px 10px; }
+      main .how .container .line-index h2 {
+        width: 100%; }
+      main .how .container .line-index.how-h h2 {
+        font-size: 36px; }
+        main .how .container .line-index.how-h h2 span:before {
+          margin-top: 7px;
+          transform: scaleX(0.65);
+          margin-left: -80px; }
+      main .how .container .line-index.clients {
+        padding-top: 270px; }
+        main .how .container .line-index.clients h2 {
+          font-size: 32px; }
+          main .how .container .line-index.clients h2 span:before {
+            margin-top: 7px;
+            transform: scaleX(0.82);
+            margin-left: -42px; }
+      main .how .container .fields .fields__item {
+        width: 48%;
+        padding: 28px;
+        margin: 12px 0; }
+        main .how .container .fields .fields__item .text {
+          font-size: 3.5vw; }
+      main .how .container .line-index.find-out h2 {
+        font-size: 36px; }
+        main .how .container .line-index.find-out h2 span:before {
+          margin-top: 7px;
+          transform: scaleX(0.34);
+          margin-left: -154px; }
+      main .how .container .form-horizontal {
+        width: 100%; } }
+@media all and (max-width: 375px) {
+  main .how .container .line-index.clients h2 {
+    font-size: 30px; }
+    main .how .container .line-index.clients h2 span:before {
+      margin-top: 7px;
+      transform: scaleX(0.77);
+      margin-left: -53px; } }
 @media all and (max-width: 360px) {
   header .header-fix {
     position: fixed;
     background-color: white;
     z-index: 99;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
-    width: 100%; } }
+    width: 100%; }
+
+  main .how .container .line-index.clients h2 {
+    font-size: 25px; }
+    main .how .container .line-index.clients h2 span:before {
+      margin-top: 7px;
+      transform: scaleX(0.65);
+      margin-left: -79px; } }
 @media all and (max-width: 320px) {
   header .header-fix {
     position: fixed;
