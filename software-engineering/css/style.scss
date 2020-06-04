@@ -1591,7 +1591,7 @@ main {
         }
         .line-index.how-h {
           h2 {
-            font-size: 36px;
+            font-size: 34px;
             span {
               &:before {
                 margin-top: 7px;
@@ -1615,6 +1615,7 @@ main {
           }
         }
         .fields {
+          padding-top: 40px;
           .fields__item {
             width: 48%;
             padding: 28px;
@@ -1710,7 +1711,7 @@ main {
       .container {
         .line-index.clients {
           h2 {
-            font-size: 25px;
+            font-size: 24px;
             span {
               &:before {
                 margin-top: 7px;

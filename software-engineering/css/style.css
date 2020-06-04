@@ -757,7 +757,7 @@ main {
       main .how .container .line-index h2 {
         width: 100%; }
       main .how .container .line-index.how-h h2 {
-        font-size: 36px; }
+        font-size: 34px; }
         main .how .container .line-index.how-h h2 span:before {
           margin-top: 7px;
           transform: scaleX(0.65);
@@ -770,12 +770,14 @@ main {
             margin-top: 7px;
             transform: scaleX(0.82);
             margin-left: -42px; }
-      main .how .container .fields .fields__item {
-        width: 48%;
-        padding: 28px;
-        margin: 12px 0; }
-        main .how .container .fields .fields__item .text {
-          font-size: 3.5vw; }
+      main .how .container .fields {
+        padding-top: 40px; }
+        main .how .container .fields .fields__item {
+          width: 48%;
+          padding: 28px;
+          margin: 12px 0; }
+          main .how .container .fields .fields__item .text {
+            font-size: 3.5vw; }
       main .how .container .line-index.find-out h2 {
         font-size: 36px; }
         main .how .container .line-index.find-out h2 span:before {
@@ -800,7 +802,7 @@ main {
     width: 100%; }
 
   main .how .container .line-index.clients h2 {
-    font-size: 25px; }
+    font-size: 24px; }
     main .how .container .line-index.clients h2 span:before {
       margin-top: 7px;
       transform: scaleX(0.65);
