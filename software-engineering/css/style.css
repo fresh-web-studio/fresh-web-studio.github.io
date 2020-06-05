@@ -560,7 +560,8 @@ main {
           margin-top: 196px;
           left: 10px;
           height: 570px;
-          position: relative; }
+          position: relative;
+          margin-left: 10px; }
           main .stages .container .stage-list .stage.form .front {
             margin-top: 10px;
             right: 10px;
@@ -570,7 +571,7 @@ main {
             background-position: top right;
             background-repeat: no-repeat;
             background-color: #fff;
-            width: 613px;
+            width: 100%;
             position: relative;
             display: flex;
             flex-wrap: wrap; }
@@ -775,7 +776,18 @@ main {
     main .how .container .fields .fields__item {
       padding: 30px; }
     main .how .container .form-horizontal {
-      width: 31%; } }
+      width: 31%; }
+  main .stages .container .line-index h2 {
+    width: 55%; }
+  main .stages .container .stage-list .stage {
+    padding: 20px 30px;
+    height: 186px; }
+    main .stages .container .stage-list .stage .text ul li {
+      font-size: 12px; }
+  main .stages .container .stage-list .stage.form {
+    left: 20px;
+    margin-right: 10px;
+    width: 48%; } }
 @media all and (max-width: 1100px) {
   main .optimization .container .column_left h1 {
     font-size: 54px; }

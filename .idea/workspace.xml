@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление Четвертого и пятого блока">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/software-engineering/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/software-engineering/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/software-engineering/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/software-engineering/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/software-engineering/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/software-engineering/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software-engineering/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/software-engineering/index.html" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -1273,8 +1272,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/software-engineering/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="295" column="40" selection-start-line="295" selection-start-column="40" selection-end-line="295" selection-end-column="40" />
+            <state relative-caret-position="240">
+              <caret line="234" column="6" selection-start-line="234" selection-start-column="4" selection-end-line="324" selection-end-column="10" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
@@ -1348,6 +1347,7 @@
                 <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#0;n#div#0;n#form#0;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#form#0;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -1367,8 +1367,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/software-engineering/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="911" column="31" selection-start-line="911" selection-start-column="31" selection-end-line="911" selection-end-column="31" />
+            <state relative-caret-position="422">
+              <caret line="1139" column="26" selection-start-line="1139" selection-start-column="26" selection-end-line="1139" selection-end-column="26" />
               <folding>
                 <element signature="e#11#77#0" />
                 <element signature="e#89#144#0" />
@@ -1455,6 +1455,7 @@
                 <element signature="e#11452#11751#0" />
                 <element signature="e#11529#11542#0" />
                 <element signature="e#11559#11741#0" />
+                <element signature="e#11777#14521#0" />
                 <element signature="e#12532#12734#0" />
                 <element signature="e#12545#12726#0" />
                 <element signature="e#12562#12716#0" />
@@ -1486,7 +1487,6 @@
                 <element signature="e#15972#16563#0" />
                 <element signature="e#16251#16545#0" />
                 <element signature="e#16309#16533#0" />
-                <element signature="e#16605#16713#0" />
                 <element signature="e#16784#16924#0" />
                 <element signature="e#17016#17175#0" />
                 <element signature="e#16639#16703#0" />
@@ -1529,7 +1529,7 @@
                 <element signature="e#22380#22452#0" />
                 <element signature="e#22527#22830#0" />
                 <element signature="e#22679#22814#0" />
-                <element signature="e#14741#16879#0" />
+                <element signature="e#17094#17559#0" />
                 <element signature="e#14752#15374#0" />
                 <element signature="e#14770#15370#0" />
                 <element signature="e#14789#15364#0" />
@@ -1543,7 +1543,6 @@
                 <element signature="e#15168#15214#0" />
                 <element signature="e#15244#15346#0" />
                 <element signature="e#15289#15334#0" />
-                <element signature="e#15382#16877#0" />
                 <element signature="e#15402#16637#0" />
                 <element signature="e#15421#16631#0" />
                 <element signature="e#15469#16561#0" />
@@ -2711,21 +2710,7 @@
       <workItem from="1591009469811" duration="2003000" />
       <workItem from="1591100203713" duration="687000" />
       <workItem from="1591181093071" duration="23095000" />
-      <workItem from="1591272117237" duration="22334000" />
-    </task>
-    <task id="LOCAL-00753" summary="Обновление">
-      <created>1590254709120</created>
-      <option name="number" value="00753" />
-      <option name="presentableId" value="LOCAL-00753" />
-      <option name="project" value="LOCAL" />
-      <updated>1590254709120</updated>
-    </task>
-    <task id="LOCAL-00754" summary="Обновление">
-      <created>1590256090175</created>
-      <option name="number" value="00754" />
-      <option name="presentableId" value="LOCAL-00754" />
-      <option name="project" value="LOCAL" />
-      <updated>1590256090175</updated>
+      <workItem from="1591272117237" duration="23447000" />
     </task>
     <task id="LOCAL-00755" summary="Обновление">
       <created>1590256325633</created>
@@ -3056,11 +3041,25 @@
       <option name="project" value="LOCAL" />
       <updated>1591281602199</updated>
     </task>
-    <option name="localTasksCounter" value="802" />
+    <task id="LOCAL-00802" summary="Обновление Четвертого и пятого блока">
+      <created>1591347794638</created>
+      <option name="number" value="00802" />
+      <option name="presentableId" value="LOCAL-00802" />
+      <option name="project" value="LOCAL" />
+      <updated>1591347794638</updated>
+    </task>
+    <task id="LOCAL-00803" summary="Обновление Четвертого и пятого блока">
+      <created>1591348003529</created>
+      <option name="number" value="00803" />
+      <option name="presentableId" value="LOCAL-00803" />
+      <option name="project" value="LOCAL" />
+      <updated>1591348003530</updated>
+    </task>
+    <option name="localTasksCounter" value="804" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1287646000" />
+    <option name="totallyTimeSpent" value="1288759000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -3174,7 +3173,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Нимерованный список ul. Содержание без ссылок" />
     <MESSAGE value="Добавил alt к картинкам" />
     <MESSAGE value="Обновление - замена картинок" />
     <MESSAGE value="Переименовал index.html на about.html, добавил psd макет с папкой psd." />
@@ -3199,7 +3197,8 @@
     <MESSAGE value="Обновление Второй блок" />
     <MESSAGE value="Обновление" />
     <MESSAGE value="Обновление Третьего блока" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновление Третьего блока" />
+    <MESSAGE value="Обновление Четвертого и пятого блока" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление Четвертого и пятого блока" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/panorama/index.html">
@@ -6479,8 +6478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/software-engineering/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="295" column="40" selection-start-line="295" selection-start-column="40" selection-end-line="295" selection-end-column="40" />
+        <state relative-caret-position="240">
+          <caret line="234" column="6" selection-start-line="234" selection-start-column="4" selection-end-line="324" selection-end-column="10" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#link#0;n#head#0;n#html#0;n#!!top" />
@@ -6554,6 +6553,7 @@
             <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#div#0;n#form#0;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#form#0;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -6571,8 +6571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/software-engineering/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="911" column="31" selection-start-line="911" selection-start-column="31" selection-end-line="911" selection-end-column="31" />
+        <state relative-caret-position="422">
+          <caret line="1139" column="26" selection-start-line="1139" selection-start-column="26" selection-end-line="1139" selection-end-column="26" />
           <folding>
             <element signature="e#11#77#0" />
             <element signature="e#89#144#0" />
@@ -6659,6 +6659,7 @@
             <element signature="e#11452#11751#0" />
             <element signature="e#11529#11542#0" />
             <element signature="e#11559#11741#0" />
+            <element signature="e#11777#14521#0" />
             <element signature="e#12532#12734#0" />
             <element signature="e#12545#12726#0" />
             <element signature="e#12562#12716#0" />
@@ -6690,7 +6691,6 @@
             <element signature="e#15972#16563#0" />
             <element signature="e#16251#16545#0" />
             <element signature="e#16309#16533#0" />
-            <element signature="e#16605#16713#0" />
             <element signature="e#16784#16924#0" />
             <element signature="e#17016#17175#0" />
             <element signature="e#16639#16703#0" />
@@ -6733,7 +6733,7 @@
             <element signature="e#22380#22452#0" />
             <element signature="e#22527#22830#0" />
             <element signature="e#22679#22814#0" />
-            <element signature="e#14741#16879#0" />
+            <element signature="e#17094#17559#0" />
             <element signature="e#14752#15374#0" />
             <element signature="e#14770#15370#0" />
             <element signature="e#14789#15364#0" />
@@ -6747,7 +6747,6 @@
             <element signature="e#15168#15214#0" />
             <element signature="e#15244#15346#0" />
             <element signature="e#15289#15334#0" />
-            <element signature="e#15382#16877#0" />
             <element signature="e#15402#16637#0" />
             <element signature="e#15421#16631#0" />
             <element signature="e#15469#16561#0" />
