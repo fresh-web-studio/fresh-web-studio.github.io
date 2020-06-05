@@ -791,7 +791,7 @@ main {
     margin-right: 10px;
     width: 48%; }
   main .work-advantage .container {
-    padding: 0 10px; }
+    padding: 90px 10px; }
     main .work-advantage .container .work-advantage-list .item {
       width: 40%;
       margin-right: 83px; }
@@ -1153,18 +1153,18 @@ main {
       margin-top: 7px;
       transform: scaleX(0.77);
       margin-left: -53px; }
-  main .work-advantage-list .item {
+  main .work-advantage .container .work-advantage-list .item {
     width: 90%;
     margin-right: 80px;
     padding: 20px 20px; }
-    main .work-advantage-list .item:before {
+    main .work-advantage .container .work-advantage-list .item:before {
       margin-top: -13px;
       padding-left: 180px; }
-    main .work-advantage-list .item h2 {
+    main .work-advantage .container .work-advantage-list .item h2 {
       font-size: 15px; }
-    main .work-advantage-list .item .text {
+    main .work-advantage .container .work-advantage-list .item .text {
       font-size: 11px; }
-  main .work-advantage-list .item.fair-pricing:before {
+  main .work-advantage .container .work-advantage-list .item.fair-pricing:before {
     margin-top: -27px; } }
 @media all and (max-width: 360px) {
   header .header-fix {
@@ -1193,14 +1193,16 @@ main {
       font-size: 9px; }
   main .stages .container .stage-list .stage.form .front {
     background-size: 50px; }
-  main .work-advantage-list .item {
+  main .work-advantage .container .work-advantage-list .item {
     width: 90%;
     margin-right: 80px;
     padding: 20px 20px; }
-    main .work-advantage-list .item:before {
-      padding-left: 180px; }
-  main .work-advantage-list .item.fair-pricing:before {
-    margin-top: -10px; } }
+    main .work-advantage .container .work-advantage-list .item:before {
+      padding-left: 166px; }
+  main .work-advantage .container .work-advantage-list .item.new-opportunities:before {
+    margin-top: -2px; }
+  main .work-advantage .container .work-advantage-list .item.fair-pricing:before {
+    margin-top: -26px; } }
 @media all and (max-width: 320px) {
   header .header-fix {
     position: fixed;
@@ -1216,6 +1218,8 @@ main {
     main .stages .container .stage-list .stage .text ul li {
       font-size: 8px; }
   main .stages .container .stage-list .stage.consultations, main .stages .container .stage-list .stage.creating {
-    height: 153px; } }
+    height: 153px; }
+  main .work-advantage .container .work-advantage-list .item:before {
+    padding-left: 125px; } }
 
 /*# sourceMappingURL=style.css.map */

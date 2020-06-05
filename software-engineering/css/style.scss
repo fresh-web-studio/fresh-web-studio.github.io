@@ -1157,7 +1157,7 @@ main {
     }
     .work-advantage {
       .container {
-        padding: 0 10px;
+        padding: 90px 10px;
         .line-index {
           h2 {
             span {}
@@ -2305,42 +2305,47 @@ main {
         }
       }
     }
-    .work-advantage-list {
-      .item {
-        width: 90%;
-        margin-right: 80px;
-        padding: 20px 20px;
-        &:before {
-          margin-top: -13px;
-          padding-left: 180px;
+    .work-advantage {
+      .container {
+        .work-advantage-list {
+          .item {
+            width: 90%;
+            margin-right: 80px;
+            padding: 20px 20px;
+            &:before {
+              margin-top: -13px;
+              padding-left: 180px;
+            }
+            h2 {
+              font-size: 15px;
+            }
+            .text {
+              font-size: 11px;
+            }
+          }
+          .item.technical-task {
+            h2 {}
+            .text {}
+          }
+          .item.targeted-approach {
+            h2 {}
+            .text {}
+          }
+          .item.new-opportunities {
+            h2 {}
+            .text {}
+          }
+          .item.fair-pricing {
+            &:before {
+              margin-top: -27px;
+            }
+            h2 {}
+            .text {}
+          }
         }
-        h2 {
-          font-size: 15px;
-        }
-        .text {
-          font-size: 11px;
-        }
-      }
-      .item.technical-task {
-        h2 {}
-        .text {}
-      }
-      .item.targeted-approach {
-        h2 {}
-        .text {}
-      }
-      .item.new-opportunities {
-        h2 {}
-        .text {}
-      }
-      .item.fair-pricing {
-        &:before {
-          margin-top: -27px;
-        }
-        h2 {}
-        .text {}
       }
     }
+
   }
 }
 @media all and (max-width: 360px) {
@@ -2437,35 +2442,43 @@ main {
         }
       }
     }
-    .work-advantage-list {
-      .item {
-        width: 90%;
-        margin-right: 80px;
-        padding: 20px 20px;
-        &:before {
-          padding-left: 180px;
+    .work-advantage {
+      .container {
+        .work-advantage-list {
+          .item {
+            width: 90%;
+            margin-right: 80px;
+            padding: 20px 20px;
+            &:before {
+              padding-left: 166px;
+            }
+          }
+          .item.technical-task {
+            h2 {}
+            .text {}
+          }
+          .item.targeted-approach {
+            h2 {}
+            .text {}
+          }
+          .item.new-opportunities {
+            &:before {
+              margin-top: -2px;
+            }
+            h2 {}
+            .text {}
+          }
+          .item.fair-pricing {
+            &:before {
+              margin-top: -26px;
+            }
+            h2 {}
+            .text {}
+          }
         }
-      }
-      .item.technical-task {
-        h2 {}
-        .text {}
-      }
-      .item.targeted-approach {
-        h2 {}
-        .text {}
-      }
-      .item.new-opportunities {
-        h2 {}
-        .text {}
-      }
-      .item.fair-pricing {
-        &:before {
-          margin-top: -10px;
-        }
-        h2 {}
-        .text {}
       }
     }
+
   }
 }
 @media all and (max-width: 320px) {
@@ -2519,6 +2532,17 @@ main {
       }
       .stage.consultations, .stage.creating {
         height: 153px;
+      }
+    }
+    .work-advantage {
+      .container {
+        .work-advantage-list {
+          .item {
+            &:before {
+              padding-left: 125px;
+            }
+          }
+        }
       }
     }
   }

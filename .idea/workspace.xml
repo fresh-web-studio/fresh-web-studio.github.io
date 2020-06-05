@@ -1368,8 +1368,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/software-engineering/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-329">
-              <caret line="2308" column="13" lean-forward="true" selection-start-line="2308" selection-start-column="13" selection-end-line="2308" selection-end-column="13" />
+            <state relative-caret-position="716">
+              <caret line="2332" column="11" lean-forward="true" selection-start-line="2332" selection-start-column="11" selection-end-line="2332" selection-end-column="11" />
               <folding>
                 <element signature="e#11#77#0" />
                 <element signature="e#89#144#0" />
@@ -1527,6 +1527,7 @@
                 <element signature="e#15168#15214#0" />
                 <element signature="e#15244#15346#0" />
                 <element signature="e#15289#15334#0" />
+                <element signature="e#26363#28726#0" />
                 <element signature="e#15402#16637#0" />
                 <element signature="e#15421#16631#0" />
                 <element signature="e#15469#16561#0" />
@@ -1559,6 +1560,7 @@
                 <element signature="e#18232#18265#0" />
                 <element signature="e#28162#28722#0" />
                 <element signature="e#28742#29261#0" />
+                <element signature="e#29202#31271#0" />
                 <element signature="e#16944#17917#0" />
                 <element signature="e#16963#17911#0" />
                 <element signature="e#16986#17841#0" />
@@ -1587,7 +1589,6 @@
                 <element signature="e#19725#19743#0" />
                 <element signature="e#19755#19777#0" />
                 <element signature="e#30107#30121#0" />
-                <element signature="e#30719#31264#0" />
                 <element signature="e#18168#19215#0" />
                 <element signature="e#18177#19213#0" />
                 <element signature="e#18197#18897#0" />
@@ -1815,6 +1816,7 @@
                 <element signature="e#31274#31340#0" />
                 <element signature="e#31357#31452#0" />
                 <element signature="e#31373#31440#0" />
+                <element signature="e#43618#50321#0" />
                 <element signature="e#31531#32878#0" />
                 <element signature="e#31550#32872#0" />
                 <element signature="e#31665#32802#0" />
@@ -1872,6 +1874,7 @@
                 <element signature="e#36671#36693#0" />
                 <element signature="e#47233#50267#0" />
                 <element signature="e#51345#51428#0" />
+                <element signature="e#51458#51809#0" />
                 <element signature="e#36780#36794#0" />
                 <element signature="e#36799#36817#0" />
                 <element signature="e#36829#36851#0" />
@@ -1898,7 +1901,6 @@
                 <element signature="e#38046#38212#0" />
                 <element signature="e#38071#38198#0" />
                 <element signature="e#54085#56241#0" />
-                <element signature="e#55164#55663#0" />
                 <element signature="e#34428#35226#0" />
                 <element signature="e#34446#35222#0" />
                 <element signature="e#34605#35216#0" />
@@ -1912,6 +1914,7 @@
                 <element signature="e#34989#35055#0" />
                 <element signature="e#35072#35198#0" />
                 <element signature="e#35119#35186#0" />
+                <element signature="e#57394#57484#0" />
               </folding>
             </state>
           </provider>
@@ -2684,14 +2687,7 @@
       <workItem from="1591009469811" duration="2003000" />
       <workItem from="1591100203713" duration="687000" />
       <workItem from="1591181093071" duration="23095000" />
-      <workItem from="1591272117237" duration="31391000" />
-    </task>
-    <task id="LOCAL-00757" summary="Обновление">
-      <created>1590322257969</created>
-      <option name="number" value="00757" />
-      <option name="presentableId" value="LOCAL-00757" />
-      <option name="project" value="LOCAL" />
-      <updated>1590322257969</updated>
+      <workItem from="1591272117237" duration="32105000" />
     </task>
     <task id="LOCAL-00758" summary="Обновление">
       <created>1590328092344</created>
@@ -3029,11 +3025,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591353245430</updated>
     </task>
-    <option name="localTasksCounter" value="806" />
+    <task id="LOCAL-00806" summary="Обновление Пятого блока">
+      <created>1591365074217</created>
+      <option name="number" value="00806" />
+      <option name="presentableId" value="LOCAL-00806" />
+      <option name="project" value="LOCAL" />
+      <updated>1591365074218</updated>
+    </task>
+    <option name="localTasksCounter" value="807" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1296703000" />
+    <option name="totallyTimeSpent" value="1297417000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -3045,7 +3048,7 @@
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3067591" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30665544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -3147,7 +3150,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил alt к картинкам" />
     <MESSAGE value="Обновление - замена картинок" />
     <MESSAGE value="Переименовал index.html на about.html, добавил psd макет с папкой psd." />
     <MESSAGE value="Исправил psd макеты.&#10;Заменил текст  О компании и убоал &quot;более 20 лет&quot;" />
@@ -3172,7 +3174,8 @@
     <MESSAGE value="Обновление" />
     <MESSAGE value="Обновление Третьего блока" />
     <MESSAGE value="Обновление Четвертого и пятого блока" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновление Четвертого и пятого блока" />
+    <MESSAGE value="Обновление Пятого блока" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление Пятого блока" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/panorama/index.html">
@@ -6546,8 +6549,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/software-engineering/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="2308" column="13" lean-forward="true" selection-start-line="2308" selection-start-column="13" selection-end-line="2308" selection-end-column="13" />
+        <state relative-caret-position="716">
+          <caret line="2332" column="11" lean-forward="true" selection-start-line="2332" selection-start-column="11" selection-end-line="2332" selection-end-column="11" />
           <folding>
             <element signature="e#11#77#0" />
             <element signature="e#89#144#0" />
@@ -6705,6 +6708,7 @@
             <element signature="e#15168#15214#0" />
             <element signature="e#15244#15346#0" />
             <element signature="e#15289#15334#0" />
+            <element signature="e#26363#28726#0" />
             <element signature="e#15402#16637#0" />
             <element signature="e#15421#16631#0" />
             <element signature="e#15469#16561#0" />
@@ -6737,6 +6741,7 @@
             <element signature="e#18232#18265#0" />
             <element signature="e#28162#28722#0" />
             <element signature="e#28742#29261#0" />
+            <element signature="e#29202#31271#0" />
             <element signature="e#16944#17917#0" />
             <element signature="e#16963#17911#0" />
             <element signature="e#16986#17841#0" />
@@ -6765,7 +6770,6 @@
             <element signature="e#19725#19743#0" />
             <element signature="e#19755#19777#0" />
             <element signature="e#30107#30121#0" />
-            <element signature="e#30719#31264#0" />
             <element signature="e#18168#19215#0" />
             <element signature="e#18177#19213#0" />
             <element signature="e#18197#18897#0" />
@@ -6993,6 +6997,7 @@
             <element signature="e#31274#31340#0" />
             <element signature="e#31357#31452#0" />
             <element signature="e#31373#31440#0" />
+            <element signature="e#43618#50321#0" />
             <element signature="e#31531#32878#0" />
             <element signature="e#31550#32872#0" />
             <element signature="e#31665#32802#0" />
@@ -7050,6 +7055,7 @@
             <element signature="e#36671#36693#0" />
             <element signature="e#47233#50267#0" />
             <element signature="e#51345#51428#0" />
+            <element signature="e#51458#51809#0" />
             <element signature="e#36780#36794#0" />
             <element signature="e#36799#36817#0" />
             <element signature="e#36829#36851#0" />
@@ -7076,7 +7082,6 @@
             <element signature="e#38046#38212#0" />
             <element signature="e#38071#38198#0" />
             <element signature="e#54085#56241#0" />
-            <element signature="e#55164#55663#0" />
             <element signature="e#34428#35226#0" />
             <element signature="e#34446#35222#0" />
             <element signature="e#34605#35216#0" />
@@ -7090,6 +7095,7 @@
             <element signature="e#34989#35055#0" />
             <element signature="e#35072#35198#0" />
             <element signature="e#35119#35186#0" />
+            <element signature="e#57394#57484#0" />
           </folding>
         </state>
       </provider>
