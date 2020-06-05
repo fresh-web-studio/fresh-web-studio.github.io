@@ -84,13 +84,13 @@ header .header-fix {
       border-bottom: 1px white solid; }
     header .header-fix .container .header-top .nav-container nav .dropdown:after {
       content: "\f107";
-      font-family: FontAwesome;
+      font-family: "FontAwesome";
       margin-left: 4px;
       margin-top: 3px;
       float: right; }
     header .header-fix .container .header-top .nav-container nav .dropright:after {
       content: "\f105";
-      font-family: FontAwesome;
+      font-family: "FontAwesome";
       float: right; }
     header .header-fix .container .header-top .nav-container nav .submenu, header .header-fix .container .header-top .nav-container nav .submenu-standart {
       border-top: 1px solid #e5e5e5;
@@ -104,7 +104,7 @@ header .header-fix {
       visibility: hidden;
       transform: translate3d(0, 30px, 0);
       transition: .5s ease-out;
-      transform-origin: 0% 0%; }
+      transform-origin: 0 0; }
     header .header-fix .container .header-top .nav-container nav .submenu-standart-submenu {
       border-top: 1px solid #e5e5e5;
       box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.07);
@@ -117,7 +117,7 @@ header .header-fix {
       visibility: hidden;
       transform: translate3d(0, 30px, 0);
       transition: .5s ease-out;
-      transform-origin: 0% 0%; }
+      transform-origin: 0 0; }
     header .header-fix .container .header-top .nav-container nav .submenu {
       width: 100%; }
     header .header-fix .container .header-top .nav-container nav .submenu-standart {
@@ -398,7 +398,7 @@ main {
         justify-content: space-between; }
         main .how .container .fields .fields__item {
           border-radius: 10px;
-          box-shadow: 0px 13px 62px 0px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 13px 62px 0 rgba(0, 0, 0, 0.07);
           text-align: center;
           width: 18%;
           padding: 37px; }
@@ -556,7 +556,7 @@ main {
           main .stages .container .stage-list .stage.escort h3:before {
             content: url(../img/help.png); }
         main .stages .container .stage-list .stage.form {
-          padding: 0px;
+          padding: 0;
           margin-top: 196px;
           left: 10px;
           height: 570px;
@@ -781,7 +781,9 @@ main {
     width: 55%; }
   main .stages .container .stage-list .stage {
     padding: 20px 30px;
-    height: 186px; }
+    height: 200px; }
+    main .stages .container .stage-list .stage h3 {
+      font-size: 21px; }
     main .stages .container .stage-list .stage .text ul li {
       font-size: 12px; }
   main .stages .container .stage-list .stage.form {
@@ -807,7 +809,9 @@ main {
   main .goods .container .goods_items .item {
     width: 31.3333333333%; }
   main .how .container .line-index.clients {
-    padding-top: 600px; } }
+    padding-top: 600px; }
+  main .stage .container .stage-list .stage h3 {
+    font-size: 18px; } }
 @media all and (max-width: 975px) {
   main .optimization .container .column_left h1 {
     font-size: 60px; } }
@@ -890,7 +894,7 @@ main {
         box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
         z-index: 4; }
         header .header-fix .container .header-top .nav-container nav .top-menu .menu-item {
-          padding: 0px;
+          padding: 0;
           line-height: 1.4; }
         header .header-fix .container .header-top .nav-container nav .top-menu .menu-item.active {
           background-color: #CFD8DC; }
@@ -939,7 +943,7 @@ main {
         background: rgba(0, 0, 0, 0.02);
         left: 0; }
       header .header-fix .container .header-top .nav-container nav .submenu-standart li {
-        padding: 0px; }
+        padding: 0; }
       header .header-fix .container .header-top .nav-container nav .submenu-standart li a {
         padding: 12px 18px; }
       header .header-fix .container .header-top .nav-container nav .submenu > li {
@@ -1020,7 +1024,7 @@ main {
       width: 100%; }
     main .how {
       margin-top: 50px;
-      padding: 0px 10px; }
+      padding: 0 10px; }
       main .how .container .line-index h2 {
         width: 100%; }
       main .how .container .line-index.how-h h2 {
@@ -1052,7 +1056,56 @@ main {
           transform: scaleX(0.34);
           margin-left: -154px; }
       main .how .container .form-horizontal {
-        width: 100%; } }
+        width: 100%; }
+    main .stages .container .line-index h2 {
+      width: 100%;
+      font-size: 32px; }
+      main .stages .container .line-index h2 span:before {
+        transform: scaleX(0.77);
+        margin-left: -56px; }
+    main .stages .container .stage-list .stage {
+      width: 100%;
+      padding: 20px 10px;
+      height: 165px; }
+      main .stages .container .stage-list .stage h3 {
+        width: 83%;
+        line-height: 1.1;
+        margin-bottom: 10px; }
+      main .stages .container .stage-list .stage .text ul li {
+        font-size: 10px; }
+    main .stages .container .stage-list .stage.consultations {
+      height: 183px; }
+      main .stages .container .stage-list .stage.consultations h3 {
+        line-height: 2.39;
+        margin-bottom: 0; }
+    main .stages .container .stage-list .stage.analysis {
+      margin-top: 20px; }
+    main .stages .container .stage-list .stage.creating {
+      margin-top: 20px;
+      height: 183px; }
+    main .stages .container .stage-list .stage.integration {
+      margin-top: 20px; }
+    main .stages .container .stage-list .stage.escort {
+      margin-top: 20px; }
+      main .stages .container .stage-list .stage.escort h3 {
+        line-height: 2.39; }
+    main .stages .container .stage-list .stage.form {
+      margin-top: 20px;
+      left: 0;
+      width: 100%;
+      margin-right: 0;
+      height: 550px; }
+      main .stages .container .stage-list .stage.form .front {
+        padding: 20px 10px; }
+        main .stages .container .stage-list .stage.form .front .line-index h2 {
+          font-size: 44px; }
+          main .stages .container .stage-list .stage.form .front .line-index h2 span:before {
+            transform: scaleX(0.45);
+            margin-left: -126px; }
+        main .stages .container .stage-list .stage.form .front form.form-horizontal {
+          width: 100%; }
+    main .work-advantage {
+      display: none; } }
 @media all and (max-width: 375px) {
   main .how .container .line-index.clients h2 {
     font-size: 30px; }
@@ -1073,7 +1126,20 @@ main {
     main .how .container .line-index.clients h2 span:before {
       margin-top: 7px;
       transform: scaleX(0.65);
-      margin-left: -79px; } }
+      margin-left: -79px; }
+  main .stages .container .line-index h2 {
+    font-size: 26px; }
+    main .stages .container .line-index h2 span:before {
+      transform: scaleX(0.64);
+      margin-left: -85px; }
+  main .stages .container .stage-list .stage {
+    background-size: 50px; }
+    main .stages .container .stage-list .stage h3 {
+      font-size: 18px; }
+    main .stages .container .stage-list .stage .text ul li {
+      font-size: 9px; }
+  main .stages .container .stage-list .stage.form .front {
+    background-size: 50px; } }
 @media all and (max-width: 320px) {
   header .header-fix {
     position: fixed;
@@ -1082,6 +1148,13 @@ main {
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
     width: 100%; }
     header .header-fix .container .header .cart {
-      padding-left: 2px; } }
+      padding-left: 2px; }
+
+  main .stages .container .stage-list .stage {
+    height: 140px; }
+    main .stages .container .stage-list .stage .text ul li {
+      font-size: 8px; }
+  main .stages .container .stage-list .stage.consultations, main .stages .container .stage-list .stage.creating {
+    height: 153px; } }
 
 /*# sourceMappingURL=style.css.map */

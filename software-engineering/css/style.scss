@@ -109,14 +109,14 @@ header {
 
             .dropdown:after {
               content: "\f107";
-              font-family: FontAwesome;
+              font-family: "FontAwesome";
               margin-left: 4px;
               margin-top: 3px;
               float: right;
             }
             .dropright:after {
               content: "\f105";
-              font-family: FontAwesome;
+              font-family: "FontAwesome";
               float: right;
             }
 
@@ -132,7 +132,7 @@ header {
               visibility: hidden;
               transform: translate3d(0, 30px, 0);
               transition: .5s ease-out;
-              transform-origin: 0% 0%;
+              transform-origin: 0 0;
             }
             .submenu-standart-submenu {
               border-top: 1px solid #e5e5e5;
@@ -146,7 +146,7 @@ header {
               visibility: hidden;
               transform: translate3d(0, 30px, 0);
               transition: .5s ease-out;
-              transform-origin: 0% 0%;
+              transform-origin: 0 0;
             }
 
             .submenu {
@@ -540,7 +540,7 @@ main {
         justify-content: space-between;
         .fields__item {
           border-radius: 10px;
-          box-shadow: 0px 13px 62px 0px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 13px 62px 0 rgba(0, 0, 0, 0.07);
           text-align: center;
           width: 18%;
           padding: 37px;
@@ -783,7 +783,7 @@ main {
         }
 
         .stage.form {
-          padding: 0px;
+          padding: 0;
           margin-top: 196px;
           left: 10px;
           height: 570px;
@@ -1131,14 +1131,15 @@ main {
         .line-index {
           h2 {
             width: 55%;
-            span {}
           }
         }
         .stage-list {
           .stage {
             padding: 20px 30px;
-            height: 186px;
-            h3 {}
+            height: 200px;
+            h3 {
+              font-size: 21px;
+            }
             .text {
               ul {
                 li {
@@ -1147,85 +1148,14 @@ main {
               }
             }
           }
-          .stage.consultations {
-            h3 {}
-            .text {
-              ul {
-                li {}
-              }
-            }
-          }
-          .stage.analysis {
-            h3 {}
-            .text {
-              ul {
-                li {}
-              }
-            }
-          }
-          .stage.creating {
-            h3 {}
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.integration {
-            h3 {}
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.escort {
-            h3 {}
-            .text {
-              ul {
-                li {}
-              }
-            }
-          }
           .stage.form {
             left: 20px;
             margin-right: 10px;
             width: 48%;
-            .front {
-              .line-index {
-                h2 {
-                  span {}
-                }
-              }
-              .info {}
-              form.form-horizontal {
-                .form-group {
-                  .input-name {
-                    input#company4.inputbox {}
-                  }
-                  .input-phone {
-                    input#phone4.form-control {}
-                  }
-                  a.button {
-                    button.btn {}
-                  }
-                }
-                .text {
-                  a {}
-                }
-              }
-            }
-            .back {}
           }
         }
       }
     }
-
   }
 }
 @media all and (max-width: 1100px) {
@@ -1292,6 +1222,17 @@ main {
       .container {
         .line-index.clients {
           padding-top: 600px;
+        }
+      }
+    }
+    .stage {
+      .container {
+        .stage-list {
+          .stage {
+            h3 {
+              font-size: 18px;
+            }
+          }
         }
       }
     }
@@ -1723,7 +1664,7 @@ main {
                 z-index: 4;
 
                 .menu-item {
-                  padding: 0px;
+                  padding: 0;
                   line-height: 1.4;
                 }
                 .menu-item.active {
@@ -1803,7 +1744,7 @@ main {
               }
 
               .submenu-standart li {
-                padding: 0px;
+                padding: 0;
               }
 
               .submenu-standart li a {
@@ -2046,7 +1987,7 @@ main {
     }
     .how {
       margin-top: 50px;
-      padding: 0px 10px;
+      padding: 0 10px;
       .container {
         .line-index {
           h2 {
@@ -2106,6 +2047,148 @@ main {
         }
       }
     }
+    .stages {
+      .container {
+        .line-index {
+          h2 {
+            width: 100%;
+            font-size: 32px;
+            span {
+              &:before {
+                transform: scaleX(.77);
+                margin-left: -56px;
+              }
+            }
+          }
+        }
+        .stage-list {
+          .stage {
+            width: 100%;
+            padding: 20px 10px;
+            height: 165px;
+            h3 {
+              width: 83%;
+              line-height: 1.1;
+              margin-bottom: 10px;
+            }
+            .text {
+              ul {
+                li {
+                  font-size: 10px;
+                }
+              }
+            }
+          }
+          .stage.consultations {
+            height: 183px;
+            h3 {
+              line-height: 2.39;
+              margin-bottom: 0;
+            }
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.analysis {
+            margin-top: 20px;
+            h3 {}
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.creating {
+            margin-top: 20px;
+            height: 183px;
+            h3 {}
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.integration {
+            margin-top: 20px;
+            h3 {}
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.escort {
+            margin-top: 20px;
+            h3 {
+              line-height: 2.39;
+            }
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.form {
+            margin-top: 20px;
+            left: 0;
+            width: 100%;
+            margin-right: 0;
+            height: 550px;
+            .front {
+              padding: 20px 10px;
+              .line-index {
+                h2 {
+                  font-size: 44px;
+                  span {
+                    &:before {
+                      transform: scaleX(0.45);
+                      margin-left: -126px;
+                    }
+                  }
+                }
+              }
+              .info {}
+              form.form-horizontal {
+                width: 100%;
+                .form-group {
+                  .input-name {
+                    input#company4.inputbox {}
+                  }
+                  .input-phone {
+                    input#phone4.form-control {}
+                  }
+                  a.button {
+                    button.btn {}
+                  }
+                }
+                .text {
+                  a {}
+                }
+              }
+            }
+            .back {}
+          }
+        }
+      }
+    }
+    .work-advantage {
+      display: none;
+    }
+
   }
 }
 @media all and (max-width: 375px) {
@@ -2126,6 +2209,115 @@ main {
         }
       }
     }
+    .stages {
+      .container {
+        .line-index {
+          h2 {
+            span {
+              &:before {
+              }
+            }
+          }
+        }
+        .stage-list {
+          .stage {
+            h3 {
+            }
+            .text {
+              ul {
+                li {
+                }
+              }
+            }
+          }
+          .stage.consultations {
+            h3 {
+            }
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.analysis {
+            h3 {}
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.creating {
+            h3 {}
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.integration {
+            h3 {}
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.escort {
+            h3 {
+            }
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.form {
+            .front {
+              .line-index {
+                h2 {
+                  span {
+                    &:before {
+                    }
+                  }
+                }
+              }
+              .info {}
+              form.form-horizontal {
+                .form-group {
+                  .input-name {
+                    input#company4.inputbox {}
+                  }
+                  .input-phone {
+                    input#phone4.form-control {}
+                  }
+                  a.button {
+                    button.btn {}
+                  }
+                }
+                .text {
+                  a {}
+                }
+              }
+            }
+            .back {}
+          }
+        }
+      }
+    }
+
   }
 }
 @media all and (max-width: 360px) {
@@ -2187,6 +2379,121 @@ main {
         }
       }
     }
+    .stages {
+      .container {
+        .line-index {
+          h2 {
+            font-size: 26px;
+            span {
+              &:before {
+                transform: scaleX(0.64);
+                margin-left: -85px;
+              }
+            }
+          }
+        }
+        .stage-list {
+          .stage {
+            background-size: 50px;
+            h3 {
+              font-size: 18px;
+            }
+            .text {
+              ul {
+                li {
+                  font-size: 9px;
+                }
+              }
+            }
+          }
+          .stage.consultations {
+            h3 {
+            }
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.analysis {
+            h3 {}
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.creating {
+            h3 {}
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.integration {
+            h3 {}
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.escort {
+            h3 {
+            }
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.form {
+            .front {
+              background-size: 50px;
+              .line-index {
+                h2 {
+                  span {
+                    &:before {
+                    }
+                  }
+                }
+              }
+              .info {}
+              form.form-horizontal {
+                .form-group {
+                  .input-name {
+                    input#company4.inputbox {}
+                  }
+                  .input-phone {
+                    input#phone4.form-control {}
+                  }
+                  a.button {
+                    button.btn {}
+                  }
+                }
+                .text {
+                  a {}
+                }
+              }
+            }
+            .back {}
+          }
+        }
+      }
+    }
   }
 }
 @media all and (max-width: 320px) {
@@ -2230,5 +2537,20 @@ main {
       }
     }
   }
+  main {
+    .stages .container .stage-list {
+      .stage {
+        height: 140px;
+        .text ul li {
+          font-size: 8px;
+        }
+      }
+      .stage.consultations, .stage.creating {
+        height: 153px;
+      }
+    }
 
+
+
+  }
 }
