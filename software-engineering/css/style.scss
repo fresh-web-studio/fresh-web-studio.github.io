@@ -475,7 +475,6 @@ main {
     background-image: url(../img/bg-how.jpg);
     background-position: top center;
     background-repeat: no-repeat;
-    height: 1044px;
     .container {
       display: flex;
       flex-wrap: wrap;
@@ -576,7 +575,7 @@ main {
         .form-group {
           .input-name {
             padding-bottom: 20px;
-            input#company.inputbox {
+            input#company3.inputbox {
               width: 100%;
               height: 55px;
               border-style: solid;
@@ -590,7 +589,7 @@ main {
           }
           .input-phone {
             padding-bottom: 20px;
-            input#phone2.form-control {
+            input#phone3.form-control {
               width: 100%;
               height: 55px;
               border-style: solid;
@@ -629,6 +628,370 @@ main {
             font-weight: 700;
             text-decoration: underline;
             color: #4b4b4b;
+          }
+        }
+      }
+    }
+  }
+  .stages {
+    background-color: #f6f6f6;
+    .container {
+      padding: 75px 10px;
+      background-image: url(../img/back.jpg);
+      display: flex;
+      flex-wrap: wrap;
+      height: 1620px;
+      .line-index {
+        z-index: 3;
+        width: $width-con;
+        h2 {
+          font-size: 45px;
+          font-family: "DinPro";
+          color: rgb(49, 49, 49);
+          line-height: 1.222;
+          text-align: center;
+          margin: 0 auto;
+          width: 40%;
+          span {
+            font-family: "DinPro";
+            &:before {
+              content: url(../img/line.jpg);
+              position: absolute;
+              z-index: -1;
+              margin-top: 8px;
+              transform: scaleX(1.08);
+              margin-left: 11px;
+            }
+          }
+        }
+      }
+      .stage-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .stage {
+          width: 49%;
+          background-color: #2f5597;
+          color: #fff;
+          padding: 20px 50px;
+          height: 242px;
+          h3 {
+            font-size: 23px;
+            font-family: "DinPro";
+            font-weight: bold;
+            line-height: 2.391;
+            padding-left: 40px;
+            &:before {
+              margin-left: -40px;
+              position: absolute;
+              margin-top: 8px;
+            }
+          }
+          .text {
+            ul {
+              list-style: none;
+              li {
+                font-size: 15px;
+                font-family: "DinPro";
+                line-height: 2.333;
+              }
+            }
+          }
+        }
+        .stage.consultations {
+          margin-top: 40px;
+          background-image: url(../img/1.png);
+          background-position: top right;
+          background-repeat: no-repeat;
+          h3 {
+            &:before {
+              content: url(../img/talk.png);
+              margin-left: -40px;
+              position: absolute;
+              margin-top: 8px;
+            }
+          }
+          .text {
+            ul {
+              li {}
+            }
+          }
+        }
+        .stage.analysis {
+          margin-top: 240px;
+          background-image: url(../img/2.png);
+          background-position: top right;
+          background-repeat: no-repeat;
+          h3 {
+            &:before {
+              content: url(../img/idea.png);
+            }
+          }
+          .text {
+            ul {
+              li {}
+            }
+          }
+        }
+        .stage.creating {
+          margin-top: -35px;
+          background-image: url(../img/3.png);
+          background-position: top right;
+          background-repeat: no-repeat;
+          h3 {
+            &:before {
+              content: url(../img/code2.png);
+            }
+          }
+          .text {
+            ul {
+              li {}
+            }
+          }
+        }
+        .stage.integration {
+          margin-top: 165px;
+          background-image: url(../img/4.png);
+          background-position: top right;
+          background-repeat: no-repeat;
+          h3 {
+            &:before {
+              content: url(../img/coding.png);
+            }
+          }
+          .text {
+            ul {
+              li {}
+            }
+          }
+        }
+        .stage.escort {
+          margin-top: -35px;
+          background-image: url(../img/5.png);
+          background-position: top right;
+          background-repeat: no-repeat;
+          h3 {
+            &:before {
+              content: url(../img/help.png);
+            }
+          }
+          .text {
+            ul {
+              li {}
+            }
+          }
+        }
+
+        .stage.form {
+          padding: 0px;
+          margin-top: 196px;
+          left: 10px;
+          height: 570px;
+          position: relative;
+          .front {
+            margin-top: 10px;
+            right: 10px;
+            padding: 20px 50px;
+            z-index: 2;
+            background-image: url(../img/6.png);
+            background-position: top right;
+            background-repeat: no-repeat;
+            background-color: #fff;
+            width: 613px;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            .line-index {
+              h2 {
+                font-size: 70px;
+                margin: 0;
+                width: 62%;
+                text-align: left;
+                font-family: "DinProBlack";
+                span {
+                  font-family: "DinProBlack";
+                  &:before {
+                    content: url(../img/line.jpg);
+                    position: absolute;
+                    z-index: -1;
+                    margin-top: 8px;
+                    transform: scaleX(0.68);
+                    margin-left: -74px;
+                  }
+                }
+              }
+            }
+            .info {
+              font-size: 18px;
+              font-family: "DinPro";
+              color: rgb(0, 0, 0);
+              line-height: 1.611;
+            }
+            .form-horizontal {
+              padding-top: 47px;
+              width: 360px;
+              .form-group {
+                .input-name {
+                  padding-bottom: 20px;
+                  input#company4.inputbox {
+                    width: 100%;
+                    height: 55px;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: #eff2f8;
+                    border-radius: 26px;
+                    background-color: #eff2f8;
+                    padding-left: 25px;
+                    font-size: 16px;
+                  }
+                }
+                .input-phone {
+                  padding-bottom: 20px;
+                  input#phone4.form-control {
+                    width: 100%;
+                    height: 55px;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: #eff2f8;
+                    border-radius: 26px;
+                    background-color: #eff2f8;
+                    padding-left: 25px;
+                    font-size: 16px;
+                  }
+                }
+              }
+              .form-group {
+                a.button {
+                  button {
+                    border-radius: 30px;
+                    background-color: #2568ef;
+                    border: 0;
+                    width: 100%;
+                    height: 55px;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    color: white;
+                    &:hover {
+                      background-color: #0688fa;
+                    }
+                  }
+                }
+              }
+              .text {
+                padding: 30px;
+                font-size: 13px;
+                text-align: center;
+                color: #4b4b4b;
+                a {
+                  font-weight: 700;
+                  text-decoration: underline;
+                  color: #4b4b4b;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+  .work-advantage {
+    .container {
+      padding: 90px 0;
+      .line-index {
+        z-index: 3;
+        width: $width-con;
+        h2 {
+          font-size: 45px;
+          font-family: "DinProBlack";
+          color: rgb(49, 49, 49);
+          line-height: 1.222;
+          text-align: left;
+          width: 37%;
+          padding-bottom: 55px;
+          span {
+            font-family: "DinProBlack";
+            &:before {
+              content: url(../img/line.jpg);
+              position: absolute;
+              z-index: -1;
+              margin-top: 8px;
+              transform: scaleX(0.74);
+              margin-left: -59px;
+            }
+          }
+          span.blue {
+            color: #2568ef;
+            &:before {
+              content: none;
+            }
+          }
+        }
+      }
+      .work-advantage-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .item {
+          width: 35%;
+          padding: 40px 60px;
+          margin-bottom: 50px;
+          margin-right: 110px;
+          &:before {
+            margin-top: 8px;
+            z-index: -1;
+            position: absolute;
+            padding-left: 304px;
+          }
+          h2 {
+            font-size: 20px;
+            font-family: "DINPro";
+            color: rgb(49, 49, 49);
+            font-weight: bold;
+            line-height: 1.5;
+            text-transform: uppercase;
+            margin-left: 30px;
+            &:before {
+              content: url(../img/square.jpg);
+              margin-left: -30px;
+              margin-top: 2px;
+              position: absolute;
+            }
+          }
+          .text {
+            padding-top: 25px;
+            font-size: 15px;
+            font-family: "DinPro";
+            color: rgb(90, 90, 90);
+            line-height: 1.6;
+          }
+
+        }
+        .item.technical-task {
+          background-color: #f6f6f6;
+          &:before {
+            content: url(../img/paper.jpg);
+          }
+        }
+        .item.targeted-approach {
+          background-color: #fff;
+          border: 1px solid #000;
+          &:before {
+            content: url(../img/screen.jpg);
+          }
+        }
+        .item.new-opportunities {
+          background-color: #fff;
+          border: 1px solid #000;
+          &:before {
+            content: url(../img/wallet.jpg);
+          }
+        }
+        .item.fair-pricing {
+          background-color: #f6f6f6;
+          &:before {
+            content: url(../img/calculator.jpg);
           }
         }
       }
