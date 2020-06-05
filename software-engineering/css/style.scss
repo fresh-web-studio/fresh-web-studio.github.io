@@ -297,7 +297,7 @@ main {
           span {
             font-family: "DinProBlack";
             &:before {
-              content: url(../img/line.jpg);
+              content: url(../img/line.png);
               position: absolute;
               z-index: -1;
               margin-top: 7px;
@@ -439,7 +439,7 @@ main {
           span {
             font-family: "DinPro";
             &:before {
-              content: url(../img/line.jpg);
+              content: url(../img/line.png);
               position: absolute;
               z-index: -1;
               margin-top: 12px;
@@ -492,7 +492,7 @@ main {
           span {
             font-family: "DinPro";
             &:before {
-              content: url(../img/line.jpg);
+              content: url(../img/line.png);
               position: absolute;
               z-index: -1;
             }
@@ -655,7 +655,7 @@ main {
           span {
             font-family: "DinPro";
             &:before {
-              content: url(../img/line.jpg);
+              content: url(../img/line.png);
               position: absolute;
               z-index: -1;
               margin-top: 8px;
@@ -812,7 +812,7 @@ main {
                 span {
                   font-family: "DinProBlack";
                   &:before {
-                    content: url(../img/line.jpg);
+                    content: url(../img/line.png);
                     position: absolute;
                     z-index: -1;
                     margin-top: 8px;
@@ -914,7 +914,7 @@ main {
           span {
             font-family: "DinProBlack";
             &:before {
-              content: url(../img/line.jpg);
+              content: url(../img/line.png);
               position: absolute;
               z-index: -1;
               margin-top: 8px;
@@ -998,6 +998,172 @@ main {
       }
     }
   }
+  .projects {
+    background-color: #2f5597;
+    padding: 80px 0;
+    .container {
+      background-image: url(../img/back.png);
+      display: flex;
+      flex-wrap: wrap;
+      .line-index {
+        z-index: 3;
+        width: $width-con;
+        h2 {
+          font-size: 45px;
+          font-family: "DinPro";
+          color: #fff;
+          line-height: 1.222;
+          text-align: center;
+          margin: 0 auto;
+          width: 40%;
+          span {
+            font-family: "DinPro";
+            &:before {
+              content: url(../img/line-b.png);
+              position: absolute;
+              z-index: -1;
+              margin-top: 8px;
+            }
+          }
+        }
+      }
+    }
+    .slide-wrapper {
+      padding: 40px 0;
+      .container {
+        #owl-carousel1.owl-carousel.owl-theme {
+          .slide-item.slide1 {
+            .container {
+              padding: 75px 60px;
+              background-color: #fff;
+              .left-block {
+                width: 50%;
+                .slide_item__header {
+                  font-size: 35px;
+                  font-family: "DINPro";
+                  color: rgb(47, 47, 47);
+                  line-height: 0.714;
+                }
+                .slide_item__info {
+                  font-size: 20px;
+                  font-family: "DINPro";
+                  color: rgb(47, 47, 47);
+                  line-height: 2;
+                  padding-bottom: 40px;
+                }
+                .slide_item__text {
+                  margin-left: 40px;
+                  padding-top: 10px;
+                  h4 {
+                    font-size: 17px;
+                    font-family: "DINPro";
+                    color: rgb(47, 47, 47);
+                    font-weight: bold;
+                    line-height: 1.471;
+                  }
+                  .text {
+                    font-size: 15px;
+                    font-family: "DINPro";
+                    color: rgb(47, 47, 47);
+                    line-height: 3.667;
+                  }
+                }
+                .slide_item__text.situation {
+                  &:before {
+                    content: url(../img/risk.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {}
+                }
+                .slide_item__text.implemented {
+                  &:before {
+                    content: url(../img/monitor.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {}
+                }
+                .slide_item__text.results {
+                  &:before {
+                    content: url(../img/idea-s.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {
+                    padding-left: 20px;
+                    &:before {
+                      content: url(../img/tick.jpg);
+                      margin-left: -20px;
+                      margin-top: 2px;
+                      position: absolute;
+                    }
+                  }
+                }
+              }
+              .right-block {
+                width: 50%;
+                text-align: center;
+                img {
+                  padding-bottom: 50px;
+                }
+                a {
+                  button {
+                    border-radius: 30px;
+                    background-color: #2568ef;
+                    border: 0;
+                    height: 55px;
+                    width: 360px;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    color: white;
+                    &:hover {
+                      background-color: #0688fa;
+                    }
+                  }
+
+                }
+              }
+            }
+          }
+          .owl-nav {
+            margin-top: 0px;
+            button {
+              position: absolute;
+              top: 44%;
+              width: 43px;
+              height: 43px;
+              border-radius: 3px;
+              background-color: #2f5597;
+              color: #ffffff;
+              font-size: 40px;
+              font-weight: bold;
+              span {
+                position: absolute;
+                top: -5px;
+                left: 15px;
+              }
+            }
+            button.owl-prev {
+              left: -6px;
+            }
+            button.owl-next {
+              right: -6px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
 }
 
 
@@ -1285,7 +1451,27 @@ main {
         }
       }
     }
+    .projects {
+      .slide-wrapper {
+        .container {
+          #owl-carousel1.owl-carousel.owl-theme {
+            .slide-item.slide1 {
+              .container {
+                .left-block {
+                  .slide_item__text {
+                    .text {
+                      font-size: 13px;
+                      line-height: 3.3;
+                    }
+                  }
+                }
+              }
+            }
+          }
 
+        }
+      }
+    }
   }
 }
 
@@ -2323,29 +2509,14 @@ main {
               font-size: 11px;
             }
           }
-          .item.technical-task {
-            h2 {}
-            .text {}
-          }
-          .item.targeted-approach {
-            h2 {}
-            .text {}
-          }
-          .item.new-opportunities {
-            h2 {}
-            .text {}
-          }
           .item.fair-pricing {
             &:before {
               margin-top: -27px;
             }
-            h2 {}
-            .text {}
           }
         }
       }
     }
-
   }
 }
 @media all and (max-width: 360px) {
@@ -2453,27 +2624,10 @@ main {
               padding-left: 166px;
             }
           }
-          .item.technical-task {
-            h2 {}
-            .text {}
-          }
-          .item.targeted-approach {
-            h2 {}
-            .text {}
-          }
-          .item.new-opportunities {
-            &:before {
-              margin-top: -2px;
-            }
-            h2 {}
-            .text {}
-          }
           .item.fair-pricing {
             &:before {
               margin-top: -26px;
             }
-            h2 {}
-            .text {}
           }
         }
       }

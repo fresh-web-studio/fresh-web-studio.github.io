@@ -219,7 +219,7 @@ main {
         main .optimization .container .column_left h1 span {
           font-family: "DinProBlack"; }
           main .optimization .container .column_left h1 span:before {
-            content: url(../img/line.jpg);
+            content: url(../img/line.png);
             position: absolute;
             z-index: -1;
             margin-top: 7px;
@@ -326,7 +326,7 @@ main {
           main .advantages .container .line-index h2 span {
             font-family: "DinPro"; }
             main .advantages .container .line-index h2 span:before {
-              content: url(../img/line.jpg);
+              content: url(../img/line.png);
               position: absolute;
               z-index: -1;
               margin-top: 12px;
@@ -368,7 +368,7 @@ main {
           main .how .container .line-index h2 span {
             font-family: "DinPro"; }
             main .how .container .line-index h2 span:before {
-              content: url(../img/line.jpg);
+              content: url(../img/line.png);
               position: absolute;
               z-index: -1; }
       main .how .container .line-index.how-h h2 span:before {
@@ -485,7 +485,7 @@ main {
           main .stages .container .line-index h2 span {
             font-family: "DinPro"; }
             main .stages .container .line-index h2 span:before {
-              content: url(../img/line.jpg);
+              content: url(../img/line.png);
               position: absolute;
               z-index: -1;
               margin-top: 8px;
@@ -584,7 +584,7 @@ main {
               main .stages .container .stage-list .stage.form .front .line-index h2 span {
                 font-family: "DinProBlack"; }
                 main .stages .container .stage-list .stage.form .front .line-index h2 span:before {
-                  content: url(../img/line.jpg);
+                  content: url(../img/line.png);
                   position: absolute;
                   z-index: -1;
                   margin-top: 8px;
@@ -659,7 +659,7 @@ main {
         main .work-advantage .container .line-index h2 span {
           font-family: "DinProBlack"; }
           main .work-advantage .container .line-index h2 span:before {
-            content: url(../img/line.jpg);
+            content: url(../img/line.png);
             position: absolute;
             z-index: -1;
             margin-top: 8px;
@@ -720,6 +720,122 @@ main {
         background-color: #f6f6f6; }
         main .work-advantage .container .work-advantage-list .item.fair-pricing:before {
           content: url(../img/calculator.jpg); }
+  main .projects {
+    background-color: #2f5597;
+    padding: 80px 0; }
+    main .projects .container {
+      background-image: url(../img/back.png);
+      display: flex;
+      flex-wrap: wrap; }
+      main .projects .container .line-index {
+        z-index: 3;
+        width: 100%; }
+        main .projects .container .line-index h2 {
+          font-size: 45px;
+          font-family: "DinPro";
+          color: #fff;
+          line-height: 1.222;
+          text-align: center;
+          margin: 0 auto;
+          width: 40%; }
+          main .projects .container .line-index h2 span {
+            font-family: "DinPro"; }
+            main .projects .container .line-index h2 span:before {
+              content: url(../img/line-b.png);
+              position: absolute;
+              z-index: -1;
+              margin-top: 8px; }
+    main .projects .slide-wrapper {
+      padding: 40px 0; }
+      main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container {
+        padding: 75px 60px;
+        background-color: #fff; }
+        main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block {
+          width: 50%; }
+          main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__header {
+            font-size: 35px;
+            font-family: "DINPro";
+            color: #2f2f2f;
+            line-height: 0.714; }
+          main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__info {
+            font-size: 20px;
+            font-family: "DINPro";
+            color: #2f2f2f;
+            line-height: 2;
+            padding-bottom: 40px; }
+          main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text {
+            margin-left: 40px;
+            padding-top: 10px; }
+            main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text h4 {
+              font-size: 17px;
+              font-family: "DINPro";
+              color: #2f2f2f;
+              font-weight: bold;
+              line-height: 1.471; }
+            main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text .text {
+              font-size: 15px;
+              font-family: "DINPro";
+              color: #2f2f2f;
+              line-height: 3.667; }
+          main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text.situation:before {
+            content: url(../img/risk.jpg);
+            margin-left: -40px;
+            margin-top: 2px;
+            position: absolute; }
+          main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text.implemented:before {
+            content: url(../img/monitor.jpg);
+            margin-left: -40px;
+            margin-top: 2px;
+            position: absolute; }
+          main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text.results:before {
+            content: url(../img/idea-s.jpg);
+            margin-left: -40px;
+            margin-top: 2px;
+            position: absolute; }
+          main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text.results .text {
+            padding-left: 20px; }
+            main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text.results .text:before {
+              content: url(../img/tick.jpg);
+              margin-left: -20px;
+              margin-top: 2px;
+              position: absolute; }
+        main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block {
+          width: 50%;
+          text-align: center; }
+          main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block img {
+            padding-bottom: 50px; }
+          main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block a button {
+            border-radius: 30px;
+            background-color: #2568ef;
+            border: 0;
+            height: 55px;
+            width: 360px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 16px;
+            color: white; }
+            main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block a button:hover {
+              background-color: #0688fa; }
+      main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .owl-nav {
+        margin-top: 0px; }
+        main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .owl-nav button {
+          position: absolute;
+          top: 44%;
+          width: 43px;
+          height: 43px;
+          border-radius: 3px;
+          background-color: #2f5597;
+          color: #ffffff;
+          font-size: 40px;
+          font-weight: bold; }
+          main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .owl-nav button span {
+            position: absolute;
+            top: -5px;
+            left: 15px; }
+        main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .owl-nav button.owl-prev {
+          left: -6px; }
+        main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .owl-nav button.owl-next {
+          right: -6px; }
 
 /*======================================================*/
 /*======================================================*/
@@ -834,7 +950,10 @@ main {
       main .work-advantage .container .work-advantage-list .item h2 {
         font-size: 17px; }
       main .work-advantage .container .work-advantage-list .item .text {
-        font-size: 14px; } }
+        font-size: 14px; }
+  main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text .text {
+    font-size: 13px;
+    line-height: 3.3; } }
 @media all and (max-width: 975px) {
   main .optimization .container .column_left h1 {
     font-size: 60px; } }
@@ -1199,8 +1318,6 @@ main {
     padding: 20px 20px; }
     main .work-advantage .container .work-advantage-list .item:before {
       padding-left: 166px; }
-  main .work-advantage .container .work-advantage-list .item.new-opportunities:before {
-    margin-top: -2px; }
   main .work-advantage .container .work-advantage-list .item.fair-pricing:before {
     margin-top: -26px; } }
 @media all and (max-width: 320px) {
