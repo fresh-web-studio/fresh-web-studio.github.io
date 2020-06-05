@@ -998,7 +998,6 @@ main {
       }
     }
   }
-
 }
 
 
@@ -1156,6 +1155,30 @@ main {
         }
       }
     }
+    .work-advantage {
+      .container {
+        padding: 0 10px;
+        .line-index {
+          h2 {
+            span {}
+            span.blue {}
+          }
+        }
+        .work-advantage-list {
+          .item {
+            width: 40%;
+            margin-right: 83px;
+            h2 {
+              font-size: 17px;
+            }
+            .text {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
   }
 }
 @media all and (max-width: 1100px) {
@@ -1236,6 +1259,33 @@ main {
         }
       }
     }
+    .work-advantage {
+      .container {
+        padding: 40px 10px;
+        .line-index {
+          h2 {
+            width: 42%;
+          }
+        }
+        .work-advantage-list {
+          .item {
+            width: 39%;
+            margin-right: 80px;
+            padding: 30px 30px;
+            &:before {
+              padding-left: 253px;
+            }
+            h2 {
+              font-size: 17px;
+            }
+            .text {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
   }
 }
 
@@ -2049,6 +2099,7 @@ main {
     }
     .stages {
       .container {
+        height: 100%;
         .line-index {
           h2 {
             width: 100%;
@@ -2186,9 +2237,54 @@ main {
       }
     }
     .work-advantage {
-      display: none;
+      .container {
+        .line-index {
+          h2 {
+            font-size: 33px;
+            width: 94%;
+            margin: 0 auto;
+            text-align: center;
+            span {
+              &:before {
+                transform: scaleX(0.56);
+                margin-left: -102px;
+              }
+            }
+            span.blue {}
+          }
+        }
+        .work-advantage-list {
+          .item {
+            width: 90%;
+            margin-right: 80px;
+            padding: 20px 20px;
+            &:before {
+              padding-left: 223px;
+              transform: scale(0.8);
+            }
+          }
+          .item.technical-task {
+            h2 {}
+            .text {}
+          }
+          .item.targeted-approach {
+            h2 {}
+            .text {}
+          }
+          .item.new-opportunities {
+            h2 {}
+            .text {}
+          }
+          .item.fair-pricing {
+            &:before {
+              margin-top: -10px;
+            }
+            h2 {}
+            .text {}
+          }
+        }
+      }
     }
-
   }
 }
 @media all and (max-width: 375px) {
@@ -2209,115 +2305,42 @@ main {
         }
       }
     }
-    .stages {
-      .container {
-        .line-index {
-          h2 {
-            span {
-              &:before {
-              }
-            }
-          }
+    .work-advantage-list {
+      .item {
+        width: 90%;
+        margin-right: 80px;
+        padding: 20px 20px;
+        &:before {
+          margin-top: -13px;
+          padding-left: 180px;
         }
-        .stage-list {
-          .stage {
-            h3 {
-            }
-            .text {
-              ul {
-                li {
-                }
-              }
-            }
-          }
-          .stage.consultations {
-            h3 {
-            }
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.analysis {
-            h3 {}
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.creating {
-            h3 {}
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.integration {
-            h3 {}
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.escort {
-            h3 {
-            }
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.form {
-            .front {
-              .line-index {
-                h2 {
-                  span {
-                    &:before {
-                    }
-                  }
-                }
-              }
-              .info {}
-              form.form-horizontal {
-                .form-group {
-                  .input-name {
-                    input#company4.inputbox {}
-                  }
-                  .input-phone {
-                    input#phone4.form-control {}
-                  }
-                  a.button {
-                    button.btn {}
-                  }
-                }
-                .text {
-                  a {}
-                }
-              }
-            }
-            .back {}
-          }
+        h2 {
+          font-size: 15px;
+        }
+        .text {
+          font-size: 11px;
         }
       }
+      .item.technical-task {
+        h2 {}
+        .text {}
+      }
+      .item.targeted-approach {
+        h2 {}
+        .text {}
+      }
+      .item.new-opportunities {
+        h2 {}
+        .text {}
+      }
+      .item.fair-pricing {
+        &:before {
+          margin-top: -27px;
+        }
+        h2 {}
+        .text {}
+      }
     }
-
   }
 }
 @media all and (max-width: 360px) {
@@ -2406,92 +2429,41 @@ main {
               }
             }
           }
-          .stage.consultations {
-            h3 {
-            }
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.analysis {
-            h3 {}
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.creating {
-            h3 {}
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.integration {
-            h3 {}
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
-          .stage.escort {
-            h3 {
-            }
-            .text {
-              ul {
-                li {}
-                li {}
-                li {}
-              }
-            }
-          }
           .stage.form {
             .front {
               background-size: 50px;
-              .line-index {
-                h2 {
-                  span {
-                    &:before {
-                    }
-                  }
-                }
-              }
-              .info {}
-              form.form-horizontal {
-                .form-group {
-                  .input-name {
-                    input#company4.inputbox {}
-                  }
-                  .input-phone {
-                    input#phone4.form-control {}
-                  }
-                  a.button {
-                    button.btn {}
-                  }
-                }
-                .text {
-                  a {}
-                }
-              }
             }
-            .back {}
           }
         }
+      }
+    }
+    .work-advantage-list {
+      .item {
+        width: 90%;
+        margin-right: 80px;
+        padding: 20px 20px;
+        &:before {
+          padding-left: 180px;
+        }
+      }
+      .item.technical-task {
+        h2 {}
+        .text {}
+      }
+      .item.targeted-approach {
+        h2 {}
+        .text {}
+      }
+      .item.new-opportunities {
+        h2 {}
+        .text {}
+      }
+      .item.fair-pricing {
+        &:before {
+          margin-top: -10px;
+        }
+        h2 {}
+        .text {}
       }
     }
   }
@@ -2549,8 +2521,5 @@ main {
         height: 153px;
       }
     }
-
-
-
   }
 }

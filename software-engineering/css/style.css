@@ -789,7 +789,16 @@ main {
   main .stages .container .stage-list .stage.form {
     left: 20px;
     margin-right: 10px;
-    width: 48%; } }
+    width: 48%; }
+  main .work-advantage .container {
+    padding: 0 10px; }
+    main .work-advantage .container .work-advantage-list .item {
+      width: 40%;
+      margin-right: 83px; }
+      main .work-advantage .container .work-advantage-list .item h2 {
+        font-size: 17px; }
+      main .work-advantage .container .work-advantage-list .item .text {
+        font-size: 14px; } }
 @media all and (max-width: 1100px) {
   main .optimization .container .column_left h1 {
     font-size: 54px; }
@@ -811,7 +820,21 @@ main {
   main .how .container .line-index.clients {
     padding-top: 600px; }
   main .stage .container .stage-list .stage h3 {
-    font-size: 18px; } }
+    font-size: 18px; }
+  main .work-advantage .container {
+    padding: 40px 10px; }
+    main .work-advantage .container .line-index h2 {
+      width: 42%; }
+    main .work-advantage .container .work-advantage-list .item {
+      width: 39%;
+      margin-right: 80px;
+      padding: 30px 30px; }
+      main .work-advantage .container .work-advantage-list .item:before {
+        padding-left: 253px; }
+      main .work-advantage .container .work-advantage-list .item h2 {
+        font-size: 17px; }
+      main .work-advantage .container .work-advantage-list .item .text {
+        font-size: 14px; } }
 @media all and (max-width: 975px) {
   main .optimization .container .column_left h1 {
     font-size: 60px; } }
@@ -1057,62 +1080,92 @@ main {
           margin-left: -154px; }
       main .how .container .form-horizontal {
         width: 100%; }
-    main .stages .container .line-index h2 {
-      width: 100%;
-      font-size: 32px; }
-      main .stages .container .line-index h2 span:before {
-        transform: scaleX(0.77);
-        margin-left: -56px; }
-    main .stages .container .stage-list .stage {
-      width: 100%;
-      padding: 20px 10px;
-      height: 165px; }
-      main .stages .container .stage-list .stage h3 {
-        width: 83%;
-        line-height: 1.1;
-        margin-bottom: 10px; }
-      main .stages .container .stage-list .stage .text ul li {
-        font-size: 10px; }
-    main .stages .container .stage-list .stage.consultations {
-      height: 183px; }
-      main .stages .container .stage-list .stage.consultations h3 {
-        line-height: 2.39;
-        margin-bottom: 0; }
-    main .stages .container .stage-list .stage.analysis {
-      margin-top: 20px; }
-    main .stages .container .stage-list .stage.creating {
-      margin-top: 20px;
-      height: 183px; }
-    main .stages .container .stage-list .stage.integration {
-      margin-top: 20px; }
-    main .stages .container .stage-list .stage.escort {
-      margin-top: 20px; }
-      main .stages .container .stage-list .stage.escort h3 {
-        line-height: 2.39; }
-    main .stages .container .stage-list .stage.form {
-      margin-top: 20px;
-      left: 0;
-      width: 100%;
-      margin-right: 0;
-      height: 550px; }
-      main .stages .container .stage-list .stage.form .front {
-        padding: 20px 10px; }
-        main .stages .container .stage-list .stage.form .front .line-index h2 {
-          font-size: 44px; }
-          main .stages .container .stage-list .stage.form .front .line-index h2 span:before {
-            transform: scaleX(0.45);
-            margin-left: -126px; }
-        main .stages .container .stage-list .stage.form .front form.form-horizontal {
-          width: 100%; }
-    main .work-advantage {
-      display: none; } }
+    main .stages .container {
+      height: 100%; }
+      main .stages .container .line-index h2 {
+        width: 100%;
+        font-size: 32px; }
+        main .stages .container .line-index h2 span:before {
+          transform: scaleX(0.77);
+          margin-left: -56px; }
+      main .stages .container .stage-list .stage {
+        width: 100%;
+        padding: 20px 10px;
+        height: 165px; }
+        main .stages .container .stage-list .stage h3 {
+          width: 83%;
+          line-height: 1.1;
+          margin-bottom: 10px; }
+        main .stages .container .stage-list .stage .text ul li {
+          font-size: 10px; }
+      main .stages .container .stage-list .stage.consultations {
+        height: 183px; }
+        main .stages .container .stage-list .stage.consultations h3 {
+          line-height: 2.39;
+          margin-bottom: 0; }
+      main .stages .container .stage-list .stage.analysis {
+        margin-top: 20px; }
+      main .stages .container .stage-list .stage.creating {
+        margin-top: 20px;
+        height: 183px; }
+      main .stages .container .stage-list .stage.integration {
+        margin-top: 20px; }
+      main .stages .container .stage-list .stage.escort {
+        margin-top: 20px; }
+        main .stages .container .stage-list .stage.escort h3 {
+          line-height: 2.39; }
+      main .stages .container .stage-list .stage.form {
+        margin-top: 20px;
+        left: 0;
+        width: 100%;
+        margin-right: 0;
+        height: 550px; }
+        main .stages .container .stage-list .stage.form .front {
+          padding: 20px 10px; }
+          main .stages .container .stage-list .stage.form .front .line-index h2 {
+            font-size: 44px; }
+            main .stages .container .stage-list .stage.form .front .line-index h2 span:before {
+              transform: scaleX(0.45);
+              margin-left: -126px; }
+          main .stages .container .stage-list .stage.form .front form.form-horizontal {
+            width: 100%; }
+    main .work-advantage .container .line-index h2 {
+      font-size: 33px;
+      width: 94%;
+      margin: 0 auto;
+      text-align: center; }
+      main .work-advantage .container .line-index h2 span:before {
+        transform: scaleX(0.56);
+        margin-left: -102px; }
+    main .work-advantage .container .work-advantage-list .item {
+      width: 90%;
+      margin-right: 80px;
+      padding: 20px 20px; }
+      main .work-advantage .container .work-advantage-list .item:before {
+        padding-left: 223px;
+        transform: scale(0.8); }
+    main .work-advantage .container .work-advantage-list .item.fair-pricing:before {
+      margin-top: -10px; } }
 @media all and (max-width: 375px) {
   main .how .container .line-index.clients h2 {
     font-size: 30px; }
     main .how .container .line-index.clients h2 span:before {
       margin-top: 7px;
       transform: scaleX(0.77);
-      margin-left: -53px; } }
+      margin-left: -53px; }
+  main .work-advantage-list .item {
+    width: 90%;
+    margin-right: 80px;
+    padding: 20px 20px; }
+    main .work-advantage-list .item:before {
+      margin-top: -13px;
+      padding-left: 180px; }
+    main .work-advantage-list .item h2 {
+      font-size: 15px; }
+    main .work-advantage-list .item .text {
+      font-size: 11px; }
+  main .work-advantage-list .item.fair-pricing:before {
+    margin-top: -27px; } }
 @media all and (max-width: 360px) {
   header .header-fix {
     position: fixed;
@@ -1139,7 +1192,15 @@ main {
     main .stages .container .stage-list .stage .text ul li {
       font-size: 9px; }
   main .stages .container .stage-list .stage.form .front {
-    background-size: 50px; } }
+    background-size: 50px; }
+  main .work-advantage-list .item {
+    width: 90%;
+    margin-right: 80px;
+    padding: 20px 20px; }
+    main .work-advantage-list .item:before {
+      padding-left: 180px; }
+  main .work-advantage-list .item.fair-pricing:before {
+    margin-top: -10px; } }
 @media all and (max-width: 320px) {
   header .header-fix {
     position: fixed;
