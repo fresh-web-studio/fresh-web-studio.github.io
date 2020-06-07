@@ -80,8 +80,7 @@ header .header-fix {
       padding: 14px 15px;
       font-size: 13px; }
     header .header-fix .container .header-top .nav-container nav .top-menu > li > a:hover {
-      color: gray;
-      border-bottom: 1px white solid; }
+      color: #2568ef; }
     header .header-fix .container .header-top .nav-container nav .dropdown:after {
       content: "\f107";
       font-family: "FontAwesome";
@@ -916,6 +915,22 @@ main {
       main .work-advantage .container .work-advantage-list .item .text {
         font-size: 14px; } }
 @media all and (max-width: 1100px) {
+  header .header-fix .container {
+    padding: 0 10px; }
+    header .header-fix .container .header-top .logo {
+      overflow: hidden;
+      width: 110px; }
+      header .header-fix .container .header-top .logo img {
+        width: 100%; }
+    header .header-fix .container .header-top .nav-container nav .top-menu > li {
+      padding: 14px 5px; }
+    header .header-fix .container .header-top .tel a {
+      font-size: 12px; }
+    header .header-fix .container .header-top button {
+      width: 110px; }
+      header .header-fix .container .header-top button .btn {
+        font-size: 8px; }
+
   main .optimization .container .column_left h1 {
     font-size: 54px; }
     main .optimization .container .column_left h1 span:before {
@@ -1264,7 +1279,29 @@ main {
         padding-left: 223px;
         transform: scale(0.8); }
     main .work-advantage .container .work-advantage-list .item.fair-pricing:before {
-      margin-top: -10px; } }
+      margin-top: -10px; }
+    main .projects .container .line-index {
+      width: 100%; }
+      main .projects .container .line-index h2 {
+        width: 100%; }
+    main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container {
+      padding: 75px 43px; }
+      main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block {
+        width: 100%; }
+        main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text .text {
+          font-size: 12px;
+          line-height: 2.3; }
+        main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__info {
+          font-size: 14px;
+          padding-top: 10px;
+          padding-bottom: 10px; }
+      main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block {
+        width: 100%; }
+        main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block img {
+          padding-top: 20px;
+          padding-bottom: 20px; }
+        main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block a button {
+          width: 100%; } }
 @media all and (max-width: 375px) {
   main .how .container .line-index.clients h2 {
     font-size: 30px; }
@@ -1336,7 +1373,25 @@ main {
       font-size: 8px; }
   main .stages .container .stage-list .stage.consultations, main .stages .container .stage-list .stage.creating {
     height: 153px; }
+  main .work-advantage .container .work-advantage-list .item h2 {
+    font-size: 11px; }
   main .work-advantage .container .work-advantage-list .item:before {
-    padding-left: 125px; } }
+    padding-left: 125px; }
+  main .projects {
+    padding: 40px 0; }
+    main .projects .container .line-index h2 {
+      font-size: 34px; }
+      main .projects .container .line-index h2 span:before {
+        transform: scaleX(0.78);
+        margin-left: -39px; }
+    main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__info {
+      font-size: 12px; }
+    main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block {
+      width: 100%; }
+      main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block img {
+        padding-top: 20px;
+        padding-bottom: 20px; }
+      main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block a button {
+        width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
