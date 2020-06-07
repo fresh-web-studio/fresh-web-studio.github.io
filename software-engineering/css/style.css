@@ -1016,6 +1016,18 @@ main {
             text-decoration: underline;
             color: #4b4b4b; }
 
+footer .container {
+  text-align: center;
+  font-size: 13px;
+  font-family: "DINPro";
+  color: #606060;
+  line-height: 4.462; }
+  footer .container a {
+    font-size: 13px;
+    font-family: "DINPro";
+    color: #606060;
+    line-height: 4.462; }
+
 /*======================================================*/
 /*======================================================*/
 /*======================================================*/
@@ -1174,7 +1186,8 @@ main {
   main .optimization .container .column_left {
     width: 70%; }
     main .optimization .container .column_left h1 {
-      font-size: 60px; }
+      font-size: 42px;
+      width: 72%; }
   main .work-advantage .container .work-advantage-list .item:before {
     padding-left: 180px; }
   main .how .container .line-index h2 {
@@ -1182,11 +1195,17 @@ main {
     main .how .container .line-index h2 span:before {
       transform: scaleX(0.3);
       margin-left: -155px; }
+  main .how .container .line-index.how-h h2 span:before {
+    transform: scaleX(0.65);
+    margin-left: -77px; }
+  main .how .container .line-index.clients h2 span:before {
+    transform: scaleX(0.9);
+    margin-left: -22px; }
   main .how .container .line-index.find-out h2 {
     font-size: 36px; }
     main .how .container .line-index.find-out h2 span:before {
-      transform: scaleX(0.9);
-      margin-left: -22px; }
+      transform: scaleX(0.3);
+      margin-left: -156px; }
   main .how .container .form-horizontal {
     width: 40%; }
   main .stages .container .line-index h2 {
@@ -1213,12 +1232,14 @@ main {
     main .projects .container .line-index h2 span:before {
       transform: scaleX(0.81);
       margin-left: -33px; }
-  main .projects .container .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__info {
-    font-size: 17px;
-    padding-bottom: 10px; }
-  main .projects .container .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text .text {
-    font-size: 11px;
-    line-height: 2.3; }
+  main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container {
+    padding: 75px 50px; }
+    main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__info {
+      font-size: 17px;
+      padding-bottom: 10px; }
+    main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text .text {
+      font-size: 11px;
+      line-height: 2.3; }
   main .contact .container .left-block .form .front {
     padding: 75px 30px; }
     main .contact .container .left-block .form .front .line-index h2 {
@@ -1389,7 +1410,8 @@ main {
         width: 100%;
         z-index: 3; }
         main .optimization .container .column_left h1 {
-          font-size: 36px; }
+          font-size: 36px;
+          width: 100%; }
           main .optimization .container .column_left h1 span:before {
             transform: scaleX(0.53);
             margin-left: -108px; }
@@ -1479,14 +1501,13 @@ main {
         height: 165px; }
         main .stages .container .stage-list .stage h3 {
           width: 83%;
-          line-height: 1.1;
+          line-height: 3.39;
           margin-bottom: 10px; }
         main .stages .container .stage-list .stage .text ul li {
           font-size: 10px; }
       main .stages .container .stage-list .stage.consultations {
         height: 183px; }
         main .stages .container .stage-list .stage.consultations h3 {
-          line-height: 2.39;
           margin-bottom: 0; }
       main .stages .container .stage-list .stage.analysis {
         margin-top: 20px; }
@@ -1497,8 +1518,6 @@ main {
         margin-top: 20px; }
       main .stages .container .stage-list .stage.escort {
         margin-top: 20px; }
-        main .stages .container .stage-list .stage.escort h3 {
-          line-height: 2.39; }
       main .stages .container .stage-list .stage.form {
         margin-top: 20px;
         left: 0;
@@ -1560,7 +1579,27 @@ main {
         transform: scaleX(0.84);
         margin-left: -36px; }
     main .development .container .items-list .item {
-      width: 100%; } }
+      width: 100%; }
+    main .contact .container .left-block {
+      width: 100%; }
+      main .contact .container .left-block .form {
+        left: 0;
+        height: 100%; }
+        main .contact .container .left-block .form .front {
+          padding: 20px 0;
+          width: 97%; }
+          main .contact .container .left-block .form .front .line-index .tel {
+            padding: 20px 0; }
+    main .contact .container .right-block {
+      padding: 40px 20px 10px;
+      width: 100%; }
+      main .contact .container .right-block .front .line-index h2 {
+        font-size: 36px; }
+        main .contact .container .right-block .front .line-index h2 span:before {
+          transform: scaleX(0.34);
+          margin-left: -151px; }
+      main .contact .container .right-block .front .form-horizontal {
+        width: 100%; } }
 @media all and (max-width: 375px) {
   main .how .container .line-index.clients h2 {
     font-size: 30px; }
@@ -1585,7 +1624,14 @@ main {
     font-size: 18px; }
     main .development .container .line-index h2 span:before {
       transform: scaleX(0.62);
-      margin-left: -85px; } }
+      margin-left: -85px; }
+
+  footer .container {
+    line-height: 1;
+    padding: 10px; }
+    footer .container a {
+      line-height: 1;
+      text-decoration: underline; } }
 @media all and (max-width: 360px) {
   header .header-fix {
     position: fixed;
@@ -1656,6 +1702,13 @@ main {
         padding-top: 20px;
         padding-bottom: 20px; }
       main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block a button {
-        width: 100%; } }
+        width: 100%; }
+  main .contact .container .left-block .form .front .line-index h2 {
+    font-size: 28px; }
+    main .contact .container .left-block .form .front .line-index h2 span:before {
+      transform: scaleX(0.6);
+      margin-left: -93px; }
+  main .contact .container .left-block .form .front .line-index .tel a {
+    font-size: 28px; } }
 
 /*# sourceMappingURL=style.css.map */

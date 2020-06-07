@@ -1404,7 +1404,22 @@ main {
     }
   }
 }
+footer {
+  .container {
+    text-align: center;
+    font-size: 13px;
+    font-family: "DINPro";
+    color: rgb(96, 96, 96);
+    line-height: 4.462;
+    a {
+      font-size: 13px;
+      font-family: "DINPro";
+      color: rgb(96, 96, 96);
+      line-height: 4.462;
+    }
+  }
 
+}
 
 
 /*======================================================*/
@@ -1970,7 +1985,8 @@ main {
         .column_left {
           width: 70%;
           h1 {
-            font-size: 60px;
+            font-size: 42px;
+            width: 72%;
             span {
               &:before {
               }
@@ -2027,13 +2043,33 @@ main {
             }
           }
         }
+        .line-index.how-h {
+          h2 {
+            span {
+              &:before {
+                transform: scaleX(0.65);
+                margin-left: -77px;
+              }
+            }
+          }
+        }
+        .line-index.clients {
+          h2 {
+            span {
+              &:before {
+                transform: scaleX(.9);
+                margin-left: -22px;
+              }
+            }
+          }
+        }
         .line-index.find-out {
           h2 {
             font-size: 36px;
             span {
               &:before {
-                transform: scaleX(.9);
-                margin-left: -22px;
+                transform: scaleX(0.3);
+                margin-left: -156px;
               }
             }
           }
@@ -2111,55 +2147,56 @@ main {
             }
           }
         }
-        .slide-wrapper {
-          .container {
-            #owl-carousel1.owl-carousel.owl-theme {
-              .slide-item.slide1 {
-                .container {
-                  .left-block {
-                    .slide_item__header {
+      }
+      .slide-wrapper {
+        .container {
+          #owl-carousel1.owl-carousel.owl-theme {
+            .slide-item.slide1 {
+              .container {
+                padding: 75px 50px;
+                .left-block {
+                  .slide_item__header {
+                  }
+                  .slide_item__info {
+                    font-size: 17px;
+                    padding-bottom: 10px;
+                  }
+                  .slide_item__text {
+                    h4 {
                     }
-                    .slide_item__info {
-                      font-size: 17px;
-                      padding-bottom: 10px;
+                    .text {
+                      font-size: 11px;
+                      line-height: 2.3;
                     }
-                    .slide_item__text {
-                      h4 {
-                      }
-                      .text {
-                        font-size: 11px;
-                        line-height: 2.3;
-                      }
+                  }
+                  .slide_item__text.situation {
+                    &:before {
                     }
-                    .slide_item__text.situation {
+                    h4 {}
+                    .text {}
+                  }
+                  .slide_item__text.implemented {
+                    &:before {
+                    }
+                    h4 {}
+                    .text {}
+                  }
+                  .slide_item__text.results {
+                    &:before {
+                    }
+                    h4 {}
+                    .text {
                       &:before {
-                      }
-                      h4 {}
-                      .text {}
-                    }
-                    .slide_item__text.implemented {
-                      &:before {
-                      }
-                      h4 {}
-                      .text {}
-                    }
-                    .slide_item__text.results {
-                      &:before {
-                      }
-                      h4 {}
-                      .text {
-                        &:before {
-                        }
                       }
                     }
                   }
-                  .right-block {
-                    img {
-                    }
-                    a {
-                      button {
-                        &:hover {
-                        }
+                }
+                .right-block {
+                  img {
+                  }
+                  a {
+                    button {
+                      &:hover {
                       }
                     }
                   }
@@ -2632,6 +2669,7 @@ main {
           z-index: 3;
           h1 {
             font-size: 36px;
+            width: 100%;
             span {
               &:before {
                 transform: scaleX(0.53);
@@ -2808,7 +2846,7 @@ main {
             height: 165px;
             h3 {
               width: 83%;
-              line-height: 1.1;
+              line-height: 3.39;
               margin-bottom: 10px;
             }
             .text {
@@ -2822,7 +2860,6 @@ main {
           .stage.consultations {
             height: 183px;
             h3 {
-              line-height: 2.39;
               margin-bottom: 0;
             }
             .text {
@@ -2872,7 +2909,6 @@ main {
           .stage.escort {
             margin-top: 20px;
             h3 {
-              line-height: 2.39;
             }
             .text {
               ul {
@@ -3044,6 +3080,46 @@ main {
         }
       }
     }
+    .contact {
+      .container {
+        .left-block {
+          width: 100%;
+          .form {
+            left: 0;
+            height: 100%;
+            .front {
+              padding: 20px 0;
+              width: 97%;
+              .line-index {
+                .tel {
+                  padding: 20px 0;
+                }
+              }
+            }
+          }
+        }
+        .right-block {
+          padding: 40px 20px 10px;
+          width: 100%;
+          .front {
+            .line-index {
+              h2 {
+                font-size: 36px;
+                span {
+                  &:before {
+                    transform: scaleX(0.34);
+                    margin-left: -151px;
+                  }
+                }
+              }
+            }
+            .form-horizontal {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
   }
 }
 @media all and (max-width: 375px) {
@@ -3103,6 +3179,16 @@ main {
             }
           }
         }
+      }
+    }
+  }
+  footer {
+    .container {
+      line-height: 1;
+      padding: 10px;
+      a {
+        line-height: 1;
+        text-decoration: underline;
       }
     }
   }
@@ -3337,5 +3423,30 @@ main {
         }
       }
     }
+    .contact {
+      .container {
+        .left-block {
+          .form {
+            .front {
+              .line-index {
+                h2 {
+                  font-size: 28px;
+                  span {
+                    &:before {
+                      transform: scaleX(0.6);
+                      margin-left: -93px;
+                    }
+                  }
+                }
+                .tel a {
+                  font-size: 28px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
+
 }
