@@ -835,6 +835,186 @@ main {
           left: -6px; }
         main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .owl-nav button.owl-next {
           right: -6px; }
+  main .development .container {
+    padding: 75px 10px;
+    display: flex;
+    flex-wrap: wrap; }
+    main .development .container .line-index {
+      z-index: 3;
+      width: 100%; }
+      main .development .container .line-index h2 {
+        font-size: 45px;
+        font-family: "DinPro";
+        color: #313131;
+        line-height: 1.222;
+        text-align: center;
+        margin: 0 auto;
+        width: 60%; }
+        main .development .container .line-index h2 span {
+          font-family: "DinPro"; }
+          main .development .container .line-index h2 span:before {
+            content: url(../img/line.png);
+            position: absolute;
+            z-index: -1;
+            margin-top: 8px;
+            transform: scaleX(1.45);
+            margin-left: 101px; }
+    main .development .container .items-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-top: 68px; }
+      main .development .container .items-list .item {
+        width: 33.3333333333%;
+        text-align: center; }
+        main .development .container .items-list .item .info {
+          padding: 20px 20px 40px;
+          font-size: 16px;
+          font-family: "DINPro";
+          color: #313131;
+          line-height: 1.625; }
+  main .contact .container {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    main .contact .container .left-block {
+      width: 50%; }
+      main .contact .container .left-block .form {
+        padding: 0;
+        margin-top: 22px;
+        left: 10px;
+        height: 463px;
+        position: relative;
+        margin-left: 10px;
+        background-color: #2260dd; }
+        main .contact .container .left-block .form .front {
+          top: 10px;
+          left: 10px;
+          padding: 75px 60px;
+          z-index: 2;
+          background-color: #fff;
+          width: 100%;
+          position: relative;
+          box-shadow: 0px 7px 84px 0px rgba(0, 0, 0, 0.28);
+          text-align: center; }
+          main .contact .container .left-block .form .front .line-index h2 {
+            font-size: 42px;
+            font-family: "DinProBlack"; }
+            main .contact .container .left-block .form .front .line-index h2 span {
+              font-family: "DinProBlack"; }
+              main .contact .container .left-block .form .front .line-index h2 span:before {
+                content: url(../img/line.png);
+                position: absolute;
+                z-index: -1;
+                margin-top: 8px;
+                transform: scaleX(0.83);
+                margin-left: -36px; }
+          main .contact .container .left-block .form .front .line-index .tel {
+            padding: 50px 0 40px 0; }
+            main .contact .container .left-block .form .front .line-index .tel a {
+              font-size: 45px;
+              font-family: "DinProBlack";
+              color: black;
+              line-height: 1.657;
+              text-align: center; }
+          main .contact .container .left-block .form .front .line-index .mail a {
+            font-family: "Myriad Pro";
+            font-size: 18px;
+            color: black; }
+          main .contact .container .left-block .form .front .line-index .social {
+            display: flex;
+            justify-content: center; }
+            main .contact .container .left-block .form .front .line-index .social a {
+              width: 24px;
+              height: 15px;
+              margin: 35px 10px 0 10px; }
+            main .contact .container .left-block .form .front .line-index .social a.whatsapp {
+              background: url(../img/whatsapp.jpg);
+              display: block; }
+            main .contact .container .left-block .form .front .line-index .social a.whatsapp:hover {
+              background: url(../img/whatsapp-a.jpg); }
+            main .contact .container .left-block .form .front .line-index .social a.vk {
+              background: url(../img/vk.jpg);
+              display: block; }
+            main .contact .container .left-block .form .front .line-index .social a.vk:hover {
+              background: url(../img/vk-a.jpg); }
+            main .contact .container .left-block .form .front .line-index .social a.facebook {
+              background: url(../img/facebook.jpg);
+              display: block; }
+            main .contact .container .left-block .form .front .line-index .social a.facebook:hover {
+              background: url(../img/facebook-a.jpg); }
+    main .contact .container .right-block {
+      width: 50%;
+      padding-left: 120px; }
+      main .contact .container .right-block .front .line-index h2 {
+        font-size: 70px;
+        margin: 0;
+        width: 62%;
+        text-align: left;
+        font-family: "DinProBlack"; }
+        main .contact .container .right-block .front .line-index h2 span {
+          font-family: "DinProBlack"; }
+          main .contact .container .right-block .front .line-index h2 span:before {
+            content: url(../img/line.png);
+            position: absolute;
+            z-index: -1;
+            margin-top: 8px;
+            transform: scaleX(0.68);
+            margin-left: -74px; }
+      main .contact .container .right-block .front .info {
+        font-size: 18px;
+        font-family: "DinPro";
+        color: black;
+        line-height: 1.611; }
+      main .contact .container .right-block .front .form-horizontal {
+        padding-top: 47px;
+        width: 360px; }
+        main .contact .container .right-block .front .form-horizontal .form-group .input-name {
+          padding-bottom: 20px; }
+          main .contact .container .right-block .front .form-horizontal .form-group .input-name input#company5.inputbox {
+            width: 100%;
+            height: 55px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #eff2f8;
+            border-radius: 26px;
+            background-color: #eff2f8;
+            padding-left: 25px;
+            font-size: 16px; }
+        main .contact .container .right-block .front .form-horizontal .form-group .input-phone {
+          padding-bottom: 20px; }
+          main .contact .container .right-block .front .form-horizontal .form-group .input-phone input#phone5.form-control {
+            width: 100%;
+            height: 55px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #eff2f8;
+            border-radius: 26px;
+            background-color: #eff2f8;
+            padding-left: 25px;
+            font-size: 16px; }
+        main .contact .container .right-block .front .form-horizontal .form-group a.button button {
+          border-radius: 30px;
+          background-color: #2568ef;
+          border: 0;
+          width: 100%;
+          height: 55px;
+          cursor: pointer;
+          text-transform: uppercase;
+          font-size: 16px;
+          color: white; }
+          main .contact .container .right-block .front .form-horizontal .form-group a.button button:hover {
+            background-color: #0688fa; }
+        main .contact .container .right-block .front .form-horizontal .text {
+          padding: 30px;
+          font-size: 13px;
+          text-align: center;
+          color: #4b4b4b; }
+          main .contact .container .right-block .front .form-horizontal .text a {
+            font-weight: 700;
+            text-decoration: underline;
+            color: #4b4b4b; }
 
 /*======================================================*/
 /*======================================================*/
@@ -968,7 +1148,9 @@ main {
         font-size: 14px; }
   main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .left-block .slide_item__text .text {
     font-size: 13px;
-    line-height: 3.3; } }
+    line-height: 3.3; }
+  main .development .container .line-index h2 {
+    width: 80%; } }
 @media all and (max-width: 975px) {
   main .optimization .container .column_left h1 {
     font-size: 60px; } }
@@ -1301,7 +1483,15 @@ main {
           padding-top: 20px;
           padding-bottom: 20px; }
         main .projects .slide-wrapper .container #owl-carousel1.owl-carousel.owl-theme .slide-item.slide1 .container .right-block a button {
-          width: 100%; } }
+          width: 100%; }
+    main .development .container .line-index h2 {
+      font-size: 25px;
+      width: 100%; }
+      main .development .container .line-index h2 span:before {
+        transform: scaleX(0.84);
+        margin-left: -36px; }
+    main .development .container .items-list .item {
+      width: 100%; } }
 @media all and (max-width: 375px) {
   main .how .container .line-index.clients h2 {
     font-size: 30px; }
@@ -1321,7 +1511,12 @@ main {
     main .work-advantage .container .work-advantage-list .item .text {
       font-size: 11px; }
   main .work-advantage .container .work-advantage-list .item.fair-pricing:before {
-    margin-top: -27px; } }
+    margin-top: -27px; }
+  main .development .container .line-index h2 {
+    font-size: 18px; }
+    main .development .container .line-index h2 span:before {
+      transform: scaleX(0.62);
+      margin-left: -85px; } }
 @media all and (max-width: 360px) {
   header .header-fix {
     position: fixed;
