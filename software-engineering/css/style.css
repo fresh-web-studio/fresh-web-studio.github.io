@@ -1602,12 +1602,15 @@ footer .container {
   main {
     padding-top: 62px; }
     main .optimization .container {
+      padding: 0;
       text-align: center;
       background-position: center center;
       z-index: 0; }
       main .optimization .container .column_left {
         width: 100%;
-        z-index: 3; }
+        z-index: 3;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 0 10px; }
         main .optimization .container .column_left h1 {
           font-size: 36px;
           width: 100%; }
@@ -1663,7 +1666,7 @@ footer .container {
           transform: scaleX(0.65);
           margin-left: -80px; }
       main .how .container .line-index.clients {
-        padding-top: 270px; }
+        padding-top: 300px; }
         main .how .container .line-index.clients h2 {
           font-size: 32px; }
           main .how .container .line-index.clients h2 span:before {
