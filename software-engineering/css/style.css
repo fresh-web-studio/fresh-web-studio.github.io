@@ -1239,6 +1239,9 @@ footer .container {
       main .work-advantage .container .work-advantage-list .item .text {
         font-size: 14px; } }
 @media all and (max-width: 1100px) {
+  .modal > div {
+    margin: 5% auto; }
+
   header .header-fix .container {
     padding: 0 10px; }
     header .header-fix .container .header-top .logo {
@@ -1386,16 +1389,80 @@ footer .container {
     main .contact .container .right-block .front .form-horizontal {
       width: 90%; } }
 @media all and (max-width: 770px) {
-  header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
-    padding: 10px 4px; }
-  header .header-fix .container .header .time-date .text {
-    font-size: 12px; }
-  header .header-fix .container .header .cart a .text {
-    font-size: 12px; }
+  header .header-fix .container .header-top .nav-container nav .top-menu > li > a {
+    font-size: 10px; }
 
   main .optimization .container .column_left h1 {
-    font-size: 60px; } }
+    font-size: 60px; }
+  main .how .container .line-index h2 {
+    width: 57%; }
+  main .work-advantage .container .work-advantage-list .item {
+    width: 36%;
+    margin-right: 103px; }
+    main .work-advantage .container .work-advantage-list .item:before {
+      padding-left: 137px; }
+  main .development .container .line-index h2 {
+    font-size: 36px; }
+    main .development .container .line-index h2 span:before {
+      transform: scaleX(1.18);
+      margin-left: 39px; }
+  main .contact .container .left-block .form {
+    height: 436px; }
+    main .contact .container .left-block .form .front .line-index h2 {
+      font-size: 34px; }
+      main .contact .container .left-block .form .front .line-index h2 span:before {
+        transform: scaleX(0.7);
+        margin-left: -70px; }
+    main .contact .container .left-block .form .front .line-index .tel a {
+      font-size: 36px; }
+  main .contact .container .right-block {
+    padding-left: 70px; }
+    main .contact .container .right-block .front .line-index h2 {
+      font-size: 34px; }
+      main .contact .container .right-block .front .line-index h2 span:before {
+        transform: scaleX(0.31);
+        margin-left: -155px; }
+    main .contact .container .right-block .front .line-index .tel a {
+      font-size: 36px; }
+    main .contact .container .right-block .front .form-horizontal {
+      width: 90%; } }
 @media all and (max-width: 670px) {
+  .modal > div {
+    width: 100%;
+    margin: 13% auto;
+    /* По умолчанию минимизируем анимацию */
+    -webkit-animation: minimise 500ms linear;
+    /* Придаем хороший вид */
+    padding: 20px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+
+  .modal h3 {
+    font-size: 26px; }
+  .modal .info {
+    margin: 10px;
+    text-align: center; }
+
+  .modal a[href="#close"]:after {
+    /* Позиционируем */
+    right: 3px;
+    top: -10px; }
+
+  .modal .input-phone input[type="text"], .modal .input-name input[type="text"] {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dadada;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    font-size: 20px;
+    width: 100%;
+    height: 46px;
+    padding: 0px 20px; }
+
+  .modal .btn button {
+    margin-top: 0px;
+    height: 42px; }
+
   header .header-fix .container .header-top {
     display: block;
     height: 62px; }
@@ -1800,6 +1867,9 @@ footer .container {
   main .work-advantage .container .work-advantage-list .item.fair-pricing:before {
     margin-top: -26px; } }
 @media all and (max-width: 320px) {
+  .modal > div {
+    margin: 3% auto; }
+
   header .header-fix {
     position: fixed;
     background-color: white;
