@@ -76,9 +76,7 @@ header .header-fix {
       color: #191919;
       transition: .2s linear; }
     header .header-fix .container .header-top .nav-container nav .top-menu > li > a.active {
-      display: block;
-      padding: 14px 15px;
-      font-size: 13px; }
+      display: block; }
     header .header-fix .container .header-top .nav-container nav .top-menu > li > a:hover {
       color: #2568ef; }
     header .header-fix .container .header-top .nav-container nav .dropdown:after {
