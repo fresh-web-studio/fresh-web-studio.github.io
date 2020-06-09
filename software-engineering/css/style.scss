@@ -3141,8 +3141,9 @@ footer {
             width: 100%;
             padding: 20px 10px;
             height: 165px;
+            background-size: 16%;
             h3 {
-              width: 83%;
+              width: 85%;
               line-height: 3.39;
               margin-bottom: 10px;
             }
@@ -3437,6 +3438,108 @@ footer {
         }
       }
     }
+    .stages {
+      .container {
+        .line-index {
+          h2 {
+            span {
+              &:before {
+              }
+            }
+          }
+        }
+        .stage-list {
+          .stage {
+            height: 159px;
+            h3 {
+              font-size: 11px;
+            }
+            .text {
+              font-size: 9px;
+              ul {
+                li {
+                }
+              }
+            }
+          }
+          .stage.consultations {
+            h3 {
+            }
+            .text {
+              ul {
+                li {}
+              }
+            }
+          }
+          .stage.analysis {
+            h3 {}
+            .text {
+              ul {
+                li {}
+              }
+            }
+          }
+          .stage.creating {
+            h3 {}
+            .text {
+              ul {
+                li {}
+                li {}
+                li {}
+                li {}
+              }
+            }
+          }
+          .stage.integration {
+            h3 {}
+            .text {
+              ul {
+                li {}
+              }
+            }
+          }
+          .stage.escort {
+            h3 {
+            }
+            .text {
+              ul {
+                li {}
+              }
+            }
+          }
+          .stage.form {
+            .front {
+              .line-index {
+                h2 {
+                  span {
+                    &:before {
+                    }
+                  }
+                }
+              }
+              .info {}
+              form.form-horizontal {
+                .form-group {
+                  .input-name {
+                    input#company4.inputbox {}
+                  }
+                  .input-phone {
+                    input#phone4.form-control {}
+                  }
+                  a.button {
+                    button.btn {}
+                  }
+                }
+                .text {
+                  a {}
+                }
+              }
+            }
+            .back {}
+          }
+        }
+      }
+    }
     .work-advantage {
       .container {
         .work-advantage-list {
@@ -3566,7 +3669,6 @@ footer {
           .stage {
             background-size: 50px;
             h3 {
-              font-size: 18px;
             }
             .text {
               ul {
@@ -3654,12 +3756,25 @@ footer {
     .stages .container .stage-list {
       .stage {
         height: 140px;
+        h3 {
+          font-size: 9px;
+          &:before {
+            margin-top: -1px;
+          }
+        }
         .text ul li {
           font-size: 8px;
         }
       }
       .stage.consultations, .stage.creating {
         height: 153px;
+      }
+      .stage.consultations {
+        h3 {
+          &:before {
+            margin-top: -1px;
+          }
+        }
       }
     }
     .work-advantage {

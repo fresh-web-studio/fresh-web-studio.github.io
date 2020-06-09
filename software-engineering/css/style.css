@@ -1701,9 +1701,10 @@ footer .container {
       main .stages .container .stage-list .stage {
         width: 100%;
         padding: 20px 10px;
-        height: 165px; }
+        height: 165px;
+        background-size: 16%; }
         main .stages .container .stage-list .stage h3 {
-          width: 83%;
+          width: 85%;
           line-height: 3.39;
           margin-bottom: 10px; }
         main .stages .container .stage-list .stage .text ul li {
@@ -1810,6 +1811,12 @@ footer .container {
       margin-top: 7px;
       transform: scaleX(0.77);
       margin-left: -53px; }
+  main .stages .container .stage-list .stage {
+    height: 159px; }
+    main .stages .container .stage-list .stage h3 {
+      font-size: 11px; }
+    main .stages .container .stage-list .stage .text {
+      font-size: 9px; }
   main .work-advantage .container .work-advantage-list .item {
     width: 90%;
     margin-right: 80px;
@@ -1856,8 +1863,6 @@ footer .container {
       margin-left: -85px; }
   main .stages .container .stage-list .stage {
     background-size: 50px; }
-    main .stages .container .stage-list .stage h3 {
-      font-size: 18px; }
     main .stages .container .stage-list .stage .text ul li {
       font-size: 9px; }
   main .stages .container .stage-list .stage.form .front {
@@ -1885,10 +1890,16 @@ footer .container {
 
   main .stages .container .stage-list .stage {
     height: 140px; }
+    main .stages .container .stage-list .stage h3 {
+      font-size: 9px; }
+      main .stages .container .stage-list .stage h3:before {
+        margin-top: -1px; }
     main .stages .container .stage-list .stage .text ul li {
       font-size: 8px; }
   main .stages .container .stage-list .stage.consultations, main .stages .container .stage-list .stage.creating {
     height: 153px; }
+  main .stages .container .stage-list .stage.consultations h3:before {
+    margin-top: -1px; }
   main .work-advantage .container .work-advantage-list .item h2 {
     font-size: 11px; }
   main .work-advantage .container .work-advantage-list .item:before {
