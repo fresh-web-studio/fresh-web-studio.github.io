@@ -406,6 +406,7 @@ header {
         .tel {
           display: flex;
           align-items: center;
+          padding: 2px 0;
           i.phone-icon {
             display: block;
             margin-right: 10px;
@@ -1432,7 +1433,7 @@ main {
                   line-height: 1.657;
                   text-align: center;
                 }
-                padding: 50px 0 40px 0;
+                padding: 10px 0;
               }
               .mail {
                 a {
@@ -2670,7 +2671,7 @@ footer {
             display: none;
           }
           .tel {
-            padding-top: 22px;
+            padding-top: 6px;
           }
           .nav-container {
             nav {
