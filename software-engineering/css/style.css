@@ -1385,20 +1385,20 @@ footer .container {
 /*======================================================*/
 /*======================================================*/
 @media all and (max-width: 1200px) {
-  header .header-fix .container {
+  header .container {
     padding: 0 10px; }
-    header .header-fix .container .header-top .logo {
+    header .container .header-top .logo {
       overflow: hidden;
       width: 110px; }
-      header .header-fix .container .header-top .logo img {
+      header .container .header-top .logo img {
         width: 100%; }
-    header .header-fix .container .header-top .nav-container nav .top-menu > li {
+    header .container .header-top .nav-container nav .top-menu > li {
       padding: 14px 14px; }
-    header .header-fix .container .header-top .tel a {
+    header .container .header-top .tel a {
       font-size: 14px; }
-    header .header-fix .container .header-top button {
+    header .container .header-top button {
       width: 110px; }
-      header .header-fix .container .header-top button .btn {
+      header .container .header-top button .btn {
         font-size: 8px; }
 
   main .optimization .container {
@@ -1463,20 +1463,20 @@ footer .container {
   .modal > div {
     margin: 5% auto; }
 
-  header .header-fix .container {
+  header .container {
     padding: 0 10px; }
-    header .header-fix .container .header-top .logo {
+    header .container .header-top .logo {
       overflow: hidden;
       width: 110px; }
-      header .header-fix .container .header-top .logo img {
+      header .container .header-top .logo img {
         width: 100%; }
-    header .header-fix .container .header-top .nav-container nav .top-menu > li {
+    header .container .header-top .nav-container nav .top-menu > li {
       padding: 14px 5px; }
-    header .header-fix .container .header-top .tel a {
+    header .container .header-top .tel a {
       font-size: 12px; }
-    header .header-fix .container .header-top button {
+    header .container .header-top button {
       width: 110px; }
-      header .header-fix .container .header-top button .btn {
+      header .container .header-top button .btn {
         font-size: 8px; }
 
   main .optimization .container .column_left h1 {
@@ -1528,15 +1528,15 @@ footer .container {
       transform: scaleX(0.78);
       margin-left: -52px; } }
 @media all and (max-width: 890px) {
-  header .header-fix .container .header nav.header-nav ul.nav-menu li.menu-item {
+  header .container .header nav.header-nav ul.nav-menu li.menu-item {
     padding: 10px 7px; }
 
   main .optimization .container .column_left h1 {
     font-size: 60px; } }
 @media all and (max-width: 835px) {
-  header .header-fix .container .header-top .logo {
+  header .container .header-top .logo {
     width: 80px; }
-  header .header-fix .container .header-top .nav-container nav .top-menu > li > a {
+  header .container .header-top .nav-container nav .top-menu > li > a {
     font-size: 11px; }
 
   main .optimization .container .column_left {
@@ -1610,7 +1610,7 @@ footer .container {
     main .contact .container .right-block .front .form-horizontal {
       width: 90%; } }
 @media all and (max-width: 770px) {
-  header .header-fix .container .header-top .nav-container nav .top-menu > li > a {
+  header .container .header-top .nav-container nav .top-menu > li > a {
     font-size: 10px; }
 
   main .optimization .container .column_left h1 {
@@ -1684,27 +1684,27 @@ footer .container {
     margin-top: 0px;
     height: 42px; }
 
-  header .header-fix .container .header-top {
+  header .container .header-top {
     display: block;
     height: 62px; }
-    header .header-fix .container .header-top .logo {
+    header .container .header-top .logo {
       width: 80px;
       float: left;
       margin: 22px 17px 1px 7px; }
-    header .header-fix .container .header-top button {
+    header .container .header-top button {
       display: none; }
-    header .header-fix .container .header-top .tel {
+    header .container .header-top .tel {
       padding-top: 6px; }
-    header .header-fix .container .header-top .nav-container nav {
+    header .container .header-top .nav-container nav {
       position: initial;
       /* скрываем чекбокс */
       /* стилизуем кнопку */
       /* добавляем "гамбургер" */
       /* контейнер меню */
       /* элементы меню */ }
-      header .header-fix .container .header-top .nav-container nav #menu-toggle {
+      header .container .header-top .nav-container nav #menu-toggle {
         opacity: 0; }
-      header .header-fix .container .header-top .nav-container nav .menu-btn {
+      header .container .header-top .nav-container nav .menu-btn {
         display: flex;
         /* используем flex для центрирования содержимого */
         align-items: center;
@@ -1716,21 +1716,21 @@ footer .container {
         height: 25px;
         cursor: pointer;
         z-index: 6; }
-      header .header-fix .container .header-top .nav-container nav .menu-btn > span,
-      header .header-fix .container .header-top .nav-container nav .menu-btn > span::before,
-      header .header-fix .container .header-top .nav-container nav .menu-btn > span::after {
+      header .container .header-top .nav-container nav .menu-btn > span,
+      header .container .header-top .nav-container nav .menu-btn > span::before,
+      header .container .header-top .nav-container nav .menu-btn > span::after {
         display: block;
         position: absolute;
         width: 25px;
         height: 2px;
         background-color: #2568ef; }
-      header .header-fix .container .header-top .nav-container nav .menu-btn > span::before {
+      header .container .header-top .nav-container nav .menu-btn > span::before {
         content: '';
         top: -6px; }
-      header .header-fix .container .header-top .nav-container nav .menu-btn > span::after {
+      header .container .header-top .nav-container nav .menu-btn > span::after {
         content: '';
         top: 6px; }
-      header .header-fix .container .header-top .nav-container nav .top-menu {
+      header .container .header-top .nav-container nav .top-menu {
         display: block;
         position: absolute;
         visibility: hidden;
@@ -1742,72 +1742,72 @@ footer .container {
         background-color: #ffffff;
         box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
         z-index: 4; }
-        header .header-fix .container .header-top .nav-container nav .top-menu .menu-item {
+        header .container .header-top .nav-container nav .top-menu .menu-item {
           padding: 0;
           line-height: 1.4; }
-        header .header-fix .container .header-top .nav-container nav .top-menu .menu-item.active {
+        header .container .header-top .nav-container nav .top-menu .menu-item.active {
           background-color: #CFD8DC; }
-      header .header-fix .container .header-top .nav-container nav .menu-link {
+      header .container .header-top .nav-container nav .menu-link {
         display: block;
         color: #383838;
         font-weight: 100;
         text-decoration: none; }
-      header .header-fix .container .header-top .nav-container nav .menu-link:hover {
+      header .container .header-top .nav-container nav .menu-link:hover {
         background-color: #CFD8DC; }
-      header .header-fix .container .header-top .nav-container nav #menu-toggle:checked ~ .menu-btn > span {
+      header .container .header-top .nav-container nav #menu-toggle:checked ~ .menu-btn > span {
         transform: rotate(45deg); }
-      header .header-fix .container .header-top .nav-container nav #menu-toggle:checked ~ .menu-btn > span::before {
+      header .container .header-top .nav-container nav #menu-toggle:checked ~ .menu-btn > span::before {
         top: 0;
         transform: rotate(0); }
-      header .header-fix .container .header-top .nav-container nav #menu-toggle:checked ~ .menu-btn > span::after {
+      header .container .header-top .nav-container nav #menu-toggle:checked ~ .menu-btn > span::after {
         top: 0;
         transform: rotate(90deg); }
-      header .header-fix .container .header-top .nav-container nav #menu-toggle:checked ~ .top-menu {
+      header .container .header-top .nav-container nav #menu-toggle:checked ~ .top-menu {
         visibility: visible;
         left: 0; }
-      header .header-fix .container .header-top .nav-container nav .menu-btn > span,
-      header .header-fix .container .header-top .nav-container nav .menu-btn > span::before,
-      header .header-fix .container .header-top .nav-container nav .menu-btn > span::after {
+      header .container .header-top .nav-container nav .menu-btn > span,
+      header .container .header-top .nav-container nav .menu-btn > span::before,
+      header .container .header-top .nav-container nav .menu-btn > span::after {
         transition-duration: .1s; }
-      header .header-fix .container .header-top .nav-container nav .top-menu li {
+      header .container .header-top .nav-container nav .top-menu li {
         width: 100%;
         height: auto !important; }
-      header .header-fix .container .header-top .nav-container nav .top-menu > li {
+      header .container .header-top .nav-container nav .top-menu > li {
         border-bottom: 1px solid #e5e5e5; }
-      header .header-fix .container .header-top .nav-container nav .top-menu > li > a {
+      header .container .header-top .nav-container nav .top-menu > li > a {
         padding: 18px;
         transition: 0s;
         color: #383838; }
-      header .header-fix .container .header-top .nav-container nav .top-menu > li > a:hover {
+      header .container .header-top .nav-container nav .top-menu > li > a:hover {
         color: black; }
-      header .header-fix .container .header-top .nav-container nav .dropright:after {
+      header .container .header-top .nav-container nav .dropright:after {
         content: "\f107"; }
-      header .header-fix .container .header-top .nav-container nav .submenu,
-      header .header-fix .container .header-top .nav-container nav .submenu-standart,
-      header .header-fix .container .header-top .nav-container nav .submenu-standart-submenu {
+      header .container .header-top .nav-container nav .submenu,
+      header .container .header-top .nav-container nav .submenu-standart,
+      header .container .header-top .nav-container nav .submenu-standart-submenu {
         position: relative;
         display: none;
         box-shadow: none;
         padding: 0;
         background: rgba(0, 0, 0, 0.02);
         left: 0; }
-      header .header-fix .container .header-top .nav-container nav .submenu-standart li {
+      header .container .header-top .nav-container nav .submenu-standart li {
         padding: 0; }
-      header .header-fix .container .header-top .nav-container nav .submenu-standart li a {
+      header .container .header-top .nav-container nav .submenu-standart li a {
         padding: 12px 18px; }
-      header .header-fix .container .header-top .nav-container nav .submenu > li {
+      header .container .header-top .nav-container nav .submenu > li {
         border-right: none;
         border-bottom: 1px solid #e5e5e5;
         padding: 18px; }
-      header .header-fix .container .header-top .nav-container nav .submenu h3 {
+      header .container .header-top .nav-container nav .submenu h3 {
         margin: 0 0 10px; }
-      header .header-fix .container .header-top .nav-container nav .submenu .image-header {
+      header .container .header-top .nav-container nav .submenu .image-header {
         margin: 10px 0; }
-      header .header-fix .container .header-top .nav-container nav .submenu li:last-of-type {
+      header .container .header-top .nav-container nav .submenu li:last-of-type {
         border-bottom: none; }
-      header .header-fix .container .header-top .nav-container nav .top-menu > li:hover .submenu,
-      header .header-fix .container .header-top .nav-container nav .top-menu > li:hover .submenu-standart,
-      header .header-fix .container .header-top .nav-container nav .top-menu .submenu-standart > li:hover .submenu-standart-submenu {
+      header .container .header-top .nav-container nav .top-menu > li:hover .submenu,
+      header .container .header-top .nav-container nav .top-menu > li:hover .submenu-standart,
+      header .container .header-top .nav-container nav .top-menu .submenu-standart > li:hover .submenu-standart-submenu {
         display: block; }
 
   main .optimization .container .column_left h1 {
@@ -2065,7 +2065,7 @@ footer .container {
       line-height: 1;
       text-decoration: underline; } }
 @media all and (max-width: 360px) {
-  header .header-fix {
+  header.header {
     position: fixed;
     background-color: white;
     z-index: 99;
@@ -2101,13 +2101,13 @@ footer .container {
   .modal > div {
     margin: 3% auto; }
 
-  header .header-fix {
+  header.header {
     position: fixed;
     background-color: white;
     z-index: 99;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
     width: 100%; }
-    header .header-fix .container .header .cart {
+    header.header .container .header .cart {
       padding-left: 2px; }
 
   main .stages .container .stage-list .stage {
