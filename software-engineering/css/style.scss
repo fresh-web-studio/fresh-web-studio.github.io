@@ -230,11 +230,27 @@ $width-con: 100%;
 }
 
 header {
-  .header-fix {
-    position: fixed;
-    background-color: white;
-    z-index: 99;
+  &.header {
     width: 100%;
+    background-color: white;
+  }
+  &.header.header_fixed {
+    position: fixed;
+    animation: showElement;
+    animation-duration: 1s;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+  }
+  @keyframes showElement{
+    0% {
+      opacity: 0;
+      top: -75px;
+    }
+    100% {
+      opacity: 1;
+      top: 0;
+    }
+  }
     .container {
       .header-top {
         display: flex;
@@ -242,6 +258,9 @@ header {
         justify-content: space-between;
         align-items: center;
         height: 130px;
+        &.header-top_fixed {
+          height: 75px;
+        }
         .nav-container {
           nav {
             ul {
@@ -440,13 +459,14 @@ header {
           }
         }
       }
-    }
-  }
 
+    }
 }
 main {
-  padding-top: 130px;
   .optimization {
+    &.optimization_fixed {
+      padding-top: 130px;
+    }
     .container {
       background-image: url(../img/banner-image-1.jpg);
       background-position: center right;
@@ -3215,43 +3235,61 @@ footer {
 
 @media all and (max-width: 415px) {
   header {
-    .header-fix {
+    &.header {
       position: fixed;
-      background-color: white;
-      z-index: 99;
+      animation: showElement;
+      animation-duration: 0s;
       box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
-      width: 100%;
+      z-index: 99;
+    }
+    &.header_fixed {
+      animation-duration: 0s;
       .container {
-        .header {
-          .logo {
+          .header {
+            .logo {
 
-            a {
-              img.logo-img {}
+              a {
+                img.logo-img {
+                }
+              }
             }
-          }
-          nav.header-nav {
-            input#menu-toggle {}
-            label.menu-btn {
-              span {}
+
+            nav.header-nav {
+              input#menu-toggle {
+              }
+
+              label.menu-btn {
+                span {
+                }
+              }
+
+              ul.nav-menu {
+                li.menu-item {
+                  a.menu-link {
+                  }
+                }
+              }
             }
-            ul.nav-menu {
-              li.menu-item {
-                a.menu-link {}
+
+            .time-date {
+              i.time-date-icon {
+              }
+
+              .text {
+              }
+            }
+
+            .cart {
+              a {
+                i.cart-icon {
+                }
+
+                .text {
+                }
               }
             }
           }
-          .time-date {
-            i.time-date-icon {}
-            .text {}
-          }
-          .cart {
-            a {
-              i.cart-icon {}
-              .text {}
-            }
-          }
         }
-      }
     }
   }
   main {
