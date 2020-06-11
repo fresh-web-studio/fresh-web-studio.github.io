@@ -1819,9 +1819,13 @@ footer .container {
     animation-duration: 0s;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
     z-index: 99; }
+    header.header .container .header-top.header-top_fixed {
+      height: 62px; }
   header.header_fixed {
     animation-duration: 0s; }
 
+  main .optimization.optimization_fixed {
+    padding-top: 0; }
   main .optimization .container {
     padding: 0;
     text-align: center;
