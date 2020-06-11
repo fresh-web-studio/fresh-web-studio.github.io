@@ -1303,6 +1303,309 @@ main {
               }
             }
           }
+          .slide-item.slide2 {
+            .container {
+              padding: 75px 60px;
+              background-color: #fff;
+              .left-block {
+                width: 50%;
+                .slide_item__header {
+                  font-size: 35px;
+                  font-family: "DINPro";
+                  color: rgb(47, 47, 47);
+                  line-height: 0.714;
+                }
+                .slide_item__info {
+                  font-size: 20px;
+                  font-family: "DINPro";
+                  color: rgb(47, 47, 47);
+                  line-height: 2;
+                  padding-bottom: 40px;
+                }
+                .slide_item__text {
+                  margin-left: 40px;
+                  padding-top: 10px;
+                  h4 {
+                    font-size: 17px;
+                    font-family: "DINPro";
+                    color: rgb(47, 47, 47);
+                    font-weight: bold;
+                    line-height: 1.471;
+                  }
+                  .text {
+                    font-size: 15px;
+                    font-family: "DINPro";
+                    color: rgb(47, 47, 47);
+                    line-height: 3.667;
+                  }
+                }
+                .slide_item__text.situation {
+                  &:before {
+                    content: url(../img/risk.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {}
+                }
+                .slide_item__text.implemented {
+                  &:before {
+                    content: url(../img/monitor.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {}
+                }
+                .slide_item__text.results {
+                  &:before {
+                    content: url(../img/idea-s.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {
+                    padding-left: 20px;
+                    &:before {
+                      content: url(../img/tick.jpg);
+                      margin-left: -20px;
+                      margin-top: 2px;
+                      position: absolute;
+                    }
+                  }
+                }
+              }
+              .right-block {
+                width: 50%;
+                text-align: center;
+                img {
+                  padding-bottom: 50px;
+                }
+                a {
+                  button {
+                    border-radius: 30px;
+                    background-color: #2568ef;
+                    border: 0;
+                    height: 55px;
+                    width: 360px;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    color: white;
+                    &:hover {
+                      background-color: #0688fa;
+                    }
+                  }
+
+                }
+              }
+            }
+          }
+          .slide-item.slide3 {
+            .container {
+              padding: 75px 60px;
+              background-color: #fff;
+              .left-block {
+                width: 50%;
+                .slide_item__header {
+                  font-size: 35px;
+                  font-family: "DINPro";
+                  color: rgb(47, 47, 47);
+                  line-height: 0.714;
+                }
+                .slide_item__info {
+                  font-size: 20px;
+                  font-family: "DINPro";
+                  color: rgb(47, 47, 47);
+                  line-height: 2;
+                  padding-bottom: 40px;
+                }
+                .slide_item__text {
+                  margin-left: 40px;
+                  padding-top: 10px;
+                  h4 {
+                    font-size: 17px;
+                    font-family: "DINPro";
+                    color: rgb(47, 47, 47);
+                    font-weight: bold;
+                    line-height: 1.471;
+                  }
+                  .text {
+                    font-size: 15px;
+                    font-family: "DINPro";
+                    color: rgb(47, 47, 47);
+                    line-height: 3.667;
+                  }
+                }
+                .slide_item__text.situation {
+                  &:before {
+                    content: url(../img/risk.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {}
+                }
+                .slide_item__text.implemented {
+                  &:before {
+                    content: url(../img/monitor.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {}
+                }
+                .slide_item__text.results {
+                  &:before {
+                    content: url(../img/idea-s.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {
+                    padding-left: 20px;
+                    &:before {
+                      content: url(../img/tick.jpg);
+                      margin-left: -20px;
+                      margin-top: 2px;
+                      position: absolute;
+                    }
+                  }
+                }
+              }
+              .right-block {
+                width: 50%;
+                text-align: center;
+                img {
+                  padding-bottom: 50px;
+                }
+                a {
+                  button {
+                    border-radius: 30px;
+                    background-color: #2568ef;
+                    border: 0;
+                    height: 55px;
+                    width: 360px;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    color: white;
+                    &:hover {
+                      background-color: #0688fa;
+                    }
+                  }
+
+                }
+              }
+            }
+          }
+          .slide-item.slide4 {
+            .container {
+              padding: 75px 60px;
+              background-color: #fff;
+              .left-block {
+                width: 50%;
+                .slide_item__header {
+                  font-size: 35px;
+                  font-family: "DINPro";
+                  color: rgb(47, 47, 47);
+                  line-height: 0.714;
+                }
+                .slide_item__info {
+                  font-size: 20px;
+                  font-family: "DINPro";
+                  color: rgb(47, 47, 47);
+                  line-height: 2;
+                  padding-bottom: 40px;
+                }
+                .slide_item__text {
+                  margin-left: 40px;
+                  padding-top: 10px;
+                  h4 {
+                    font-size: 17px;
+                    font-family: "DINPro";
+                    color: rgb(47, 47, 47);
+                    font-weight: bold;
+                    line-height: 1.471;
+                  }
+                  .text {
+                    font-size: 15px;
+                    font-family: "DINPro";
+                    color: rgb(47, 47, 47);
+                    line-height: 3.667;
+                  }
+                }
+                .slide_item__text.situation {
+                  &:before {
+                    content: url(../img/risk.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {}
+                }
+                .slide_item__text.implemented {
+                  &:before {
+                    content: url(../img/monitor.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {}
+                }
+                .slide_item__text.results {
+                  &:before {
+                    content: url(../img/idea-s.jpg);
+                    margin-left: -40px;
+                    margin-top: 2px;
+                    position: absolute;
+                  }
+                  h4 {}
+                  .text {
+                    padding-left: 20px;
+                    &:before {
+                      content: url(../img/tick.jpg);
+                      margin-left: -20px;
+                      margin-top: 2px;
+                      position: absolute;
+                    }
+                  }
+                }
+              }
+              .right-block {
+                width: 50%;
+                text-align: center;
+                img {
+                  padding-bottom: 50px;
+                }
+                a {
+                  button {
+                    border-radius: 30px;
+                    background-color: #2568ef;
+                    border: 0;
+                    height: 55px;
+                    width: 360px;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    color: white;
+                    &:hover {
+                      background-color: #0688fa;
+                    }
+                  }
+
+                }
+              }
+            }
+          }
           .owl-nav {
             margin-top: 0px;
             button {
