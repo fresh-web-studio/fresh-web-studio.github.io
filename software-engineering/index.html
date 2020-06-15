@@ -62,17 +62,17 @@
                     Путем создания программного обеспечения для
                     автоматизации работы сотрудников
                 </div>
-                <form class="form-horizontal">
+                <form id="callback_form_1" class="form-horizontal">
                     <div class="form-group">
-                        <div class="input-name">
-                            <input type="text" name="name" class="inputbox" id="name" value="" placeholder="Введите Ваше имя" />
+                        <div class="input-name anim">
+                            <input type="text" name="name" class="inputbox" id="name_1" value="" placeholder="Введите Ваше имя" />
                         </div>
-                        <div class="input-phone">
-                            <input type="text" class="form-control" id="phone" placeholder="+7 (__) ___-__-__" />
+                        <div class="input-phone anim">
+                            <input type="tel" class="form-control" id="phone_1" placeholder="+7 (__) ___-__-__" />
                         </div>
-                        <a href="#" class="button">
-                            <button type="submit" class="btn">ЗАКАЗАТЬ РАЗРАБОТКУ ПО</button>
-                        </a>
+                        <div class="btn">
+                            <div id="send_1" class="btn">ЗАКАЗАТЬ РАЗРАБОТКУ ПО</div>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -219,17 +219,17 @@
             </div>
             <div class="info">как можно повысить эффективность Вашей компании
                 с помощью ее автоматизации</div>
-            <form class="form-horizontal">
+            <form id="callback_form_2" class="form-horizontal">
                 <div class="form-group">
-                    <div class="input-name">
-                        <input type="text" name="name" class="inputbox" id="company3" value="" placeholder="Укажите вашу компанию" />
+                    <div class="input-name anim">
+                        <input type="text" name="name" class="inputbox" id="name_2" value="" placeholder="Укажите вашу компанию" />
                     </div>
-                    <div class="input-phone">
-                        <input type="text" class="form-control" id="phone3" placeholder="+7 (__) ___-__-__" />
+                    <div class="input-phone anim">
+                        <input type="tel" class="form-control" id="phone_2" placeholder="+7 (__) ___-__-__" />
                     </div>
-                    <a href="#" class="button">
-                        <button type="submit" class="btn">Заказать консультацию</button>
-                    </a>
+                    <div class="btn">
+                        <div id="send_2" class="btn">Заказать консультацию</div>
+                    </div>
                 </div>
                 <div class="text">
                     Отправляя форму вы соглашаетесь с
@@ -306,17 +306,17 @@
                             <h2><span>Оставьте</span> заявку</h2>
                         </div>
                         <div class="info">на комплексную автоматизацию бизнес-процессов</div>
-                        <form class="form-horizontal">
+                        <form id="callback_form_3" class="form-horizontal">
                             <div class="form-group">
-                                <div class="input-name">
-                                    <input type="text" name="name" class="inputbox" id="company4" value="" placeholder="Укажите вашу компанию" />
+                                <div class="input-name anim">
+                                    <input type="text" name="name" class="inputbox" id="name_3" value="" placeholder="Укажите вашу компанию" />
                                 </div>
-                                <div class="input-phone">
-                                    <input type="text" class="form-control" id="phone4" placeholder="+7 (__) ___-__-__" />
+                                <div class="input-phone anim">
+                                    <input type="text" class="form-control" id="phone_3" placeholder="+7 (__) ___-__-__" />
                                 </div>
-                                <a href="#" class="button">
-                                    <button type="submit" class="btn">Заказать консультацию</button>
-                                </a>
+                                <div class="btn">
+                                    <div id="send_3" class="btn">Заказать консультацию</div>
+                                </div>
                             </div>
                             <div class="text">
                                 Отправляя форму вы соглашаетесь с
@@ -684,17 +684,17 @@
                         <h2><span>Узнайте</span></h2>
                     </div>
                     <div class="info">как можно повысить эффективность Вашей компании с&nbsp;помощью ее автоматизации</div>
-                    <form class="form-horizontal">
+                    <form id="callback_form_4" class="form-horizontal">
                         <div class="form-group">
-                            <div class="input-name">
-                                <input type="text" name="name" class="inputbox" id="company5" value="" placeholder="Укажите вашу компанию" />
+                            <div class="input-name anim">
+                                <input type="text" name="name" class="inputbox" id="name_4" value="" placeholder="Укажите вашу компанию" />
                             </div>
-                            <div class="input-phone">
-                                <input type="text" class="form-control" id="phone5" placeholder="+7 (__) ___-__-__" />
+                            <div class="input-phone anim">
+                                <input type="text" class="form-control" id="phone_4" placeholder="+7 (__) ___-__-__" />
                             </div>
-                            <a href="#" class="button">
-                                <button type="submit" class="btn">Заказать консультацию</button>
-                            </a>
+                            <div class="btn">
+                                <div id="send_4" class="btn">Заказать консультацию</div>
+                            </div>
                         </div>
                         <div class="text">
                             Отправляя форму вы соглашаетесь с
@@ -705,53 +705,42 @@
             </div>
         </div>
     </div>
+
 </main>
+<div id="modal" class="modal">
+    <div>
+        <div>
+            <div id="block_tel">
+                <h3>Вызов инженера</h3>
+                <div class="info">Оставьте Ваши данные и мы свяжемся с Вами
+                    в течение 5 минут для подтверждения заявки.</div>
+                <form id="callback_form">
+                    <label for="name" class="control-label">Имя</label>
+                    <div class="input-name anim">
+                        <input type="text" name="name" class="inputbox" id="name" value="" placeholder="Введите Ваше имя" >
+                    </div>
+                    <label for="phone" class="control-label">Телефон</label>
+                    <div class="input-phone anim">
+                        <input type="tel" name="telephone" class="inputbox" id="phone" maxlength="12"  value="" placeholder="+7 (__) ___-__-__" >
+                    </div>
+                    <div class="btn">
+                        <div id="send" class="btn">Вызвать инженера</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a href="#close" title="Закрыть">Закрыть</a>
+    </div>
+</div>
 <footer>
     <div class="container">
         © SoftwareEngineering.ru 2020 <a href="#">Политика конциденциальности</a>
     </div>
 </footer>
-<div id="modal" class="modal">
-    <div>
-        <div class="text">
-            <div id="blok_tel">
-                <form action="" method="post" class="form1">
-                    <h3>Вызов инженера</h3>
-                    <div class="info">Оставьте Ваши данные и мы свяжемся с Вами
-                        в течение 5 минут для подтверждения заявки.</div>
-                    <label for="name" class="control-label">Имя</label>
-                    <div class="input-name">
-                        <input type="text" name="name" class="inputbox" id="name6" value="" placeholder="Введите Ваше имя">
-                    </div>
-                    <label for="telephone" class="control-label">Телефон</label>
-                    <div class="input-phone">
-                        <input type="text" name="tel" class="inputbox" id="telephone" value="" placeholder="+7 (__) ___-__-__">
-                    </div>
-                    <div class="btn">
-                        <button type="submit" class="btn">Вызвать инженера</button>
-                    </div>
-                </form>
-                <?if(isset($_POST["submit_tel"]))
-                            {
-                            $email = 'ваша_почта@yandex.com';
-                            /* Отправляем email */
-                            mail($email, "Заказ обратного звонка на сайте ...", "\n
-                            Посетитель заказал обратный звонок! \n
-                            Телефон : ".$_POST['tel']."
-                            ");
-                            echo 'Заявка принята!';
-                            }
-                            ?>
-            </div>
-
-
-        </div>
-        <a href="#close" title="Закрыть">Закрыть</a>
-    </div>
-</div>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/main_slider.min.js"></script>
 <script src="js/menu-fix.min.js"></script>
+<script src="js/callback.js"></script>
 </body>
 </html>

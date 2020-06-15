@@ -62,13 +62,15 @@ time, mark, audio, video {
     color: #7d7d7d;
     line-height: 1.769;
     margin: 15px 20px 20px; }
-  .modal .control_label {
+  .modal .center {
+    text-align: center; }
+  .modal .control-label {
     font-size: 13px;
     color: #414141;
     line-height: 1.769; }
   .modal .input-phone, .modal .input-name {
     padding: 10px 0 20px; }
-    .modal .input-phone input[type="text"], .modal .input-name input[type="text"] {
+    .modal .input-phone input[type="tel"], .modal .input-phone input[type="text"], .modal .input-name input[type="tel"], .modal .input-name input[type="text"] {
       border-style: solid;
       border-width: 1px;
       border-color: #dadada;
@@ -78,19 +80,23 @@ time, mark, audio, video {
       width: 100%;
       height: 66px;
       padding: 0px 20px; }
-  .modal .btn button {
+    .modal .input-phone.anim, .modal .input-name.anim {
+      opacity: 1; }
+  .modal .btn #send.btn {
     margin-top: 20px;
     border-radius: 30px;
-    background-color: #6195e3;
+    background-color: #2568ef;
     border: 0;
     width: 100%;
     height: 62px;
     cursor: pointer;
     font-size: 16px;
-    padding: 0px 20px;
     text-transform: uppercase;
-    color: #ffffff; }
-    .modal .btn button:hover {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .modal .btn #send.btn:hover {
       background-color: #0688fa; }
   .modal .modal_title {
     display: block;
@@ -160,7 +166,8 @@ time, mark, audio, video {
 .modal a[href="#close"]:focus:after,
 .modal a[href="#close"]:hover:after {
   -webkit-transform: scale(1.1, 1.1);
-  -moz-transform: scale(1.1, 1.1); }
+  -moz-transform: scale(1.1, 1.1);
+  color: #0688fa; }
 
 .modal a[href="#close"]:focus:after {
   outline: 0px solid #000; }
@@ -381,7 +388,7 @@ main .optimization .container {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between; }
-      main .optimization .container .column_left .form-horizontal .form-group .input-name input#name.inputbox {
+      main .optimization .container .column_left .form-horizontal .form-group .input-name input#name_1.inputbox {
         width: 210px;
         height: 55px;
         border-style: solid;
@@ -391,7 +398,7 @@ main .optimization .container {
         background-color: #eff2f8;
         padding-left: 25px;
         font-size: 16px; }
-      main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone.form-control {
+      main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone_1.form-control {
         width: 210px;
         height: 55px;
         border-style: solid;
@@ -401,7 +408,7 @@ main .optimization .container {
         background-color: #eff2f8;
         padding-left: 25px;
         font-size: 16px; }
-    main .optimization .container .column_left .form-horizontal .form-group a.button button {
+    main .optimization .container .column_left .form-horizontal .form-group .btn #send_1.btn {
       border-radius: 30px;
       background-color: #2568ef;
       border: 0;
@@ -410,8 +417,11 @@ main .optimization .container {
       cursor: pointer;
       text-transform: uppercase;
       font-size: 11px;
-      color: white; }
-      main .optimization .container .column_left .form-horizontal .form-group a.button button:hover {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main .optimization .container .column_left .form-horizontal .form-group .btn #send_1.btn:hover {
         background-color: #0688fa; }
 main .goods .container .goods_items {
   display: flex;
@@ -566,7 +576,7 @@ main .how {
       margin: 0 auto; }
       main .how .container .form-horizontal .form-group .input-name {
         padding-bottom: 20px; }
-        main .how .container .form-horizontal .form-group .input-name input#company3.inputbox {
+        main .how .container .form-horizontal .form-group .input-name input#name_2.inputbox {
           width: 100%;
           height: 55px;
           border-style: solid;
@@ -578,7 +588,7 @@ main .how {
           font-size: 16px; }
       main .how .container .form-horizontal .form-group .input-phone {
         padding-bottom: 20px; }
-        main .how .container .form-horizontal .form-group .input-phone input#phone3.form-control {
+        main .how .container .form-horizontal .form-group .input-phone input#phone_2.form-control {
           width: 100%;
           height: 55px;
           border-style: solid;
@@ -588,7 +598,7 @@ main .how {
           background-color: #eff2f8;
           padding-left: 25px;
           font-size: 16px; }
-      main .how .container .form-horizontal .form-group a.button button {
+      main .how .container .form-horizontal .form-group .btn #send_2.btn {
         border-radius: 30px;
         background-color: #2568ef;
         border: 0;
@@ -596,9 +606,12 @@ main .how {
         height: 55px;
         cursor: pointer;
         text-transform: uppercase;
-        font-size: 16px;
-        color: white; }
-        main .how .container .form-horizontal .form-group a.button button:hover {
+        font-size: 11px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .how .container .form-horizontal .form-group .btn #send_2.btn:hover {
           background-color: #0688fa; }
       main .how .container .form-horizontal .text {
         padding: 30px;
@@ -745,7 +758,7 @@ main .stages {
             width: 360px; }
             main .stages .container .stage-list .stage.form .front .form-horizontal .form-group .input-name {
               padding-bottom: 20px; }
-              main .stages .container .stage-list .stage.form .front .form-horizontal .form-group .input-name input#company4.inputbox {
+              main .stages .container .stage-list .stage.form .front .form-horizontal .form-group .input-name input#name_3.inputbox {
                 width: 100%;
                 height: 55px;
                 border-style: solid;
@@ -757,7 +770,7 @@ main .stages {
                 font-size: 16px; }
             main .stages .container .stage-list .stage.form .front .form-horizontal .form-group .input-phone {
               padding-bottom: 20px; }
-              main .stages .container .stage-list .stage.form .front .form-horizontal .form-group .input-phone input#phone4.form-control {
+              main .stages .container .stage-list .stage.form .front .form-horizontal .form-group .input-phone input#phone_3.form-control {
                 width: 100%;
                 height: 55px;
                 border-style: solid;
@@ -767,7 +780,7 @@ main .stages {
                 background-color: #eff2f8;
                 padding-left: 25px;
                 font-size: 16px; }
-            main .stages .container .stage-list .stage.form .front .form-horizontal .form-group a.button button {
+            main .stages .container .stage-list .stage.form .front .form-horizontal .form-group .btn #send_3.btn {
               border-radius: 30px;
               background-color: #2568ef;
               border: 0;
@@ -775,9 +788,12 @@ main .stages {
               height: 55px;
               cursor: pointer;
               text-transform: uppercase;
-              font-size: 16px;
-              color: white; }
-              main .stages .container .stage-list .stage.form .front .form-horizontal .form-group a.button button:hover {
+              font-size: 11px;
+              color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              main .stages .container .stage-list .stage.form .front .form-horizontal .form-group .btn #send_3.btn:hover {
                 background-color: #0688fa; }
             main .stages .container .stage-list .stage.form .front .form-horizontal .text {
               padding: 30px;
@@ -1325,7 +1341,7 @@ main .contact .container {
       width: 360px; }
       main .contact .container .right-block .front .form-horizontal .form-group .input-name {
         padding-bottom: 20px; }
-        main .contact .container .right-block .front .form-horizontal .form-group .input-name input#company5.inputbox {
+        main .contact .container .right-block .front .form-horizontal .form-group .input-name input#name_4.inputbox {
           width: 100%;
           height: 55px;
           border-style: solid;
@@ -1337,7 +1353,7 @@ main .contact .container {
           font-size: 16px; }
       main .contact .container .right-block .front .form-horizontal .form-group .input-phone {
         padding-bottom: 20px; }
-        main .contact .container .right-block .front .form-horizontal .form-group .input-phone input#phone5.form-control {
+        main .contact .container .right-block .front .form-horizontal .form-group .input-phone input#phone_4.form-control {
           width: 100%;
           height: 55px;
           border-style: solid;
@@ -1347,7 +1363,7 @@ main .contact .container {
           background-color: #eff2f8;
           padding-left: 25px;
           font-size: 16px; }
-      main .contact .container .right-block .front .form-horizontal .form-group a.button button {
+      main .contact .container .right-block .front .form-horizontal .form-group .btn #send_4.btn {
         border-radius: 30px;
         background-color: #2568ef;
         border: 0;
@@ -1355,9 +1371,12 @@ main .contact .container {
         height: 55px;
         cursor: pointer;
         text-transform: uppercase;
-        font-size: 16px;
-        color: white; }
-        main .contact .container .right-block .front .form-horizontal .form-group a.button button:hover {
+        font-size: 11px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .contact .container .right-block .front .form-horizontal .form-group .btn #send_4.btn:hover {
           background-color: #0688fa; }
       main .contact .container .right-block .front .form-horizontal .text {
         padding: 30px;
@@ -1410,20 +1429,19 @@ footer .container {
         margin-left: -27px; }
     main .optimization .container .column_left .text {
       width: 76%; }
-    main .optimization .container .column_left .form-horizontal .form-group .input-name input#name.inputbox {
+    main .optimization .container .column_left .form-horizontal .form-group .input-name input#name_1.inputbox {
       width: 180px;
       height: 40px;
       padding-left: 15px;
       font-size: 14px; }
-    main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone.form-control {
+    main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone_1.form-control {
       width: 180px;
       height: 40px;
       padding-left: 15px;
       font-size: 14px; }
-    main .optimization .container .column_left .form-horizontal .form-group a.button button {
+    main .optimization .container .column_left .form-horizontal .form-group .btn #send_1.btn {
       width: 180px;
       height: 40px;
-      padding-left: 15px;
       font-size: 9px; }
   main .goods .container .goods_items .item h3 {
     font-size: 15px; }
@@ -1487,13 +1505,12 @@ footer .container {
       margin-top: 11px; }
   main .optimization .container .column_left .text {
     font-size: 18px; }
-  main .optimization .container .column_left .form-horizontal .form-group .input-name input#name.inputbox {
+  main .optimization .container .column_left .form-horizontal .form-group .input-name input#name_1.inputbox {
     width: 170px; }
-  main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone.form-control {
+  main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone_1.form-control {
     width: 170px; }
-  main .optimization .container .column_left .form-horizontal .form-group a.button button {
-    width: 170px;
-    padding-left: 8px; }
+  main .optimization .container .column_left .form-horizontal .form-group .btn #send_1.btn {
+    width: 170px; }
   main .goods .container .goods_items .item {
     width: 31.3333333333%; }
   main .how .container .line-index.clients {
@@ -1522,6 +1539,12 @@ footer .container {
 @media all and (max-width: 975px) {
   main .optimization .container .column_left h1 {
     font-size: 60px; }
+  main .optimization .container .column_left .form-horizontal .form-group .input-name input#name_1.inputbox {
+    width: 160px; }
+  main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone_1.form-control {
+    width: 160px; }
+  main .optimization .container .column_left .form-horizontal .form-group .btn #send_1.btn {
+    width: 160px; }
   main .contact .container .left-block .form .line-index h2 {
     font-size: 40px; }
     main .contact .container .left-block .form .line-index h2 span:before {
@@ -1850,19 +1873,17 @@ footer .container {
         display: block; }
         main .optimization .container .column_left .form-horizontal .form-group .input-name {
           padding-bottom: 12px; }
-          main .optimization .container .column_left .form-horizontal .form-group .input-name input#name.inputbox {
+          main .optimization .container .column_left .form-horizontal .form-group .input-name input#name_1.inputbox {
             font-size: 18px;
             width: 100%; }
         main .optimization .container .column_left .form-horizontal .form-group .input-phone {
           padding-bottom: 12px; }
-          main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone.form-control {
+          main .optimization .container .column_left .form-horizontal .form-group .input-phone input#phone_1.form-control {
             font-size: 18px;
             width: 100%; }
-      main .optimization .container .column_left .form-horizontal .form-group a.button {
-        padding-bottom: 12px; }
-        main .optimization .container .column_left .form-horizontal .form-group a.button button {
-          width: 100%;
-          font-size: 18px; }
+      main .optimization .container .column_left .form-horizontal .form-group .btn #send_1.btn {
+        width: 100%;
+        font-size: 18px; }
   main .goods .container {
     padding: 0 10px; }
     main .goods .container .goods_items {
