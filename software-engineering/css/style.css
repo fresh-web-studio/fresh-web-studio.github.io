@@ -1939,7 +1939,7 @@ footer .container {
     height: 100%; }
     main .stages .container .line-index h2 {
       width: 100%;
-      font-size: 32px; }
+      font-size: 30px; }
       main .stages .container .line-index h2 span:before {
         transform: scaleX(0.77);
         margin-left: -56px; }
@@ -2079,8 +2079,8 @@ footer .container {
     font-size: 25px;
     width: 100%; }
     main .development .container .line-index h2 span:before {
-      transform: scaleX(0.84);
-      margin-left: -36px; }
+      transform: scaleX(0.5);
+      margin-left: -113px; }
   main .development .container .items-list .item {
     width: 100%; }
   main .contact .container .left-block {
@@ -2105,11 +2105,13 @@ footer .container {
       width: 100%; } }
 @media all and (max-width: 375px) {
   main .how .container .line-index.clients h2 {
-    font-size: 30px; }
+    font-size: 29px; }
     main .how .container .line-index.clients h2 span:before {
       margin-top: 7px;
       transform: scaleX(0.77);
       margin-left: -53px; }
+  main .stages .container .line-index h2 {
+    font-size: 31px; }
   main .stages .container .stage-list .stage {
     height: 159px; }
     main .stages .container .stage-list .stage h3 {

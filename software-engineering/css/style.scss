@@ -3480,7 +3480,7 @@ footer {
         .line-index {
           h2 {
             width: 100%;
-            font-size: 32px;
+            font-size: 30px;
             span {
               &:before {
                 transform: scaleX(.77);
@@ -3809,8 +3809,8 @@ footer {
             width: 100%;
             span {
               &:before {
-                transform: scaleX(0.84);
-                margin-left: -36px;
+                transform: scaleX(0.5);
+                margin-left: -113px;
               }
             }
           }
@@ -3872,7 +3872,7 @@ footer {
       .container {
         .line-index.clients {
           h2 {
-            font-size: 30px;
+            font-size: 29px;
             span {
               &:before {
                 margin-top: 7px;
@@ -3888,6 +3888,7 @@ footer {
       .container {
         .line-index {
           h2 {
+            font-size: 31px;
             span {
               &:before {
               }
