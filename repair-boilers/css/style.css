@@ -1640,7 +1640,80 @@ footer {
     background-size: 115%;
     background-position: left;
     height: 600px; } }
+@media all and (max-width: 1200px) {
+  .container {
+    padding: 0 10px; }
+
+  header .nav-container nav.container .top-menu > li > a, header .nav-container nav.container .top-menu > li > a.active {
+    padding: 14px 11px; }
+
+  main .equipment .container .row .worko-tabs .flex-tabs .header-equipment h1 {
+    font-size: 27px; }
+  main .works .container .row .worko-tabs .flex-tabs .header-works {
+    margin-right: 440px; }
+    main .works .container .row .worko-tabs .flex-tabs .header-works h1 {
+      font-size: 27px; }
+  main .our_services .container .services .services__item .services__top img, main .responsibility .container .services .services__item .services__top img {
+    width: 100%; }
+  main .stages .container {
+    padding: 60px 10px; }
+  main .officially .container {
+    padding: 80px 10px; }
+    main .officially .container .owl-carousel.owl-theme#owl-carousel3 .owl-nav.container button.owl-prev {
+      left: -10px; }
+    main .officially .container .owl-carousel.owl-theme#owl-carousel3 .owl-nav.container button.owl-next {
+      right: -10px; }
+  main .repairs .container .repairs-block .photo img {
+    width: 100%; }
+  main .repair-peter .container {
+    padding: 80px 10px; } }
+@media all and (max-width: 1100px) {
+  header .slide-wraper .slide-item.slide1, header .slide-wraper .slide-item.slide2, header .slide-wraper .slide-item.slide3, header .slide-wraper .slide-item.slide4, header .slide-wraper .slide-item.slide5 {
+    height: 550px; }
+  header .container .header-top .address, header .container .header-top .mail-form {
+    font-size: 10px; }
+  header .nav-container nav.container .top-menu > li > a, header .nav-container nav.container .top-menu > li > a.active {
+    padding: 14px 5px; }
+
+  main .equipment .container .row .worko-tabs .flex-tabs .header-equipment {
+    margin-top: 8px; }
+    main .equipment .container .row .worko-tabs .flex-tabs .header-equipment h1 {
+      font-size: 22px; }
+  main .works .container .row .worko-tabs .flex-tabs .header-works {
+    margin-right: 365px; }
+    main .works .container .row .worko-tabs .flex-tabs .header-works h1 {
+      font-size: 27px; }
+  main .our_services .container .services .services__item .services__top img, main .responsibility .container .services .services__item .services__top img {
+    width: 100%; }
+  main .our_services .container .services .services__item .services__top .info, main .responsibility .container .services .services__item .services__top .info {
+    font-size: 10px; }
+  main .our_services_add .container .main_block .main_block__column .main_block__column__item {
+    padding: 30px 9px; }
+  main .stages .container {
+    padding: 60px 10px; }
+  main .officially .container {
+    padding: 80px 10px; }
+    main .officially .container .owl-carousel.owl-theme#owl-carousel3 .owl-nav.container button.owl-prev {
+      left: -10px; }
+    main .officially .container .owl-carousel.owl-theme#owl-carousel3 .owl-nav.container button.owl-next {
+      right: -10px; }
+  main .install .container .owl-carousel.owl-theme#owl-carousel2 .owl-nav button.owl-next {
+    right: -10px; }
+  main .install .container .owl-carousel.owl-theme#owl-carousel2 .owl-nav button.owl-prev {
+    left: -10px; }
+  main .repairs .container .repairs-block .photo img {
+    width: 100%; }
+  main .repair-peter .container {
+    padding: 80px 10px; }
+    main .repair-peter .container div p {
+      width: 65%; }
+
+  footer .container .row .column-address .red-border .address {
+    font-size: 11px; } }
 @media all and (max-width: 670px) {
+  .container {
+    padding: 0; }
+
   .modal > div {
     width: 100%;
     margin: 13% auto;
