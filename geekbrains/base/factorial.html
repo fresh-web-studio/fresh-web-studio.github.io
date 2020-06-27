@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+<script>
+    function recursiveFactorial(n){
+        if (n == 0)
+            return 1;
+
+        else
+            return recursiveFactorial(n - 1) * n;
+    }
+
+    var userAnswer = +prompt("Введите число от которого будет расчитываться факториал");
+    var rf = recursiveFactorial(userAnswer);
+
+    document.write(rf);
+
+</script>

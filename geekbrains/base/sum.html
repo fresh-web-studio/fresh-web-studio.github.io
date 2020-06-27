@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Циклы 2</title>
+    <script>
+        var n = +prompt("Пожалуйста, введите положительное число");
+
+        while (isNaN(n) || n < 0) {
+            n = +prompt("Пожалуйста, введите положительное число");
+        }
+
+        var sum = 0;
+        for(var i = 0; i <= n; i++) {
+            sum = sum +i; // sum +=i;
+        }
+        document.write(sum);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

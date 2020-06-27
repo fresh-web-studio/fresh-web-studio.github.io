@@ -1,0 +1,11 @@
+<meta charset="UTF-8">
+<script>
+    var sum = +prompt('Введите сумму вклада');
+    var percent =  +prompt('Введите годовой процент по вкладу');
+    var period = 5;
+    for(var year = 1; year <= period; year++) {
+        var annualAmount = (sum * percent / 100) + sum;
+        document.write("Через год вклад будет: " + annualAmount.toFixed(2) + "<br>");
+        sum = annualAmount
+    }
+</script>
