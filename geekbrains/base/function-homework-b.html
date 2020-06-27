@@ -1,48 +1,10 @@
 <meta charset="UTF-8">
 <script>
-
-/*
-    var n = +prompt("Введите число");
-    var n1 = +prompt("Введите число");
-    var n2 = +prompt("Введите число");
-    var n3 = +prompt("Введите число");
-
-
-    numbers.push(n);
-    numbers.push(n1);
-    numbers.push(n2);
-    numbers.push(n3);
-
-
-    var a = numbers[0];
-    var b = numbers[1];
-    var c = numbers[2];
-    var d = numbers[3];
-
-*/
-
-
-
-
-
-//    function arr(amount) {
-//        for(var i = 1; i < amount; i++){
-//            result = numbers.push(i);
-//        }
-//        return result;
-//    }
-
-//    function sum(a) {
-//        var a = +prompt("Введите число");
-//        result = numbers.push(a);
-//   }
-
     function arr(amountNumbers) {
         for(var i = 0; i < amountNumbers; i++){
             var number = +prompt("Введите число для массива:")
             result = numbers.push(number);
         }
-        return result;
     }
 
     var n = +prompt("Введите максимальное количество элементов для массива");
@@ -53,16 +15,11 @@
     var numbers = [];
     arr(n);
 
+    var sumElement = 0;
+    for(var i = 0; i < numbers.length; i++) {
+        sumElement = sumElement + numbers[i];
+    }
 
-
-//    arr("n")
-
-//    sum("amount");
-
-//    var a = numbers[0];
-
-//    var sumEnd = a + b + c + d;
-
-    alert(numbers)
+    alert("Сумма чисел в массиве: " + sumElement)
 
 </script>
