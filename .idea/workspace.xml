@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geekbrains/base/function-homework-d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekbrains/base/function-homework-f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekbrains/base/typing-homework-a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/base/function-homework-d.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/base/function-homework-d.html" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -61,20 +64,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/geekbrains/base/function-homework-d.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geekbrains/base/function.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
               <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/geekbrains/base/typing-homework-a.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -178,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/engineering-systems/about.html" />
         <option value="$PROJECT_DIR$/engineering-systems/css/style.scss" />
         <option value="$USER_HOME$/Downloads/Easy-Responsive-Tabs-to-Accordion-master/Index1.html" />
         <option value="$USER_HOME$/Downloads/Easy-Responsive-Tabs-to-Accordion-master/css/easy-responsive-tabs.css" />
@@ -229,6 +231,7 @@
         <option value="$PROJECT_DIR$/repair-boilers/css/style.scss" />
         <option value="$PROJECT_DIR$/geekbrains/base/function-homework-c.html" />
         <option value="$PROJECT_DIR$/geekbrains/base/function-homework-d.html" />
+        <option value="$PROJECT_DIR$/geekbrains/base/typing-homework-a.html" />
       </list>
     </option>
   </component>
@@ -418,21 +421,7 @@
       <workItem from="1592294226256" duration="4017000" />
       <workItem from="1592406403013" duration="819000" />
       <workItem from="1592722997886" duration="25631000" />
-      <workItem from="1593020640959" duration="38617000" />
-    </task>
-    <task id="LOCAL-00785" summary="Обновление">
-      <created>1590932614210</created>
-      <option name="number" value="00785" />
-      <option name="presentableId" value="LOCAL-00785" />
-      <option name="project" value="LOCAL" />
-      <updated>1590932614210</updated>
-    </task>
-    <task id="LOCAL-00786" summary="Обновление">
-      <created>1590933167826</created>
-      <option name="number" value="00786" />
-      <option name="presentableId" value="LOCAL-00786" />
-      <option name="project" value="LOCAL" />
-      <updated>1590933167826</updated>
+      <workItem from="1593020640959" duration="39945000" />
     </task>
     <task id="LOCAL-00787" summary="Обновление">
       <created>1590933383339</created>
@@ -763,17 +752,32 @@
       <option name="project" value="LOCAL" />
       <updated>1593280787204</updated>
     </task>
-    <option name="localTasksCounter" value="834" />
+    <task id="LOCAL-00834" summary="Обновление">
+      <created>1593335598751</created>
+      <option name="number" value="00834" />
+      <option name="presentableId" value="LOCAL-00834" />
+      <option name="project" value="LOCAL" />
+      <updated>1593335598752</updated>
+    </task>
+    <task id="LOCAL-00835" summary="Обновление">
+      <created>1593335622068</created>
+      <option name="number" value="00835" />
+      <option name="presentableId" value="LOCAL-00835" />
+      <option name="project" value="LOCAL" />
+      <updated>1593335622068</updated>
+    </task>
+    <option name="localTasksCounter" value="836" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1412067000" />
+    <option name="totallyTimeSpent" value="1413395000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
     <frame x="655" y="-1414" width="1216" height="1320" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.3565292" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.3565292" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -908,7 +912,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tyndyrnaya2/index.html" />
     <entry file="file://$PROJECT_DIR$/tyndyrnaya/js/main_slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -4228,13 +4231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/typing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/base/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -5164,17 +5160,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/function-homework-b.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/base/function-homework-c.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/base/function-homework-d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/base/function-homework-b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="16" selection-start-line="2" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -5185,10 +5188,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/function-homework-d.html">
+    <entry file="file://$PROJECT_DIR$/geekbrains/base/typing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="480">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/base/typing-homework-a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

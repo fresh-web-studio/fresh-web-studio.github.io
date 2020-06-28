@@ -7,6 +7,14 @@
         }
     }
 
+    function max(a, b) {
+        if (a <= b){
+            return a;
+        } else {
+            return b;
+        }
+    }
+
     var n = 2;
     while (isNaN(n) || n < 0) {
         n = +prompt("Пожалуйста, введите положительное число для элементов массива");
@@ -18,8 +26,10 @@
     var a = numbers[0];
     var b = numbers[1];
 
-    //НЕ понял как решить
 
-    alert("Четные числа из этого массива: " + c)
+
+    var c = max(a, b);
+
+    alert("Минимальное число: " + c)
 
 </script>
