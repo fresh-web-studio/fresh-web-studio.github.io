@@ -1,37 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Калькулятор домашка</title>
+<meta charset="UTF-8">
 <script>
-    var usd = '70.6';
-    var eur = '80.32';
-    var rub = prompt("Введите сумму в рублях");
+    var eur = '78.70';
+    var usd = '70.08';
+    var rub = +prompt("Введите сумму для конвертации");
 
-    rub = parseInt(rub);
-    var usdEnd = usd * rub;
-    var eurEnd = eur * rub;
+    var usdEnd = rub / usd;
+    var eurEnd = rub / eur;
 
-    alert(rub + ' руб. в долларах ' + usdEnd.toFixed(2) + ' руб. \n' +
-    rub + ' руб. в евро ' + eurEnd.toFixed(2) + ' руб.');
+    alert(rub + ' руб. это ' + usdEnd.toFixed(2) + ' долларов, и ' + eurEnd.toFixed(2) + ' евро.');
 
 
-    var a = prompt('Введите длину основания тропеции "а" в см');
+    var a = +prompt('Введите длину основания тропеции "а" в см');
     var b = +prompt('Введите длину основания тропеции "b" в см');
-    var h = prompt('Введите высоту трапеции "h" в см');
-
-    a = parseInt(a);
-    h = parseInt(h);
+    var h = +prompt('Введите высоту трапеции "h" в см');
 
     var S = ((a + b)/2) * h;
 
     alert("Площадь тропеции будет равна " + S + ' кв.см')
 </script>
-
-</head>
-<body>
-
-
-
-</body>
-</html>

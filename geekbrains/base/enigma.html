@@ -7,11 +7,11 @@
     alert ("Отгадайте загадку:\n" + "Птица с круглыми глазами\n" +
         "Гулко ухает ночами.");
 
-    var answer1 = 'Филин';
-    var answerLowercase1 = 'филин';
+    var answer1 = 'филин';
     var userAnswer1 = prompt("Ваш ответ?");
+    userAnswer1 = userAnswer1.toLocaleLowerCase()
 
-    if( answer1 == userAnswer1 || answerLowercase1 == userAnswer1) {
+    if( answer1 == userAnswer1) {
         alert("Вы правы, это " + userAnswer1 + "!");
         rightAnswer++;
         //var rightQuestion1 = 1;
@@ -24,11 +24,12 @@
 
     alert ("Отгадайте загадку:\n Эта птичка у пруда\n Громко крякает всегда.");
 
-    var answer2 = 'Утка';
-    var answerLowercase2 = 'утка';
+    var answer2 = 'утка';
     var userAnswer2 = prompt("Ваш ответ?");
+    userAnswer2 = userAnswer2.toLocaleLowerCase()
 
-    if( answer2 == userAnswer2 || answerLowercase2 == userAnswer2) {
+
+    if( answer2 == userAnswer2) {
         alert("Вы правы, это " + userAnswer2 + "!");
         rightAnswer++;
         //var rightQuestion2 = 1;
@@ -41,11 +42,12 @@
 
     alert ("Отгадайте загадку:\n Он жужжащий и крылатый,\n Шестилапый и усатый");
 
-    var answer3 = 'Жук';
-    var answerLowercase3 = 'жук';
+    var answer3 = 'жук';
     var userAnswer3 = prompt("Ваш ответ?");
+    userAnswer3 = userAnswer3.toLocaleLowerCase()
 
-    if( answer3 == userAnswer3 || answerLowercase3 == userAnswer3) {
+
+    if( answer3 == userAnswer3) {
         alert("Вы правы, это " + userAnswer3 + "!");
         rightAnswer++;
         //var rightQuestion3 = 1;
@@ -58,13 +60,12 @@
 
     alert ("Отгадайте загадку:\n У него одежды колки -\n Во все стороны иголки");
 
-    var answer4 = 'Ёж';
-    var answerLowercase4 = 'ёж';
-    var answerAnotherLetter4 = 'Еж';
-    var answerAnotherLetterLowercase4 = 'еж';
+    var answer4 = 'ёж';
+    var answerAnotherLetter4 = 'еж';
     var userAnswer4 = prompt("Ваш ответ?");
+    userAnswer4 = userAnswer4.toLocaleLowerCase()
 
-    if( answer4 == userAnswer4 || answerLowercase4 == userAnswer4 || answerAnotherLetter4 == userAnswer4 || answerAnotherLetterLowercase4 == userAnswer4) {
+    if(answer4 == userAnswer4 || answerAnotherLetter4 == userAnswer4) {
         alert("Вы правы, это " + userAnswer4 + "!");
         rightAnswer++;
         //var rightQuestion4 = 1;
