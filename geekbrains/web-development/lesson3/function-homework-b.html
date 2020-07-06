@@ -1,0 +1,54 @@
+<meta charset="UTF-8">
+<script>
+    alert ("Вариант 1")
+    function arr(amountNumbers) {
+        for(var i = 0; i < amountNumbers; i++){
+            var number = +prompt("Введите число для массива:")
+            result = numbers.push(number);
+        }
+    }
+    function sumEliment(array) {
+        var sum = 0;
+        for(var i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        alert("Сумма чисел в массиве: " + sum);
+    }
+
+    var n = +prompt("Введите максимальное количество элементов для массива");
+    while (isNaN(n) || n < 0) {
+        n = +prompt("Пожалуйста, введите положительное число для элементов массива");
+    }
+
+    var numbers = [];
+    arr(n);
+
+    sumEliment(numbers);
+
+
+    alert ("Вариант 2")
+    function arr(amountNumbers) {
+        for(var i = 0; i < amountNumbers; i++){
+            var number = +prompt("Введите число для массива:")
+            result = numbers.push(number);
+        }
+    }
+    function sumEliment(array) {
+        var sum = 0;
+        for(var i = 0; i < array.length; i++) {
+            sum = sum + numbers[i];
+        }
+        return sum;
+    }
+
+    var n = +prompt("Введите максимальное количество элементов для массива");
+    while (isNaN(n) || n < 0) {
+        n = +prompt("Пожалуйста, введите положительное число для элементов массива");
+    }
+
+    var numbers = [];
+    arr(n);
+
+    alert("Сумма чисел в массиве: " + sumEliment(numbers));
+
+</script>

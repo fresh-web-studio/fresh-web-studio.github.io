@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<script>
+    var words = [
+        ["food","еда"],
+        ["bike", "велосипед"],
+        ["apple", "яблоко"],
+        ["do", "делать"],
+        ["mean", "иметь в виду"]
+    ];
+
+    while (words.length != 0) {
+        var i = parseInt(Math.random() * words.length);
+        var userTranslate = prompt("Как переводиться слово: " + words[i][0]);
+        if (userTranslate == words[i][1]) {
+            alert ("Правильно!");
+            words.splice(i, 1);
+        } else {
+            alert("Нет вы не правы. Правильный отыет: " + words[i][1]);
+        }
+    }
+
+    alert("Поздравляю вы выучили слова!");
+
+    var hardWords = [
+        [""]
+    ]
+</script>

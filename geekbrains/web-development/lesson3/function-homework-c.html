@@ -1,0 +1,58 @@
+<meta charset="UTF-8">
+<script>
+    //Вариант 1
+    function arr(amountNumbers) {
+        for(var i = 0; i < amountNumbers; i++){
+            var number = +prompt("Введите число для массива:")
+            result = numbers.push(number);
+        }
+    }
+
+    function max(array) {
+        var max = array[0];
+        for (var i = 1; i < array.length; i++){
+            if (array[i] > max)
+                max = array[i];
+        }
+        alert("Максимальное число: " + max);
+    }
+
+    var n = 2;
+    while (isNaN(n) || n < 0) {
+        n = +prompt("Пожалуйста, введите положительное число для элементов массива");
+    }
+
+    var numbers = [];
+    arr(n);
+
+    max(numbers);
+
+    //Вариант 2
+
+    function arr(amountNumbers) {
+        for(var i = 0; i < amountNumbers; i++){
+            var number = +prompt("Введите число для массива:")
+            result = numbers.push(number);
+        }
+    }
+
+    function max (array) {
+        if (array[0] >= array[1]){
+            var max = array[0];
+        } else {
+            var max = array[1];
+        }
+        alert("Максимальное число: " + max);
+    }
+
+    var n = 2;
+    while (isNaN (n) || n < 0) {
+        n = +prompt ("Пожалуйста, введите положительное число для элементов массива");
+    }
+
+    var numbers = [];
+    arr (n);
+
+    max (numbers);
+
+</script>

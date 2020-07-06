@@ -1,0 +1,65 @@
+<meta charset="UTF-8">
+<script>
+    var rightAnswer = 0;
+    var wrongAnswer = 0;
+
+    alert ("Отгадайте загадку:\n" + "Птица с круглыми глазами\nГулко ухает ночами.");
+
+    var answer1 = 'филин';
+    var userAnswer1 = prompt("Ваш ответ?");
+    userAnswer1 = userAnswer1.toLocaleLowerCase()
+
+    if( answer1 == userAnswer1) {
+        alert("Вы правы, это " + userAnswer1 + "!\n");
+        rightAnswer++;
+    } else {
+        alert ("Вы не угадали. Правильный ответ " + answer1);
+        wrongAnswer++;
+    };
+
+    alert ("Отгадайте загадку:\n Эта птичка у пруда\n Громко крякает всегда.");
+
+    var answer2 = 'утка';
+    var userAnswer2 = prompt("Ваш ответ?");
+    userAnswer2 = userAnswer2.toLocaleLowerCase()
+
+
+    if( answer2 == userAnswer2) {
+        alert("Вы правы, это " + userAnswer2 + "!");
+        rightAnswer++;
+    } else {
+        alert ("Вы не угадали. Правильный ответ " + answer2);
+        wrongAnswer++;
+    };
+
+    alert ("Отгадайте загадку:\n Он жужжащий и крылатый,\n Шестилапый и усатый");
+
+    var answer3 = 'жук';
+    var userAnswer3 = prompt("Ваш ответ?");
+    userAnswer3 = userAnswer3.toLocaleLowerCase()
+
+    if( answer3 == userAnswer3) {
+        alert("Вы правы, это " + userAnswer3 + "!");
+        rightAnswer++;
+    } else {
+        alert ("Вы не угадали. Правильный ответ " + answer3);
+        wrongAnswer++;
+    };
+
+    alert ("Отгадайте загадку:\n У него одежды колки -\n Во все стороны иголки");
+
+    var answer4 = 'ёж';
+    var answerAnotherLetter4 = 'еж';
+    var userAnswer4 = prompt("Ваш ответ?");
+    userAnswer4 = userAnswer4.toLocaleLowerCase()
+
+    if(answer4 == userAnswer4 || answerAnotherLetter4 == userAnswer4) {
+        alert("Вы правы, это " + userAnswer4 + "!");
+        rightAnswer++;
+    } else {
+        alert ("Вы не угадали. Правильный ответ " + answer4);
+        wrongAnswer++;
+    };
+
+    alert("Всего правильных ответов " + rightAnswer + "\nНе правильных ответов " + wrongAnswer);
+</script>
