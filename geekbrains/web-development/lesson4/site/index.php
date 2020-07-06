@@ -7,19 +7,16 @@
 </head>
 <body>
 <div class="content">
-	<div class="header">
-		<a href="#">Главная</a> /
-		<a href="puzzle.html">Загадки</a> /
-		<a href="guess.html">Угадайка</a> /
-		<a href="guess.html">Угадайка мультиплеер</a>
-	</div>
+  <?php
+  include "menu.php";
+  ?>
 
 	<h1>Личный сайт студента GeekBrains</h1>
 
 	<div class="center">
 	<img src="img/photo.png">
 		<div class="box_text">
-			<p><b>Добрый день</b>. Меня зовут <i>Василий Пупкин</i>. Я совсем недавно начал программировать, однако уже написал свой первый сайт.</p>
+			<p><b>Добрый день</b>. Меня зовут <i>Андрей Колчанов</i>. Я совсем недавно начал программировать, однако уже написал свой первый сайт.</p>
 
 			<p>В этом мне помог IT-портал <a href="https://geekbrains.ru">GeekBrains</a></p>
 
@@ -32,7 +29,7 @@
 	</div>
 </div>
 <div class="footer">
-	Copyright &copy; <?php echo "Привет" ?>Vasily Pupkin
+	Copyright &copy; <?php echo  date('Y') ?> Vasily Pupkin
 </div>
 
 </body>
