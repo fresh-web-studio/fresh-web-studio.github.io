@@ -6,12 +6,12 @@
 	<link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-
 <div class="content">
 	<div class="header">
-		<a href="#">Главная</a>
-		<a href="puzzle.html">Загадки</a>
-		<a href="guess.html">Угадайка</a>
+		<a href="#">Главная</a> /
+		<a href="puzzle.html">Загадки</a> /
+		<a href="guess.html">Угадайка</a> /
+		<a href="guess.html">Угадайка мультиплеер</a>
 	</div>
 
 	<h1>Личный сайт студента GeekBrains</h1>
@@ -24,15 +24,15 @@
 			<p>В этом мне помог IT-портал <a href="https://geekbrains.ru">GeekBrains</a></p>
 
 			<p>На этом сайте вы сможете сыграть в несколько игр, которые я написал: <br>
-			<a href="#">Главная,</a>
-			<a href="puzzle.html">Загадки,</a>
-			<a href="guess.html">Угадайка</a>
+			<a href="#">Главная</a>
+			<a href="#">Загадки</a>
+			<a href="#">Угадайка</a>
 			</p>
 		</div>
 	</div>
 </div>
 <div class="footer">
-	Copyright &copy; Vasily Pupkin
+	Copyright &copy; <?php echo "Привет" ?>Vasily Pupkin
 </div>
 
 </body>
