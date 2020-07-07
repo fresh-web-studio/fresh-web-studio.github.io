@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="Ru-ru">
 <head>
 	<meta charset="utf-8">
 	<title>Личный сайт студента GeekBrains</title>
@@ -13,18 +13,16 @@
         var playerNumber = 2;
 
 		function readInt () {
-			var number = document.getElementById("userAnswer").value;
-			return parseInt(number);
-			// return +document.getElementById("userAnswer").value;
+            return +document.getElementById("userAnswer").value;
+			// var number = document.getElementById("userAnswer").value;
+            //			return parseInt(number);
 		}
-
 		function write (text) {
 			document.getElementById("info").innerHTML = text;
 		}
 		function writePlayer (text) {
 			document.getElementById("player").innerHTML = text;
 		}
-
 		function hide (id) {
 			document.getElementById(id).style.display = "none";
 		}
@@ -35,7 +33,6 @@
                 playerNumber = 1;
             }
         }
-
 		function guess (){
 			tryCount++;
 
@@ -52,7 +49,7 @@
                 hide ("player");
 			} else if(userAnswer > answer){
 				write ("Вы ввели слишком большое число<br>Попробуйте еще раз. Введите число от 1 до 100");
-                writePlayer ("Теперь ходит Игрок " + playerNumber);
+                writePlayer ("<b>Теперь ходит Игрок " + playerNumber + "</b>");
                 player ();
             } else if(userAnswer < answer){
 				write ("Вы ввели слишком маленькое число<br>Попробуйте еще раз. Введите число от 1 до 100");
@@ -82,7 +79,7 @@
                 <form method="GET">
                     <p id="info">Угадайте число от 0 до 100, в игре участвуют 2 игрока по очередно.</p>
                     <p id="player"><b>Игрок 1, введите ваш вариант ответа:</b></p>
-                    <input type="text" id="userAnswer">
+                    <input type="text" id="userAnswer" />
                     <br>
                     <a href="#" onClick="guess();" id="button">Начать</a>
                 </form>

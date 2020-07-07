@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+<script>
+    function compare(answer, userAnswer, answerAnotherLetter) {
+        if( answer == userAnswer || answerAnotherLetter == userAnswer) {
+            alert("Вы правы, это " + userAnswer + "!");
+            rightAnswer++;
+        } else {
+            alert ("Вы не угадали. Правильный ответ " + answer);
+            wrongAnswer++;
+        }
+    }
+
+    var rightAnswer = 0;
+    var wrongAnswer = 0;
+
+    alert ("Отгадайте загадку:\n" + "Птица с круглыми глазами\n" +
+        "Гулко ухает ночами.");
+
+    var answer1 = 'филин';
+    var userAnswer1 = prompt("Ваш ответ?");
+    userAnswer1 = userAnswer1.toLocaleLowerCase();
+
+    compare (answer1, userAnswer1);
+
+    alert ("Отгадайте загадку:\n Эта птичка у пруда\n Громко крякает всегда.");
+
+    var answer2 = 'утка';
+    var userAnswer2 = prompt("Ваш ответ?");
+    userAnswer2 = userAnswer2.toLocaleLowerCase();
+
+    compare (answer2, userAnswer2);
+
+    alert ("Отгадайте загадку:\n Он жужжащий и крылатый,\n Шестилапый и усатый");
+
+    var answer3 = 'Жук';
+    var userAnswer3 = prompt("Ваш ответ?");
+    userAnswer3 = userAnswer3.toLocaleLowerCase();
+
+    compare (answer3, userAnswer3);
+
+    alert ("Отгадайте загадку:\n У него одежды колки -\n Во все стороны иголки");
+
+    var answer4 = 'Ёж';
+    var answerAnotherLetter4 = 'Еж';
+    var userAnswer4 = prompt("Ваш ответ?");
+    userAnswer4 = userAnswer4.toLocaleLowerCase();
+
+    compare (answer4, userAnswer4, answerAnotherLetter4);
+
+    alert("Всего правильных ответов " + rightAnswer + "\nНе правильных ответов " + wrongAnswer);
+</script>

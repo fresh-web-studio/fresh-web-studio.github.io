@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="Ru-ru">
 <head>
 	<meta charset="utf-8">
 	<title>Личный сайт студента GeekBrains</title>
@@ -14,7 +14,7 @@
 	<h1>Личный сайт студента GeekBrains</h1>
 
 	<div class="center">
-	<img src="img/photo.png">
+	<img src="img/photo.png" alt="Андрей Колчанов">
 		<div class="box_text">
 			<p><b>Добрый день</b>. Меня зовут <i>Андрей Колчанов</i>. У меня уже есть опыт в верстке, сейчас я решил углубитсья в программирование. Я совсем недавно начал программировать, однако уже написал свой первый сайт.</p>
 

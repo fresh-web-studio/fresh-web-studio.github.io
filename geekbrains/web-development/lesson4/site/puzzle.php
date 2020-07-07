@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="Ru-ru">
 <head>
 	<meta charset="utf-8">
 	<title>Личный сайт студента GeekBrains</title>
