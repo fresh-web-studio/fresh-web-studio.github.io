@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/copyright.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/puzzle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/guess-2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/guess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/guess.php" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/guess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/img/photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/img/photo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/puzzle.php" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/puzzle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/style.css" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -69,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="336">
+              <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -78,17 +81,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/puzzle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+            <state relative-caret-position="252">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/guess-2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1968">
+              <caret line="82" column="99" selection-start-line="82" selection-start-column="99" selection-end-line="82" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="72">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -96,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="361">
+              <caret line="153" column="1" lean-forward="true" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -116,7 +128,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>active</find>
       <find>ОБСЛУЖИВАНИЕ ГОРЕЛОК</find>
       <find>.submenu,</find>
       <find>place</find>
@@ -146,6 +157,7 @@
       <find>advantages__</find>
       <find>scale(</find>
       <find>line.jpg</find>
+      <find>type=&quot;tel&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;menu</replace>
@@ -201,8 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/geekbrains/base/bank.html" />
-        <option value="$PROJECT_DIR$/geekbrains/base/memory.html" />
         <option value="$PROJECT_DIR$/geekbrains/base/memory2.html" />
         <option value="$PROJECT_DIR$/geekbrains/base/function.html" />
         <option value="$PROJECT_DIR$/geekbrains/base/function-homework.html" />
@@ -227,7 +237,6 @@
         <option value="$USER_HOME$/Downloads/Дз 01.07.2020/bank.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson2/enigma.html" />
         <option value="$USER_HOME$/Downloads/Дз 01.07.2020/guessing_game.html" />
-        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson2/guessing_game_2.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson3/print10.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson3/arry.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson3/english.html" />
@@ -244,14 +253,17 @@
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson3/enigma-homework-a&amp;b.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson3/function-homework-b.html" />
         <option value="$PROJECT_DIR$/geekbrains/base/test.html" />
-        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/style.css" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/puzzle.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/index.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/copyright.php" />
-        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/puzzle.php" />
-        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/index.php" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/guess.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/menu.php" />
+        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/index.php" />
+        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson2/guessing_game_2.html" />
+        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/guess.php" />
+        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/guess-2.php" />
+        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/puzzle.php" />
+        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson4/site/style.css" />
       </list>
     </option>
   </component>
@@ -263,10 +275,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="572" />
-    <option name="y" value="-1417" />
-    <option name="width" value="1318" />
-    <option name="height" value="1329" />
+    <option name="x" value="2258" />
+    <option name="y" value="-257" />
+    <option name="width" value="942" />
+    <option name="height" value="969" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -296,6 +308,20 @@
               <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="geekbrains" type="462c0819:PsiDirectoryNode" />
               <item name="web-development" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="geekbrains" type="462c0819:PsiDirectoryNode" />
+              <item name="web-development" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="geekbrains" type="462c0819:PsiDirectoryNode" />
+              <item name="web-development" type="462c0819:PsiDirectoryNode" />
               <item name="lesson4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -305,6 +331,17 @@
               <item name="web-development" type="462c0819:PsiDirectoryNode" />
               <item name="lesson4" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="software-engineering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="software-engineering" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,7 +385,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -460,14 +497,7 @@
       <workItem from="1593020640959" duration="79691000" />
       <workItem from="1593877831538" duration="745000" />
       <workItem from="1593882028647" duration="3101000" />
-      <workItem from="1593955486106" duration="15860000" />
-    </task>
-    <task id="LOCAL-00794" summary="Обновление">
-      <created>1591186414894</created>
-      <option name="number" value="00794" />
-      <option name="presentableId" value="LOCAL-00794" />
-      <option name="project" value="LOCAL" />
-      <updated>1591186414894</updated>
+      <workItem from="1593955486106" duration="23056000" />
     </task>
     <task id="LOCAL-00795" summary="Обновление">
       <created>1591195822703</created>
@@ -805,18 +835,25 @@
       <option name="project" value="LOCAL" />
       <updated>1594062268128</updated>
     </task>
-    <option name="localTasksCounter" value="843" />
+    <task id="LOCAL-00843" summary="Обновление">
+      <created>1594096662009</created>
+      <option name="number" value="00843" />
+      <option name="presentableId" value="LOCAL-00843" />
+      <option name="project" value="LOCAL" />
+      <updated>1594096662009</updated>
+    </task>
+    <option name="localTasksCounter" value="844" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1472847000" />
+    <option name="totallyTimeSpent" value="1480043000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="572" y="-1417" width="1318" height="1329" extended-state="0" />
+    <frame x="2258" y="-257" width="942" height="969" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.33362523" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.27415732" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="PHP-CGI Server" />
@@ -952,37 +989,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/Дз 01.07.2020/bank.html" />
-    <entry file="file://$USER_HOME$/Downloads/Дз 01.07.2020/zagadka.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson2/enigma.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1536">
-          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Дз 01.07.2020/guessing_game.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson2/guessing_game_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson3/print10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson3/arry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson2/bank.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1245,24 +1251,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/copyright.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1273,17 +1265,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/puzzle.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        <state relative-caret-position="449">
+          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson2/enigma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-909" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/guess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software-engineering/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson2/guessing_game_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software-engineering/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="72">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="153" column="1" lean-forward="true" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/puzzle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson4/site/guess-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1968">
+          <caret line="82" column="99" selection-start-line="82" selection-start-column="99" selection-end-line="82" selection-end-column="99" />
         </state>
       </provider>
     </entry>

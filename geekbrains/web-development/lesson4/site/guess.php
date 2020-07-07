@@ -59,7 +59,6 @@
 			<h1>Игра угадайка</h1>
 
 			<div class="box">
-
 				<p id="info">Угадайте число от 0 до 100</p>
 				<input type="text" id="userAnswer">
 				<br>
