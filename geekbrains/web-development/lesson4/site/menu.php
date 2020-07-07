@@ -1,6 +1,7 @@
 <div class="header">
   <a href="index.php">Главная</a> /
   <a href="puzzle.php">Загадки</a> /
-  <a href="guess.html">Угадайка</a> /
-  <a href="guess.html">Угадайка мультиплеер</a>
+  <a href="guess.php">Угадайка</a> /
+  <a href="guess-2.php">Угадайка мультиплеер</a>
+  <a href="pass-generator.php">Генератор паролей</a>
 </div>
