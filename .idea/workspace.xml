@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
-      <change afterPath="$PROJECT_DIR$/niam-nt/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.gitignore" beforeDir="false" />
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -63,35 +60,7 @@
     <favorites_list name="fresh-web-studio.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson4/mexican.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson4/chorizo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,15 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/geekbrains/base/guess.html" />
-        <option value="$PROJECT_DIR$/geekbrains/base/index.html" />
-        <option value="$PROJECT_DIR$/geekbrains/base/typing-homework-b.html" />
-        <option value="$PROJECT_DIR$/geekbrains/base/typing.html" />
-        <option value="$PROJECT_DIR$/geekbrains/base/calc-homework.html" />
-        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson2/index.html" />
-        <option value="$PROJECT_DIR$/geekbrains/base/sum.html" />
-        <option value="$PROJECT_DIR$/geekbrains/base/guessing_game.html" />
-        <option value="$PROJECT_DIR$/geekbrains/web-development/lesson2/gueessing_game.html" />
         <option value="$PROJECT_DIR$/geekbrains/base/enigma.html" />
         <option value="$PROJECT_DIR$/geekbrains/base/guessing_game_2.html" />
         <option value="$USER_HOME$/Downloads/Дз 01.07.2020/bank.html" />
@@ -238,9 +198,18 @@
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson3/index.html" />
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson4/index.html" />
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson4/mecsikan.html" />
-        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson4/chorizo.html" />
-        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson4/mexican.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson4/mexican.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson4/chorizo.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/chorizo.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/index.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/registration.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/broccoli.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/catalog.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/contacts.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/broccoli-photo.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/chorizo-photo.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/chorizo.html" />
       </list>
     </option>
   </component>
@@ -252,10 +221,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2252" />
-    <option name="y" value="-253" />
-    <option name="width" value="944" />
-    <option name="height" value="940" />
+    <option name="x" value="590" />
+    <option name="y" value="-1412" />
+    <option name="width" value="1299" />
+    <option name="height" value="1304" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -295,7 +264,27 @@
               <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="geekbrains" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="html-css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lesson5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="geekbrains" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="html-css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lesson5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="catalog" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="geekbrains" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="web-development" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="repair-boilers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -321,19 +310,19 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/geekbrains/web-development/lesson4" />
-      <recent name="$PROJECT_DIR$/software-engineering/css" />
-      <recent name="$PROJECT_DIR$/repair-boilers/css" />
-      <recent name="$PROJECT_DIR$/repair-boilers/psd/Иконки" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geekbrains/html-css/lesson5" />
+      <recent name="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/img" />
       <recent name="$PROJECT_DIR$/geekbrains/web-development/lesson4/site" />
       <recent name="$PROJECT_DIR$/geekbrains/web-development/lesson3" />
       <recent name="$PROJECT_DIR$/geekbrains/web-development/lesson2" />
-      <recent name="$PROJECT_DIR$/geekbrains/web-development/lesson1" />
-      <recent name="$PROJECT_DIR$/geekbrains/base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog" />
+      <recent name="$PROJECT_DIR$/geekbrains/html-css/lesson5" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/geekbrains/web-development/lesson4" />
+      <recent name="$PROJECT_DIR$/software-engineering/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -435,14 +424,8 @@
       <workItem from="1594658756222" duration="7064000" />
       <workItem from="1594746261950" duration="817000" />
       <workItem from="1594832556045" duration="2444000" />
-      <workItem from="1594921782155" duration="591000" />
-    </task>
-    <task id="LOCAL-00798" summary="Обновление Второй блок">
-      <created>1591215617354</created>
-      <option name="number" value="00798" />
-      <option name="presentableId" value="LOCAL-00798" />
-      <option name="project" value="LOCAL" />
-      <updated>1591215617354</updated>
+      <workItem from="1594921782155" duration="882000" />
+      <workItem from="1595141637801" duration="9590000" />
     </task>
     <task id="LOCAL-00799" summary="Обновление">
       <created>1591217900180</created>
@@ -780,18 +763,24 @@
       <option name="project" value="LOCAL" />
       <updated>1594145452308</updated>
     </task>
-    <option name="localTasksCounter" value="847" />
+    <task id="LOCAL-00847" summary="Обновление">
+      <created>1594979546797</created>
+      <option name="number" value="00847" />
+      <option name="presentableId" value="LOCAL-00847" />
+      <option name="project" value="LOCAL" />
+      <updated>1594979546798</updated>
+    </task>
+    <option name="localTasksCounter" value="848" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1496652000" />
+    <option name="totallyTimeSpent" value="1506533000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="2252" y="-253" width="944" height="940" extended-state="0" />
-    <editor active="true" />
+    <frame x="590" y="-1412" width="1299" height="1304" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.30381167" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2213312" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -804,7 +793,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.50606585" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49185666" visible="true" weight="0.18625" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49185666" visible="true" weight="0.12800688" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5081433" side_tool="true" weight="0.21954161" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22431506" />
@@ -927,30 +916,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/function-homework-f.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/sum.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/max.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/bank.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/calc.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/calc-homework.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/enigma.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/enigma-homework-a.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/base/factorial.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson3/function-homework-c-0.html" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson3/function-homework-d.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson3/typing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson3/enigma-homework-a.html" />
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson3/typing-homework-a.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1127,24 +1092,116 @@
     <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson4/index.html" />
     <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson4/mecsikan.html" />
     <entry file="file://$PROJECT_DIR$/.gitignore/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson4/mexican.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/chorizo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson4/chorizo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="240">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#569#575#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson4/mexican.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        <state relative-caret-position="576">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#630#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/mexican.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/img/main__chorizo-min.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repair-boilers/equipment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="119" column="48" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/broccoli-photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="44" column="49" lean-forward="true" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/chorizo-photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/chorizo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/broccoli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
