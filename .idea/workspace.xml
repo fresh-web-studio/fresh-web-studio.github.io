@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/html-css/lesson5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/html-css/lesson5/index.html" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -48,8 +49,7 @@
     <ignored path="capital-finance/psd/Иконки/Логотип.svg" />
     <ignored path="capital-finance/psd/Иконки/" />
     <ignored path=".idea/libraries/Generated_files.xml" />
-    <ignored mask="*.scssc" />
-    <ignored path="artemsdobnikov/math/index — копия.html" />
+    <ignored mask="*.scss" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,17 @@
     <favorites_list name="fresh-web-studio.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson6/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -202,7 +212,6 @@
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson4/mexican.html" />
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson4/chorizo.html" />
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/chorizo.html" />
-        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/index.html" />
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/registration.html" />
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/broccoli.html" />
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/catalog.html" />
@@ -210,6 +219,7 @@
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/broccoli-photo.html" />
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/chorizo-photo.html" />
         <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/chorizo.html" />
+        <option value="$PROJECT_DIR$/geekbrains/html-css/lesson5/index.html" />
       </list>
     </option>
   </component>
@@ -221,27 +231,16 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="590" />
-    <option name="y" value="-1412" />
-    <option name="width" value="1299" />
-    <option name="height" value="1304" />
+    <option name="x" value="730" />
+    <option name="y" value="-1417" />
+    <option name="width" value="1160" />
+    <option name="height" value="1329" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -265,15 +264,7 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="geekbrains" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="html-css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="lesson5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="geekbrains" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="html-css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="lesson5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="catalog" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lesson6" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -281,10 +272,16 @@
               <item name="geekbrains" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="web-development" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="repair-boilers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fresh-web-studio.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fresh-web-studio.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,7 +304,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -425,14 +422,8 @@
       <workItem from="1594746261950" duration="817000" />
       <workItem from="1594832556045" duration="2444000" />
       <workItem from="1594921782155" duration="882000" />
-      <workItem from="1595141637801" duration="9590000" />
-    </task>
-    <task id="LOCAL-00799" summary="Обновление">
-      <created>1591217900180</created>
-      <option name="number" value="00799" />
-      <option name="presentableId" value="LOCAL-00799" />
-      <option name="project" value="LOCAL" />
-      <updated>1591217900180</updated>
+      <workItem from="1595141637801" duration="11498000" />
+      <workItem from="1595256305129" duration="255000" />
     </task>
     <task id="LOCAL-00800" summary="Обновление Третьего блока">
       <created>1591279006998</created>
@@ -770,17 +761,25 @@
       <option name="project" value="LOCAL" />
       <updated>1594979546798</updated>
     </task>
-    <option name="localTasksCounter" value="848" />
+    <task id="LOCAL-00848" summary="Обновление">
+      <created>1595164843363</created>
+      <option name="number" value="00848" />
+      <option name="presentableId" value="LOCAL-00848" />
+      <option name="project" value="LOCAL" />
+      <updated>1595164843364</updated>
+    </task>
+    <option name="localTasksCounter" value="849" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1506533000" />
+    <option name="totallyTimeSpent" value="1508696000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="590" y="-1412" width="1299" height="1304" extended-state="0" />
+    <frame x="730" y="-1417" width="1160" height="1329" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2213312" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.2536101" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -793,7 +792,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919224" weight="0.50606585" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49185666" visible="true" weight="0.12800688" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49185666" visible="true" weight="0.1253154" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5081433" side_tool="true" weight="0.21954161" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22431506" />
@@ -916,7 +915,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Обновление" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson3/enigma-homework-a.html" />
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/lesson3/typing-homework-a.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1099,13 +1097,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/chorizo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/chorizo.html" />
     <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson4/chorizo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1126,13 +1118,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/mexican.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/mexican.html" />
     <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/img/main__chorizo-min.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1143,13 +1129,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/registration.html" />
     <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/broccoli-photo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1171,26 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/catalog/chorizo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
@@ -1202,6 +1162,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/html-css/lesson6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
