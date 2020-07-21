@@ -1,0 +1,67 @@
+* {font-family: roboto, sans-serif;}
+a {text-decoration: none;}
+body {
+    background-color: #f8f8f8;
+}
+.header__nav {
+    background-color: #848484;
+    color: #fff;
+    list-style: none;
+}
+.header__nav a {
+    color: #fff;
+}
+.main__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+h3 {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.composition {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+    color: #707070;
+}
+.description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.characteristics {
+    list-style-image: url("../catalog/img/v.png");
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #707070;
+}
+a img {
+    outline: 3px solid #848484;
+}
+.main__name a {
+    color: green;
+}
+
+/* contacts.html */
+
+input[type="text"], input[type="email"], textarea[type="text"] {
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    color: #848484;
+    }
+textarea[type="text"] {
+    height: 200px;
+}
