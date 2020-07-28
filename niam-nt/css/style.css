@@ -1,5 +1,6 @@
 * {
     font-family: roboto, sans-serif;
+    box-sizing: border-box;
 }
 @font-face {
     font-family: "BetinaScriptRus";
@@ -346,19 +347,135 @@ a {text-decoration: none;}
     background: #A30500;
     border: 1px solid #FF5758;
 }
-main {
+
+
+/*==============================================
+===================== Main =====================
+==============================================*/
+
+.main__title {
+    margin: 30px 20px 50px;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    color: #D12621;
+}
+
+.main__item-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.main__frame {
+    width: 25%;
+    padding: 20px;
+    margin: 20px 0;
+    border-right: 1px solid #C6C6C6;
+}
+.main__frame:nth-child(4n+4) {
+    border-right: 0px solid;
+}
+
+.main__block-item {
 
 }
 
+.main__block-item img {
+    width: 100%;
+}
 
-footer {
-    background-color: #FEB711;
-    padding: 0 20px;
+.main__name {
+    margin-top: 19px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 1.8vw;
+    line-height: 2vw;
+    display: flex;
+    color: #000000;
+    min-height: 48px;
+}
+
+.main__description {
+    margin-bottom: 29px;
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    min-height: 54px;
+
+    color: #707070;
+}
+
+.main__item-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__item-price {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+.main__item-info {
+    font-size: 12px;
+}
+
+.main__item-btn {
+    width: 97px;
+    height: 48px;
+
+    border: 2px solid #F90001;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #F90001;
+}
+.main__item-btn:hover {
+    background-color: #F90001;
+    color: #fff;
+}
+
+/*==============================================
+================================================
+==============================================*/
+
+
+
+
+
+.footer__top-row {
+    background-color: #D30102;
+    padding: 35px 20px;
+}
+.footer__text {
+    font-family: BetinaScriptRus;
+    font-style: normal;
+    font-size: 27px;
+    line-height: 90%;
+    margin-top: 26px;
+
+    width: 310px;
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
 }
 .footer__footer-bottom {
+    background-color: #FEB711;
     display: flex;
     align-items: center;
     height: 50px;
+    padding: 0 20px;
 }
 
 .footer__copyright {
@@ -374,7 +491,89 @@ footer {
     color: #fff;
 }
 
+.footer__top-row {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__menu {
+    list-style: none;
+}
 
+.footer__menu-link {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+.footer__menu-link:hover {
+    color: #E4E22C;
+}
+
+.footer__address {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.footer__phone {
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+
+
+
+.footer__social{
+    right: 20px;
+    top: 26px;
+}
+.footer__social a.vk {
+    background-image: url(../img/vk.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.footer__social a.ok {
+    background-image: url(../img/ok.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin-bottom: 17px;
+}
+.footer__social a.inst {
+    background-image: url(../img/inst.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin-bottom: 17px;
+}
+
+
+.footer__social a.vk:hover {
+    background-image: url(../img/vk-active.svg);
+    display: block;
+}
+.footer__social a.ok:hover {
+    background-image: url(../img/ok-active.svg);
+    display: block;
+}
+.footer__social a.inst:hover {
+    background-image: url(../img/inst-active.svg);
+    display: block;
+}
 
 @media all and (max-width: 415px) {
 
