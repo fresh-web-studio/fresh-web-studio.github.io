@@ -1,10 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="Ru-ru">
 <head>
     <meta charset="UTF-8">
-    <title>Главная страница </title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.css">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Мой первый сайт</h1>
+<header>
+    <div class="container">
+        <div class="header__top">
+            <a href="/"><img class="header__logo" src="img/header__logo.svg" alt="Логотип пиццерии Ням-ням"/></a>
+            <div class="header__town-time">
+                <div class="header__row">
+                    <div class="header__text town-icon">Доставка пиццы:</div>
+                    <div class="header__text_red">Нижний Тагил</div>
+                </div>
+                <div class="header__row">
+                    <div class="header__text time-icon">Часы работы:</div>
+                    <div class="header__text_red">10:00 - 22:00</div>
+                </div>
+            </div>
+            <div class="header__address-phone">
+                <div class="header__row">
+                    <div class="header__text address">ул. Карла Маркса, 81/23:</div>
+                    <div class="header__text_red">+7 (3435) 41-62-60</div>
+                </div>
+                <div class="header__row">
+                    <div class="header__text address">ул. Космонавтов, 10:</div>
+                    <div class="header__text_red">+7 (3435) 34-30-10</div>
+                </div>
+            </div>
+            <div class="header__login">
+                <div class="header__text login">Вход</div>
+                <div class="header__text reg">Регистрация</div>
+            </div>
+        </div>
+    </div>
+    <div class="header__back-red">
+        <div class="main_menu">
+            <div class="container header__row">
+                <ul class="main_multimenu">
+                    <li class="nav-list"><a class="root-item" href="/">Главная</a></li>
+                    <li class="nav-list"><a class="root-item" href="#">Пицца</a></li>
+                    <li class="nav-list"><a class="root-item" href="#">Салаты</a></li>
+                    <li class="nav-list"><a class="root-item" href="#">Напитки</a></li>
+                    <li class="nav-list"><a class="root-item" href="#">Десерты</a></li>
+                    <li class="nav-list"><a class="root-item" href="#">О нас</a></li>
+                    <li class="nav-list"><a class="root-item" href="#">Доставка</a></li>
+                    <li class="nav-list"><a class="root-item" href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="main_menu__cart">
+                    <a href="/personal/cart/">
+                        <i></i>
+                        <div class="main_menu__back">
+                            <div class="main_menu__quantity">0</div>
+                        </div>
+                        <span class="main_menu__price">
+                        1280.00 ₽
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="slide-wraper">
+            <div class="owl-carousel owl-theme" id="owl-carousel1">
+                <div class="slide-item slide1">
+                    <div class="container slide-item__row">
+                        <div class="slide-item__text">
+                            <div class="slide-item__header">
+                                Приготовлено
+                                <span class="slide-item__span">с&nbsp;любовью</span>
+                                по&nbsp;домашним
+                                рецептам!
+                            </div>
+                            <div class="slide-item__info">
+                                Доставляем в течение часа!<br>
+                                Заказ от 2 порций одного наименования
+                            </div>
+                        </div>
+                        <div class="slide-item__img">
+                            <div class="slide-item__social">
+                                <a href="#" class="vk"></a>
+                                <a href="#" class="ok"></a>
+                                <a href="#" class="inst"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item slide2">
+                    <div class="container row">
+                        <div class="slide-item__text">
+                            <div class="slide-item__header">
+                                Скидка 7%
+                                <span class="slide-item__span">в день рожденья!</span>
+                                <span class="slide-item__span-add">*При предъявлении документа</span>
+                            </div>
+                        </div>
+                        <div class="slide-item__img">
+                            <div class="slide-item__social">
+                                <a href="#" class="vk"></a>
+                                <a href="#" class="ok"></a>
+                                <a href="#" class="inst"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<main>
+    <div class="container">
+        <h2 class="main__title">Пицца</h2>
+        <div class="main__item-list">
+            <div class="main__block-item">
+                <a href="#"><img src="img/photo-item-1.jpg" alt="Пицца" /></a>
+                <h3><a href="#">Шашлык из синины (шея)</a></h3>
+                <div class="row">
+                    <div class="text">
+                        <div class="price">
+                            85 ₽
+                        </div>
+                        <div class="info">Цена за пиццу / 300 г.</div>
+                    </div>
+                    <div class="quantity">
+                        <select name="quantity" class="quantity-choice">
+                            <option value="300">300 гр.</option>
+                            <option value="400">400 гр.</option>
+                            <option value="500">500 гр.</option>
+                        </select>
+                    </div>
+
+                    <a href="#">
+                        <div class="btn">
+                            + <img src="img/shopping-cart-b.png" alt="В корзину">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer__footer-bottom">
+            <div class="footer__copyright">Все права защищены &copy; 2004 - 2020 Пиццерия Ням-Ням</div>
+            <a href="#">Правовая инфорация</a>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main_slider.js"></script>
 </body>
 </html>
