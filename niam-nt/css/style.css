@@ -44,6 +44,11 @@ a {text-decoration: none;}
     justify-content: space-between;
     align-items: center;
 }
+.header__row-top {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 .row {
     display: flex;
     justify-content: space-between;
