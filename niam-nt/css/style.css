@@ -532,6 +532,43 @@ a {text-decoration: none;}
     background-size: cover;
 }
 
+.contacts__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.contacts__title {
+    /* Центр */
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+}
+.contacts__text {
+    font-family: "Roboto Light";
+    font-size: 23px;
+    line-height: 30px;
+}
+.contacts__subtitle {
+    font-size: 23px;
+    line-height: 26px;
+    margin-top: 38px;
+}
+.contacts__title-phone {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+}
+.contacts__phone {
+    margin-top: 23px;
+    font-size: 30px;
+    line-height: 35px;
+}
+.contacts__phone + .contacts__title-phone {
+    margin-top: 21px;
+}
+
+
+
 /*==============================================
 ====================footer======================
 ==============================================*/
