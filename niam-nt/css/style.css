@@ -304,6 +304,10 @@ a {text-decoration: none;}
     position: absolute;
     right: 20px;
     top: 26px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 140px;
 }
 
 .owl-dots {
@@ -415,11 +419,11 @@ a {text-decoration: none;}
 .main__item-btn:hover {
     background-color: #F90001;
     color: #fff;
-    transition-duration:0.96s;
-    -webkit-transition-duration:0.96s;
-    -moz-transition-duration:0.96s;
-    -o-transition-duration:0.96s;
-    -ms-transition-duration:0.96s;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -ms-transition-duration: 1s;
 
 }
 
@@ -535,7 +539,7 @@ a {text-decoration: none;}
 .contacts__row {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0 20px 100px;
 }
 .contacts__title {
     /* Центр */
@@ -684,15 +688,15 @@ a {text-decoration: none;}
     padding:0;
 }
 .first {
-    opacity:1px;
-    display:block;
-    position:absolute;
-    z-index:100;
-    transition-duration:0.96s;
-    -webkit-transition-duration:0.96s;
-    -moz-transition-duration:0.96s;
-    -o-transition-duration:0.96s;
-    -ms-transition-duration:0.96s;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -ms-transition-duration: 1s;
 }
 
 .first:hover {
