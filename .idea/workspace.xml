@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Добавлениея фона и мелкие правки">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/html-css/social_icons-1.ai" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/social_icons-1.ai" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -68,7 +69,7 @@
             <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="132">
-                  <caret line="368" column="37" lean-forward="true" selection-start-line="368" selection-start-column="37" selection-end-line="368" selection-end-column="37" />
+                  <caret line="368" column="37" selection-start-line="368" selection-start-column="37" selection-end-line="368" selection-end-column="37" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -98,10 +99,9 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="476" column="31" selection-start-line="476" selection-start-column="31" selection-end-line="476" selection-end-column="31" />
+                <state relative-caret-position="100">
+                  <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
                   <folding>
-                    <element signature="e#637#2851#0" />
                     <element signature="e#2872#5134#0" />
                     <element signature="e#4216#5115#0" />
                     <element signature="e#5052#5291#0" />
@@ -282,7 +282,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="614" />
+    <option name="x" value="629" />
     <option name="y" value="-1417" />
     <option name="width" value="1264" />
     <option name="height" value="1329" />
@@ -476,14 +476,7 @@
       <workItem from="1595256305129" duration="8557000" />
       <workItem from="1595319652617" duration="2492000" />
       <workItem from="1595352570695" duration="11247000" />
-      <workItem from="1595607609332" duration="106535000" />
-    </task>
-    <task id="LOCAL-00816" summary="Обновление - Добавлено модальное окно">
-      <created>1591610577018</created>
-      <option name="number" value="00816" />
-      <option name="presentableId" value="LOCAL-00816" />
-      <option name="project" value="LOCAL" />
-      <updated>1591610577018</updated>
+      <workItem from="1595607609332" duration="107318000" />
     </task>
     <task id="LOCAL-00817" summary="Обновление - Вносим привки заказчика">
       <created>1591722756871</created>
@@ -821,23 +814,30 @@
       <option name="project" value="LOCAL" />
       <updated>1596118529475</updated>
     </task>
-    <option name="localTasksCounter" value="865" />
+    <task id="LOCAL-00865" summary="Добавлениея фона и мелкие правки">
+      <created>1596120081242</created>
+      <option name="number" value="00865" />
+      <option name="presentableId" value="LOCAL-00865" />
+      <option name="project" value="LOCAL" />
+      <updated>1596120081244</updated>
+    </task>
+    <option name="localTasksCounter" value="866" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1637272000" />
+    <option name="totallyTimeSpent" value="1638055000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="614" y="-1417" width="1264" height="1329" extended-state="0" />
+    <frame x="629" y="-1417" width="1264" height="1329" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.24009901" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.24009901" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26156434" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26156434" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1877,7 +1877,7 @@
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="368" column="37" lean-forward="true" selection-start-line="368" selection-start-column="37" selection-end-line="368" selection-end-column="37" />
+          <caret line="368" column="37" selection-start-line="368" selection-start-column="37" selection-end-line="368" selection-end-column="37" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1901,10 +1901,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="476" column="31" selection-start-line="476" selection-start-column="31" selection-end-line="476" selection-end-column="31" />
+        <state relative-caret-position="100">
+          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
           <folding>
-            <element signature="e#637#2851#0" />
             <element signature="e#2872#5134#0" />
             <element signature="e#4216#5115#0" />
             <element signature="e#5052#5291#0" />
