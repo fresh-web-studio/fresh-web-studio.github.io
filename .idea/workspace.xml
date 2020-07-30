@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Обновление">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.css" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -67,21 +67,16 @@
             <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="160">
-                  <caret line="26" column="57" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="57" />
+                  <caret line="234" column="61" selection-start-line="234" selection-start-column="53" selection-end-line="234" selection-end-column="101" />
                   <folding>
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="e#20270#20276#0" expanded="true" />
                   </folding>
@@ -96,8 +91,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+                <state relative-caret-position="298">
+                  <caret line="475" selection-start-line="475" selection-end-line="475" />
                   <folding>
                     <element signature="e#2872#5134#0" />
                     <element signature="e#4216#5115#0" />
@@ -106,7 +101,6 @@
                     <element signature="e#7482#7519#0" />
                     <element signature="e#7567#8455#0" />
                     <element signature="e#8271#10055#0" />
-                    <element signature="e#10354#10612#0" />
                     <element signature="e#11805#11815#0" />
                     <element signature="e#12709#12893#0" />
                     <element signature="e#13387#13422#0" />
@@ -164,7 +158,6 @@
       <find>Order Us</find>
     </findStrings>
     <replaceStrings>
-      <replace>&gt;</replace>
       <replace>article__table</replace>
       <replace>и&amp;nbsp;</replace>
       <replace>с&amp;nbsp;</replace>
@@ -194,6 +187,7 @@
       <replace>main_menu</replace>
       <replace>1</replace>
       <replace>&lt;img src=&quot;img/arrow.svg&quot; alt=&quot;Стрелка&quot;&gt;</replace>
+      <replace>Order Us &lt;img src=&quot;img/arrow.svg&quot; alt=&quot;Стрелка&quot;&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/panorama</dir>
@@ -266,8 +260,8 @@
         <option value="$PROJECT_DIR$/niam-nt/index.html" />
         <option value="$PROJECT_DIR$/niam-nt/broccoli.html" />
         <option value="$PROJECT_DIR$/niam-nt/css/style.css" />
-        <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.scss" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/index.html" />
+        <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.scss" />
       </list>
     </option>
   </component>
@@ -473,21 +467,7 @@
       <workItem from="1595256305129" duration="8557000" />
       <workItem from="1595319652617" duration="2492000" />
       <workItem from="1595352570695" duration="11247000" />
-      <workItem from="1595607609332" duration="107706000" />
-    </task>
-    <task id="LOCAL-00819" summary="Обновление - Вносим привки заказчика">
-      <created>1591872194538</created>
-      <option name="number" value="00819" />
-      <option name="presentableId" value="LOCAL-00819" />
-      <option name="project" value="LOCAL" />
-      <updated>1591872194539</updated>
-    </task>
-    <task id="LOCAL-00820" summary="Обновление - Правильное фиксированное меню">
-      <created>1591876689509</created>
-      <option name="number" value="00820" />
-      <option name="presentableId" value="LOCAL-00820" />
-      <option name="project" value="LOCAL" />
-      <updated>1591876689509</updated>
+      <workItem from="1595607609332" duration="108193000" />
     </task>
     <task id="LOCAL-00821" summary="Обновление - Правильное фиксированное меню">
       <created>1591878238119</created>
@@ -818,11 +798,25 @@
       <option name="project" value="LOCAL" />
       <updated>1596121624206</updated>
     </task>
-    <option name="localTasksCounter" value="868" />
+    <task id="LOCAL-00868" summary="Обновление">
+      <created>1596121829918</created>
+      <option name="number" value="00868" />
+      <option name="presentableId" value="LOCAL-00868" />
+      <option name="project" value="LOCAL" />
+      <updated>1596121829918</updated>
+    </task>
+    <task id="LOCAL-00869" summary="Обновление">
+      <created>1596121874870</created>
+      <option name="number" value="00869" />
+      <option name="presentableId" value="LOCAL-00869" />
+      <option name="project" value="LOCAL" />
+      <updated>1596121874871</updated>
+    </task>
+    <option name="localTasksCounter" value="870" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1638443000" />
+    <option name="totallyTimeSpent" value="1638930000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -1871,10 +1865,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="234" column="61" selection-start-line="234" selection-start-column="53" selection-end-line="234" selection-end-column="101" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#20270#20276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="298">
+          <caret line="475" selection-start-line="475" selection-end-line="475" />
           <folding>
             <element signature="e#2872#5134#0" />
             <element signature="e#4216#5115#0" />
@@ -1883,35 +1896,10 @@
             <element signature="e#7482#7519#0" />
             <element signature="e#7567#8455#0" />
             <element signature="e#8271#10055#0" />
-            <element signature="e#10354#10612#0" />
             <element signature="e#11805#11815#0" />
             <element signature="e#12709#12893#0" />
             <element signature="e#13387#13422#0" />
             <element signature="e#12918#13635#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="57" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#20270#20276#0" expanded="true" />
           </folding>
         </state>
       </provider>
