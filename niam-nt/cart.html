@@ -1,9 +1,14 @@
 <!doctype html>
-<html lang="ru-RU">
+<html lang="Ru-ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.css">
+    <title>Корзина</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Контакты</title>
 </head>
 <body>
 <header>
@@ -50,7 +55,7 @@
                     <li class="nav-list"><a class="root-item" href="contacts.html">Контакты</a></li>
                 </ul>
                 <div class="main_menu__cart">
-                    <a href="cart.html">
+                    <a href="#">
                         <i></i>
                         <div class="main_menu__back">
                             <div class="main_menu__quantity">3</div>
@@ -66,34 +71,88 @@
 </header>
 <main>
     <div class="container">
-        <h1 class="main__title">Нижний Тагил</h1>
-        <div class="contacts__row">
-            <div class="contacts__column">
-                <h2 class="contacts__title">Центр</h2>
-                <div class="contacts__text">ул. Карла Маркса, 81/23</div>
-                <h3 class="contacts__subtitle">Доставка</h3>
-                <div class="contacts__text">10:00 - 20:00</div>
-                <h3 class="contacts__subtitle">Пиццерия</h3>
-                <div class="contacts__text">10:00 - 21:00</div>
+        <h2 class="main__title">Корзина</h2>
+        <div class="cart__row">
+            <div class="cart__img">
+                <img src="img/main__chorizo-min.png" alt="Пицца Чоризо" />
             </div>
-            <div class="contacts__column">
-                <h2 class="contacts__title">Выя</h2>
-                <div class="contacts__text">ул. Космонавтов, 10 </div>
-                <h3 class="contacts__subtitle">Доставка</h3>
-                <div class="contacts__text">10:00 - 20:00</div>
-                <h3 class="contacts__subtitle">Пиццерия</h3>
-                <div class="contacts__text">10:00 - 21:00</div>
+            <div class="cart__text">
+                <a href="chorizo.html" class="cart__link">
+                    <div class="cart__name">Пицца Чоризо</div>
+                </a>
+                <div class="cart__description">
+                    Колбаса острая сырокопченая, сыр моцарелла.
+                </div>
             </div>
-            <div class="contacts__column">
-                <h2 class="contacts__title-phone">Центр</h2>
-                <div class="contacts__phone">+7 (3435) 41-62-60</div>
-                <div class="contacts__phone">+7 (3435) 41-37-47</div>
-                <h2 class="contacts__title-phone">Выя</h2>
-                <div class="contacts__phone">+7 (3435) 34-30-10</div>
+            <div class="cart__price">728 руб.</div>
+            <div class="quantity__list">
+                <span class="quantity__btn-minus"></span>
+                <div class="quantity__quantity">
+                    <input class="product-item-amount-field" type="number" value="1">
+                </div>
+                <span class="quantity__btn-plus"></span>
             </div>
+            <div class="cart__sum">728 руб.</div>
         </div>
-        <div style="position:relative;overflow:hidden; bottom: -100px;">
-            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/11168/nizhniy-tagil/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Нижний Тагил</a><a href="https://yandex.ru/maps/11168/nizhniy-tagil/?from=api-maps&ll=59.967640%2C57.921181&mode=usermaps&origin=jsapi_2_1_77&um=constructor%3AVQAm4xTiw4QmkUjtPO6lo7Zji7JfO1kY&utm_medium=mapframe&utm_source=maps&z=14" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты — поиск мест и адресов, городской транспорт</a><iframe src="https://yandex.ru/map-widget/v1/-/CCQpU8apgC" width="100%" height="500" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        <div class="cart__row">
+            <div class="cart__img">
+                <img src="img/additionally-img06.jpg" alt="Соус" />
+            </div>
+            <div class="cart__text">
+                <a href="#" class="cart__link">
+                    <div class="cart__name">Соус 20 гр.</div>
+                </a>
+                <div class="cart__description">
+
+                </div>
+            </div>
+            <div class="cart__price">5 руб.</div>
+            <div class="quantity__list">
+                <span class="quantity__btn-minus"></span>
+                <div class="quantity__quantity">
+                    <input class="product-item-amount-field" type="number" value="2">
+                </div>
+                <span class="quantity__btn-plus"></span>
+            </div>
+            <div class="cart__sum">10 руб.</div>
+        </div>
+        <div class="cart__row">
+            <div class="cart__img">
+                <img src="img/additionally-img04.jpg" alt="Коробка для пиццы" />
+            </div>
+            <div class="cart__text">
+                <a href="chorizo.html" class="cart__link">
+                    <div class="cart__name">Коробка на 8 порций</div>
+                </a>
+                <div class="cart__description">
+
+                </div>
+            </div>
+            <div class="cart__price">27 руб.</div>
+            <div class="quantity__list">
+                <span class="quantity__btn-minus"></span>
+                <div class="quantity__quantity">
+                    <input class="product-item-amount-field" type="number" value="1">
+                </div>
+                <span class="quantity__btn-plus"></span>
+            </div>
+            <div class="cart__sum">27 руб.</div>
+        </div>
+        <div class="cart__order-sum-list">
+            <div class="cart__order-text">Сумма заказа:</div>
+            <div class="cart__order-sum">765 руб.</div>
+        </div>
+        <div class="cart__row-btn">
+            <a href="#">
+                <div class="cart__btn_gray">
+                    Вернуться на главную
+                </div>
+            </a>
+            <a href="#">
+                <div class="cart__btn_red">
+                    Оформить заказ
+                </div>
+            </a>
         </div>
     </div>
 </main>
@@ -186,5 +245,8 @@
         </div>
     </div>
 </footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main_slider.js"></script>
 </body>
 </html>

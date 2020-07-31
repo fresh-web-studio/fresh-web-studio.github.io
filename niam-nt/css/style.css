@@ -669,7 +669,7 @@ main {
     height: 140px;
 }
 .goods__link .goods__active {
-    background-color: #D30102;
+    background-color: #F90001;
 }
 .goods__link .goods__active .goods__variation_row {
     color: #fff;
@@ -681,7 +681,7 @@ main {
     color: #626161;
 }
 
-.goods__quantity-list {
+.quantity__list {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -705,7 +705,7 @@ main {
     color: #000000;
 }
 
-.goods__btn-minus:after, .goods__btn-plus:after {
+.quantity__btn-minus:after, .quantity__btn-plus:after {
     position: absolute;
     top: 0;
     right: 0;
@@ -716,7 +716,7 @@ main {
     transition: opacity 300ms ease,background 300ms ease;
 }
 
-.goods__btn-minus, .goods__btn-plus {
+.quantity__btn-minus, .quantity__btn-plus {
     position: relative;
     display: block;
     min-width: 45px;
@@ -730,11 +730,11 @@ main {
     cursor: pointer;
     transition: background 300ms ease,opacity 300ms ease;
 }
-.goods__btn-minus:after {
+.quantity__btn-minus:after {
     background: url(../img/minus.png) no-repeat center;
     background-size: 16px;
 }
-.goods__btn-plus:after {
+.quantity__btn-plus:after {
     background: url(../img/plus.png) no-repeat center;
     background-size: 16px;
 }
@@ -775,8 +775,8 @@ input::-webkit-inner-spin-button {
 .goods__bay-btn {
     width: 181px;
     height: 69px;
-    background: #D30102;
-    border: 2px solid #D30102;
+    background: #F90001;
+    border: 2px solid #F90001;
     border-radius: 20px;
     box-sizing: border-box;
     font-size: 25px;
@@ -787,10 +787,9 @@ input::-webkit-inner-spin-button {
     color: #fff;
 }
 .goods__bay-btn:hover {
-    background: #fff;
-    border: 2px solid #D30102;
-    color: #D30102;
-    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.5);
+    background: #c50001;
+    border: 2px solid #c50001;
+    color: #fff;
 }
 .goods__additionally-title {
     font-size: 31px;
@@ -841,6 +840,109 @@ input::-webkit-inner-spin-button {
     background-color: #F90001;
     color: #fff;
 }
+
+.cart__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #D3D3D3;
+    margin: 0 20px;
+}
+
+.cart__img {
+    width: 200px;
+}
+.cart__img img {
+    width: 100%;
+    padding: 20px 0;
+}
+.cart__text {
+    width: 400px;
+}
+.cart__link .cart__name {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000;
+}
+.cart__link:hover .cart__name{
+    color: #D12621;
+}
+.cart__description {
+    font-size: 25px;
+    line-height: 29px;
+}
+.cart__row .quantity__list {
+    margin: 0;
+}
+.cart__price, .cart__sum {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 46px;
+}
+.cart__order-sum-list {
+    border-top: 1px solid #D3D3D3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.cart__order-text {
+    font-size: 35px;
+    line-height: 41px;
+    color: #828282;
+}
+.cart__order-sum {
+    margin-left: 60px;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+}
+.cart__row-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.cart__btn_gray {
+    width: 328px;
+    height: 65px;
+    border: 2px solid #767575;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #767575;
+}
+.cart__btn_gray:hover {
+    background-color: #F90001;
+    border: 2px solid #F90001;
+    color: #fff;
+}
+.cart__btn_red {
+    width: 328px;
+    height: 65px;
+    border: 2px solid #F90001;
+    background-color: #F90001;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.cart__btn_red:hover {
+    background-color: #c50001;
+    border: 2px solid #c50001;
+    color: #fff;
+}
+
 /*==============================================
 ====================footer======================
 ==============================================*/
