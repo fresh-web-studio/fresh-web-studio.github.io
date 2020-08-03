@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/css/IcoMoon-Free.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/css/gotham-light.otf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-product.html" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -63,18 +62,17 @@
     <favorites_list name="fresh-web-studio.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.9">
+    <splitter split-orientation="vertical" split-proportion="0.5499244">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+                <state relative-caret-position="277">
+                  <caret line="381" column="32" lean-forward="true" selection-start-line="381" selection-start-column="32" selection-end-line="381" selection-end-column="32" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
                     <element signature="n#label#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#5;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#p#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -163,8 +161,6 @@
                     <element signature="n#div#1;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -182,72 +178,19 @@
                     <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#input#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-product.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="269">
-                  <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+                <state relative-caret-position="309">
+                  <caret line="285" column="77" selection-start-line="285" selection-start-column="77" selection-end-line="285" selection-end-column="77" />
                   <folding>
                     <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-contact.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
-                  <folding>
-                    <element signature="n#head#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#label#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#ul#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#input#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -269,8 +212,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="738" column="18" lean-forward="true" selection-start-line="738" selection-start-column="18" selection-end-line="738" selection-end-column="18" />
+                <state relative-caret-position="5064">
+                  <caret line="1353" column="7" selection-start-line="1353" selection-start-column="7" selection-end-line="1353" selection-end-column="7" />
                   <folding>
                     <element signature="e#1239#2356#0" />
                     <element signature="e#3121#3387#0" />
@@ -299,6 +242,7 @@
                     <element signature="e#27754#27898#0" />
                     <element signature="e#27911#28551#0" />
                     <element signature="e#28568#28791#0" />
+                    <element signature="e#31985#32208#0" />
                     <element signature="e#28804#29974#0" />
                     <element signature="e#29999#30738#0" />
                   </folding>
@@ -323,7 +267,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>box</find>
       <find>&lt;img src=&quot;img/photo-item-</find>
       <find>jpg&quot; alt=&quot;фото&quot; /&gt;</find>
       <find>medi</find>
@@ -353,6 +296,7 @@
       <find>goods__quantity-list</find>
       <find>/personal/cart/car</find>
       <find>/personal/cart/</find>
+      <find>&lt;img class=&quot;first&quot; src=&quot;img/f.png&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>и&amp;nbsp;</replace>
@@ -456,10 +400,10 @@
         <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson10/css/style.scss" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson10/index.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/product-details.html" />
-        <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/index.html" />
-        <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-product.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/css/style.scss" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-contact.html" />
+        <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/index.html" />
+        <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-product.html" />
       </list>
     </option>
   </component>
@@ -510,23 +454,6 @@
               <item name="geekbrains" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="web-development" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="html-css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="geekbrains" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="web-development" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="html-css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="lesson10" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="geekbrains" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="web-development" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="html-css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="lesson10" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -744,21 +671,7 @@
       <workItem from="1596382287509" duration="2666000" />
       <workItem from="1596386043925" duration="3236000" />
       <workItem from="1596389554504" duration="1929000" />
-      <workItem from="1596450136685" duration="16636000" />
-    </task>
-    <task id="LOCAL-00827" summary="Обновление - Добавляем редактор Тексталит и скрипт обратных форм">
-      <created>1592219720715</created>
-      <option name="number" value="00827" />
-      <option name="presentableId" value="LOCAL-00827" />
-      <option name="project" value="LOCAL" />
-      <updated>1592219720716</updated>
-    </task>
-    <task id="LOCAL-00828" summary="Обновление - Изменил Title">
-      <created>1592220063151</created>
-      <option name="number" value="00828" />
-      <option name="presentableId" value="LOCAL-00828" />
-      <option name="project" value="LOCAL" />
-      <updated>1592220063152</updated>
+      <workItem from="1596450136685" duration="17324000" />
     </task>
     <task id="LOCAL-00829" summary="Обновление - стили">
       <created>1592244327979</created>
@@ -1089,23 +1002,37 @@
       <option name="project" value="LOCAL" />
       <updated>1596391262604</updated>
     </task>
-    <option name="localTasksCounter" value="876" />
+    <task id="LOCAL-00876" summary="Завершил урок 11">
+      <created>1596478907226</created>
+      <option name="number" value="00876" />
+      <option name="presentableId" value="LOCAL-00876" />
+      <option name="project" value="LOCAL" />
+      <updated>1596478907227</updated>
+    </task>
+    <task id="LOCAL-00877" summary="Завершил урок 11">
+      <created>1596479130965</created>
+      <option name="number" value="00877" />
+      <option name="presentableId" value="LOCAL-00877" />
+      <option name="project" value="LOCAL" />
+      <updated>1596479130965</updated>
+    </task>
+    <option name="localTasksCounter" value="878" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1707167000" />
+    <option name="totallyTimeSpent" value="1707855000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="-670" y="-1440" width="2560" height="1440" extended-state="6" />
+    <frame x="619" y="-1417" width="1271" height="1325" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.32731748" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.32731748" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3755274" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37468356" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1114,7 +1041,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.497939" weight="0.50462574" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4902507" weight="0.17974684" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5097493" side_tool="true" weight="0.63582844" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5097493" side_tool="true" weight="0.63544303" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22431506" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32919955" />
@@ -1209,7 +1136,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Обновление - Добавлено модальное окно" />
     <MESSAGE value="Обновление - Вносим привки заказчика" />
     <MESSAGE value="Обновление - Правильное фиксированное меню" />
     <MESSAGE value="Обновление - исправление слайдера блока проекты в мобильной версии" />
@@ -1234,7 +1160,8 @@
     <MESSAGE value="Создание страницы cart.html" />
     <MESSAGE value="Закончил 9 урок" />
     <MESSAGE value="Обновления" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновления" />
+    <MESSAGE value="Завершил урок 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Завершил урок 11" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" />
@@ -3468,8 +3395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/product-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="121" column="26" lean-forward="true" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#label#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -3478,14 +3405,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5064">
+          <caret line="1353" column="7" selection-start-line="1353" selection-start-column="7" selection-end-line="1353" selection-end-column="7" />
+          <folding>
+            <element signature="e#1239#2356#0" />
+            <element signature="e#3121#3387#0" />
+            <element signature="e#2367#3162#0" />
+            <element signature="e#3183#5554#0" />
+            <element signature="e#5564#6718#0" />
+            <element signature="e#6740#9398#0" />
+            <element signature="e#7391#8173#0" />
+            <element signature="e#9900#12701#0" />
+            <element signature="e#9978#10662#0" />
+            <element signature="e#10694#11476#0" />
+            <element signature="e#11511#12697#0" />
+            <element signature="e#9410#10571#0" />
+            <element signature="e#10582#12926#0" />
+            <element signature="e#12941#13754#0" />
+            <element signature="e#13765#16983#0" />
+            <element signature="e#14912#15329#0" />
+            <element signature="e#17004#19459#0" />
+            <element signature="e#23016#23044#0" />
+            <element signature="e#23121#23387#0" />
+            <element signature="e#23057#26121#0" />
+            <element signature="e#26144#26755#0" />
+            <element signature="e#26767#27013#0" />
+            <element signature="e#27037#27740#0" />
+            <element signature="e#27849#28552#0" />
+            <element signature="e#27754#27898#0" />
+            <element signature="e#27911#28551#0" />
+            <element signature="e#28568#28791#0" />
+            <element signature="e#31985#32208#0" />
+            <element signature="e#28804#29974#0" />
+            <element signature="e#29999#30738#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state relative-caret-position="277">
+          <caret line="381" column="32" lean-forward="true" selection-start-line="381" selection-start-column="32" selection-end-line="381" selection-end-column="32" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#label#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#5;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -3574,8 +3539,6 @@
             <element signature="n#div#1;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -3593,71 +3556,15 @@
             <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#input#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="738" column="18" lean-forward="true" selection-start-line="738" selection-start-column="18" selection-end-line="738" selection-end-column="18" />
-          <folding>
-            <element signature="e#1239#2356#0" />
-            <element signature="e#3121#3387#0" />
-            <element signature="e#2367#3162#0" />
-            <element signature="e#3183#5554#0" />
-            <element signature="e#5564#6718#0" />
-            <element signature="e#6740#9398#0" />
-            <element signature="e#7391#8173#0" />
-            <element signature="e#9900#12701#0" />
-            <element signature="e#9978#10662#0" />
-            <element signature="e#10694#11476#0" />
-            <element signature="e#11511#12697#0" />
-            <element signature="e#9410#10571#0" />
-            <element signature="e#10582#12926#0" />
-            <element signature="e#12941#13754#0" />
-            <element signature="e#13765#16983#0" />
-            <element signature="e#14912#15329#0" />
-            <element signature="e#17004#19459#0" />
-            <element signature="e#23016#23044#0" />
-            <element signature="e#23121#23387#0" />
-            <element signature="e#23057#26121#0" />
-            <element signature="e#26144#26755#0" />
-            <element signature="e#26767#27013#0" />
-            <element signature="e#27037#27740#0" />
-            <element signature="e#27849#28552#0" />
-            <element signature="e#27754#27898#0" />
-            <element signature="e#27911#28551#0" />
-            <element signature="e#28568#28791#0" />
-            <element signature="e#28804#29974#0" />
-            <element signature="e#29999#30738#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+        <state relative-caret-position="345">
+          <caret line="209" column="30" lean-forward="true" selection-start-line="209" selection-start-column="30" selection-end-line="209" selection-end-column="30" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -3665,8 +3572,6 @@
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -3684,15 +3589,18 @@
             <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#input#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/interior-product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="285" column="77" selection-start-line="285" selection-start-column="77" selection-end-line="285" selection-end-column="77" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
