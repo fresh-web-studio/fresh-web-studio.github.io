@@ -74,7 +74,7 @@ a {
 .container {
   width: 1366px;
   margin: 0 auto;
-  /*
+  /* Variant 2
     .location2 {
       width: $wight-content-min;
       margin: 0 auto;
@@ -810,7 +810,17 @@ a {
     padding: 50px 0; }
 
   .container {
-    width: 100%; }
+    width: 100%;
+    /* Variant 2
+    .location2 {
+      width: $wight-percent;
+      .location__column {
+        width: $wight-percent - 10%;
+        margin: 5%;
+        padding: 30px 20px;
+      }
+    }
+    */ }
     .container .padding-site {
       height: 550px;
       padding-left: 15px;
@@ -1024,12 +1034,6 @@ a {
     .container .location {
       width: 100%; }
       .container .location .location__column {
-        width: 90%;
-        margin: 5%;
-        padding: 30px 20px; }
-    .container .location2 {
-      width: 100%; }
-      .container .location2 .location__column {
         width: 90%;
         margin: 5%;
         padding: 30px 20px; }
