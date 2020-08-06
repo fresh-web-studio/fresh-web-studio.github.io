@@ -9,6 +9,9 @@
 @font-face {
   font-family: "icomoon-free";
   src: url("IcoMoon-Free.ttf"); }
+@font-face {
+  font-family: "fa-solid-900";
+  src: url("fa-solid-900.ttf"); }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1360,7 +1363,8 @@ input.order__small {
     background-color: #fff; }
 
   .header__link-logo {
-    margin-left: 20.22vw; }
+    margin-left: 20.22vw;
+    margin-top: 1vw; }
 
   .header__logo {
     width: 38.92vw; }
@@ -1408,24 +1412,67 @@ input.order__small {
     padding: 2.64vw 5vw;
     border-bottom: 0.08vw solid #707070; }
 
-  .main_menu .nav-list:hover, .main_menu .nav-list:active {
+  .main_menu .nav-list:hover {
+    color: #fff; }
+
+  .main_menu .nav-list:before {
+    color: #F90001;
+    font-family: fa-solid-900;
+    margin-top: 2.27vw;
+    position: absolute; }
+
+  .main_menu .nav-list:hover:before {
+    color: #fff; }
+
+  .main_menu .nav-list:nth-child(1):before {
+    content: "\f015"; }
+
+  .main_menu .nav-list:nth-child(2):before {
+    content: "\f818"; }
+
+  .main_menu .nav-list:nth-child(3):before {
+    content: "\f4d8"; }
+
+  .main_menu .nav-list:nth-child(4):before {
+    content: "\f7b6"; }
+
+  .main_menu .nav-list:nth-child(5):before {
+    content: "\f810"; }
+
+  .main_menu .nav-list:nth-child(6):before {
+    content: "\f2bb"; }
+
+  .main_menu .nav-list:nth-child(7):before {
+    content: "\f0d1"; }
+
+  .main_menu .nav-list:nth-child(8):before {
+    content: "\f87b"; }
+
+  .main_menu .nav-list:hover, .main_menu .nav-list:active, .main_menu .nav-list:hover:before {
     background-color: #F90001;
     color: #fff; }
 
   .main_menu .nav-list .root-item {
-    margin: 0;
-    font-size: 5vw; }
+    margin: 0 8.84vw;
+    font-size: 6.32vw;
+    width: 55vw;
+    display: block; }
 
   .main_menu .nav-list .root-item:hover {
     background: none;
     box-shadow: none;
     border-radius: 0;
-    padding: 5vw 0;
-    margin: 0;
-    color: #fff; }
+    padding: 0;
+    margin: 0 8.84vw;
+    color: #fff;
+    width: 55vw;
+    display: block; }
 
   .main_menu a {
     color: #D30102; }
+
+  .main_menu a:hover {
+    color: #fff; }
 
   .slide-wrapper {
     height: 35vw; }
@@ -1515,7 +1562,7 @@ input.order__small {
     header #menu-toggle:checked ~ .top-menu {
       visibility: visible;
       left: 0;
-      width: 60vw;
+      width: 70vw;
       box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.7); }
 
   main .main__title {

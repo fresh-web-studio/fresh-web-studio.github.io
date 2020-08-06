@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/niam-nt/css/fa-solid-900.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niam-nt/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/niam-nt/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niam-nt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/niam-nt/index.html" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -279,8 +279,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/niam-nt/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="1545" column="21" selection-start-line="1545" selection-start-column="21" selection-end-line="1545" selection-end-column="21" />
+            <state relative-caret-position="506">
+              <caret line="1553" column="20" selection-start-line="1553" selection-start-column="20" selection-end-line="1553" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -300,8 +300,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1.72vw</find>
-      <find>1.79vw</find>
       <find>1.87vw</find>
       <find>1.95vw</find>
       <find>2.34vw</find>
@@ -330,6 +328,8 @@
       <find>.header__link:hover</find>
       <find>.header__text.login, .header__text.reg</find>
       <find>root-item</find>
+      <find>icomoon-free</find>
+      <find>.main_menu .nav-list .root-item</find>
     </findStrings>
     <replaceStrings>
       <replace>cart.html</replace>
@@ -448,10 +448,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2245" />
-    <option name="y" value="-256" />
-    <option name="width" value="954" />
-    <option name="height" value="972" />
+    <option name="x" value="712" />
+    <option name="y" value="-1417" />
+    <option name="width" value="1169" />
+    <option name="height" value="1317" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -681,14 +681,7 @@
       <workItem from="1596386043925" duration="3236000" />
       <workItem from="1596389554504" duration="1929000" />
       <workItem from="1596450136685" duration="32278000" />
-      <workItem from="1596611096157" duration="43770000" />
-    </task>
-    <task id="LOCAL-00838" summary="Обновление">
-      <created>1593340393896</created>
-      <option name="number" value="00838" />
-      <option name="presentableId" value="LOCAL-00838" />
-      <option name="project" value="LOCAL" />
-      <updated>1593340393896</updated>
+      <workItem from="1596611096157" duration="48766000" />
     </task>
     <task id="LOCAL-00839" summary="Обновление">
       <created>1593515905447</created>
@@ -1026,18 +1019,25 @@
       <option name="project" value="LOCAL" />
       <updated>1596714584443</updated>
     </task>
-    <option name="localTasksCounter" value="887" />
+    <task id="LOCAL-00887" summary="Адаптация шапки сайта: цвета и фон для мобильной верчии меню">
+      <created>1596714889436</created>
+      <option name="number" value="00887" />
+      <option name="presentableId" value="LOCAL-00887" />
+      <option name="project" value="LOCAL" />
+      <updated>1596714889436</updated>
+    </task>
+    <option name="localTasksCounter" value="888" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1766579000" />
+    <option name="totallyTimeSpent" value="1771575000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="2245" y="-256" width="954" height="972" extended-state="0" />
+    <frame x="712" y="-1417" width="1169" height="1317" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.20288248" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.1638317" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1050,7 +1050,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.497939" weight="0.50462574" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48970458" weight="0.1358173" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.48970458" visible="true" weight="0.17841971" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51029545" side_tool="true" weight="0.6559048" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22431506" />
@@ -5161,8 +5161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/niam-nt/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="1545" column="21" selection-start-line="1545" selection-start-column="21" selection-end-line="1545" selection-end-column="21" />
+        <state relative-caret-position="506">
+          <caret line="1553" column="20" selection-start-line="1553" selection-start-column="20" selection-end-line="1553" selection-end-column="20" />
         </state>
       </provider>
     </entry>
