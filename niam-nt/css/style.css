@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   font-family: roboto, sans-serif;
   box-sizing: border-box; }
@@ -301,12 +300,12 @@ button {
   width: 1.79vw;
   height: 1.79vw;
   margin: 0.39vw 0.55vw;
-  background: #D30102;
-  border: 0.08vw solid #D30102; }
+  background: #FFCCCC;
+  border: 0.08vw solid #FFCCCC; }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #D30102;
-  border: 0.08vw solid #D30102; }
+  border: 0.08vw solid #FFCCCC; }
 
 /*==============================================
 ===================== Main =====================
@@ -459,10 +458,9 @@ main {
   background-size: cover; }
 
 .main__info {
-  /* Доставка осуществляется 10:00 - 20:00 */
   font-size: 3vw;
   padding: 0 1.6vw;
-  color: #C6C6C6; }
+  color: #707070; }
 
 .delivery__row {
   margin: 1.6vw;
@@ -478,7 +476,7 @@ main {
   justify-content: space-between;
   font-size: 2.3vw;
   line-height: 4.9vw;
-  color: #C6C6C6; }
+  color: #707070; }
 
 .delivery__table-row-header {
   display: flex;
@@ -506,7 +504,6 @@ main {
   font-size: 3.1vw; }
 
 .contacts__text {
-  font-family: "Roboto Light";
   font-size: 1.8vw; }
 
 .contacts__subtitle {
@@ -561,7 +558,7 @@ main {
   margin-top: 1.01vw;
   font-size: 1.95vw;
   line-height: 2.26vw;
-  color: #C6C6C6; }
+  color: #707070; }
 
 .goods__composition-row {
   margin-top: 1.01vw;
@@ -574,7 +571,7 @@ main {
   width: 50%;
   font-size: 1.72vw;
   line-height: 2.03vw;
-  color: #C6C6C6;
+  color: #707070;
   margin-bottom: 0.94vw; }
 
 .goods__column-right {
@@ -582,7 +579,7 @@ main {
   text-align: right;
   font-size: 1.72vw;
   line-height: 2.03vw;
-  color: #C6C6C6;
+  color: #707070;
   margin-bottom: 0.94vw; }
 
 .goods__variations-list {
@@ -626,7 +623,7 @@ main {
   font-size: 1.40vw;
   line-height: 1.64vw;
   text-align: center;
-  color: #C6C6C6; }
+  color: #707070; }
 
 .quantity__list {
   display: flex;
@@ -752,7 +749,7 @@ input::-webkit-inner-spin-button {
   margin-bottom: 1.95vw;
   font-size: 1vw;
   line-height: 1.48vw;
-  color: #C6C6C6; }
+  color: #707070; }
 
 .goods__additionally-price-bay {
   display: flex;
@@ -831,7 +828,7 @@ input::-webkit-inner-spin-button {
 .cart__order-text {
   font-size: 2.73vw;
   line-height: 3.2vw;
-  color: #C6C6C6; }
+  color: #707070; }
 
 .cart__order-sum {
   margin-left: 4.68vw;
@@ -847,7 +844,7 @@ input::-webkit-inner-spin-button {
 .cart__btn_gray {
   width: 25.58vw;
   height: 5.07vw;
-  border: 0.16vw solid #C6C6C6;
+  border: 0.16vw solid #707070;
   box-sizing: border-box;
   border-radius: 1.17vw;
   font-size: 1.95vw;
@@ -855,7 +852,7 @@ input::-webkit-inner-spin-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #C6C6C6; }
+  color: #707070; }
 
 .cart__btn_gray:hover {
   background-color: #D30102;
@@ -1007,7 +1004,7 @@ input[type="checkbox"], input[type="radio"] {
 
 .bx-filter-param-text {
   font-size: 1.48vw;
-  color: #C6C6C6; }
+  color: #707070; }
 
 .bx-filter-param-text:before, .order__pay:before {
   margin-top: -0.16vw;
@@ -1034,7 +1031,7 @@ input:checked + .bx-filter-param-text:before, input:checked + .order__pay:before
 .bx-authform-description-container {
   margin-top: 1vw;
   font-size: 1.48vw;
-  color: #C6C6C6; }
+  color: #707070; }
 
 .login__column:first-child {
   background-color: #fff;
@@ -1176,9 +1173,9 @@ input.order__small {
 .order__select-pay {
   margin-top: 3.12vw;
   width: 100%;
-  background-color: #C6C6C6;
+  background-color: #F5F4F4;
   border-radius: 1.6vw;
-  border: 0.16vw solid #C6C6C6;
+  border: 0.16vw solid #F5F4F4;
   padding: 2.5vw; }
 
 .order-title {
@@ -1250,7 +1247,6 @@ input.order__small {
   color: #E4E22C; }
 
 .footer__address {
-  font-family: Roboto Light;
   font-size: 1.48vw;
   line-height: 3vw;
   color: #FFFFFF; }
