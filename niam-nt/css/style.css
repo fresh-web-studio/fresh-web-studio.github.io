@@ -1354,7 +1354,10 @@ input.order__small {
 
 @media all and (max-width: 415px) {
   .header__top {
-    height: 18.7vw; }
+    height: 18.7vw;
+    z-index: 5;
+    position: relative;
+    background-color: #fff; }
 
   .header__logo {
     width: 38.92vw;
@@ -1388,7 +1391,8 @@ input.order__small {
     padding-right: 1.52vw;
     right: 0;
     top: 5vw;
-    position: absolute; }
+    position: absolute;
+    z-index: 5; }
 
   .main_menu__cart a:before {
     width: 9.1vw;
@@ -1397,22 +1401,26 @@ input.order__small {
     font-size: 9.1vw;
     color: #707070; }
 
-  .main_menu .nav-list .root-item {
-    margin: 0 8.84vw;
-    font-size: 8.84vw; }
-
-  .main_menu .nav-list .root-item:hover {
-    background: #F90001;
-    box-shadow: 0.31vw 0.31vw 2.53vw rgba(0, 0, 0, 0.11);
-    border-radius: 4.8vw;
-    padding: 2.53vw 1.3vw;
-    margin: 0;
-    color: #E4E22C; }
-
   .main_menu .nav-list {
     margin: 0;
-    padding: 2.64vw 0.16vw;
+    padding: 2.64vw 5vw;
     border-bottom: 0.08vw solid #707070; }
+
+  .main_menu .nav-list:hover, .main_menu .nav-list:active {
+    background-color: #F90001;
+    color: #fff; }
+
+  .main_menu .nav-list .root-item {
+    margin: 0;
+    font-size: 5vw; }
+
+  .main_menu .nav-list .root-item:hover {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 5vw 0;
+    margin: 0;
+    color: #fff; }
 
   .main_menu a {
     color: #D30102; }
@@ -1504,7 +1512,9 @@ input.order__small {
       transform: rotate(90deg); }
     header #menu-toggle:checked ~ .top-menu {
       visibility: visible;
-      left: 0; }
+      left: 0;
+      width: 60vw;
+      box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.7); }
 
   main .main__title {
     font-size: 8vw;
