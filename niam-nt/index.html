@@ -35,15 +35,19 @@
                 </div>
             </div>
             <div class="header__login">
-                <div class="header__text login"><a href="login.html" class="header__link">Вход</a></div>
-                <div class="header__text reg"><a href="login.html" class="header__link">Регистрация</a></div>
+                <div class="header__text"><a href="login.html" class="header__link login"><span class="login-greg-none">Вход</span></a></div>
+                <div class="header__text"><a href="login.html" class="header__link reg"><span class="login-greg-none">Регистрация</span></a></div>
             </div>
         </div>
     </div>
     <div class="header__back-red">
         <div class="main_menu">
-            <div class="container header__row">
-                <ul class="main_multimenu">
+            <nav class="container header__row">
+                <input id="menu-toggle" type="checkbox"/>
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+                <ul id="nav" class="main_multimenu top-menu">
                     <li class="nav-list"><a class="root-item" href="/">Главная</a></li>
                     <li class="nav-list"><a class="root-item" href="pizza.html">Пицца</a></li>
                     <li class="nav-list"><a class="root-item" href="salads.html">Салаты</a></li>
@@ -55,7 +59,6 @@
                 </ul>
                 <div class="main_menu__cart">
                     <a href="cart.html">
-                        <i></i>
                         <div class="main_menu__back">
                             <div class="main_menu__quantity">3</div>
                         </div>
@@ -64,7 +67,7 @@
                         </span>
                     </a>
                 </div>
-            </div>
+            </nav>
         </div>
         <div class="slide-wrapper">
             <div class="owl-carousel owl-theme" id="owl-carousel1">
