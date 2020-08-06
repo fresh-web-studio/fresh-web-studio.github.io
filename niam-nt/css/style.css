@@ -1359,9 +1359,11 @@ input.order__small {
     position: relative;
     background-color: #fff; }
 
-  .header__logo {
-    width: 38.92vw;
+  .header__link-logo {
     margin-left: 20.22vw; }
+
+  .header__logo {
+    width: 38.92vw; }
 
   .header__town-time, .header__address-phone, span.login-greg-none, .reg, .main_menu__price {
     display: none; }

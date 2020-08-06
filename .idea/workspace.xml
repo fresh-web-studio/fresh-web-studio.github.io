@@ -4,6 +4,7 @@
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niam-nt/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/niam-nt/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/niam-nt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/niam-nt/index.html" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -64,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/niam-nt/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="168">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -278,8 +279,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/niam-nt/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+            <state relative-caret-position="410">
+              <caret line="1545" column="21" selection-start-line="1545" selection-start-column="21" selection-end-line="1545" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -299,7 +300,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1.64vw</find>
       <find>1.72vw</find>
       <find>1.79vw</find>
       <find>1.87vw</find>
@@ -329,6 +329,7 @@
       <find>.cart__order-text</find>
       <find>.header__link:hover</find>
       <find>.header__text.login, .header__text.reg</find>
+      <find>root-item</find>
     </findStrings>
     <replaceStrings>
       <replace>cart.html</replace>
@@ -558,8 +559,8 @@
       <recent name="$PROJECT_DIR$/geekbrains/html-css/lesson5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/niam-nt/img" />
       <recent name="$PROJECT_DIR$/niam-nt/css" />
+      <recent name="$PROJECT_DIR$/niam-nt/img" />
       <recent name="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson11/css" />
       <recent name="$PROJECT_DIR$/geekbrains/web-development/html-css/psd" />
       <recent name="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson10" />
@@ -680,21 +681,7 @@
       <workItem from="1596386043925" duration="3236000" />
       <workItem from="1596389554504" duration="1929000" />
       <workItem from="1596450136685" duration="32278000" />
-      <workItem from="1596611096157" duration="40832000" />
-    </task>
-    <task id="LOCAL-00836" summary="Обновление">
-      <created>1593336904253</created>
-      <option name="number" value="00836" />
-      <option name="presentableId" value="LOCAL-00836" />
-      <option name="project" value="LOCAL" />
-      <updated>1593336904253</updated>
-    </task>
-    <task id="LOCAL-00837" summary="Обновление">
-      <created>1593337689904</created>
-      <option name="number" value="00837" />
-      <option name="presentableId" value="LOCAL-00837" />
-      <option name="project" value="LOCAL" />
-      <updated>1593337689904</updated>
+      <workItem from="1596611096157" duration="43770000" />
     </task>
     <task id="LOCAL-00838" summary="Обновление">
       <created>1593340393896</created>
@@ -1025,22 +1012,37 @@
       <option name="project" value="LOCAL" />
       <updated>1596685554735</updated>
     </task>
-    <option name="localTasksCounter" value="885" />
+    <task id="LOCAL-00885" summary="Адаптация шапки сайта: добавление шрифта IcoMoon-Free">
+      <created>1596711702035</created>
+      <option name="number" value="00885" />
+      <option name="presentableId" value="LOCAL-00885" />
+      <option name="project" value="LOCAL" />
+      <updated>1596711702035</updated>
+    </task>
+    <task id="LOCAL-00886" summary="Адаптация шапки сайта: цвета и фон для мобильной верчии меню">
+      <created>1596714584443</created>
+      <option name="number" value="00886" />
+      <option name="presentableId" value="LOCAL-00886" />
+      <option name="project" value="LOCAL" />
+      <updated>1596714584443</updated>
+    </task>
+    <option name="localTasksCounter" value="887" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1763641000" />
+    <option name="totallyTimeSpent" value="1766579000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
     <frame x="2245" y="-256" width="954" height="972" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.20288248" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.20288248" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37213254" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37139422" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1048,7 +1050,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.497939" weight="0.50462574" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48970458" visible="true" weight="0.26322114" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48970458" weight="0.1358173" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51029545" side_tool="true" weight="0.6559048" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22431506" />
@@ -1144,8 +1146,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Обновление - удаляем тексталит" />
-    <MESSAGE value="Обновление - Добавляем редактор Тексталит и скрипт обратных форм" />
     <MESSAGE value="Обновление - Изменил Title" />
     <MESSAGE value="Обновление - стили" />
     <MESSAGE value="Начало 6 урока" />
@@ -1169,7 +1169,9 @@
     <MESSAGE value="Завершил работу над страницей order.html&#10;И создал переменные для vw и цветов" />
     <MESSAGE value="Исправил переменные для цвета" />
     <MESSAGE value="Адаптация шапки сайта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Адаптация шапки сайта" />
+    <MESSAGE value="Адаптация шапки сайта: добавление шрифта IcoMoon-Free" />
+    <MESSAGE value="Адаптация шапки сайта: цвета и фон для мобильной верчии меню" />
+    <option name="LAST_COMMIT_MESSAGE" value="Адаптация шапки сайта: цвета и фон для мобильной верчии меню" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/niam-nt/broccoli-photo.html">
@@ -4947,8 +4949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/niam-nt/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="168">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -5159,8 +5161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/niam-nt/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        <state relative-caret-position="410">
+          <caret line="1545" column="21" selection-start-line="1545" selection-start-column="21" selection-end-line="1545" selection-end-column="21" />
         </state>
       </provider>
     </entry>
