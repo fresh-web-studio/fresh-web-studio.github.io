@@ -176,6 +176,8 @@ header .header__text_red {
   line-height: 2.81vw;
   color: #F90001;
   margin-left: 0.8vw; }
+  header .header__text_red a {
+    color: #F90001; }
 header .main_menu {
   display: flex;
   align-items: center;
@@ -1129,6 +1131,8 @@ footer .footer__phone {
   font-size: 1.48vw;
   line-height: 3vw;
   color: #FFFFFF; }
+  footer .footer__phone a {
+    color: #fff; }
 footer .footer__phone:before {
   background-image: url("../img/footer__phone.svg");
   background-size: 0.8vw;
@@ -1401,6 +1405,61 @@ footer .footer__social img, footer .slide-item__social .hover img {
     line-height: 7.5vw; }
   main .main__item-info {
     margin-top: 0.5vw;
-    font-size: 2vw; } }
+    font-size: 2vw; }
+
+  footer .footer__top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vw 3.6vw;
+    flex-wrap: wrap; }
+  footer .footer__column {
+    width: 40vw; }
+  footer .footer__logo {
+    width: 41vw; }
+  footer .footer__menu-botton, footer .footer__text {
+    display: none; }
+  footer .footer__social {
+    flex-wrap: wrap;
+    flex-flow: row; }
+  footer .footer__social img {
+    margin-top: 0.8vw;
+    width: 10vw; }
+  footer .column-between {
+    order: 3;
+    width: 100vw;
+    text-align: center;
+    height: 35vw;
+    margin-top: 5vw;
+    margin-left: 5vw; }
+  footer .footer__column:nth-child(2), footer .footer__column:nth-child(3) {
+    display: none; }
+  footer .footer__address {
+    font-size: 6vw;
+    line-height: 6vw;
+    font-weight: 300; }
+  footer .footer__address:before {
+    background-size: 3vw;
+    width: 2.81vw;
+    height: 6.8vw;
+    margin-left: -4.5vw; }
+  footer .footer__phone {
+    font-size: 6vw;
+    line-height: 6vw; }
+  footer .footer__phone:before {
+    background-size: 3vw;
+    width: 2.81vw;
+    height: 5.8vw;
+    margin-left: -4.5vw; }
+  footer .footer__footer-bottom {
+    font-size: 3.54vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 14vw;
+    padding: 2vw 0; }
+    footer .footer__footer-bottom a {
+      margin-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */
