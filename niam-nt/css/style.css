@@ -649,11 +649,17 @@ main {
     cursor: pointer;
     transition: background 300ms ease, opacity 300ms ease; }
   main .quantity__btn-minus:after {
-    background: url(../img/minus.png) no-repeat center;
-    background-size: 1.25vw; }
+    content: "-";
+    color: #F90001;
+    font-size: 4vw;
+    line-height: 2.7vw;
+    background-position: center; }
   main .quantity__btn-plus:after {
-    background: url(../img/plus.png) no-repeat center;
-    background-size: 1.25vw; }
+    content: "+";
+    color: #F90001;
+    font-size: 3vw;
+    line-height: 3vw;
+    background-position: center; }
   main .product-item-amount-field {
     font-size: 2.34vw;
     display: block;
@@ -1487,7 +1493,7 @@ footer .footer__social img, footer .slide-item__social .hover img {
   main .login__column:last-child {
     display: none; }
   main .tabs {
-    width: 80vw; }
+    width: 100%; }
   main input[type="password"], main input[type="text"] {
     width: 100%;
     border-radius: 3.6vw;
@@ -1524,13 +1530,115 @@ footer .footer__social img, footer .slide-item__social .hover img {
     color: #fff;
     cursor: pointer;
     -webkit-appearance: none; }
-  main .bx-filter-param-text, main .bx-authform-description-container {
+  main .bx-filter-param-text, main .bx-authform-description-container, main .order__pay {
     font-size: 3.48vw; }
   main .bx-filter-param-text:before, main .order__pay:before {
     font: 5vw/6.25vw Arial;
     margin-right: 2.8vw;
     width: 6.17vw;
     height: 6.17vw; }
+  main .cart__row {
+    flex-wrap: wrap;
+    margin: 0 3.6vw; }
+  main .cart__img {
+    width: 24vw; }
+  main .cart__text {
+    width: 65vw; }
+  main .cart__link .cart__name {
+    font-size: 5.73vw;
+    line-height: 8.2vw; }
+  main .cart__description {
+    font-size: 3.95vw;
+    line-height: 5.26vw; }
+  main .cart__price, main .cart__sum {
+    width: 23vw;
+    font-weight: 500;
+    font-size: 5.73vw;
+    line-height: 14.56vw;
+    margin-top: -5vw; }
+  main .cart__sum {
+    text-align: right; }
+  main .quantity__list {
+    max-width: 28vw; }
+  main .product-item-amount-field {
+    font-size: 5.34vw;
+    height: 6.51vw;
+    line-height: 5.51vw; }
+  main .quantity__btn-minus, main .quantity__btn-plus {
+    min-width: 8.51vw;
+    height: 8.51vw;
+    border: 0.16vw solid #F90001;
+    border-radius: 2.8vw;
+    margin-top: -5vw; }
+  main .quantity__btn-minus:after {
+    font-size: 10vw;
+    line-height: 7vw; }
+  main .quantity__btn-plus:after {
+    font-size: 7vw;
+    line-height: 8vw; }
+  main .quantity__quantity {
+    margin-top: -5vw; }
+  main .cart__order-text, main .cart__order-sum {
+    font-size: 5.73vw;
+    line-height: 8.2vw; }
+  main .cart__btn_red, main .cart__btn_gray {
+    width: 45vw;
+    height: 10vw;
+    border-radius: 3.6vw;
+    font-size: 3.6vw; }
+  main .order__column {
+    margin: 0; }
+  main .order__column:first-child {
+    width: 100vw; }
+  main .order__label-row {
+    width: 100%;
+    border-radius: 3.6vw; }
+  main .order-title {
+    font-size: 3.6vw;
+    margin-bottom: 3.6vw; }
+  main .order__select-pay {
+    margin-top: 6.12vw;
+    border-radius: 3.6vw;
+    padding: 8.5vw; }
+  main .order__pay {
+    margin-top: 6.06vw; }
+  main .order__column:last-child {
+    padding: 6.59vw;
+    margin: 12px 3.6vw;
+    width: 100%;
+    border-radius: 3.6vw;
+    box-shadow: 0 0.31vw 1.6vw rgba(0, 0, 0, 0.3); }
+  main .order__title {
+    font-size: 5vw; }
+  main .order__name-description {
+    width: 50vw; }
+  main .order__name {
+    font-size: 3.87vw; }
+  main .order__description {
+    font-size: 2.6vw; }
+  main .order__sum-quantity {
+    width: 17vw; }
+  main .order__sum {
+    font-size: 3.87vw; }
+  main .order__quantity {
+    font-size: 3.6vw; }
+  main .order__title-sum, main .order__sum-end {
+    font-size: 4.6vw; }
+  main .order__column-bottom {
+    width: 39.2vw;
+    margin-top: 7.12vw;
+    padding: 4.2vw;
+    background-color: #fff;
+    border-radius: 3.6vw;
+    text-align: center; }
+  main .order__address {
+    font-size: 2.6vw; }
+  main .order__time {
+    font-size: 4.6vw; }
+  main .cart__row-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 5.46vw 3.6vw 0; }
 
   footer .footer__top-row {
     display: flex;
