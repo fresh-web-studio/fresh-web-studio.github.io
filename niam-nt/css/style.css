@@ -1416,6 +1416,27 @@ footer .footer__social img, footer .slide-item__social .hover img {
   main .main__item-info {
     margin-top: 0.5vw;
     font-size: 2vw; }
+  main .main__title-about {
+    font-family: roboto, sans-serif;
+    font-size: 6vw;
+    line-height: 12vw;
+    margin: 2.37vw 3.6vw 3.9vw; }
+  main .about__row {
+    flex-wrap: wrap; }
+  main .about__text {
+    width: 100vw;
+    padding: 0 3.6vw;
+    font-size: 4.6vw;
+    line-height: 7vw; }
+  main .about__text p {
+    margin: 5.3vw 0; }
+  main .about__photos {
+    width: 100vw;
+    padding: 0 3.6vw; }
+  main .about__photo {
+    margin: 3vw 0; }
+  main .about__photo.photo1, main .about__photo.photo2, main .about__photo.photo3 {
+    height: 81.5vw; }
   main .delivery__table-row-header, main .delivery__table-row {
     font-size: 4.04vw;
     line-height: 8.9vw; }

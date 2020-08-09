@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niam-nt/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/niam-nt/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niam-nt/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/niam-nt/css/style.css" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
@@ -116,8 +115,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/niam-nt/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2408">
-                  <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+                <state relative-caret-position="489">
+                  <caret line="2119" column="22" selection-start-line="2119" selection-start-column="22" selection-end-line="2119" selection-end-column="22" />
                   <folding>
                     <element signature="e#1983#8967#0" />
                     <element signature="e#8974#28157#0" />
@@ -540,21 +539,7 @@
       <workItem from="1596450136685" duration="32278000" />
       <workItem from="1596611096157" duration="55703000" />
       <workItem from="1596815366333" duration="9514000" />
-      <workItem from="1596887312094" duration="10309000" />
-    </task>
-    <task id="LOCAL-00845" summary="Обновление">
-      <created>1594109974663</created>
-      <option name="number" value="00845" />
-      <option name="presentableId" value="LOCAL-00845" />
-      <option name="project" value="LOCAL" />
-      <updated>1594109974663</updated>
-    </task>
-    <task id="LOCAL-00846" summary="Обновление">
-      <created>1594145452308</created>
-      <option name="number" value="00846" />
-      <option name="presentableId" value="LOCAL-00846" />
-      <option name="project" value="LOCAL" />
-      <updated>1594145452308</updated>
+      <workItem from="1596887312094" duration="11885000" />
     </task>
     <task id="LOCAL-00847" summary="Обновление">
       <created>1594979546797</created>
@@ -885,11 +870,25 @@
       <option name="project" value="LOCAL" />
       <updated>1596911644852</updated>
     </task>
-    <option name="localTasksCounter" value="894" />
+    <task id="LOCAL-00894" summary="Mobile version: contact page finished">
+      <created>1596952972257</created>
+      <option name="number" value="00894" />
+      <option name="presentableId" value="LOCAL-00894" />
+      <option name="project" value="LOCAL" />
+      <updated>1596952972257</updated>
+    </task>
+    <task id="LOCAL-00895" summary="Mobile version: delivery page finished">
+      <created>1596953701651</created>
+      <option name="number" value="00895" />
+      <option name="presentableId" value="LOCAL-00895" />
+      <option name="project" value="LOCAL" />
+      <updated>1596953701651</updated>
+    </task>
+    <option name="localTasksCounter" value="896" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1798335000" />
+    <option name="totallyTimeSpent" value="1799911000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -1005,8 +1004,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Завершение 6 урока" />
-    <MESSAGE value="Начало 7 урока" />
     <MESSAGE value="Завершил 7 урок" />
     <MESSAGE value="Начало 8 урока" />
     <MESSAGE value="Добавил стайдер" />
@@ -1030,7 +1027,9 @@
     <MESSAGE value="Адаптация шапки сайта: цвета и фон для мобильной верчии меню.&#10;Фиксированое меню пока не работает, так как нужно перелывать меню. Нужно убирать слайдер из шапки." />
     <MESSAGE value="Mobile version: home page, finished the main block" />
     <MESSAGE value="Mobile version: all pages update header and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile version: all pages update header and footer" />
+    <MESSAGE value="Mobile version: contact page finished" />
+    <MESSAGE value="Mobile version: delivery page finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile version: delivery page finished" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson4/site/puzzle.php">
@@ -4948,8 +4947,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/niam-nt/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2408">
-          <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+        <state relative-caret-position="489">
+          <caret line="2119" column="22" selection-start-line="2119" selection-start-column="22" selection-end-line="2119" selection-end-column="22" />
           <folding>
             <element signature="e#1983#8967#0" />
             <element signature="e#8974#28157#0" />
