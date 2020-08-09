@@ -99,7 +99,8 @@ header .row {
   display: flex;
   justify-content: space-between; }
 header .header__logo {
-  width: 20vw; }
+  width: 20vw;
+  height: 7.15vw; }
 header .header__back-red {
   background-image: url(../img/bg-red.jpg);
   background-position: center top;
@@ -788,6 +789,13 @@ main {
     font-weight: bold;
     font-size: 3.51vw;
     line-height: 4.13vw; }
+  main .cart__delete a:after {
+    content: "\e9ac";
+    font-family: icomoon-free;
+    width: 3.0vw;
+    height: 3.0vw;
+    font-size: 3.0vw;
+    color: #F90001; }
   main .cart__row-btn {
     display: flex;
     justify-content: space-between;
@@ -907,6 +915,7 @@ main {
     display: block; }
   main input[type="password"], main input[type="text"] {
     width: 100%;
+    height: 4.3vw;
     border-radius: 1.6vw;
     border: 0.16vw solid #F90001;
     outline: 0;
@@ -1093,7 +1102,8 @@ footer .footer__top-row {
   align-items: center;
   padding: 2.73vw 1.6vw; }
 footer .footer__logo {
-  width: 16vw; }
+  width: 16vw;
+  height: 5.65vw; }
 footer .footer__text {
   font-family: BetinaScriptRus;
   font-style: normal;
@@ -1183,7 +1193,8 @@ footer .footer__social img, footer .slide-item__social .hover img {
       margin-left: 20.22vw;
       margin-top: 1vw; }
     header .header__logo {
-      width: 38.92vw; }
+      width: 38.92vw;
+      height: 14vw; }
     header .header__town-time, header .header__address-phone, header span.login-greg-none, header .reg, header .main_menu__price {
       display: none; }
     header .header__link.login:after {
@@ -1586,6 +1597,14 @@ footer .footer__social img, footer .slide-item__social .hover img {
     height: 10vw;
     border-radius: 3.6vw;
     font-size: 3.6vw; }
+  main .cart__delete {
+    margin-top: -4vw; }
+  main .cart__delete a:after {
+    content: "\e9ac";
+    font-family: icomoon-free;
+    width: 3.0vw;
+    height: 3.0vw;
+    font-size: 7.0vw; }
   main .order__column {
     margin: 0; }
   main .order__column:first-child {
@@ -1742,7 +1761,8 @@ footer .footer__social img, footer .slide-item__social .hover img {
   footer .footer__column {
     width: 40vw; }
   footer .footer__logo {
-    width: 41vw; }
+    width: 41vw;
+    height: 14.5vw; }
   footer .footer__menu-botton, footer .footer__text {
     display: none; }
   footer .footer__social {
