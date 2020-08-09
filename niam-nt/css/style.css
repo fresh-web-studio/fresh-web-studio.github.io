@@ -1481,6 +1481,56 @@ footer .footer__social img, footer .slide-item__social .hover img {
     margin-top: 6vw; }
   main .contacts__column:nth-child(3) {
     margin-top: 8.2vw; }
+  main .login__column {
+    width: 100vw;
+    margin: 0 3.6vw; }
+  main .login__column:last-child {
+    display: none; }
+  main .tabs {
+    width: 80vw; }
+  main input[type="password"], main input[type="text"] {
+    width: 100%;
+    border-radius: 3.6vw;
+    border: 0.16vw solid #F90001;
+    outline: 0;
+    line-height: 11vw;
+    padding: 0 3.6vw;
+    margin-top: 6.12vw;
+    font-size: 4.6vw;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
+  main .flex-tabs .login__label-row {
+    border-radius: 3.6vw; }
+  main .tab {
+    display: flex;
+    font-size: 3.6vw;
+    padding: 3vw 3.2vw;
+    border-radius: 3.4vw;
+    background-color: #ffffff;
+    color: #F90001;
+    text-align: center;
+    cursor: pointer; }
+  main input[type="submit"] {
+    margin-top: 5.07vw;
+    width: 40vw;
+    height: 10vw;
+    border-radius: 3.6vw;
+    font-size: 4.95vw;
+    line-height: 6.26vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    -webkit-appearance: none; }
+  main .bx-filter-param-text, main .bx-authform-description-container {
+    font-size: 3.48vw; }
+  main .bx-filter-param-text:before, main .order__pay:before {
+    font: 5vw/6.25vw Arial;
+    margin-right: 2.8vw;
+    width: 6.17vw;
+    height: 6.17vw; }
 
   footer .footer__top-row {
     display: flex;
