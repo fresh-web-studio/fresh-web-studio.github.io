@@ -71,156 +71,167 @@
     </div>
 </header>
 <main>
-    <div class="container">
-        <h2 class="main__title">Доставка и оплата</h2>
-        <div class="order__row">
-            <div class="order__column">
-                <input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one" checked />
-                <input class="state" type="radio" title="tab-two" name="tabs-state" id="tab-two"/>
-                <div class="tabs flex-tabs">
-                    <div class="order__label-row">
-                        <label for="tab-one" id="tab-one-label" class="tab">Доставка</label>
-                        <label for="tab-two" id="tab-two-label" class="tab">Самовывоз</label>
+    <div class="content">
+        <div class="container">
+            <h2 class="main__title">Доставка и оплата</h2>
+            <div class="order__row">
+                <div class="order__column">
+                    <input class="state" type="radio" title="tab-one" name="tabs-state" id="tab-one" checked/>
+                    <input class="state" type="radio" title="tab-two" name="tabs-state" id="tab-two"/>
+                    <div class="tabs flex-tabs">
+                        <div class="order__label-row">
+                            <label for="tab-one" id="tab-one-label" class="tab">Доставка</label>
+                            <label for="tab-two" id="tab-two-label" class="tab">Самовывоз</label>
+                        </div>
+                        <div id="tab-one-panel" class="panel active">
+                            <form name="form_delivery" method="post" target="_top" action="">
+                                <div class="order__row">
+                                    <input type="text" class="order__big" name="street" maxlength="255" value=""
+                                           placeholder="Улица">
+                                    <input type="text" class="order__small" name="home" maxlength="3" value=""
+                                           placeholder="Дом">
+                                </div>
+                                <div class="order__row">
+                                    <input type="text" class="order__small" name="apartment" maxlength="3" value=""
+                                           placeholder="Квартира">
+                                    <input type="text" class="order__small" name="entrance" maxlength="3" value=""
+                                           placeholder="Подъезд">
+                                    <input type="text" class="order__small" name="floor" maxlength="3" value=""
+                                           placeholder="Этаж">
+                                </div>
+                                <div class="order__row">
+                                    <input type="text" class="order__big" name="phone" maxlength="11" value=""
+                                           placeholder="Ваш телефон">
+                                    <input type="text" class="order__small" name="home" maxlength="255" value=""
+                                           placeholder="Имя">
+                                </div>
+                                <div class="order__select-pay">
+                                    <div class="order-title">Выбирите способ оплаты:</div>
+                                    <label for="cash" id="cash-label">
+                                        <input class="pay-checkbox" type="radio" name="cash" id="cash" checked="">
+                                        <div class="order__pay">Наличный расчет</div>
+                                    </label>
+                                    <label for="card" id="card-label">
+                                        <input class="pay-checkbox" type="radio" name="cash" id="card">
+                                        <div class="order__pay">Без наличный расчет</div>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="tab-two-panel" class="panel">
+                            <form name="form_pickup" method="post" target="_top" action="">
+                                <div class="order__row">
+                                    <input type="text" class="order__big" name="phone" maxlength="11" value=""
+                                           placeholder="Ваш телефон">
+                                    <input type="text" class="order__small" name="home" maxlength="255" value=""
+                                           placeholder="Имя">
+                                </div>
+                                <div class="order__row">
+                                    <input class="state" type="radio" name="tabs-zone" id="check-center" checked>
+                                    <input class="state" type="radio" name="tabs-zone" id="check-via">
+                                    <label for="check-center" class="order__column-bottom" id="check-center-label">
+                                        <div class="order__title">
+                                            Центр
+                                        </div>
+                                        <div class="order__address">
+                                            ул. Карла Маркса, 81/23
+                                        </div>
+                                        <div class="order__time">
+                                            10:00 - 21:00
+                                        </div>
+                                    </label>
+                                    <label for="check-via" class="order__column-bottom" id="check-via-label">
+                                        <div class="order__title">
+                                            Выя
+                                        </div>
+                                        <div class="order__address">
+                                            ул. Космонавтов, 10
+                                        </div>
+                                        <div class="order__time">
+                                            10:00 - 21:00
+                                        </div>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <div id="tab-one-panel" class="panel active">
-                        <form name="form_delivery" method="post" target="_top" action="">
-                            <div class="order__row">
-                                <input type="text" class="order__big" name="street" maxlength="255" value="" placeholder="Улица">
-                                <input type="text" class="order__small" name="home" maxlength="3" value="" placeholder="Дом">
-                            </div>
-                            <div class="order__row">
-                                <input type="text" class="order__small" name="apartment" maxlength="3" value="" placeholder="Квартира">
-                                <input type="text" class="order__small" name="entrance" maxlength="3" value="" placeholder="Подъезд">
-                                <input type="text" class="order__small" name="floor" maxlength="3" value="" placeholder="Этаж">
-                            </div>
-                            <div class="order__row">
-                                <input type="text" class="order__big" name="phone" maxlength="11" value="" placeholder="Ваш телефон">
-                                <input type="text" class="order__small" name="home" maxlength="255" value="" placeholder="Имя">
-                            </div>
-                            <div class="order__select-pay">
-                                <div class="order-title">Выбирите способ оплаты:</div>
-                                <label for="cash" id="cash-label">
-                                    <input class="pay-checkbox" type="radio" name="cash" id="cash" checked="">
-                                    <div class="order__pay">Наличный расчет</div>
-                                </label>
-                                <label for="card" id="card-label">
-                                    <input class="pay-checkbox" type="radio" name="cash" id="card">
-                                    <div class="order__pay">Без наличный расчет</div>
-                                </label>
-                            </div>
-                        </form>
-                    </div>
-                    <div id="tab-two-panel" class="panel">
-                        <form name="form_pickup" method="post" target="_top" action="">
-                            <div class="order__row">
-                                <input type="text" class="order__big" name="phone" maxlength="11" value="" placeholder="Ваш телефон">
-                                <input type="text" class="order__small" name="home" maxlength="255" value="" placeholder="Имя">
-                            </div>
-                            <div class="order__row">
-                                <input class="state" type="radio" name="tabs-zone" id="check-center" checked>
-                                <input class="state" type="radio" name="tabs-zone" id="check-via">
-                                <label for="check-center" class="order__column-bottom" id="check-center-label">
-                                    <div class="order__title">
-                                        Центр
+                </div>
+                <div class="order__column">
+                    <div class="order__list">
+                        <div class="order__title">Состав заказа</div>
+                        <div class="order__row">
+                            <div class="order__item">
+                                <div class="order__name-description">
+                                    <div class="order__name">
+                                        Пицца Чоризо
                                     </div>
-                                    <div class="order__address">
-                                        ул. Карла Маркса, 81/23
+                                    <div class="order__description">
+                                        Колбаса острая сырокопченая, сыр моцарелла.
                                     </div>
-                                    <div class="order__time">
-                                        10:00 - 21:00
+                                </div>
+                                <div class="order__sum-quantity">
+                                    <div class="order__sum">
+                                        1728 р.
                                     </div>
-                                </label>
-                                <label  for="check-via" class="order__column-bottom" id="check-via-label">
-                                    <div class="order__title">
-                                        Выя
-                                    </div>
-                                    <div class="order__address">
-                                        ул. Космонавтов, 10
-                                    </div>
-                                    <div class="order__time">
-                                        10:00 - 21:00
-                                    </div>
-                                </label>
+                                    <div class="order__quantity">1 шт.</div>
+                                </div>
                             </div>
-                        </form>
+                            <div class="order__item">
+                                <div class="order__name-description">
+                                    <div class="order__name">
+                                        Соус 20 гр.
+                                    </div>
+                                    <div class="order__description">
+                                        Соус томатный
+                                    </div>
+                                </div>
+                                <div class="order__sum-quantity">
+                                    <div class="order__sum">
+                                        10 р.
+                                    </div>
+                                    <div class="order__quantity">2 шт.</div>
+                                </div>
+                            </div>
+                            <div class="order__item">
+                                <div class="order__name-description">
+                                    <div class="order__name">
+                                        Коробка на 8 порций
+                                    </div>
+                                    <div class="order__description">
+                                        Упаковка пиццы 40 см. для доставки
+                                    </div>
+                                </div>
+                                <div class="order__sum-quantity">
+                                    <div class="order__sum">
+                                        27 р.
+                                    </div>
+                                    <div class="order__quantity">1 шт.</div>
+                                </div>
+                            </div>
+                            <div class="order__row-sum">
+                                <div class="order__title-sum">
+                                    Сумма к оплате:
+                                </div>
+                                <div class="order__sum-end">
+                                    1765 р.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="order__column">
-                <div class="order__list">
-                    <div class="order__title">Состав заказа</div>
-                    <div class="order__row">
-                        <div class="order__item">
-                            <div class="order__name-description">
-                                <div class="order__name">
-                                    Пицца Чоризо
-                                </div>
-                                <div class="order__description">
-                                    Колбаса острая сырокопченая, сыр моцарелла.
-                                </div>
-                            </div>
-                            <div class="order__sum-quantity">
-                                <div class="order__sum">
-                                    1728 р.
-                                </div>
-                                <div class="order__quantity">1 шт.</div>
-                            </div>
-                        </div>
-                        <div class="order__item">
-                            <div class="order__name-description">
-                                <div class="order__name">
-                                    Соус 20 гр.
-                                </div>
-                                <div class="order__description">
-                                    Соус томатный
-                                </div>
-                            </div>
-                            <div class="order__sum-quantity">
-                                <div class="order__sum">
-                                    10 р.
-                                </div>
-                                <div class="order__quantity">2 шт.</div>
-                            </div>
-                        </div>
-                        <div class="order__item">
-                            <div class="order__name-description">
-                                <div class="order__name">
-                                    Коробка на 8 порций
-                                </div>
-                                <div class="order__description">
-                                    Упаковка пиццы 40 см. для доставки
-                                </div>
-                            </div>
-                            <div class="order__sum-quantity">
-                                <div class="order__sum">
-                                    27 р.
-                                </div>
-                                <div class="order__quantity">1 шт.</div>
-                            </div>
-                        </div>
-                        <div class="order__row-sum">
-                            <div class="order__title-sum">
-                                Сумма к оплате:
-                            </div>
-                            <div class="order__sum-end">
-                                1765 р.
-                            </div>
-                        </div>
+            <div class="cart__row-btn">
+                <a href="cart.html">
+                    <div class="cart__btn_gray">
+                        Назад в корзину
                     </div>
-                </div>
+                </a>
+                <a href="#">
+                    <div class="cart__btn_red">
+                        Оформить заказ
+                    </div>
+                </a>
             </div>
-        </div>
-        <div class="cart__row-btn">
-            <a href="cart.html">
-                <div class="cart__btn_gray">
-                    Назад в корзину
-                </div>
-            </a>
-            <a href="#">
-                <div class="cart__btn_red">
-                    Оформить заказ
-                </div>
-            </a>
         </div>
     </div>
 </main>

@@ -340,34 +340,34 @@ header .owl-theme .owl-dots .owl-dot.active span, header .owl-theme .owl-dots .o
   background: #D30102;
   border: 0.08vw solid #FFCCCC; }
 
-main {
-  background-image: url(../img/background-image.jpg);
+main .content {
+  background-image: url("../img/background-image.jpg");
   background-position: center top;
   padding-bottom: 7.80vw; }
-  main .main__title {
+  main .content .main__title {
     margin: 2.37vw 1.6vw 3.9vw;
     font-weight: 900;
     font-size: 3vw;
     line-height: 4vw;
     color: #F90001; }
-  main .main__item-list {
+  main .content .main__item-list {
     display: flex;
     flex-wrap: wrap;
     width: 100%; }
-  main .main__frame {
+  main .content .main__frame {
     width: 25%;
     padding: 1.6vw;
     margin: 1.6vw 0;
     border-right: 0.08vw solid #C6C6C6; }
-  main .main__frame:nth-child(4n+4) {
+  main .content .main__frame:nth-child(4n+4) {
     border-right: 0 solid; }
-  main .main__block-item a {
+  main .content .main__block-item a {
     opacity: .9; }
-  main .main__block-item a:hover {
+  main .content .main__block-item a:hover {
     opacity: 1; }
-  main .main__block-item img {
+  main .content .main__block-item img {
     width: 100%; }
-  main .main__name {
+  main .content .main__name {
     margin-top: 1.4vw;
     margin-bottom: 0.3vw;
     font-weight: bold;
@@ -376,11 +376,12 @@ main {
     display: flex;
     color: #000000;
     min-height: 4vw; }
-  main .main__description {
+  main .content .main__description {
     margin-bottom: 0.5vw;
     font-size: 1.1vw;
     line-height: 1.48vw;
     min-height: 3vw;
+    height: 3vw;
     color: #707070;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -391,19 +392,19 @@ main {
     -webkit-box-orient: vertical;
     line-clamp: 2;
     box-orient: vertical; }
-  main .main__item-row {
+  main .content .main__item-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
-  main .main__item-price {
+  main .content .main__item-price {
     font-weight: bold;
     font-size: 2.3vw;
     line-height: 2.5vw;
     color: #000000; }
-  main .main__item-info {
+  main .content .main__item-info {
     font-size: .8vw;
     color: #C6C6C6; }
-  main .main__item-btn {
+  main .content .main__item-btn {
     width: 8vw;
     height: 3.5vw;
     border: 0.18vw solid #F90001;
@@ -415,7 +416,7 @@ main {
     align-items: center;
     justify-content: center;
     color: #F90001; }
-  main .main__item-btn:hover {
+  main .content .main__item-btn:hover {
     background-color: #D30102;
     border: 0.18vw solid #D30102;
     color: #fff;
@@ -424,79 +425,79 @@ main {
     -moz-transition-duration: 1s;
     -o-transition-duration: 1s;
     -ms-transition-duration: 1s; }
-  main .main__title-about {
+  main .content .main__title-about {
     font-family: BetinaScriptRus;
     font-weight: bold;
     font-size: 4vw;
     line-height: 5vw;
     margin: 6vw 1.48vw 4vw;
     color: #F90001; }
-  main .about__row {
+  main .content .about__row {
     padding: 0 1.6vw;
     display: flex;
     justify-content: space-between; }
-  main .about__text {
+  main .content .about__text {
     width: 55%;
     font-size: 2.3vw;
     line-height: 3vw;
     color: #3E3E3E;
     padding-right: 3vw; }
-  main .about__text p {
+  main .content .about__text p {
     margin: 2.3vw 0; }
-  main .about__photos {
+  main .content .about__photos {
     width: 45%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
-  main .about__photo {
+  main .content .about__photo {
     margin: 1.48vw 0; }
-  main .about__photo.photo1 {
+  main .content .about__photo.photo1 {
     width: 100%;
     height: 36.5vw;
     background-image: url(../img/about__photo1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-  main .about__photo.photo2 {
+  main .content .about__photo.photo2 {
     width: 47%;
     height: 36.5vw;
     background-image: url(../img/about__photo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-  main .about__photo.photo3 {
+  main .content .about__photo.photo3 {
     width: 47%;
     height: 36.5vw;
     background-image: url(../img/about__photo3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-  main .main__info {
+  main .content .main__info {
     font-size: 3vw;
     padding: 0 1.6vw;
     color: #707070; }
-  main .delivery__row {
+  main .content .delivery__row {
     margin: 1.6vw;
     display: flex;
     justify-content: space-between; }
-  main .delivery__table {
+  main .content .delivery__table {
     width: 50%;
     padding-right: 1.6vw; }
-  main .delivery__table-row {
+  main .content .delivery__table-row {
     display: flex;
     justify-content: space-between;
     font-size: 2.3vw;
     line-height: 4.9vw;
     color: #707070;
     border-bottom: 0.08vw solid #C6C6C6; }
-  main .delivery__table-row-header {
+  main .content .delivery__table-row-header {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
     font-size: 2.7vw;
     color: #000000; }
-  main .delivery__photo {
+  main .content .delivery__photo {
     border-radius: 3vw;
     width: 50%;
     height: 65vw;
@@ -504,110 +505,110 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-  main .contacts__row {
+  main .content .contacts__row {
     display: flex;
     justify-content: space-between;
     padding: 0 1.6vw; }
-  main .contacts__title {
+  main .content .contacts__title {
     font-weight: bold;
     font-size: 3.1vw; }
-  main .contacts__text {
+  main .content .contacts__text {
     font-size: 1.8vw; }
-  main .contacts__subtitle {
+  main .content .contacts__subtitle {
     font-size: 1.8vw;
     margin-top: 2vw; }
-  main .contacts__title-phone {
+  main .content .contacts__title-phone {
     font-weight: bold;
     font-size: 2.3vw; }
-  main .contacts__phone {
+  main .content .contacts__phone {
     margin-top: 1.2vw;
     font-size: 2.1vw; }
-  main .contacts__phone + .contacts__title-phone {
+  main .content .contacts__phone + .contacts__title-phone {
     margin-top: 1.7vw; }
-  main .goods__row {
+  main .content .goods__row {
     display: flex;
     justify-content: space-between; }
-  main .goods__row_min {
+  main .content .goods__row_min {
     display: flex;
     justify-content: center; }
-  main .link-photo-min {
+  main .content .link-photo-min {
     margin: 1.6vw 0.8vw; }
-  main .goods__photo-price {
+  main .content .goods__photo-price {
     width: 50%;
     text-align: center;
     padding-top: 2.34vw; }
-  main .link-photo img {
+  main .content .link-photo img {
     width: 38vw; }
-  main .goods__description {
+  main .content .goods__description {
     width: 50%;
     padding: 2.34vw 1.6vw; }
-  main .goods__name {
+  main .content .goods__name {
     font-weight: bold;
     font-size: 2.75vw;
     line-height: 3.2vw; }
-  main .goods__composition-title {
+  main .content .goods__composition-title {
     margin-top: 1.95vw;
     font-size: 2.18vw;
     line-height: 2.57vw; }
-  main .goods__composition {
+  main .content .goods__composition {
     margin-top: 1.01vw;
     font-size: 1.95vw;
     line-height: 2.26vw;
     color: #707070; }
-  main .goods__composition-row {
+  main .content .goods__composition-row {
     margin-top: 1.01vw;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 60%; }
-  main .goods__column {
+  main .content .goods__column {
     width: 50%;
     font-size: 1.72vw;
     line-height: 2.03vw;
     color: #707070;
     margin-bottom: 0.94vw; }
-  main .goods__column-right {
+  main .content .goods__column-right {
     width: 50%;
     text-align: right;
     font-size: 1.72vw;
     line-height: 2.03vw;
     color: #707070;
     margin-bottom: 0.94vw; }
-  main .goods__variations-list {
+  main .content .goods__variations-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 3.12vw; }
-  main .goods__variation {
+  main .content .goods__variation {
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0.16vw 0.16vw 1.6vw rgba(0, 0, 0, 0.25);
     display: flex;
     align-items: center;
     justify-content: center; }
-  main .goods__variation:hover {
+  main .content .goods__variation:hover {
     background-color: #fff;
     box-shadow: 0.31vw 0.31vw 3.12vw rgba(0, 0, 0, 0.5);
     cursor: pointer; }
-  main .goods__forty {
+  main .content .goods__forty {
     width: 14.4vw;
     height: 14.4vw; }
-  main .goods__thirty {
+  main .content .goods__thirty {
     width: 12.48vw;
     height: 12.48vw; }
-  main .goods__twenty {
+  main .content .goods__twenty {
     width: 10.92vw;
     height: 10.92vw; }
-  main .goods__link .goods__active {
+  main .content .goods__link .goods__active {
     background-color: #F90001; }
-  main .goods__link .goods__active .goods__variation_row {
+  main .content .goods__link .goods__active .goods__variation_row {
     color: #fff; }
-  main .goods__link .goods__variation_row {
+  main .content .goods__link .goods__variation_row {
     font-size: 1.40vw;
     line-height: 1.64vw;
     text-align: center;
     color: #707070; }
-  main .quantity__list {
+  main .content .quantity__list {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -615,19 +616,19 @@ main {
     position: relative;
     max-width: 11.70vw;
     margin: 0 auto 1.17vw; }
-  main .goods__quantity_price-list {
+  main .content .goods__quantity_price-list {
     margin-top: 4.68vw;
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  main .goods__price {
+  main .content .goods__price {
     font-size: 3.51vw;
     line-height: 4.13vw;
     display: flex;
     align-items: center;
     text-align: center;
     color: #000000; }
-  main .quantity__btn-minus:after, main .quantity__btn-plus:after {
+  main .content .quantity__btn-minus:after, main .content .quantity__btn-plus:after {
     position: absolute;
     top: 0;
     right: 0;
@@ -636,7 +637,7 @@ main {
     content: "";
     opacity: .8;
     transition: opacity 300ms ease, background 300ms ease; }
-  main .quantity__btn-minus, main .quantity__btn-plus {
+  main .content .quantity__btn-minus, main .content .quantity__btn-plus {
     position: relative;
     display: block;
     min-width: 3.51vw;
@@ -649,19 +650,19 @@ main {
     text-align: center;
     cursor: pointer;
     transition: background 300ms ease, opacity 300ms ease; }
-  main .quantity__btn-minus:after {
+  main .content .quantity__btn-minus:after {
     content: "-";
     color: #F90001;
     font-size: 4vw;
     line-height: 2.7vw;
     background-position: center; }
-  main .quantity__btn-plus:after {
+  main .content .quantity__btn-plus:after {
     content: "+";
     color: #F90001;
     font-size: 3vw;
     line-height: 3vw;
     background-position: center; }
-  main .product-item-amount-field {
+  main .content .product-item-amount-field {
     font-size: 2.34vw;
     display: block;
     padding: 0;
@@ -676,17 +677,17 @@ main {
     font-weight: bold;
     line-height: 3.51vw;
     transition: border 300ms ease; }
-  main input[type='number'] {
+  main .content input[type='number'] {
     -moz-appearance: textfield; }
-  main input::-webkit-outer-spin-button,
-  main input::-webkit-inner-spin-button {
+  main .content input::-webkit-outer-spin-button,
+  main .content input::-webkit-inner-spin-button {
     -webkit-appearance: none; }
-  main .product-item-amount-description-container {
+  main .content .product-item-amount-description-container {
     position: absolute;
     text-align: center;
     width: 4.68vw;
     color: #C6C6C6; }
-  main .goods__bay-btn {
+  main .content .goods__bay-btn {
     width: 14.12vw;
     height: 5.38vw;
     background: #F90001;
@@ -696,38 +697,38 @@ main {
     align-items: center;
     text-align: center;
     color: #fff; }
-  main .goods__bay-btn:hover {
+  main .content .goods__bay-btn:hover {
     background: #D30102;
     color: #fff; }
-  main .goods__additionally-title {
+  main .content .goods__additionally-title {
     font-size: 2.42vw;
     line-height: 2.81vw;
     margin-left: 1.6vw; }
-  main .goods__frame {
+  main .content .goods__frame {
     width: 100%;
     padding: 1.6vw;
     margin: 1.6vw 0; }
-  main .goods__additionally {
+  main .content .goods__additionally {
     background: #FFFFFF;
     box-shadow: 0 0.31vw 1.6vw rgba(0, 0, 0, 0.15);
     border-radius: 1.17vw;
     padding: 1.6vw;
     text-align: center; }
-  main .goods__additionally img {
+  main .content .goods__additionally img {
     width: 10vw; }
-  main .goods__additionally-name {
+  main .content .goods__additionally-name {
     margin-top: 1.09vw;
     margin-bottom: 1.95vw;
     font-size: 1vw;
     line-height: 1.48vw;
     color: #707070; }
-  main .goods__additionally-price-bay {
+  main .content .goods__additionally-price-bay {
     display: flex;
     justify-content: space-between; }
-  main .goods__additionally-price {
+  main .content .goods__additionally-price {
     font-size: 1.95vw;
     line-height: 2.26vw; }
-  main .goods__additionally-bay-btn {
+  main .content .goods__additionally-bay-btn {
     width: 2.34vw;
     height: 2.34vw;
     border: 0.16vw solid #F90001;
@@ -739,68 +740,68 @@ main {
     align-items: center;
     justify-content: center;
     color: #F90001; }
-  main .goods__additionally-bay-btn:hover {
+  main .content .goods__additionally-bay-btn:hover {
     background-color: #D30102;
     color: #fff; }
-  main .cart__row {
+  main .content .cart__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top: 0.08vw solid #C6C6C6;
     margin: 0 1.6vw; }
-  main .cart__img {
+  main .content .cart__img {
     width: 15.6vw; }
-  main .cart__img img {
+  main .content .cart__img img {
     width: 100%;
     padding: 1.6vw 0; }
-  main .cart__text {
+  main .content .cart__text {
     width: 31.2vw; }
-  main .cart__link .cart__name {
+  main .content .cart__link .cart__name {
     font-weight: bold;
     font-size: 2.73vw;
     line-height: 3.2vw;
     color: #000; }
-  main .cart__link:hover {
+  main .content .cart__link:hover {
     color: #D30102; }
-  main .cart__name {
+  main .content .cart__name {
     color: #F90001; }
-  main .cart__description {
+  main .content .cart__description {
     font-size: 1.95vw;
     line-height: 2.26vw; }
-  main .cart__row .quantity__list {
+  main .content .cart__row .quantity__list {
     margin: 0; }
-  main .cart__price, main .cart__sum {
+  main .content .cart__price, main .content .cart__sum {
     font-weight: 500;
     font-size: 2.73vw;
     line-height: 3.56vw; }
-  main .cart__order-sum-list {
+  main .content .cart__order-sum-list {
     border-top: 0.08vw solid #C6C6C6;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 1.6vw;
     padding-top: 5.46vw; }
-  main .cart__order-text {
+  main .content .cart__order-text {
     font-size: 2.73vw;
     line-height: 3.2vw;
     color: #707070; }
-  main .cart__order-sum {
+  main .content .cart__order-sum {
     margin-left: 4.68vw;
     font-weight: bold;
     font-size: 3.51vw;
     line-height: 4.13vw; }
-  main .cart__delete a:after {
+  main .content .cart__delete a:after {
     content: "\e9ac";
     font-family: icomoon-free;
     width: 3.0vw;
     height: 3.0vw;
     font-size: 3.0vw;
     color: #F90001; }
-  main .cart__row-btn {
+  main .content .cart__row-btn {
     display: flex;
     justify-content: space-between;
     padding: 5.46vw 1.6vw 0; }
-  main .cart__btn_gray {
+  main .content .cart__btn_gray {
     width: 25.58vw;
     height: 5.07vw;
     border: 0.16vw solid #707070;
@@ -812,11 +813,11 @@ main {
     align-items: center;
     justify-content: center;
     color: #707070; }
-  main .cart__btn_gray:hover {
+  main .content .cart__btn_gray:hover {
     background-color: #D30102;
     border: 0.16vw solid #D30102;
     color: #fff; }
-  main .cart__btn_red {
+  main .content .cart__btn_red {
     width: 25.58vw;
     height: 5.07vw;
     border: 0.16vw solid #F90001;
@@ -829,15 +830,15 @@ main {
     align-items: center;
     justify-content: center;
     color: #fff; }
-  main .cart__btn_red:hover {
+  main .content .cart__btn_red:hover {
     background-color: #D30102;
     border: 0.16vw solid #D30102;
     color: #fff; }
-  main .login__row {
+  main .content .login__row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
-  main .login__column {
+  main .content .login__column {
     width: 46.8vw;
     min-height: 60vw;
     margin: 0 1.6vw;
@@ -847,17 +848,17 @@ main {
     border-radius: 1.6vw;
     display: flex;
     justify-content: center; }
-  main .state {
+  main .content .state {
     position: absolute;
     left: -10000px; }
-  main .flex-tabs .login__label-row {
+  main .content .flex-tabs .login__label-row {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     border: 0.08vw solid #F90001;
     border-radius: 1.6vw; }
-  main .tab {
+  main .content .tab {
     display: flex;
     font-size: 1.6vw;
     padding: 1vw 1.4vw;
@@ -866,54 +867,54 @@ main {
     color: #F90001;
     text-align: center;
     cursor: pointer; }
-  main .tab:hover {
+  main .content .tab:hover {
     background-color: #D30102;
     color: #FFF; }
-  main .panel {
+  main .content .panel {
     text-align: left;
     padding-top: 0.8vw;
     min-height: 23.4vw;
     display: none;
     width: 100%;
     flex-basis: auto; }
-    main .panel .resp-tab {
+    main .content .panel .resp-tab {
       border-radius: 0.39vw;
       font-weight: normal;
       border: 0.08vw #C6C6C6 solid;
       border-collapse: collapse;
       width: 100%;
       max-width: 100%; }
-    main .panel .resp-tab th, main .panel .resp-tab td {
+    main .content .panel .resp-tab th, main .content .panel .resp-tab td {
       padding: 1.01vw 0.8vw;
       font-size: 0.8vw;
       border: none;
       vertical-align: top;
       text-align: center; }
-      main .panel .resp-tab th span, main .panel .resp-tab td span {
+      main .content .panel .resp-tab th span, main .content .panel .resp-tab td span {
         margin-right: 0.8vw; }
-    main .panel .resp-tab th {
+    main .content .panel .resp-tab th {
       color: #FFF;
       background: #C6C6C6;
       font-weight: bold;
       text-align: center; }
-    main .panel .resp-tab tr {
+    main .content .panel .resp-tab tr {
       border-top: 0.08vw #C6C6C6 solid; }
-  main #tab-one:checked ~ .tabs #tab-one-label,
-  main #tab-two:checked ~ .tabs #tab-two-label,
-  main #tab-three:checked ~ .tabs #tab-three-label,
-  main #tab-four:checked ~ .tabs #tab-four-label,
-  main #check-center:checked ~ #check-center-label,
-  main #check-via:checked ~ #check-via-label {
+  main .content #tab-one:checked ~ .tabs #tab-one-label,
+  main .content #tab-two:checked ~ .tabs #tab-two-label,
+  main .content #tab-three:checked ~ .tabs #tab-three-label,
+  main .content #tab-four:checked ~ .tabs #tab-four-label,
+  main .content #check-center:checked ~ #check-center-label,
+  main .content #check-via:checked ~ #check-via-label {
     background-color: #F90001;
     color: #ffffff; }
-  main #tab-one:checked ~ .tabs #tab-one-panel,
-  main #tab-two:checked ~ .tabs #tab-two-panel,
-  main #tab-three:checked ~ .tabs #tab-three-panel,
-  main #tab-four:checked ~ .tabs #tab-four-panel,
-  main #check-center:checked ~ #check-center-label,
-  main #check-via:checked ~ #check-via-label {
+  main .content #tab-one:checked ~ .tabs #tab-one-panel,
+  main .content #tab-two:checked ~ .tabs #tab-two-panel,
+  main .content #tab-three:checked ~ .tabs #tab-three-panel,
+  main .content #tab-four:checked ~ .tabs #tab-four-panel,
+  main .content #check-center:checked ~ #check-center-label,
+  main .content #check-via:checked ~ #check-via-label {
     display: block; }
-  main input[type="password"], main input[type="text"] {
+  main .content input[type="password"], main .content input[type="text"] {
     width: 100%;
     height: 4.3vw;
     border-radius: 1.6vw;
@@ -923,9 +924,9 @@ main {
     padding: 0 1.6vw;
     margin-top: 3.12vw;
     font-size: 1.6vw; }
-  main .checkbox {
+  main .content .checkbox {
     margin-top: 3.9vw; }
-  main input[type="submit"] {
+  main .content input[type="submit"] {
     margin-top: 5.07vw;
     width: 20vw;
     height: 5.07vw;
@@ -940,15 +941,15 @@ main {
     justify-content: center;
     color: #fff;
     cursor: pointer; }
-    main input[type="submit"]:hover {
+    main .content input[type="submit"]:hover {
       background-color: #D30102;
       color: #FFF; }
-  main input[type="checkbox"], main input[type="radio"] {
+  main .content input[type="checkbox"], main .content input[type="radio"] {
     display: none; }
-  main .bx-filter-param-text {
+  main .content .bx-filter-param-text {
     font-size: 1.48vw;
     color: #707070; }
-  main .bx-filter-param-text:before, main .order__pay:before {
+  main .content .bx-filter-param-text:before, main .content .order__pay:before {
     margin-top: -0.16vw;
     content: " ";
     color: #ffffff;
@@ -962,62 +963,62 @@ main {
     border: 0.23vw solid #F90001;
     border-image: initial;
     vertical-align: middle; }
-  main input:checked + .bx-filter-param-text:before, main input:checked + .order__pay:before {
+  main .content input:checked + .bx-filter-param-text:before, main .content input:checked + .order__pay:before {
     content: "\ea10";
     font-family: "icomoon-free"; }
-  main .bx-captcha {
+  main .content .bx-captcha {
     margin-top: 3.12vw; }
-  main .bx-authform-description-container {
+  main .content .bx-authform-description-container {
     margin-top: 1vw;
     font-size: 1.48vw;
     color: #707070; }
-  main .login__column:first-child {
+  main .content .login__column:first-child {
     background-color: #fff;
     border: 0.16vw solid #fff;
     box-shadow: 0 0.31vw 1.6vw rgba(0, 0, 0, 0.3); }
-  main .login__contacts {
+  main .content .login__contacts {
     text-align: left;
     width: 100%; }
-  main .login__title {
+  main .content .login__title {
     font-weight: bold;
     font-size: 3.12vw; }
-  main .login__subtitle {
+  main .content .login__subtitle {
     margin-top: 2.74vw;
     font-size: 2.73vw;
     color: #707070; }
-  main .login__address {
+  main .content .login__address {
     margin-top: 1.17vw;
     font-weight: 300;
     font-size: 1.72vw;
     color: #707070; }
-  main .login__phone {
+  main .content .login__phone {
     margin-top: 1.17vw;
     font-size: 1.95vw;
     color: #707070; }
-  main .login__time {
+  main .content .login__time {
     margin-top: 1.20vw;
     font-size: 1.72vw;
     font-weight: 700;
     color: #707070; }
-    main .login__time span {
+    main .content .login__time span {
       font-weight: 300; }
-  main .order__row, main .order__item {
+  main .content .order__row, main .content .order__item {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
-  main .order__label-row {
+  main .content .order__label-row {
     width: 50%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     border: 0.08vw solid #F90001;
     border-radius: 1.6vw; }
-  main .order__column {
+  main .content .order__column {
     min-height: 42vw;
     margin: 0 1.6vw;
     padding: 3.59vw;
     text-align: center; }
-  main .order__column-bottom {
+  main .content .order__column-bottom {
     width: 22.2vw;
     margin-top: 3.12vw;
     padding: 1.6vw;
@@ -1025,42 +1026,42 @@ main {
     border-radius: 1.6vw;
     border: 0.16vw solid #F90001;
     cursor: pointer; }
-  main .order__column-bottom:hover {
+  main .content .order__column-bottom:hover {
     background-color: #D30102;
     color: #fff;
     border: 0.16vw solid #D30102; }
-  main .order__address, main .order__time {
+  main .content .order__address, main .content .order__time {
     font-size: 1.6vw; }
-  main .order__column:first-child {
+  main .content .order__column:first-child {
     width: 54vw; }
-  main .order__column:last-child {
+  main .content .order__column:last-child {
     width: 39vw;
     border-radius: 1.6vw;
     box-shadow: 0 0.31vw 1.6vw rgba(0, 0, 0, 0.3);
     background-color: #fff; }
-  main .order__list {
+  main .content .order__list {
     text-align: left; }
-  main .order__title {
+  main .content .order__title {
     font-size: 2.73vw; }
-  main .order__item {
+  main .content .order__item {
     margin-top: 2vw;
     width: 100%; }
-  main .order__name-description {
+  main .content .order__name-description {
     width: 24vw; }
-  main .order__name {
+  main .content .order__name {
     font-size: 1.87vw;
     font-weight: 700; }
-  main .order__description {
+  main .content .order__description {
     font-size: 1.6vw; }
-  main .order__sum-quantity {
+  main .content .order__sum-quantity {
     width: 7vw; }
-  main .order__sum {
+  main .content .order__sum {
     font-size: 1.87vw;
     text-align: right; }
-  main .order__quantity {
+  main .content .order__quantity {
     text-align: right;
     font-size: 1.6vw; }
-  main .order__row-sum {
+  main .content .order__row-sum {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -1068,28 +1069,28 @@ main {
     margin-top: 4.68vw;
     padding-top: 1.6vw;
     border-top: 0.16vw solid #C6C6C6; }
-  main .order__title-sum {
+  main .content .order__title-sum {
     width: 66.6666666667%;
     font-size: 1.95vw; }
-  main .order__sum-end {
+  main .content .order__sum-end {
     width: 33.3333333333%;
     font-size: 1.95vw;
     text-align: right; }
-  main input.order__big {
+  main .content input.order__big {
     width: 66.6666666667%; }
-  main input.order__small {
+  main .content input.order__small {
     width: 14.2133333333vw; }
-  main .order__select-pay {
+  main .content .order__select-pay {
     margin-top: 3.12vw;
     width: 100%;
     background-color: #F5F4F4;
     border-radius: 1.6vw;
     border: 0.16vw solid #F5F4F4;
     padding: 2.5vw; }
-  main .order-title {
+  main .content .order-title {
     font-size: 2vw;
     margin-bottom: 1.6vw; }
-  main .order__pay {
+  main .content .order__pay {
     font-size: 1.6vw;
     margin-top: 1vw;
     cursor: pointer; }
@@ -1400,358 +1401,6 @@ footer .footer__social img, footer .slide-item__social .hover img {
       transition-duration: .4s; }
     header .header__back-red {
       background-size: 113vw; }
-
-  main .main__title {
-    font-size: 6vw;
-    line-height: 12vw;
-    margin: 2.37vw 3.6vw 3.9vw; }
-  main .main__frame {
-    width: 50%;
-    padding: 3.6vw; }
-  main .main__frame:nth-child(2n) {
-    border-right: 0; }
-  main .main__name {
-    margin-top: 4.4vw;
-    margin-bottom: 2.3vw;
-    font-size: 3.9vw;
-    line-height: 5vw;
-    min-height: 10vw; }
-  main .main__description {
-    margin-bottom: 5.5vw;
-    font-size: 3vw;
-    line-height: 3.48vw; }
-  main .main__item-price {
-    font-size: 3.8vw;
-    line-height: 5.5vw; }
-  main .main__item-btn {
-    width: 18vw;
-    height: 8.75vw;
-    border: 0.45vw solid #F90001;
-    border-radius: 3.7vw;
-    font-size: 3vw;
-    line-height: 7.5vw; }
-  main .main__item-info {
-    margin-top: 0.5vw;
-    font-size: 2vw; }
-  main .main__title-about {
-    font-family: roboto, sans-serif;
-    font-size: 6vw;
-    line-height: 12vw;
-    margin: 2.37vw 3.6vw 3.9vw; }
-  main .about__row {
-    flex-wrap: wrap; }
-  main .about__text {
-    width: 100vw;
-    padding: 0 3.6vw;
-    font-size: 4.6vw;
-    line-height: 7vw; }
-  main .about__text p {
-    margin: 5.3vw 0; }
-  main .about__photos {
-    width: 100vw;
-    padding: 0 3.6vw; }
-  main .about__photo {
-    margin: 3vw 0; }
-  main .about__photo.photo1, main .about__photo.photo2, main .about__photo.photo3 {
-    height: 81.5vw; }
-  main .delivery__table-row-header, main .delivery__table-row {
-    font-size: 4.04vw;
-    line-height: 8.9vw; }
-  main .delivery__photo {
-    margin-top: 10vw;
-    width: 100vw;
-    height: 50vw; }
-  main .main__info {
-    font-size: 4vw;
-    padding: 0 3.4vw; }
-  main .delivery__row {
-    flex-wrap: wrap;
-    margin: 3.6vw; }
-  main .delivery__table {
-    width: 100vw; }
-  main .contacts__row {
-    padding: 0 3.6vw;
-    flex-wrap: wrap; }
-  main .contacts__title {
-    font-size: 4.3vw;
-    margin-bottom: 4vw; }
-  main .contacts__text {
-    margin-top: 0;
-    font-size: 3.9vw; }
-  main .contacts__address {
-    margin-bottom: 4vw; }
-  main .contacts__subtitle {
-    font-size: 3.9vw;
-    margin-top: 0;
-    margin-right: 2vw;
-    float: left; }
-  main .contacts__title-phone {
-    display: none; }
-  main .contacts__phone {
-    font-size: 3.85vw; }
-  main .contacts__via-bottom {
-    margin-top: 23vw;
-    position: absolute; }
-  main .contacts__column:nth-child(2) {
-    order: 3;
-    width: 50vw;
-    margin-top: 6vw; }
-  main .contacts__column:nth-child(3) {
-    margin-top: 8.2vw; }
-  main .login__column {
-    width: 100vw;
-    margin: 0 3.6vw; }
-  main .login__column:last-child {
-    display: none; }
-  main .tabs {
-    width: 100%; }
-  main input[type="password"], main input[type="text"] {
-    width: 100%;
-    height: 11.4vw;
-    border-radius: 3.6vw;
-    border: 0.16vw solid #F90001;
-    outline: 0;
-    line-height: 11vw;
-    padding: 0 3.6vw;
-    margin-top: 6.12vw;
-    font-size: 4.6vw;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none; }
-  main .flex-tabs .login__label-row {
-    border-radius: 3.6vw; }
-  main .tab {
-    display: flex;
-    font-size: 3.6vw;
-    padding: 3vw 3.2vw;
-    border-radius: 3.4vw;
-    background-color: #ffffff;
-    color: #F90001;
-    text-align: center;
-    cursor: pointer; }
-  main input[type="submit"] {
-    margin-top: 5.07vw;
-    width: 40vw;
-    height: 10vw;
-    border-radius: 3.6vw;
-    font-size: 4.95vw;
-    line-height: 6.26vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    cursor: pointer;
-    -webkit-appearance: none; }
-  main .bx-filter-param-text, main .bx-authform-description-container, main .order__pay {
-    font-size: 3.48vw; }
-  main .bx-filter-param-text:before, main .order__pay:before {
-    font: 5vw/6.25vw Arial;
-    margin-right: 2.8vw;
-    width: 6.17vw;
-    height: 6.17vw; }
-  main .cart__row {
-    flex-wrap: wrap;
-    margin: 0 3.6vw; }
-  main .cart__img {
-    width: 24vw; }
-  main .cart__text {
-    width: 65vw; }
-  main .cart__link .cart__name {
-    font-size: 5.73vw;
-    line-height: 8.2vw; }
-  main .cart__description {
-    font-size: 3.95vw;
-    line-height: 5.26vw; }
-  main .cart__price, main .cart__sum {
-    width: 23vw;
-    font-weight: 500;
-    font-size: 5.73vw;
-    line-height: 14.56vw;
-    margin-top: -5vw; }
-  main .cart__sum {
-    text-align: right; }
-  main .quantity__list {
-    max-width: 28vw; }
-  main .product-item-amount-field {
-    font-size: 5.34vw;
-    height: 6.51vw;
-    line-height: 5.51vw; }
-  main .quantity__btn-minus, main .quantity__btn-plus {
-    min-width: 8.51vw;
-    height: 8.51vw;
-    border: 0.16vw solid #F90001;
-    border-radius: 2.8vw;
-    margin-top: -5vw; }
-  main .quantity__btn-minus:after {
-    font-size: 10vw;
-    line-height: 7vw; }
-  main .quantity__btn-plus:after {
-    font-size: 7vw;
-    line-height: 8vw; }
-  main .quantity__quantity {
-    margin-top: -5vw; }
-  main .cart__order-text, main .cart__order-sum {
-    font-size: 5.73vw;
-    line-height: 8.2vw; }
-  main .cart__btn_red, main .cart__btn_gray {
-    width: 45vw;
-    height: 10vw;
-    border-radius: 3.6vw;
-    font-size: 3.6vw; }
-  main .cart__delete {
-    margin-top: -4vw; }
-  main .cart__delete a:after {
-    content: "\e9ac";
-    font-family: icomoon-free;
-    width: 3.0vw;
-    height: 3.0vw;
-    font-size: 7.0vw; }
-  main .order__column {
-    margin: 0; }
-  main .order__column:first-child {
-    width: 100vw; }
-  main .order__label-row {
-    width: 100%;
-    border-radius: 3.6vw; }
-  main .order-title {
-    font-size: 3.6vw;
-    margin-bottom: 3.6vw; }
-  main .order__select-pay {
-    margin-top: 6.12vw;
-    border-radius: 3.6vw;
-    padding: 8.5vw; }
-  main .order__pay {
-    margin-top: 6.06vw; }
-  main .order__column:last-child {
-    padding: 6.59vw;
-    margin: 12px 3.6vw;
-    width: 100%;
-    border-radius: 3.6vw;
-    box-shadow: 0 0.31vw 1.6vw rgba(0, 0, 0, 0.3); }
-  main .order__title {
-    font-size: 5vw; }
-  main .order__name-description {
-    width: 50vw; }
-  main .order__name {
-    font-size: 3.87vw; }
-  main .order__description {
-    font-size: 2.6vw; }
-  main .order__sum-quantity {
-    width: 17vw; }
-  main .order__sum {
-    font-size: 3.87vw; }
-  main .order__quantity {
-    font-size: 3.6vw; }
-  main .order__title-sum, main .order__sum-end {
-    font-size: 4.6vw; }
-  main .order__column-bottom {
-    width: 39.2vw;
-    margin-top: 7.12vw;
-    padding: 4.2vw;
-    background-color: #fff;
-    border-radius: 3.6vw;
-    text-align: center; }
-  main .order__address {
-    font-size: 2.6vw; }
-  main .order__time {
-    font-size: 4.6vw; }
-  main .cart__row-btn {
-    display: flex;
-    justify-content: space-between;
-    padding: 5.46vw 3.6vw 0; }
-  main .goods__row {
-    flex-wrap: wrap; }
-  main .goods__photo-price {
-    width: 100%; }
-  main .goods__description {
-    width: 100%;
-    padding: 7.34vw 3.6vw; }
-  main .link-photo img {
-    width: 86vw; }
-  main .link-photo-min {
-    margin: 4.6vw 2.8vw; }
-  main .link-photo-min img {
-    width: 20vw; }
-  main .goods__name {
-    font-size: 6.75vw;
-    line-height: 8.2vw;
-    text-align: center; }
-  main .goods__composition-title, main .goods__composition-title {
-    margin-top: 3.95vw;
-    font-size: 5.18vw;
-    line-height: 5.57vw; }
-  main .goods__composition {
-    margin-top: 3.01vw;
-    font-size: 4.95vw;
-    line-height: 6.26vw; }
-  main .goods__composition-row {
-    margin-top: 4vw;
-    width: 100%; }
-  main .goods__column {
-    width: 70%;
-    font-size: 4.72vw;
-    line-height: 5.03vw;
-    margin-bottom: 1.94vw; }
-  main .goods__column-right {
-    width: 30%;
-    text-align: right;
-    font-size: 4.72vw;
-    line-height: 5.03vw;
-    margin-bottom: 1.94vw; }
-  main .goods__variations-list {
-    margin-top: 9.12vw; }
-  main .goods__link .goods__variation_row {
-    font-size: 3.50vw;
-    line-height: 4.1vw; }
-  main .goods__forty {
-    width: 36vw;
-    height: 36vw; }
-  main .goods__thirty {
-    width: 26.2vw;
-    height: 26.2vw; }
-  main .goods__twenty {
-    width: 22.30vw;
-    height: 22.30vw; }
-  main .goods__price {
-    font-size: 7vw;
-    line-height: 20vw; }
-  main .goods__bay-btn {
-    width: 26.12vw;
-    height: 10.38vw;
-    border-radius: 3.6vw;
-    font-size: 3.95vw;
-    line-height: 10vw; }
-  main .product-item-amount-description-container {
-    width: 11vw; }
-  main .goods__additionally-title {
-    font-size: 4.42vw;
-    line-height: 6.81vw;
-    margin-left: 3.6vw; }
-  main .goods__frame {
-    width: 50%;
-    padding: 3.6vw;
-    margin: 0; }
-  main .goods__additionally {
-    padding: 3.6vw; }
-  main .goods__additionally img {
-    width: 30vw; }
-  main .goods__additionally-price {
-    font-size: 5.95vw;
-    line-height: 9.26vw; }
-  main .goods__additionally-name {
-    margin-top: 1.09vw;
-    margin-bottom: 1.95vw;
-    font-size: 3vw;
-    line-height: 6.48vw; }
-  main .goods__additionally-price-bay {
-    align-items: center; }
-  main .goods__additionally-bay-btn {
-    width: 9.26vw;
-    height: 9.26vw;
-    border: 0.51vw solid #F90001;
-    border-radius: 2.8vw;
-    font-size: 6.95vw;
-    line-height: 1.87vw; }
 
   footer .footer__top-row {
     display: flex;
