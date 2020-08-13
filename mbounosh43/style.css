@@ -237,7 +237,8 @@ main .news .news__title {
 main .news .news__item-list {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 1vw; }
 main .news .news__item-frame {
   width: 19.1136666667vw;
   height: 10.624vw;
@@ -250,40 +251,69 @@ main .news .news__item {
   display: flex;
   justify-content: space-between; }
 main .news .news__img {
-  width: 45%;
+  width: 9vw;
   height: 10.624vw;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-content: center;
   border-top-left-radius: 0.521vw;
   border-bottom-left-radius: 0.521vw; }
 main .news .news__img img {
   height: 100%; }
 main .news .news__info {
-  width: 55%;
-  margin-left: 1.042vw;
-  margin-right: 1.354vw;
-  margin-top: 1.8vw; }
-main .news .news__info::before {
-  content: '';
-  position: relative;
-  left: -1.71vw;
-  top: 4.08vw;
-  border-style: solid;
-  border-width: 5.9vw 0.4vw 3.9vw 0.3vw;
-  border-color: transparent #02adff #02adff transparent;
-  /* red — цвет */ }
+  width: 11vw;
+  padding: 0 0.60vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center; }
+main .news .news__info:before {
+  content: "";
+  width: 2.344vw;
+  height: 10.624vw;
+  margin-left: -2.9vw;
+  background-image: url(img/coner.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 3vw;
+  position: absolute; }
 main .news .news__item-title {
   font-weight: bold;
   font-size: 0.885vw;
-  line-height: 1.563vw;
+  line-height: 1.4vw;
+  max-height: 7vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  line-clamp: 4;
+  box-orient: vertical;
   color: #FFFFFF; }
 main .news .news_date {
-  margin-top: 1.510vw;
+  margin-top: 1vw;
   font-size: 0.833vw;
   line-height: 0.990vw;
   color: #F4F3F3; }
+main .news .news__more {
+  margin: 0 auto;
+  padding: 1.4vw 0;
+  cursor: pointer;
+  width: 13.229vw;
+  height: 2.083vw;
+  box-sizing: border-box;
+  border-radius: 2.604vw;
+  font-size: 1.042vw;
+  line-height: 1.250vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: linear-gradient(90.4deg, #DC1C45 0.2%, #DC2C16 101.73%); }
+main .news .news__more:hover {
+  background: linear-gradient(90.4deg, #b20026 0.2%, #ce2510 101.73%);
+  filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.51)); }
 
 @media all and (max-width: 1370px) {
   .container {
