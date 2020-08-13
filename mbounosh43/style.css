@@ -323,9 +323,8 @@ main .slide-wrapper {
     /* элементы меню */
     /************** /Burger menu mobile ***************/
     /******* burger left menu mobile *******/
+    /* Убираем "гамбургер" */
     /******* /burger left menu mobile *******/ }
-    header .menu-btn-left__info {
-      display: block; }
     header #menu-toggle {
       opacity: 0; }
     header .menu-btn {
@@ -384,7 +383,7 @@ main .slide-wrapper {
     header .root-link {
       display: block;
       color: #383838;
-      font-weight: 100;
+      font-weight: 400;
       text-decoration: none; }
     header .root-link:hover {
       background-color: #CFD8DC; }
@@ -401,16 +400,14 @@ main .slide-wrapper {
       flex-direction: column;
       visibility: visible;
       left: 0;
-      width: 70vw;
+      width: 100%;
       box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.7); }
     header .menu-btn > span,
     header .menu-btn > span::before,
     header .menu-btn > span::after {
       transition-duration: .4s; }
     header .left-menu {
-      visibility: inherit;
-      position: relative;
-      top: 0;
+      top: 93vw;
       left: 0;
       margin: 0;
       box-shadow: none;
@@ -419,9 +416,58 @@ main .slide-wrapper {
       display: block; }
     header .nav-list:first-child {
       order: 3; }
-    header .menu-btn-left {
-      display: none; }
+    header #menu-toggle-left:checked ~ .menu-btn-left > span {
+      transform: rotate(0); }
+    header #menu-toggle-left:checked ~ .menu-btn-left > span::before {
+      top: 0;
+      transform: rotate(0); }
+    header #menu-toggle-left:checked ~ .menu-btn-left > span::after {
+      top: 0;
+      transform: rotate(0); }
+    header .menu-btn-left > span,
+    header .menu-btn-left > span::before,
+    header .menu-btn-left > span::after {
+      display: contents;
+      position: absolute;
+      width: 0;
+      height: 0;
+      background-color: #fff; }
+    header .menu-btn-left > span,
+    header .menu-btn-left > span::before,
+    header .menu-btn-left > span::after {
+      transition-duration: 0s; }
+    header .menu-btn-left > span::before {
+      content: '';
+      top: -2.410vw; }
+    header .menu-btn-left > span::after {
+      content: '';
+      top: 2.410vw; }
+    header .menu-btn-left__info {
+      display: block;
+      width: 100%; }
+    header .menu-btn-left__info:hover {
+      background-color: #CFD8DC; }
+    header .menu-btn-left__info:after {
+      content: "\f107";
+      font-family: fa-solid-900;
+      margin-left: 13px;
+      float: right; }
     header .left-menu__column {
-      width: 100%; } }
+      width: 100%; }
+    header #menu-toggle-left:checked ~ .left-menu {
+      width: 100%; }
+    header .menu-btn-left {
+      width: 100vw;
+      height: 14.08vw; }
+    header .left-menu .menu-item-title .title-no-link, header .left-menu-link, header .root-link, header .menu-btn-left__info {
+      padding: 3vw 4vw;
+      font-size: 6vw;
+      line-height: 8vw; }
+    header .left-menu .menu-item-title .title-no-link {
+      padding-top: 8vw; }
+    header .submenu-link {
+      padding: 3vw 4vw 3vw 8vw;
+      font-size: 5.6vw;
+      line-height: 8vw; } }
 
 /*# sourceMappingURL=style.css.map */
