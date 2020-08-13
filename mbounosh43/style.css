@@ -1,417 +1,63 @@
-@charset "UTF-8";
-@font-face {
-  font-family: "fa-solid-900";
-  src: url("fa-solid-900.ttf"); }
-@font-face {
-  font-family: "icomoon-free";
-  src: url("IcoMoon-Free.ttf"); }
-* {
-  font-family: roboto, sans-serif;
-  box-sizing: border-box; }
+/*
+Error: Invalid CSS after "...bility: inherit": expected "{", was ";"
+        on line 541 of style.scss
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0; }
+536:   }
+537:   /************** /Burger menu mobile ***************\/
+538: 
+539:   /******* burger left menu mobile *******\/
+540:   .left-menu {
+541: /    visibility: inherit;
+542:     position: relative;
+543:     top: 0;
+544:     left: 0;
+545:     margin: 0;
+546:     box-shadow: none;
 
-a {
-  text-decoration: none; }
-
-button {
-  outline: none; }
-
-.container {
-  width: 69.583vw;
-  margin: 0 auto; }
-
-header {
-  /************** Burger menu ***************/
-  /************** /Burger menu ***************/
-  /******* burger left menu *******/
-  /* скрываем чекбокс */
-  /* стилизуем кнопку */
-  /* добавляем "гамбургер" */
-  /* контейнер меню */
-  /* элементы меню */
-  /******* /burger left menu *******/ }
-  header .header__back {
-    background-image: url("img/header_back.jpg");
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    height: 25vw; }
-  header #menu-toggle {
-    display: none; }
-  header .menu-btn {
-    display: none; }
-  header #menu-toggle-left, header .menu-btn-left__info {
-    display: none; }
-  header #menu-toggle-left {
-    opacity: 0; }
-  header .menu-btn-left {
-    display: -webkit-flex;
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    /* используем flex для центрирования содержимого */
-    align-items: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    /* центрируем содержимое кнопки */
-    position: relative;
-    width: 2.2vw;
-    height: 2.2vw;
-    cursor: pointer;
-    z-index: 6; }
-  header .menu-btn-left > span,
-  header .menu-btn-left > span::before,
-  header .menu-btn-left > span::after {
-    display: block;
-    position: absolute;
-    width: 1.531vw;
-    height: 0.149vw;
-    background-color: #fff; }
-  header .menu-btn-left > span::before {
-    content: '';
-    top: 0.5vw; }
-  header .menu-btn-left > span::after {
-    content: '';
-    top: -0.5vw; }
-  header .left-menu {
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    visibility: hidden;
-    top: 4.313vw;
-    left: 14.792vw;
-    margin: 0;
-    list-style: none;
-    background-color: #ffffff;
-    box-shadow: 0.241vw 0 1.446vw rgba(0, 0, 0, 0.2);
-    z-index: 4; }
-    header .left-menu .menu-item-title {
-      padding: 0;
-      line-height: 1.4; }
-    header .left-menu .menu-item-title.active {
-      background-color: #2D87C9; }
-  header .left-menu .menu-item-title .title-no-link, header .left-menu-link {
-    padding: 0.808vw 1.456vw;
-    font-size: 1.302vw;
-    line-height: 1.510vw;
-    color: #000;
-    display: block; }
-  header .submenu-link {
-    padding: 0.808vw 2.456vw;
-    font-size: 1.042vw;
-    line-height: 1.198vw;
-    display: flex;
-    align-items: center;
-    color: #000; }
-  header .submenu-link:hover, header .left-menu-link:hover {
-    background-color: #2D87C9;
-    color: #fff; }
-  header #menu-toggle-left:checked ~ .menu-btn-left > span {
-    transform: rotate(45deg); }
-  header #menu-toggle-left:checked ~ .menu-btn-left > span::before {
-    top: 0;
-    transform: rotate(0); }
-  header #menu-toggle-left:checked ~ .menu-btn-left > span::after {
-    top: 0;
-    transform: rotate(90deg); }
-  header #menu-toggle-left:checked ~ .left-menu {
-    visibility: visible;
-    width: 70vw; }
-  header .menu-btn-left > span,
-  header .menu-btn-left > span::before,
-  header .menu-btn-left > span::after {
-    transition-duration: .4s; }
-  header .top-menu {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin-top: 1.3vw; }
-  header .nav-list {
-    font-size: 1.042vw;
-    line-height: 2.215vw;
-    display: flex;
-    align-items: center;
-    padding-right: 1.042vw; }
-  header .root-link {
-    color: #FFFFFF; }
-  header .left-submenu {
-    list-style: none; }
-  header .left-menu__column {
-    width: 50%; }
-  header .header__row {
-    display: flex;
-    justify-content: space-between; }
-  header .header__logo {
-    margin-left: 5.781vw;
-    margin-top: 1.6vw;
-    width: 11.719vw;
-    height: 15.677vw; }
-  header .header__column {
-    width: 49.1vw;
-    margin-top: 4.1vw; }
-  header .header__name {
-    width: 45vw;
-    font-weight: 500;
-    font-size: 1.510vw;
-    line-height: 150%;
-    color: #FFFFFF; }
-  header .header__info {
-    font-weight: 500;
-    font-size: 1.042vw;
-    line-height: 1.354vw;
-    color: #FFFFFF; }
-  header .header__address {
-    margin-top: 1vw; }
-  header .header__phone-mail {
-    margin-top: 0.6vw; }
-  header .header__phone-mail a {
-    color: #FFFFFF; }
-
-main .slide-wrapper {
-  height: 21.615vw;
-  margin-top: 2.083vw; }
-  main .slide-wrapper .slide1 {
-    background-image: url("img/bg-slide1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 63.748vw;
-    height: 21.615vw; }
-  main .slide-wrapper .owl-theme .owl-dots .owl-dot span {
-    width: 1.042vw;
-    height: 1.042vw;
-    margin: 0.260vw 0.55vw;
-    background: #2D87C9;
-    border: 0.052vw solid #2D87C9; }
-  main .slide-wrapper .owl-theme .owl-dots .owl-dot.active span, main .slide-wrapper .owl-theme .owl-dots .owl-dot:hover span {
-    background: #DC2C16;
-    border: 0.052vw solid #2D87C9; }
-  main .slide-wrapper .owl-carousel .owl-nav button {
-    position: absolute;
-    top: 0;
-    width: 2.9vw;
-    height: 91.3%;
-    background-color: #fff;
-    color: #DC2C16;
-    font-size: 3vw;
-    font-weight: bold;
-    font-family: "fa-solid-900";
-    margin: 0; }
-  main .slide-wrapper .owl-theme .owl-nav [class*='owl-']:hover {
-    background: #fff;
-    color: #2D87C9;
-    text-decoration: none; }
-  main .slide-wrapper button.owl-prev {
-    left: 0; }
-  main .slide-wrapper button.owl-next {
-    right: 0; }
-
-@media all and (max-width: 1370px) {
-  .container {
-    width: 97.4162vw;
-    padding: 0 0.781vw; }
-
-  header {
-    /* стилизуем кнопку */
-    /* добавляем "гамбургер" */
-    /* контейнер меню */
-    /* элементы меню */
-    /******* /burger left menu *******/ }
-    header .header__back {
-      background-image: url("img/header_back_md.jpg");
-      background-size: 100vw;
-      height: 35vw; }
-    header .menu-btn-left {
-      /* центрируем содержимое кнопки */
-      width: 3.08vw;
-      height: 3.08vw; }
-    header .menu-btn-left > span,
-    header .menu-btn-left > span::before,
-    header .menu-btn-left > span::after {
-      width: 2.1434vw;
-      height: 0.2086vw; }
-    header .menu-btn-left > span::before {
-      content: '';
-      top: 0.7vw; }
-    header .menu-btn-left > span::after {
-      top: -0.7vw; }
-    header .left-menu {
-      top: 6.0382vw;
-      left: 1vw;
-      margin: 0;
-      box-shadow: 0.3374vw 0 2.0244vw rgba(0, 0, 0, 0.2);
-      z-index: 4; }
-    header .left-menu .menu-item-title .title-no-link, header .left-menu-link {
-      padding: 1.1312vw 2.0384vw;
-      font-size: 1.8228vw;
-      line-height: 2.114vw; }
-    header .submenu-link {
-      padding: 1.1312vw 3.4384vw;
-      font-size: 1.4588vw;
-      line-height: 1.6772vw; }
-    header #menu-toggle-left:checked ~ .left-menu {
-      width: 98vw; }
-    header .top-menu {
-      margin-top: 1.82vw; }
-    header .nav-list {
-      font-size: 1.4588vw;
-      line-height: 3.101vw;
-      padding-right: 1.4588vw; }
-    header .header__logo {
-      margin-left: 8.0934vw;
-      margin-top: 2.24vw;
-      width: 16.4066vw;
-      height: 21.9478vw; }
-    header .header__column {
-      width: 68.74vw;
-      margin-top: 5.74vw; }
-    header .header__name {
-      width: 63vw;
-      font-size: 2.114vw; }
-    header .header__info {
-      font-size: 1.4588vw;
-      line-height: 1.8956vw; }
-    header .header__address {
-      margin-top: 1.4vw; }
-    header .header__phone-mail {
-      margin-top: 0.84vw; }
-
-  main .slide-wrapper {
-    height: 30.261vw;
-    margin-top: 2.9162vw; }
-    main .slide-wrapper .slide1 {
-      background-image: url("img/bg-slide1.jpg");
-      background-size: 89.2472vw;
-      height: 30.261vw; }
-    main .slide-wrapper .owl-theme .owl-dots .owl-dot span {
-      width: 1.4588vw;
-      height: 1.4588vw;
-      margin: 0.364vw 0.77vw;
-      border: 0.0728vw solid #2D87C9; }
-    main .slide-wrapper .owl-theme .owl-dots .owl-dot.active span, main .slide-wrapper .owl-theme .owl-dots .owl-dot:hover span {
-      background: #DC2C16;
-      border: 0.0728vw solid #2D87C9; }
-    main .slide-wrapper .owl-carousel .owl-nav button {
-      width: 4.06vw;
-      font-size: 4.2vw; } }
-@media all and (max-width: 415px) {
-  header {
-    /************** Burger menu mobile ***************/
-    /* скрываем чекбокс */
-    /* стилизуем кнопку */
-    /* добавляем "гамбургер" */
-    /* контейнер меню */
-    /* элементы меню */
-    /************** /Burger menu mobile ***************/
-    /******* burger left menu mobile *******/
-    /******* /burger left menu mobile *******/ }
-    header .menu-btn-left__info {
-      display: block; }
-    header #menu-toggle {
-      opacity: 0; }
-    header .menu-btn {
-      display: -webkit-flex;
-      display: -webkit-box;
-      display: -moz-flex;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -ms-flex;
-      display: -o-flex;
-      display: flex;
-      /* используем flex для центрирования содержимого */
-      align-items: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      /* центрируем содержимое кнопки */
-      position: absolute;
-      top: 4.578vw;
-      left: 3.855vw;
-      width: 9.157vw;
-      height: 9.157vw;
-      cursor: pointer;
-      z-index: 6; }
-    header .menu-btn > span,
-    header .menu-btn > span::before,
-    header .menu-btn > span::after {
-      display: block;
-      position: absolute;
-      width: 9.157vw;
-      height: 0.853vw;
-      background-color: #000; }
-    header .menu-btn > span::before {
-      content: '';
-      top: -2.410vw; }
-    header .menu-btn > span::after {
-      content: '';
-      top: 2.410vw; }
-    header .top-menu {
-      display: block;
-      position: absolute;
-      visibility: hidden;
-      top: 18.313vw;
-      left: 0;
-      width: 100%;
-      margin: 0;
-      list-style: none;
-      background-color: #ffffff;
-      box-shadow: 0.241vw 0 1.446vw rgba(0, 0, 0, 0.2);
-      z-index: 4; }
-      header .top-menu .nav-list {
-        padding: 0;
-        line-height: 1.4; }
-      header .top-menu .nav-list.active {
-        background-color: #CFD8DC; }
-    header .root-link {
-      display: block;
-      color: #383838;
-      font-weight: 100;
-      text-decoration: none; }
-    header .root-link:hover {
-      background-color: #CFD8DC; }
-    header #menu-toggle:checked ~ .menu-btn > span {
-      transform: rotate(45deg); }
-    header #menu-toggle:checked ~ .menu-btn > span::before {
-      top: 0;
-      transform: rotate(0); }
-    header #menu-toggle:checked ~ .menu-btn > span::after {
-      top: 0;
-      transform: rotate(90deg); }
-    header #menu-toggle:checked ~ .top-menu {
-      display: flex;
-      flex-direction: column;
-      visibility: visible;
-      left: 0;
-      width: 70vw;
-      box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.7); }
-    header .menu-btn > span,
-    header .menu-btn > span::before,
-    header .menu-btn > span::after {
-      transition-duration: .4s; }
-    header #menu-toggle:checked ~ .left-menu {
-      visibility: visible; }
-    header .nav-list:first-child {
-      order: 3; }
-    header .menu-btn-left {
-      display: none; } }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+style.scss:541
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:688:in `block'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:421:in `media_directive'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:234:in `special_directive'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:209:in `directive'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Users/mac/.rvm/gems/ruby-2.7.0/gems/sass-3.7.4/bin/scss:13:in `<top (required)>'
+/usr/local/bin/scss:23:in `load'
+/usr/local/bin/scss:23:in `<main>'
+/Users/mac/.rvm/gems/ruby-2.7.0/bin/ruby_executable_hooks:24:in `eval'
+/Users/mac/.rvm/gems/ruby-2.7.0/bin/ruby_executable_hooks:24:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...bility: inherit\": expected \"{\", was \";\"\A         on line 541 of style.scss\A \A 536:   }\A 537:   /************** /Burger menu mobile ***************/\A 538: \A 539:   /******* burger left menu mobile *******/\A 540:   .left-menu {\A 541: /    visibility: inherit;\A 542:     position: relative;\A 543:     top: 0;\A 544:     left: 0;\A 545:     margin: 0;\A 546:     box-shadow: none;"; }

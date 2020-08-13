@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Creating a header and slider in the PC version">
-      <change afterPath="$PROJECT_DIR$/mbounosh43/IcoMoon-Free.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/img/bg-slide1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/img/header_back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/img/header_back_md.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mbounosh43/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/js/main_slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/js/main_slider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/owlcarousel/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/owlcarousel/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/owlcarousel/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/owlcarousel/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mbounosh43/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyndyrnaya/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tyndyrnaya/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mbounosh43/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mbounosh43/style.css" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -77,14 +61,14 @@
     <favorites_list name="fresh-web-studio.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5053381">
+    <splitter split-orientation="vertical" split-proportion="0.7350937">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="223">
-                  <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+                <state relative-caret-position="281">
+                  <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -101,8 +85,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="212">
-                  <caret line="544" column="3" lean-forward="true" selection-start-line="544" selection-start-column="3" selection-end-line="544" selection-end-column="3" />
+                <state relative-caret-position="51">
+                  <caret line="540" selection-start-line="540" selection-end-line="540" />
                   <folding>
                     <element signature="e#889#1624#0" />
                     <element signature="e#4877#5798#0" />
@@ -265,8 +249,8 @@
         <option value="$PROJECT_DIR$/niam-nt/css/style.scss" />
         <option value="$PROJECT_DIR$/tyndyrnaya/index.html" />
         <option value="$PROJECT_DIR$/mbounosh43/js/main_slider.js" />
-        <option value="$PROJECT_DIR$/mbounosh43/index.html" />
         <option value="$PROJECT_DIR$/mbounosh43/style.scss" />
+        <option value="$PROJECT_DIR$/mbounosh43/index.html" />
       </list>
     </option>
   </component>
@@ -279,9 +263,9 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
     <option name="x" value="610" />
-    <option name="y" value="-1417" />
+    <option name="y" value="-1411" />
     <option name="width" value="1280" />
-    <option name="height" value="1322" />
+    <option name="height" value="1314" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -345,23 +329,6 @@
               <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="mbounosh43" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="mbounosh43" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="niam-nt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fresh-web-studio.github.io" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="niam-nt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -523,14 +490,7 @@
       <workItem from="1596992154771" duration="4670000" />
       <workItem from="1597036949393" duration="10017000" />
       <workItem from="1597142646797" duration="742000" />
-      <workItem from="1597148841966" duration="24391000" />
-    </task>
-    <task id="LOCAL-00857" summary="Обновления">
-      <created>1595960862972</created>
-      <option name="number" value="00857" />
-      <option name="presentableId" value="LOCAL-00857" />
-      <option name="project" value="LOCAL" />
-      <updated>1595960862972</updated>
+      <workItem from="1597148841966" duration="27245000" />
     </task>
     <task id="LOCAL-00858" summary="Обновления">
       <created>1596018115567</created>
@@ -868,23 +828,30 @@
       <option name="project" value="LOCAL" />
       <updated>1597123263600</updated>
     </task>
-    <option name="localTasksCounter" value="906" />
+    <task id="LOCAL-00906" summary="Creating a header and slider in the PC version">
+      <created>1597242008043</created>
+      <option name="number" value="00906" />
+      <option name="presentableId" value="LOCAL-00906" />
+      <option name="project" value="LOCAL" />
+      <updated>1597242008043</updated>
+    </task>
+    <option name="localTasksCounter" value="907" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1852086000" />
+    <option name="totallyTimeSpent" value="1854940000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="610" y="-1417" width="1280" height="1322" extended-state="0" />
+    <frame x="610" y="-1411" width="1280" height="1314" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.19869708" />
+      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.19869708" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36892053" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36882454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -4509,9 +4476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mbounosh43/img/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/menu/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -5095,27 +5059,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/mbounosh43/img/logo.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="544" column="3" lean-forward="true" selection-start-line="544" selection-start-column="3" selection-end-line="544" selection-end-column="3" />
+        <state relative-caret-position="51">
+          <caret line="540" selection-start-line="540" selection-end-line="540" />
           <folding>
             <element signature="e#889#1624#0" />
             <element signature="e#4877#5798#0" />
             <element signature="e#6137#10068#0" />
             <element signature="e#8462#9558#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
