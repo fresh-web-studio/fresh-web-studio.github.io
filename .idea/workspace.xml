@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Creating a header and slider in the PC version">
+    <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="Мобильная версия: Левое меню раскрывается вместе с основным">
       <change afterPath="$PROJECT_DIR$/mbounosh43/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbounosh43/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mbounosh43/style.css" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -67,8 +65,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="281">
-                  <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+                <state relative-caret-position="401">
+                  <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -85,8 +83,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="540" selection-start-line="540" selection-end-line="540" />
+                <state relative-caret-position="482">
+                  <caret line="555" column="4" lean-forward="true" selection-start-line="555" selection-start-column="4" selection-end-line="555" selection-end-column="4" />
                   <folding>
                     <element signature="e#889#1624#0" />
                     <element signature="e#4877#5798#0" />
@@ -249,8 +247,8 @@
         <option value="$PROJECT_DIR$/niam-nt/css/style.scss" />
         <option value="$PROJECT_DIR$/tyndyrnaya/index.html" />
         <option value="$PROJECT_DIR$/mbounosh43/js/main_slider.js" />
-        <option value="$PROJECT_DIR$/mbounosh43/style.scss" />
         <option value="$PROJECT_DIR$/mbounosh43/index.html" />
+        <option value="$PROJECT_DIR$/mbounosh43/style.scss" />
       </list>
     </option>
   </component>
@@ -490,21 +488,7 @@
       <workItem from="1596992154771" duration="4670000" />
       <workItem from="1597036949393" duration="10017000" />
       <workItem from="1597142646797" duration="742000" />
-      <workItem from="1597148841966" duration="27245000" />
-    </task>
-    <task id="LOCAL-00858" summary="Обновления">
-      <created>1596018115567</created>
-      <option name="number" value="00858" />
-      <option name="presentableId" value="LOCAL-00858" />
-      <option name="project" value="LOCAL" />
-      <updated>1596018115567</updated>
-    </task>
-    <task id="LOCAL-00859" summary="Обновление шапки сайта">
-      <created>1596018928370</created>
-      <option name="number" value="00859" />
-      <option name="presentableId" value="LOCAL-00859" />
-      <option name="project" value="LOCAL" />
-      <updated>1596018928371</updated>
+      <workItem from="1597148841966" duration="27526000" />
     </task>
     <task id="LOCAL-00860" summary="Обновление подвал страницы контакты">
       <created>1596019276750</created>
@@ -835,23 +819,36 @@
       <option name="project" value="LOCAL" />
       <updated>1597242008043</updated>
     </task>
-    <option name="localTasksCounter" value="907" />
+    <task id="LOCAL-00907" summary="Мобильная версия: Левое меню раскрывается вместе с основным">
+      <created>1597295734287</created>
+      <option name="number" value="00907" />
+      <option name="presentableId" value="LOCAL-00907" />
+      <option name="project" value="LOCAL" />
+      <updated>1597295734287</updated>
+    </task>
+    <task id="LOCAL-00908" summary="Мобильная версия: Левое меню раскрывается вместе с основным">
+      <created>1597295767783</created>
+      <option name="number" value="00908" />
+      <option name="presentableId" value="LOCAL-00908" />
+      <option name="project" value="LOCAL" />
+      <updated>1597295767783</updated>
+    </task>
+    <option name="localTasksCounter" value="909" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1854940000" />
+    <option name="totallyTimeSpent" value="1855221000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
     <frame x="610" y="-1411" width="1280" height="1314" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.19869708" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290469" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36882454" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36882454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -859,7 +856,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.497939" weight="0.50462574" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48873484" weight="0.12336892" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.48873484" visible="true" weight="0.12265758" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51126516" side_tool="true" weight="0.1767497" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
       <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22431506" />
@@ -955,7 +952,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Обновление" />
     <MESSAGE value="Обновление страницы chorizo.html" />
     <MESSAGE value="Создание страницы cart.html" />
     <MESSAGE value="Закончил 9 урок" />
@@ -980,7 +976,8 @@
     <MESSAGE value="Mobile version: added ie11 support" />
     <MESSAGE value="Mobile version: added ie10 support" />
     <MESSAGE value="Creating a header and slider in the PC version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating a header and slider in the PC version" />
+    <MESSAGE value="Мобильная версия: Левое меню раскрывается вместе с основным" />
+    <option name="LAST_COMMIT_MESSAGE" value="Мобильная версия: Левое меню раскрывается вместе с основным" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson4/site/img/enigma.jpg">
@@ -5062,27 +5059,27 @@
     <entry file="file://$PROJECT_DIR$/mbounosh43/img/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="540" selection-start-line="540" selection-end-line="540" />
+        <state relative-caret-position="482">
+          <caret line="555" column="4" lean-forward="true" selection-start-line="555" selection-start-column="4" selection-end-line="555" selection-end-column="4" />
           <folding>
             <element signature="e#889#1624#0" />
             <element signature="e#4877#5798#0" />
             <element signature="e#6137#10068#0" />
             <element signature="e#8462#9558#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
