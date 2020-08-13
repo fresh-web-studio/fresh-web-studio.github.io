@@ -246,7 +246,7 @@ main .news .news__item-frame {
   background-color: #02adff;
   border-radius: 0.521vw; }
 main .news .news__item-frame:hover {
-  filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.51)); }
+  filter: drop-shadow(0.26vw 0.26vw 1.042vw rgba(0, 0, 0, 0.51)); }
 main .news .news__item {
   display: flex;
   justify-content: space-between; }
@@ -298,7 +298,7 @@ main .news .news_date {
   color: #F4F3F3; }
 main .news .news__more {
   margin: 0 auto;
-  padding: 1.4vw 0;
+  padding: 0.2vw 0 0;
   cursor: pointer;
   width: 13.229vw;
   height: 2.083vw;
@@ -313,12 +313,16 @@ main .news .news__more {
   background: linear-gradient(90.4deg, #DC1C45 0.2%, #DC2C16 101.73%); }
 main .news .news__more:hover {
   background: linear-gradient(90.4deg, #b20026 0.2%, #ce2510 101.73%);
-  filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.51)); }
+  filter: drop-shadow(0.26vw 0.26vw 1.042vw rgba(0, 0, 0, 0.51)); }
 
 @media all and (max-width: 1370px) {
   .container {
     width: 97.4162vw;
     padding: 0 0.781vw; }
+
+  .container-narrow {
+    width: 88.946vw;
+    margin: 0 auto; }
 
   header {
     /* стилизуем кнопку */
@@ -402,7 +406,93 @@ main .news .news__more:hover {
       border: 0.0728vw solid #2D87C9; }
     main .slide-wrapper .owl-carousel .owl-nav button {
       width: 4.06vw;
-      font-size: 4.2vw; } }
+      font-size: 4.2vw; }
+  main .news .news__title {
+    margin-top: 7.9478vw;
+    font-weight: bold;
+    font-size: 2.4066vw;
+    line-height: 2.9162vw;
+    text-align: center; }
+  main .news .news__item-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1.4vw; }
+  main .news .news__item-frame {
+    width: 26.8766666667vw;
+    height: 14.8736vw;
+    margin: 2.24vw 1.386vw;
+    background-color: #02adff;
+    border-radius: 0.7294vw; }
+  main .news .news__item-frame:hover {
+    filter: drop-shadow(0.364vw 0.364vw 1.4588vw rgba(0, 0, 0, 0.51)); }
+  main .news .news__item {
+    display: flex;
+    justify-content: space-between; }
+  main .news .news__img {
+    width: 12.6vw;
+    height: 14.8736vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 0.7294vw;
+    border-bottom-left-radius: 0.7294vw; }
+  main .news .news__img img {
+    height: 100%; }
+  main .news .news__info {
+    width: 15.4vw;
+    padding: 0 0.84vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; }
+  main .news .news__info:before {
+    content: "";
+    width: 3.2816vw;
+    height: 14.8736vw;
+    margin-left: -4.06vw;
+    background-image: url(img/coner.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 4.2vw;
+    position: absolute; }
+  main .news .news__item-title {
+    font-weight: bold;
+    font-size: 1.239vw;
+    line-height: 1.96vw;
+    max-height: 9.8vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-clamp: 4;
+    box-orient: vertical;
+    color: #FFFFFF; }
+  main .news .news_date {
+    margin-top: 1.4vw;
+    font-size: 1.1662vw;
+    line-height: 1.386vw;
+    color: #F4F3F3; }
+  main .news .news__more {
+    margin: 0 auto;
+    padding: 0.56vw 0;
+    cursor: pointer;
+    width: 18.5206vw;
+    height: 2.9162vw;
+    box-sizing: border-box;
+    border-radius: 3.6456vw;
+    font-size: 1.4588vw;
+    line-height: 1.75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90.4deg, #DC1C45 0.2%, #DC2C16 101.73%); }
+  main .news .news__more:hover {
+    background: linear-gradient(90.4deg, #b20026 0.2%, #ce2510 101.73%);
+    filter: drop-shadow(0.364vw 0.364vw 1.4588vw rgba(0, 0, 0, 0.51)); } }
 @media all and (max-width: 415px) {
   header {
     /************** Burger menu mobile ***************/

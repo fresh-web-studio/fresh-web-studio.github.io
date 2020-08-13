@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbounosh43/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mbounosh43/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mbounosh43/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mbounosh43/style.css" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
@@ -130,14 +129,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="277">
-                  <caret line="410" column="4" selection-start-line="410" selection-start-column="4" selection-end-line="410" selection-end-column="4" />
+                <state relative-caret-position="191">
+                  <caret line="658" selection-start-line="658" selection-end-line="658" />
                   <folding>
                     <element signature="e#889#1624#0" />
                     <element signature="e#4896#5794#0" />
-                    <element signature="e#6011#6017#0" />
                     <element signature="e#6137#10068#0" />
-                    <element signature="e#8462#9558#0" />
                     <element signature="e#8481#9556#0" />
                     <element signature="e#1804#1810#0" />
                     <element signature="e#9335#11690#0" />
@@ -178,7 +175,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>root-item</find>
       <find>icomoon-free</find>
       <find>.main_menu .nav-list .root-item</find>
       <find>#menu-toggle:checked ~ .menu-btn</find>
@@ -208,6 +204,7 @@
       <find>.slide1</find>
       <find>font</find>
       <find>fonta</find>
+      <find>news__mo</find>
     </findStrings>
     <replaceStrings>
       <replace>$p</replace>
@@ -564,14 +561,7 @@
       <workItem from="1596992154771" duration="4670000" />
       <workItem from="1597036949393" duration="10017000" />
       <workItem from="1597142646797" duration="742000" />
-      <workItem from="1597148841966" duration="50768000" />
-    </task>
-    <task id="LOCAL-00862" summary="Обновление кнопоц соцсетей в шапке">
-      <created>1596022746363</created>
-      <option name="number" value="00862" />
-      <option name="presentableId" value="LOCAL-00862" />
-      <option name="project" value="LOCAL" />
-      <updated>1596022746363</updated>
+      <workItem from="1597148841966" duration="51696000" />
     </task>
     <task id="LOCAL-00863" summary="Добавлениея фона и мелкие правки">
       <created>1596025390588</created>
@@ -909,11 +899,18 @@
       <option name="project" value="LOCAL" />
       <updated>1597325338301</updated>
     </task>
-    <option name="localTasksCounter" value="911" />
+    <task id="LOCAL-00911" summary="add news on pc">
+      <created>1597338422284</created>
+      <option name="number" value="00911" />
+      <option name="presentableId" value="LOCAL-00911" />
+      <option name="project" value="LOCAL" />
+      <updated>1597338422285</updated>
+    </task>
+    <option name="localTasksCounter" value="912" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1878463000" />
+    <option name="totallyTimeSpent" value="1879391000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -5156,14 +5153,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="410" column="4" selection-start-line="410" selection-start-column="4" selection-end-line="410" selection-end-column="4" />
+        <state relative-caret-position="191">
+          <caret line="658" selection-start-line="658" selection-end-line="658" />
           <folding>
             <element signature="e#889#1624#0" />
             <element signature="e#4896#5794#0" />
-            <element signature="e#6011#6017#0" />
             <element signature="e#6137#10068#0" />
-            <element signature="e#8462#9558#0" />
             <element signature="e#8481#9556#0" />
             <element signature="e#1804#1810#0" />
             <element signature="e#9335#11690#0" />
