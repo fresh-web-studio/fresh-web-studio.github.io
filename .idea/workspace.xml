@@ -66,8 +66,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="176" column="149" selection-start-line="176" selection-start-column="149" selection-end-line="176" selection-end-column="149" />
+                <state relative-caret-position="516">
+                  <caret line="190" column="53" lean-forward="true" selection-start-line="190" selection-start-column="53" selection-end-line="190" selection-end-column="53" />
                   <folding>
                     <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -129,14 +129,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="191">
-                  <caret line="658" selection-start-line="658" selection-end-line="658" />
+                <state relative-caret-position="241">
+                  <caret line="931" column="26" selection-start-line="931" selection-start-column="26" selection-end-line="931" selection-end-column="26" />
                   <folding>
                     <element signature="e#889#1624#0" />
-                    <element signature="e#4896#5794#0" />
+                    <element signature="e#6049#6059#0" />
                     <element signature="e#6137#10068#0" />
-                    <element signature="e#8481#9556#0" />
-                    <element signature="e#1804#1810#0" />
+                    <element signature="e#11929#14426#0" />
                     <element signature="e#9335#11690#0" />
                     <element signature="e#11820#11830#0" />
                     <element signature="e#11706#11716#0" />
@@ -561,21 +560,7 @@
       <workItem from="1596992154771" duration="4670000" />
       <workItem from="1597036949393" duration="10017000" />
       <workItem from="1597142646797" duration="742000" />
-      <workItem from="1597148841966" duration="51696000" />
-    </task>
-    <task id="LOCAL-00863" summary="Добавлениея фона и мелкие правки">
-      <created>1596025390588</created>
-      <option name="number" value="00863" />
-      <option name="presentableId" value="LOCAL-00863" />
-      <option name="project" value="LOCAL" />
-      <updated>1596025390589</updated>
-    </task>
-    <task id="LOCAL-00864" summary="Добавлениея фона и мелкие правки">
-      <created>1596118529463</created>
-      <option name="number" value="00864" />
-      <option name="presentableId" value="LOCAL-00864" />
-      <option name="project" value="LOCAL" />
-      <updated>1596118529475</updated>
+      <workItem from="1597148841966" duration="54353000" />
     </task>
     <task id="LOCAL-00865" summary="Добавлениея фона и мелкие правки">
       <created>1596120081242</created>
@@ -906,11 +891,25 @@
       <option name="project" value="LOCAL" />
       <updated>1597338422285</updated>
     </task>
-    <option name="localTasksCounter" value="912" />
+    <task id="LOCAL-00912" summary="adaptive news for books">
+      <created>1597339312398</created>
+      <option name="number" value="00912" />
+      <option name="presentableId" value="LOCAL-00912" />
+      <option name="project" value="LOCAL" />
+      <updated>1597339312398</updated>
+    </task>
+    <task id="LOCAL-00913" summary="Adapted News for mobile">
+      <created>1597340540439</created>
+      <option name="number" value="00913" />
+      <option name="presentableId" value="LOCAL-00913" />
+      <option name="project" value="LOCAL" />
+      <updated>1597340540439</updated>
+    </task>
+    <option name="localTasksCounter" value="914" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1879391000" />
+    <option name="totallyTimeSpent" value="1882048000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
@@ -1026,8 +1025,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Закончил 9 урок" />
-    <MESSAGE value="Завершил урок 11" />
     <MESSAGE value="Обновления" />
     <MESSAGE value="Завершил работу над страницей Авторизации" />
     <MESSAGE value="Завершил работу над страницей order.html&#10;И создал переменные для vw и цветов" />
@@ -1051,7 +1048,9 @@
     <MESSAGE value="Мобильная версия: Левое меню раскрывается вместе с основным" />
     <MESSAGE value="Мобильная версия: Левое меню раскрывается при нажатии на рабдел" />
     <MESSAGE value="add news on pc" />
-    <option name="LAST_COMMIT_MESSAGE" value="add news on pc" />
+    <MESSAGE value="adaptive news for books" />
+    <MESSAGE value="Adapted News for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapted News for mobile" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/geekbrains/web-development/html-css/lesson4/site/img/enigma.jpg">
@@ -5138,8 +5137,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="176" column="149" selection-start-line="176" selection-start-column="149" selection-end-line="176" selection-end-column="149" />
+        <state relative-caret-position="516">
+          <caret line="190" column="53" lean-forward="true" selection-start-line="190" selection-start-column="53" selection-end-line="190" selection-end-column="53" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -5153,14 +5152,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="658" selection-start-line="658" selection-end-line="658" />
+        <state relative-caret-position="241">
+          <caret line="931" column="26" selection-start-line="931" selection-start-column="26" selection-end-line="931" selection-end-column="26" />
           <folding>
             <element signature="e#889#1624#0" />
-            <element signature="e#4896#5794#0" />
+            <element signature="e#6049#6059#0" />
             <element signature="e#6137#10068#0" />
-            <element signature="e#8481#9556#0" />
-            <element signature="e#1804#1810#0" />
+            <element signature="e#11929#14426#0" />
             <element signature="e#9335#11690#0" />
             <element signature="e#11820#11830#0" />
             <element signature="e#11706#11716#0" />

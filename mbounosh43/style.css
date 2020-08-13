@@ -213,21 +213,21 @@ main .slide-wrapper {
     position: absolute;
     top: 0;
     width: 2.9vw;
-    height: 91.3%;
+    height: 21.6vw;
     background-color: #fff;
-    color: #DC2C16;
+    color: #2D87C9;
     font-size: 3vw;
     font-weight: bold;
     font-family: "fa-solid-900";
     margin: 0; }
   main .slide-wrapper .owl-theme .owl-nav [class*='owl-']:hover {
     background: #fff;
-    color: #2D87C9;
+    color: #DC2C16;
     text-decoration: none; }
   main .slide-wrapper button.owl-prev {
-    left: 0; }
+    left: -0.1vw; }
   main .slide-wrapper button.owl-next {
-    right: 0; }
+    right: -0.1vw; }
 main .news .news__title {
   margin-top: 5.677vw;
   font-weight: bold;
@@ -406,6 +406,7 @@ main .news .news__more:hover {
       border: 0.0728vw solid #2D87C9; }
     main .slide-wrapper .owl-carousel .owl-nav button {
       width: 4.06vw;
+      height: 30.24vw;
       font-size: 4.2vw; }
   main .news .news__title {
     margin-top: 7.9478vw;
@@ -499,8 +500,7 @@ main .news .news__more:hover {
     padding: 0 0.781vw; }
 
   .container-narrow {
-    width: 100vw;
-    margin: 0 auto; }
+    width: 100vw; }
 
   header {
     /************** Burger menu mobile ***************/
@@ -674,6 +674,10 @@ main .news .news__more:hover {
       width: 65vw;
       font-size: 2.2vw; }
 
+  main .slide-wrapper .owl-carousel .owl-nav button {
+    width: 4.88vw;
+    height: 30.78vw;
+    font-size: 4.88vw; }
   main .news .news__title {
     margin-top: 17vw;
     margin-bottom: 5vw;
