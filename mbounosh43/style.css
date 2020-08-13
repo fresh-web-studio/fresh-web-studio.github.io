@@ -477,7 +477,7 @@ main .news .news__more:hover {
     color: #F4F3F3; }
   main .news .news__more {
     margin: 0 auto;
-    padding: 0.56vw 0;
+    padding: 0vw 0;
     cursor: pointer;
     width: 18.5206vw;
     height: 2.9162vw;
@@ -494,6 +494,14 @@ main .news .news__more:hover {
     background: linear-gradient(90.4deg, #b20026 0.2%, #ce2510 101.73%);
     filter: drop-shadow(0.364vw 0.364vw 1.4588vw rgba(0, 0, 0, 0.51)); } }
 @media all and (max-width: 415px) {
+  .container {
+    width: 100vw;
+    padding: 0 0.781vw; }
+
+  .container-narrow {
+    width: 100vw;
+    margin: 0 auto; }
+
   header {
     /************** Burger menu mobile ***************/
     /* скрываем чекбокс */
@@ -663,8 +671,95 @@ main .news .news__more:hover {
     header .header__info {
       display: none; }
     header .header__name {
-      width: 63vw;
-      font-size: 2.2vw;
-      margin-left: 3vw; } }
+      width: 65vw;
+      font-size: 2.2vw; }
+
+  main .news .news__title {
+    margin-top: 17vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    font-size: 7.9529638484vw;
+    line-height: 9.6370120397vw;
+    text-align: center; }
+  main .news .news__item-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 4.62650602vw; }
+  main .news .news__item-frame {
+    width: 90.8395180804vw;
+    height: 49.1519999565vw;
+    margin: 2.775903612vw 4.5802409598vw;
+    background-color: #02adff;
+    border-radius: 2.4104096364vw; }
+  main .news .news__item-frame:hover {
+    filter: none; }
+  main .news .news__item {
+    display: flex;
+    justify-content: space-between; }
+  main .news .news__img {
+    width: 41.63855418vw;
+    height: 49.1519999565vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 2.4104096364vw;
+    border-bottom-left-radius: 2.4104096364vw; }
+  main .news .news__img img {
+    height: 100%; }
+  main .news .news__info {
+    width: 50.89156622vw;
+    padding: 0 2.775903612vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; }
+  main .news .news__info:before {
+    content: "";
+    width: 10.8445301109vw;
+    height: 49.1519999565vw;
+    margin-left: -13.416867458vw;
+    background-image: url(img/coner.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 13.87951806vw;
+    position: absolute; }
+  main .news .news__item-title {
+    font-weight: bold;
+    font-size: 4.0944578277vw;
+    line-height: 6.477108428vw;
+    max-height: 32.38554214vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-clamp: 4;
+    box-orient: vertical;
+    color: #FFFFFF; }
+  main .news .news_date {
+    margin-top: 4.62650602vw;
+    font-size: 3.8538795147vw;
+    line-height: 4.5802409598vw;
+    color: #F4F3F3; }
+  main .news .news__more {
+    margin: 0 auto;
+    padding: 0vw 0;
+    cursor: pointer;
+    width: 61.2040481386vw;
+    height: 9.6370120397vw;
+    box-sizing: border-box;
+    border-radius: 12.0474216761vw;
+    font-size: 4.8208192728vw;
+    line-height: 5.783132525vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90.4deg, #DC1C45 0.2%, #DC2C16 101.73%); }
+  main .news .news__more:hover {
+    background: linear-gradient(90.4deg, #b20026 0.2%, #ce2510 101.73%);
+    filter: none; } }
 
 /*# sourceMappingURL=style.css.map */
