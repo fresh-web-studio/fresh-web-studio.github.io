@@ -680,6 +680,8 @@ main .news .news__more:hover {
       width: 4.88vw;
       height: 30.78vw;
       font-size: 4.88vw; }
+    main .slide-wrapper .owl-theme .owl-nav {
+      margin-top: 0.5vw; }
   main .news .news__title {
     margin-top: 17vw;
     margin-bottom: 5vw;

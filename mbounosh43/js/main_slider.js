@@ -8,6 +8,14 @@ $(document).ready(function(){
             autoplay:true,
             autoplayTimeout:6000,
             autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    dots:false
+                },
+                415:{
+
+                }
+            }
         }
     )
 })
