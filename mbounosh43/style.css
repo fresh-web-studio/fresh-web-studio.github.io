@@ -674,10 +674,12 @@ main .news .news__more:hover {
       width: 65vw;
       font-size: 2.2vw; }
 
-  main .slide-wrapper .owl-carousel .owl-nav button {
-    width: 4.88vw;
-    height: 30.78vw;
-    font-size: 4.88vw; }
+  main .slide-wrapper {
+    margin-top: 9vw; }
+    main .slide-wrapper .owl-carousel .owl-nav button {
+      width: 4.88vw;
+      height: 30.78vw;
+      font-size: 4.88vw; }
   main .news .news__title {
     margin-top: 17vw;
     margin-bottom: 5vw;

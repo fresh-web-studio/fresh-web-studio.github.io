@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mbounosh43/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mbounosh43/style.css" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
@@ -60,14 +61,14 @@
     <favorites_list name="fresh-web-studio.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5519591">
+    <splitter split-orientation="vertical" split-proportion="0.21640904">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="516">
-                  <caret line="190" column="53" lean-forward="true" selection-start-line="190" selection-start-column="53" selection-end-line="190" selection-end-column="53" />
+                <state relative-caret-position="63">
+                  <caret line="184" column="10" selection-start-line="184" selection-start-column="10" selection-end-line="184" selection-end-column="10" />
                   <folding>
                     <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -126,11 +127,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="931" column="26" selection-start-line="931" selection-start-column="26" selection-end-line="931" selection-end-column="26" />
+                <state relative-caret-position="175">
+                  <caret line="928" column="21" selection-start-line="928" selection-start-column="21" selection-end-line="928" selection-end-column="21" />
                   <folding>
                     <element signature="e#889#1624#0" />
                     <element signature="e#6049#6059#0" />
@@ -152,7 +153,17 @@
                     <element signature="e#12891#12979#0" />
                     <element signature="e#13219#13229#0" />
                     <element signature="e#13004#13014#0" />
+                    <element signature="e#20615#23889#0" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="409">
+                  <caret line="29" column="99" selection-start-line="29" selection-start-column="99" selection-end-line="29" selection-end-column="99" />
                 </state>
               </provider>
             </entry>
@@ -276,7 +287,6 @@
         <option value="$PROJECT_DIR$/niam-nt/owlcarousel/assets/owl.theme.default.scss" />
         <option value="$PROJECT_DIR$/niam-nt/chorizo-photo.html" />
         <option value="$PROJECT_DIR$/niam-nt/broccoli-photo.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/index.html" />
         <option value="$PROJECT_DIR$/geekbrains/web-development/html-css/lesson9/css/style.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -311,6 +321,7 @@
         <option value="$PROJECT_DIR$/mbounosh43/js/main_slider.js" />
         <option value="$PROJECT_DIR$/mbounosh43/index.html" />
         <option value="$PROJECT_DIR$/mbounosh43/style.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -322,10 +333,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="610" />
-    <option name="y" value="-1411" />
-    <option name="width" value="1280" />
-    <option name="height" value="1314" />
+    <option name="x" value="2240" />
+    <option name="y" value="-114" />
+    <option name="width" value="959" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -560,21 +571,7 @@
       <workItem from="1596992154771" duration="4670000" />
       <workItem from="1597036949393" duration="10017000" />
       <workItem from="1597142646797" duration="742000" />
-      <workItem from="1597148841966" duration="54353000" />
-    </task>
-    <task id="LOCAL-00865" summary="Добавлениея фона и мелкие правки">
-      <created>1596120081242</created>
-      <option name="number" value="00865" />
-      <option name="presentableId" value="LOCAL-00865" />
-      <option name="project" value="LOCAL" />
-      <updated>1596120081244</updated>
-    </task>
-    <task id="LOCAL-00866" summary="Обновление">
-      <created>1596121485510</created>
-      <option name="number" value="00866" />
-      <option name="presentableId" value="LOCAL-00866" />
-      <option name="project" value="LOCAL" />
-      <updated>1596121485510</updated>
+      <workItem from="1597148841966" duration="55605000" />
     </task>
     <task id="LOCAL-00867" summary="Обновление">
       <created>1596121624206</created>
@@ -905,18 +902,32 @@
       <option name="project" value="LOCAL" />
       <updated>1597340540439</updated>
     </task>
-    <option name="localTasksCounter" value="914" />
+    <task id="LOCAL-00914" summary="Adapted News for mobile">
+      <created>1597342135887</created>
+      <option name="number" value="00914" />
+      <option name="presentableId" value="LOCAL-00914" />
+      <option name="project" value="LOCAL" />
+      <updated>1597342135887</updated>
+    </task>
+    <task id="LOCAL-00915" summary="Adapted News for mobile">
+      <created>1597342286109</created>
+      <option name="number" value="00915" />
+      <option name="presentableId" value="LOCAL-00915" />
+      <option name="project" value="LOCAL" />
+      <updated>1597342286109</updated>
+    </task>
+    <option name="localTasksCounter" value="916" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1882048000" />
+    <option name="totallyTimeSpent" value="1883300000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
-    <frame x="610" y="-1411" width="1280" height="1314" extended-state="0" />
+    <frame x="2240" y="-114" width="959" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.19869708" />
+      <window_info active="true" content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.19845645" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32922825" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2821,13 +2832,6 @@
             <element signature="n#input#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#1;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -5137,8 +5141,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="190" column="53" lean-forward="true" selection-start-line="190" selection-start-column="53" selection-end-line="190" selection-end-column="53" />
+        <state relative-caret-position="63">
+          <caret line="184" column="10" selection-start-line="184" selection-start-column="10" selection-end-line="184" selection-end-column="10" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -5152,8 +5156,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="931" column="26" selection-start-line="931" selection-start-column="26" selection-end-line="931" selection-end-column="26" />
+        <state relative-caret-position="175">
+          <caret line="928" column="21" selection-start-line="928" selection-start-column="21" selection-end-line="928" selection-end-column="21" />
           <folding>
             <element signature="e#889#1624#0" />
             <element signature="e#6049#6059#0" />
@@ -5175,7 +5179,15 @@
             <element signature="e#12891#12979#0" />
             <element signature="e#13219#13229#0" />
             <element signature="e#13004#13014#0" />
+            <element signature="e#20615#23889#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="29" column="99" selection-start-line="29" selection-start-column="99" selection-end-line="29" selection-end-column="99" />
         </state>
       </provider>
     </entry>
