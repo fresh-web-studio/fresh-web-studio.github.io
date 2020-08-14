@@ -417,6 +417,44 @@ main .contact-form {
     width: 13.021vw;
     color: #fff;
     background: linear-gradient(90deg, #2D87C9 -0.12%, #31ADCA 99.88%); }
+main .additional-items {
+  padding: 5.677vw 0 1.677vw;
+  background-image: url("img/gallery__bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main .additional-items .additional-items__title {
+    padding-bottom: 2.083vw;
+    font-size: 1.719vw;
+    line-height: 2.083vw;
+    font-weight: bold;
+    text-align: center;
+    color: #fff; }
+  main .additional-items .additional-items__item-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2vw; }
+  main .additional-items .additional-items__item-frame {
+    width: 17.4643333333vw;
+    margin: 2.042vw 2.865vw;
+    opacity: .9; }
+  main .additional-items .additional-items__item-frame:hover {
+    opacity: 1; }
+  main .additional-items .additional-items__img {
+    outline: 0.521vw solid #fff;
+    height: 11.094vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; }
+  main .additional-items .additional-items__img img {
+    height: 100%; }
+  main .additional-items .additional-items__info {
+    margin-top: 1.563vw;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF; }
 
 @media all and (max-width: 1370px) {
   .container {
@@ -928,16 +966,17 @@ main .contact-form {
     main .contact-form .contact-form__title {
       font-size: 7.9529638484vw;
       line-height: 9.6370120397vw;
-      margin-bottom: 11.56626505vw; }
+      margin-top: 10vw;
+      margin-bottom: 6.93975903vw; }
     main .contact-form .contact-form__title-form {
       font-size: 4.8208192728vw;
       line-height: 5.783132525vw;
-      margin-top: 10.3633734848vw; }
+      margin-top: 6vw; }
     main .contact-form .contact-form__text {
       font-size: 4.3396626468vw;
       line-height: 5.0613975859vw;
-      margin-top: 6.023710838vw;
-      margin-bottom: 6.2642891511vw; }
+      margin-top: 2.322506022vw;
+      margin-bottom: 2.5630843351vw; }
     main .contact-form .contact-form__form {
       width: 100%;
       padding: 2.41040964vw; }
