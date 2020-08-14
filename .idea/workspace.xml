@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6018094c-098b-4c2c-ba64-49d45e877e94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbounosh43/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mbounosh43/index.html" afterDir="false" />
     </list>
     <list id="d1dff695-ddb7-49b1-ab2e-4e2e9a0026ba" name="Обновление" comment="Обновление" />
     <ignored path=".idea/dictionaries/" />
@@ -66,7 +65,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="113">
+                <state relative-caret-position="35">
                   <caret line="181" column="22" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
@@ -101,7 +100,7 @@
             <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="116">
-                  <caret line="564" column="18" lean-forward="true" selection-start-line="564" selection-start-column="18" selection-end-line="564" selection-end-column="18" />
+                  <caret line="564" column="18" selection-start-line="564" selection-start-column="18" selection-end-line="564" selection-end-column="18" />
                   <folding>
                     <element signature="e#889#1624#0" />
                     <element signature="e#4896#5794#0" />
@@ -548,14 +547,7 @@
       <workItem from="1596992154771" duration="4670000" />
       <workItem from="1597036949393" duration="10017000" />
       <workItem from="1597142646797" duration="742000" />
-      <workItem from="1597148841966" duration="70552000" />
-    </task>
-    <task id="LOCAL-00872" summary="Создание страницы cart.html">
-      <created>1596197085504</created>
-      <option name="number" value="00872" />
-      <option name="presentableId" value="LOCAL-00872" />
-      <option name="project" value="LOCAL" />
-      <updated>1596197085504</updated>
+      <workItem from="1597148841966" duration="71536000" />
     </task>
     <task id="LOCAL-00873" summary="Закончил 9 урок">
       <created>1596303348267</created>
@@ -893,16 +885,22 @@
       <option name="project" value="LOCAL" />
       <updated>1597408265668</updated>
     </task>
-    <option name="localTasksCounter" value="921" />
+    <task id="LOCAL-00921" summary="Creat additional block">
+      <created>1597416202462</created>
+      <option name="number" value="00921" />
+      <option name="presentableId" value="LOCAL-00921" />
+      <option name="project" value="LOCAL" />
+      <updated>1597416202463</updated>
+    </task>
+    <option name="localTasksCounter" value="922" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1898247000" />
+    <option name="totallyTimeSpent" value="1899231000" />
   </component>
   <component name="TodoView" selected-index="3" />
   <component name="ToolWindowManager">
     <frame x="610" y="-1411" width="1280" height="1314" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1634" y="-135" width="492" height="730" id="Project" order="0" sideWeight="0.49849397" weight="0.19845645" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.18571429" />
@@ -916,11 +914,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.328125" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.497939" weight="0.50462574" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.85993487" visible="true" weight="0.50425893" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48873484" weight="0.30749574" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5071665" side_tool="true" visible="true" weight="0.097103916" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.14006515" side_tool="true" visible="true" weight="0.50425893" />
       <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.36801752" />
-      <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.4987013" weight="0.22431506" />
+      <window_info anchor="bottom" id="Get Gist" order="13" sideWeight="0.497557" weight="0.22402044" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49283352" weight="0.13587604" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="15" />
       <window_info anchor="bottom" id="CSS-X-Fire" order="16" />
@@ -5126,7 +5124,7 @@
     <entry file="file://$PROJECT_DIR$/mbounosh43/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="564" column="18" lean-forward="true" selection-start-line="564" selection-start-column="18" selection-end-line="564" selection-end-column="18" />
+          <caret line="564" column="18" selection-start-line="564" selection-start-column="18" selection-end-line="564" selection-end-column="18" />
           <folding>
             <element signature="e#889#1624#0" />
             <element signature="e#4896#5794#0" />
@@ -5165,7 +5163,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mbounosh43/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="35">
           <caret line="181" column="22" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
