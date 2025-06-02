@@ -334,6 +334,7 @@ form {
     align-items: center;
     max-width: 1920px;
     margin: 0px auto;
+    padding-top: 147px;
 }
 
 .all-projects {
@@ -341,8 +342,7 @@ form {
 }
 
 .all-projects .projects-wrap {
-    margin: 147px 0 0;
-    padding-bottom: 340px;
+    padding-bottom: 200px;
 }
 
 .all-projects .projects-wrap .projects-item {
@@ -746,7 +746,7 @@ form {
 .img-location {
     width: 100%;
     max-width: 3vw;
-    margin: 0 0 0 138px;
+    /*margin: 0 0 0 138px;*/
 }
 
 .img-phone {
@@ -839,7 +839,7 @@ form {
 }
 
 .contacts-leaf {
-    margin-top: -190px;
+    margin-top: -350px;
 }
 
 .contacts-leaf img {
