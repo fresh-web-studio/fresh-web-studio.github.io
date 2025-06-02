@@ -5,10 +5,8 @@
 
 body {
     width: 100%;
-    max-width: 1920px;
     margin: 0 auto;
 }
-
 
 .header {
     display: flex;
@@ -52,7 +50,6 @@ body {
     line-height: 1.4vw;
     z-index: 1;
 }
-
 
 ul li {
     list-style: none;
@@ -220,10 +217,6 @@ form {
     width: 29.7vw;
 }
 
-
-
-
-
 .about-bg {
     background-image: url("img/about-bg.png");
     margin-top: -111px;
@@ -324,13 +317,6 @@ form {
     height: 63px;
 }
 
-
-
-
-
-
-
-
 .projects {
     width: 100%;
     margin-top: -295px;
@@ -403,9 +389,6 @@ form {
     width: 100%;
 }
 
-
-
-
 .projects-wrap .project .project-name {
     width: 100%;
     display: flex;
@@ -458,14 +441,6 @@ form {
     max-width: 30vw;
     width: 100%;
 }
-
-
-
-
-
-
-
-
 
 .services {
     background-image: url("img/services-bg.png");
@@ -601,7 +576,6 @@ form {
     max-width: 457px;
 }
 
-
 .services-description .red img {
     margin: -87px 0 0 -93px;
     max-width: 30.83vw;
@@ -619,7 +593,6 @@ form {
 .services .pointer {
     padding: 121px 0 80px 0;
 }
-
 
 .item .front,
 .item .back {
@@ -704,9 +677,6 @@ form {
     margin: 35px 0 0 -180px;
 }
 
-
-
-
 .feedback-page {
     display: flex;
     flex-direction: column;
@@ -734,16 +704,6 @@ form {
     text-decoration: none;
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
 
 /*СТИЛИ ДЛЯ CONTACTS*/
 
@@ -920,7 +880,6 @@ textarea {
     margin-top: 22px;
 }
 
-
 .form form input {
     width: 100%;
     max-width: 31.46vw;
@@ -977,7 +936,6 @@ textarea {
     max-width: 550px;
 }
 
-
 .header a {
     text-decoration: none;
     color: #FFFFFF;
@@ -987,14 +945,6 @@ textarea {
     text-decoration: none;
     color: #8C8C8C;
 }
-
-
-
-
-
-
-
-
 
 /*СТИЛИ ДЛЯ FOOTER*/
 
@@ -1079,16 +1029,7 @@ textarea {
     margin-top: 25px;
 }
 
-
-
-
-
-
-
-
 /*ABOUT.html*/
-
-
 
 .command {
     display: flex;
@@ -1147,12 +1088,6 @@ textarea {
     color: #787878;
 }
 
-
-
-
-
-
-
 .about-desc {
     padding-top: 109px;
     background: url("img/about-desc-bg.png");
@@ -1206,19 +1141,10 @@ textarea {
     line-height: 1.2;
 }
 
-
-
-
 .feedback-row .phone {
     width: 100%;
     margin: 50px auto;
 }
-
-
-
-
-
-
 
 /*SERVICES-PAGE*/
 
@@ -1334,18 +1260,10 @@ textarea {
     display: none;
 }
 
-
-
-
-
-
-
-
 @media (min-width: 1920px) {
     .header {
         height: 77px;
     }
-
 
     .header .logo img {
         width: 90px;
@@ -1775,8 +1693,6 @@ textarea {
         font-size: 20px;
     }
 
-
-
     /*SERVICES-PAGE*/
     .services-page .services-description .item .img-button .order-link {
         max-width: 404px;
@@ -1801,12 +1717,6 @@ textarea {
         max-width: 800px;
     }
 }
-
-
-
-
-
-
 
 /*СТЛИЛИ MAX-WIDTH 1360px*/
 
@@ -2760,11 +2670,6 @@ textarea {
     }
 }
 
-
-
-
-
-
 @media (max-width: 680px) {
 
     .desktop {
@@ -3619,8 +3524,3 @@ textarea {
         line-height: 1.1;
     }
 }
-
-
-
-
-
