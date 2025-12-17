@@ -433,11 +433,10 @@ form {
     width: 100%;
     justify-content: flex-end;
     margin-top: -219px;
-    overflow: hidden;
 }
 
 .projects-wrap .pen img {
-    margin-right: -19px;
+    margin-right: -83px;
     max-width: 30vw;
     width: 100%;
 }
