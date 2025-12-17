@@ -1984,6 +1984,9 @@ textarea {
         display: none;
     }
 
+    .projects {
+        margin-top: 0;
+    }
 
     .projects-wrap {
         margin-top: 0;
